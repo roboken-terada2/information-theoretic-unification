@@ -40,8 +40,13 @@ keywords:
   - Witten crossed product
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0/
-repository-code: "https://github.com/USERNAME/REPO_NAME"
-url: "https://zenodo.org/doi/PENDING"
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification"
+url: "https://doi.org/10.5281/zenodo.20109210"
+doi: "10.5281/zenodo.20109210"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20109210"
+    description: "Zenodo deposit (English-only academic version)"
 version: "1.0.0"
 date-released: "2026-05-10"
 references:

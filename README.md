@@ -10,7 +10,7 @@ theoretic axiom.**
 > Author / 著者: **Munehiro Terada (寺田 宗弘)**, Roboken
 > Contact: `munehiro.terada@roboken2.com`
 > Blog (note.com): https://note.com/roboken_ceo
-> Citation DOI: see `CITATION.cff` (Zenodo: `10.5281/zenodo.XXXXXXX`)
+> Citation DOI: [`10.5281/zenodo.20109210`](https://doi.org/10.5281/zenodo.20109210)
 
 This repository contains the **bilingual full research record** (English + Japanese)
 of the Information-Theoretic Unification (ITU) project. The English-only
@@ -114,7 +114,7 @@ If you use this work, please cite the Zenodo DOI:
 ```
 Terada, M. (2026). Information-Theoretic Unification of GR and QM:
 Numerical Demonstration in 16 Phases. Zenodo.
-DOI: 10.5281/zenodo.XXXXXXX
+DOI: 10.5281/zenodo.20109210
 ```
 
 A machine-readable `CITATION.cff` is included.
