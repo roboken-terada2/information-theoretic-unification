@@ -1,0 +1,11 @@
+{
+  "N": 64,
+  "A_size": 32,
+  "initial_S_A": 1.063133077331516e-11,
+  "growth_rate_dS_dt": 1.7847467433019737,
+  "saturation_S_A": null,
+  "v_eff_from_horizon": 4.051384615384615,
+  "v_F_predicted": 2.0,
+  "v_eff_over_vF": 2.0256923076923075,
+  "hubble_t_product": 0.7691007317871267
+}

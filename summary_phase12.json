@@ -1,0 +1,17 @@
+{
+  "N": 64,
+  "gap_slope_numerical": 1.9999999999999978,
+  "gap_slope_predicted": 2.0,
+  "gap_slope_ratio": 0.9999999999999989,
+  "critical_log_coefficient": 0.31146459659436254,
+  "critical_log_predicted": 0.3333333333333333,
+  "critical_log_ratio": 0.9343937897830876,
+  "gapped_S_saturation": 0.8947462324202449,
+  "higgs_potential_mu_squared": 0.6,
+  "higgs_potential_lambda": 0.5,
+  "higgs_VEV_numerical": 1.5,
+  "higgs_VEV_predicted": 0.7745966692414834,
+  "m_W": 0.48750000000000004,
+  "m_Z": 0.5536808647587526,
+  "m_photon": 0.0
+}

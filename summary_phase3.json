@@ -1,0 +1,10 @@
+{
+  "N": 64,
+  "levels": 6,
+  "graph_distance_log_slope": 2.874909240144806,
+  "graph_distance_log_slope_predicted": 2.8853900817779268,
+  "mincut_log_slope": 3.280315451730607,
+  "alpha_eq_1_over_4G_eff": 0.09112032916297258,
+  "G_eff": 2.7436248562366843,
+  "central_charge_from_brown_henneaux": 0.7887530820455433
+}

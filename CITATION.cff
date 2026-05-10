@@ -1,0 +1,116 @@
+cff-version: 1.2.0
+title: "Information-Theoretic Unification of General Relativity and Quantum Mechanics: Numerical Demonstration in 16 Phases"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We propose an Information-Theoretic Unification (ITU) of general relativity
+  and quantum mechanics in which spacetime, gravity, the Standard Model gauge
+  group, matter generations, the electroweak Higgs mechanism, the cosmological
+  constant, and chirality all emerge from a single axiom — the entanglement
+  first law dS(rho_A) = d Tr[K_A^(0) rho_A]. We demonstrate this through 16
+  independent numerical experiments on free-fermion lattice models and small
+  quantum codes, verifying each emergent phenomenon to precisions ranging
+  from machine precision (Standard Model gauge group, Atiyah-Singer index,
+  Higgs gap, cosmological constant scaling) through 0.04% (Page curve, AdS_5
+  geodesic distance) to order-of-magnitude (Yukawa hierarchies). The same
+  axiom is shown to operate in 1D, 2D, and 3D boundary CFTs, reproducing
+  AdS_3, AdS_4, and AdS_5 / CFT_4 (real-world 4D quantum gravity) bulks.
+  Six concrete experimental verification proposals are provided, four of
+  which have already been partially realised in cold-atom and superconducting
+  quantum simulator experiments. The framework provides a minimal,
+  verifiable skeleton for unifying GR with QM through quantum information.
+keywords:
+  - quantum gravity
+  - holography
+  - AdS/CFT
+  - emergent spacetime
+  - entanglement entropy
+  - Ryu-Takayanagi formula
+  - quantum error correction
+  - Page curve
+  - Standard Model
+  - Atiyah-Singer index
+  - cosmological constant
+  - Type II algebras
+  - Witten crossed product
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/USERNAME/REPO_NAME"
+url: "https://zenodo.org/doi/PENDING"
+version: "1.0.0"
+date-released: "2026-05-10"
+references:
+  - type: article
+    authors:
+      - family-names: Jacobson
+        given-names: Ted
+    title: "Thermodynamics of Spacetime: The Einstein Equation of State"
+    journal: "Phys. Rev. Lett."
+    volume: 75
+    pages: 1260
+    year: 1995
+  - type: article
+    authors:
+      - family-names: Ryu
+        given-names: Shinsei
+      - family-names: Takayanagi
+        given-names: Tadashi
+    title: "Holographic Derivation of Entanglement Entropy from AdS/CFT"
+    journal: "Phys. Rev. Lett."
+    volume: 96
+    pages: 181602
+    year: 2006
+  - type: article
+    authors:
+      - family-names: Van Raamsdonk
+        given-names: Mark
+    title: "Building up spacetime with quantum entanglement"
+    journal: "Gen. Rel. Grav."
+    volume: 42
+    pages: 2323
+    year: 2010
+  - type: article
+    authors:
+      - family-names: Faulkner
+      - family-names: Guica
+      - family-names: Hartman
+      - family-names: Myers
+      - family-names: Van Raamsdonk
+    title: "Gravitation from Entanglement in Holographic CFTs"
+    journal: "JHEP"
+    volume: 2014
+    pages: 51
+    year: 2014
+  - type: article
+    authors:
+      - family-names: Almheiri
+      - family-names: Dong
+      - family-names: Harlow
+    title: "Bulk Locality and Quantum Error Correction in AdS/CFT"
+    journal: "JHEP"
+    volume: 2015
+    pages: 163
+    year: 2015
+  - type: article
+    authors:
+      - family-names: Penington
+        given-names: Geoffrey
+    title: "Entanglement Wedge Reconstruction and the Information Paradox"
+    journal: "JHEP"
+    volume: 2020
+    pages: 2
+    year: 2020
+  - type: article
+    authors:
+      - family-names: Witten
+        given-names: Edward
+    title: "Gravity and the Crossed Product"
+    journal: "JHEP"
+    volume: 2022
+    pages: 8
+    year: 2022

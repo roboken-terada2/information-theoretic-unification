@@ -1,0 +1,11 @@
+{
+  "N": 64,
+  "interval_size": 24,
+  "S0": 1.678145544599809,
+  "K0": -202.89064016918172,
+  "first_law_slope_at_small_T": 1.1451608507282518,
+  "first_law_intercept": -0.0017544898731377424,
+  "first_law_smallest_T_ratio": 1.0149507606594346,
+  "relative_entropy_exponent_low_T": 3.1706021427503845,
+  "brown_henneaux_R_over_G": 0.6666666666666666
+}

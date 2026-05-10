@@ -1,0 +1,11 @@
+{
+  "n_qubits": 12,
+  "samples_haar": 60,
+  "page_peak_k": 6,
+  "page_peak_S_bits": 5.276857052804692,
+  "page_predicted_peak_S_bits": 5.2788579336133,
+  "hawking_predicted_peak": 12.0,
+  "evap_n_total": 10,
+  "evap_samples": 80,
+  "evap_page_time": 4
+}

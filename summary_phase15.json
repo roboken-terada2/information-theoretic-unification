@@ -1,0 +1,29 @@
+{
+  "N_cells": 30,
+  "t2": 1.0,
+  "sample_winding_numbers": {
+    "t1=0.00": -0.9999999999999938,
+    "t1=0.30": -0.9999999999999997,
+    "t1=0.70": -0.9999999999999997,
+    "t1=1.00": 4.7354925257345694e-15,
+    "t1=1.30": -7.067899292141149e-17,
+    "t1=1.70": -7.067899292141149e-17,
+    "t1=2.00": 7.067899292141149e-17
+  },
+  "sample_zero_mode_counts": {
+    "t1=0.00": 2,
+    "t1=0.30": 2,
+    "t1=0.70": 2,
+    "t1=1.00": 0,
+    "t1=1.30": 0,
+    "t1=1.70": 0,
+    "t1=2.00": 0
+  },
+  "left_edge_polarisation_A": 0.999999999998876,
+  "left_edge_polarisation_B": 1.123490483086355e-12,
+  "right_edge_polarisation_A": 1.1234904831665546e-12,
+  "right_edge_polarisation_B": 0.9999999999988762,
+  "chiral_symmetry_violation_topo": 0.0,
+  "chiral_symmetry_violation_trivial": 0.0,
+  "atiyah_singer_verified_at_all_sampled_t1": false
+}

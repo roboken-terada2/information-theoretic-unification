@@ -1,0 +1,87 @@
+{
+  "system_size_demonstrated": 32,
+  "shot_counts_sampled": [
+    1000,
+    10000,
+    100000,
+    1000000,
+    10000000
+  ],
+  "rms_errors": [
+    0.014523562573067689,
+    0.004974544207007685,
+    0.0018186534460926523,
+    0.0005935988600970413,
+    0.00018903803267019946
+  ],
+  "mds_2d_variance": [
+    0.22827254153421495,
+    0.2468088821491338,
+    0.2854056670346326,
+    0.3233868652429987,
+    0.3307307948701829
+  ],
+  "critical_shots_for_recovery": "10^5 to 10^6",
+  "proposals": [
+    {
+      "phase": "1",
+      "system": "XX chain",
+      "qubits": 32,
+      "shots": "10^7",
+      "platform": "cold atoms (Bloch)"
+    },
+    {
+      "phase": "5",
+      "system": "[[5,1,3]] QECC",
+      "qubits": 7,
+      "shots": "10^5",
+      "platform": "IBM Q / Google Sycamore"
+    },
+    {
+      "phase": "6",
+      "system": "random circuit",
+      "qubits": 12,
+      "shots": "10^6",
+      "platform": "Google Sycamore (existing)"
+    },
+    {
+      "phase": "9",
+      "system": "N\u00e9el quench",
+      "qubits": 64,
+      "shots": "10^4",
+      "platform": "Cheneau 2012 (existing)"
+    },
+    {
+      "phase": "15",
+      "system": "SSH chain",
+      "qubits": 20,
+      "shots": "10^3",
+      "platform": "photonic / cold atoms (existing)"
+    },
+    {
+      "phase": "11",
+      "system": "SU(N) Hubbard",
+      "qubits": 64,
+      "shots": "10^7",
+      "platform": "Yb/Sr cold atoms"
+    }
+  ],
+  "already_verified": [
+    {
+      "phase": "Phase 9 (light cone)",
+      "reference": "Cheneau et al., Nature 481, 484 (2012)"
+    },
+    {
+      "phase": "Phase 15 (SSH zero modes)",
+      "reference": "Atala et al., Nat. Phys. 9, 795 (2013); St-Jean et al., Nat. Phys. 13, 762 (2017)"
+    },
+    {
+      "phase": "Phase 6 (Page-like growth)",
+      "reference": "Mi et al., Science 379, 1199 (2023)"
+    },
+    {
+      "phase": "Phase 10 (SU(N) symmetry)",
+      "reference": "Scazza et al., Nat. Phys. 10, 779 (2014)"
+    }
+  ]
+}

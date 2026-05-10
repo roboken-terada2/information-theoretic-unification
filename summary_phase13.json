@@ -1,0 +1,15 @@
+{
+  "thermal_slope_numerical": 0.5881205567520054,
+  "thermal_slope_predicted": 0.5235987755982988,
+  "thermal_slope_ratio": 1.1232275248924708,
+  "vacuum_energy_powerlaw_exponent": -2.0007291200280277,
+  "vacuum_energy_predicted_exponent": -2.0,
+  "horizon_entropy_at_max_L": 2.192888677939462,
+  "lambda_S_invariant_mean": 0.1307401208222939,
+  "lambda_S_invariant_std": 0.10998093906234978,
+  "4D_analog": {
+    "naive_rho_Lambda_units_MPl4": 1.0,
+    "holographic_rho_Lambda_units_MPl4": 1e-120,
+    "observed_rho_Lambda_units_MPl4": 1.1e-122
+  }
+}

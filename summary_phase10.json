@@ -1,0 +1,14 @@
+{
+  "N_sites": 64,
+  "N_flavors": 6,
+  "arrangement": "3 colors \u00d7 2 weak isospin (QL)",
+  "SU3_block_diagonal_mean": 1.0,
+  "SU3_block_max_offdiag": 0.0,
+  "SU2_block_diagonal_mean": 1.5,
+  "SU2_block_max_offdiag": 0.0,
+  "U1_Y_trace": 0.16666666666666669,
+  "cross_color_weak_max": 0.0,
+  "cross_color_hypercharge_max": 0.0,
+  "cross_weak_hypercharge_max": 0.0,
+  "JJ_cross_diagonal_ratio": 0.0
+}

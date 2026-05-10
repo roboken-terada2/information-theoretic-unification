@@ -1,0 +1,32 @@
+{
+  "lattice": [
+    8,
+    8,
+    8
+  ],
+  "sites_total": 512,
+  "area_law_log_coef": 0.5369615660222766,
+  "area_law_lin_coef": 0.6054737979084605,
+  "area_law_const": 0.09831960782301288,
+  "fit_residual_with_log": 7.020862056467005e-29,
+  "fit_residual_without_log": 0.17986303940620965,
+  "log_improvement_factor": 1.7986303940620966e+19,
+  "mds_3d_variance": 0.032545687211812446,
+  "mds_top6_normalized": [
+    0.011155245794629112,
+    0.01070990751879302,
+    0.010680533898390318,
+    0.010405503243884751,
+    0.010386524991117162,
+    0.010107495991898316
+  ],
+  "mi_powerlaw_alpha": -1.5976358530463757,
+  "mera": {
+    "n_nodes": 585,
+    "n_edges": 2324,
+    "n_levels": 3,
+    "distance_log_slope": 2.8729842691461394,
+    "distance_log_slope_pred": 2.8853900817779268,
+    "ratio": 0.9957004729758608
+  }
+}

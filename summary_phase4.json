@@ -1,0 +1,13 @@
+{
+  "CHM_alpha_fit": 0.7639748061385744,
+  "CHM_alpha_predicted": 1.5707963267948966,
+  "CHM_ratio": 0.4863614671785063,
+  "CHM_endpoint_left": 3.1396968597487613,
+  "CHM_endpoint_right": 3.1396959278972245,
+  "CHM_peak_value": 20.2247090493231,
+  "wavepacket_initial_sigma": 1.7677669529663702,
+  "wavepacket_final_sigma_vacuum": 11.414581639167226,
+  "wavepacket_final_sigma_thermal": 12.984577793798808,
+  "thermal_M_relative_diff": 0.8119274400913112,
+  "trajectory_deviation_vac_vs_thermal": 4.99782254203565
+}
