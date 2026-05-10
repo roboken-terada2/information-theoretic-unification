@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20109210.svg)](https://doi.org/10.5281/zenodo.20109210)
 # Information-Theoretic Unification of General Relativity and Quantum Mechanics
 
 **A 16-phase numerical demonstration that spacetime, gravity, the Standard
