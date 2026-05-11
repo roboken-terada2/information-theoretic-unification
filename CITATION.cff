@@ -11,19 +11,25 @@ abstract: >
   We propose an Information-Theoretic Unification (ITU) of general relativity
   and quantum mechanics in which spacetime, gravity, the Standard Model gauge
   group, matter generations, the electroweak Higgs mechanism, the cosmological
-  constant, and chirality all emerge from a single axiom — the entanglement
-  first law dS(rho_A) = d Tr[K_A^(0) rho_A]. We demonstrate this through 16
-  independent numerical experiments on free-fermion lattice models and small
-  quantum codes, verifying each emergent phenomenon to precisions ranging
-  from machine precision (Standard Model gauge group, Atiyah-Singer index,
-  Higgs gap, cosmological constant scaling) through 0.04% (Page curve, AdS_5
-  geodesic distance) to order-of-magnitude (Yukawa hierarchies). The same
-  axiom is shown to operate in 1D, 2D, and 3D boundary CFTs, reproducing
-  AdS_3, AdS_4, and AdS_5 / CFT_4 (real-world 4D quantum gravity) bulks.
-  Six concrete experimental verification proposals are provided, four of
-  which have already been partially realised in cold-atom and superconducting
-  quantum simulator experiments. The framework provides a minimal,
-  verifiable skeleton for unifying GR with QM through quantum information.
+  constant, chirality, dark matter, and gravitational waves all emerge from a
+  single axiom — the entanglement first law dS(rho_A) = d Tr[K_A^(0) rho_A].
+  We demonstrate this through 20 independent numerical experiments on
+  free-fermion lattice models, small quantum codes, MOND/Verlinde emergent
+  gravity, and Kerr quasi-normal modes. Phase 1-16 builds the core framework
+  (spacetime, gravity, the Standard Model, the cosmological constant, type II
+  algebras, chirality, experimental proposals). Phase 17 extends Phase 2's
+  linearised Einstein equation to second order, with the quadratic relative
+  entropy coefficient matching (1/2)Var(K) to machine precision. Phase 18
+  derives the MOND acceleration scale a_0 = cH/(2pi) from Verlinde emergent
+  gravity and reproduces galactic rotation curves and the Tully-Fisher
+  relation without dark matter particles. Phase 19 predicts the LIGO GW150914
+  ringdown frequency and damping time within ~10% (using Kerr-spin corrected
+  quasi-normal modes). Phase 20 quantifies the residual MOND deficit in galaxy
+  clusters and proposes a three-layer hybrid (Verlinde + primordial QECC
+  + ~1.5 eV neutrinos) that reduces the average cluster mass gap to ~1%.
+  Combined with the verification status, the framework provides a minimal,
+  verifiable skeleton for unifying GR + QM + dark matter + gravitational
+  waves through quantum information.
 keywords:
   - quantum gravity
   - holography
@@ -38,6 +44,19 @@ keywords:
   - cosmological constant
   - Type II algebras
   - Witten crossed product
+  - nonlinear Einstein equation
+  - Fisher information
+  - MOND
+  - Verlinde emergent gravity
+  - dark matter
+  - galactic rotation curves
+  - Tully-Fisher
+  - LIGO
+  - gravitational waves
+  - quasi-normal modes
+  - GW150914
+  - galaxy clusters
+  - CMB
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0/
 repository-code: "https://github.com/roboken-terada2/information-theoretic-unification"
@@ -47,8 +66,8 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.20109210"
     description: "Zenodo deposit (English-only academic version)"
-version: "1.0.0"
-date-released: "2026-05-10"
+version: "1.1.0"
+date-released: "2026-05-11"
 references:
   - type: article
     authors:

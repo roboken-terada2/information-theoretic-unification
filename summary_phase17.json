@@ -1,0 +1,14 @@
+{
+  "N": 64,
+  "L_A": 32,
+  "S_vac": 1.7021461106971327,
+  "K_vac_mean": -325.2757529265732,
+  "Var_K_vac": 1.7660368289198232,
+  "half_Var_K_vac": 0.8830184144599116,
+  "fitted_power_law_exponent": 1.9974002408154534,
+  "fitted_coefficient": 0.8643554527933061,
+  "predicted_coefficient_half_Var_K": 0.8830184144599116,
+  "coefficient_ratio": 0.9788645838399412,
+  "asymptote_smallest_eps": 0.8828958630307318,
+  "asymptote_ratio_to_half_Var_K": 0.9998612130538016
+}

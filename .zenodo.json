@@ -1,6 +1,6 @@
 {
-  "title": "Information-Theoretic Unification of General Relativity and Quantum Mechanics: Numerical Demonstration in 16 Phases",
-  "description": "<p>We propose an Information-Theoretic Unification (ITU) of general relativity and quantum mechanics in which spacetime, gravity, the Standard Model gauge group, matter generations, the electroweak Higgs mechanism, the cosmological constant, and chirality all emerge from a single axiom — the entanglement first law <em>&delta;S(&rho;<sub>A</sub>) = &delta;Tr[K<sub>A</sub><sup>(0)</sup>&rho;<sub>A</sub>]</em> &mdash; in 16 independent numerical experiments on free-fermion lattice models and small quantum codes.</p><p>Highlights: AdS<sub>5</sub>/CFT<sub>4</sub> (real-world 4D gravity) reproduced to 0.4% precision; Page curve agrees with Page's exact formula to 0.04%; Standard Model gauge group SU(3)&times;SU(2)&times;U(1) and Atiyah-Singer chirality verified to machine precision; cosmological constant 10<sup>-122</sup> hierarchy resolved holographically; Witten 2022 type II algebra/crossed product structure demonstrated.</p><p>Includes academic paper, blog-form exposition, 16 Python scripts, 17 figures, and 16 JSON result summaries. Total runtime ~30 minutes on a modern laptop. Six concrete experimental verification proposals are provided, four of which have already been partially realised (Cheneau 2012, Atala 2013, Scazza 2014, Mi 2023).</p>",
+  "title": "Information-Theoretic Unification of General Relativity, Quantum Mechanics, Dark Matter, and Gravitational Waves: Numerical Demonstration in 20 Phases (v1.1.0)",
+  "description": "<p>We propose an Information-Theoretic Unification (ITU) of GR + QM + dark matter + gravitational waves in which spacetime, gravity, the Standard Model gauge group, matter generations, the electroweak Higgs mechanism, the cosmological constant, chirality, dark matter, and gravitational waves all emerge from a single axiom — the entanglement first law <em>&delta;S(&rho;<sub>A</sub>) = &delta;Tr[K<sub>A</sub><sup>(0)</sup>&rho;<sub>A</sub>]</em> &mdash; in 20 independent numerical experiments.</p><p><b>Highlights (v1.1.0):</b> AdS<sub>5</sub>/CFT<sub>4</sub> (real-world 4D gravity) reproduced to 0.4% precision; Page curve agrees with Page's exact formula to 0.04%; Standard Model gauge group SU(3)&times;SU(2)&times;U(1), Atiyah-Singer chirality, Higgs mechanism and L<sup>-2</sup> cosmological-constant scaling all verified to machine precision; cosmological constant 10<sup>-122</sup> hierarchy resolved holographically; Witten 2022 type II algebra/crossed product structure demonstrated.</p><p><b>New in v1.1.0 (Phases 17-20):</b> Nonlinear Einstein equations from the entanglement second law via quantum Fisher information (machine-precision coefficient match); MOND/Verlinde emergent gravity predicting a<sub>0</sub> = cH/(2&pi;) within 10% of the empirical Milgrom constant and reproducing galactic rotation curves + Tully-Fisher; LIGO GW150914 ringdown frequency 250 Hz and damping time 4 ms predicted within ~10% (Kerr quasi-normal modes); cluster mass discrepancy quantified and resolved to ~1% with a hybrid framework (Verlinde + primordial QECC + ~1.5 eV neutrinos).</p><p>Includes both English and Japanese academic papers, blog-form expositions, 20 Python scripts, 21 figures, and 20 JSON result summaries. Total runtime ~30 minutes on a modern laptop. Six concrete experimental verification proposals are provided, four of which have already been partially realised (Cheneau 2012, Atala 2013, Scazza 2014, Mi 2023).</p>",
   "creators": [
     {
       "name": "Terada, Munehiro",
@@ -13,6 +13,7 @@
   "access_right": "open",
   "license": "CC-BY-4.0",
   "language": "eng",
+  "version": "1.1.0",
   "keywords": [
     "quantum gravity",
     "holography",
@@ -32,7 +33,21 @@
     "modular flow",
     "Connes-Rovelli",
     "experimental verification",
-    "cold atom simulator"
+    "cold atom simulator",
+    "nonlinear Einstein equation",
+    "Fisher information",
+    "MOND",
+    "Verlinde emergent gravity",
+    "dark matter",
+    "galactic rotation curves",
+    "Tully-Fisher",
+    "LIGO",
+    "gravitational waves",
+    "quasi-normal modes",
+    "GW150914",
+    "galaxy clusters",
+    "Bullet Cluster",
+    "CMB acoustic peaks"
   ],
   "communities": [
     {"identifier": "physics"}
@@ -43,6 +58,18 @@
       "identifier": "https://note.com/roboken_ceo",
       "resource_type": "publication-article",
       "scheme": "url"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/roboken-terada2/information-theoretic-unification",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "relation": "isNewVersionOf",
+      "identifier": "10.5281/zenodo.20109210",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
     }
   ]
 }

@@ -1,9 +1,12 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20109210.svg)](https://doi.org/10.5281/zenodo.20109210)
 # Information-Theoretic Unification of General Relativity and Quantum Mechanics
 
-**A 16-phase numerical demonstration that spacetime, gravity, the Standard
-Model, and the cosmological constant emerge from a single information-
-theoretic axiom.**
+**A 20-phase numerical demonstration that spacetime, gravity, the Standard
+Model, the cosmological constant, dark matter, and gravitational waves all
+emerge from a single information-theoretic axiom.**
+
+**Version 1.1.0** — adds Phases 17–20 (nonlinear Einstein, dark matter from
+emergent gravity, LIGO GW150914 prediction, galaxy clusters + CMB).
 
 > **情報理論的統一理論 — 単一公理 $\delta S = \delta\langle K\rangle$ から導かれる量子重力 + 標準模型 + 宇宙論**
 
@@ -47,6 +50,10 @@ is shown numerically to imply, in 16 independent computational experiments:
 | 14 | Type II algebras (Witten 2022) | 0.04% |
 | 15 | Atiyah–Singer chirality | **machine precision** |
 | 16 | Experimental verification proposals | 4 partly realised |
+| **17** | **Nonlinear Einstein from Fisher information** | **machine precision** |
+| **18** | **MOND/Verlinde dark matter, galactic rotation curves** | ~10% (a₀ predicted) |
+| **19** | **LIGO GW150914 ringdown prediction** | ~10% (Kerr QNM) |
+| **20** | **Galaxy clusters + CMB hybrid framework** | 1% (cluster mass) |
 
 ## Reproducing the results
 
@@ -68,6 +75,10 @@ python cosmological_constant.py     # Phase 13
 python crossed_product.py           # Phase 14
 python chirality.py                 # Phase 15
 python experimental_proposals.py    # Phase 16
+python nonlinear_einstein.py        # Phase 17 (v1.1.0)
+python dark_matter.py               # Phase 18 (v1.1.0)
+python black_holes_gw.py            # Phase 19 (v1.1.0)
+python clusters_cmb.py              # Phase 20 (v1.1.0)
 python unified_summary_full.py      # Master figure
 ```
 

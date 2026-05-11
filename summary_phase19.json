@@ -1,0 +1,22 @@
+{
+  "GW150914": {
+    "M1_solar": 36,
+    "M2_solar": 29,
+    "Mf_solar": 62,
+    "chirp_mass_solar": 28.095555795460324,
+    "predicted_ringdown_Hz": 272.34388799848495,
+    "observed_ringdown_Hz": 250,
+    "ringdown_ratio": 1.0893755519939399,
+    "predicted_damping_ms": 3.7014107880823746,
+    "observed_damping_ms": 4.0
+  },
+  "XX_chain_thermal_correlator": {
+    "beta": 5.0,
+    "tau_CFT": 8.334710108582629,
+    "tau_over_beta": 1.6669420217165256
+  },
+  "hawking_constants": {
+    "T_H_at_M_solar_K": 6.167492179742096e-08,
+    "T_H_at_Mf_GW150914_K": 9.94756803184209e-10
+  }
+}

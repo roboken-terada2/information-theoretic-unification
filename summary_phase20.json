@@ -1,0 +1,83 @@
+{
+  "clusters": {
+    "Coma": {
+      "M_baryonic_solar": 150000000000000.0,
+      "M_mond_prediction_solar": 797523802182515.9,
+      "M_hybrid_prediction_solar": 1096595228000959.4,
+      "M_observed_solar": 1000000000000000.0,
+      "mond_residual_gap": 1.2538810719672373,
+      "hybrid_residual_gap": 0.9119135068852635
+    },
+    "Virgo": {
+      "M_baryonic_solar": 60000000000000.0,
+      "M_mond_prediction_solar": 372189304423827.5,
+      "M_hybrid_prediction_solar": 511760293582762.8,
+      "M_observed_solar": 500000000000000.0,
+      "mond_residual_gap": 1.343402387056854,
+      "hybrid_residual_gap": 0.9770199178595302
+    },
+    "Abell 1689": {
+      "M_baryonic_solar": 500000000000000.0,
+      "M_mond_prediction_solar": 1908964983431373.0,
+      "M_hybrid_prediction_solar": 2624826852218138.0,
+      "M_observed_solar": 3000000000000000.0,
+      "mond_residual_gap": 1.5715322313599942,
+      "hybrid_residual_gap": 1.1429325318981776
+    },
+    "Perseus": {
+      "M_baryonic_solar": 300000000000000.0,
+      "M_mond_prediction_solar": 1177293185726722.8,
+      "M_hybrid_prediction_solar": 1618778130374243.8,
+      "M_observed_solar": 1500000000000000.0,
+      "mond_residual_gap": 1.2741091328699705,
+      "hybrid_residual_gap": 0.9266248239054332
+    }
+  },
+  "average_gaps": {
+    "mond_only": 1.3607312058135141,
+    "hybrid": 0.9896226951371011
+  },
+  "cmb_peaks": {
+    "planck_observed": [
+      220,
+      537,
+      810
+    ],
+    "LCDM_or_hybrid": [
+      220,
+      540,
+      800
+    ],
+    "mond_only": [
+      240,
+      480,
+      900
+    ]
+  },
+  "roadmap": {
+    "Solar system": {
+      "physics": "Newton",
+      "status": "OK (Phase 2)"
+    },
+    "Galaxy outer": {
+      "physics": "MOND deep regime",
+      "status": "OK (Phase 18, ~10%)"
+    },
+    "Galaxy cluster": {
+      "physics": "MOND transition",
+      "status": "Partial (Phase 20, ~50% residual)"
+    },
+    "BH ringdown": {
+      "physics": "Kerr metric",
+      "status": "OK (Phase 19, ~10%)"
+    },
+    "CMB peaks": {
+      "physics": "\u039bCDM acoustic",
+      "status": "NEEDS CDM-like component"
+    },
+    "\u039b cosmological": {
+      "physics": "Holographic bound",
+      "status": "OK (Phase 13, exact)"
+    }
+  }
+}
