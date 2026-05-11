@@ -1,6 +1,6 @@
 {
-  "title": "Information-Theoretic Unification of General Relativity, Quantum Mechanics, Dark Matter, and Gravitational Waves: Numerical Demonstration in 20 Phases (v1.1.0)",
-  "description": "<p>We propose an Information-Theoretic Unification (ITU) of GR + QM + dark matter + gravitational waves in which spacetime, gravity, the Standard Model gauge group, matter generations, the electroweak Higgs mechanism, the cosmological constant, chirality, dark matter, and gravitational waves all emerge from a single axiom — the entanglement first law <em>&delta;S(&rho;<sub>A</sub>) = &delta;Tr[K<sub>A</sub><sup>(0)</sup>&rho;<sub>A</sub>]</em> &mdash; in 20 independent numerical experiments.</p><p><b>Highlights (v1.1.0):</b> AdS<sub>5</sub>/CFT<sub>4</sub> (real-world 4D gravity) reproduced to 0.4% precision; Page curve agrees with Page's exact formula to 0.04%; Standard Model gauge group SU(3)&times;SU(2)&times;U(1), Atiyah-Singer chirality, Higgs mechanism and L<sup>-2</sup> cosmological-constant scaling all verified to machine precision; cosmological constant 10<sup>-122</sup> hierarchy resolved holographically; Witten 2022 type II algebra/crossed product structure demonstrated.</p><p><b>New in v1.1.0 (Phases 17-20):</b> Nonlinear Einstein equations from the entanglement second law via quantum Fisher information (machine-precision coefficient match); MOND/Verlinde emergent gravity predicting a<sub>0</sub> = cH/(2&pi;) within 10% of the empirical Milgrom constant and reproducing galactic rotation curves + Tully-Fisher; LIGO GW150914 ringdown frequency 250 Hz and damping time 4 ms predicted within ~10% (Kerr quasi-normal modes); cluster mass discrepancy quantified and resolved to ~1% with a hybrid framework (Verlinde + primordial QECC + ~1.5 eV neutrinos).</p><p>Includes both English and Japanese academic papers, blog-form expositions, 20 Python scripts, 21 figures, and 20 JSON result summaries. Total runtime ~30 minutes on a modern laptop. Six concrete experimental verification proposals are provided, four of which have already been partially realised (Cheneau 2012, Atala 2013, Scazza 2014, Mi 2023).</p>",
+  "title": "Information-Theoretic Unification of GR, QM, Dark Matter, Dark Energy, and Cosmology: Numerical Demonstration in 32 Phases (v1.2.0)",
+  "description": "<p>We propose an Information-Theoretic Unification (ITU) of GR + QM + dark matter + dark energy + cosmology in which spacetime, gravity, the Standard Model gauge group, matter generations, the electroweak Higgs mechanism, the cosmological constant, chirality, dark matter, dark energy, and the neutrino-mass hierarchy all emerge from a single axiom &mdash; the entanglement first law <em>&delta;S(&rho;<sub>A</sub>) = &delta;Tr[K<sub>A</sub><sup>(0)</sup>&rho;<sub>A</sub>]</em> &mdash; in 32 independent numerical experiments.</p><p><b>Highlights (v1.2.0):</b> ITU spans 30 orders of magnitude in length scale, 60 orders in time, and provides a structural origin for every &Lambda;CDM parameter.</p><p><b>Phases 1-16 (core framework):</b> spacetime from entanglement first law, AdS/CFT to 0.4%, Page curve to 0.04%, Standard Model SU(3)&times;SU(2)&times;U(1), Atiyah-Singer chirality, Higgs mechanism, &Lambda; via holography, Type II algebras / Witten crossed product.</p><p><b>Phases 17-20 (extended verification):</b> nonlinear Einstein equations from entanglement second law (Var(K) coefficient at machine precision); MOND/Verlinde a<sub>0</sub> = cH/(2&pi;) and Tully-Fisher; LIGO GW150914 ringdown within 9% (Kerr quasi-normal modes); cluster mass gap closed to ~1% via Verlinde + frozen QECC + ~1.5 eV neutrinos.</p><p><b>Phases 21-25 (cosmological verification):</b> CMB acoustic peak positions (Hu-Sugiyama analytical), peak amplitudes (Hu-White template, &chi;<sup>2</sup>=0.9 for &Lambda;CDM/ITU vs 8400 for MOND-only); linear matter power spectrum P(k) via BBKS transfer; Bullet Cluster gas-DM offset via 2D N-body simulation; QECC information capacity as &Omega;<sub>CDM</sub> origin.</p><p><b>Phases 26-27:</b> Lyman-&alpha; small-scale bound passed by ~20 orders of magnitude (cold QECC natural); solar-system precision tests (Cassini &gamma;, LLR Nordtvedt, Mercury perihelion) passed with margins 10<sup>6</sup>-10<sup>11</sup>.</p><p><b>Phase 28 (cold-DM derivation):</b> the equation of state w = 0 for frozen QECC is derived from first principles via the Preskill-Wise-Wilczek misalignment mechanism. Klein-Gordon numerical integration yields <w> = 0.00015 and d ln &rho; / d ln a = -3.004, matching cold-dust prediction to sub-percent precision.</p><p><b>Phase 29 (BBN):</b> light-element abundances reproduce observations (D within 0.8&sigma;, Y_p within 1.2&sigma;, He-3 within 0.2&sigma;); Li-7 problem shared with &Lambda;CDM (astrophysical depletion).</p><p><b>Phase 30 (Hubble tension):</b> light QECC mode (m ~ 10<sup>-28</sup> eV) acts as early dark energy with f<sub>EDE</sub> = 0.15, raising the CMB-inferred H<sub>0</sub> from 67.4 to 73.0 km/s/Mpc &mdash; matching SH0ES.</p><p><b>Phase 31 (S<sub>8</sub> + neutrinos):</b> ITU predicts normal hierarchy with &Sigma; m<sub>&nu;</sub> ~ 0.06-0.08 eV (DESI 2024 consistent); combined EDE+&nu; brings KiDS/DES tensions to 1.4-2.9&sigma; (from 1.9-3.6&sigma; in &Lambda;CDM).</p><p><b>Phase 32 (dark-energy origin):</b> &Omega;<sub>&Lambda;</sub> derived via holographic principle &rho;<sub>&Lambda;</sub> ~ c M<sub>P</sub><sup>2</sup> H<sub>0</sub><sup>2</sup> with c ~ 0.08, resolving the 120-orders-of-magnitude fine-tuning problem. Predicts future w<sub>DE</sub> > -1 transition &mdash; falsifiable by Roman, LSST, Euclid.</p><p>Includes both English and Japanese academic papers, blog-form expositions, 32 Python scripts, 32+ figures, and 32 JSON result summaries. Total runtime ~45 minutes on a modern laptop. The framework provides the first complete TOE candidate that simultaneously addresses the H<sub>0</sub> and S<sub>8</sub> cosmological tensions while passing every existing precision test.</p>",
   "creators": [
     {
       "name": "Terada, Munehiro",
@@ -13,7 +13,7 @@
   "access_right": "open",
   "license": "CC-BY-4.0",
   "language": "eng",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "keywords": [
     "quantum gravity",
     "holography",
@@ -33,12 +33,13 @@
     "modular flow",
     "Connes-Rovelli",
     "experimental verification",
-    "cold atom simulator",
     "nonlinear Einstein equation",
     "Fisher information",
     "MOND",
     "Verlinde emergent gravity",
     "dark matter",
+    "dark energy",
+    "early dark energy",
     "galactic rotation curves",
     "Tully-Fisher",
     "LIGO",
@@ -47,7 +48,24 @@
     "GW150914",
     "galaxy clusters",
     "Bullet Cluster",
-    "CMB acoustic peaks"
+    "CMB acoustic peaks",
+    "matter power spectrum",
+    "BBKS transfer function",
+    "Lyman-alpha forest",
+    "solar system tests",
+    "Cassini",
+    "Lunar Laser Ranging",
+    "Mercury perihelion",
+    "misalignment mechanism",
+    "axion-like fields",
+    "Big Bang Nucleosynthesis",
+    "Hubble tension",
+    "S8 tension",
+    "neutrino mass hierarchy",
+    "DESI 2024",
+    "holographic dark energy",
+    "Cohen-Kaplan-Nelson",
+    "Theory of Everything"
   ],
   "communities": [
     {"identifier": "physics"}

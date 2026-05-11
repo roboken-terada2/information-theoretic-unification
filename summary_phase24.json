@@ -1,0 +1,10 @@
+{
+  "N_gas_per_cluster": 150,
+  "N_DM_per_cluster": 150,
+  "gas_drag_strength": 2.5,
+  "hybrid_offset_per_cluster_A": 0.17289715419204446,
+  "hybrid_offset_per_cluster_B": 0.22708483716926126,
+  "hybrid_mean_offset": 0.19999099568065287,
+  "MOND_only_offset": 0.0,
+  "observed_offset_relative_to_cluster_radius": 1.0
+}

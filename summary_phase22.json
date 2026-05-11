@@ -1,0 +1,20 @@
+{
+  "cosmic_entropies": {
+    "Inflation": 4804320883499.228,
+    "GUT": 4.804320883499229e+16,
+    "Electroweak": 1.0809721987873264e+67,
+    "QCD": 1.2010802208748074e+76,
+    "BBN": 1.2010802208748071e+86,
+    "Matter-radiation": 2.316898574218378e+112,
+    "Recombination": 5.3381343149991434e+113,
+    "Now": 2.2661391563812378e+122
+  },
+  "frozen_fraction_required": 4.984635625956582e-63,
+  "M_DM_total_kg": 2.45853744950559e+52,
+  "M_DM_in_Planck_masses": 1.1295877972273112e+60,
+  "Omega_CDM_observed": 0.266,
+  "Lambda_holographic_fraction": 1.133535861099544e-123,
+  "ratio_f_Lambda_over_f_CDM": 2.274059622727211e-61,
+  "observed_Omega_L_over_Omega_CDM": 2.575187969924812,
+  "toy_QECC_mean_frozen_fraction": 0.9886755801202343
+}

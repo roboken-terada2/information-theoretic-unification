@@ -1,0 +1,28 @@
+{
+  "models": {
+    "LCDM (Planck)": {
+      "Omega_m": 0.315,
+      "Omega_b": 0.049,
+      "sigma_8_normalised_to": 0.811,
+      "A_amplitude": 2661576.4018922616,
+      "k_peak_h_per_Mpc": 0.016257556664437952
+    },
+    "MOND-only": {
+      "Omega_m": 0.049,
+      "Omega_b": 0.049,
+      "sigma_8_normalised_to": 0.811,
+      "A_amplitude": 12578221951.149153,
+      "k_peak_h_per_Mpc": 0.0009547716114208056
+    },
+    "ITU hybrid (cold)": {
+      "Omega_m": 0.315,
+      "Omega_b": 0.049,
+      "sigma_8_normalised_to": 0.811,
+      "A_amplitude": 2661576.4018922616,
+      "k_peak_h_per_Mpc": 0.016257556664437952
+    }
+  },
+  "observed_k_peak_h_per_Mpc": 0.015,
+  "observed_sigma_8": 0.811,
+  "A_ratio_MOND_LCDM": 4725.854175069557
+}

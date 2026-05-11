@@ -1,0 +1,97 @@
+{
+  "phase": 31,
+  "description": "Neutrino mass hierarchy and S_8 tension in ITU",
+  "oscillation_parameters": {
+    "Dm21_sq_eV2": 7.42e-05,
+    "Dm31_sq_eV2": 0.002515
+  },
+  "hierarchy_minimums": {
+    "NH_min_eV": 0.05876371785942254,
+    "IH_min_eV": 0.10103395789053211
+  },
+  "observational_bounds": {
+    "DESI_2024_95CL": 0.072,
+    "Planck_2018_95CL": 0.12
+  },
+  "ITU_prediction": {
+    "hierarchy": "normal",
+    "sum_mnu_eV": 0.06,
+    "sigma_8": 0.7979926244123067,
+    "S_8": 0.8176991133951796,
+    "M_R_seesaw_GeV": 13005.0,
+    "H_inf_GeV": 100000000000000.0
+  },
+  "scenarios": [
+    {
+      "scenario": "ΛCDM (no EDE, no ν)",
+      "sigma_8": 0.811,
+      "S_8": 0.8310277071193236
+    },
+    {
+      "scenario": "+ EDE only (f=0.10)",
+      "sigma_8": 0.8272200000000001,
+      "S_8": 0.84764826126171
+    },
+    {
+      "scenario": "+ ν 0.06 eV only",
+      "sigma_8": 0.7817726244123067,
+      "S_8": 0.8010785592527931
+    },
+    {
+      "scenario": "+ ν 0.10 eV only",
+      "sigma_8": 0.7622877073538443,
+      "S_8": 0.7811124606751062
+    },
+    {
+      "scenario": "ITU: EDE + ν 0.06 eV",
+      "sigma_8": 0.7979926244123067,
+      "S_8": 0.8176991133951796
+    },
+    {
+      "scenario": "ITU: EDE + ν 0.08 eV",
+      "sigma_8": 0.7882501658830755,
+      "S_8": 0.8077160641063362
+    },
+    {
+      "scenario": "ITU: EDE + ν 0.10 eV",
+      "sigma_8": 0.7785077073538443,
+      "S_8": 0.7977330148174927
+    }
+  ],
+  "tensions": [
+    {
+      "observation": "Planck 2018 CMB",
+      "S_8": 0.832,
+      "sigma": 0.013,
+      "LCDM_tension_sigma": 0.07479176005202699,
+      "ITU_tension_sigma": 1.1000682003707938
+    },
+    {
+      "observation": "KiDS-1000 (Asgari 2021)",
+      "S_8": 0.766,
+      "sigma": 0.018,
+      "LCDM_tension_sigma": 3.612650395517978,
+      "ITU_tension_sigma": 2.8721729663988684
+    },
+    {
+      "observation": "DES Y3 (Amon 2022)",
+      "S_8": 0.776,
+      "sigma": 0.017,
+      "LCDM_tension_sigma": 3.2369239481955048,
+      "ITU_tension_sigma": 2.45288902324586
+    },
+    {
+      "observation": "HSC Y3 (Sugiyama 2022)",
+      "S_8": 0.776,
+      "sigma": 0.029,
+      "LCDM_tension_sigma": 1.8975071420456409,
+      "ITU_tension_sigma": 1.4379004619027456
+    }
+  ],
+  "verdict": "ITU EDE+ν simultaneously addresses H_0 and S_8 tensions; NH preferred and consistent with DESI 2024.",
+  "caveats": [
+    "Analytic σ_8 suppression fit (Lesgourgues-Pastor 2006)",
+    "EDE boost from Phase 30 approximated as +2%",
+    "Full Boltzmann analysis with CLASS+EDE+massive ν needed for v2"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "phase": 28,
+  "description": "First-principles derivation that frozen QECC has w = 0",
+  "mechanism": "misalignment / coherent scalar oscillation (Preskill-Wise-Wilczek 1983)",
+  "klein_gordon_equation": "phi'' + 3 H phi' + m^2 phi = 0",
+  "dimensionless_equation": "phi'' + (2/tau) phi' + phi = 0",
+  "integration_range_tau": [
+    0.1,
+    200.0
+  ],
+  "measured_density_slope": -3.0038136910052433,
+  "expected_dust_slope": -3.0,
+  "measured_avg_w": 0.00014914460108098745,
+  "expected_dust_w": 0.0,
+  "scenarios": [
+    {
+      "name": "m = 1e-25 eV (too light)",
+      "m_eV": 1e-25,
+      "a_osc": 2.058389079458176e-05,
+      "z_osc": 48580.68020708831,
+      "verdict": "OK cold"
+    },
+    {
+      "name": "m = 1e-22 eV (fuzzy DM)",
+      "m_eV": 1e-22,
+      "a_osc": 6.400550212493474e-07,
+      "z_osc": 1562364.6823253455,
+      "verdict": "OK cold"
+    },
+    {
+      "name": "m = 1e-18 eV (ITU natural)",
+      "m_eV": 1e-18,
+      "a_osc": 6.3970064126846705e-09,
+      "z_osc": 156323118.82947096,
+      "verdict": "OK cold"
+    },
+    {
+      "name": "m = 1 eV (heavy)",
+      "m_eV": 1.0,
+      "a_osc": 1.0000000000000002e-14,
+      "z_osc": 99999999999998.98,
+      "verdict": "OK cold"
+    }
+  ],
+  "verdict": "cold-dust behaviour (w=0, rho~a^-3) derived from KG dynamics",
+  "closes_gap": "last theoretical weakness of ITU (Phase 22-27 hypothesis)",
+  "caveats": [
+    "Radial-mode reduction of multi-stabilizer QECC field",
+    "Linear KG without self-interactions",
+    "Matter-dominated background; radiation/Lambda eras enter only via a_osc",
+    "Lyman-alpha consistency requires m_phi >= 1e-21 eV (Phase 26)"
+  ]
+}

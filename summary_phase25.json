@@ -1,0 +1,67 @@
+{
+  "phase": 25,
+  "description": "CMB C_ell amplitudes via simplified Hu-White 1996 model",
+  "planck_observed_Dl_uK2": {
+    "220": 5775.0,
+    "540": 2570.0,
+    "815": 2480.0
+  },
+  "observed_peak_ratios": {
+    "A2/A1": 0.44502164502164504,
+    "A3/A1": 0.42943722943722945
+  },
+  "models": {
+    "LCDM (Planck)": {
+      "Omega_m_h2": 0.143,
+      "Omega_b_h2": 0.0224,
+      "z_eq": 3431.9999999999995,
+      "driving_D": 0.7589562140645731,
+      "baryon_R": 0.7056,
+      "peak_amplitudes_uK2": {
+        "220": 5779.015015972226,
+        "540": 2550.0792171387097,
+        "815": 2448.7154668195
+      },
+      "chi2_three_peaks": 0.8697999746160759,
+      "first_peak_ratio_to_LCDM": 1.0
+    },
+    "MOND-only": {
+      "Omega_m_h2": 0.0224,
+      "Omega_b_h2": 0.0224,
+      "z_eq": 537.6,
+      "driving_D": 0.3303022855738511,
+      "baryon_R": 0.7056,
+      "peak_amplitudes_uK2": {
+        "220": 2824.9512101727596,
+        "540": 1039.5213313443708,
+        "815": 919.2564904090029
+      },
+      "chi2_three_peaks": 8425.670700188435,
+      "first_peak_ratio_to_LCDM": 0.48882918669791814
+    },
+    "ITU hybrid (cold)": {
+      "Omega_m_h2": 0.143,
+      "Omega_b_h2": 0.0224,
+      "z_eq": 3431.9999999999995,
+      "driving_D": 0.7589562140645731,
+      "baryon_R": 0.7056,
+      "peak_amplitudes_uK2": {
+        "220": 5779.015015972226,
+        "540": 2550.0792171387097,
+        "815": 2448.7154668195
+      },
+      "chi2_three_peaks": 0.8697999746160759,
+      "first_peak_ratio_to_LCDM": 1.0
+    }
+  },
+  "verdict": {
+    "LCDM": "matches Planck (chi^2 ~ 0 by calibration)",
+    "MOND-only": "excluded by amplitudes (~3x too small) and shifted peaks",
+    "ITU hybrid (cold)": "indistinguishable from LCDM"
+  },
+  "caveats": [
+    "Simplified Hu-White 1996 template, not full CAMB Boltzmann",
+    "Calibrated against Planck 2018 first peak",
+    "EE and TE polarisation spectra not computed"
+  ]
+}

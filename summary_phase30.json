@@ -1,0 +1,25 @@
+{
+  "phase": 30,
+  "description": "Hubble tension via ITU early dark energy (frozen QECC)",
+  "observations": {
+    "Planck_H0": 67.4,
+    "Planck_sigma": 0.5,
+    "SH0ES_H0": 73.04,
+    "SH0ES_sigma": 1.04,
+    "raw_tension_sigma": 4.887561225309663
+  },
+  "ITU_best_fit": {
+    "f_EDE": 0.03106212424849699,
+    "H0_inferred": 68.46294211613618,
+    "chi2_minimum": 23.888336128713547,
+    "reduced_tension_sigma": 4.887569552314683,
+    "delta_chi2_vs_LCDM": 5.5214271848959235
+  },
+  "mechanism": "light QECC stabilizer mode (m ~ 1e-28 eV) frozen at z ~ z_eq",
+  "caveats": [
+    "Simplified bell-shaped EDE profile, not full Klein-Gordon evolution",
+    "Sound horizon computed by approximate weighted ratio",
+    "Full CLASS/CAMB Einstein-Boltzmann analysis recommended for v2",
+    "σ_8 / S_8 tension may worsen slightly; needs Phase 31 neutrino addition"
+  ]
+}

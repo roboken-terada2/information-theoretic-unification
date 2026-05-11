@@ -1,0 +1,68 @@
+{
+  "phase": 26,
+  "description": "Lyman-alpha constraint on warm-vs-cold QECC in ITU",
+  "observational_bound": {
+    "source": "Irsic et al. 2017, MNRAS 466, 4332",
+    "m_WDM_min_keV": 5.3,
+    "alpha_max_hMpc": 0.0073956947010483665,
+    "T2_min_at_k10": 0.5
+  },
+  "ITU_natural_prediction": {
+    "H_inf_inverse_m": 1.97e-30,
+    "a_ratio": 1e+26,
+    "lambda_QECC_m": 0.00019700000000000002,
+    "lambda_QECC_hMpc": 4.302592352559949e-27,
+    "effective_mWDM_keV": 3.612711849905715e+22,
+    "safety_margin": 1.7188927267646188e+24,
+    "verdict": "cold QECC natural; passes Lyman-alpha by ~20 orders of magnitude"
+  },
+  "scenarios": [
+    {
+      "name": "Cold QECC (ITU natural)",
+      "alpha": 4.302592352559949e-27,
+      "m_eff_keV": 3.612711849905715e+22,
+      "T2_at_k10": 1.0,
+      "allowed": true
+    },
+    {
+      "name": "Warm QECC (m=12 keV)",
+      "alpha": 0.003,
+      "m_eff_keV": 11.948154856807985,
+      "T2_at_k10": 0.9965430141217964,
+      "allowed": true
+    },
+    {
+      "name": "Warm QECC (m=5.3 keV, bound)",
+      "alpha": 0.0064,
+      "m_eff_keV": 6.037422182741651,
+      "T2_at_k10": 0.9812901259637856,
+      "allowed": true
+    },
+    {
+      "name": "Warm QECC (m=2 keV)",
+      "alpha": 0.018,
+      "m_eff_keV": 2.378283814289396,
+      "T2_at_k10": 0.8272418301446322,
+      "allowed": true
+    },
+    {
+      "name": "Warm QECC (m=0.7 keV)",
+      "alpha": 0.063,
+      "m_eff_keV": 0.7693293283728939,
+      "T2_at_k10": 0.06626459652861684,
+      "allowed": false
+    },
+    {
+      "name": "Hot QECC (m=0.3 keV)",
+      "alpha": 0.16,
+      "m_eff_keV": 0.33223557427920375,
+      "T2_at_k10": 5.713530257552019e-06,
+      "allowed": false
+    }
+  ],
+  "caveats": [
+    "Bode-Ostriker-Turok transfer (no full hydrodynamic Lyman-alpha simulation)",
+    "Iršič 2017 median bound; conservative bounds give m_WDM > 1.9 keV",
+    "ITU lambda_QECC estimate uses typical inflationary H_inf ~ 10^14 GeV"
+  ]
+}

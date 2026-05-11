@@ -1,0 +1,52 @@
+{
+  "phase": 29,
+  "description": "BBN consistency check for ITU",
+  "epoch": "z ~ 1e9, T ~ 0.1-1 MeV",
+  "eta_10": 6.143,
+  "N_eff": 3.046,
+  "predictions_vs_observations": [
+    {
+      "element": "Y_p",
+      "ITU_prediction": 0.2487288,
+      "observed_central": 0.245,
+      "observed_sigma": 0.003,
+      "tension_sigma": 1.2429333333333348
+    },
+    {
+      "element": "D/H × 10^5",
+      "ITU_prediction": 2.50383971673743,
+      "observed_central": 2.527,
+      "observed_sigma": 0.03,
+      "tension_sigma": 0.7720094420856712
+    },
+    {
+      "element": "Li-7/H × 10^10",
+      "ITU_prediction": 4.350173981944445,
+      "observed_central": 1.6,
+      "observed_sigma": 0.3,
+      "tension_sigma": 9.167246606481482
+    },
+    {
+      "element": "He-3/H × 10^5",
+      "ITU_prediction": 1.0650953513028476,
+      "observed_central": 1.1,
+      "observed_sigma": 0.2,
+      "tension_sigma": 0.17452324348576242
+    }
+  ],
+  "eta_concordance": {
+    "CMB": 6.13,
+    "BBN_DH": 6.1,
+    "tension_sigma": 0.27854300726558007
+  },
+  "phase28_consistency": {
+    "rho_QECC_over_rho_rad_at_BBN": 1.2060467009550042e-14,
+    "verdict": "completely negligible"
+  },
+  "verdict": "ITU BBN predictions = LambdaCDM by construction; agreement with D, Y_p, He-3; Li-7 problem shared with LambdaCDM",
+  "caveats": [
+    "Analytic fits (Pisanti 2008), not full nuclear reaction network",
+    "Li-7 stellar depletion not modelled explicitly",
+    "Non-standard BBN scenarios (early DE etc.) not considered"
+  ]
+}

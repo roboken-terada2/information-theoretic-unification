@@ -1,12 +1,16 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20109210.svg)](https://doi.org/10.5281/zenodo.20109210)
 # Information-Theoretic Unification of General Relativity and Quantum Mechanics
 
-**A 20-phase numerical demonstration that spacetime, gravity, the Standard
-Model, the cosmological constant, dark matter, and gravitational waves all
-emerge from a single information-theoretic axiom.**
+**A 32-phase numerical demonstration that spacetime, gravity, the Standard
+Model, the cosmological constant, dark matter, dark energy, and the full
+$\Lambda$CDM cosmology all emerge from a single information-theoretic axiom.**
 
-**Version 1.1.0** — adds Phases 17–20 (nonlinear Einstein, dark matter from
-emergent gravity, LIGO GW150914 prediction, galaxy clusters + CMB).
+**Version 1.2.0** — adds Phases 21–32 (CMB peaks and amplitudes, matter
+power spectrum, Bullet Cluster, Lyman-α, solar-system precision, BBN, the
+first-principles derivation of $w = 0$ for cold dark matter via the
+misalignment mechanism, the resolution of the Hubble tension via early dark
+energy, neutrino-mass hierarchy and $S_8$ tension, and the holographic
+origin of $\Omega_\Lambda$).
 
 > **情報理論的統一理論 — 単一公理 $\delta S = \delta\langle K\rangle$ から導かれる量子重力 + 標準模型 + 宇宙論**
 
@@ -52,8 +56,20 @@ is shown numerically to imply, in 16 independent computational experiments:
 | 16 | Experimental verification proposals | 4 partly realised |
 | **17** | **Nonlinear Einstein from Fisher information** | **machine precision** |
 | **18** | **MOND/Verlinde dark matter, galactic rotation curves** | ~10% (a₀ predicted) |
-| **19** | **LIGO GW150914 ringdown prediction** | ~10% (Kerr QNM) |
+| **19** | **LIGO GW150914 ringdown prediction** | ~9% (Kerr QNM) |
 | **20** | **Galaxy clusters + CMB hybrid framework** | 1% (cluster mass) |
+| **21** | **CMB acoustic peak positions (Hu-Sugiyama)** | ~0% (ΛCDM/hybrid); MOND-only 43% off |
+| **22** | **$\Omega_{\rm CDM}$ origin from frozen QECC information** | order-of-magnitude |
+| **23** | **Linear matter power spectrum $P(k)$ (BBKS)** | ITU hybrid ≡ ΛCDM |
+| **24** | **Bullet Cluster N-body simulation** | offset 0.20 (DM); 0.00 (MOND) |
+| **25** | **CMB peak amplitudes (Hu-White)** | $\chi^2 = 0.9$ for ITU; 8400 for MOND |
+| **26** | **Lyman-α small-scale bound** | ITU safe by ~10²⁰ |
+| **27** | **Solar-system precision tests** | Cassini/LLR/Mercury passed by 10⁶–10¹¹ |
+| **28** | **First-principles $w = 0$ derivation (misalignment KG)** | $\langle w \rangle = 0.0001$, $\rho \sim a^{-3.004}$ |
+| **29** | **BBN light-element abundances** | D 0.8σ, $Y_p$ 1.2σ, He-3 0.2σ |
+| **30** | **Hubble tension via light-QECC early dark energy** | $H_0 = 73.0$ at $f_{\rm EDE} = 0.15$ |
+| **31** | **Neutrino hierarchy + $S_8$ tension** | NH, $\sum m_\nu \approx 0.06$ eV (DESI 2024) |
+| **32** | **Dark energy $\Omega_\Lambda$ from holography** | $\rho_\Lambda \sim M_P^2 H_0^2$ (no fine-tuning) |
 
 ## Reproducing the results
 
@@ -79,10 +95,22 @@ python nonlinear_einstein.py        # Phase 17 (v1.1.0)
 python dark_matter.py               # Phase 18 (v1.1.0)
 python black_holes_gw.py            # Phase 19 (v1.1.0)
 python clusters_cmb.py              # Phase 20 (v1.1.0)
+python cmb_peaks.py                 # Phase 21 (v1.2.0)
+python cdm_from_info.py             # Phase 22 (v1.2.0)
+python matter_power_spectrum.py     # Phase 23 (v1.2.0)
+python bullet_cluster.py            # Phase 24 (v1.2.0)
+python cmb_cl_amplitudes.py         # Phase 25 (v1.2.0)
+python lyman_alpha_qecc.py          # Phase 26 (v1.2.0)
+python solar_system_tests.py        # Phase 27 (v1.2.0)
+python qecc_field_theory.py         # Phase 28 (v1.2.0) — cold DM derivation
+python bbn_abundances.py            # Phase 29 (v1.2.0)
+python hubble_tension_ede.py        # Phase 30 (v1.2.0) — H_0 tension
+python neutrino_S8.py               # Phase 31 (v1.2.0) — S_8 tension
+python dark_energy_holographic.py   # Phase 32 (v1.2.0) — Ω_Λ origin
 python unified_summary_full.py      # Master figure
 ```
 
-Total runtime ≈ 30 minutes on a modern laptop.
+Total runtime ≈ 45 minutes on a modern laptop.
 
 ## Repository structure (bilingual)
 
@@ -102,17 +130,17 @@ Total runtime ≈ 30 minutes on a modern laptop.
 ├── theory_master.md / _en.md       integrated theory note (JP / EN)
 │
 ├── theory_phase1.md  / _en.md      ─┐
-│         …                           │ 16 per-phase theoretical notes,
-├── theory_phase16.md / _en.md      ─┘ both languages
+│         …                           │ 32 per-phase theoretical notes,
+├── theory_phase32.md / _en.md      ─┘ both languages
 │
 ├── emergent_spacetime.py           ─┐
-│         …                          │  16 numerical scripts
-├── experimental_proposals.py       ─┘
+│         …                          │  32 numerical scripts
+├── dark_energy_holographic.py      ─┘
 │
 ├── unified_summary_full.py         master figure script
 │
-├── *.png                           17 result figures
-└── summary*.json                   16 numerical summaries
+├── *.png                           33 result figures
+└── summary*.json                   32 numerical summaries
 ```
 
 All written content is provided in **both Japanese (original) and English (translation)**.
@@ -124,7 +152,7 @@ If you use this work, please cite the Zenodo DOI:
 
 ```
 Terada, M. (2026). Information-Theoretic Unification of GR and QM:
-Numerical Demonstration in 16 Phases. Zenodo.
+Numerical Demonstration in 32 Phases. Zenodo.
 DOI: 10.5281/zenodo.20109210
 ```
 

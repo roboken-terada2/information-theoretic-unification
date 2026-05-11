@@ -1,0 +1,227 @@
+{
+  "phase": 27,
+  "description": "Solar-system precision tests of ITU",
+  "a0_MOND_m_per_s2": 1.2e-10,
+  "bounds": {
+    "Cassini_gamma_minus_1": 2.3e-05,
+    "LLR_eta_Nordtvedt": 0.00044,
+    "Mercury_prec_rel": 0.0001,
+    "Gdot_over_G_per_yr": 1e-13
+  },
+  "acceleration_ladder": [
+    {
+      "name": "Mercury",
+      "r_AU": 0.387,
+      "a_N": 0.03960370969348216,
+      "aN_over_a0": 330030914.11235136,
+      "mond_rel_correction": 0.0
+    },
+    {
+      "name": "Venus",
+      "r_AU": 0.723,
+      "a_N": 0.011347003891276608,
+      "aN_over_a0": 94558365.7606384,
+      "mond_rel_correction": 0.0
+    },
+    {
+      "name": "Earth",
+      "r_AU": 1.0,
+      "a_N": 0.00593140799708313,
+      "aN_over_a0": 49428399.97569275,
+      "mond_rel_correction": 4.386960423637743e-16
+    },
+    {
+      "name": "Mars",
+      "r_AU": 1.524,
+      "a_N": 0.002553805773022338,
+      "aN_over_a0": 21281714.77518615,
+      "mond_rel_correction": 2.2076272817930186e-15
+    },
+    {
+      "name": "Jupiter",
+      "r_AU": 5.203,
+      "a_N": 0.0002191039194844652,
+      "aN_over_a0": 1825865.9957038765,
+      "mond_rel_correction": 2.9999352298941437e-13
+    },
+    {
+      "name": "Saturn",
+      "r_AU": 9.537,
+      "a_N": 6.521300804234187e-05,
+      "aN_over_a0": 543441.7336861823,
+      "mond_rel_correction": 3.3862090418771464e-12
+    },
+    {
+      "name": "Uranus",
+      "r_AU": 19.19,
+      "a_N": 1.6106747443105843e-05,
+      "aN_over_a0": 134222.89535921536,
+      "mond_rel_correction": 5.5506744275314205e-11
+    },
+    {
+      "name": "Neptune",
+      "r_AU": 30.07,
+      "a_N": 6.559805191371039e-06,
+      "aN_over_a0": 54665.04326142532,
+      "mond_rel_correction": 3.346420534893103e-10
+    },
+    {
+      "name": "Pluto",
+      "r_AU": 39.48,
+      "a_N": 3.8054280090794884e-06,
+      "aN_over_a0": 31711.900075662405,
+      "mond_rel_correction": 9.943869687773043e-10
+    },
+    {
+      "name": "Sedna",
+      "r_AU": 506.0,
+      "a_N": 2.316630472700374e-08,
+      "aN_over_a0": 193.05253939169785,
+      "mond_rel_correction": 2.6831027863209903e-05
+    },
+    {
+      "name": "Oort cloud",
+      "r_AU": 50000.0,
+      "a_N": 2.372563198833252e-12,
+      "aN_over_a0": 0.0197713599902771,
+      "mond_rel_correction": 50.08068148233199
+    }
+  ],
+  "perihelion_precession": [
+    {
+      "name": "Mercury",
+      "GR_prec": 43.0,
+      "MOND_prec": 2.5802206011229765e-09,
+      "ratio": 6.000513025867387e-11
+    },
+    {
+      "name": "Venus",
+      "GR_prec": 8.6,
+      "MOND_prec": 1.17892920436727e-08,
+      "ratio": 1.3708479120549653e-09
+    },
+    {
+      "name": "Earth",
+      "GR_prec": 3.84,
+      "MOND_prec": 2.6530353575538463e-08,
+      "ratio": 6.908946243629808e-09
+    },
+    {
+      "name": "Mars",
+      "GR_prec": 1.35,
+      "MOND_prec": 7.671663299664631e-08,
+      "ratio": 5.682713555307134e-08
+    },
+    {
+      "name": "Jupiter",
+      "GR_prec": 0.062,
+      "MOND_prec": 1.64170907292552e-06,
+      "ratio": 2.6479178595572903e-05
+    },
+    {
+      "name": "Saturn",
+      "GR_prec": 0.014,
+      "MOND_prec": 7.471865329367474e-06,
+      "ratio": 0.0005337046663833909
+    },
+    {
+      "name": "Uranus",
+      "GR_prec": 0.0024,
+      "MOND_prec": 4.288228861732094e-05,
+      "ratio": 0.01786762025721706
+    },
+    {
+      "name": "Neptune",
+      "GR_prec": 0.00077,
+      "MOND_prec": 0.00013151872577407366,
+      "ratio": 0.17080353996632944
+    },
+    {
+      "name": "Pluto",
+      "GR_prec": 0.00042,
+      "MOND_prec": 0.00027689575091141214,
+      "ratio": 0.6592755974081241
+    },
+    {
+      "name": "Sedna",
+      "GR_prec": 1e-07,
+      "MOND_prec": 0.549126673449048,
+      "ratio": 5491266.73449048
+    }
+  ],
+  "qecc_perturbation": [
+    {
+      "name": "Mercury",
+      "r_m": 57895200000.0,
+      "M_qecc_over_Msun": 2.9097889845477416e-19,
+      "delta_a_over_a": 2.9097889845477416e-19
+    },
+    {
+      "name": "Venus",
+      "r_m": 108160800000.0,
+      "M_qecc_over_Msun": 1.8973327024443544e-18,
+      "delta_a_over_a": 1.8973327024443544e-18
+    },
+    {
+      "name": "Earth",
+      "r_m": 149600000000.0,
+      "M_qecc_over_Msun": 5.020287633218276e-18,
+      "delta_a_over_a": 5.020287633218276e-18
+    },
+    {
+      "name": "Mars",
+      "r_m": 227990400000.0,
+      "M_qecc_over_Msun": 1.7769839344694588e-17,
+      "delta_a_over_a": 1.7769839344694588e-17
+    },
+    {
+      "name": "Jupiter",
+      "r_m": 778368800000.0,
+      "M_qecc_over_Msun": 7.071150457139069e-16,
+      "delta_a_over_a": 7.071150457139069e-16
+    },
+    {
+      "name": "Saturn",
+      "r_m": 1426735200000.0,
+      "M_qecc_over_Msun": 4.354757224313263e-15,
+      "delta_a_over_a": 4.354757224313263e-15
+    },
+    {
+      "name": "Uranus",
+      "r_m": 2870824000000.0,
+      "M_qecc_over_Msun": 3.547754214254723e-14,
+      "delta_a_over_a": 3.547754214254723e-14
+    },
+    {
+      "name": "Neptune",
+      "r_m": 4498472000000.0,
+      "M_qecc_over_Msun": 1.3649881612837663e-13,
+      "delta_a_over_a": 1.3649881612837663e-13
+    },
+    {
+      "name": "Pluto",
+      "r_m": 5906208000000.0,
+      "M_qecc_over_Msun": 3.08929962993976e-13,
+      "delta_a_over_a": 3.08929962993976e-13
+    },
+    {
+      "name": "Sedna",
+      "r_m": 75697600000000.0,
+      "M_qecc_over_Msun": 6.503994284160894e-10,
+      "delta_a_over_a": 6.503994284160894e-10
+    },
+    {
+      "name": "Oort cloud",
+      "r_m": 7480000000000000.0,
+      "M_qecc_over_Msun": 0.0006275359541522846,
+      "delta_a_over_a": 0.0006275359541522846
+    }
+  ],
+  "safety_margins": {
+    "Cassini gamma": 230000000.0,
+    "LLR Nordtvedt": 440000000000.0,
+    "Mercury precession": 1666524.1716652184,
+    "Gdot/G": 10000000.0
+  },
+  "verdict": "ITU passes all solar-system tests by factors of 10^6 to 10^24"
+}

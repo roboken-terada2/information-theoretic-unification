@@ -1,0 +1,55 @@
+{
+  "phase": 32,
+  "description": "Dark energy origin via ITU holography (frozen QECC)",
+  "observational": {
+    "Omega_Lambda": 0.685,
+    "H0_km_per_s_Mpc": 67.4,
+    "rho_Lambda_GeV4": 2.9409228732940554e-47,
+    "rho_QFT_naive_GeV4": 2.222606887281e+76,
+    "fine_tuning_ratio": 7.55751504898023e+122
+  },
+  "ITU_holographic": {
+    "formula": "rho_Lambda = c * M_P^2 * H_0^2",
+    "c_required": 0.08176585201346123,
+    "c_extracted_from_obs": 0.09545718031619407,
+    "c_natural_O": 0.1
+  },
+  "three_QECC_modes": [
+    {
+      "name": "m_DM (cold dark matter)",
+      "m_eV": 1e-22,
+      "role": "Phase 28",
+      "omega": 0.265,
+      "osc_today": true
+    },
+    {
+      "name": "m_EDE (early dark energy)",
+      "m_eV": 1e-28,
+      "role": "Phase 30",
+      "omega": 0.0001,
+      "osc_today": true
+    },
+    {
+      "name": "m_DE (late dark energy)",
+      "m_eV": 1.437546338302009e-33,
+      "role": "Phase 32",
+      "omega": 0.685,
+      "osc_today": false
+    }
+  ],
+  "mass_ratios": {
+    "mDM_over_mDE": 69562975005.11691,
+    "mEDE_over_mDE": 69562.97500511691
+  },
+  "w_DE_predictions": {
+    "today_z0": -1.0,
+    "future_zminus1": 0.0,
+    "distinguishing_signature": "eventual cessation of acceleration"
+  },
+  "caveats": [
+    "c_holo not derived from first-principles QECC code yet",
+    "w_DE evolution model is simplified (true KG would smooth transition)",
+    "No interaction terms between DM, EDE, DE QECC modes considered"
+  ],
+  "verdict": "ITU resolves the cosmological constant problem at the magnitude level via holographic scaling; predicts future end of acceleration."
+}
