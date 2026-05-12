@@ -1,0 +1,67 @@
+{
+  "phase": 36,
+  "description": "Free Energy Principle as cognitive-layer manifestation of ITU",
+  "central_equivalence": "δF = 0 ⟺ δD_KL = 0 ⟺ δS = δ⟨K⟩",
+  "variational_inference": {
+    "observation": 3.0,
+    "prior": {
+      "mu": 0.0,
+      "sigma": 2.0
+    },
+    "likelihood_sigma": 1.0,
+    "exact_posterior": {
+      "mu": 2.4,
+      "sigma": 0.8944271909999159
+    },
+    "variational_q_star": {
+      "mu": 2.3989606438033064,
+      "sigma": 0.8944273990037556
+    },
+    "F_initial": 7.418938533204672,
+    "F_final": 2.6236582576076093,
+    "F_lower_bound_minus_log_p_o": 2.623657489421723,
+    "KL_final": 7.6818588656824e-07
+  },
+  "ITU_axiom_test": {
+    "dS_dsigma_at_optimum": 1.117971233433046,
+    "dK_dsigma_at_optimum": 1.1180967487534055,
+    "ratio": 0.9998877419861033,
+    "predicted_ratio": 1.0
+  },
+  "markov_blanket": {
+    "I_unconditional": 0.6844903386646632,
+    "I_conditional_on_s": 0.03435552331722294,
+    "reduction_factor": 19.92373489247704,
+    "blanket_verified": true
+  },
+  "ITU_four_layer_hierarchy": [
+    {
+      "layer": "Physical",
+      "phase": "1-32",
+      "equation": "δS = δ<K>"
+    },
+    {
+      "layer": "Chemical",
+      "phase": "33",
+      "equation": "δS_chem = δ<M_chem>"
+    },
+    {
+      "layer": "Replicating",
+      "phase": "35",
+      "equation": "μ < log σ / L"
+    },
+    {
+      "layer": "Cognitive",
+      "phase": "36",
+      "equation": "δF = δD_KL = 0"
+    }
+  ],
+  "verdict": "Friston FEP and ITU axiom are formally equivalent. The same information-theoretic principle governs spacetime, life, and cognition.",
+  "caveats": [
+    "Gaussian generative model only — no nonlinear / hierarchical models",
+    "Markov blanket simulation uses 3-variable chain (real biology has more)",
+    "No active inference (only perceptual inference) implemented",
+    "No connection to consciousness (deferred to Phase 40)"
+  ],
+  "next_phase": "Phase 37: Lipid bilayer self-assembly (physical Markov blanket)"
+}

@@ -1,0 +1,36 @@
+{
+  "phase": 33,
+  "description": "Life as chemical QECC — ITU bridge to origin of life",
+  "hypothesis": "Life = self-stabilizing QECC pattern in chemical space",
+  "method": "Kauffman 1986 autocatalytic network + RAF algorithm",
+  "parameters": {
+    "N_species": 80,
+    "food_fraction": 0.15,
+    "rho_range": [
+      0.3,
+      3.0
+    ],
+    "n_trials": 6
+  },
+  "critical_density": 1.1,
+  "Kauffman_prediction": 1.0,
+  "max_RAF_size_mean": 171.83333333333334,
+  "max_life_species_mean": 71.33333333333333,
+  "P_RAF_at_rho_3": 1.0,
+  "verdict": "Phase transition near rho_c ~ 1 confirmed; autocatalytic = chemical QECC hypothesis supported numerically.",
+  "caveats": [
+    "Simplified Kauffman model (no thermodynamics, no spatial structure)",
+    "Boolean catalysis (no rate constants)",
+    "No membrane / compartmentalisation",
+    "No replication fidelity / mutation"
+  ],
+  "next_phases": [
+    "Phase 34: Assembly theory (Walker-Cronin) + ITU",
+    "Phase 35: RNA world ribozyme information structure",
+    "Phase 36: Free Energy Principle (Friston) correspondence",
+    "Phase 37: Lipid bilayer self-assembly",
+    "Phase 38: Chirality (left-handed amino acids) and ITU Phase 15",
+    "Phase 39: First cell — chemical → biological transition",
+    "Phase 40: Synthesis: ITU theory of physics + life"
+  ]
+}

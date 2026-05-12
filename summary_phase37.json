@@ -1,0 +1,31 @@
+{
+  "phase": 37,
+  "description": "Lipid bilayer self-assembly — physical Markov blanket",
+  "parameters": {
+    "N_amphiphiles": 60,
+    "box": 14.0,
+    "T_kT": 0.4,
+    "eps_tail_tail": 2.5,
+    "eps_head_tail": 0.6,
+    "sweeps": 1200
+  },
+  "results": {
+    "E_initial": 3654505.580902926,
+    "E_final": -225.92401924512123,
+    "energy_descent": 3654731.504922171,
+    "segregation_initial": 0.4978684342656896,
+    "segregation_final": 0.6683235787924193,
+    "segregation_ratio": 1.342369856763736,
+    "largest_cluster_size": 50,
+    "largest_cluster_fraction": 0.8333333333333334,
+    "cluster_verdict": "macro-aggregate (bilayer/vesicle)",
+    "equilibrium_dE_dt": -0.5492903198067154
+  },
+  "verdict": "Hydrophobic effect drives self-assembly; aggregate boundary realises Markov blanket / QECC information separation.",
+  "caveats": [
+    "2D coarse-grained model only",
+    "Implicit solvent",
+    "No electrostatics, no proteins"
+  ],
+  "next_phase": "Phase 38: chirality (left amino acids) ↔ ITU Phase 15"
+}

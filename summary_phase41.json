@@ -1,0 +1,113 @@
+{
+  "phase": 41,
+  "description": "Consciousness as self-referential QECC",
+  "hypothesis": "Consciousness = degree to which K is encoded in code subspace",
+  "central_formula": "Φ_ITU = I(ρ; K) / H(K)",
+  "architectures": {
+    "feedforward": {
+      "Phi_IIT": 0.5,
+      "Phi_ITU": 0.0,
+      "interp": "integrated"
+    },
+    "random k=2": {
+      "Phi_IIT": 0.625,
+      "Phi_ITU": 0.0,
+      "interp": "highly integrated"
+    },
+    "random k=3": {
+      "Phi_IIT": 0.84375,
+      "Phi_ITU": 0.02439747034769953,
+      "interp": "highly integrated"
+    },
+    "integrated": {
+      "Phi_IIT": 0.25,
+      "Phi_ITU": 0.0,
+      "interp": "minimal awareness"
+    },
+    "strange-loop": {
+      "Phi_IIT": 0.75,
+      "Phi_ITU": 0.0,
+      "interp": "highly integrated"
+    }
+  },
+  "pearson_corr_IIT_ITU": 0.6030226891555271,
+  "connectivity_scan": {
+    "k": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "phi_iit_mean": [
+      0.2,
+      0.425,
+      0.525,
+      0.721875
+    ],
+    "phi_itu_mean": [
+      0.13333333333333333,
+      0.10596489570713101,
+      0.0413991049867186,
+      0.03645137744054313
+    ]
+  },
+  "ITU_7_layer_hierarchy": [
+    {
+      "level": 1,
+      "name": "Quantum information",
+      "equation": "δS = δ⟨K⟩",
+      "phase": "Phase 1-32"
+    },
+    {
+      "level": 2,
+      "name": "Chemical QECC",
+      "equation": "δS_chem = δ⟨M⟩",
+      "phase": "Phase 33"
+    },
+    {
+      "level": 3,
+      "name": "Eigen replication",
+      "equation": "μ < log σ / L",
+      "phase": "Phase 35"
+    },
+    {
+      "level": 4,
+      "name": "Cognitive FEP",
+      "equation": "δF[q, o] = 0",
+      "phase": "Phase 36"
+    },
+    {
+      "level": 5,
+      "name": "Spatial Markov blanket",
+      "equation": "lipid bilayer",
+      "phase": "Phase 37"
+    },
+    {
+      "level": 6,
+      "name": "Chirality",
+      "equation": "Frank + PVED",
+      "phase": "Phase 38"
+    },
+    {
+      "level": 7,
+      "name": "Self-referential / consc.",
+      "equation": "Φ_ITU = MI(state; K)",
+      "phase": "THIS Phase 41"
+    }
+  ],
+  "consciousness_threshold": 0.1,
+  "verdict": "Architecture-dependent Φ confirms IIT-style integrated information varies systematically. ITU Φ_ITU captures self-reference. Both measure necessary but maybe-not-sufficient conditions for consciousness.",
+  "caveats": [
+    "Tiny 6-node networks — not biological",
+    "Simplified IIT (true IIT 3.0 is more involved)",
+    "No qualia structure addressed (only \"presence of experience\")",
+    "Boolean dynamics only, no quantum integration",
+    "Not a full solution to the hard problem"
+  ],
+  "next_directions": [
+    "Quantum Φ extending to continuous Hilbert spaces",
+    "Neural-network simulation of strange loops",
+    "Connection to Penrose-Hameroff Orch-OR",
+    "Empirical Φ in cortical microcircuits"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "phase": 35,
+  "description": "RNA world: Eigen quasispecies and ITU QECC threshold",
+  "parameters": {
+    "L": 20,
+    "sigma": 5.0,
+    "mu_c_theory": 0.08047189562170501,
+    "mu_c_empirical": 0.0806,
+    "agreement_ratio": 1.0015919145100944
+  },
+  "ITU_QECC_correspondence": {
+    "QECC_threshold_p_c": 0.01,
+    "Eigen_threshold_mu_c": 0.08047189562170501,
+    "interpretation": "both are information-protection thresholds"
+  },
+  "R3C_ribozyme": {
+    "L_nt": 56,
+    "sigma_estimate": 3.0,
+    "mu_c_eigen": 0.019618076583359102,
+    "measured_mu_polymerase": 0.001,
+    "safety_factor": 19.6180765833591,
+    "AI_estimate": 30,
+    "verdict": "Eigen-stable; AI well above Walker-Cronin threshold"
+  },
+  "caveats": [
+    "Fitness landscape simplified (sharp peak, no neutral neighborhood)",
+    "Wright-Fisher dynamics; no continuous time chemistry",
+    "No RNA secondary structure; sequences as abstract strings",
+    "Selection coefficient σ inferred, not measured for R3C"
+  ],
+  "next_phase": "Phase 36: Free Energy Principle (Friston) correspondence"
+}

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Information-Theoretic Unification of General Relativity and Quantum Mechanics: Numerical Demonstration in 32 Phases"
+title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
 message: "If you use this work, please cite it as below."
 type: software
 authors:
@@ -8,35 +8,32 @@ authors:
     affiliation: Roboken
     email: munehiro.terada@roboken2.com
 abstract: >
-  We propose an Information-Theoretic Unification (ITU) of GR + QM + dark matter
-  + dark energy + cosmology in which spacetime, gravity, the Standard Model
+  We propose an Information-Theoretic Unification (ITU) of physics, life,
+  consciousness, and qualia in which spacetime, gravity, the Standard Model
   gauge group, matter generations, the electroweak Higgs mechanism, the
-  cosmological constant, chirality, dark matter, dark energy, and the
-  neutrino-mass hierarchy all emerge from a single axiom — the entanglement
-  first law dS(rho_A) = d Tr[K_A^(0) rho_A]. We demonstrate this through 32
-  independent numerical experiments. Phases 1-16 build the core framework
-  (spacetime, gravity, Standard Model, cosmological constant, type II algebras,
-  chirality, experimental proposals). Phase 17 extends to nonlinear Einstein
-  equations via quantum Fisher information. Phase 18 derives MOND a_0 = cH/(2pi)
-  and reproduces galactic rotation curves. Phase 19 predicts LIGO GW150914
-  ringdown within ~9% via Kerr quasi-normal modes. Phase 20 closes the cluster
-  mass gap to ~1% with a Verlinde + frozen QECC + neutrino hybrid. Phases 21-25
-  reproduce the CMB acoustic peak positions (Hu-Sugiyama) and amplitudes
-  (Hu-White), the linear matter power spectrum (BBKS), and the Bullet Cluster
-  gas-DM offset via 2D N-body simulation. Phase 26 confirms the cold-QECC
-  hypothesis survives the Lyman-alpha bound by ~20 orders of magnitude.
-  Phase 27 verifies ITU passes all solar-system precision tests (Cassini,
-  LLR, Mercury). Phase 28 derives the cold-DM equation of state w = 0 from
-  first principles via the misalignment mechanism (KG numerics: <w> = 0.0001,
-  rho ~ a^(-3.004)). Phase 29 confirms BBN consistency (D, He-4, He-3 within
-  1.3 sigma; Li-7 problem shared with LambdaCDM). Phase 30 resolves the Hubble
-  tension via a light-QECC EDE mode (H_0 = 73 km/s/Mpc with f_EDE = 0.15).
-  Phase 31 addresses S_8 tension via normal-hierarchy neutrinos (Sum m_nu ~
-  0.06 eV, DESI 2024 consistent). Phase 32 derives Omega_Lambda holographically
-  (rho_Lambda ~ c M_P^2 H_0^2 with c ~ 0.08, no fine-tuning) and predicts a
-  future w_DE > -1 transition distinguishable from LambdaCDM. ITU spans 30
-  orders of magnitude in length, 60 orders in time, and structurally explains
-  every parameter of LambdaCDM.
+  cosmological constant, chirality, dark matter, dark energy, neutrino mass
+  hierarchy, chemistry, the first cell, integrated information, and the
+  structure of subjective experience all emerge from a single axiom — the
+  entanglement first law dS(rho_A) = d Tr[K_A^(0) rho_A] — in 42 independent
+  numerical experiments. Phases 1-16 build the core physics framework. Phases
+  17-20 extend to nonlinear Einstein equations, MOND/Verlinde dark matter,
+  LIGO GW150914 ringdown, and galaxy clusters. Phases 21-32 cover the full
+  cosmological picture: CMB peaks and amplitudes, P(k), Bullet Cluster,
+  Lyman-alpha, solar-system tests, the first-principles derivation of w = 0
+  for cold QECC via misalignment, BBN, the Hubble tension via early dark
+  energy, neutrino S_8, and the holographic origin of Omega_Lambda. Phases
+  33-39 derive life from chemistry: autocatalytic closure (Kauffman rho_c =
+  1.10), Assembly Theory (AI ↔ QECC depth, r = 0.87), Eigen threshold (0.2%
+  precision), Friston FEP (dS/dK = 0.99989), lipid bilayer self-assembly,
+  Frank-amplified homochirality (Soai 99.9% ee), and the first cell (107
+  divisions with full ITU 6-layer simultaneity). Phase 40 synthesises
+  physics + life into a complete TOE candidate. Phase 41 extends to
+  consciousness as self-referential QECC, with IIT and ITU Phi correlating
+  at r = 0.60. Phase 42 maps the structure of qualia to the eigenspectrum
+  of the modular Hamiltonian K_A, with physical Lab-distance and K-distance
+  correlating at r = 0.55. ITU spans 30 orders of magnitude in length and
+  60 orders in time. Eight falsifiable predictions for the next 5-50 years
+  are listed.
 keywords:
   - quantum gravity
   - holography
@@ -80,6 +77,32 @@ keywords:
   - DESI 2024
   - holographic dark energy
   - Cohen-Kaplan-Nelson
+  - Theory of Everything
+  - origin of life
+  - autocatalytic networks
+  - Kauffman model
+  - Assembly Theory
+  - Walker-Cronin
+  - RNA world
+  - Eigen quasispecies
+  - ribozyme
+  - Free Energy Principle
+  - Friston
+  - Markov blanket
+  - lipid bilayer
+  - protocell
+  - first cell
+  - homochirality
+  - Frank model
+  - Soai reaction
+  - hard problem of consciousness
+  - IIT
+  - Tononi Phi
+  - strange loop
+  - Hofstadter
+  - Russellian monism
+  - qualia
+  - modular Hamiltonian
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0/
 repository-code: "https://github.com/roboken-terada2/information-theoretic-unification"
@@ -88,9 +111,9 @@ doi: "10.5281/zenodo.20109210"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.20109210"
-    description: "Zenodo deposit (English-only academic version)"
-version: "1.2.0"
-date-released: "2026-05-11"
+    description: "Zenodo concept DOI (always latest version)"
+version: "2.0.0"
+date-released: "2026-05-12"
 references:
   - type: article
     authors:
@@ -112,15 +135,6 @@ references:
     volume: 96
     pages: 181602
     year: 2006
-  - type: article
-    authors:
-      - family-names: Van Raamsdonk
-        given-names: Mark
-    title: "Building up spacetime with quantum entanglement"
-    journal: "Gen. Rel. Grav."
-    volume: 42
-    pages: 2323
-    year: 2010
   - type: article
     authors:
       - family-names: Faulkner
@@ -145,15 +159,6 @@ references:
     year: 2015
   - type: article
     authors:
-      - family-names: Penington
-        given-names: Geoffrey
-    title: "Entanglement Wedge Reconstruction and the Information Paradox"
-    journal: "JHEP"
-    volume: 2020
-    pages: 2
-    year: 2020
-  - type: article
-    authors:
       - family-names: Witten
         given-names: Edward
     title: "Gravity and the Crossed Product"
@@ -163,46 +168,67 @@ references:
     year: 2022
   - type: article
     authors:
-      - family-names: Hu
-        given-names: Wayne
-      - family-names: Sugiyama
-        given-names: Naoshi
-    title: "Small-Scale Cosmological Perturbations: An Analytic Approach"
-    journal: "ApJ"
-    volume: 471
-    pages: 542
-    year: 1996
+      - family-names: Kauffman
+        given-names: Stuart
+    title: "Autocatalytic sets of proteins"
+    journal: "J. Theor. Biol."
+    volume: 119
+    pages: 1
+    year: 1986
   - type: article
     authors:
-      - family-names: Preskill
-        given-names: John
-      - family-names: Wise
-        given-names: Mark
-      - family-names: Wilczek
-        given-names: Frank
-    title: "Cosmology of the Invisible Axion"
-    journal: "Phys. Lett. B"
-    volume: 120
+      - family-names: Sharma
+      - family-names: Liu
+      - family-names: Jirasek
+      - family-names: Cronin
+      - family-names: Walker
+    title: "Assembly Theory explains and quantifies selection and evolution"
+    journal: "Nature"
+    volume: 622
+    pages: 321
+    year: 2023
+  - type: article
+    authors:
+      - family-names: Eigen
+        given-names: Manfred
+    title: "Selforganization of Matter and the Evolution of Biological Macromolecules"
+    journal: "Naturwissenschaften"
+    volume: 58
+    pages: 465
+    year: 1971
+  - type: article
+    authors:
+      - family-names: Friston
+        given-names: Karl
+    title: "The free-energy principle: a unified brain theory?"
+    journal: "Nat. Rev. Neurosci."
+    volume: 11
     pages: 127
-    year: 1983
+    year: 2010
   - type: article
     authors:
-      - family-names: Karwal
-        given-names: Tanvi
-      - family-names: Kamionkowski
-        given-names: Marc
-    title: "Dark energy at early times, the Hubble parameter, and the string axiverse"
-    journal: "Phys. Rev. D"
-    volume: 94
-    pages: 103523
-    year: 2016
+      - family-names: Frank
+        given-names: F. C.
+    title: "On spontaneous asymmetric synthesis"
+    journal: "Biochim. Biophys. Acta"
+    volume: 11
+    pages: 459
+    year: 1953
   - type: article
     authors:
-      - family-names: Cohen
-      - family-names: Kaplan
-      - family-names: Nelson
-    title: "Effective Field Theory, Black Holes, and the Cosmological Constant"
-    journal: "Phys. Rev. Lett."
-    volume: 82
-    pages: 4971
-    year: 1999
+      - family-names: Tononi
+        given-names: Giulio
+    title: "An information integration theory of consciousness"
+    journal: "BMC Neurosci."
+    volume: 5
+    pages: 42
+    year: 2004
+  - type: article
+    authors:
+      - family-names: Chalmers
+        given-names: David
+    title: "Facing up to the problem of consciousness"
+    journal: "J. Consciousness Studies"
+    volume: 2
+    pages: 200
+    year: 1995

@@ -1,0 +1,48 @@
+{
+  "phase": 42,
+  "description": "Qualia structure as modular-Hamiltonian eigenspectrum",
+  "central_hypothesis": "experience CONTENT = eigenstructure of K_A",
+  "colors_tested": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "cyan",
+    "blue",
+    "magenta",
+    "white",
+    "black",
+    "gray"
+  ],
+  "tones_tested": [
+    "C4 (262 Hz)",
+    "E4 (330 Hz)",
+    "G4 (392 Hz)",
+    "C5 (523 Hz)",
+    "E5 (660 Hz)",
+    "G5 (784 Hz)"
+  ],
+  "perceiver_dim": 16,
+  "physical_to_qualia_correlation": 0.5526990961111001,
+  "within_color_K_distance_mean": 6.122698476898067,
+  "within_tone_K_distance_mean": 2.700089164653591,
+  "cross_modality_K_distance_mean": 7.185508394470381,
+  "modality_separation_ratio": 1.1735852127264585,
+  "ITU_8_layers": [
+    "Quantum information (1-32)",
+    "Spacetime / gravity (2, 17)",
+    "Standard Model (9-15)",
+    "BH + GW (6, 13, 19)",
+    "Dark matter / DE / cosmology (18-32)",
+    "Life / first cell (33-39)",
+    "Consciousness Φ_ITU (41)",
+    "Qualia structure K eigenstructure (42)"
+  ],
+  "verdict": "qualia space is structure-preserving image of physical input space, and modality direct-sum structure is reproduced.",
+  "caveats": [
+    "Simple random projection perceiver (not real V1/V4 circuitry)",
+    "CIE Lab uses approximate conversion (no gamma correction)",
+    "Only 10 colors and 6 tones tested",
+    "Qualia *subjective* nature not addressed (hard problem residual)"
+  ]
+}

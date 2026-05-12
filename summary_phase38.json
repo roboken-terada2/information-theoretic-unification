@@ -1,0 +1,39 @@
+{
+  "phase": 38,
+  "description": "Homochirality from ITU Phase 15 via Frank model",
+  "central_claim": "Life is L-handed because the Standard Model is V-A",
+  "PVED_per_molecule_kT": 1e-14,
+  "tau_99_from_PVED": 37.524458332611175,
+  "tau_99_physical_years_est": 0.004283613964909952,
+  "tau_99_formula": "τ_99 = ln(2·99/ε) / (k_a · A)",
+  "soai_reproduction": {
+    "init_ee": 0.05,
+    "final_ee": 0.9989956100162222,
+    "agreement_with_experiment": "OK"
+  },
+  "analytical_vs_simulation": {
+    "eps_1e-1": {
+      "tau_sim": 4.013377926421405,
+      "tau_ana": 7.590852123688581,
+      "ratio": 0.5287124371580046
+    },
+    "eps_1e-2": {
+      "tau_sim": 6.270903010033445,
+      "tau_ana": 9.893437216682626,
+      "ratio": 0.6338447268315657
+    },
+    "eps_1e-4": {
+      "tau_sim": 10.953177257525084,
+      "tau_ana": 14.498607402670718,
+      "ratio": 0.7554640906758708
+    }
+  },
+  "ITU_prediction": "extraterrestrial life should be L-handed",
+  "verdict": "Homochirality follows from ITU Phase 15 (Atiyah-Singer chirality) amplified by Frank autocatalysis.",
+  "caveats": [
+    "Sub-precision Δ < 1e-9 uses analytical extrapolation",
+    "Frank model is minimal (no racemization, no compartmentalisation)",
+    "PVED ε value taken from Mason-Tranter 1983 literature"
+  ],
+  "next_phase": "Phase 39: synthesis — first cell from Phases 33-38"
+}

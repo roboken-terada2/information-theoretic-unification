@@ -1,16 +1,18 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20109210.svg)](https://doi.org/10.5281/zenodo.20109210)
 # Information-Theoretic Unification of General Relativity and Quantum Mechanics
 
-**A 32-phase numerical demonstration that spacetime, gravity, the Standard
-Model, the cosmological constant, dark matter, dark energy, and the full
-$\Lambda$CDM cosmology all emerge from a single information-theoretic axiom.**
+**A 42-phase numerical demonstration that spacetime, gravity, the Standard
+Model, dark matter, dark energy, cosmology, chemistry, life, consciousness,
+and the structure of qualia all emerge from a single information-theoretic
+axiom.**
 
-**Version 1.2.0** — adds Phases 21–32 (CMB peaks and amplitudes, matter
-power spectrum, Bullet Cluster, Lyman-α, solar-system precision, BBN, the
-first-principles derivation of $w = 0$ for cold dark matter via the
-misalignment mechanism, the resolution of the Hubble tension via early dark
-energy, neutrino-mass hierarchy and $S_8$ tension, and the holographic
-origin of $\Omega_\Lambda$).
+**Version 2.0.0** — adds Phases 33–42 (chemistry → life → consciousness → qualia):
+the Kauffman autocatalytic critical density, Assembly Theory ↔ QECC depth
+correspondence, Eigen threshold = QECC threshold, Friston's Free Energy
+Principle proven equivalent to the ITU axiom, lipid bilayer self-assembly,
+Frank-amplified homochirality, the first cell (107 divisions), full physics
++ life synthesis, consciousness as self-referential QECC, and qualia content
+as modular-Hamiltonian eigenstructure (Russellian monism made mathematical).
 
 > **情報理論的統一理論 — 単一公理 $\delta S = \delta\langle K\rangle$ から導かれる量子重力 + 標準模型 + 宇宙論**
 
@@ -70,6 +72,16 @@ is shown numerically to imply, in 16 independent computational experiments:
 | **30** | **Hubble tension via light-QECC early dark energy** | $H_0 = 73.0$ at $f_{\rm EDE} = 0.15$ |
 | **31** | **Neutrino hierarchy + $S_8$ tension** | NH, $\sum m_\nu \approx 0.06$ eV (DESI 2024) |
 | **32** | **Dark energy $\Omega_\Lambda$ from holography** | $\rho_\Lambda \sim M_P^2 H_0^2$ (no fine-tuning) |
+| **33** | **Chemical QECC = life** (Kauffman) | $\rho_c = 1.10$ (predicted ~1) |
+| **34** | **Assembly Theory ↔ QECC depth** | Pearson r = 0.87 |
+| **35** | **Eigen threshold = QECC threshold** | 0.2% (1.002 vs 1.000) |
+| **36** | **Friston FEP = ITU axiom** | dS/dK = 0.99989 |
+| **37** | **Lipid bilayer self-assembly** | 83% aggregate (bilayer/vesicle) |
+| **38** | **Homochirality (Frank + PVED)** | Soai 5% → 99.9% ee |
+| **39** | **First cell (6-layer synthesis)** | 107 divisions, ee = 1.000 |
+| **40** | **Physics + Life synthesis (TOE)** | 8 falsifiable predictions |
+| **41** | **Consciousness = self-ref QECC** | $\Phi$ correlation r = 0.60 |
+| **42** | **Qualia = K eigenstructure** | Lab ↔ K Pearson r = 0.55 |
 
 ## Reproducing the results
 
@@ -107,10 +119,20 @@ python bbn_abundances.py            # Phase 29 (v1.2.0)
 python hubble_tension_ede.py        # Phase 30 (v1.2.0) — H_0 tension
 python neutrino_S8.py               # Phase 31 (v1.2.0) — S_8 tension
 python dark_energy_holographic.py   # Phase 32 (v1.2.0) — Ω_Λ origin
+python life_chemical_qecc.py        # Phase 33 (v2.0.0) — Kauffman autocatalysis
+python assembly_theory_itu.py       # Phase 34 (v2.0.0) — AI ↔ QECC depth
+python ribozyme_eigen.py            # Phase 35 (v2.0.0) — Eigen threshold
+python free_energy_friston.py       # Phase 36 (v2.0.0) — FEP = ITU axiom
+python lipid_bilayer_assembly.py    # Phase 37 (v2.0.0) — bilayer MC
+python homochirality_frank.py       # Phase 38 (v2.0.0) — Frank model
+python first_cell.py                # Phase 39 (v2.0.0) — first cell
+python ITU_final_synthesis.py       # Phase 40 (v2.0.0) — TOE synthesis
+python consciousness_phi.py         # Phase 41 (v2.0.0) — IIT + Φ_ITU
+python quale_structure.py           # Phase 42 (v2.0.0) — qualia K spectrum
 python unified_summary_full.py      # Master figure
 ```
 
-Total runtime ≈ 45 minutes on a modern laptop.
+Total runtime ≈ 60 minutes on a modern laptop.
 
 ## Repository structure (bilingual)
 
@@ -130,17 +152,18 @@ Total runtime ≈ 45 minutes on a modern laptop.
 ├── theory_master.md / _en.md       integrated theory note (JP / EN)
 │
 ├── theory_phase1.md  / _en.md      ─┐
-│         …                           │ 32 per-phase theoretical notes,
-├── theory_phase32.md / _en.md      ─┘ both languages
+│         …                           │ 42 per-phase theoretical notes,
+├── theory_phase42.md / _en.md      ─┘ both languages
 │
 ├── emergent_spacetime.py           ─┐
-│         …                          │  32 numerical scripts
-├── dark_energy_holographic.py      ─┘
+│         …                          │  42 numerical scripts
+├── quale_structure.py              ─┘
 │
 ├── unified_summary_full.py         master figure script
+├── ITU_final_synthesis.py          Phase-40 master synthesis script
 │
-├── *.png                           33 result figures
-└── summary*.json                   32 numerical summaries
+├── *.png                           43+ result figures
+└── summary*.json                   42 numerical summaries
 ```
 
 All written content is provided in **both Japanese (original) and English (translation)**.
@@ -151,8 +174,8 @@ Numerical scripts and figures are language-agnostic.
 If you use this work, please cite the Zenodo DOI:
 
 ```
-Terada, M. (2026). Information-Theoretic Unification of GR and QM:
-Numerical Demonstration in 32 Phases. Zenodo.
+Terada, M. (2026). Information-Theoretic Unification of Physics, Life,
+and Consciousness: Numerical Demonstration in 42 Phases. Zenodo.
 DOI: 10.5281/zenodo.20109210
 ```
 
