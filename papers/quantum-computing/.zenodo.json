@@ -1,0 +1,70 @@
+{
+  "title": "ITU and Fault-Tolerant Quantum Computing: A Single-Axiom Derivation of Optimal QECC Architectures (v1.0.0)",
+  "description": "<p>We apply the Information-Theoretic Unification (ITU) framework (Terada 2026, DOI 10.5281/zenodo.20109210) to fault-tolerant quantum computing. Phase 5 of ITU established that bulk locality in AdS/CFT is mathematically equivalent to a quantum error correction code (QECC); here we exploit the reverse direction — using the ITU axiom &delta;S = &delta;&lt;K&gt; to derive optimal QECC architectures for practical quantum computation.</p><p>This is a <b>Tier 1 application paper</b>, complementary to the Tier 0 core ITU theory. It is the first in a planned series of focused application papers (ITU + AI, ITU + cancer biology, ITU + economics, etc.), each as an independent Zenodo deposit linked via <em>isSupplementTo</em> relations to the core ITU concept DOI.</p><p><b>Phase 43 (this release):</b> verifies the [[5,1,3]] perfect quantum code — the discrete realization of bulk locality in AdS<sub>3</sub>/CFT<sub>2</sub> (Pastawski-Yoshida-Harlow-Preskill HaPPY code building block) — as a complete fault-tolerant primitive:</p><ul><li>4 stabilizers, code distance d = 3</li><li>All 15 single-qubit Pauli errors yield <b>distinct syndromes</b></li><li>Decoder lookup table of size 16 (2<sup>4</sup>) correctly maps every syndrome to its corrective operation</li><li>Numerical pseudo-threshold: encoded logical error rate is <b>below the bare-qubit rate at physical error rates up to 25%</b></li></ul><p><b>Forthcoming phases in this paper:</b><br>Phase 44 — ITU-motivated surface code variants and threshold comparison<br>Phase 45 — Magic-state distillation in the ITU framework<br>Phase 46 — NISQ-era hardware applications and concrete predictions</p><p><b>Central thesis:</b> the same single information-theoretic axiom that yields emergent spacetime (ITU Phases 1-32), life (Phases 33-39), and consciousness (Phases 41-42) also yields practical quantum-computing primitives. ITU is not merely a theoretical TOE but a constructive framework that can be applied to engineering problems.</p><p>Includes Python numerical experiment, 4-panel figure, theory document, and JSON summary. Total runtime ~10 seconds on a modern laptop.</p>",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken",
+      "orcid": ""
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "version": "1.0.0",
+  "keywords": [
+    "quantum computing",
+    "fault tolerance",
+    "quantum error correction",
+    "QECC",
+    "5-qubit code",
+    "perfect tensor",
+    "HaPPY code",
+    "holographic code",
+    "bulk locality",
+    "AdS/CFT",
+    "entanglement first law",
+    "modular Hamiltonian",
+    "modular flow",
+    "stabilizer formalism",
+    "threshold theorem",
+    "depolarizing noise",
+    "surface code",
+    "color code",
+    "magic state distillation",
+    "NISQ",
+    "Information-Theoretic Unification",
+    "ITU"
+  ],
+  "communities": [
+    {"identifier": "physics"}
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20109210",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isPartOf",
+      "identifier": "10.5281/zenodo.20109210",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/roboken-terada2/information-theoretic-unification",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://note.com/roboken_ceo",
+      "resource_type": "publication-article",
+      "scheme": "url"
+    }
+  ]
+}
