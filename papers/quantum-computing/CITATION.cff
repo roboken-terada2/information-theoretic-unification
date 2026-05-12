@@ -52,8 +52,16 @@ keywords:
   - ITU
 license: CC-BY-4.0
 license-url: https://creativecommons.org/licenses/by/4.0/
-repository-code: "https://github.com/roboken-terada2/information-theoretic-unification"
-url: "https://github.com/roboken-terada2/information-theoretic-unification"
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/quantum-computing"
+url: "https://doi.org/10.5281/zenodo.20139391"
+doi: "10.5281/zenodo.20139391"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20139391"
+    description: "Concept DOI (always resolves to latest version)"
+  - type: doi
+    value: "10.5281/zenodo.20139392"
+    description: "Version 1.0.0 specific DOI"
 version: "1.0.0"
 date-released: "2026-05-12"
 references:

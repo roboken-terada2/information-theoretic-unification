@@ -30,6 +30,24 @@ academic version is also published on Zenodo with a permanent DOI.
 
 ---
 
+## 🆕 Tier 1 Application Papers (focused application contributions)
+
+In addition to the **core Tier 0 framework** above (Phases 1-42), this
+repository hosts focused **Tier 1 application papers** that apply ITU
+to specific domains. Each Tier 1 paper has its own Zenodo DOI and
+release tag.
+
+| # | Paper | Concept DOI | Phases | Status |
+|---|---|---|---|---|
+| 1 | [ITU and Fault-Tolerant Quantum Computing](papers/quantum-computing/) | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | 43–46 | ✅ v1.0.0 |
+| 2 | ITU and AI / Machine Consciousness | TBD | 47–50 | planned |
+| 3 | ITU and Cancer Biology | TBD | 51–54 | planned |
+| ... | ... | ... | ... | planned |
+
+See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
+
+---
+
 ## TL;DR
 
 The single axiom
