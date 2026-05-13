@@ -1,0 +1,131 @@
+{
+  "phase": 53,
+  "paper": "ITU and Cryptography",
+  "description": "Lattice-based PQC (Kyber, Dilithium) under ITU",
+  "toy_lwe": {
+    "n": 4,
+    "q": 17,
+    "sigma": 1.0,
+    "enc_dec_accuracy": 1.0
+  },
+  "brute_force_experiments": [
+    {
+      "n": 2,
+      "time_sec": 0.0
+    },
+    {
+      "n": 3,
+      "time_sec": 0.0
+    },
+    {
+      "n": 4,
+      "time_sec": 0.0
+    }
+  ],
+  "attack_complexity_by_n": {
+    "n_values": [
+      64,
+      128,
+      256,
+      512,
+      768,
+      1024
+    ],
+    "classical_bits": [
+      18.688,
+      37.376,
+      74.752,
+      149.504,
+      224.25599999999997,
+      299.008
+    ],
+    "quantum_bits": [
+      16.96,
+      33.92,
+      67.84,
+      135.68,
+      203.52,
+      271.36
+    ],
+    "asi_bits": [
+      15.96,
+      32.92,
+      66.84,
+      134.68,
+      202.52,
+      270.36
+    ]
+  },
+  "required_dim": {
+    "128-bit": {
+      "classical": 439,
+      "quantum": 484,
+      "asi": 487
+    },
+    "192-bit": {
+      "classical": 658,
+      "quantum": 725,
+      "asi": 729
+    },
+    "256-bit": {
+      "classical": 877,
+      "quantum": 967,
+      "asi": 970
+    }
+  },
+  "nist_pqc_params": {
+    "Kyber-512": [
+      512,
+      "KEM",
+      128
+    ],
+    "Kyber-768": [
+      768,
+      "KEM",
+      192
+    ],
+    "Kyber-1024": [
+      1024,
+      "KEM",
+      256
+    ],
+    "Dilithium-2": [
+      512,
+      "sig",
+      128
+    ],
+    "Dilithium-3": [
+      768,
+      "sig",
+      160
+    ],
+    "Dilithium-5": [
+      1024,
+      "sig",
+      200
+    ]
+  },
+  "itu_3tier_recommendation": [
+    {
+      "tier": "classical safe",
+      "impl": "AES-256/RSA-4096"
+    },
+    {
+      "tier": "quantum safe",
+      "impl": "Kyber-1024 + BB84"
+    },
+    {
+      "tier": "ASI safe",
+      "impl": "Φ_ITU embedded protocols"
+    }
+  ],
+  "tier": 1,
+  "paper_number": 3,
+  "next_phase": "Phase 54: ASI-era cryptography roadmap (final)",
+  "caveats": [
+    "Toy n=4 LWE — production uses n=512+",
+    "BKZ cost formula is heuristic (assumes lattice geometry)",
+    "ASI attack cost is speculative (no concrete attack known)",
+    "Φ_ITU embedded PQC is conceptual, not implemented"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "phase": 52,
+  "paper": "ITU and Cryptography",
+  "description": "BB84 + QKD detailed analysis with ITU enhancements",
+  "distance_array_km": [
+    10,
+    25,
+    50,
+    75,
+    100,
+    150,
+    200,
+    300,
+    400,
+    500
+  ],
+  "bb84_standard_rates": [
+    0.07526356683057817,
+    0.03722130176209263,
+    0.011650857841503619,
+    0.0036706136163003247,
+    0.0011581736496504994,
+    0.00011404634482586963,
+    9.819728160011104e-06,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "bb84_decoy_rates": [
+    0.11923554774618751,
+    0.059259497234298096,
+    0.018619947162721546,
+    0.0058744331635208705,
+    0.0018550825817722917,
+    0.00018373723803804886,
+    1.678881748122903e-05,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "itu_qecc_rates": [
+    0.01474820584333271,
+    0.0037182374749284717,
+    0.0001715618107191395,
+    5.748592803918653e-06,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "practical_threshold_bits_per_pulse": 1e-06,
+  "distance_limits_km": {
+    "standard_BB84": 200,
+    "decoy_BB84": 200,
+    "ITU_QECC_enhanced": 75
+  },
+  "network_routes_estimated": [
+    {
+      "route": "Tokyo - Osaka",
+      "distance_km": 400,
+      "relays_needed": 1,
+      "cost_usd": 8300000.0
+    },
+    {
+      "route": "Tokyo - Sapporo",
+      "distance_km": 1100,
+      "relays_needed": 5,
+      "cost_usd": 22700000.0
+    },
+    {
+      "route": "Tokyo - London",
+      "distance_km": 10000,
+      "relays_needed": 49,
+      "cost_usd": 205100000.0
+    },
+    {
+      "route": "Tokyo - New York",
+      "distance_km": 11000,
+      "relays_needed": 54,
+      "cost_usd": 225600000.0
+    },
+    {
+      "route": "Beijing - Shanghai",
+      "distance_km": 1300,
+      "relays_needed": 6,
+      "cost_usd": 26800000.0
+    },
+    {
+      "route": "Madrid - Berlin",
+      "distance_km": 1900,
+      "relays_needed": 9,
+      "cost_usd": 39100000.0
+    }
+  ],
+  "fiber_loss_db_per_km": 0.2,
+  "tier": 1,
+  "paper_number": 3,
+  "next_phases": [
+    "Phase 53: Lattice-based PQC (Kyber, Dilithium) under ITU",
+    "Phase 54: ASI-era cryptography roadmap"
+  ],
+  "caveats": [
+    "GLLP-style BB84 rate formula (simplified)",
+    "ITU-QECC enhancement is preliminary concept",
+    "Real PNS-attack analysis would require detailed simulation",
+    "Free-space / satellite QKD not included",
+    "No measurement-device-independent QKD"
+  ]
+}

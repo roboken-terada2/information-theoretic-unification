@@ -1,0 +1,98 @@
+{
+  "phase": 51,
+  "paper": "ITU and Cryptography",
+  "description": "ITU information-theoretic security foundation",
+  "shannon_perfect_secrecy": {
+    "verified": true,
+    "msg_size_bits": 4,
+    "key_sizes_tested": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "I_MC_at_HK_above_HM": 0.05396307696807323
+  },
+  "bb84_results": [
+    {
+      "eve_frac": 0.0,
+      "err_rate": 0.0,
+      "I_eve": 0.0,
+      "sifted_len": 1025,
+      "verdict": "★ Eve undetected"
+    },
+    {
+      "eve_frac": 0.1,
+      "err_rate": 0.012036108324974924,
+      "I_eve": 0.31961949513916066,
+      "sifted_len": 997,
+      "verdict": "★ Eve undetected"
+    },
+    {
+      "eve_frac": 0.25,
+      "err_rate": 0.061522419186652764,
+      "I_eve": 0.2802688347959781,
+      "sifted_len": 959,
+      "verdict": "detectable"
+    },
+    {
+      "eve_frac": 0.5,
+      "err_rate": 0.11244979919678715,
+      "I_eve": 0.23249266337443686,
+      "sifted_len": 996,
+      "verdict": "detectable"
+    },
+    {
+      "eve_frac": 0.75,
+      "err_rate": 0.17738589211618258,
+      "I_eve": 0.20482759020657193,
+      "sifted_len": 964,
+      "verdict": "EVE EXPOSED"
+    },
+    {
+      "eve_frac": 1.0,
+      "err_rate": 0.2405189620758483,
+      "I_eve": 0.17829218675323388,
+      "sifted_len": 1002,
+      "verdict": "EVE EXPOSED"
+    }
+  ],
+  "pqc_scaling": {
+    "RSA_2048_classical_bits": 116.88384811926787,
+    "RSA_2048_quantum_bits": 33.0,
+    "LWE_512_classical_bits": 149.504,
+    "LWE_512_quantum_bits": 135.68,
+    "LWE_1024_classical_bits": 299.008,
+    "LWE_1024_quantum_bits": 271.36
+  },
+  "ITU_unified_view": {
+    "principle": "δS = δ⟨K⟩ governs all information protection",
+    "domains": [
+      "QECC",
+      "cryptography",
+      "consciousness",
+      "life",
+      "bilayer"
+    ]
+  },
+  "tier": 1,
+  "paper_number": 3,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_qc_doi": "10.5281/zenodo.20139391",
+  "tier_1_ai_doi": "10.5281/zenodo.20150501",
+  "next_phases": [
+    "Phase 52: BB84 + QKD with ITU enhancements",
+    "Phase 53: Lattice-based PQC (Kyber, Dilithium) under ITU",
+    "Phase 54: ASI-era cryptography roadmap"
+  ],
+  "caveats": [
+    "Simple OTP and BB84 toy simulation",
+    "LWE complexity estimates use empirical formulas",
+    "No actual cryptanalysis performed",
+    "Real PQC standards (Kyber, Dilithium) not implemented"
+  ]
+}

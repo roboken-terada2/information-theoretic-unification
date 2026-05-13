@@ -41,9 +41,13 @@ release tag.
 |---|---|---|---|---|
 | 1 | [ITU and Fault-Tolerant Quantum Computing](papers/quantum-computing/) | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | 43–46 | ✅ v1.0.0 |
 | 2 | [ITU and Machine Consciousness / ASI](papers/ai-consciousness/) | [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501) | 47–50 | ✅ v1.0.0 |
-| 3 | ITU and Cryptography | TBD | 51–54 | planned |
+| 3 | [ITU and Cryptography](papers/cryptography/) | [10.5281/zenodo.20151059](https://doi.org/10.5281/zenodo.20151059) | 51–54 | ✅ v1.0.0 |
 | 4 | ITU and Semiconductors | TBD | 55–58 | planned |
 | 5+ | (full roadmap to Phase 100) | TBD | 59-100 | planned |
+
+**The three published Tier 1 papers (QC, AI/ASI, Cryptography) form the
+ITU engineering triangle — all derived from the single axiom
+δS = δ⟨K⟩.**
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 

@@ -18,12 +18,14 @@ Each Tier 1 paper:
 |---|---|---|---|---|---|
 | 1 | [ITU and Fault-Tolerant Quantum Computing](quantum-computing/) | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | 43-46 | `quantum-computing/` | ✅ v1.0.0 |
 | 2 | [ITU and Machine Consciousness / ASI](ai-consciousness/) | [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501) | 47-50 | `ai-consciousness/` | ✅ v1.0.0 |
+| 3 | [ITU and Cryptography](cryptography/) | [10.5281/zenodo.20151059](https://doi.org/10.5281/zenodo.20151059) | 51-54 | `cryptography/` | ✅ v1.0.0 |
+
+> **Engineering Triangle complete**: Tier 1 #1 (Quantum Computing) + #2 (Machine Consciousness) + #3 (Cryptography) form a closed engineering triangle under the ITU axiom dS = d<K>.
 
 ## Planned Tier 1 Papers
 
 | # | Paper | Phases | Status |
 |---|---|---|---|
-| 3 | ITU and Cryptography (post-quantum) | 51-54 | planned |
 | 4 | ITU and Semiconductors | 55-58 | planned |
 | 5 | ITU and Cancer Biology | 59-62 | planned |
 | 6 | ITU and Aging | 63-66 | planned |
@@ -50,7 +52,11 @@ papers/
 │   ├── theory_phase47-50.md
 │   └── *.py, *.png, summary*.json
 │
-├── cryptography/                       (planned, Phase 51-54)
+├── cryptography/                       Tier 1 #3: Cryptography (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase51-54.md
+│   └── *.py, *.png, summary*.json
+│
 ├── semiconductors/                     (planned, Phase 55-58)
 └── ...
 ```
@@ -73,6 +79,12 @@ Zenodo. https://doi.org/10.5281/zenodo.20139391
 Terada, M. (2026). ITU and Machine Consciousness / ASI:
 A Single-Axiom Path to Engineered Mind (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20150501
+```
+
+```
+Terada, M. (2026). ITU and Cryptography: A Single-Axiom Framework
+for Quantum and Post-Quantum Information Protection (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20151059
 ```
 
 Plus the core ITU citation:
