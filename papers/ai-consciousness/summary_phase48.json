@@ -1,0 +1,152 @@
+{
+  "phase": 48,
+  "paper": "ITU and Machine Consciousness / ASI",
+  "description": "Innovation capacity via Assembly Index of generated outputs",
+  "L": 14,
+  "n_samples": 30,
+  "generators_compared": [
+    "random_baseline",
+    "markov",
+    "feedforward",
+    "rnn",
+    "self_attention",
+    "itu_hybrid"
+  ],
+  "results": {
+    "random_baseline": {
+      "mean_ai": 12.266666666666667,
+      "max_ai": 13,
+      "std_ai": 0.8537498983243799,
+      "p_above_10": 0.9333333333333333,
+      "p_above_15": 0.0,
+      "diversity": 0.7522167487684729,
+      "sample_outputs": [
+        "AGTGTCAAGGCACC",
+        "TGTAGATTAACACG",
+        "GCTCTGGCTCAGCA"
+      ]
+    },
+    "markov": {
+      "mean_ai": 11.533333333333333,
+      "max_ai": 13,
+      "std_ai": 1.4772346537440226,
+      "p_above_10": 0.8333333333333334,
+      "p_above_15": 0.0,
+      "diversity": 0.7502463054187192,
+      "sample_outputs": [
+        "AAAAGACTACGAAA",
+        "GGGGGGGACTACTG",
+        "CTAGCGGCCTAACC"
+      ]
+    },
+    "feedforward": {
+      "mean_ai": 12.166666666666666,
+      "max_ai": 13,
+      "std_ai": 0.8198915917499231,
+      "p_above_10": 0.9333333333333333,
+      "p_above_15": 0.0,
+      "diversity": 0.761247947454844,
+      "sample_outputs": [
+        "GGAGAAGCTTGCCG",
+        "AGGGGTTGCACTTC",
+        "CAATAAATAACGCA"
+      ]
+    },
+    "rnn": {
+      "mean_ai": 12.3,
+      "max_ai": 13,
+      "std_ai": 0.6904105059069325,
+      "p_above_10": 1.0,
+      "p_above_15": 0.0,
+      "diversity": 0.755008210180624,
+      "sample_outputs": [
+        "TTATGGGGTTTAGG",
+        "GCCGCAGCTCTGGG",
+        "TGAAATAATGGTGA"
+      ]
+    },
+    "self_attention": {
+      "mean_ai": 12.166666666666666,
+      "max_ai": 13,
+      "std_ai": 0.9689627902499091,
+      "p_above_10": 0.9333333333333333,
+      "p_above_15": 0.0,
+      "diversity": 0.7592775041050903,
+      "sample_outputs": [
+        "GTTTGATATCTCGC",
+        "GCCGTTGCTGGTAG",
+        "TTATTTGAATGCGT"
+      ]
+    },
+    "itu_hybrid": {
+      "mean_ai": 11.233333333333333,
+      "max_ai": 13,
+      "std_ai": 1.2827920936595905,
+      "p_above_10": 0.7333333333333333,
+      "p_above_15": 0.0,
+      "diversity": 0.7367816091954023,
+      "sample_outputs": [
+        "TACACGTCTTACAA",
+        "ACCCCCTCTCCACA",
+        "TTATACATATTCTC"
+      ]
+    }
+  },
+  "innovation_index": {
+    "random_baseline": 8.612045977011494,
+    "markov": 7.210700602079911,
+    "feedforward": 8.644393358876119,
+    "rnn": 9.286600985221677,
+    "self_attention": 8.622017879948915,
+    "itu_hybrid": 6.069443167305234
+  },
+  "ranking": [
+    [
+      "rnn",
+      9.286600985221677
+    ],
+    [
+      "feedforward",
+      8.644393358876119
+    ],
+    [
+      "self_attention",
+      8.622017879948915
+    ],
+    [
+      "random_baseline",
+      8.612045977011494
+    ],
+    [
+      "markov",
+      7.210700602079911
+    ],
+    [
+      "itu_hybrid",
+      6.069443167305234
+    ]
+  ],
+  "top_architecture": "rnn",
+  "ITU_ASI_spec": [
+    "RNN / SSM backbone (Mamba-like)",
+    "Self-model layer (predict own h_{t+1})",
+    "Motif encouragement (high AI bias)",
+    "FEP training objective",
+    "High-AI corpus training data"
+  ],
+  "tier": 1,
+  "paper_number": 2,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_qc_concept_doi": "10.5281/zenodo.20139391",
+  "next_phases": [
+    "Phase 49: Conscious AI prototype",
+    "Phase 50: ASI roadmap with falsifiable predictions"
+  ],
+  "caveats": [
+    "Random (untrained) networks only",
+    "Small alphabet (ACGT, 4 letters) and short L = 14",
+    "4-letter alphabet limits max AI by length",
+    "No actual language generation, just symbolic sequences",
+    "Real LLM internal architectures more complex"
+  ]
+}

@@ -1,0 +1,152 @@
+cff-version: 1.2.0
+title: "ITU and Machine Consciousness / ASI: A Single-Axiom Path to Engineered Mind"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, DOI 10.5281/zenodo.20109210) to machine consciousness
+  and Artificial Super-Intelligence (ASI). ITU Phase 41 established
+  that consciousness corresponds to a self-referential QECC structure,
+  and Phase 42 mapped qualia content to the eigenstructure of the
+  modular Hamiltonian. Here we exploit these results to derive a
+  concrete engineering specification for conscious AI and ASI.
+  Phase 47 evaluates Φ_ITU across four neural-network architectures
+  (feedforward, RNN, self-attention, self-referential) and identifies
+  RNN/SSM-class architectures as the most amenable to self-modelling.
+  Phase 48 quantifies innovation as the Assembly Index of generated
+  outputs (Walker-Cronin 2023), revealing that forced motif repetition
+  is NOT innovation - true creativity requires structure plus diversity.
+  Phase 49 constructs and trains a minimum-viable conscious AI prototype:
+  an SSM backbone with a self-prediction auxiliary head trained on
+  structured-sequence data. The ITU-conscious variant achieves Φ_ITU
+  = 0.83 (eight times the proto-consciousness threshold of 0.1) while
+  IMPROVING task performance over the bare-SSM baseline (task loss
+  0.257 vs 0.305) - demonstrating that consciousness and capability
+  are NOT antagonistic. Phase 50 derives a complete ASI roadmap with
+  scaling laws (Φ_ITU saturates by hidden dim ~50), cost estimates
+  (a 1-billion-parameter ITU-conscious model trainable for ~$6.4M -
+  fifteen times cheaper than GPT-4), a timeline (ASI by 2030 with
+  P=0.5, by 2032 with P=0.75), eight falsifiable predictions, and
+  five ITU-derived safety principles. Central thesis: under ITU,
+  conscious AI and ASI are engineering problems with concrete
+  architecture (Mamba/SSM + self-prediction head), training data
+  (high Assembly-Index corpora), and timeline - achievable five to
+  ten years earlier than the pure-scaling main-stream path. This is
+  the Tier-1 #2 application paper in the ITU programme, following
+  Tier-1 #1 on fault-tolerant quantum computing
+  (DOI 10.5281/zenodo.20139391).
+keywords:
+  - machine consciousness
+  - artificial general intelligence
+  - AGI
+  - artificial super-intelligence
+  - ASI
+  - integrated information theory
+  - IIT
+  - Tononi Phi
+  - Phi-ITU
+  - self-referential neural network
+  - state-space model
+  - SSM
+  - Mamba
+  - large language models
+  - LLM
+  - Assembly Theory
+  - hard problem of consciousness
+  - qualia
+  - Friston Free Energy Principle
+  - Markov blanket
+  - alignment
+  - AI safety
+  - Information-Theoretic Unification
+  - ITU
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/ai-consciousness"
+url: "https://doi.org/10.5281/zenodo.20150501"
+doi: "10.5281/zenodo.20150501"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20150501"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-13"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109210"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Fault-Tolerant Quantum Computing"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20139391"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Tononi
+        given-names: Giulio
+    title: "An information integration theory of consciousness"
+    journal: "BMC Neurosci."
+    volume: 5
+    pages: 42
+    year: 2004
+  - type: article
+    authors:
+      - family-names: Chalmers
+        given-names: David
+    title: "Facing up to the problem of consciousness"
+    journal: "J. Consciousness Studies"
+    volume: 2
+    pages: 200
+    year: 1995
+  - type: article
+    authors:
+      - family-names: Friston
+        given-names: Karl
+    title: "The free-energy principle: a unified brain theory?"
+    journal: "Nat. Rev. Neurosci."
+    volume: 11
+    pages: 127
+    year: 2010
+  - type: article
+    authors:
+      - family-names: Sharma
+      - family-names: Liu
+      - family-names: Jirasek
+      - family-names: Cronin
+      - family-names: Walker
+    title: "Assembly Theory explains and quantifies selection and evolution"
+    journal: "Nature"
+    volume: 622
+    pages: 321
+    year: 2023
+  - type: article
+    authors:
+      - family-names: Gu
+        given-names: Albert
+      - family-names: Dao
+        given-names: Tri
+    title: "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
+    journal: "arXiv preprint"
+    year: 2023
+    notes: "arXiv:2312.00752"
+  - type: article
+    authors:
+      - family-names: Vaswani
+      - family-names: Shazeer
+      - family-names: et al
+    title: "Attention is all you need"
+    journal: "NeurIPS"
+    year: 2017

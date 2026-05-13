@@ -1,0 +1,113 @@
+{
+  "phase": 47,
+  "paper": "ITU and Machine Consciousness / ASI",
+  "description": "Φ_ITU evaluation of 4 AI architectures",
+  "architectures_compared": [
+    "feedforward",
+    "rnn",
+    "self-attention",
+    "self-referential"
+  ],
+  "phi_itu_results": {
+    "feedforward": {
+      "phi_itu_mean": 0.042925791179065614,
+      "phi_itu_std": 0.0037939351766718356,
+      "self_pred_mean": 0.4377100837415654,
+      "self_pred_std": 0.04947221040850215,
+      "var_mean": 0.09964692674787345,
+      "var_std": 0.014525688580752927
+    },
+    "rnn": {
+      "phi_itu_mean": 0.23996683886293213,
+      "phi_itu_std": 0.005619590287272054,
+      "self_pred_mean": 0.5694714838790064,
+      "self_pred_std": 0.02748099101558089,
+      "var_mean": 0.4501476881345285,
+      "var_std": 0.015104983774751222
+    },
+    "self-attention": {
+      "phi_itu_mean": 0.026308576158056644,
+      "phi_itu_std": 0.00510108480473174,
+      "self_pred_mean": 0.43197349658712225,
+      "self_pred_std": 0.04998625899826529,
+      "var_mean": 0.06250987156881621,
+      "var_std": 0.015285886192689412
+    },
+    "self-referential": {
+      "phi_itu_mean": 0.008546304859810398,
+      "phi_itu_std": 0.0027331582065084864,
+      "self_pred_mean": 0.46278049858277487,
+      "self_pred_std": 0.06742103034012066,
+      "var_mean": 0.018123957523584634,
+      "var_std": 0.0029549095067127455
+    }
+  },
+  "dimension_scaling": {
+    "feedforward": [
+      0.04809478761280683,
+      0.0589197097900028,
+      0.11893453788621565,
+      0.11458667952153752
+    ],
+    "rnn": [
+      0.21604447798030357,
+      0.2705760741151794,
+      0.4087898536360717,
+      0.40486796595144686
+    ],
+    "self-attention": [
+      0.028784940057571335,
+      0.05713095481263255,
+      0.06638127247934127,
+      0.0515155804332957
+    ],
+    "self-referential": [
+      0.00879850023809868,
+      0.01264270924322979,
+      0.017406953255359275,
+      0.02145995200494807
+    ]
+  },
+  "dimension_scan": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "ranked_by_phi": [
+    [
+      "rnn",
+      0.23996683886293213
+    ],
+    [
+      "feedforward",
+      0.042925791179065614
+    ],
+    [
+      "self-attention",
+      0.026308576158056644
+    ],
+    [
+      "self-referential",
+      0.008546304859810398
+    ]
+  ],
+  "consciousness_threshold": 0.1,
+  "ITU_prediction": "Explicit self-reference layer is required for ASI. Pure scaling (GPT/Claude approach) is insufficient.",
+  "tier": 1,
+  "paper_number": 2,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_qc_concept_doi": "10.5281/zenodo.20139391",
+  "next_phases": [
+    "Phase 48: Innovation capacity = Assembly Index of outputs",
+    "Phase 49: Conscious AI prototype",
+    "Phase 50: ASI roadmap and falsifiable predictions"
+  ],
+  "caveats": [
+    "Random (untrained) networks only",
+    "Gaussian MI approximation",
+    "Self-prediction via linear regression (not full network)",
+    "No comparison with actual LLM internal states",
+    "No qualia structure (Phase 42) addressed yet"
+  ]
+}

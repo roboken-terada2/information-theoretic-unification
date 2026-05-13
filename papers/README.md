@@ -14,38 +14,44 @@ Each Tier 1 paper:
 
 ## Published Tier 1 Papers
 
-| # | Paper | Concept DOI | Phases | Location | Status |
+| # | Paper | DOI | Phases | Location | Status |
 |---|---|---|---|---|---|
-| 1 | [ITU and Fault-Tolerant Quantum Computing](quantum-computing/) | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | 43-46 | `quantum-computing/` | ✅ v1.0.0 published |
+| 1 | [ITU and Fault-Tolerant Quantum Computing](quantum-computing/) | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | 43-46 | `quantum-computing/` | ✅ v1.0.0 |
+| 2 | [ITU and Machine Consciousness / ASI](ai-consciousness/) | [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501) | 47-50 | `ai-consciousness/` | ✅ v1.0.0 |
 
 ## Planned Tier 1 Papers
 
 | # | Paper | Phases | Status |
 |---|---|---|---|
-| 2 | ITU and AI / Machine Consciousness | 47-50 | planned |
-| 3 | ITU and Cancer Biology | 51-54 | planned |
-| 4 | ITU and Aging | 55-58 | planned |
-| 5 | ITU and Psychiatry / FEP failures | 59-62 | planned |
-| 6 | ITU and Economics / Information Markets | 63-66 | planned |
-| 7 | ITU and Free Will | 67-70 | planned |
-| 8 | ITU and Energy / Materials | 71-75 | planned |
-| 9 | ITU and Climate / Earth Systems | 76-80 | planned |
-| 10 | ITU and Astrobiology / SETI | 81-85 | planned |
+| 3 | ITU and Cryptography (post-quantum) | 51-54 | planned |
+| 4 | ITU and Semiconductors | 55-58 | planned |
+| 5 | ITU and Cancer Biology | 59-62 | planned |
+| 6 | ITU and Aging | 63-66 | planned |
+| 7 | ITU and Psychiatry / FEP failures | 67-70 | planned |
+| 8 | ITU and Economics / Information Markets | 71-74 | planned |
+| 9 | ITU and Free Will | 75-78 | planned |
+| 10 | ITU and Energy / Materials | 79-82 | planned |
+| 11 | ITU and Climate / Earth Systems | 83-86 | planned |
+| 12 | ITU and Astrobiology / SETI | 87-90 | planned |
 
 ## Structure
 
 ```
 papers/
 ├── README.md                          this file
+│
 ├── quantum-computing/                  Tier 1 #1: QC (v1.0.0)
-│   ├── README.md
-│   ├── CITATION.cff
-│   ├── .zenodo.json
+│   ├── README.md, CITATION.cff, .zenodo.json
 │   ├── theory_phase43-46.md
-│   ├── *.py, *.png, summary*.json
-│   └── ...
-├── ai-consciousness/                   (planned)
-├── cancer-biology/                     (planned)
+│   └── *.py, *.png, summary*.json
+│
+├── ai-consciousness/                   Tier 1 #2: AI/ASI (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase47-50.md
+│   └── *.py, *.png, summary*.json
+│
+├── cryptography/                       (planned, Phase 51-54)
+├── semiconductors/                     (planned, Phase 55-58)
 └── ...
 ```
 
@@ -55,12 +61,18 @@ Each Tier 1 paper has its own DOI. Cite it independently for the
 focused contribution, AND cite the core ITU framework for the
 underlying axiom.
 
-Example for the Quantum Computing paper:
+Examples:
 
 ```
 Terada, M. (2026). ITU and Fault-Tolerant Quantum Computing:
 A Single-Axiom Derivation of Optimal QECC Architectures (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20139391
+```
+
+```
+Terada, M. (2026). ITU and Machine Consciousness / ASI:
+A Single-Axiom Path to Engineered Mind (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20150501
 ```
 
 Plus the core ITU citation:

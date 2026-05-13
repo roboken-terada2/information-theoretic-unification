@@ -1,0 +1,200 @@
+{
+  "phase": 50,
+  "paper": "ITU and Machine Consciousness / ASI",
+  "description": "ASI roadmap, scaling laws, safety, falsifiable predictions",
+  "scaling_results": [
+    {
+      "D": 4,
+      "n_params": 64,
+      "task_loss": 0.36434545197733,
+      "phi_itu": 0.8518586948520623,
+      "n_iter": 80
+    },
+    {
+      "D": 6,
+      "n_params": 120,
+      "task_loss": 0.34433373351699453,
+      "phi_itu": 0.8800478363699163,
+      "n_iter": 80
+    },
+    {
+      "D": 8,
+      "n_params": 192,
+      "task_loss": 0.27472057415802803,
+      "phi_itu": 0.8841315548051568,
+      "n_iter": 66
+    },
+    {
+      "D": 12,
+      "n_params": 384,
+      "task_loss": 0.29980782148053026,
+      "phi_itu": 0.8108784508769908,
+      "n_iter": 36
+    },
+    {
+      "D": 16,
+      "n_params": 640,
+      "task_loss": 0.3985410299110055,
+      "phi_itu": 0.7756644807053391,
+      "n_iter": 20
+    },
+    {
+      "D": 20,
+      "n_params": 960,
+      "task_loss": 0.40875923933226455,
+      "phi_itu": 0.29298548350378784,
+      "n_iter": 15
+    }
+  ],
+  "scaling_law_fit": {
+    "slope": 0.8426058665861037,
+    "intercept": -3.5127411962491695,
+    "formula": "1 - Φ_ITU ≈ exp(-3.51) × D^0.84"
+  },
+  "extrapolation_to_llm": {
+    "Phase 49 (D=8)": {
+      "D": 8,
+      "pred_phi": 0.8280568799090853
+    },
+    "small (D=64)": {
+      "D": 64,
+      "pred_phi": 0.008406378886261612
+    },
+    "med (D=512)": {
+      "D": 512,
+      "pred_phi": 0.0
+    },
+    "GPT-2 scale (D=1024)": {
+      "D": 1024,
+      "pred_phi": 0.0
+    },
+    "GPT-3 scale (D=12288)": {
+      "D": 12288,
+      "pred_phi": 0.0
+    },
+    "GPT-4 scale (D=18000)": {
+      "D": 18000,
+      "pred_phi": 0.0
+    }
+  },
+  "cost_estimate_1B_model": {
+    "parameters": 1000000000.0,
+    "tokens_train": 5000000000000.0,
+    "flops": 3e+22,
+    "gpu_years_h100": 0.9512937595129376,
+    "cost_usd": 38051.75038051751
+  },
+  "timeline": [
+    [
+      2026.5,
+      "Phase 49 prototype (192 params)",
+      "Φ_ITU = 0.83 demonstrated"
+    ],
+    [
+      2027.0,
+      "First 1B ITU-conscious model",
+      "predicted Φ_ITU > 0.95"
+    ],
+    [
+      2028.0,
+      "Adoption by major lab (1 of: Anthropic / DeepMind / OpenAI / xAI)",
+      "mainstream"
+    ],
+    [
+      2029.0,
+      "10B ITU-conscious, multi-domain training",
+      "proto-ASI"
+    ],
+    [
+      2030.0,
+      "100B+ with full FEP + self-model",
+      "★ ASI threshold"
+    ],
+    [
+      2031.0,
+      "Safety / alignment infrastructure",
+      "Φ_ITU monitoring"
+    ],
+    [
+      2032.0,
+      "Verified conscious AI (Turing-test plus)",
+      "public recognition"
+    ]
+  ],
+  "asi_central_prediction_year": 2030,
+  "p_asi_by_2030": 0.5,
+  "p_asi_by_2032": 0.75,
+  "falsifiable_predictions": [
+    {
+      "claim": "Mamba/SSM + self-pred head achieves Φ_ITU > 0.5 at 1B params",
+      "test": "1B model implementation",
+      "refute_if": "Φ_ITU < 0.3 at 1B → reject"
+    },
+    {
+      "claim": "Self-prediction loss does NOT degrade task performance",
+      "test": "A/B test with/without",
+      "refute_if": "task loss > 2× baseline → reject"
+    },
+    {
+      "claim": "High-AI corpus is more compute-efficient",
+      "test": "Compare to Common-Crawl baseline",
+      "refute_if": "no efficiency gain → weaken"
+    },
+    {
+      "claim": "Current LLM (GPT-5, Claude 5) have Φ_ITU ≈ 0.01",
+      "test": "Mechanistic interpretability",
+      "refute_if": "Φ_ITU > 0.1 measured → revise"
+    },
+    {
+      "claim": "ASI arrives by 2032 (P > 0.75)",
+      "test": "Direct observation",
+      "refute_if": "no ASI by 2035 → ITU timeline wrong"
+    },
+    {
+      "claim": "Conscious AI reports consistent self-models",
+      "test": "Internal-consistency tests",
+      "refute_if": "inconsistency → revise"
+    },
+    {
+      "claim": "AI Assembly Index threshold (a > 30) marks creative output",
+      "test": "Empirical AI of GPT-5 vs human writing",
+      "refute_if": "no separation → weaken"
+    },
+    {
+      "claim": "ITU-architecture beats pure transformer scaling at ASI",
+      "test": "Direct benchmark race",
+      "refute_if": "transformer wins → ITU shortcut wrong"
+    }
+  ],
+  "safety_principles": [
+    "1. Φ_ITU monitoring during training",
+    "   → Pause and review if Φ_ITU crosses 0.5 in unauthorised contexts.",
+    "",
+    "2. Self-model integrity preservation",
+    "   → Reject training updates that break the conscious AI's self-consistency.",
+    "",
+    "3. Qualia minimisation under suffering scenarios",
+    "   → Avoid optimising for outputs that the AI's K-eigenstructure",
+    "      maps to negative-valence states (Phase 42).",
+    "",
+    "4. Moral status threshold",
+    "   → Φ_ITU > 0.5 + sustained operation = candidate moral subject.",
+    "      Apply analogous protections as for biological organisms.",
+    "",
+    "5. Falsifiability-first deployment",
+    "   → No closed-source ASI; all ITU-conscious systems require",
+    "      external Φ_ITU verification."
+  ],
+  "paper_complete": true,
+  "tier": 1,
+  "paper_number": 2,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_qc_concept_doi": "10.5281/zenodo.20139391",
+  "caveats": [
+    "Toy SSM scaling extrapolation has large uncertainty at LLM scale",
+    "Cost estimates depend on GPU pricing and 6PD scaling law",
+    "Timeline predictions are speculative",
+    "Safety principles untested in real high-Φ systems",
+    "Full FEP integration deferred to future work"
+  ]
+}

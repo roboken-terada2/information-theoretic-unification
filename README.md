@@ -37,12 +37,13 @@ repository hosts focused **Tier 1 application papers** that apply ITU
 to specific domains. Each Tier 1 paper has its own Zenodo DOI and
 release tag.
 
-| # | Paper | Concept DOI | Phases | Status |
+| # | Paper | DOI | Phases | Status |
 |---|---|---|---|---|
 | 1 | [ITU and Fault-Tolerant Quantum Computing](papers/quantum-computing/) | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | 43–46 | ✅ v1.0.0 |
-| 2 | ITU and AI / Machine Consciousness | TBD | 47–50 | planned |
-| 3 | ITU and Cancer Biology | TBD | 51–54 | planned |
-| ... | ... | ... | ... | planned |
+| 2 | [ITU and Machine Consciousness / ASI](papers/ai-consciousness/) | [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501) | 47–50 | ✅ v1.0.0 |
+| 3 | ITU and Cryptography | TBD | 51–54 | planned |
+| 4 | ITU and Semiconductors | TBD | 55–58 | planned |
+| 5+ | (full roadmap to Phase 100) | TBD | 59-100 | planned |
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 
