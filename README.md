@@ -45,12 +45,14 @@ release tag.
 | 4 | [ITU and Semiconductors](papers/semiconductors/) | [10.5281/zenodo.20174036](https://doi.org/10.5281/zenodo.20174036) | 55–58 | ✅ v1.0.0 |
 | 5 | [ITU and Cancer Biology](papers/cancer-biology/) | [10.5281/zenodo.20174318](https://doi.org/10.5281/zenodo.20174318) | 59–62 | ✅ v1.0.0 |
 | 6 | [ITU and Aging](papers/aging/) | [10.5281/zenodo.20175663](https://doi.org/10.5281/zenodo.20175663) | 63–66 | ✅ v1.0.0 |
-| 7+ | (full roadmap to Phase 220) | TBD | 67-220 | planned |
+| 7 | [ITU and Psychiatry](papers/psychiatry/) | [10.5281/zenodo.20177427](https://doi.org/10.5281/zenodo.20177427) | 67–70 | ✅ v1.0.0 |
+| 8+ | (full roadmap to Phase 220) | TBD | 71-220 | planned |
 
-**The four engineering Tier 1 papers (QC, AI/ASI, Cryptography, Semiconductors)
-form the ITU engineering rectangle. Tier 1 #5 (Cancer) + #6 (Aging) advance
-the medicine triangle to 2/3 (Psychiatry #7 planned) — all derived from
-the single axiom δS = δ⟨K⟩.**
+**🎉 ITU's first complete polytope structure:**
+The four engineering Tier 1 papers (QC, AI/ASI, Cryptography, Semiconductors)
+form the **engineering rectangle**, and Tier 1 #5 (Cancer, acute) + #6 (Aging,
+chronic) + #7 (Psychiatry, brain-circuit) form the **medicine triangle**.
+All seven Tier 1 papers derive from the single axiom δS = δ⟨K⟩.
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 

@@ -1,0 +1,121 @@
+{
+  "phase": 70,
+  "paper": "ITU and Psychiatry",
+  "description": "ASD/ADHD + roadmap 2026-2050 (Tier 1 #7 final)",
+  "ASD_K_profile": {
+    "K_social_precision": 2.5,
+    "K_perception_precision": 2.5,
+    "interpretation": "K is rigidly over-precise; cannot integrate context"
+  },
+  "ADHD_K_profile": {
+    "K_attention_filter": 0.3,
+    "K_attention_with_stimulant": 0.7,
+    "interpretation": "K_attention cannot suppress distractors without stimulant"
+  },
+  "digital_phenotyping_examples": {
+    "healthy": {
+      "30day_mood_mean": 0.6999999999999997,
+      "30day_sleep_mean_hr": 7.805044236242316,
+      "30day_steps_mean": 5991.005447602782
+    },
+    "depression": {
+      "30day_mood_mean": 0.40084070604038613,
+      "30day_sleep_mean_hr": 6.637489867012587,
+      "30day_steps_mean": 3724.6083027024115
+    },
+    "manic": {
+      "30day_mood_mean": 0.7008407060403861,
+      "30day_sleep_mean_hr": 7.837489867012587,
+      "30day_steps_mean": 5824.608302702412
+    }
+  },
+  "regulatory_roadmap": [
+    {
+      "year": 2024,
+      "event": "KarXT FDA approved (schizophrenia, non-D2)",
+      "tier": "achieved"
+    },
+    {
+      "year": 2024,
+      "event": "MDMA-AT FDA rejected (PTSD)",
+      "tier": "achieved-neg"
+    },
+    {
+      "year": 2025,
+      "event": "Psilocybin TRD Phase III readout",
+      "tier": "expected"
+    },
+    {
+      "year": 2026,
+      "event": "MDMA-AT re-application",
+      "tier": "expected"
+    },
+    {
+      "year": 2027,
+      "event": "Psilocybin FDA approval (TRD)",
+      "tier": "predicted"
+    },
+    {
+      "year": 2028,
+      "event": "Digital phenotyping SaMD approval",
+      "tier": "predicted"
+    },
+    {
+      "year": 2030,
+      "event": "K-monitoring standard in clinical practice",
+      "tier": "predicted"
+    },
+    {
+      "year": 2032,
+      "event": "FUS approved for depression/OCD",
+      "tier": "predicted"
+    },
+    {
+      "year": 2035,
+      "event": "4-axis combo standard for TRD",
+      "tier": "predicted"
+    },
+    {
+      "year": 2040,
+      "event": "DSM-6 with K-component-based diagnosis",
+      "tier": "predicted"
+    }
+  ],
+  "falsifiable_predictions": [
+    "Psilocybin approved by FDA for TRD by 2027",
+    "MDMA-AT (re-applied) approved by FDA for PTSD by 2026",
+    "Focused ultrasound approved for depression/OCD by 2028",
+    "KarXT becomes first-line schizophrenia treatment by 2030",
+    "Digital phenotyping app receives FDA SaMD by 2028",
+    "Apple Watch standard depression-screening by 2030",
+    "ASD retinal/MRI biomarker by 2030",
+    "TRD remission rate reaches 85% by 2035",
+    "ADHD over-diagnosis prompts criteria tightening by 2030",
+    "DSM-6 introduces K-component-based diagnosis by 2040"
+  ],
+  "paper_complete": true,
+  "central_thesis": "ASD = K_social rigid over-precision. ADHD = K_attention precision failure (filter broken). Digital phenotyping (Apple Watch + AI) enables continuous K monitoring. Psychiatry moves toward 4-axis combination: drugs + therapy + digital + brain stimulation. By 2040, DSM-6 may adopt K-component-based diagnosis.",
+  "honest_framing": "Pass-1 interpretive paper across 4 phases. Reframes psychotic, mood, anxiety, ASD, and ADHD disorders in ITU FEP language. Drug response and diagnostic statistics from peer-reviewed sources. Predictions overlap with industry consensus.",
+  "tier": 1,
+  "paper_number": 7,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_qc_doi": "10.5281/zenodo.20139391",
+  "tier_1_ai_doi": "10.5281/zenodo.20150501",
+  "tier_1_crypto_doi": "10.5281/zenodo.20151059",
+  "tier_1_semi_doi": "10.5281/zenodo.20174036",
+  "tier_1_cancer_doi": "10.5281/zenodo.20174318",
+  "tier_1_aging_doi": "10.5281/zenodo.20175663",
+  "medicine_triangle_complete": true,
+  "engineering_rectangle_complete": true,
+  "next_paper_candidates": [
+    "Tier 1 #8: Economics / Information Markets",
+    "Tier 1 #9: Free Will (revisited)",
+    "Pass-2: Re-traverse Tier 1 #1-#7 with ITU-unique predictions"
+  ],
+  "caveats": [
+    "ASD/ADHD K models are illustrative",
+    "Digital phenotyping correlations are simulated",
+    "Roadmap predictions depend on TAME, KarXT, psilocybin outcomes",
+    "Real-world FDA approval timelines uncertain"
+  ]
+}

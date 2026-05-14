@@ -1,0 +1,59 @@
+{
+  "phase": 68,
+  "paper": "ITU and Psychiatry",
+  "description": "Schizophrenia: K_precision failure analysis",
+  "belief_dynamics_final": {
+    "healthy_ratio_1.0": 0.5168947673722228,
+    "at_risk_ratio_0.6": 0.6376710755291671,
+    "psychotic_ratio_0.3": 0.777028354171795
+  },
+  "treatment_response": {
+    "Positive (hallucination/delusion)": {
+      "1st_gen_AP": 0.65,
+      "2nd_gen_AP": 0.72,
+      "Aripiprazole": 0.7,
+      "Clozapine": 0.78,
+      "KarXT (2024)": 0.55
+    },
+    "Negative (avolition/anhedonia)": {
+      "1st_gen_AP": 0.15,
+      "2nd_gen_AP": 0.3,
+      "Aripiprazole": 0.35,
+      "Clozapine": 0.4,
+      "KarXT (2024)": 0.45
+    },
+    "Cognitive (executive/WM)": {
+      "1st_gen_AP": 0.1,
+      "2nd_gen_AP": 0.2,
+      "Aripiprazole": 0.22,
+      "Clozapine": 0.3,
+      "KarXT (2024)": 0.35
+    }
+  },
+  "dopamine_at_severity_1.0": {
+    "mesolimbic": 3.0,
+    "mesocortical": 0.5
+  },
+  "cascade_1000_patients": {
+    "1st_line_responder": 545,
+    "2nd_line_responder": 130,
+    "TRS_count": 325,
+    "Clozapine_rescue": 178,
+    "remaining_refractory": 147
+  },
+  "central_thesis": "Schizophrenia = K_precision failure (top-down prior too strong, bottom-up evidence too weak). Positive symptoms respond to D2 blockade. Negative/cognitive symptoms require multi-receptor (Clozapine) or non-D2 (KarXT 2024) approaches. TRS 30% requires multi-K restoration.",
+  "honest_framing": "Pass-1 interpretive paper. Bayesian belief model is illustrative. Treatment response numbers from CATIE/CUtLASS trials. Dopamine asymmetry model is simplified. No ITU-unique novel predictions.",
+  "tier": 1,
+  "paper_number": 7,
+  "next_phases": [
+    "Phase 69: Depression and anxiety (K_reward, K_threat, SSRI/ketamine/psilocybin)",
+    "Phase 70: ASD/ADHD + treatment roadmap, ITU medicine triangle complete"
+  ],
+  "caveats": [
+    "Bayesian update is Gaussian, brain is non-linear",
+    "Precision ratio values are illustrative",
+    "CATIE response rates vary by cohort/dose",
+    "Cascade probabilities use literature aggregates",
+    "KarXT is recent (2024), long-term efficacy uncertain"
+  ]
+}

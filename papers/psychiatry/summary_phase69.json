@@ -1,0 +1,54 @@
+{
+  "phase": 69,
+  "paper": "ITU and Psychiatry",
+  "description": "Depression (K_reward) and anxiety (K_threat) failures",
+  "K_reward_final_belief": {
+    "healthy": 0.4889925443193514,
+    "mild_depression": 0.3919406161775871,
+    "severe_depression": 0.2843472325281831
+  },
+  "K_threat_detection_200_stimuli": {
+    "healthy": {
+      "true_positive": 18,
+      "false_positive": 15,
+      "false_negative": 0
+    },
+    "anxiety": {
+      "true_positive": 18,
+      "false_positive": 97,
+      "false_negative": 0
+    },
+    "ptsd": {
+      "true_positive": 18,
+      "false_positive": 153,
+      "false_negative": 0
+    }
+  },
+  "drug_response_at_day28": {
+    "SSRI": 33.68601026884803,
+    "Ketamine": 33.95265407063916,
+    "Psilocybin": 70.80475220932188,
+    "ECT": 75.13519498998257,
+    "Placebo": 15.168981978285046
+  },
+  "star_d_cascade_remission_pct": {
+    "Step 1: SSRI (Citalopram)": 37,
+    "Step 2: SSRI swap / augm.": 50,
+    "Step 3: TCA / MAOI / Lithium": 60,
+    "Step 4: Combination": 65,
+    "Step 5: Ketamine / Psilocybin / ECT": 70
+  },
+  "TRD_prevalence_pct": 30,
+  "central_thesis": "Depression = K_reward broken (positive prediction errors not registered, anhedonia). Anxiety = K_threat over-precision (false-positive predictions explode). SSRIs slowly rebuild K (4-6 weeks). Ketamine resets K in hours via NMDA antagonism. Psilocybin restructures K_self in single session. ECT achieves whole-brain K reset.",
+  "honest_framing": "Pass-1 interpretive paper. K_reward and K_threat models are illustrative reinforcement-learning abstractions. Drug response curves use literature averages. STAR*D cascade from 2006 trial.",
+  "tier": 1,
+  "paper_number": 7,
+  "next_phase": "Phase 70: ASD/ADHD + ITU psychiatry roadmap + 10 predictions",
+  "caveats": [
+    "Reinforcement learning is simplified vs real brain",
+    "Drug kinetics ignore inter-individual variability",
+    "STAR*D criticism: real-world remission likely lower",
+    "Psilocybin Phase III data still emerging (Compass Pathways)",
+    "Ketamine abuse and tolerance risks not modelled"
+  ]
+}
