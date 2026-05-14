@@ -1,0 +1,150 @@
+{
+  "phase": 62,
+  "paper": "ITU and Cancer Biology",
+  "description": "ITU-informed cancer treatment roadmap (Tier 1 #5 final)",
+  "multi_K_response": {
+    "1_axes": 0.25,
+    "2_axes": 0.45,
+    "3_axes": 0.65,
+    "4_axes": 0.75,
+    "5_axes": 0.8
+  },
+  "five_year_survival_projection": {
+    "Melanoma (advanced)": {
+      "2024": 50,
+      "2030": 65,
+      "2040": 80
+    },
+    "NSCLC": {
+      "2024": 25,
+      "2030": 40,
+      "2040": 60
+    },
+    "Breast": {
+      "2024": 90,
+      "2030": 92,
+      "2040": 95
+    },
+    "Colorectal": {
+      "2024": 65,
+      "2030": 73,
+      "2040": 85
+    },
+    "Pancreatic": {
+      "2024": 10,
+      "2030": 25,
+      "2040": 50
+    },
+    "Glioblastoma": {
+      "2024": 5,
+      "2030": 10,
+      "2040": 30
+    },
+    "Liver": {
+      "2024": 20,
+      "2030": 35,
+      "2040": 55
+    },
+    "Multiple myeloma": {
+      "2024": 60,
+      "2030": 75,
+      "2040": 90
+    },
+    "Hematologic overall": {
+      "2024": 70,
+      "2030": 85,
+      "2040": 95
+    }
+  },
+  "market_USD_B": {
+    "2024": 240.0,
+    "2027": 290.0,
+    "2030": 350.0,
+    "2035": 430.0,
+    "2040": 500.0
+  },
+  "cost_per_patient_USD_K": {
+    "2024": 50.0,
+    "2027": 60.0,
+    "2030": 80.0,
+    "2035": 115.0,
+    "2040": 150.0
+  },
+  "therapy_landscape": {
+    "Chemo (single)": {
+      "axes": 1,
+      "response": 25,
+      "year": "1950s+"
+    },
+    "Targeted (single)": {
+      "axes": 1,
+      "response": 30,
+      "year": "2000s+"
+    },
+    "ICI (single)": {
+      "axes": 1,
+      "response": 25,
+      "year": "2014+"
+    },
+    "ICI + chemo": {
+      "axes": 2,
+      "response": 40,
+      "year": "2018+"
+    },
+    "Ipi+Nivo": {
+      "axes": 2,
+      "response": 50,
+      "year": "2015+"
+    },
+    "ICI + targeted + chemo": {
+      "axes": 3,
+      "response": 60,
+      "year": "2024+"
+    },
+    "ITU 3-axis (full)": {
+      "axes": 3,
+      "response": 70,
+      "year": "2028+ (predicted)"
+    },
+    "ITU 4-axis (+microbiome)": {
+      "axes": 4,
+      "response": 80,
+      "year": "2032+ (predicted)"
+    }
+  },
+  "falsifiable_predictions": [
+    "3-axis combo for MSS colorectal achieves ≥30% response by 2028",
+    "mRNA cancer vaccine achieves melanoma 5-yr survival ≥80% by 2030",
+    "KRAS G12D inhibitor (post-sotorasib) FDA-approved by 2027",
+    "Quantum computing identifies ≥1 new oncology target by 2030",
+    "TIL therapy standardised for ≥5 solid-tumor types by 2032",
+    "Multi-K liquid biopsy becomes ASCO standard by 2029",
+    "Pancreatic 5-yr survival reaches 30% by 2032",
+    "Glioblastoma 5-yr survival reaches 20% by 2034",
+    "First microbiome-modulating cancer drug FDA-approved by 2030",
+    "ITU multi-K therapeutic index added to NCCN guidelines by 2033"
+  ],
+  "paper_complete": true,
+  "central_thesis": "Cancer = multi-K breakdown; multi-K simultaneous restoration (cellular + metabolic + immune) is the ITU-necessary therapeutic strategy. ITU predicts 5-year survival 30-50% for currently-untreatable pancreatic and glioblastoma by 2040.",
+  "honest_framing": "Pass-1 interpretive paper across 4 phases. Reframes Hallmarks, Warburg, immune evasion, and drug response in ITU language. Predictions are consistent with industry consensus rather than ITU-unique. Pass-2 work would derive a specific ITU figure-of-merit for patient stratification.",
+  "tier": 1,
+  "paper_number": 5,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_qc_doi": "10.5281/zenodo.20139391",
+  "tier_1_ai_doi": "10.5281/zenodo.20150501",
+  "tier_1_crypto_doi": "10.5281/zenodo.20151059",
+  "tier_1_semi_doi": "10.5281/zenodo.20174036",
+  "engineering_rectangle_complete": true,
+  "medicine_start": "Tier 1 #5 begins medicine vector (cancer -> aging #6 -> psychiatry #7)",
+  "next_paper_candidates": [
+    "Tier 1 #6: Aging (organism K degradation over time)",
+    "Tier 1 #7: Psychiatry (FEP failures in brain K)",
+    "Tier 1 #8: Economics (information markets)"
+  ],
+  "caveats": [
+    "Multi-axis response uses linear-with-saturation model",
+    "Survival projections are ITU-informed but extrapolative",
+    "Market/cost trajectory assumes current trend continuation",
+    "10 predictions overlap with industry consensus; not all ITU-unique"
+  ]
+}

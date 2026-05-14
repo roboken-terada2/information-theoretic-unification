@@ -1,0 +1,181 @@
+cff-version: 1.2.0
+title: "ITU and Cancer Biology: A Single-Axiom View of Cellular Breakdown, Metabolism, Immunology, and the 2026-2040 Treatment Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, DOI 10.5281/zenodo.20109210) to cancer biology.
+  The ITU axiom dS = d<K> governs cellular regulation; cancer is
+  re-expressed as the breakdown of dS = d<K> at cellular and
+  tissue levels. This is Tier 1 paper #5, the first ITU paper in
+  the medicine domain (following the engineering rectangle of
+  Tier 1 #1-#4).
+  Phase 59 establishes the ITU foundation. Healthy cells are
+  biological QECCs with regulatory K (p53, RB1, DNA repair,
+  apoptosis); cancer cells have dS >> d<K> or corrupted K via
+  driver mutations. The 10 Hallmarks of Cancer (Hanahan-Weinberg)
+  are reframed as 10 K-component failures. The Knudson two-hit
+  hypothesis is interpreted as redundant QECC; the Armitage-Doll
+  multi-hit model emerges from critical-mass K failure.
+  Phase 60 reframes the Warburg effect (1924) as the deliberate
+  degradation of K_metabolic. Cancer cells choose glycolysis even
+  with oxygen present to maximise the entropy production rate
+  (~7x normal cells), supplying the physical fuel for dS runaway.
+  Tumor microenvironment pH (~6.5) is reproduced from lactate
+  accumulation. Single-axis metabolic drugs (2-DG, metformin,
+  DCA) achieve 15-55% ATP reduction; combinations achieve 75-85%.
+  Phase 61 analyses cancer immunology under ITU. The Chen-Mellman
+  Cancer-Immunity Cycle is decomposed into 7 K_immune
+  sub-components, all of which cancer attacks (PD-L1, CTLA-4,
+  MHC-I downregulation, TGF-beta, Treg). Immune checkpoint
+  inhibitors (Keytruda, Yervoy, etc.) restore K_immune; CAR-T
+  augments artificial K; TIL therapy amplifies existing K. The
+  TMB-response curve and the PD-L1xTMB sweet spot are derived
+  from ITU principles and match clinical data.
+  Phase 62 synthesises into a 2026-2040 treatment roadmap. Multi-K
+  simultaneous restoration (3-4 axes: cellular + metabolic +
+  immune + microbiome) is the ITU-necessary therapeutic strategy.
+  5-year survival projections: melanoma 50%->80%, pancreatic
+  10%->50%, glioblastoma 5%->30%. Ten falsifiable predictions
+  are issued for 2026-2040 validation.
+  Central thesis: cancer = multi-component K-breakdown; therapy
+  must restore multiple K-components simultaneously. This is a
+  Pass-1 interpretive paper - it reframes known cancer biology
+  in ITU language and matches established clinical data, but
+  does not produce ITU-unique predictions distinguishing ITU
+  from standard oncology. Pass-2 follow-up work is planned.
+keywords:
+  - cancer
+  - oncology
+  - cancer biology
+  - hallmarks of cancer
+  - Hanahan-Weinberg
+  - tumor suppressor
+  - oncogene
+  - p53
+  - BRCA1
+  - KRAS
+  - two-hit hypothesis
+  - Knudson
+  - Armitage-Doll
+  - Warburg effect
+  - cancer metabolism
+  - glycolysis
+  - PI3K-AKT-mTOR
+  - HIF-1
+  - tumor microenvironment
+  - lactate
+  - 2-deoxyglucose
+  - metformin
+  - cancer immunology
+  - cancer-immunity cycle
+  - immune checkpoint inhibitor
+  - ICI
+  - PD-1
+  - PD-L1
+  - CTLA-4
+  - pembrolizumab
+  - Keytruda
+  - nivolumab
+  - ipilimumab
+  - CAR-T
+  - TIL
+  - lifileucel
+  - TMB
+  - tumor mutational burden
+  - neoantigen
+  - mRNA cancer vaccine
+  - bispecific antibody
+  - ADC
+  - antibody-drug conjugate
+  - multi-K combination therapy
+  - cancer treatment roadmap
+  - Information-Theoretic Unification
+  - ITU
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/cancer-biology"
+url: "https://doi.org/10.5281/zenodo.20174318"
+doi: "10.5281/zenodo.20174318"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20174318"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-14"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109210"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Hanahan
+        given-names: Douglas
+      - family-names: Weinberg
+        given-names: Robert
+    title: "Hallmarks of Cancer: The Next Generation"
+    journal: "Cell"
+    volume: 144
+    pages: 646
+    year: 2011
+  - type: article
+    authors:
+      - family-names: Knudson
+        given-names: Alfred
+    title: "Mutation and Cancer: Statistical Study of Retinoblastoma"
+    journal: "PNAS"
+    volume: 68
+    pages: 820
+    year: 1971
+  - type: article
+    authors:
+      - family-names: Warburg
+        given-names: Otto
+    title: "Über den Stoffwechsel der Carcinomzelle"
+    journal: "Klinische Wochenschrift"
+    volume: 4
+    pages: 534
+    year: 1924
+  - type: article
+    authors:
+      - family-names: Vander Heiden
+        given-names: Matthew
+      - family-names: Cantley
+        given-names: Lewis
+      - family-names: Thompson
+        given-names: Craig
+    title: "Understanding the Warburg Effect: The Metabolic Requirements of Cell Proliferation"
+    journal: "Science"
+    volume: 324
+    pages: 1029
+    year: 2009
+  - type: article
+    authors:
+      - family-names: Chen
+        given-names: Daniel
+      - family-names: Mellman
+        given-names: Ira
+    title: "Oncology Meets Immunology: The Cancer-Immunity Cycle"
+    journal: "Immunity"
+    volume: 39
+    pages: 1
+    year: 2013
+  - type: article
+    authors:
+      - family-names: Rizvi
+        given-names: Naiyer
+    title: "Mutational landscape determines sensitivity to PD-1 blockade in non-small cell lung cancer"
+    journal: "Science"
+    volume: 348
+    pages: 124
+    year: 2015

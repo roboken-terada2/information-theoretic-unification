@@ -1,0 +1,118 @@
+{
+  "title": "ITU and Cancer Biology: A Single-Axiom View of Cellular Breakdown, Metabolism, Immunology, and the 2026-2040 Treatment Roadmap (v1.0.0)",
+  "description": "<p>We apply the Information-Theoretic Unification (ITU) framework (Terada 2026, DOI 10.5281/zenodo.20109210) to <b>cancer biology</b>. Cancer is re-expressed as the breakdown of the ITU axiom &delta;S = &delta;&lt;K&gt; at cellular and tissue levels. This is <b>Tier 1 paper #5</b>, the <b>first ITU paper in the medicine domain</b>, opening the medicine vector after completing the engineering rectangle (Tier 1 #1-#4).</p><p><b>Phase 59:</b> ITU foundation. Healthy cells are biological QECCs with regulatory K (p53, RB1, DNA repair, apoptosis). Cancer cells exhibit &delta;S &raquo; &delta;&lt;K&gt; (entropy runaway) or corrupted K (driver mutations). The 10 Hallmarks of Cancer (Hanahan-Weinberg) are reframed as 10 K-component failures (mean K-control loss ~75% in cancer cells). The Knudson two-hit hypothesis is reinterpreted as redundant QECC; BRCA1 carrier risk at age 80 reaches 72% in our model, matching epidemiology. The Armitage-Doll multi-hit model (n=5-7) emerges from critical-mass K failure.</p><p><b>Phase 60:</b> The Warburg effect (1924) is reframed as deliberate degradation of K_metabolic. Cancer cells choose glycolysis even with O_2 present to maximise entropy production rate (~7&times; normal), supplying the physical fuel for &delta;S runaway. PI3K/AKT/mTOR constitutive activation is shown as K-circuit corruption. Tumor microenvironment pH ~6.5 is reproduced from lactate accumulation. Single-axis metabolic drugs (2-DG, metformin, DCA) achieve 15-56% ATP reduction; the combination of three drugs reaches 74%, illustrating the ITU prediction that single-K therapies fail due to K-redundancy.</p><p><b>Phase 61:</b> Cancer immunology under ITU. The Chen-Mellman Cancer-Immunity Cycle (2013) is decomposed into 7 K_immune sub-components. Cancer attacks all 7 simultaneously: PD-L1 over-expression, CTLA-4 abuse, MHC-I downregulation, TGF-&beta;, Treg, MDSC, IDO. Immune checkpoint inhibitors (Keytruda, Yervoy) restore K (response 20-50%). The TMB-response sigmoid matches Rizvi 2015; the PD-L1&times;TMB sweet spot predicts 60% response in dual-positive patients. CAR-T (Kymriah, Yescarta) is K-augmentation; TIL therapy (Amtagvi 2024) is K-amplification.</p><p><b>Phase 62:</b> 2026-2040 treatment roadmap. Multi-K simultaneous restoration (3-4 axes: cellular + metabolic + immune + microbiome) is shown to be ITU-necessary. Response rates: 1-axis 25%, 2-axis 45%, 3-axis 65%, 4-axis 75% (saturation). 5-year survival projections: melanoma 50%&rarr;80%, NSCLC 25%&rarr;60%, pancreatic 10%&rarr;50%, glioblastoma 5%&rarr;30% (all 2024 &rarr; 2040). Cancer market grows $240B &rarr; $500B by 2040. Per-patient cost rises $50K &rarr; $150K, creating access-inequity concerns. Ten falsifiable predictions are issued for 2026-2040 validation.</p><p><b>Central thesis</b>: cancer is a multi-component K-breakdown; therapy must restore multiple K-components simultaneously to overcome biological redundancy. The ITU framework provides a unified language across cellular regulation, metabolism, immunology, and drug response. <b>Honest framing</b>: this is a Pass-1 interpretive paper that reframes known cancer biology (Hallmarks, Warburg, ICI, CAR-T) and reproduces established clinical data (BRCA1 72%, tumor pH 6.5, TMB response, ICI combo 50%) but does not produce ITU-unique cancer-biology predictions. Pass-2 follow-up work would derive an ITU-specific therapeutic figure-of-merit validated against patient outcome data.</p><p>This paper <b>opens the medicine vector</b> of the ITU programme. Tier 1 #6 (Aging) and #7 (Psychiatry) will form a medicine triangle, paralleling the engineering rectangle (Quantum Computing 10.5281/zenodo.20139391 + Machine Consciousness 10.5281/zenodo.20150501 + Cryptography 10.5281/zenodo.20151059 + Semiconductors 10.5281/zenodo.20174036).</p><p>Includes 4 theory documents, 4 Python numerical experiments, 4 figures, 4 JSON summaries. Total runtime ~20 seconds.</p>",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken",
+      "orcid": ""
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "version": "1.0.0",
+  "keywords": [
+    "cancer",
+    "oncology",
+    "cancer biology",
+    "hallmarks of cancer",
+    "Hanahan-Weinberg",
+    "tumor suppressor",
+    "oncogene",
+    "p53",
+    "BRCA1",
+    "KRAS",
+    "two-hit hypothesis",
+    "Knudson",
+    "Armitage-Doll multi-hit",
+    "Warburg effect",
+    "cancer metabolism",
+    "glycolysis",
+    "PI3K-AKT-mTOR",
+    "tumor microenvironment",
+    "lactate",
+    "2-deoxyglucose",
+    "metformin",
+    "cancer immunology",
+    "cancer-immunity cycle",
+    "immune checkpoint inhibitor",
+    "ICI",
+    "PD-1",
+    "PD-L1",
+    "CTLA-4",
+    "pembrolizumab",
+    "Keytruda",
+    "nivolumab",
+    "ipilimumab",
+    "CAR-T",
+    "TIL",
+    "lifileucel",
+    "TMB",
+    "tumor mutational burden",
+    "neoantigen",
+    "mRNA cancer vaccine",
+    "bispecific antibody",
+    "ADC",
+    "antibody-drug conjugate",
+    "multi-K combination therapy",
+    "cancer treatment roadmap",
+    "Information-Theoretic Unification",
+    "ITU"
+  ],
+  "communities": [
+    {"identifier": "physics"}
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20109210",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isPartOf",
+      "identifier": "10.5281/zenodo.20109210",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20139391",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20150501",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20151059",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20174036",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/roboken-terada2/information-theoretic-unification",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://note.com/roboken_ceo",
+      "resource_type": "publication-article",
+      "scheme": "url"
+    }
+  ]
+}

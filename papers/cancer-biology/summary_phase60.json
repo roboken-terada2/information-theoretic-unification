@@ -1,0 +1,74 @@
+{
+  "phase": 60,
+  "paper": "ITU and Cancer Biology",
+  "description": "Warburg effect: ITU view of cancer metabolic K-degradation",
+  "atp_comparison": {
+    "normal": {
+      "glucose_rate": 1.0,
+      "atp_total": 32.6,
+      "entropy_rate_kJ_per_K": 8.431612903225806,
+      "lactate_rate": 0.2
+    },
+    "cancer": {
+      "glucose_rate": 30.0,
+      "atp_total": 213.00000000000003,
+      "entropy_rate_kJ_per_K": 59.738709677419365,
+      "lactate_rate": 51.0
+    }
+  },
+  "lactate_pH_48h": {
+    "tumor_lactate_mM": 72.0,
+    "tumor_pH": 6.0,
+    "literature_tumor_pH_range": "6.5 - 6.8"
+  },
+  "drug_effects": {
+    "2-DG": {
+      "atp_reduction_dose1": 0.5620320658962018,
+      "target": "hexokinase"
+    },
+    "DCA": {
+      "atp_reduction_dose1": 0.17293294335267748,
+      "target": "PDK->PDH"
+    },
+    "Metformin": {
+      "atp_reduction_dose1": 0.2593994150290162,
+      "target": "Complex I"
+    },
+    "Etomoxir": {
+      "atp_reduction_dose1": 0.1296997075145081,
+      "target": "CPT-1"
+    },
+    "CB-839": {
+      "atp_reduction_dose1": 0.21616617919084682,
+      "target": "Glutaminase"
+    },
+    "Combo": {
+      "atp_reduction_dose1": 0.7349650092488792,
+      "target": "2-DG+Met+CB-839"
+    }
+  },
+  "warburg_indices": {
+    "Healthy liver": 0.05,
+    "Healthy brain": 0.09999999999999999,
+    "Resting muscle": 0.2,
+    "Quiescent fibroblast": 0.1,
+    "Activated T cell": 0.5,
+    "Glycolytic cancer": 11.25,
+    "Hypoxic cancer": 80.0
+  },
+  "central_thesis": "Cancer deliberately degrades K_metabolic (OXPHOS -> glycolysis) to maximise entropy production, fuelling dS runaway. Monotherapy fails because of K-redundancy; combos required.",
+  "honest_framing": "Pass-1 interpretive paper: reframes Warburg, PI3K/AKT/mTOR, tumor microenvironment, and drug responses in ITU language. No novel metabolic drug target derived from ITU first principles.",
+  "tier": 1,
+  "paper_number": 5,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "next_phases": [
+    "Phase 61: Cancer immunology, immune evasion, immunotherapy (ITU)",
+    "Phase 62: ITU-informed cancer treatment roadmap and 10 predictions"
+  ],
+  "caveats": [
+    "ATP/entropy rates use stoichiometric averages",
+    "pH formula is illustrative linear",
+    "Drug dose-response is sigmoid approximation",
+    "Warburg index values typical-range, not patient-specific"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "phase": 61,
+  "paper": "ITU and Cancer Biology",
+  "description": "Cancer immunology under ITU — K_immune corruption and ICI restoration",
+  "immunity_cycle": {
+    "intact_killing_rate": 0.9999998848211744,
+    "cancer_killing_rate": 0.6966317103678614,
+    "K_immune_reduction_percent": 30.336820939490707,
+    "evasion_factors": [
+      1.0,
+      0.3,
+      0.4,
+      0.6,
+      0.4,
+      0.2,
+      0.1
+    ]
+  },
+  "tmb_response_model": {
+    "TMB_50": 15.045889072563853,
+    "TMB_150": 26.085302092690622,
+    "TMB_250": 38.91469790730938,
+    "TMB_400": 54.081195033705086,
+    "TMB_600": 62.45422801821032
+  },
+  "ici_regimens": {
+    "Anti-CTLA-4 mono": {
+      "response_pct": 10.0,
+      "grade3_toxicity_pct": 20.0
+    },
+    "Anti-PD-1 mono": {
+      "response_pct": 25.0,
+      "grade3_toxicity_pct": 15.0
+    },
+    "Anti-PD-L1 mono": {
+      "response_pct": 20.0,
+      "grade3_toxicity_pct": 12.0
+    },
+    "CTLA-4 + PD-1": {
+      "response_pct": 50.0,
+      "grade3_toxicity_pct": 55.00000000000001
+    },
+    "PD-1 + Chemo": {
+      "response_pct": 40.0,
+      "grade3_toxicity_pct": 40.0
+    },
+    "PD-1 + VEGFi": {
+      "response_pct": 45.0,
+      "grade3_toxicity_pct": 35.0
+    },
+    "Triple (PD-1+CTLA-4+chemo)": {
+      "response_pct": 55.00000000000001,
+      "grade3_toxicity_pct": 65.0
+    }
+  },
+  "sweet_spot_examples": {
+    "low_pdl1_low_tmb": 6.75535372513245,
+    "medium": 20.166666666666664,
+    "high_pdl1_high_tmb": 34.62708945324713
+  },
+  "central_thesis": "Cancer immune evasion = 7-step K_immune corruption. ICI restores K (response 20-50%). TMB and PD-L1 predict 'K-recognisable density'. CAR-T = K-augmentation; TIL = K-amplification.",
+  "honest_framing": "Pass-1 interpretive paper. Reframes immune checkpoint biology, TMB-response, CAR-T/TIL in ITU language. No novel ITU-derived target.",
+  "tier": 1,
+  "paper_number": 5,
+  "ICI_market_2024_USD_B": 50,
+  "Keytruda_annual_sales_USD_B": 25,
+  "next_phases": [
+    "Phase 62: ITU-informed cancer roadmap + 10 falsifiable predictions"
+  ],
+  "caveats": [
+    "Cycle ODE is illustrative, not validated against clinical data",
+    "TMB sigmoid uses simplified parameters",
+    "Toxicity values are typical-range, not patient-specific",
+    "Heatmap model omits MSI, T-cell exhaustion, CAF density"
+  ]
+}
