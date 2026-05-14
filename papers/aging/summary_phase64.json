@@ -1,0 +1,82 @@
+{
+  "phase": 64,
+  "paper": "ITU and Aging",
+  "description": "Three pillars: telomere, mitochondria, proteostasis",
+  "telomere": {
+    "L0_bp": 12000,
+    "shortening_per_division_bp": 70,
+    "critical_bp": 4000,
+    "hayflick_divisions": 53.333333333333336,
+    "K_component": "K_replication"
+  },
+  "mtDNA_heteroplasmy": {
+    "ages_simulated": [
+      30,
+      50,
+      80
+    ],
+    "mean_mutant_fraction": {
+      "30": 0.09801727348758661,
+      "50": 0.21996237579391825,
+      "80": 0.4862537540713733
+    },
+    "fraction_cells_above_60pct_threshold": {
+      "30": 0.0,
+      "50": 0.0,
+      "80": 0.105
+    },
+    "K_component": "K_energy"
+  },
+  "proteostasis": {
+    "normal_disease_onset_age": "Never",
+    "APOE4_disease_onset_age": 83.91959798994974,
+    "diseases": [
+      "Alzheimer's",
+      "Parkinson's",
+      "Huntington's",
+      "ALS",
+      "Prion disease"
+    ],
+    "K_component": "K_information_integrity"
+  },
+  "composite_K_at_age": {
+    "20": {
+      "K_telomere": 0.85,
+      "K_mito": 0.8333333333333333,
+      "K_proteostasis": 0.940257957464046,
+      "K_overall": 0.6660160532036992
+    },
+    "40": {
+      "K_telomere": 0.7,
+      "K_mito": 0.6666666666666666,
+      "K_proteostasis": 0.8988280961714249,
+      "K_overall": 0.4194531115466649
+    },
+    "60": {
+      "K_telomere": 0.55,
+      "K_mito": 0.5,
+      "K_proteostasis": 0.8403785552759664,
+      "K_overall": 0.23110410270089077
+    },
+    "80": {
+      "K_telomere": 0.4,
+      "K_mito": 0.33333333333333326,
+      "K_proteostasis": 0.7621439291955725,
+      "K_overall": 0.10161919055940964
+    }
+  },
+  "central_thesis": "Three pillars are ITU's fundamental K-components: K_replication (telomere), K_energy (mitochondria), K_information_integrity (proteostasis). They mutually reinforce decay in positive feedback, explaining the accelerating nature of aging.",
+  "honest_framing": "Pass-1 interpretive paper. Reframes Hayflick limit, heteroplasmy, and prion-like proteostasis loss in ITU language. No ITU-derived novel intervention.",
+  "tier": 1,
+  "paper_number": 6,
+  "next_phases": [
+    "Phase 65: Rapamycin, metformin, senolytics, NAD+ (interventions)",
+    "Phase 66: ITU longevity roadmap 2026-2050 and 10 predictions"
+  ],
+  "caveats": [
+    "Telomere shortening rate is typical average (50-200 bp range)",
+    "mtDNA simulation uses simplified Bernoulli mutation model",
+    "Protein aggregate threshold is highly disease-specific",
+    "Real aging involves >12 hallmark interactions"
+  ]
+}

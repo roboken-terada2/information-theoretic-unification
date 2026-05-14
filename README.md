@@ -44,11 +44,13 @@ release tag.
 | 3 | [ITU and Cryptography](papers/cryptography/) | [10.5281/zenodo.20151059](https://doi.org/10.5281/zenodo.20151059) | 51–54 | ✅ v1.0.0 |
 | 4 | [ITU and Semiconductors](papers/semiconductors/) | [10.5281/zenodo.20174036](https://doi.org/10.5281/zenodo.20174036) | 55–58 | ✅ v1.0.0 |
 | 5 | [ITU and Cancer Biology](papers/cancer-biology/) | [10.5281/zenodo.20174318](https://doi.org/10.5281/zenodo.20174318) | 59–62 | ✅ v1.0.0 |
-| 6+ | (full roadmap to Phase 220) | TBD | 63-220 | planned |
+| 6 | [ITU and Aging](papers/aging/) | [10.5281/zenodo.20175663](https://doi.org/10.5281/zenodo.20175663) | 63–66 | ✅ v1.0.0 |
+| 7+ | (full roadmap to Phase 220) | TBD | 67-220 | planned |
 
 **The four engineering Tier 1 papers (QC, AI/ASI, Cryptography, Semiconductors)
-form the ITU engineering rectangle. Tier 1 #5 (Cancer Biology) opens the
-medicine vector — all derived from the single axiom δS = δ⟨K⟩.**
+form the ITU engineering rectangle. Tier 1 #5 (Cancer) + #6 (Aging) advance
+the medicine triangle to 2/3 (Psychiatry #7 planned) — all derived from
+the single axiom δS = δ⟨K⟩.**
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 

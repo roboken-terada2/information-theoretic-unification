@@ -1,0 +1,176 @@
+{
+  "phase": 66,
+  "paper": "ITU and Aging",
+  "description": "Longevity roadmap 2026-2050 (Tier 1 #6 final)",
+  "lifespan_scenarios": {
+    "2024": {
+      "status_quo": 82.0,
+      "ITU_mid": 82.0,
+      "ITU_optimistic": 82.0
+    },
+    "2030": {
+      "status_quo": 83.5,
+      "ITU_mid": 85.0,
+      "ITU_optimistic": 86.0
+    },
+    "2040": {
+      "status_quo": 86.0,
+      "ITU_mid": 90.0,
+      "ITU_optimistic": 93.0
+    },
+    "2050": {
+      "status_quo": 88.5,
+      "ITU_mid": 95.0,
+      "ITU_optimistic": 100.0
+    }
+  },
+  "healthspan_lifespan_gap": {
+    "2024": {
+      "lifespan": 82.0,
+      "healthspan": 72.0,
+      "gap": 10.0
+    },
+    "2030": {
+      "lifespan": 85.0,
+      "healthspan": 78.0,
+      "gap": 7.0
+    },
+    "2040": {
+      "lifespan": 90.0,
+      "healthspan": 85.0,
+      "gap": 5.0
+    },
+    "2050": {
+      "lifespan": 95.0,
+      "healthspan": 92.0,
+      "gap": 3.0
+    }
+  },
+  "industry_investment_USD_B": {
+    "2018": 0.5,
+    "2022": 4.0,
+    "2024": 5.2,
+    "2030": 15.0,
+    "2040": 50.0,
+    "2050": 120.0
+  },
+  "key_companies_2024": {
+    "Altos Labs": {
+      "funding_M_USD": 3000,
+      "year": 2021,
+      "focus": "OSKM"
+    },
+    "Calico (Alphabet)": {
+      "funding_M_USD": 3000,
+      "year": 2013,
+      "focus": "basic"
+    },
+    "Retro Biosciences": {
+      "funding_M_USD": 180,
+      "year": 2021,
+      "focus": "OSKM"
+    },
+    "Unity Biotech": {
+      "funding_M_USD": 300,
+      "year": 2011,
+      "focus": "senolytics"
+    },
+    "Loyal": {
+      "funding_M_USD": 75,
+      "year": 2019,
+      "focus": "dog longevity"
+    },
+    "Insilico Medicine": {
+      "funding_M_USD": 400,
+      "year": 2014,
+      "focus": "AI drug disc."
+    },
+    "Life Biosciences": {
+      "funding_M_USD": 60,
+      "year": 2017,
+      "focus": "Sinclair-aligned"
+    }
+  },
+  "regulatory_milestones": [
+    {
+      "year": 2024,
+      "event": "Loyal LOY-001: dog longevity RXE",
+      "tier": "achieved"
+    },
+    {
+      "year": 2028,
+      "event": "TAME trial primary endpoint",
+      "tier": "expected"
+    },
+    {
+      "year": 2030,
+      "event": "FDA discusses 'biological aging'",
+      "tier": "predicted"
+    },
+    {
+      "year": 2032,
+      "event": "Senolytics broad approvals",
+      "tier": "predicted"
+    },
+    {
+      "year": 2035,
+      "event": "First in-human OSKM trial",
+      "tier": "predicted"
+    },
+    {
+      "year": 2038,
+      "event": "Multi-K combo insurance coverage",
+      "tier": "predicted"
+    },
+    {
+      "year": 2040,
+      "event": "ICD-12 codes 'biological aging'",
+      "tier": "predicted"
+    },
+    {
+      "year": 2050,
+      "event": "Healthspan-lifespan gap < 3 yr",
+      "tier": "predicted"
+    }
+  ],
+  "falsifiable_predictions": [
+    "TAME trial achieves primary endpoint by 2028 (multi-morbidity reduction)",
+    "FDA approves first 'biological aging' related indication by 2030",
+    "US average lifespan recovers to 81 years by 2030 (currently 78)",
+    "Japan average lifespan reaches 86 years by 2035",
+    "First in-human OSKM partial reprogramming trial begins by 2030",
+    "5+ senolytics drugs approved by FDA by 2035",
+    "Multi-K combination therapy reimbursed by insurance by 2040",
+    "Longevity industry investment reaches $15B/yr by 2030",
+    "Healthspan-lifespan gap drops below 5 years by 2050",
+    "Centenarian population worldwide reaches 4 million by 2050 (vs 0.6M today)"
+  ],
+  "paper_complete": true,
+  "central_thesis": "Multi-K interventions reach the market over 2026-2050; lifespan rises 82 -> 95 yr, healthspan 72 -> 92 yr, gap shrinks 10 -> 3 yr. Centenarian population multiplies 7x globally.",
+  "honest_framing": "Pass-1 interpretive paper across 4 phases. Reframes Hallmarks of Aging, Gompertz law, intervention biology in ITU language. Predictions are ITU-informed but overlap with industry/demographic consensus. Pass-2 would derive ITU-unique biomarker or intervention validated against long-term data.",
+  "tier": 1,
+  "paper_number": 6,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_qc_doi": "10.5281/zenodo.20139391",
+  "tier_1_ai_doi": "10.5281/zenodo.20150501",
+  "tier_1_crypto_doi": "10.5281/zenodo.20151059",
+  "tier_1_semi_doi": "10.5281/zenodo.20174036",
+  "tier_1_cancer_doi": "10.5281/zenodo.20174318",
+  "medicine_triangle_status": {
+    "Cancer (#5)": "completed",
+    "Aging (#6)": "completed (THIS PAPER)",
+    "Psychiatry (#7)": "planned (Phase 67-70)"
+  },
+  "next_paper_candidates": [
+    "Tier 1 #7: Psychiatry (FEP failures in brain K)",
+    "Tier 1 #8: Economics (information markets)",
+    "Tier 1 #9: Free will (revisited)"
+  ],
+  "caveats": [
+    "Lifespan projections assume continued multi-K intervention success",
+    "Industry investment forecast extrapolates current trajectory",
+    "Regulatory milestones depend on TAME outcome (2028)",
+    "OSKM safety in humans is unproven",
+    "Demographic projections ignore catastrophic risks (pandemic, war, climate)"
+  ]
+}

@@ -21,14 +21,14 @@ Each Tier 1 paper:
 | 3 | [ITU and Cryptography](cryptography/) | [10.5281/zenodo.20151059](https://doi.org/10.5281/zenodo.20151059) | 51-54 | `cryptography/` | ✅ v1.0.0 |
 | 4 | [ITU and Semiconductors](semiconductors/) | [10.5281/zenodo.20174036](https://doi.org/10.5281/zenodo.20174036) | 55-58 | `semiconductors/` | ✅ v1.0.0 |
 | 5 | [ITU and Cancer Biology](cancer-biology/) | [10.5281/zenodo.20174318](https://doi.org/10.5281/zenodo.20174318) | 59-62 | `cancer-biology/` | ✅ v1.0.0 |
+| 6 | [ITU and Aging](aging/) | [10.5281/zenodo.20175663](https://doi.org/10.5281/zenodo.20175663) | 63-66 | `aging/` | ✅ v1.0.0 |
 
-> **Engineering Rectangle complete + Medicine Vector begins**: Tier 1 #1-#4 form the engineering rectangle (computation, intelligence, communication, substrate). **Tier 1 #5 (Cancer Biology) opens the medicine vector**, to be joined by Aging (#6) and Psychiatry (#7) to form a medicine triangle. All under the ITU axiom dS = d<K>.
+> **Engineering Rectangle complete + Medicine Triangle at 2/3**: Tier 1 #1-#4 form the engineering rectangle (computation, intelligence, communication, substrate). **Tier 1 #5 (Cancer, acute K breakdown) + #6 (Aging, chronic K decay)** form 2/3 of the medicine triangle. Psychiatry (#7) is planned to close the triangle. All under the ITU axiom dS = d<K>.
 
 ## Planned Tier 1 Papers
 
 | # | Paper | Phases | Status |
 |---|---|---|---|
-| 6 | ITU and Aging | 63-66 | planned |
 | 7 | ITU and Psychiatry / FEP failures | 67-70 | planned |
 | 8 | ITU and Economics / Information Markets | 71-74 | planned |
 | 9 | ITU and Free Will | 75-78 | planned |
@@ -67,7 +67,12 @@ papers/
 │   ├── theory_phase59-62.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Tier 1 #6+ planned)
+├── aging/                              Tier 1 #6: Aging (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase63-66.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Tier 1 #7+ planned)
 ```
 
 ## How to cite a Tier 1 paper
@@ -107,6 +112,13 @@ Terada, M. (2026). ITU and Cancer Biology: A Single-Axiom View of
 Cellular Breakdown, Metabolism, Immunology, and the 2026-2040
 Treatment Roadmap (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20174318
+```
+
+```
+Terada, M. (2026). ITU and Aging: A Single-Axiom View of K_organism
+Decay, Three-Pillar Mechanisms, Interventions, and the 2026-2050
+Roadmap (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20175663
 ```
 
 Plus the core ITU citation:

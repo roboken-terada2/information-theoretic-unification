@@ -1,0 +1,127 @@
+{
+  "title": "ITU and Aging: A Single-Axiom View of K_organism Decay, Three-Pillar Mechanisms, Interventions, and the 2026-2050 Roadmap (v1.0.0)",
+  "description": "<p>We apply the Information-Theoretic Unification (ITU) framework (Terada 2026, DOI 10.5281/zenodo.20109210) to <b>aging biology</b>. Aging is re-expressed as slow exponential decay of K_organism over time - the chronic counterpart to cancer's acute K breakdown (Tier 1 #5, DOI 10.5281/zenodo.20174318). This is <b>Tier 1 paper #6</b>, advancing the ITU <b>medicine triangle to 2/3 complete</b>.</p><p><b>Phase 63:</b> ITU foundation. The Gompertz mortality law &mu;(t) = A&middot;exp(&alpha;t) is derived as a direct consequence of K(t) = K_0&middot;exp(-&beta;t). The 12 Hallmarks of Aging (Lopez-Otin 2023) are mapped to 12 K-component degradation modes; mean K-control loss reaches 53.6% at age 80 vs 25. The Horvath DNA methylation clock is interpreted as a K-fidelity meter; Sinclair's information theory of aging finds its mathematical basis in ITU. Species lifespan-&alpha; product (mouse 2.8, dog 3.0, human 10.4, bowhead 8.4, lobster/hydra ~1) confirms ITU's L &prop; 1/&alpha; prediction.</p><p><b>Phase 64:</b> Three fundamental pillars - telomere attrition (K_replication), mitochondrial dysfunction (K_energy), proteostasis loss (K_information_integrity). The Hayflick limit is reproduced at ~53 divisions. mtDNA heteroplasmy with clonal expansion gives 10.5% of cells above 60% dysfunction threshold at age 80. Protein aggregate dynamics with prion-like amplification (C^2 term) produce APOE4-carrier disease onset at age 84. The composite K(age) shows positive feedback decay - aging accelerates because the three pillars mutually reinforce.</p><p><b>Phase 65:</b> Six longevity interventions evaluated on a unified K-component restoration matrix - rapamycin (K_proteostasis, +12% mouse lifespan), metformin (K_energy, +5%), senolytics D+Q (K_immune via SASP removal, +25%), NAD+ boosters (K_energy, +8%), caloric restriction (multi-K, +30%), OSKM partial reprogramming (K_information +60%, +20% lifespan but TRL=2 with cancer risk). Combinations yield diminishing returns: Rapa+Met +15%, triple combo +35%, five-drug combo +52%. As in cancer (Tier 1 #5), multi-K simultaneous restoration is ITU-necessary.</p><p><b>Phase 66:</b> 2026-2050 longevity roadmap. Three lifespan scenarios: status quo (88 yr by 2050), ITU mid (95), ITU+OSKM optimistic (100). The healthspan-lifespan gap shrinks 10 &rarr; 3 years. Longevity industry investment grows $5.2B (2024) &rarr; $120B (2050). Regulatory milestones: TAME trial results 2028, FDA biological-aging indication by 2030, OSKM in-human trial by 2030, multi-K combo insurance coverage by 2040, ICD-12 codes for 'biological aging' by 2040. Ten falsifiable predictions issued for 2026-2050.</p><p><b>Central thesis</b>: aging = chronic exponential decay of K_organism; therapy requires multi-K simultaneous restoration over decades (vs cancer's acute multi-K restoration over months). <b>Honest framing</b>: this is a Pass-1 interpretive paper that reframes known gerontology (Hallmarks, Gompertz, Hayflick, Horvath, Sinclair theory, intervention pharmacology) in ITU language and matches established data but does not produce ITU-unique predictions. Pass-2 follow-up work would derive an ITU-specific longevity biomarker validated against long-term outcome data.</p><p>This <b>completes the second vertex of the ITU medicine triangle</b>: Cancer (#5, acute K breakdown) + Aging (#6, chronic K decay). Tier 1 #7 (Psychiatry) is planned next. The engineering rectangle (Quantum Computing 10.5281/zenodo.20139391 + Machine Consciousness 10.5281/zenodo.20150501 + Cryptography 10.5281/zenodo.20151059 + Semiconductors 10.5281/zenodo.20174036) is now joined by a 2-vertex medicine vector.</p><p>Includes 4 theory documents, 4 Python numerical experiments, 4 figures, 4 JSON summaries. Total runtime ~25 seconds.</p>",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken",
+      "orcid": ""
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "version": "1.0.0",
+  "keywords": [
+    "aging",
+    "gerontology",
+    "longevity",
+    "hallmarks of aging",
+    "Lopez-Otin",
+    "Gompertz mortality",
+    "Hayflick limit",
+    "telomere",
+    "telomerase",
+    "mitochondrial dysfunction",
+    "heteroplasmy",
+    "mtDNA",
+    "free radical theory",
+    "proteostasis",
+    "autophagy",
+    "prion-like aggregation",
+    "Alzheimer's",
+    "Parkinson's",
+    "APOE4",
+    "Horvath clock",
+    "DNA methylation",
+    "epigenetic clock",
+    "Sinclair information theory",
+    "cellular senescence",
+    "SASP",
+    "rapamycin",
+    "mTOR",
+    "metformin",
+    "AMPK",
+    "TAME trial",
+    "senolytics",
+    "dasatinib",
+    "quercetin",
+    "fisetin",
+    "NAD+",
+    "NMN",
+    "NR",
+    "caloric restriction",
+    "OSKM",
+    "Yamanaka factors",
+    "partial reprogramming",
+    "Altos Labs",
+    "Retro Biosciences",
+    "Calico",
+    "healthspan",
+    "lifespan",
+    "longevity roadmap",
+    "Information-Theoretic Unification",
+    "ITU"
+  ],
+  "communities": [
+    {"identifier": "physics"}
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20109210",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isPartOf",
+      "identifier": "10.5281/zenodo.20109210",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20139391",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20150501",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20151059",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20174036",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.20174318",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/roboken-terada2/information-theoretic-unification",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "https://note.com/roboken_ceo",
+      "resource_type": "publication-article",
+      "scheme": "url"
+    }
+  ]
+}

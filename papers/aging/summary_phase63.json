@@ -1,0 +1,111 @@
+{
+  "phase": 63,
+  "paper": "ITU and Aging",
+  "description": "ITU foundation: aging = K_organism slow exponential decay",
+  "species_gompertz": {
+    "Mouse": {
+      "alpha": 0.7,
+      "max_lifespan_yr": 4,
+      "L_times_alpha": 2.8
+    },
+    "Dog": {
+      "alpha": 0.15,
+      "max_lifespan_yr": 20,
+      "L_times_alpha": 3.0
+    },
+    "Human": {
+      "alpha": 0.085,
+      "max_lifespan_yr": 122,
+      "L_times_alpha": 10.370000000000001
+    },
+    "Bowhead": {
+      "alpha": 0.04,
+      "max_lifespan_yr": 211,
+      "L_times_alpha": 8.44
+    },
+    "Lobster (negligible senescence)": {
+      "alpha": 0.01,
+      "max_lifespan_yr": 100,
+      "L_times_alpha": 1.0
+    },
+    "Hydra (immortal)": {
+      "alpha": 0.001,
+      "max_lifespan_yr": 1000,
+      "L_times_alpha": 1.0
+    }
+  },
+  "hallmarks_K_profile": {
+    "young_age_25_mean_K": 0.9333333333333332,
+    "old_age_80_mean_K": 0.4333333333333333,
+    "K_loss_percent": 53.57142857142857,
+    "hallmarks": [
+      "Genomic instability",
+      "Telomere attrition",
+      "Epigenetic alterations",
+      "Loss of proteostasis",
+      "Disabled autophagy",
+      "Nutrient sensing dereg.",
+      "Mitochondrial dysfn.",
+      "Cellular senescence",
+      "Stem cell exhaustion",
+      "Altered cell comm.",
+      "Chronic inflammation",
+      "Dysbiosis"
+    ],
+    "young_K_values": [
+      0.95,
+      0.95,
+      0.92,
+      0.95,
+      0.93,
+      0.9,
+      0.95,
+      0.95,
+      0.95,
+      0.93,
+      0.9,
+      0.92
+    ],
+    "old_K_values": [
+      0.5,
+      0.4,
+      0.45,
+      0.5,
+      0.45,
+      0.4,
+      0.45,
+      0.35,
+      0.3,
+      0.55,
+      0.35,
+      0.5
+    ]
+  },
+  "horvath_clock_examples": {
+    "age_50_healthy": 43.12623212586469,
+    "age_50_average": 50.0,
+    "age_50_unhealthy": 60.86612052374244
+  },
+  "central_thesis": "Aging = exponential decay of K_organism over time. Gompertz law mu(t) ~ exp(alpha*t) emerges from ITU K-fidelity decay. 12 Hallmarks map to 12 K-component degradation modes. Horvath clock = K-fidelity meter. Sinclair's information theory of aging is ITU's chronic-K-decay version.",
+  "honest_framing": "Pass-1 interpretive paper. Reframes Hallmarks of Aging, Gompertz law, Horvath clock, and Sinclair theory in ITU language. No novel ITU-derived intervention or biomarker.",
+  "tier": 1,
+  "paper_number": 6,
+  "medicine_triangle": [
+    "Tier 1 #5: Cancer (acute K breakdown)",
+    "Tier 1 #6: Aging (chronic K decay) — THIS PAPER",
+    "Tier 1 #7: Psychiatry (FEP failures, planned)"
+  ],
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_cancer_doi": "10.5281/zenodo.20174318",
+  "next_phases": [
+    "Phase 64: Telomeres, mitochondria, proteostasis (deep dive)",
+    "Phase 65: Senolytics, rapamycin, metformin, NAD+ (interventions)",
+    "Phase 66: ITU longevity roadmap and 10 predictions"
+  ],
+  "caveats": [
+    "Gompertz alpha values are typical-range",
+    "K-component values for hallmarks are illustrative",
+    "Horvath simulation uses simplified linear model with noise",
+    "Real biological aging is more heterogeneous"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "phase": 65,
+  "paper": "ITU and Aging",
+  "description": "Longevity interventions assessed by K-component restoration profile",
+  "interventions": {
+    "Rapamycin": {
+      "mouse_lifespan_pct": 12,
+      "K_components": {
+        "K_replication": 0.0,
+        "K_energy": 0.1,
+        "K_proteostasis": 0.3,
+        "K_immune": -0.1,
+        "K_information": 0.1
+      },
+      "human_TRL": 5
+    },
+    "Metformin": {
+      "mouse_lifespan_pct": 5,
+      "K_components": {
+        "K_replication": 0.0,
+        "K_energy": 0.25,
+        "K_proteostasis": 0.1,
+        "K_immune": 0.1,
+        "K_information": 0.05
+      },
+      "human_TRL": 8
+    },
+    "Senolytics (D+Q)": {
+      "mouse_lifespan_pct": 25,
+      "K_components": {
+        "K_replication": 0.15,
+        "K_energy": 0.15,
+        "K_proteostasis": 0.1,
+        "K_immune": 0.3,
+        "K_information": 0.1
+      },
+      "human_TRL": 4
+    },
+    "NAD+ Boosters (NMN/NR)": {
+      "mouse_lifespan_pct": 8,
+      "K_components": {
+        "K_replication": 0.05,
+        "K_energy": 0.3,
+        "K_proteostasis": 0.1,
+        "K_immune": 0.1,
+        "K_information": 0.1
+      },
+      "human_TRL": 5
+    },
+    "Caloric Restriction": {
+      "mouse_lifespan_pct": 30,
+      "K_components": {
+        "K_replication": 0.1,
+        "K_energy": 0.3,
+        "K_proteostasis": 0.3,
+        "K_immune": 0.1,
+        "K_information": 0.1
+      },
+      "human_TRL": 7
+    },
+    "OSKM partial reprog": {
+      "mouse_lifespan_pct": 20,
+      "K_components": {
+        "K_replication": 0.4,
+        "K_energy": 0.15,
+        "K_proteostasis": 0.15,
+        "K_immune": 0.1,
+        "K_information": 0.6
+      },
+      "human_TRL": 2
+    }
+  },
+  "combinations": {
+    "Rapamycin only": {
+      "interventions": [
+        "Rapamycin"
+      ],
+      "predicted_lifespan_pct": 12.0,
+      "K_profile": [
+        0.0,
+        0.1,
+        0.3,
+        -0.1,
+        0.1
+      ]
+    },
+    "Metformin only": {
+      "interventions": [
+        "Metformin"
+      ],
+      "predicted_lifespan_pct": 5.0,
+      "K_profile": [
+        0.0,
+        0.25,
+        0.1,
+        0.1,
+        0.05
+      ]
+    },
+    "Rapa + Met": {
+      "interventions": [
+        "Rapamycin",
+        "Metformin"
+      ],
+      "predicted_lifespan_pct": 15.0,
+      "K_profile": [
+        0.0,
+        0.35,
+        0.4,
+        0.0,
+        0.15000000000000002
+      ]
+    },
+    "Rapa + Acarbose (proxy)": {
+      "interventions": [
+        "Rapamycin",
+        "NAD+ Boosters (NMN/NR)"
+      ],
+      "predicted_lifespan_pct": 16.8,
+      "K_profile": [
+        0.05,
+        0.4,
+        0.4,
+        0.0,
+        0.2
+      ]
+    },
+    "D+Q + NMN": {
+      "interventions": [
+        "Senolytics (D+Q)",
+        "NAD+ Boosters (NMN/NR)"
+      ],
+      "predicted_lifespan_pct": 29.8,
+      "K_profile": [
+        0.2,
+        0.44999999999999996,
+        0.2,
+        0.4,
+        0.2
+      ]
+    },
+    "Triple (D+Q+Rapa+NMN)": {
+      "interventions": [
+        "Senolytics (D+Q)",
+        "Rapamycin",
+        "NAD+ Boosters (NMN/NR)"
+      ],
+      "predicted_lifespan_pct": 35.08,
+      "K_profile": [
+        0.2,
+        0.55,
+        0.5,
+        0.3,
+        0.30000000000000004
+      ]
+    },
+    "All five (excl. OSKM)": {
+      "interventions": [
+        "Rapamycin",
+        "Metformin",
+        "Senolytics (D+Q)",
+        "NAD+ Boosters (NMN/NR)",
+        "Caloric Restriction"
+      ],
+      "predicted_lifespan_pct": 51.696,
+      "K_profile": [
+        0.30000000000000004,
+        1.0,
+        0.8999999999999999,
+        0.5,
+        0.44999999999999996
+      ]
+    }
+  },
+  "K_at_age_80": {
+    "no_intervention": 0.38289288597511206,
+    "rapamycin": 0.41478291168158143,
+    "triple_combo": 0.46766642700990924,
+    "five_drug_combo": 0.5272924240430485,
+    "with_OSKM": 0.5488116360940265
+  },
+  "central_thesis": "Every single intervention restores 1-2 K-components only; ITU requires combinations to approach significant lifespan extension. CR is the most multi-K-impacting single intervention but compliance limits real-world use. OSKM reprogramming is the most ambitious K_information restorer with highest cancer risk.",
+  "honest_framing": "Pass-1 interpretive paper. K-component matrix values are illustrative based on mechanism. Lifespan numbers from animal trials. Synergy factor (0.6) is heuristic. No ITU-derived novel intervention proposed.",
+  "tier": 1,
+  "paper_number": 6,
+  "active_human_trials": [
+    "TAME (Metformin, 3000 ppl, results 2028)",
+    "PEARL (Rapamycin intermittent, 200 ppl)",
+    "UNITY 311 (UBX1325 senolytic, retinopathy)",
+    "Altos Labs / Retro Bio (OSKM in vivo, pre-clinical)"
+  ],
+  "regulatory_status": "FDA does not yet recognise 'aging' as disease; longevity drugs must apply via specific indication (multi-morbidity, frailty, etc.). TAME aims to be the regulatory wedge.",
+  "next_phases": [
+    "Phase 66: ITU longevity roadmap 2026-2050 + 10 predictions"
+  ],
+  "caveats": [
+    "Mouse-to-human translation is uncertain (mice live 4 yr, humans 80+)",
+    "K-component values are illustrative",
+    "Synergy assumption (0.6 diminishing returns) is heuristic",
+    "OSKM cancer risk is significant; in vivo safety unproven",
+    "CR compliance is the main real-world limitation"
+  ]
+}
