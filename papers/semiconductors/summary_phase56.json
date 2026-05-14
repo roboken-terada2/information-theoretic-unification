@@ -1,0 +1,62 @@
+{
+  "phase": 56,
+  "paper": "ITU and Semiconductors",
+  "description": "3D scaling, short-channel effects, quantum limit",
+  "dibl_at_5nm_mV_per_V": {
+    "planar": 599.9999999999999,
+    "finfet": 239.99999999999997,
+    "gaafet": 149.99999999999997,
+    "cfet": 131.99999999999997
+  },
+  "tunnel_leakage": {
+    "L_10nm_ratio_vs_10nm": 1.0,
+    "L_5nm_ratio_vs_10nm": 281854.30369524745,
+    "L_3nm_ratio_vs_10nm": 42661344.535414726,
+    "L_2nm_ratio_vs_10nm": 524855161.98144656,
+    "L_1nm_ratio_vs_10nm": 6457202511.043468,
+    "L_0.5nm_ratio_vs_10nm": 22648887471.366096
+  },
+  "sharvin_R_ohms": {
+    "3nm_node": 12906.403729652257,
+    "2nm_node": 12906.403729652257,
+    "1nm_node": 12906.403729652257
+  },
+  "itu_coupling_and_limits": {
+    "planar": {
+      "eta": 1.0,
+      "node_limit_nm": 12.25
+    },
+    "finfet": {
+      "eta": 2.5,
+      "node_limit_nm": 7.75
+    },
+    "gaafet": {
+      "eta": 3.8,
+      "node_limit_nm": 6.15
+    },
+    "cfet": {
+      "eta": 7.6,
+      "node_limit_nm": 5.75
+    }
+  },
+  "key_findings": [
+    "GAAFET (eta=3.8) extends scaling to ~2 nm",
+    "CFET stacking adds vertical density but limit still ~1 nm",
+    "Tunnel leakage at 1 nm is 10^6 of 10 nm reference",
+    "Sharvin R dominates below 3 nm contact area",
+    "2D materials (MoS2) are ITU-optimal but contact-limited"
+  ],
+  "central_thesis": "FinFET -> GAAFET -> CFET progression is the engineering manifestation of maximising gate-channel coupling area (ITU eta).",
+  "tier": 1,
+  "paper_number": 4,
+  "next_phases": [
+    "Phase 57: Beyond-CMOS devices in depth (TFET, NC-FET, spintronics)",
+    "Phase 58: Semiconductor industry roadmap 2026-2040"
+  ],
+  "caveats": [
+    "DIBL formula is empirical (Yan-Ozturk-Pinto)",
+    "Tunnel probability uses simple WKB with constant barrier",
+    "Sharvin formula assumes ideal ballistic transport",
+    "Real device limits also include line-edge roughness, variability"
+  ]
+}

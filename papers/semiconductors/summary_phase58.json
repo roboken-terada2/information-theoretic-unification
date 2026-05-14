@@ -1,0 +1,91 @@
+{
+  "phase": 58,
+  "paper": "ITU and Semiconductors",
+  "description": "Industry roadmap 2026-2040, geopolitics, ITU forecasts",
+  "technology_adoption_50pct_year": {
+    "GAAFET (general)": 2027,
+    "Photonic interconnect": 2029,
+    "Spin MRAM (cache)": 2031,
+    "CFET stacked": 2032,
+    "NC-FET logic": 2034,
+    "2D material FET": 2036,
+    "TFET (production)": 2038
+  },
+  "process_node_by_year": {
+    "2024": 3.0,
+    "2026": 2.0,
+    "2028": 1.4,
+    "2030": 1.0,
+    "2032": 0.7,
+    "2035": 0.5,
+    "2038": 0.5,
+    "2040": 0.5
+  },
+  "market_USD_B": {
+    "2024": 600.0,
+    "2027": 750.0,
+    "2030": 1000.0,
+    "2035": 1500.0,
+    "2040": 2000.0
+  },
+  "capex_USD_B": {
+    "2024": 175.0,
+    "2027": 250.0,
+    "2030": 350.0,
+    "2035": 400.0,
+    "2040": 500.0
+  },
+  "wafer_share_2030": {
+    "Taiwan": 0.45,
+    "Korea": 0.18,
+    "USA": 0.17,
+    "China": 0.09,
+    "Japan": 0.07,
+    "EU": 0.04
+  },
+  "wafer_share_2040": {
+    "Taiwan": 0.36,
+    "Korea": 0.17,
+    "USA": 0.22,
+    "China": 0.1,
+    "Japan": 0.09,
+    "EU": 0.06
+  },
+  "engineering_rectangle": {
+    "Tier_1_paper_1_QC": "10.5281/zenodo.20139391",
+    "Tier_1_paper_2_AI": "10.5281/zenodo.20150501",
+    "Tier_1_paper_3_Crypto": "10.5281/zenodo.20151059",
+    "Tier_1_paper_4_Semi": "(this paper, pending)"
+  },
+  "falsifiable_predictions": [
+    "GAAFET 2nm mass production by 2026 (TSMC or Samsung)",
+    "CFET 1.4nm prototype demonstrated by 2028",
+    "Photonic AI chip (>$10/unit) commercial by 2027",
+    "Embedded MRAM replaces L3 cache by 2029",
+    "Si CMOS will not reach below 0.7 nm (end of classical MOSFET)",
+    "Semi market reaches $1T by 2030",
+    "Taiwan leading-edge share falls below 50% by 2032",
+    "NC-FET mass production not before 2035 (reliability issues)",
+    "2D material (MoS2) FET demonstrates 1 nm in lab by 2030",
+    "Quantum-classical hybrid SoC (CMOS + superconductor) commercial by 2034"
+  ],
+  "paper_complete": true,
+  "central_thesis": "Semiconductor industry trajectory follows ITU predictions: classical MOSFET ends ~0.7 nm, heterogeneous SoCs dominate 2030s, Taiwan concentration diversifies as engineering redundancy demands.",
+  "tier": 1,
+  "paper_number": 4,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_qc_doi": "10.5281/zenodo.20139391",
+  "tier_1_ai_doi": "10.5281/zenodo.20150501",
+  "tier_1_crypto_doi": "10.5281/zenodo.20151059",
+  "next_paper_candidates": [
+    "Tier 1 #5: Cancer biology (cell dS abnormality)",
+    "Tier 1 #6: Aging (organism <K> degradation)",
+    "Tier 1 #7: Psychiatry (FEP failures)"
+  ],
+  "caveats": [
+    "Logistic curves use illustrative parameters",
+    "Market/capex projections extrapolate current trends",
+    "Geopolitical assumptions can change rapidly",
+    "ITU predictions are first-principles; real industry has noise"
+  ]
+}

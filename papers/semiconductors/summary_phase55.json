@@ -1,0 +1,65 @@
+{
+  "phase": 55,
+  "paper": "ITU and Semiconductors",
+  "description": "ITU foundation for semiconductor transistors",
+  "landauer_limit": {
+    "formula": "E = k_B T ln 2",
+    "value_at_300K_J": 2.870978885078724e-21,
+    "value_at_300K_meV": 17.919240763804098,
+    "T_K": [
+      4,
+      77,
+      150,
+      300,
+      400,
+      500
+    ],
+    "E_per_bit_J": [
+      3.8279718467716317e-23,
+      7.368845805035391e-22,
+      1.435489442539362e-21,
+      2.870978885078724e-21,
+      3.827971846771632e-21,
+      4.78496480846454e-21
+    ]
+  },
+  "boltzmann_tyranny": {
+    "formula": "SS = (k_B T / q) ln 10",
+    "SS_77K_mV_dec": 15.278450195298475,
+    "SS_300K_mV_dec": 59.52642933233172,
+    "SS_500K_mV_dec": 99.2107155538862,
+    "ITU_origin": "thermal modular Hamiltonian K_A = H/k_BT"
+  },
+  "moore_koomey": {
+    "koomey_slope_log_per_yr": -0.29558814370166225,
+    "halving_years": 2.3449762628488244,
+    "literature_value_yr": 1.57,
+    "energy_2030_J": 1e-18,
+    "gap_2030_over_landauer": 348.3132548265257,
+    "remaining_decades": 2.5419700015569657
+  },
+  "beyond_cmos": {
+    "TFET_SS_mV_dec": 30.0,
+    "NC_FET_SS_mV_dec": 36.0,
+    "Spintronic_SS_target": "< 20 mV/dec (proposed)",
+    "ITU_principle": "non-thermal K_A required to break 60 mV/dec"
+  },
+  "central_thesis": "Transistor = 1-bit QECC against k_B T noise; Landauer limit and 60 mV/dec are ITU axiom consequences.",
+  "tier": 1,
+  "paper_number": 4,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_qc_doi": "10.5281/zenodo.20139391",
+  "tier_1_ai_doi": "10.5281/zenodo.20150501",
+  "tier_1_crypto_doi": "10.5281/zenodo.20151059",
+  "next_phases": [
+    "Phase 56: FinFET/GAAFET/CFET scaling under ITU",
+    "Phase 57: Beyond-CMOS devices (TFET, NC-FET, spintronics) in depth",
+    "Phase 58: Semiconductor industry roadmap 2026-2040"
+  ],
+  "caveats": [
+    "Energy/op numbers are order-of-magnitude approximations",
+    "TFET / NC-FET SS values are illustrative; real devices vary",
+    "Koomey-law fit assumes monotonic exponential — may saturate",
+    "Quantum effects in sub-1nm regime not modelled"
+  ]
+}

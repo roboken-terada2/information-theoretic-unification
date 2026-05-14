@@ -1,0 +1,143 @@
+{
+  "phase": 57,
+  "paper": "ITU and Semiconductors",
+  "description": "Beyond-CMOS device benchmark under ITU",
+  "devices": {
+    "Si CMOS 3nm": {
+      "SS_mV_per_dec": 70.0,
+      "E_op_J": 1e-17,
+      "delay_s": 5e-12,
+      "TRL": 9,
+      "alpha_cool": 0.0,
+      "category": "thermal",
+      "ITU_FoM_relative": 1.0
+    },
+    "GAAFET 2nm": {
+      "SS_mV_per_dec": 65.0,
+      "E_op_J": 5e-18,
+      "delay_s": 4e-12,
+      "TRL": 8,
+      "alpha_cool": 0.0,
+      "category": "thermal",
+      "ITU_FoM_relative": 2.6923076923076925
+    },
+    "TFET": {
+      "SS_mV_per_dec": 30.0,
+      "E_op_J": 8e-18,
+      "delay_s": 1.5e-11,
+      "TRL": 4,
+      "alpha_cool": 0.0,
+      "category": "non-thermal",
+      "ITU_FoM_relative": 0.9722222222222223
+    },
+    "NC-FET": {
+      "SS_mV_per_dec": 40.0,
+      "E_op_J": 6e-18,
+      "delay_s": 6e-12,
+      "TRL": 5,
+      "alpha_cool": 0.0,
+      "category": "non-thermal",
+      "ITU_FoM_relative": 2.4305555555555554
+    },
+    "Spin (MTJ)": {
+      "SS_mV_per_dec": 50.0,
+      "E_op_J": 1e-17,
+      "delay_s": 2e-10,
+      "TRL": 7,
+      "alpha_cool": 0.0,
+      "category": "non-thermal",
+      "ITU_FoM_relative": 0.034999999999999996
+    },
+    "Photonic": {
+      "SS_mV_per_dec": 1.0,
+      "E_op_J": 2e-19,
+      "delay_s": 1e-12,
+      "TRL": 6,
+      "alpha_cool": 0.0,
+      "category": "non-thermal",
+      "ITU_FoM_relative": 17500.000000000004
+    },
+    "Cryo CMOS 77K": {
+      "SS_mV_per_dec": 15.3,
+      "E_op_J": 3e-18,
+      "delay_s": 3e-12,
+      "TRL": 5,
+      "alpha_cool": 5.0,
+      "category": "thermal-low-T",
+      "ITU_FoM_relative": 4.236262406197047
+    },
+    "Memristor": {
+      "SS_mV_per_dec": 80.0,
+      "E_op_J": 1e-14,
+      "delay_s": 1e-08,
+      "TRL": 6,
+      "alpha_cool": 0.0,
+      "category": "stochastic",
+      "ITU_FoM_relative": 4.3749999999999994e-07
+    }
+  },
+  "ranking_by_FoM": [
+    {
+      "device": "Photonic",
+      "FoM": 17500.000000000004
+    },
+    {
+      "device": "Cryo CMOS 77K",
+      "FoM": 4.236262406197047
+    },
+    {
+      "device": "GAAFET 2nm",
+      "FoM": 2.6923076923076925
+    },
+    {
+      "device": "NC-FET",
+      "FoM": 2.4305555555555554
+    },
+    {
+      "device": "Si CMOS 3nm",
+      "FoM": 1.0
+    },
+    {
+      "device": "TFET",
+      "FoM": 0.9722222222222223
+    },
+    {
+      "device": "Spin (MTJ)",
+      "FoM": 0.034999999999999996
+    },
+    {
+      "device": "Memristor",
+      "FoM": 4.3749999999999994e-07
+    }
+  ],
+  "sweet_spot_devices": [
+    "Photonic"
+  ],
+  "ITU_winners_by_application": {
+    "general_logic": "GAAFET 2nm (continues)",
+    "AI_inference": "Memristor / Photonic",
+    "AI_training": "Photonic",
+    "non_volatile_memory": "Spin/MTJ",
+    "quantum_control": "Cryo CMOS 77K",
+    "low_power_IoT": "TFET / NC-FET"
+  },
+  "key_findings": [
+    "Photonic FoM is ~1000x Si CMOS due to ultra-low energy + speed",
+    "Spin MTJ already commercial (MRAM); logic versions emerging",
+    "Cryo CMOS is sweet for quantum control but cooling cost dominates",
+    "TFET / NC-FET need 5+ years for commercial logic",
+    "No single winner — application-specific heterogeneous SoCs ahead"
+  ],
+  "central_thesis": "Non-thermal K_A (photon, spin, tunnel, ferro) is the unifying principle that breaks Boltzmann; ITU predicts heterogeneous 2030s SoCs.",
+  "tier": 1,
+  "paper_number": 4,
+  "next_phases": [
+    "Phase 58: Industry roadmap 2026-2040, geopolitics, ITU forecasts"
+  ],
+  "caveats": [
+    "Device parameters are typical / illustrative values",
+    "FoM weights are simplified (equal weights)",
+    "Real device performance varies by 1-2 orders within each class",
+    "Reliability, variability, and process integration not modelled"
+  ]
+}

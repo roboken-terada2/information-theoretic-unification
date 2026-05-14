@@ -19,14 +19,11 @@ Each Tier 1 paper:
 | 1 | [ITU and Fault-Tolerant Quantum Computing](quantum-computing/) | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | 43-46 | `quantum-computing/` | ✅ v1.0.0 |
 | 2 | [ITU and Machine Consciousness / ASI](ai-consciousness/) | [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501) | 47-50 | `ai-consciousness/` | ✅ v1.0.0 |
 | 3 | [ITU and Cryptography](cryptography/) | [10.5281/zenodo.20151059](https://doi.org/10.5281/zenodo.20151059) | 51-54 | `cryptography/` | ✅ v1.0.0 |
+| 4 | [ITU and Semiconductors](semiconductors/) | [10.5281/zenodo.20174036](https://doi.org/10.5281/zenodo.20174036) | 55-58 | `semiconductors/` | ✅ v1.0.0 |
 
-> **Engineering Triangle complete**: Tier 1 #1 (Quantum Computing) + #2 (Machine Consciousness) + #3 (Cryptography) form a closed engineering triangle under the ITU axiom dS = d<K>.
+> **Engineering Rectangle complete**: Tier 1 #1 (Quantum Computing, storage) + #2 (Machine Consciousness, self-model) + #3 (Cryptography, communication) + #4 (Semiconductors, substrate) form a closed engineering rectangle under the ITU axiom dS = d<K>.
 
 ## Planned Tier 1 Papers
-
-| # | Paper | Phases | Status |
-|---|---|---|---|
-| 4 | ITU and Semiconductors | 55-58 | planned |
 | 5 | ITU and Cancer Biology | 59-62 | planned |
 | 6 | ITU and Aging | 63-66 | planned |
 | 7 | ITU and Psychiatry / FEP failures | 67-70 | planned |
@@ -57,8 +54,12 @@ papers/
 │   ├── theory_phase51-54.md
 │   └── *.py, *.png, summary*.json
 │
-├── semiconductors/                     (planned, Phase 55-58)
-└── ...
+├── semiconductors/                     Tier 1 #4: Semiconductors (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase55-58.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Tier 1 #5+ planned)
 ```
 
 ## How to cite a Tier 1 paper
@@ -85,6 +86,12 @@ Zenodo. https://doi.org/10.5281/zenodo.20150501
 Terada, M. (2026). ITU and Cryptography: A Single-Axiom Framework
 for Quantum and Post-Quantum Information Protection (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20151059
+```
+
+```
+Terada, M. (2026). ITU and Semiconductors: A Single-Axiom Foundation
+for Devices, Scaling, Beyond-CMOS, and the 2026-2040 Roadmap (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20174036
 ```
 
 Plus the core ITU citation:

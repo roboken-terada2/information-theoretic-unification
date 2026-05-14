@@ -1,0 +1,181 @@
+cff-version: 1.2.0
+title: "ITU and Semiconductors: A Single-Axiom Foundation for Devices, Scaling, Beyond-CMOS, and the 2026-2040 Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, DOI 10.5281/zenodo.20109210) to semiconductor
+  transistors. The single ITU axiom dS = d<K> simultaneously
+  governs the Landauer minimum bit-erasure energy (k_B T ln 2),
+  the Boltzmann subthreshold-swing tyranny (60 mV/decade @ 300K),
+  the 3D scaling progression (FinFET -> GAAFET -> CFET), and the
+  beyond-CMOS landscape. This paper develops the consequences
+  across the full semiconductor stack.
+  Phase 55 establishes the ITU foundation: Landauer limit and
+  60 mV/decade are inevitable consequences of the thermal modular
+  Hamiltonian K_A = H / k_B T. Moore + Koomey trends suggest
+  ~2.5 decades of energy improvement remain before reaching the
+  Landauer limit.
+  Phase 56 derives the FinFET -> GAAFET -> CFET evolution as
+  ITU eta-maximisation (gate-channel coupling area per channel
+  volume). Quantum WKB tunneling overwhelms ON/OFF distinction
+  below 1 nm, ending the classical MOSFET. Sharvin (quantum
+  point-contact) resistance becomes dominant below 3 nm.
+  Phase 57 benchmarks eight beyond-CMOS device classes
+  (TFET, NC-FET, Spin/MTJ, photonic, cryogenic CMOS, memristor)
+  on a unified ITU figure-of-merit. Photonic computing achieves
+  FoM ~17,500x silicon CMOS at room temperature, driven by
+  h*nu >> k_B T non-thermal K_A. No single winner emerges;
+  application-specific heterogeneous SoCs (CMOS + photonic
+  interconnect + spin memory + memristor AI) dominate 2030s.
+  Phase 58 synthesises into a 2026-2040 industry roadmap:
+  logistic adoption curves for seven beyond-CMOS technologies,
+  process node floor at ~0.5 nm, $1 trillion semiconductor TAM
+  by 2030, Taiwan leading-edge share dropping from 55% to 36%
+  through geopolitical diversification. Ten falsifiable
+  predictions are issued for 2026-2040 testing.
+  Central thesis: under ITU, the transistor is a 1-bit QECC
+  against k_B T noise, geometric 3D wrapping reflects K_A area
+  maximisation, and beyond-CMOS winners require non-thermal K_A.
+  This is Tier 1 paper #4 in the ITU programme, completing the
+  engineering rectangle: Quantum Computing (10.5281/zenodo.20139391)
+  + Machine Consciousness (10.5281/zenodo.20150501) + Cryptography
+  (10.5281/zenodo.20151059) + Semiconductors (this paper).
+keywords:
+  - semiconductors
+  - transistors
+  - MOSFET
+  - FinFET
+  - GAAFET
+  - CFET
+  - 2D materials
+  - MoS2
+  - Landauer limit
+  - Boltzmann tyranny
+  - subthreshold swing
+  - TFET
+  - tunnel FET
+  - NC-FET
+  - negative capacitance
+  - spintronics
+  - MTJ
+  - MRAM
+  - photonic computing
+  - silicon photonics
+  - cryogenic CMOS
+  - memristor
+  - neuromorphic computing
+  - beyond CMOS
+  - More-than-Moore
+  - quantum point contact
+  - Sharvin resistance
+  - semiconductor industry roadmap
+  - geopolitics
+  - TSMC
+  - Samsung
+  - Intel
+  - SMIC
+  - Rapidus
+  - IMEC
+  - Information-Theoretic Unification
+  - ITU
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/semiconductors"
+url: "https://doi.org/10.5281/zenodo.20174036"
+doi: "10.5281/zenodo.20174036"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20174036"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-14"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109210"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Fault-Tolerant Quantum Computing"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20139391"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Machine Consciousness / ASI"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20150501"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Cryptography"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20151059"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Landauer
+        given-names: Rolf
+    title: "Irreversibility and heat generation in the computing process"
+    journal: "IBM J Res Dev"
+    volume: 5
+    pages: 183
+    year: 1961
+  - type: article
+    authors:
+      - family-names: Theis
+        given-names: Thomas
+      - family-names: Solomon
+        given-names: Paul
+    title: "It's time to reinvent the transistor"
+    journal: "Science"
+    volume: 327
+    pages: 1600
+    year: 2010
+  - type: article
+    authors:
+      - family-names: Salahuddin
+        given-names: Sayeef
+      - family-names: Datta
+        given-names: Supriyo
+    title: "Use of negative capacitance to provide voltage amplification for low power nanoscale devices"
+    journal: "Nano Lett"
+    volume: 8
+    pages: 405
+    year: 2008
+  - type: article
+    authors:
+      - family-names: Datta
+        given-names: Supriyo
+      - family-names: Das
+        given-names: Biswajit
+    title: "Electronic analog of the electro-optic modulator (spin FET)"
+    journal: "Appl Phys Lett"
+    volume: 56
+    pages: 665
+    year: 1990
+  - type: article
+    authors:
+      - family-names: Radisavljevic
+        given-names: Branimir
+    title: "Single-layer MoS2 transistors"
+    journal: "Nat Nano"
+    volume: 6
+    pages: 147
+    year: 2011
