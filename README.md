@@ -49,15 +49,18 @@ release tag.
 | 8 | [ITU and Economics](papers/economics/) | [10.5281/zenodo.20196309](https://doi.org/10.5281/zenodo.20196309) | 71–74 | ✅ v1.0.0 |
 | 9 | [ITU and Free Will](papers/free-will/) | [10.5281/zenodo.20197016](https://doi.org/10.5281/zenodo.20197016) | 75–78 | ✅ v1.0.0 |
 | 10 | [ITU and Energy / Materials](papers/energy-materials/) | [10.5281/zenodo.20199598](https://doi.org/10.5281/zenodo.20199598) | 79–82 | ✅ v1.0.0 |
-| 11+ | (full roadmap to Phase 220) | TBD | 83-220 | planned |
+| 11 | [ITU and Climate / Earth Systems](papers/climate-earth/) | [10.5281/zenodo.20200728](https://doi.org/10.5281/zenodo.20200728) | 83–86 | ✅ v1.0.0 |
+| 12+ | (full roadmap to Phase 220) | TBD | 87-220 | planned |
 
-**🎉 ITU 10-vertex polytope COMPLETED:**
+**🎉🎉 ITU 11-vertex polytope COMPLETED — biosphere super-hub:**
 The five engineering Tier 1 papers (QC, AI/ASI, Cryptography, Semiconductors,
 Energy/Materials) form the **engineering pentagon**; Tier 1 #5-#7 form the
-**medicine triangle**; **#8 (Economics)** is the social-sciences vertex
-and **#9 (Free Will)** is the philosophy vertex.
-All ten Tier 1 papers derive from the single axiom δS = δ⟨K⟩.
-**Pass-1 progress**: 82 of 220 phases complete (37.3%).
+**medicine triangle**; **#8 (Economics)** is the social-sciences vertex,
+**#9 (Free Will)** is the philosophy vertex, and **#11 (Climate / Earth Systems)**
+is the **biosphere super-hub (highest connectivity degree, 6)** — bidirectionally
+connected to Energy (#10), Economics (#8), AI (#2), Cancer (#5), and Free Will (#9).
+All eleven Tier 1 papers derive from the single axiom δS = δ⟨K⟩.
+**Pass-1 progress**: 86 of 220 phases complete (39.1%).
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 

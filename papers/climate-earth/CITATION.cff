@@ -1,0 +1,225 @@
+cff-version: 1.2.0
+title: "ITU and Climate / Earth Systems: A Single-Axiom View of Atmospheric Information, Earth Energy Imbalance, Planetary Boundaries, Tipping Points, and the 2026-2100 Mitigation Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, DOI 10.5281/zenodo.20109210) to climate and Earth
+  systems science. Climate is reframed as the macroscopic K-state of
+  the Earth system; CO2 increase is information injection into K_atm;
+  Earth Energy Imbalance (EEI) is K-current accumulation. This is
+  Tier 1 paper #11, opening the biosphere axis and bringing the ITU
+  polytope to 11 vertices, where Climate vertex achieves the highest
+  connectivity degree (6) — the polytope's super-hub. Pass-1 progress:
+  86 of 220 phases (39.1%).
+  Phase 83 establishes the ITU foundation. CO2 = 422 ppm (2024,
+  +51% over preindustrial 280 ppm), radiative forcing 2.19 W/m^2.
+  Earth Energy Imbalance = 1.00 W/m^2 = 510 TW — 28x the total
+  human primary energy consumption (18 TW), with 89% accumulating
+  in the oceans (534 ZJ cumulative since 1970). Climate feedback
+  parameter lambda = 1.37 W/m^2/K, yielding observational ECS
+  posterior 2.91 K (66% CI [2.53, 3.32]) matching IPCC AR6 central
+  3.0 K. Rockström planetary boundaries: 7 of 10 axes breached.
+  Phase 84 develops dynamic K-flows. A 4-box carbon cycle model
+  (atmosphere/land/surface ocean/deep ocean) reproduces airborne
+  fraction 0.50 ± 0.05 (GCB 2024 observation 0.48). The Tziperman
+  ENSO model yields 4.3-year dominant period and 0.67 K amplitude,
+  matching 1997/98, 2015/16, 2023/24 El Niño events. The Stommel
+  2-box AMOC model exhibits bistability at eta_critical = 0.385
+  (saddle-node), with P(collapse by 2050) = 14% (Ditlevsen 2023:
+  5-15%) and P(collapse by 2095) = 77%. Tipping element cascade
+  probability for 3 elements (Greenland, West Antarctica, Amazon)
+  at 2°C = 9.2%.
+  Phase 85 quantifies mitigation. Renewables reach 72% of global
+  electricity by 2050 (IEA NZE), solar LCOE dropping to $18/MWh
+  via Wright's Law. CDR portfolio (DAC + BECCS + reforestation +
+  ocean alkalinity) reaches 9.5 GtCO2/yr by 2050 — matching IEA
+  target 10 GtCO2/yr — at annual cost $350B. SRM stratospheric
+  aerosol injection introduces termination shock risk: +1.28 K
+  over 10 years if abruptly stopped. Four scenarios: BAU peaks
+  +3.28°C with 92% cascade tipping; NZE alone +2.00°C, 9.3%;
+  NZE+CDR +1.59°C, 4.4%; NZE+CDR+SRM peak +1.68°C, cascade only
+  1.6%.
+  Phase 86 synthesises the 2026-2100 roadmap with 19 milestones and
+  10 falsifiable predictions (average probability 0.61). The ITU
+  11-vertex polytope completes: Climate vertex bidirectionally
+  connects to Energy (#10), Economics (#8), AI (#2), Cancer (#5),
+  and Free Will (#9), forming the polytope's biosphere super-hub
+  (degree 6 — highest of all 11 vertices).
+  Central thesis: climate is not a static scalar T but a
+  multi-dimensional K-flow network (carbon cycle + ENSO + AMOC +
+  tipping). Mitigation requires 3-layer K-current intervention
+  (renewables → CDR → SRM patch). Tier 1 #10 (Energy) and Tier 1
+  #11 (Climate) are two faces of the same K-flow intervention.
+  Pass-1 interpretive paper reframing IPCC AR6, Rockström planetary
+  boundaries, Lenton tipping elements, Ditlevsen AMOC, IEA NZE,
+  Lazard LCOE, GCB 2024, Climeworks DAC in ITU language. Pass-2
+  work would derive ITU-specific predictions (e.g., novel
+  early-warning signal metrics, ITU-derived constraints on climate
+  sensitivity, K_carbon kinetics for DAC material design).
+keywords:
+  - climate change
+  - Earth systems
+  - global warming
+  - carbon dioxide
+  - CO2
+  - radiative forcing
+  - Earth Energy Imbalance
+  - EEI
+  - IPCC AR6
+  - climate sensitivity
+  - ECS
+  - TCR
+  - planetary boundaries
+  - Rockström
+  - tipping points
+  - tipping elements
+  - Lenton
+  - AMOC
+  - Atlantic Meridional Overturning Circulation
+  - Ditlevsen
+  - Stommel model
+  - Cessi model
+  - ENSO
+  - El Niño Southern Oscillation
+  - Tziperman
+  - carbon cycle
+  - airborne fraction
+  - Global Carbon Budget
+  - Friedlingstein
+  - Greenland ice sheet
+  - West Antarctic ice sheet
+  - Thwaites glacier
+  - Amazon rainforest
+  - savannification
+  - heat waves
+  - sea level rise
+  - ocean acidification
+  - permafrost
+  - Net Zero Emissions
+  - NZE
+  - IEA
+  - 1.5 degrees
+  - 2 degrees
+  - Paris Agreement
+  - Direct Air Capture
+  - DAC
+  - Climeworks
+  - Carbon Engineering
+  - BECCS
+  - reforestation
+  - ocean alkalinity
+  - Carbon Dioxide Removal
+  - CDR
+  - Solar Radiation Management
+  - SRM
+  - stratospheric aerosol injection
+  - geoengineering
+  - termination shock
+  - climate model
+  - energy balance model
+  - climate roadmap
+  - 2050 Net Zero
+  - 2100 climate
+  - Information-Theoretic Unification
+  - ITU
+  - biosphere
+  - super-hub
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/climate-earth"
+url: "https://doi.org/10.5281/zenodo.20200728"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20200728"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-15"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109210"
+    year: 2026
+  - type: report
+    title: "Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report"
+    authors:
+      - name: "IPCC"
+    year: 2021
+  - type: article
+    authors:
+      - family-names: Rockström
+        given-names: Johan
+    title: "A safe operating space for humanity"
+    journal: "Nature"
+    volume: 461
+    pages: 472
+    year: 2009
+  - type: article
+    authors:
+      - family-names: Lenton
+        given-names: Timothy
+    title: "Climate tipping points — too risky to bet against"
+    journal: "Science"
+    year: 2023
+  - type: article
+    authors:
+      - family-names: Ditlevsen
+        given-names: Peter
+    title: "Warning of a forthcoming collapse of the Atlantic meridional overturning circulation"
+    journal: "Nature Communications"
+    volume: 14
+    pages: 4254
+    year: 2023
+  - type: article
+    authors:
+      - family-names: Friedlingstein
+        given-names: Pierre
+    title: "Global Carbon Budget 2024"
+    journal: "Earth System Science Data"
+    year: 2024
+  - type: article
+    authors:
+      - family-names: von Schuckmann
+        given-names: Karina
+    title: "Heat stored in the Earth system 1960-2020"
+    journal: "Earth System Science Data"
+    year: 2023
+  - type: article
+    authors:
+      - family-names: Boers
+        given-names: Niklas
+    title: "Observation-based early-warning signals for a collapse of the Atlantic Meridional Overturning Circulation"
+    journal: "Nature Climate Change"
+    volume: 11
+    pages: 680
+    year: 2021
+  - type: report
+    title: "Net Zero by 2050 Roadmap"
+    authors:
+      - name: "International Energy Agency"
+    year: 2021
+  - type: article
+    authors:
+      - family-names: Tziperman
+        given-names: Eli
+    title: "Locking of El Niño's Peak Time to the End of the Calendar Year"
+    journal: "Science"
+    year: 1994
+  - type: article
+    authors:
+      - family-names: Stommel
+        given-names: Henry
+    title: "Thermohaline Convection with Two Stable Regimes of Flow"
+    journal: "Tellus"
+    volume: 13
+    pages: 224
+    year: 1961
