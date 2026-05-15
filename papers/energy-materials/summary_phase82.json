@@ -1,0 +1,142 @@
+{
+  "phase": 82,
+  "paper": "ITU and Energy / Materials",
+  "description": "Energy/Materials roadmap 2026-2050 (Tier 1 #10 final)",
+  "energy_mix_2050": {
+    "Solar": 50,
+    "Wind": 22,
+    "Hydro": 12,
+    "Nuclear": 9,
+    "Fusion": 5,
+    "Fossil": 2
+  },
+  "fossil_decline_2024_to_2050": -96.66666666666667,
+  "china_share_2024": {
+    "Gallium": 98,
+    "Rare earths": 85,
+    "Silicon (refined)": 80,
+    "Graphite": 70,
+    "Lithium (proc)": 65
+  },
+  "china_share_2050": {
+    "Gallium": 60,
+    "Rare earths": 50,
+    "Silicon (refined)": 50,
+    "Graphite": 40,
+    "Lithium (proc)": 40
+  },
+  "carbon_price_USD_t": {
+    "2024": 80.0,
+    "2050": 300.0
+  },
+  "dac_capacity_2050_Mt": 1000.0,
+  "dac_cost_USD_t": {
+    "2024": 800.0,
+    "2050": 50.0
+  },
+  "polytope": {
+    "#1 Quantum Computing": {
+      "axis": "engineering",
+      "x": 0,
+      "y": 0
+    },
+    "#2 AI/ASI": {
+      "axis": "engineering",
+      "x": 1,
+      "y": 1
+    },
+    "#3 Cryptography": {
+      "axis": "engineering",
+      "x": 2,
+      "y": 1
+    },
+    "#4 Semiconductors": {
+      "axis": "engineering",
+      "x": 3,
+      "y": 0
+    },
+    "#10 Energy/Materials": {
+      "axis": "engineering",
+      "x": 4,
+      "y": 0
+    },
+    "#5 Cancer": {
+      "axis": "medicine",
+      "x": 1.5,
+      "y": 3
+    },
+    "#6 Aging": {
+      "axis": "medicine",
+      "x": 0.5,
+      "y": 4
+    },
+    "#7 Psychiatry": {
+      "axis": "medicine",
+      "x": 2.5,
+      "y": 4
+    },
+    "#8 Economics": {
+      "axis": "social",
+      "x": 0,
+      "y": -2
+    },
+    "#9 Free Will": {
+      "axis": "philosophy",
+      "x": 2,
+      "y": -2
+    }
+  },
+  "polytope_vertices": 10,
+  "polytope_structure": {
+    "engineering_pentagon": [
+      "#1 Quantum Computing",
+      "#2 AI/ASI",
+      "#3 Cryptography",
+      "#4 Semiconductors",
+      "#10 Energy/Materials"
+    ],
+    "medicine_triangle": [
+      "#5 Cancer",
+      "#6 Aging",
+      "#7 Psychiatry"
+    ],
+    "social_sciences": [
+      "#8 Economics"
+    ],
+    "philosophy": [
+      "#9 Free Will"
+    ]
+  },
+  "falsifiable_predictions": [
+    "Solid-state Li-ion mass-produced by 1+ EV maker by 2027",
+    "Perovskite-Si tandem commercialised by 2028 (>40% market share candidate)",
+    "Fusion Q=10 achieved at ITER 2035 (P=0.8)",
+    "CFS commercial 1GW fusion plant by 2032",
+    "Room-temp superconductor discovered by 2032",
+    "AI material discovery expands existing DB 50x by 2030",
+    "EU carbon price breaks $200/t by 2032",
+    "DAC cost reaches $100/t by 2035",
+    "Solar global share reaches 25% by 2030",
+    "Fossil fuel power generation drops 80% by 2050"
+  ],
+  "paper_complete": true,
+  "pass1_progress_phases": 82,
+  "pass1_total_phases": 220,
+  "pass1_progress_pct": 37.3,
+  "central_thesis": "2026-2050: triple convergence - AGI accelerates material/energy research 10x, fusion + perovskite commercialize, China supply dominance diversifies. Solar reaches 50% world electricity by 2050, fossil drops to 2%. Net Zero achievable for developed nations.",
+  "honest_framing": "Pass-1 interpretive paper. IEA NZE pathway reframed in ITU language. Predictions overlap with industry consensus (BNEF, IEA, Goldman).",
+  "tier": 1,
+  "paper_number": 10,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "next_paper_candidates": [
+    "Tier 1 #11: Climate / Earth Systems (Phase 83-86)",
+    "Tier 1 #12: Astrobiology / SETI (Phase 87-90)",
+    "Pass-2: Re-traverse Tier 1 with ITU-unique predictions"
+  ],
+  "caveats": [
+    "IEA NZE scenarios depend on policy implementation",
+    "China share decline assumes Western policy success",
+    "Fusion commercialization timing uncertain",
+    "Room-temp superconductor discovery is speculative"
+  ]
+}

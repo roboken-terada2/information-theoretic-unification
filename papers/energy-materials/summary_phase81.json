@@ -1,0 +1,175 @@
+{
+  "phase": 81,
+  "paper": "ITU and Energy / Materials",
+  "description": "New materials revolution - perovskites, MOFs, quantum, AI",
+  "perovskite_efficiency": {
+    "2009": 3.8,
+    "2012": 9.7,
+    "2014": 19.3,
+    "2016": 22.1,
+    "2018": 23.7,
+    "2020": 25.5,
+    "2022": 25.8,
+    "2024": 26.7,
+    "2024 tandem": 34.6,
+    "2030 predicted single": 30.0,
+    "2030 tandem predicted": 38.0
+  },
+  "perovskite_growth_2009_to_2024_single": 7.026315789473684,
+  "superconductor_history": [
+    {
+      "year": 1911,
+      "material": "Hg",
+      "Tc_K": 4.2,
+      "type": "elemental"
+    },
+    {
+      "year": 1957,
+      "material": "Sn",
+      "Tc_K": 7.2,
+      "type": "BCS"
+    },
+    {
+      "year": 1973,
+      "material": "Nb3Ge",
+      "Tc_K": 23.3,
+      "type": "alloy"
+    },
+    {
+      "year": 1986,
+      "material": "LaBaCuO",
+      "Tc_K": 35.0,
+      "type": "cuprate"
+    },
+    {
+      "year": 1987,
+      "material": "YBaCuO7",
+      "Tc_K": 92.0,
+      "type": "cuprate"
+    },
+    {
+      "year": 1993,
+      "material": "HgBaCaCuO",
+      "Tc_K": 134.0,
+      "type": "cuprate"
+    },
+    {
+      "year": 2008,
+      "material": "Fe-based",
+      "Tc_K": 55.0,
+      "type": "iron pnictide"
+    },
+    {
+      "year": 2015,
+      "material": "H3S @150GPa",
+      "Tc_K": 203.0,
+      "type": "hydride"
+    },
+    {
+      "year": 2019,
+      "material": "LaH10 @170GPa",
+      "Tc_K": 250.0,
+      "type": "hydride"
+    },
+    {
+      "year": 2030,
+      "material": "Room-temp predicted",
+      "Tc_K": 293.0,
+      "type": "predicted"
+    }
+  ],
+  "current_record_Tc_K": 250,
+  "room_temp_target_K": 293,
+  "MOFs": {
+    "Activated Carbon (typical)": {
+      "SA_m2_per_g": 1500,
+      "year": 1900
+    },
+    "Zeolite NaY": {
+      "SA_m2_per_g": 1000,
+      "year": 1950
+    },
+    "MOF-5": {
+      "SA_m2_per_g": 3800,
+      "year": 1999
+    },
+    "MOF-177": {
+      "SA_m2_per_g": 4500,
+      "year": 2004
+    },
+    "MIL-101": {
+      "SA_m2_per_g": 5900,
+      "year": 2005
+    },
+    "NU-100": {
+      "SA_m2_per_g": 6143,
+      "year": 2010
+    },
+    "MOF-210": {
+      "SA_m2_per_g": 6240,
+      "year": 2010
+    },
+    "NU-1501": {
+      "SA_m2_per_g": 7140,
+      "year": 2020
+    },
+    "Theoretical limit": {
+      "SA_m2_per_g": 7800,
+      "year": 2025
+    }
+  },
+  "MOF_max_SA_m2_per_g": 7140,
+  "MOF_max_year": 2020,
+  "AI_discovery_acceleration": {
+    "Classical (Edisonian, 1960s)": {
+      "design_to_test_months": 24,
+      "candidates_processed": 100,
+      "year": 1960
+    },
+    "Combinatorial (1990s)": {
+      "design_to_test_months": 12,
+      "candidates_processed": 10000,
+      "year": 1990
+    },
+    "Materials Project (MIT, 2011)": {
+      "design_to_test_months": 6,
+      "candidates_processed": 150000,
+      "year": 2011
+    },
+    "DFT screening (2015)": {
+      "design_to_test_months": 3,
+      "candidates_processed": 500000,
+      "year": 2015
+    },
+    "DeepMind GNoME (2023)": {
+      "design_to_test_months": 1,
+      "candidates_processed": 2200000,
+      "year": 2023
+    },
+    "MatterGen (2024)": {
+      "design_to_test_months": 0.5,
+      "candidates_processed": 5000000,
+      "year": 2024
+    },
+    "Quantum DFT (predicted 2030)": {
+      "design_to_test_months": 0.25,
+      "candidates_processed": 100000000,
+      "year": 2030
+    }
+  },
+  "acceleration_1960_to_2024": {
+    "time_compression_factor": 48.0,
+    "throughput_increase_factor": 50000.0
+  },
+  "central_thesis": "21st century materials revolution = K_structure atomic-precision design. Perovskites: 3.8% (2009) to 34.6% tandem (2024). MOFs: 1.7 soccer fields per gram of surface. Superconductors: 250K at high pressure (2019), room temp by 2030-2040 possible. AI: GNoME 2.2M crystals, MatterGen inverse design. 10-100x discovery acceleration.",
+  "honest_framing": "Pass-1 interpretive paper. Reframes Miyasaka, Yaghi, Bednorz-Müller, Eremets, GNoME, MatterGen in ITU language. No novel material proposed.",
+  "tier": 1,
+  "paper_number": 10,
+  "next_phase": "Phase 82: Energy/materials roadmap 2026-2050 + 10 predictions",
+  "caveats": [
+    "Perovskite stability under humidity/heat remains issue",
+    "High-pressure superconductors need >100 GPa, not practical",
+    "MOF synthesis at scale challenges",
+    "AI predictions need experimental validation"
+  ]
+}

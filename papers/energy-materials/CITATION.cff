@@ -1,0 +1,219 @@
+cff-version: 1.2.0
+title: "ITU and Energy / Materials: A Single-Axiom View of Information-Energy Equivalence, Renewable Transition, New Materials, and the 2026-2050 Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, DOI 10.5281/zenodo.20109210) to energy and
+  materials science. Energy is reframed as K-work and information
+  as K-bit; the Landauer-Bennett equivalence (E_bit = k_B T ln 2)
+  establishes their unity. This is Tier 1 paper #10, extending
+  the engineering wing to a pentagon (5 vertices) and completing
+  the ITU 10-vertex polytope. Pass-1 progress: 82 of 220 phases
+  (37.3%).
+  Phase 79 establishes the ITU foundation. Compute energy per
+  operation has dropped from 10^-3 J (vacuum tubes, 1950) to
+  10^-17 J (GAAFET 3nm, 2024) - still 3,000x the Landauer limit
+  (2.87 x 10^-21 J at 300K), leaving 3-4 orders of magnitude to
+  exhaust. Battery technology Pareto: lead-acid 30 Wh/kg ($100/kWh,
+  1860) -> Li-ion NMC 250 Wh/kg ($140/kWh, 2008) -> solid-state
+  450 Wh/kg ($80/kWh predicted 2028). Solar cells reach 33.9%
+  (Si+perovskite tandem 2024) toward Shockley-Queisser limits.
+  Critical materials HHI: Gallium 9,604 (China 98%), Rare earths
+  7,337 (China 85%).
+  Phase 80 covers renewable energy + nuclear fusion. LCOE 2024:
+  solar $40/MWh, wind $38/MWh (cheapest ever), vs gas $60, nuclear
+  $182 (new build). NIF Ignition achieved Q=1.5 (Dec 2022) and
+  Q=1.9 (2023, sustained). ITER targets Q=10 by 2035. SPARC, CFS,
+  Helion, TAE pursue commercial fusion by 2030. IEA NZE 2050
+  pathway: solar 50%, wind 22%, nuclear 9%, fossil 2% of world
+  electricity. CO2 sweet spot: nuclear 12 g/kWh, fusion ~5 g/kWh.
+  Phase 81 details the new materials revolution. Perovskite solar
+  cells: 3.8% (Miyasaka 2009) -> 26.7% single (2024) -> 34.6%
+  Si-tandem (2024) - 9x in 15 years. MOFs: NU-1501 reaches 7,140
+  m^2/g (1.7 soccer fields per gram). Superconductors: H_3S 203K
+  at 150 GPa (Eremets 2015), LaH_10 250K at 170 GPa (2019),
+  room-temp candidate by 2030. AI material discovery: DeepMind
+  GNoME (Nature 2023) predicts 2.2M new crystals; Microsoft
+  MatterGen (2024) enables inverse design. Discovery cycle:
+  24 months (Edisonian 1960s) -> 0.5 months (MatterGen 2024) =
+  48x acceleration.
+  Phase 82 synthesises into the 2026-2050 roadmap. Triple
+  convergence: AGI accelerates research 10x, fusion + perovskite
+  commercialize, China supply dominance diversifies (gallium 98%
+  -> 60%, rare earths 85% -> 50%). EU carbon price $80 (2024) ->
+  $300/t (2050). DAC capacity 0.01 -> 1,000 MtCO2/yr, cost $800
+  -> $50/t. Ten falsifiable predictions issued. The ITU 10-vertex
+  polytope completes: engineering pentagon (QC, AI, Crypto, Semi,
+  Energy/Materials) + medicine triangle (Cancer, Aging, Psychiatry)
+  + social sciences (Economics) + philosophy (Free Will).
+  Central thesis: energy and materials follow the ITU axiom
+  delta_S = delta<K>. Information-energy equivalence (Landauer-
+  Bennett) connects Tier 1 #4 (Semi) to Tier 1 #10 (Energy).
+  Pass-1 interpretive paper reframing Landauer, Shockley-Queisser,
+  Lazard LCOE, NIF Ignition, perovskites, MOFs, GNoME in ITU
+  language. Pass-2 work would derive ITU-specific battery
+  chemistries or AI-discovered materials.
+keywords:
+  - energy
+  - materials science
+  - Landauer principle
+  - Maxwell's demon
+  - Bennett
+  - information-energy equivalence
+  - LCOE
+  - levelized cost of energy
+  - solar PV
+  - perovskite
+  - tandem solar cell
+  - Shockley-Queisser limit
+  - wind power
+  - nuclear power
+  - fusion
+  - tokamak
+  - ITER
+  - NIF
+  - National Ignition Facility
+  - SPARC
+  - Commonwealth Fusion Systems
+  - Helion Energy
+  - TAE Technologies
+  - JT-60SA
+  - lithium-ion battery
+  - solid-state battery
+  - Li-air battery
+  - hydrogen fuel cell
+  - iron-air battery
+  - Form Energy
+  - MOFs
+  - metal-organic frameworks
+  - Yaghi
+  - NU-1501
+  - direct air capture
+  - DAC
+  - Climeworks
+  - superconductor
+  - high-temperature superconductor
+  - room temperature superconductor
+  - LaH10
+  - H3S
+  - cuprates
+  - YBaCuO
+  - topological insulator
+  - quantum materials
+  - GNoME
+  - DeepMind
+  - MatterGen
+  - Microsoft AI
+  - Materials Project
+  - DFT
+  - critical materials
+  - rare earths
+  - gallium
+  - cobalt
+  - lithium
+  - China supply chain
+  - CHIPS Act
+  - CRMA
+  - carbon pricing
+  - EU ETS
+  - IEA Net Zero
+  - net zero emissions
+  - Wright's Law
+  - Swanson's Law
+  - Information-Theoretic Unification
+  - ITU
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/energy-materials"
+url: "https://doi.org/10.5281/zenodo.20199598"
+doi: "10.5281/zenodo.20199598"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20199598"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-14"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109210"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Landauer
+        given-names: Rolf
+    title: "Irreversibility and Heat Generation in the Computing Process"
+    journal: "IBM J Res Dev"
+    volume: 5
+    pages: 183
+    year: 1961
+  - type: article
+    authors:
+      - family-names: Bennett
+        given-names: Charles
+    title: "The Thermodynamics of Computation - A Review"
+    journal: "Int J Theor Phys"
+    volume: 21
+    pages: 905
+    year: 1982
+  - type: article
+    authors:
+      - family-names: Shockley
+        given-names: William
+      - family-names: Queisser
+        given-names: Hans
+    title: "Detailed Balance Limit of Efficiency of p-n Junction Solar Cells"
+    journal: "J Appl Phys"
+    volume: 32
+    pages: 510
+    year: 1961
+  - type: article
+    authors:
+      - family-names: Abu-Shawareb
+    title: "Lawson Criterion for Ignition Exceeded in an Inertial Fusion Experiment"
+    journal: "Phys Rev Lett"
+    volume: 129
+    pages: "075001"
+    year: 2022
+  - type: article
+    authors:
+      - family-names: Eremets
+        given-names: Mikhail
+    title: "Conventional Superconductivity at 203K at High Pressures in the Sulfur Hydride System"
+    journal: "Nature"
+    volume: 525
+    pages: 73
+    year: 2015
+  - type: article
+    authors:
+      - family-names: Merchant
+        given-names: Amil
+    title: "Scaling Deep Learning for Materials Discovery"
+    journal: "Nature"
+    volume: 624
+    pages: 80
+    year: 2023
+  - type: article
+    authors:
+      - family-names: Miyasaka
+        given-names: Tsutomu
+    title: "Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells"
+    journal: "JACS"
+    volume: 131
+    pages: 6050
+    year: 2009
+  - type: report
+    title: "Net Zero by 2050 Roadmap"
+    authors:
+      - name: "International Energy Agency"
+    year: 2021

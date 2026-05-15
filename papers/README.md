@@ -25,8 +25,9 @@ Each Tier 1 paper:
 | 7 | [ITU and Psychiatry](psychiatry/) | [10.5281/zenodo.20177427](https://doi.org/10.5281/zenodo.20177427) | 67-70 | `psychiatry/` | ✅ v1.0.0 |
 | 8 | [ITU and Economics](economics/) | [10.5281/zenodo.20196309](https://doi.org/10.5281/zenodo.20196309) | 71-74 | `economics/` | ✅ v1.0.0 |
 | 9 | [ITU and Free Will](free-will/) | [10.5281/zenodo.20197016](https://doi.org/10.5281/zenodo.20197016) | 75-78 | `free-will/` | ✅ v1.0.0 |
+| 10 | [ITU and Energy / Materials](energy-materials/) | [10.5281/zenodo.20199598](https://doi.org/10.5281/zenodo.20199598) | 79-82 | `energy-materials/` | ✅ v1.0.0 |
 
-> **🎉 ITU polytope expanded — 9 vertices and growing**: Tier 1 #1-#4 form the **engineering rectangle**. Tier 1 #5-#7 form the **medicine triangle**. **Tier 1 #8 (Economics) opens the social-sciences axis** and **Tier 1 #9 (Free Will/Ethics) opens the philosophy axis**. Nine Tier 1 papers, all under the ITU axiom dS = d<K>. Pass-1 progress: 78 of 220 phases (35.5%).
+> **🎉 ITU 10-vertex polytope COMPLETED**: Tier 1 #1-#4 + #10 form the **engineering pentagon** (computation, intelligence, communication, substrate, energy). Tier 1 #5-#7 form the **medicine triangle** (cancer acute, aging chronic, psychiatry brain-circuit). **#8 (Economics)** is the social-sciences vertex and **#9 (Free Will)** is the philosophy vertex. Ten Tier 1 papers, all under the ITU axiom dS = d<K>. Pass-1 progress: 82 of 220 phases (37.3%).
 
 ## Planned Tier 1 Papers
 
@@ -88,7 +89,12 @@ papers/
 │   ├── theory_phase75-78.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Tier 1 #10+ planned)
+├── energy-materials/                   Tier 1 #10: Energy / Materials (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase79-82.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Tier 1 #11+ planned)
 ```
 
 ## How to cite a Tier 1 paper
@@ -156,6 +162,13 @@ Terada, M. (2026). ITU and Free Will: A Single-Axiom View of
 K_self Constraint, Neuroscience, Ethics, AI Agency, and Universal
 Moral Framework (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20197016
+```
+
+```
+Terada, M. (2026). ITU and Energy / Materials: A Single-Axiom View
+of Information-Energy Equivalence, Renewable Transition, New
+Materials, and the 2026-2050 Roadmap (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20199598
 ```
 
 Plus the core ITU citation:

@@ -1,0 +1,149 @@
+{
+  "phase": 80,
+  "paper": "ITU and Energy / Materials",
+  "description": "Renewable + nuclear + fusion ITU analysis",
+  "LCOE_2024_USD_MWh": {
+    "solar": 40.0,
+    "wind_onshore": 38.0,
+    "wind_offshore": 100.0,
+    "gas_ccgt": 60.0,
+    "coal": 117.0,
+    "nuclear_new": 182.0,
+    "battery_solar": 68.0
+  },
+  "energy_sources": {
+    "Coal": {
+      "capacity_factor": 60,
+      "co2_gCO2_kWh": 820,
+      "color": "black"
+    },
+    "Gas (CCGT)": {
+      "capacity_factor": 70,
+      "co2_gCO2_kWh": 490,
+      "color": "gray"
+    },
+    "Solar PV": {
+      "capacity_factor": 20,
+      "co2_gCO2_kWh": 41,
+      "color": "gold"
+    },
+    "Wind onshore": {
+      "capacity_factor": 40,
+      "co2_gCO2_kWh": 12,
+      "color": "lightblue"
+    },
+    "Wind offshore": {
+      "capacity_factor": 50,
+      "co2_gCO2_kWh": 12,
+      "color": "blue"
+    },
+    "Hydro": {
+      "capacity_factor": 40,
+      "co2_gCO2_kWh": 24,
+      "color": "darkblue"
+    },
+    "Nuclear fission": {
+      "capacity_factor": 92,
+      "co2_gCO2_kWh": 12,
+      "color": "purple"
+    },
+    "Fusion (predicted)": {
+      "capacity_factor": 90,
+      "co2_gCO2_kWh": 5,
+      "color": "red"
+    }
+  },
+  "fusion_milestones": [
+    {
+      "year": 1991,
+      "device": "JET (D-T)",
+      "Q": 0.16,
+      "tier": "achieved"
+    },
+    {
+      "year": 1997,
+      "device": "JET (D-T)",
+      "Q": 0.67,
+      "tier": "achieved"
+    },
+    {
+      "year": 2022,
+      "device": "NIF (laser)",
+      "Q": 1.5,
+      "tier": "ignition"
+    },
+    {
+      "year": 2023,
+      "device": "NIF (laser, sustained)",
+      "Q": 1.9,
+      "tier": "ignition"
+    },
+    {
+      "year": 2025,
+      "device": "SPARC (predicted)",
+      "Q": 2.0,
+      "tier": "expected"
+    },
+    {
+      "year": 2028,
+      "device": "Helion (target)",
+      "Q": 5.0,
+      "tier": "predicted"
+    },
+    {
+      "year": 2030,
+      "device": "CFS commercial",
+      "Q": 8.0,
+      "tier": "predicted"
+    },
+    {
+      "year": 2035,
+      "device": "ITER",
+      "Q": 10.0,
+      "tier": "predicted"
+    },
+    {
+      "year": 2050,
+      "device": "Commercial Fusion",
+      "Q": 30.0,
+      "tier": "predicted"
+    }
+  ],
+  "fusion_Q_2022_NIF": 1.5,
+  "fusion_Q_target_ITER_2035": 10.0,
+  "global_capacity_GW": {
+    "2010": {
+      "solar": 40.0,
+      "wind": 200.0,
+      "nuclear": 370.0,
+      "fossil": 4000.0
+    },
+    "2024": {
+      "solar": 1800.0,
+      "wind": 1200.0,
+      "nuclear": 415.0,
+      "fossil": 4500.0
+    },
+    "2050": {
+      "solar": 20000.0,
+      "wind": 8000.0,
+      "nuclear": 800.0,
+      "fossil": 800.0
+    }
+  },
+  "solar_growth_2010_to_2024": 45.0,
+  "central_thesis": "2024 is a historic turning point: solar+wind become cheapest energy globally ($36-50/MWh). NIF Ignition (Dec 2022, Q=1.5) opens the fusion era. ITER 2035 Q=10 targets commercial fusion by 2050. CO2 sweet spot: nuclear (12) and fusion (~5 g/kWh) with high capacity factors.",
+  "honest_framing": "Pass-1 interpretive paper. Reframes Lazard LCOE, IEA NZE, NIF ignition, ITER milestones in ITU language. No novel renewable technology.",
+  "tier": 1,
+  "paper_number": 10,
+  "next_phases": [
+    "Phase 81: New materials (perovskites, MOFs, quantum materials)",
+    "Phase 82: Energy roadmap 2026-2050 + 10 predictions"
+  ],
+  "caveats": [
+    "LCOE values from multiple sources differ (Lazard, BNEF, IEA)",
+    "Fusion Q-value definitions vary (input plasma vs wall plug)",
+    "Capacity factors vary by region (e.g., Saharan solar 28%)",
+    "CO2 lifecycle differs by methodology (cradle-to-grave)"
+  ]
+}

@@ -48,15 +48,16 @@ release tag.
 | 7 | [ITU and Psychiatry](papers/psychiatry/) | [10.5281/zenodo.20177427](https://doi.org/10.5281/zenodo.20177427) | 67–70 | ✅ v1.0.0 |
 | 8 | [ITU and Economics](papers/economics/) | [10.5281/zenodo.20196309](https://doi.org/10.5281/zenodo.20196309) | 71–74 | ✅ v1.0.0 |
 | 9 | [ITU and Free Will](papers/free-will/) | [10.5281/zenodo.20197016](https://doi.org/10.5281/zenodo.20197016) | 75–78 | ✅ v1.0.0 |
-| 10+ | (full roadmap to Phase 220) | TBD | 79-220 | planned |
+| 10 | [ITU and Energy / Materials](papers/energy-materials/) | [10.5281/zenodo.20199598](https://doi.org/10.5281/zenodo.20199598) | 79–82 | ✅ v1.0.0 |
+| 11+ | (full roadmap to Phase 220) | TBD | 83-220 | planned |
 
-**🎉 ITU polytope expanded: 9 vertices and growing:**
-The four engineering Tier 1 papers (QC, AI/ASI, Cryptography, Semiconductors)
-form the **engineering rectangle**; Tier 1 #5-#7 (Cancer + Aging + Psychiatry)
-form the **medicine triangle**; **#8 (Economics) opens the social-sciences axis**
-and **#9 (Free Will / Ethics) opens the philosophy axis**.
-All nine Tier 1 papers derive from the single axiom δS = δ⟨K⟩.
-**Pass-1 progress**: 78 of 220 phases complete (35.5%).
+**🎉 ITU 10-vertex polytope COMPLETED:**
+The five engineering Tier 1 papers (QC, AI/ASI, Cryptography, Semiconductors,
+Energy/Materials) form the **engineering pentagon**; Tier 1 #5-#7 form the
+**medicine triangle**; **#8 (Economics)** is the social-sciences vertex
+and **#9 (Free Will)** is the philosophy vertex.
+All ten Tier 1 papers derive from the single axiom δS = δ⟨K⟩.
+**Pass-1 progress**: 82 of 220 phases complete (37.3%).
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 

@@ -1,0 +1,137 @@
+{
+  "phase": 79,
+  "paper": "ITU and Energy / Materials",
+  "description": "ITU foundation - information-energy equivalence, batteries, solar, materials",
+  "landauer_limit_J": 2.870978885078724e-21,
+  "compute_history": {
+    "1950": 0.001,
+    "1965": 1e-05,
+    "1980": 1e-08,
+    "1995": 1e-11,
+    "2010": 1e-15,
+    "2024": 1e-17,
+    "2030": 1e-18,
+    "2040": 1e-19
+  },
+  "compute_gap_2024_over_landauer": 3483.1325482652564,
+  "batteries": {
+    "Lead-acid": {
+      "density_Wh_kg": 30,
+      "cost_USD_kWh": 100,
+      "year": 1860,
+      "status": "mature"
+    },
+    "Ni-Cd": {
+      "density_Wh_kg": 50,
+      "cost_USD_kWh": 800,
+      "year": 1900,
+      "status": "deprecated"
+    },
+    "Ni-MH": {
+      "density_Wh_kg": 90,
+      "cost_USD_kWh": 600,
+      "year": 1990,
+      "status": "niche"
+    },
+    "Li-ion (NMC)": {
+      "density_Wh_kg": 250,
+      "cost_USD_kWh": 140,
+      "year": 2008,
+      "status": "dominant"
+    },
+    "Li-ion (LFP)": {
+      "density_Wh_kg": 200,
+      "cost_USD_kWh": 100,
+      "year": 2010,
+      "status": "dominant"
+    },
+    "Solid-state (proj)": {
+      "density_Wh_kg": 450,
+      "cost_USD_kWh": 80,
+      "year": 2028,
+      "status": "predicted"
+    },
+    "Li-air (theoretical)": {
+      "density_Wh_kg": 3500,
+      "cost_USD_kWh": 200,
+      "year": 2035,
+      "status": "research"
+    },
+    "Iron-air (Form Energy)": {
+      "density_Wh_kg": 100,
+      "cost_USD_kWh": 20,
+      "year": 2024,
+      "status": "grid"
+    },
+    "Hydrogen FC": {
+      "density_Wh_kg": 33000,
+      "cost_USD_kWh": 250,
+      "year": 2010,
+      "status": "developing"
+    }
+  },
+  "best_battery_2024_NMC": {
+    "density_Wh_kg": 250,
+    "cost_USD_kWh": 140,
+    "improvement_over_lead_acid": "8x density, 0.7x cost vs 1860"
+  },
+  "solar_cells": {
+    "Single c-Si": {
+      "efficiency_pct": 26.8,
+      "sq_limit_pct": 33.7,
+      "year": 2023
+    },
+    "Thin-film (CIGS, CdTe)": {
+      "efficiency_pct": 23.6,
+      "sq_limit_pct": 30,
+      "year": 2024
+    },
+    "Perovskite": {
+      "efficiency_pct": 26.1,
+      "sq_limit_pct": 33,
+      "year": 2024
+    },
+    "Tandem (Si+perovskite)": {
+      "efficiency_pct": 33.9,
+      "sq_limit_pct": 47,
+      "year": 2024
+    },
+    "Triple-junction": {
+      "efficiency_pct": 47.6,
+      "sq_limit_pct": 86,
+      "year": 2024
+    },
+    "Quantum dot": {
+      "efficiency_pct": 18.0,
+      "sq_limit_pct": 67,
+      "year": 2024
+    }
+  },
+  "critical_materials_HHI": {
+    "Lithium": 3333,
+    "Cobalt": 4400,
+    "Nickel": 2500,
+    "Rare earths": 7337,
+    "Gallium": 9604,
+    "Germanium": 4400,
+    "Silicon (refined)": 6800,
+    "Graphite": 5350,
+    "Uranium": 2500
+  },
+  "central_thesis": "Energy = K-work. Information = K-bit. Landauer 1961 + Bennett 1982 establish their equivalence. 21st century: battery density 10x in 30 years; solar cells approach SQ limit via tandem cells; critical materials concentrated in China (rare earths 85%, gallium 98%). AI + quantum computing accelerate material discovery 10x.",
+  "honest_framing": "Pass-1 interpretive paper. Reframes Landauer, Bennett, Shockley-Queisser, Wright's Law, Swanson's Law in ITU language. Numerical data from IEA, BNEF, US DOE, Merchant 2023.",
+  "tier": 1,
+  "paper_number": 10,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "next_phases": [
+    "Phase 80: Renewable energy + nuclear fusion (ITU systems view)",
+    "Phase 81: Materials science - perovskites, MOFs, quantum materials",
+    "Phase 82: Energy roadmap 2026-2050 + 10 predictions"
+  ],
+  "caveats": [
+    "Compute energy values are approximate decade averages",
+    "Battery costs vary by source (BNEF, IEA, BCG differ)",
+    "Solar SQ limits depend on solar spectrum assumptions",
+    "HHI calculation simplifies remaining-supplier distribution"
+  ]
+}
