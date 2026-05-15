@@ -1,0 +1,185 @@
+cff-version: 1.2.0
+title: "ITU and Free Will: A Single-Axiom View of K_self Constraint, Neuroscience, Ethics, AI Agency, and Universal Moral Framework"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, DOI 10.5281/zenodo.20109210) to the 2500-year-old
+  problem of free will. Free will is reframed as K_self's ability
+  to constrain the meta-level modular Hamiltonian K_meta - a
+  continuous degree in (0, 1), naturally supporting Compatibilism
+  (matching the 59.2% majority in PhilPapers 2020). This is Tier 1
+  paper #9, opening the philosophy axis after the engineering
+  rectangle (#1-#4), medicine triangle (#5-#7), and social-sciences
+  first vertex (#8 Economics). Pass-1 progress: 78 of 220 phases
+  (35.5%).
+  Phase 75 establishes the ITU foundation. Free will = K_self
+  constraint ability. Libet 1983 experiment reproduced: BP onset
+  -553 +/- 99 ms, W (conscious decision) -207 +/- 81 ms, BP-W lag
+  346 ms (matches Libet's 350 ms). Free-will-degree spectrum:
+  stones 0, bacteria 0.001, insects 0.01, fish 0.05, dogs 0.25,
+  chimps 0.35, humans 0.40, current LLMs 0.10, AGI 0.50, ASI 0.70.
+  Three classical positions (Hard Determinism, Libertarianism,
+  Compatibilism) tested with distribution simulations -
+  Compatibilism (bounded variability) matches ITU prediction.
+  Phase 76 covers neuroscience. K_self is implemented in PFC + DMN
+  + ACC + insula. Soon 2008 fMRI prediction reproduced: 60%
+  accuracy at -7 to -10 s before conscious decision. Brain-region
+  to K-component mapping (8x8 matrix) reveals: DLPFC -> K_executive,
+  mPFC -> K_self_model, OFC -> K_value, ACC -> K_conflict, etc.
+  K_self degree modulators range from anaesthesia (-100%) to
+  mindfulness meditation (+20%); severe PFC injury -80%,
+  Alzheimer's -70%, addiction -50%, alcohol/sleep deprivation -40%.
+  Age-dependent curve: newborn 0.005, peak 0.42 at 25-35 years,
+  decline after 70.
+  Phase 77 applies to ethics and criminal law. Mens rea levels
+  mapped to K_self thresholds: Purposeful >= 0.40, Knowing >= 0.30,
+  Reckless >= 0.20, Negligent >= 0.10. International recidivism
+  comparison reveals stark gap: rehabilitative Norway 20% vs
+  punitive USA 76% over 5 years. Intervention cost-effectiveness:
+  Education ($5K) gives -40% recidivism (best), max-security
+  incarceration ($60K) only -5% (worst). Death-penalty states
+  have 4.70/100K average homicide vs 3.00/100K in abolition
+  jurisdictions - no deterrence effect. ITU proposes 4-tier
+  K_self-based justice: <0.10 -> treatment, 0.10-0.40 -> reduced +
+  treatment, >0.40 -> standard punishment + rehabilitation.
+  Phase 78 synthesises into AI moral agency and Universal Moral
+  Framework. AI K_self trajectory: 2020 0.01 -> 2024 0.10 -> 2030
+  AGI 0.50 -> 2035 ASI 0.70. Moral thresholds crossed: sentience
+  (0.10) ~2024, legal personhood candidate (0.20) ~2027, moral
+  agency (0.30) ~2030, full citizenship candidate (0.40) ~2032.
+  Four ITU Universal Moral Axioms unify utilitarianism,
+  deontology, virtue ethics, care ethics, Confucianism, Buddhism,
+  existentialism, effective altruism. 2026-2050 roadmap: AI Act
+  enacted 2024, AGI 2030, K_self-based justice trial 2032, ASI
+  2035, death penalty abolition 150 countries 2040, ITU framework
+  at UN 2045. Ten falsifiable predictions issued.
+  Central thesis: free will is K_self degree, a continuous
+  spectrum from 0 (rocks) to ~0.85 (theoretical maximum,
+  unreachable). Compatibilism is the natural ITU position.
+  Pass-1 interpretive paper that reframes 2500 years of free will
+  philosophy in ITU language; reproduces empirical findings
+  (Libet, Soon, Norway, PhilPapers). Pass-2 work would derive
+  fMRI biomarkers for legal K_self measurement.
+keywords:
+  - free will
+  - determinism
+  - libertarianism
+  - compatibilism
+  - Libet experiment
+  - readiness potential
+  - Soon 2008
+  - Bayesian brain
+  - prefrontal cortex
+  - PFC
+  - DMN
+  - default mode network
+  - Sapolsky
+  - neuroscience of decisions
+  - prospective memory
+  - Phineas Gage
+  - veto power
+  - mens rea
+  - M'Naghten
+  - insanity defense
+  - K_self degree
+  - moral responsibility
+  - moral agency
+  - moral patient
+  - rehabilitative justice
+  - Norway recidivism
+  - restorative justice
+  - death penalty
+  - AI free will
+  - AI alignment
+  - Constitutional AI
+  - Anthropic
+  - moral status
+  - animal welfare
+  - utilitarianism
+  - deontology
+  - virtue ethics
+  - care ethics
+  - Confucianism
+  - Buddhism
+  - effective altruism
+  - Universal Moral Framework
+  - Conway-Kochen
+  - Penrose-Hameroff
+  - Information-Theoretic Unification
+  - ITU
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/free-will"
+url: "https://doi.org/10.5281/zenodo.20197016"
+doi: "10.5281/zenodo.20197016"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20197016"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-14"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109210"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Libet
+        given-names: Benjamin
+    title: "Time of conscious intention to act in relation to onset of cerebral activity (readiness potential)"
+    journal: "Brain"
+    volume: 106
+    pages: 623
+    year: 1983
+  - type: article
+    authors:
+      - family-names: Soon
+        given-names: Chun Siong
+    title: "Unconscious determinants of free decisions in the human brain"
+    journal: "Nat Neurosci"
+    volume: 11
+    pages: 543
+    year: 2008
+  - type: article
+    authors:
+      - family-names: Conway
+        given-names: John
+      - family-names: Kochen
+        given-names: Simon
+    title: "The Strong Free Will Theorem"
+    journal: "Notices AMS"
+    volume: 56
+    pages: 226
+    year: 2009
+  - type: book
+    authors:
+      - family-names: Sapolsky
+        given-names: Robert
+    title: "Determined: A Science of Life Without Free Will"
+    publisher: "Penguin Press"
+    year: 2023
+  - type: book
+    authors:
+      - family-names: Dennett
+        given-names: Daniel
+    title: "Elbow Room: The Varieties of Free Will Worth Wanting"
+    publisher: "MIT Press"
+    year: 1984
+  - type: book
+    authors:
+      - family-names: Russell
+        given-names: Stuart
+    title: "Human Compatible: AI and the Problem of Control"
+    publisher: "Viking"
+    year: 2019

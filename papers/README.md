@@ -24,8 +24,9 @@ Each Tier 1 paper:
 | 6 | [ITU and Aging](aging/) | [10.5281/zenodo.20175663](https://doi.org/10.5281/zenodo.20175663) | 63-66 | `aging/` | ✅ v1.0.0 |
 | 7 | [ITU and Psychiatry](psychiatry/) | [10.5281/zenodo.20177427](https://doi.org/10.5281/zenodo.20177427) | 67-70 | `psychiatry/` | ✅ v1.0.0 |
 | 8 | [ITU and Economics](economics/) | [10.5281/zenodo.20196309](https://doi.org/10.5281/zenodo.20196309) | 71-74 | `economics/` | ✅ v1.0.0 |
+| 9 | [ITU and Free Will](free-will/) | [10.5281/zenodo.20197016](https://doi.org/10.5281/zenodo.20197016) | 75-78 | `free-will/` | ✅ v1.0.0 |
 
-> **🎉 ITU polytope expanded — 8 vertices and growing**: Tier 1 #1-#4 form the **engineering rectangle** (computation, intelligence, communication, substrate). Tier 1 #5-#7 form the **medicine triangle** (cancer acute, aging chronic, psychiatry brain-circuit). **Tier 1 #8 (Economics) opens the social-sciences axis**. Eight Tier 1 papers, all under the ITU axiom dS = d<K>. Pass-1 progress: 74 of 220 phases (33.6%).
+> **🎉 ITU polytope expanded — 9 vertices and growing**: Tier 1 #1-#4 form the **engineering rectangle**. Tier 1 #5-#7 form the **medicine triangle**. **Tier 1 #8 (Economics) opens the social-sciences axis** and **Tier 1 #9 (Free Will/Ethics) opens the philosophy axis**. Nine Tier 1 papers, all under the ITU axiom dS = d<K>. Pass-1 progress: 78 of 220 phases (35.5%).
 
 ## Planned Tier 1 Papers
 
@@ -82,7 +83,12 @@ papers/
 │   ├── theory_phase71-74.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Tier 1 #9+ planned)
+├── free-will/                          Tier 1 #9: Free Will / Ethics (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase75-78.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Tier 1 #10+ planned)
 ```
 
 ## How to cite a Tier 1 paper
@@ -143,6 +149,13 @@ Terada, M. (2026). ITU and Economics: A Single-Axiom View of
 Markets, Bubbles, Inequality, AI Labor Displacement, and the
 2026-2050 Roadmap (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20196309
+```
+
+```
+Terada, M. (2026). ITU and Free Will: A Single-Axiom View of
+K_self Constraint, Neuroscience, Ethics, AI Agency, and Universal
+Moral Framework (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20197016
 ```
 
 Plus the core ITU citation:

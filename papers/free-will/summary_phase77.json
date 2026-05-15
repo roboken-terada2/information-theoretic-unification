@@ -1,0 +1,150 @@
+{
+  "phase": 77,
+  "paper": "ITU and Free Will",
+  "description": "Ethics, criminal law, ITU K_self-based justice",
+  "mens_rea_K_mapping": {
+    "Purposeful (intent)": {
+      "K_self_min": 0.4,
+      "sentencing_factor": 1.0
+    },
+    "Knowing": {
+      "K_self_min": 0.3,
+      "sentencing_factor": 0.8
+    },
+    "Reckless": {
+      "K_self_min": 0.2,
+      "sentencing_factor": 0.5
+    },
+    "Negligent": {
+      "K_self_min": 0.1,
+      "sentencing_factor": 0.3
+    },
+    "Diminished responsibility": {
+      "K_self_min": 0.05,
+      "sentencing_factor": 0.1
+    },
+    "Not responsible (insanity)": {
+      "K_self_min": 0.0,
+      "sentencing_factor": 0.0
+    }
+  },
+  "international_recidivism": {
+    "Norway": {
+      "recidivism_5yr_pct": 20,
+      "style": "rehabilitative",
+      "cost_per_year_USD_K": 35,
+      "color": "green"
+    },
+    "Netherlands": {
+      "recidivism_5yr_pct": 25,
+      "style": "rehabilitative",
+      "cost_per_year_USD_K": 45,
+      "color": "green"
+    },
+    "Sweden": {
+      "recidivism_5yr_pct": 25,
+      "style": "rehabilitative",
+      "cost_per_year_USD_K": 50,
+      "color": "green"
+    },
+    "Germany": {
+      "recidivism_5yr_pct": 45,
+      "style": "mixed",
+      "cost_per_year_USD_K": 40,
+      "color": "orange"
+    },
+    "Japan": {
+      "recidivism_5yr_pct": 38,
+      "style": "mixed (strict)",
+      "cost_per_year_USD_K": 30,
+      "color": "orange"
+    },
+    "UK": {
+      "recidivism_5yr_pct": 50,
+      "style": "mixed",
+      "cost_per_year_USD_K": 38,
+      "color": "orange"
+    },
+    "USA": {
+      "recidivism_5yr_pct": 76,
+      "style": "punitive",
+      "cost_per_year_USD_K": 50,
+      "color": "red"
+    },
+    "Russia": {
+      "recidivism_5yr_pct": 65,
+      "style": "punitive",
+      "cost_per_year_USD_K": 10,
+      "color": "red"
+    }
+  },
+  "intervention_pareto": {
+    "No intervention": {
+      "cost_USD_K": 35,
+      "recidivism_reduction_pct": 0,
+      "tier": "baseline"
+    },
+    "Cognitive Behavioral Therapy": {
+      "cost_USD_K": 8,
+      "recidivism_reduction_pct": 25,
+      "tier": "treatment"
+    },
+    "Drug treatment": {
+      "cost_USD_K": 15,
+      "recidivism_reduction_pct": 30,
+      "tier": "treatment"
+    },
+    "Vocational training": {
+      "cost_USD_K": 5,
+      "recidivism_reduction_pct": 20,
+      "tier": "rehab"
+    },
+    "Education (HS+)": {
+      "cost_USD_K": 5,
+      "recidivism_reduction_pct": 40,
+      "tier": "rehab"
+    },
+    "Restorative justice": {
+      "cost_USD_K": 3,
+      "recidivism_reduction_pct": 30,
+      "tier": "restorative"
+    },
+    "Drug court diversion": {
+      "cost_USD_K": 10,
+      "recidivism_reduction_pct": 35,
+      "tier": "treatment"
+    },
+    "Standard incarceration": {
+      "cost_USD_K": 35,
+      "recidivism_reduction_pct": 5,
+      "tier": "punitive"
+    },
+    "Max-security incarceration": {
+      "cost_USD_K": 60,
+      "recidivism_reduction_pct": 5,
+      "tier": "punitive"
+    },
+    "Combination (CBT+edu+drug)": {
+      "cost_USD_K": 25,
+      "recidivism_reduction_pct": 55,
+      "tier": "combo"
+    }
+  },
+  "death_penalty_homicide": {
+    "death_penalty_avg_homicide": 4.7,
+    "abolition_avg_homicide": 3.0,
+    "deterrence_evidence": "No correlation observed"
+  },
+  "ITU_proposal": "K_self degree-based justice system: <0.10 -> treatment, 0.10-0.40 -> reduced + treatment, >0.40 -> standard punishment with rehabilitation.",
+  "central_thesis": "Classical criminal law assumes binary guilt under full free will. ITU replaces with continuous K_self degree, requiring multi-axis (treatment + rehabilitation + restoration) intervention. Rehabilitative justice (Norway 20% recid) outperforms punitive (USA 76%) by 4x.",
+  "honest_framing": "Pass-1 interpretive paper. Reframes M'Naghten, Model Penal Code, Sapolsky 2023, restorative justice in ITU. Numerical data from BJS, Eurostat, country reports.",
+  "tier": 1,
+  "paper_number": 9,
+  "next_phase": "Phase 78: AI free will + ITU roadmap + 10 predictions",
+  "caveats": [
+    "Mens rea K-self thresholds are illustrative ITU proposals",
+    "Recidivism rates differ by definition between countries",
+    "Death-penalty / homicide correlation is sociologically complex",
+    "Norway success may not transfer to all cultural contexts"
+  ]
+}

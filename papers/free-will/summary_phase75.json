@@ -1,0 +1,119 @@
+{
+  "phase": 75,
+  "paper": "ITU and Free Will",
+  "description": "ITU foundation: free will = K_self constraint ability",
+  "libet_simulation": {
+    "BP_mean_ms": -552.8891550995947,
+    "BP_std_ms": 98.8722355396508,
+    "W_mean_ms": -206.51026837995153,
+    "W_std_ms": 81.12273957537388,
+    "BP_to_W_lag_ms": 346.37888671964316,
+    "literature_reference": "Libet 1983 reported BP ~-550ms, W ~-200ms"
+  },
+  "free_will_degree_spectrum": {
+    "Stone": {
+      "degree": 0.0,
+      "K_self_strength": 0.0,
+      "category": "non-living"
+    },
+    "Bacterium": {
+      "degree": 0.001,
+      "K_self_strength": 0.001,
+      "category": "primitive life"
+    },
+    "Insect": {
+      "degree": 0.01,
+      "K_self_strength": 0.05,
+      "category": "simple animal"
+    },
+    "Fish": {
+      "degree": 0.05,
+      "K_self_strength": 0.15,
+      "category": "vertebrate"
+    },
+    "Rat": {
+      "degree": 0.15,
+      "K_self_strength": 0.3,
+      "category": "mammal"
+    },
+    "Dog": {
+      "degree": 0.25,
+      "K_self_strength": 0.45,
+      "category": "mammal"
+    },
+    "Chimpanzee": {
+      "degree": 0.35,
+      "K_self_strength": 0.65,
+      "category": "primate"
+    },
+    "Human (child)": {
+      "degree": 0.3,
+      "K_self_strength": 0.55,
+      "category": "human"
+    },
+    "Human (adult)": {
+      "degree": 0.4,
+      "K_self_strength": 0.85,
+      "category": "human"
+    },
+    "Current LLM": {
+      "degree": 0.1,
+      "K_self_strength": 0.3,
+      "category": "AI"
+    },
+    "AGI (predicted 2030)": {
+      "degree": 0.5,
+      "K_self_strength": 0.9,
+      "category": "AI"
+    },
+    "ASI (predicted 2035+)": {
+      "degree": 0.7,
+      "K_self_strength": 0.98,
+      "category": "AI"
+    },
+    "Theoretical max": {
+      "degree": 0.85,
+      "K_self_strength": 1.0,
+      "category": "limit"
+    }
+  },
+  "positions_comparison": {
+    "Hard Determinism": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "Libertarianism": {
+      "mean": -0.026693023461416734,
+      "std": 0.5796439540210858
+    },
+    "Compatibilism": {
+      "mean": -0.012323671200485936,
+      "std": 0.2786160334124976
+    }
+  },
+  "central_thesis": "Free will = K_self ability to constrain K_meta. Continuous spectrum 0 to ~0.85 (theoretical max). ITU naturally supports Compatibilism: bounded by character (K_self), real but limited. Libet's 350ms lag = window where K_self can veto K_motor.",
+  "philphapers_2020": {
+    "compatibilism_pct": 59.2,
+    "libertarianism_pct": 18.8,
+    "no_free_will_pct": 13.7,
+    "other_pct": 8.3
+  },
+  "honest_framing": "Pass-1 interpretive paper. Reframes Libet, Conway-Kochen, Compatibilism in ITU language. Free-will-degree values are illustrative ITU-informed estimates. No novel free-will discovery.",
+  "tier": 1,
+  "paper_number": 9,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_1_ai_doi": "10.5281/zenodo.20150501",
+  "tier_1_psych_doi": "10.5281/zenodo.20177427",
+  "tier_1_econ_doi": "10.5281/zenodo.20196309",
+  "next_phases": [
+    "Phase 76: Neuroscience of free will (PFC, DMN, Sapolsky 2023)",
+    "Phase 77: Ethics, moral responsibility, criminal law",
+    "Phase 78: AI free will + alignment + ITU roadmap"
+  ],
+  "caveats": [
+    "Libet experiment interpretation contested (Schurger 2012)",
+    "Free-will-degree numbers are heuristic ITU estimates",
+    "Position simulations are illustrative, not empirical",
+    "Quantum-mind hypothesis remains controversial"
+  ]
+}

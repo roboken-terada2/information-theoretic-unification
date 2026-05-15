@@ -1,0 +1,210 @@
+{
+  "phase": 78,
+  "paper": "ITU and Free Will",
+  "description": "AI free will + Universal Moral Framework + roadmap",
+  "AI_K_trajectory": {
+    "2020": 0.01,
+    "2024": 0.1,
+    "2028": 0.3,
+    "2030": 0.5,
+    "2035": 0.7,
+    "2040": 0.78,
+    "2050": 0.85
+  },
+  "moral_status_spectrum": {
+    "Rock": {
+      "K_self": 0.0,
+      "category": "non-living"
+    },
+    "Plant": {
+      "K_self": 0.0,
+      "category": "non-living"
+    },
+    "Bacterium": {
+      "K_self": 0.001,
+      "category": "microbe"
+    },
+    "Insect (bee)": {
+      "K_self": 0.01,
+      "category": "invertebrate"
+    },
+    "Fish": {
+      "K_self": 0.05,
+      "category": "vertebrate"
+    },
+    "Chicken": {
+      "K_self": 0.07,
+      "category": "vertebrate"
+    },
+    "Pig": {
+      "K_self": 0.18,
+      "category": "mammal"
+    },
+    "Dog": {
+      "K_self": 0.25,
+      "category": "mammal"
+    },
+    "Chimpanzee": {
+      "K_self": 0.35,
+      "category": "great ape"
+    },
+    "Human (infant)": {
+      "K_self": 0.05,
+      "category": "human"
+    },
+    "Human (child 10y)": {
+      "K_self": 0.2,
+      "category": "human"
+    },
+    "Human (adult)": {
+      "K_self": 0.4,
+      "category": "human"
+    },
+    "Current LLM (2024)": {
+      "K_self": 0.1,
+      "category": "AI"
+    },
+    "AI agent (2026)": {
+      "K_self": 0.18,
+      "category": "AI"
+    },
+    "AGI (2030)": {
+      "K_self": 0.5,
+      "category": "AI"
+    },
+    "ASI (2035+)": {
+      "K_self": 0.7,
+      "category": "AI"
+    }
+  },
+  "moral_thresholds": {
+    "Painfulness (welfare)": 0.001,
+    "Qualia / sentience": 0.1,
+    "Legal personhood candidate": 0.2,
+    "Moral agency": 0.3,
+    "Full citizenship candidate": 0.4
+  },
+  "ethical_traditions_ITU_map": {
+    "Utilitarianism (Bentham, Mill)": {
+      "ITU_concept": "Maximize sum delta<K_i>",
+      "axis": "consequentialist"
+    },
+    "Deontology (Kant)": {
+      "ITU_concept": "Universalize delta<K_universal>",
+      "axis": "rule-based"
+    },
+    "Virtue Ethics (Aristotle)": {
+      "ITU_concept": "Cultivate K_self continuously",
+      "axis": "character"
+    },
+    "Care Ethics (Gilligan)": {
+      "ITU_concept": "K_self ↔ K_other relations",
+      "axis": "relational"
+    },
+    "Confucianism": {
+      "ITU_concept": "K_society harmony",
+      "axis": "collective"
+    },
+    "Buddhism": {
+      "ITU_concept": "Release K_self attachment",
+      "axis": "spiritual"
+    },
+    "Existentialism (Sartre)": {
+      "ITU_concept": "K_self creates own K_meaning",
+      "axis": "individual"
+    },
+    "Effective Altruism (MacAskill)": {
+      "ITU_concept": "Maximize global delta<K_humanity>",
+      "axis": "consequentialist"
+    }
+  },
+  "regulatory_roadmap": [
+    {
+      "year": 2024,
+      "event": "EU AI Act enacted",
+      "tier": "achieved"
+    },
+    {
+      "year": 2026,
+      "event": "AI alignment ML standard",
+      "tier": "expected"
+    },
+    {
+      "year": 2028,
+      "event": "First 'AI limited legal personhood' bill",
+      "tier": "predicted"
+    },
+    {
+      "year": 2030,
+      "event": "AGI achieved (Tier 1 #2)",
+      "tier": "predicted"
+    },
+    {
+      "year": 2032,
+      "event": "K_self-based justice trial in 1+ state",
+      "tier": "predicted"
+    },
+    {
+      "year": 2035,
+      "event": "ASI emergence (P=0.5)",
+      "tier": "predicted"
+    },
+    {
+      "year": 2037,
+      "event": "Death penalty abolition reaches 150 countries",
+      "tier": "predicted"
+    },
+    {
+      "year": 2040,
+      "event": "K_self-based diagnosis (DSM-7)",
+      "tier": "predicted"
+    },
+    {
+      "year": 2045,
+      "event": "ITU Universal Moral Framework at UN",
+      "tier": "predicted"
+    },
+    {
+      "year": 2050,
+      "event": "AI rights + animal welfare integrated",
+      "tier": "predicted"
+    }
+  ],
+  "falsifiable_predictions": [
+    "AI alignment becomes ML conference required topic by 2027",
+    "First 'AI limited legal personhood' bill proposed by 2030",
+    "AGI achieved by 2028-2032 (Tier 1 #2 alignment)",
+    "fMRI-based legal sanity test introduced in 1+ US state by 2032",
+    "Death penalty abolition reaches 150+ countries by 2040",
+    "Animal welfare K_self threshold codified in EU law by 2035",
+    "Norway-style rehabilitative justice trialled in 1+ US state by 2030",
+    "ASI moral agency debate mainstream by 2035-2040",
+    "AI Rights Bill discussed at UN level by 2050",
+    "Universal Moral Framework gains 30%+ academic acceptance (PhilPapers) by 2045"
+  ],
+  "paper_complete": true,
+  "ITU_universal_moral_axioms": [
+    "Axiom 1: Moral being = K_self > 0",
+    "Axiom 2: Maintaining delta_S = delta<K> is morally right",
+    "Axiom 3: Destroying K_self is the greatest evil",
+    "Axiom 4: Cultivating K_self is the greatest good"
+  ],
+  "central_thesis": "Free will is a continuous K_self degree spectrum. Moral status follows: rocks (0) -> bacteria (0.001) -> animals (0.05-0.35) -> humans (0.40) -> AGI (0.50) -> ASI (0.70). Universal moral framework based on delta_S = delta<K> unifies utilitarianism, deontology, virtue ethics, and major religious traditions.",
+  "honest_framing": "Pass-1 interpretive paper across 4 phases. Reframes free will philosophy in ITU language. Numerical results (Libet, Soon 2008, recidivism, death penalty) match literature. Predictions are ITU-informed but overlap with AI safety and ethics consensus.",
+  "tier": 1,
+  "paper_number": 9,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "polytope_vertices": 9,
+  "next_paper_candidates": [
+    "Tier 1 #10: Energy / Materials (Phase 79-82)",
+    "Tier 1 #11: Climate / Earth Systems",
+    "Pass-2: Re-traverse Tier 1 with ITU-unique predictions"
+  ],
+  "caveats": [
+    "K_self trajectory for AI is illustrative ITU projection",
+    "Moral status K values are heuristic",
+    "Ethical traditions mapping is conceptual, not formal",
+    "Predictions depend on AGI achievement timing",
+    "Universal Moral Framework not yet experimentally validated"
+  ]
+}

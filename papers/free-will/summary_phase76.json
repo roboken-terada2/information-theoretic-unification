@@ -1,0 +1,189 @@
+{
+  "phase": 76,
+  "paper": "ITU and Free Will",
+  "description": "Neuroscience of free will - PFC, DMN, modulators",
+  "soon_2008_prediction": {
+    "lead_-10s_accuracy_pct": 60.25609084515661,
+    "lead_-7s_accuracy_pct": 65.0,
+    "lead_-2s_accuracy_pct": 53.77300496871976,
+    "literature_ref": "Soon 2008 Nat Neurosci 11, 543"
+  },
+  "brain_region_K_mapping": {
+    "DLPFC": {
+      "K_executive": 0.9,
+      "K_self_model": 0.3,
+      "K_value": 0.2,
+      "K_conflict": 0.4,
+      "K_inhibition": 0.7,
+      "K_self_maintain": 0.2,
+      "K_threat": 0.1,
+      "K_interoception": 0.2
+    },
+    "mPFC": {
+      "K_executive": 0.3,
+      "K_self_model": 0.9,
+      "K_value": 0.4,
+      "K_conflict": 0.3,
+      "K_inhibition": 0.2,
+      "K_self_maintain": 0.7,
+      "K_threat": 0.2,
+      "K_interoception": 0.4
+    },
+    "OFC": {
+      "K_executive": 0.3,
+      "K_self_model": 0.4,
+      "K_value": 0.9,
+      "K_conflict": 0.4,
+      "K_inhibition": 0.6,
+      "K_self_maintain": 0.2,
+      "K_threat": 0.3,
+      "K_interoception": 0.4
+    },
+    "ACC": {
+      "K_executive": 0.4,
+      "K_self_model": 0.3,
+      "K_value": 0.4,
+      "K_conflict": 0.9,
+      "K_inhibition": 0.5,
+      "K_self_maintain": 0.2,
+      "K_threat": 0.4,
+      "K_interoception": 0.3
+    },
+    "vlPFC": {
+      "K_executive": 0.6,
+      "K_self_model": 0.2,
+      "K_value": 0.3,
+      "K_conflict": 0.5,
+      "K_inhibition": 0.9,
+      "K_self_maintain": 0.1,
+      "K_threat": 0.2,
+      "K_interoception": 0.2
+    },
+    "DMN core": {
+      "K_executive": 0.2,
+      "K_self_model": 0.7,
+      "K_value": 0.3,
+      "K_conflict": 0.2,
+      "K_inhibition": 0.2,
+      "K_self_maintain": 0.9,
+      "K_threat": 0.2,
+      "K_interoception": 0.3
+    },
+    "Amygdala": {
+      "K_executive": 0.2,
+      "K_self_model": 0.2,
+      "K_value": 0.4,
+      "K_conflict": 0.4,
+      "K_inhibition": 0.3,
+      "K_self_maintain": 0.1,
+      "K_threat": 0.9,
+      "K_interoception": 0.6
+    },
+    "Insula": {
+      "K_executive": 0.2,
+      "K_self_model": 0.3,
+      "K_value": 0.3,
+      "K_conflict": 0.4,
+      "K_inhibition": 0.2,
+      "K_self_maintain": 0.2,
+      "K_threat": 0.4,
+      "K_interoception": 0.9
+    }
+  },
+  "modulators": {
+    "Baseline (healthy adult)": {
+      "degree": 0.4,
+      "delta_pct": 0,
+      "type": "baseline"
+    },
+    "Mindfulness meditation": {
+      "degree": 0.48,
+      "delta_pct": 20,
+      "type": "enhance"
+    },
+    "Morning peak cortisol": {
+      "degree": 0.46,
+      "delta_pct": 15,
+      "type": "enhance"
+    },
+    "Sleep deprivation (24h)": {
+      "degree": 0.24,
+      "delta_pct": -40,
+      "type": "impair"
+    },
+    "Sleep deprivation (48h)": {
+      "degree": 0.16,
+      "delta_pct": -60,
+      "type": "impair"
+    },
+    "Alcohol (BAC 0.08)": {
+      "degree": 0.24,
+      "delta_pct": -40,
+      "type": "impair"
+    },
+    "Severe acute stress": {
+      "degree": 0.28,
+      "delta_pct": -30,
+      "type": "impair"
+    },
+    "ADHD (untreated)": {
+      "degree": 0.3,
+      "delta_pct": -25,
+      "type": "chronic"
+    },
+    "Major depression": {
+      "degree": 0.26,
+      "delta_pct": -35,
+      "type": "chronic"
+    },
+    "Substance addiction": {
+      "degree": 0.2,
+      "delta_pct": -50,
+      "type": "chronic"
+    },
+    "PFC injury (mild)": {
+      "degree": 0.2,
+      "delta_pct": -50,
+      "type": "lesion"
+    },
+    "PFC injury (severe, Gage-like)": {
+      "degree": 0.08,
+      "delta_pct": -80,
+      "type": "lesion"
+    },
+    "Alzheimer's (moderate)": {
+      "degree": 0.12,
+      "delta_pct": -70,
+      "type": "lesion"
+    },
+    "General anaesthesia": {
+      "degree": 0.0,
+      "delta_pct": -100,
+      "type": "off"
+    }
+  },
+  "age_free_will": {
+    "0": 0.004611965099037191,
+    "10": 0.04999007021846323,
+    "18": 0.2092996904654432,
+    "25": 0.3554253397254882,
+    "35": 0.4066453080242663,
+    "50": 0.38800940173752,
+    "70": 0.26143232818159956,
+    "85": 0.11295539097093191
+  },
+  "central_thesis": "K_self is implemented in PFC + DMN + ACC + insula. Soon 2008 shows decisions predictable 10s before conscious awareness. K_self degree varies with sleep, alcohol, stress, age, brain injury - free will is dynamic and biologically modifiable.",
+  "honest_framing": "Pass-1 interpretive paper. Soon 2008, Damasio, Sapolsky 2023 reframed in ITU. Modulator percentages are literature-informed estimates.",
+  "tier": 1,
+  "paper_number": 9,
+  "next_phases": [
+    "Phase 77: Ethics, moral responsibility, criminal law reform",
+    "Phase 78: AI free will + ITU roadmap + 10 predictions"
+  ],
+  "caveats": [
+    "Soon 2008 prediction accuracy ~60%, not 100%",
+    "K-region mapping is illustrative simplification",
+    "Modulator effects vary by individual",
+    "Age curve is general; individual variation large"
+  ]
+}
