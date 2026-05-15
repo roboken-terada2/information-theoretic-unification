@@ -1,0 +1,82 @@
+{
+  "phase": 72,
+  "paper": "ITU and Economics",
+  "description": "Bubbles and crises as K_market structural breakdowns",
+  "minsky_cycle": {
+    "crash_period_t": 23,
+    "pre_crash_Ponzi_frac": 0.42136556779367884,
+    "interpretation": "Stability breeds instability via Ponzi accumulation"
+  },
+  "bubble_dynamics": {
+    "peak_index": 48,
+    "peak_overvaluation": 4.266119133468914,
+    "drawdown_from_peak_pct": -57.250000000000014
+  },
+  "historical_bubbles": {
+    "Tulipmania (1637)": {
+      "peak_year": 1637,
+      "drawdown_pct": -99,
+      "recovery_yr": 50
+    },
+    "South Sea (1720)": {
+      "peak_year": 1720,
+      "drawdown_pct": -81,
+      "recovery_yr": 40
+    },
+    "Wall Street (1929)": {
+      "peak_year": 1929,
+      "drawdown_pct": -89,
+      "recovery_yr": 25
+    },
+    "Japan Nikkei (1989)": {
+      "peak_year": 1989,
+      "drawdown_pct": -82,
+      "recovery_yr": 35
+    },
+    "Dot-com (2000)": {
+      "peak_year": 2000,
+      "drawdown_pct": -78,
+      "recovery_yr": 15
+    },
+    "Housing (2008)": {
+      "peak_year": 2007,
+      "drawdown_pct": -58,
+      "recovery_yr": 6
+    },
+    "BTC 2017": {
+      "peak_year": 2017,
+      "drawdown_pct": -84,
+      "recovery_yr": 3
+    },
+    "BTC 2021": {
+      "peak_year": 2021,
+      "drawdown_pct": -78,
+      "recovery_yr": 2
+    },
+    "FTX (2022)": {
+      "peak_year": 2022,
+      "drawdown_pct": -100,
+      "recovery_yr": -1
+    }
+  },
+  "information_cascade": {
+    "private_signal_accuracy_pct": 55.00000000000001,
+    "cascade_majority_accuracy_pct": 52.6,
+    "independent_majority_accuracy_pct": 56.00000000000001,
+    "interpretation": "Cascade can lock in errors; independent wisdom-of-crowds exceeds private"
+  },
+  "central_thesis": "Bubbles = K_market disconnected from fundamentals. Minsky 3-stage shows hedge->speculative->Ponzi structural degradation. Information cascades collapse K diversity. All major bubbles share the pattern: euphoria, leverage, K_market overshoot, violent ITU axiom restoration (crash).",
+  "honest_framing": "Pass-1 interpretive paper. Reframes Minsky, Kindleberger, BHW 1992 in ITU language. Historical drawdown numbers from standard sources. Simulations are illustrative.",
+  "tier": 1,
+  "paper_number": 8,
+  "next_phases": [
+    "Phase 73: Inequality, growth, AI labor displacement",
+    "Phase 74: Economic roadmap 2026-2050 + 10 predictions"
+  ],
+  "caveats": [
+    "Minsky cycle is simplified 3-bucket model",
+    "Bubble dynamics use single momentum parameter",
+    "Historical drawdowns are approximate",
+    "Cascade simulation is sequential (not realistic for parallel markets)"
+  ]
+}

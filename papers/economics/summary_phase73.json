@@ -1,0 +1,57 @@
+{
+  "phase": 73,
+  "paper": "ITU and Economics",
+  "description": "Inequality, growth, AI labor under ITU",
+  "pareto_simulation": {
+    "n_agents": 10000,
+    "top_1_pct_wealth": 19.3122184482834,
+    "top_10_pct_wealth": 57.6150996660237,
+    "median_wealth": 679.6655729441964,
+    "max_wealth": 246503.40969419907
+  },
+  "piketty_r_vs_g": {
+    "normal_K_Y_after_300yr": 234.18800176637552,
+    "modern_K_Y_after_300yr": 23922.038430393157,
+    "interpretation": "K accumulates faster than Y produces -> inequality"
+  },
+  "AI_labor_exposure": {
+    "total_jobs_M": 22.463,
+    "weighted_exposed_jobs_M": 5.87759,
+    "weighted_exposure_pct": 26.165650180296485,
+    "occupations": {
+      "Translator": 76,
+      "Web designer": 67,
+      "Legal assistant": 65,
+      "Mathematician": 63,
+      "Programmer": 60,
+      "Writer": 55,
+      "Accountant": 50,
+      "Customer service": 45,
+      "Financial analyst": 40,
+      "Teacher (general)": 35,
+      "Doctor": 25,
+      "Construction worker": 10,
+      "Nurse": 5,
+      "Plumber": 4
+    }
+  },
+  "UBI_cost_pct_GDP": {
+    "USA": 11.124087591240876,
+    "Japan": 20.0,
+    "Germany": 18.666666666666668,
+    "UK": 18.0,
+    "India": 17.027027027027028
+  },
+  "central_thesis": "Pareto distribution emerges naturally from ITU steady state. Piketty r > g accelerates K_capital accumulation over K_labor. AI exposure inverts traditional risk: white-collar work now most automatable. UBI = K_income human redistribution.",
+  "honest_framing": "Pass-1 interpretive paper. Reframes Piketty, Pareto, Romer in ITU. AI exposure data from Eloundou 2023 (OpenAI). UBI cost calculations are straightforward arithmetic.",
+  "tier": 1,
+  "paper_number": 8,
+  "next_phase": "Phase 74: Economic roadmap 2026-2050 + 10 predictions",
+  "caveats": [
+    "Pareto simulation uses simplified savings model",
+    "Piketty r and g are stylised; real values fluctuate",
+    "AI exposure index is OpenAI's preliminary methodology",
+    "UBI net cost depends on offsetting tax/welfare changes",
+    "Country GDP figures are 2024 approximate"
+  ]
+}

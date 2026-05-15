@@ -1,0 +1,154 @@
+{
+  "phase": 74,
+  "paper": "ITU and Economics",
+  "description": "Economic roadmap 2026-2050 (Tier 1 #8 final)",
+  "gdp_projections": {
+    "bear": {
+      "2024_USD_T": 27.4,
+      "2030_USD_T": 30.793373359672515,
+      "2040_USD_T": 37.11586556426464,
+      "2050_USD_T": 44.29933734521855
+    },
+    "base": {
+      "2024_USD_T": 27.4,
+      "2030_USD_T": 32.87542307612811,
+      "2040_USD_T": 45.705613945279936,
+      "2050_USD_T": 59.80352758660605
+    },
+    "agi_bull": {
+      "2024_USD_T": 27.4,
+      "2030_USD_T": 35.50107983169279,
+      "2040_USD_T": 69.82501835930633,
+      "2050_USD_T": 112.64212071187349
+    }
+  },
+  "cbdc_timeline": {
+    "Bahamas": {
+      "year": 2020,
+      "status": "launched"
+    },
+    "Nigeria": {
+      "year": 2021,
+      "status": "launched"
+    },
+    "China": {
+      "year": 2022,
+      "status": "pilot scaling"
+    },
+    "India": {
+      "year": 2023,
+      "status": "launched"
+    },
+    "EU": {
+      "year": 2026,
+      "status": "pilot expected"
+    },
+    "Japan": {
+      "year": 2027,
+      "status": "pilot expected"
+    },
+    "UK": {
+      "year": 2028,
+      "status": "decision expected"
+    },
+    "USA": {
+      "year": 2031,
+      "status": "pilot predicted"
+    },
+    "Switzerland": {
+      "year": 2029,
+      "status": "predicted"
+    },
+    "Brazil": {
+      "year": 2025,
+      "status": "Drex launching"
+    }
+  },
+  "sectoral_change_2024_to_2040": {
+    "Manufacturing": {
+      "share_2024": 16,
+      "share_2040": 12,
+      "delta_pp": -4
+    },
+    "Agriculture": {
+      "share_2024": 4,
+      "share_2040": 3,
+      "delta_pp": -1
+    },
+    "Finance": {
+      "share_2024": 7,
+      "share_2040": 8,
+      "delta_pp": 1
+    },
+    "AI/Data": {
+      "share_2024": 3,
+      "share_2040": 15,
+      "delta_pp": 12
+    },
+    "Health/Bio": {
+      "share_2024": 10,
+      "share_2040": 18,
+      "delta_pp": 8
+    },
+    "Education": {
+      "share_2024": 6,
+      "share_2040": 5,
+      "delta_pp": -1
+    },
+    "Services": {
+      "share_2024": 30,
+      "share_2040": 25,
+      "delta_pp": -5
+    },
+    "Other": {
+      "share_2024": 24,
+      "share_2040": 14,
+      "delta_pp": -10
+    }
+  },
+  "carbon_price_eur_t": {
+    "2024": 70.0,
+    "2030": 150.0,
+    "2040": 300.0,
+    "2050": 350.0
+  },
+  "ubi_cost_pct_gdp": {
+    "2024": 11.0,
+    "2030": 9.519191924534798,
+    "2040": 7.48076042214158,
+    "2050": 5.878836873668213
+  },
+  "falsifiable_predictions": [
+    "S&P 500 exceeds 8000 by 2030 (AI-driven)",
+    "AGI achievement by 2028-2032 (P=0.5)",
+    "US unemployment peaks at 10%+ around 2032 (AI displacement)",
+    "UBI legislated in 1+ G7 country by 2035",
+    "CBDC adopted in 3+ G7 countries by 2030",
+    "China e-CNY reaches 10%+ international settlement share by 2030",
+    "EU AI Act enforcement action against 5+ firms 2026-2028",
+    "World GDP growth exceeds 5% in some year by 2035 (AGI effect)",
+    "World GDP reaches $300T by 2050 (~3x 2024)",
+    "50%+ of major countries reach carbon-neutrality by 2050"
+  ],
+  "paper_complete": true,
+  "central_thesis": "Economic transformation 2026-2050 = AGI-driven productivity (GDP 3x by 2050), CBDC governance, UBI introduction, sector restructuring (AI/Data +12pp, Health +8pp), and carbon transition (€350/t by 2050). All driven by ITU axiom changes at societal scale.",
+  "honest_framing": "Pass-1 interpretive paper across 4 phases. Numerical projections rely on Goldman Sachs, IMF, BIS published forecasts. Predictions are ITU-informed but overlap with industry consensus.",
+  "tier": 1,
+  "paper_number": 8,
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "engineering_rectangle_complete": true,
+  "medicine_triangle_complete": true,
+  "social_sciences_first_vertex": true,
+  "next_paper_candidates": [
+    "Tier 1 #9: Free Will revisited (Phase 75-78)",
+    "Tier 1 #10: Energy / Materials (Phase 79-82)",
+    "Pass-2: Re-traverse #1-#8 with ITU-unique predictions"
+  ],
+  "caveats": [
+    "AGI timing uncertain (P=0.5 range 2028-2032)",
+    "Sectoral predictions ignore black swans (pandemic, war)",
+    "CBDC adoption depends on political decisions",
+    "Carbon price assumes EU ETS-like policy globalisation",
+    "UBI cost assumes per-capita amounts kept constant"
+  ]
+}

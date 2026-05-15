@@ -1,0 +1,228 @@
+cff-version: 1.2.0
+title: "ITU and Economics: A Single-Axiom View of Markets, Bubbles, Inequality, AI Labor Displacement, and the 2026-2050 Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, DOI 10.5281/zenodo.20109210) to economics.
+  Markets are reframed as collective Bayesian inference engines
+  implementing the ITU axiom dS = d<K> at the social scale.
+  This is Tier 1 paper #8, opening the social-sciences axis of
+  the ITU programme following the completed engineering rectangle
+  (#1-#4) and medicine triangle (#5-#7). Pass-1 progress reaches
+  74 of 220 planned phases (33.6%).
+  Phase 71 establishes the ITU foundation. The efficient-market
+  hypothesis (Fama 1970) is shown to be the idealised case where
+  ITU holds exactly; reality shows fat-tailed returns (4x EMH
+  prediction for >3% daily moves). Akerlof's lemons model
+  reproduces market collapse (1000 -> 1 seller in 10 iterations)
+  via K_i mismatch. Kahneman-Tversky prospect theory with lambda
+  = 2.25 quantifies K_decision asymmetry. Prediction markets
+  (Polymarket, Kalshi) achieve Brier scores 0.16-0.20 vs
+  0.25-0.36 for polls in the 2024 US election.
+  Phase 72 analyses bubbles and crises. Minsky's 3-stage
+  instability hypothesis (hedge -> speculative -> Ponzi) is
+  shown to be K_market structural degradation; crash triggers
+  when Ponzi share exceeds 40%. Information cascades
+  (Bikhchandani-Hirshleifer-Welch 1992) reduce collective wisdom
+  below independent voting. Nine historical bubbles from
+  Tulipmania (1637, -99%) to FTX (2022, -100%) span -58% to
+  -100% drawdowns. Case studies of LTCM (1998), Lehman (2008),
+  FTX (2022), and SVB (2023) illustrate distinct ITU axiom
+  breakdown modes.
+  Phase 73 covers inequality and AI labor displacement. Pareto
+  wealth distributions emerge naturally from ITU steady state
+  (simulated top 1% 19%, top 10% 58%). Piketty's r > g
+  dynamics show unbounded K_capital divergence absent
+  redistribution. AI labor exposure (Eloundou et al. 2023 OpenAI)
+  inverts traditional risk: translators 76%, mathematicians 63%,
+  programmers 60% exposed, while plumbers 4% and nurses 5%.
+  Weighted 26.2% of 22.5M jobs affected. UBI cost calculations
+  show $1000/month US UBI = 11.1% of GDP (declining to 6% by
+  2050 as GDP grows).
+  Phase 74 synthesises into a 2026-2050 roadmap. Three GDP
+  scenarios: bear ($44T by 2050), base ($60T), AGI-bull
+  ($113T = 4.1x 2024). CBDC adoption timeline maps G20 from
+  Bahamas 2020 to USA pilot ~2031. Sectoral GDP share evolution
+  predicts AI/Data 3% -> 15% (+12pp), Health/Bio 10% -> 18%
+  (+8pp), Manufacturing 16% -> 12% (-4pp), Services 30% ->
+  25% (-5pp). EU ETS carbon price trajectory €70/t (2024) ->
+  €350/t (2050). Ten falsifiable predictions issued.
+  Central thesis: economics is the social-scale manifestation
+  of the ITU axiom; markets, bubbles, inequality, AI labor
+  effects, CBDCs, and the carbon transition are all K_market
+  structural dynamics. Honest framing: this is a Pass-1
+  interpretive paper that reframes classical and contemporary
+  economics (Akerlof, Fama, Kahneman-Tversky, Pareto, Piketty,
+  Romer, Minsky, BHW 1992) in ITU language. Numerical results
+  match established patterns; predictions overlap with industry
+  consensus. Pass-2 work would derive ITU-specific market-
+  microstructure or macroeconomic predictions validated against
+  high-frequency or panel data.
+  This opens the social-sciences axis, completing 8 vertices
+  of the ITU polytope: engineering rectangle (Quantum Computing
+  10.5281/zenodo.20139391 + Machine Consciousness
+  10.5281/zenodo.20150501 + Cryptography 10.5281/zenodo.20151059
+  + Semiconductors 10.5281/zenodo.20174036) + medicine triangle
+  (Cancer 10.5281/zenodo.20174318 + Aging 10.5281/zenodo.20175663
+  + Psychiatry 10.5281/zenodo.20177427) + social sciences first
+  vertex (Economics, this paper).
+keywords:
+  - economics
+  - financial economics
+  - macroeconomics
+  - microeconomics
+  - efficient market hypothesis
+  - EMH
+  - Fama
+  - Akerlof
+  - lemons market
+  - information asymmetry
+  - Kahneman-Tversky
+  - prospect theory
+  - loss aversion
+  - behavioral economics
+  - prediction markets
+  - Polymarket
+  - Kalshi
+  - Manifold Markets
+  - bubbles
+  - financial crisis
+  - Minsky
+  - financial instability hypothesis
+  - Bikhchandani-Hirshleifer-Welch
+  - information cascade
+  - herding
+  - Kindleberger
+  - dot-com bubble
+  - housing bubble
+  - subprime crisis
+  - cryptocurrency bubble
+  - FTX
+  - SVB
+  - LTCM
+  - inequality
+  - Pareto distribution
+  - Piketty
+  - capital
+  - r greater than g
+  - Solow growth
+  - Romer endogenous growth
+  - AI labor displacement
+  - automation
+  - Frey-Osborne
+  - Eloundou OpenAI
+  - UBI
+  - universal basic income
+  - Yang
+  - Friedman negative income tax
+  - CBDC
+  - central bank digital currency
+  - e-CNY
+  - digital euro
+  - Project Hamilton
+  - carbon pricing
+  - climate economics
+  - EU ETS
+  - Stern Review
+  - AGI economy
+  - post-scarcity
+  - Information Feudalism
+  - surveillance capitalism
+  - Zuboff
+  - Information-Theoretic Unification
+  - ITU
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/economics"
+url: "https://doi.org/10.5281/zenodo.20196309"
+doi: "10.5281/zenodo.20196309"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20196309"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-14"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109210"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Akerlof
+        given-names: George
+    title: "The Market for Lemons: Quality Uncertainty and the Market Mechanism"
+    journal: "Q J Econ"
+    volume: 84
+    pages: 488
+    year: 1970
+  - type: article
+    authors:
+      - family-names: Fama
+        given-names: Eugene
+    title: "Efficient Capital Markets: A Review of Theory and Empirical Work"
+    journal: "J Finance"
+    volume: 25
+    pages: 383
+    year: 1970
+  - type: article
+    authors:
+      - family-names: Kahneman
+        given-names: Daniel
+      - family-names: Tversky
+        given-names: Amos
+    title: "Prospect Theory: An Analysis of Decision under Risk"
+    journal: "Econometrica"
+    volume: 47
+    pages: 263
+    year: 1979
+  - type: book
+    authors:
+      - family-names: Piketty
+        given-names: Thomas
+    title: "Capital in the Twenty-First Century"
+    publisher: "Harvard University Press"
+    year: 2014
+  - type: article
+    authors:
+      - family-names: Minsky
+        given-names: Hyman
+    title: "The Financial Instability Hypothesis"
+    journal: "Levy Institute Working Paper 74"
+    year: 1992
+  - type: article
+    authors:
+      - family-names: Bikhchandani
+      - family-names: Hirshleifer
+      - family-names: Welch
+    title: "A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades"
+    journal: "J Polit Econ"
+    volume: 100
+    pages: 992
+    year: 1992
+  - type: article
+    authors:
+      - family-names: Eloundou
+        given-names: Tyna
+    title: "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models"
+    journal: "OpenAI preprint"
+    year: 2023
+  - type: article
+    authors:
+      - family-names: Romer
+        given-names: Paul
+    title: "Endogenous Technological Change"
+    journal: "J Polit Econ"
+    volume: 98
+    pages: "S71"
+    year: 1990

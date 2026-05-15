@@ -1,0 +1,83 @@
+{
+  "phase": 71,
+  "paper": "ITU and Economics",
+  "description": "ITU foundation: markets = collective Bayesian inference",
+  "EMH_vs_realistic": {
+    "EMH_extreme_event_pct": 0.33,
+    "realistic_extreme_event_pct": 1.43,
+    "fat_tail_ratio": 4.333333333333333
+  },
+  "akerlof_lemons": {
+    "iterations": 20,
+    "first_iter_avg_quality": 0.49717783852843195,
+    "final_iter_avg_quality": 0.001233062511908134,
+    "final_iter_sellers": 1,
+    "interpretation": "High-quality sellers progressively withdraw -> market unravels"
+  },
+  "prospect_theory": {
+    "loss_aversion_lambda": 2.25,
+    "examples": {
+      "x_-1.0": {
+        "expected_utility": -1.0,
+        "prospect_value": -2.25
+      },
+      "x_-0.5": {
+        "expected_utility": -0.7071067811865476,
+        "prospect_value": -1.2225767203418152
+      },
+      "x_0.5": {
+        "expected_utility": 0.7071067811865476,
+        "prospect_value": 0.543367431263029
+      },
+      "x_1.0": {
+        "expected_utility": 1.0,
+        "prospect_value": 1.0
+      }
+    }
+  },
+  "prediction_market_brier": {
+    "Polymarket (Oct 28)": {
+      "P_Trump": 0.6,
+      "Brier_score": 0.16000000000000003
+    },
+    "Kalshi": {
+      "P_Trump": 0.55,
+      "Brier_score": 0.20249999999999996
+    },
+    "Manifold": {
+      "P_Trump": 0.56,
+      "Brier_score": 0.19359999999999997
+    },
+    "538 polls average": {
+      "P_Trump": 0.5,
+      "Brier_score": 0.25
+    },
+    "Selzer poll (last)": {
+      "P_Trump": 0.4,
+      "Brier_score": 0.36
+    },
+    "Pundit aggregate": {
+      "P_Trump": 0.45,
+      "Brier_score": 0.30250000000000005
+    }
+  },
+  "central_thesis": "Markets are collective Bayesian inference engines implementing ITU axiom dS = d<K> at the social scale. EMH is the idealised case where this holds exactly; reality shows fat tails, lemons-style collapses, and behavioral biases. Prediction markets (Polymarket, Kalshi) realise ITU high-resolution collective K.",
+  "honest_framing": "Pass-1 interpretive paper. Reframes Akerlof, Fama/EMH, Kahneman-Tversky in ITU language. Numerical models are illustrative; no novel ITU-derived economic prediction.",
+  "tier": 1,
+  "paper_number": 8,
+  "engineering_rectangle_complete": true,
+  "medicine_triangle_complete": true,
+  "social_sciences_begin": "Tier 1 #8 opens the social-sciences vector",
+  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "next_phases": [
+    "Phase 72: Bubbles and financial crises (dot-com, housing, crypto)",
+    "Phase 73: Inequality, growth, and AI labor displacement",
+    "Phase 74: ITU economic roadmap 2026-2050 and 10 predictions"
+  ],
+  "caveats": [
+    "EMH violations are well-documented; we summarise rather than discover",
+    "Akerlof model is simplified single-good setup",
+    "Prospect theory parameters from Tversky-Kahneman 1992",
+    "2024 election prediction-market accuracy is one example"
+  ]
+}

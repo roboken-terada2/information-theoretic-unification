@@ -46,13 +46,16 @@ release tag.
 | 5 | [ITU and Cancer Biology](papers/cancer-biology/) | [10.5281/zenodo.20174318](https://doi.org/10.5281/zenodo.20174318) | 59–62 | ✅ v1.0.0 |
 | 6 | [ITU and Aging](papers/aging/) | [10.5281/zenodo.20175663](https://doi.org/10.5281/zenodo.20175663) | 63–66 | ✅ v1.0.0 |
 | 7 | [ITU and Psychiatry](papers/psychiatry/) | [10.5281/zenodo.20177427](https://doi.org/10.5281/zenodo.20177427) | 67–70 | ✅ v1.0.0 |
-| 8+ | (full roadmap to Phase 220) | TBD | 71-220 | planned |
+| 8 | [ITU and Economics](papers/economics/) | [10.5281/zenodo.20196309](https://doi.org/10.5281/zenodo.20196309) | 71–74 | ✅ v1.0.0 |
+| 9+ | (full roadmap to Phase 220) | TBD | 75-220 | planned |
 
-**🎉 ITU's first complete polytope structure:**
+**🎉 ITU polytope expanded: 8 vertices and growing:**
 The four engineering Tier 1 papers (QC, AI/ASI, Cryptography, Semiconductors)
-form the **engineering rectangle**, and Tier 1 #5 (Cancer, acute) + #6 (Aging,
-chronic) + #7 (Psychiatry, brain-circuit) form the **medicine triangle**.
-All seven Tier 1 papers derive from the single axiom δS = δ⟨K⟩.
+form the **engineering rectangle**; Tier 1 #5 (Cancer, acute) + #6 (Aging,
+chronic) + #7 (Psychiatry, brain-circuit) form the **medicine triangle**;
+**Tier 1 #8 (Economics) opens the social-sciences axis** (first vertex).
+All eight Tier 1 papers derive from the single axiom δS = δ⟨K⟩.
+**Pass-1 progress**: 74 of 220 phases complete (33.6%).
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 
