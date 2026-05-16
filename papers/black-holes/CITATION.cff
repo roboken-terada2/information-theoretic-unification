@@ -1,0 +1,352 @@
+cff-version: 1.2.0
+title: "ITU and Black Holes: A Single-Axiom View of Schwarzschild-Kerr Solutions, Bekenstein-Hawking Entropy, the Page Curve, Information Paradox Resolutions, AdS/CFT BHs, Primordial BHs, and the 2026-2050 Observational Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest
+  Tier 0 v3.0 at 10.5281/zenodo.20200156) to black holes. This is
+  Tier 1 paper #18, the second paper of Block A (Physics/Math
+  deepening) and the specialization of Tier 1 #17 Quantum Gravity
+  (DOI 10.5281/zenodo.20230667) to the BH horizon. The ITU polytope
+  reaches 18 vertices with Tier 1 #18 attaining degree 17 (new max).
+  Pass-1 progress: 126 of 220 phases (57.3 %).
+  Phase 119 establishes classical BH solutions (Schwarzschild, Kerr).
+  r_s = 2 G M / c^2 spans 2.95 km (1 M_sun) to 1303 AU (TON 618).
+  ISCO Bardeen-Press-Teukolsky 1972: 6 r_g Schwarzschild, 1 r_g
+  extremal prograde, 9 r_g extremal retrograde. Penrose process max
+  29.29 % (Christodoulou-Ruffini 1971). No-hair theorem: (M, J, Q).
+  Phase 120 covers BH thermodynamics. S_BH = A / (4 l_P^2) spans
+  1.05e+79 to 4.43e+96 nats. Hawking T_H = hbar c^3 / (8 pi G M k_B)
+  spans 6.17e-09 K to 9.49e-18 K (all colder than CMB). Negative
+  heat capacity. Evaporation t_evap ~ M^3, 2.10e+67 yr for solar
+  mass. First law dM c^2 = T_H dS verified to mean rel diff 8.43e-04.
+  Phase 121 presents rigorous Page curve. Page (1993) <S_A> =
+  sum_{k=d_B+1}^{d_A d_B} 1/k - (d_A-1)/(2 d_B) matches log
+  approximation within 0.01 at d_total = 64. BH evaporation
+  M(t) = M_0 (1 - t/t_evap)^{1/3}; Page time t_Page = 0.643 t_evap.
+  I(R:B) max = 0.997; S(R|B) negative confirms quantum entanglement.
+  QECC interpretation: BH stores 10^{77}-10^{98} logical qubits.
+  Phase 122 unifies 7 information-paradox resolution proposals
+  (Fuzzball Mathur 2005, Soft hair HPS 2016, Maldacena-Maoz 2004,
+  Complementarity Susskind 1993, Holography of information LPRS
+  2020, Island formula Penington 2019, ER=EPR Maldacena-Susskind
+  2013) under ITU axiom dS = d<K>.
+  Phase 123 covers AdS/CFT BHs. AdS-Schwarzschild T_min at
+  r_h^min = sqrt((d-2)/d) L_AdS. Hawking-Page (1983) phase
+  transition T_HP = (d-1)/(2 pi L_AdS) = 0.4775 (d=4). Bekenstein
+  bound S <= 2 pi k_B R E / (hbar c) saturated by Schwarzschild
+  (ratio = 1.0). Holographic complexity (Susskind 2014): dC/dt =
+  2 E / (pi hbar) Lloyd-bound saturation.
+  Phase 124 develops Maxwell demon + quantum-BH simulation
+  connection. Landauer bound 1.79e-2 eV/bit at 300 K, 5.97e-7 at
+  0.01 K. BH = ultimate Maxwell demon (DeltaE/bit minimized for
+  massive BHs). Hawking radiation mutual info I(R_i:R_j) spikes
+  after Page time. Petz map (1986) decoder fidelity rises sharply
+  at t_Page (Hayden-Preskill 2007). SYK / JT gravity tractable on
+  100-1000 qubit QPUs.
+  Phase 125 covers primordial BHs and observational statistics.
+  PBH formation M ~ c^3 t / G spans 10^{-38} M_sun (Planck) to
+  10^{17} M_sun (recombination). Asteroid mass window
+  10^17-10^22 g remains open for 100 % DM. Scrambling time t_scr =
+  (beta / 2 pi) log S_BH (Maldacena-Shenker-Stanford 2016).
+  GWTC-3/-4: BBH mass distribution power-law alpha = 2.5, peak
+  30-50 M_sun, pair-instability gap 45-80 M_sun. Merger rate
+  17-39 /Gpc^3/yr constrains f_PBH < ~10 % in stellar mass.
+  Phase 126 integrates under K_horizon (K_geom restricted to BH
+  horizon). 18-vertex polytope: 93 edges, avg degree 10.33.
+  Tier 1 #18 couples strongly to #17 QG (1.00), #1 QC (0.85),
+  #10 Energy (0.85); medium to #11 Climate, #14 Communications.
+  Average coupling 0.382. Tier 1 #17 and #18 form symmetric pair.
+  Ten falsifiable predictions for 2026-2050: EHT M87* 5 uas 2030
+  P=0.90, GWTC-5 300+ BBH 2030 P=0.85, Sgr A* Kerr <1% 2035
+  P=0.75, LISA IMBH 2038 P=0.70, pair-instability gap 2032 P=0.65,
+  PBH asteroid-mass window 2038 P=0.55, Q-computer BH sim 2032
+  P=0.70, BMV gravitational entanglement 2032 P=0.65, Hawking-Page
+  CFT 2040 P=0.40, SMBH origin 2045 P=0.45. Grand P_avg = 0.660.
+  Strong/Medium = 7/3.
+  Central thesis: ITU axiom delta S = delta <K> specializes to
+  K_horizon at BH horizons, unifying classical BHs, thermodynamics,
+  Hawking radiation, Page curve, information-paradox resolutions,
+  AdS/CFT, complexity, quantum-computer simulations, and PBH
+  cosmology under one principle. Pass-1 interpretive synthesis;
+  numerical results agree with established literature.
+keywords:
+  - Black holes
+  - Bekenstein-Hawking entropy
+  - Hawking radiation
+  - Page curve
+  - Information paradox
+  - Schwarzschild solution
+  - Kerr solution
+  - AdS/CFT correspondence
+  - Primordial black holes
+  - Gravitational waves
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/black-holes"
+url: "https://doi.org/10.5281/zenodo.20233070"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20233070"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification (ITU) Tier 0 v3.0"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest version). Current latest Tier 0 v3.0 at 10.5281/zenodo.20200156."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Quantum Gravity (Tier 1 #17)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20230667"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Schwarzschild
+        given-names: Karl
+    title: "Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie"
+    journal: "Berlin Math. Phys."
+    pages: "189"
+    year: 1916
+  - type: article
+    authors:
+      - family-names: Kerr
+        given-names: Roy P.
+    title: "Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics"
+    journal: "Physical Review Letters"
+    volume: "11"
+    pages: "237-238"
+    year: 1963
+  - type: article
+    authors:
+      - family-names: Bekenstein
+        given-names: Jacob D.
+    title: "Black Holes and Entropy"
+    journal: "Physical Review D"
+    volume: "7"
+    pages: "2333-2346"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: Hawking
+        given-names: Stephen W.
+    title: "Particle Creation by Black Holes"
+    journal: "Communications in Mathematical Physics"
+    volume: "43"
+    pages: "199-220"
+    year: 1975
+  - type: article
+    authors:
+      - family-names: Bardeen
+        given-names: James M.
+      - family-names: Carter
+        given-names: Brandon
+      - family-names: Hawking
+        given-names: Stephen W.
+    title: "The Four Laws of Black Hole Mechanics"
+    journal: "Communications in Mathematical Physics"
+    volume: "31"
+    pages: "161-170"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: Page
+        given-names: Don N.
+    title: "Average Entropy of a Subsystem"
+    journal: "Physical Review Letters"
+    volume: "71"
+    pages: "1291-1294"
+    year: 1993
+  - type: article
+    authors:
+      - family-names: Almheiri
+        given-names: Ahmed
+      - family-names: Marolf
+        given-names: Donald
+      - family-names: Polchinski
+        given-names: Joseph
+      - family-names: Sully
+        given-names: James
+    title: "Black Holes: Complementarity or Firewalls?"
+    journal: "JHEP"
+    volume: "02"
+    pages: "062"
+    year: 2013
+  - type: article
+    authors:
+      - family-names: Penington
+        given-names: Geoffrey
+    title: "Entanglement Wedge Reconstruction and the Information Paradox"
+    journal: "JHEP"
+    volume: "09"
+    pages: "002"
+    year: 2020
+  - type: article
+    authors:
+      - family-names: Almheiri
+        given-names: Ahmed
+      - family-names: Engelhardt
+        given-names: Netta
+      - family-names: Marolf
+        given-names: Donald
+      - family-names: Maxfield
+        given-names: Henry
+    title: "The Entropy of Bulk Quantum Fields and the Entanglement Wedge of an Evaporating Black Hole"
+    journal: "JHEP"
+    volume: "12"
+    pages: "063"
+    year: 2019
+  - type: article
+    authors:
+      - family-names: Mathur
+        given-names: Samir D.
+    title: "The Fuzzball Proposal for Black Holes: An Elementary Review"
+    journal: "Fortschritte der Physik"
+    volume: "53"
+    pages: "793-827"
+    year: 2005
+  - type: article
+    authors:
+      - family-names: Hawking
+        given-names: Stephen W.
+      - family-names: Perry
+        given-names: Malcolm J.
+      - family-names: Strominger
+        given-names: Andrew
+    title: "Soft Hair on Black Holes"
+    journal: "Physical Review Letters"
+    volume: "116"
+    pages: "231301"
+    year: 2016
+  - type: article
+    authors:
+      - family-names: Maldacena
+        given-names: Juan
+      - family-names: Susskind
+        given-names: Leonard
+    title: "Cool Horizons for Entangled Black Holes"
+    journal: "Fortschritte der Physik"
+    volume: "61"
+    pages: "781-811"
+    year: 2013
+  - type: article
+    authors:
+      - family-names: Hawking
+        given-names: Stephen W.
+      - family-names: Page
+        given-names: Don N.
+    title: "Thermodynamics of Black Holes in Anti-de Sitter Space"
+    journal: "Communications in Mathematical Physics"
+    volume: "87"
+    pages: "577-588"
+    year: 1983
+  - type: article
+    authors:
+      - family-names: Bekenstein
+        given-names: Jacob D.
+    title: "Universal Upper Bound on the Entropy-to-Energy Ratio for Bounded Systems"
+    journal: "Physical Review D"
+    volume: "23"
+    pages: "287-298"
+    year: 1981
+  - type: article
+    authors:
+      - family-names: Susskind
+        given-names: Leonard
+    title: "Computational Complexity and Black Hole Horizons"
+    journal: "Fortschritte der Physik"
+    volume: "64"
+    pages: "24-43"
+    year: 2016
+  - type: article
+    authors:
+      - family-names: Landauer
+        given-names: Rolf
+    title: "Irreversibility and Heat Generation in the Computing Process"
+    journal: "IBM Journal of Research and Development"
+    volume: "5"
+    pages: "183-191"
+    year: 1961
+  - type: article
+    authors:
+      - family-names: Hayden
+        given-names: Patrick
+      - family-names: Preskill
+        given-names: John
+    title: "Black Holes as Mirrors: Quantum Information in Random Subsystems"
+    journal: "JHEP"
+    volume: "09"
+    pages: "120"
+    year: 2007
+  - type: article
+    authors:
+      - family-names: Maldacena
+        given-names: Juan
+      - family-names: Shenker
+        given-names: Stephen H.
+      - family-names: Stanford
+        given-names: Douglas
+    title: "A Bound on Chaos"
+    journal: "JHEP"
+    volume: "08"
+    pages: "106"
+    year: 2016
+  - type: article
+    authors:
+      - family-names: Carr
+        given-names: Bernard J.
+      - family-names: Hawking
+        given-names: Stephen W.
+    title: "Black Holes in the Early Universe"
+    journal: "Monthly Notices of the Royal Astronomical Society"
+    volume: "168"
+    pages: "399-415"
+    year: 1974
+  - type: article
+    authors:
+      - family-names: Carr
+        given-names: Bernard
+      - family-names: Kuhnel
+        given-names: Florian
+      - family-names: Sandstad
+        given-names: Marit
+    title: "Primordial Black Holes as Dark Matter"
+    journal: "Reports on Progress in Physics"
+    volume: "84"
+    pages: "116902"
+    year: 2021
+  - type: article
+    authors:
+      - name: "LIGO Scientific Collaboration, Virgo Collaboration, and KAGRA Collaboration"
+    title: "GWTC-3: Compact Binary Coalescences Observed by LIGO and Virgo During the Second Part of the Third Observing Run"
+    journal: "arXiv:2111.03606"
+    year: 2021
+  - type: article
+    authors:
+      - name: "Event Horizon Telescope Collaboration"
+    title: "First M87 Event Horizon Telescope Results"
+    journal: "Astrophysical Journal Letters"
+    volume: "875"
+    year: 2019
+  - type: article
+    authors:
+      - name: "Event Horizon Telescope Collaboration"
+    title: "First Sagittarius A* Event Horizon Telescope Results"
+    journal: "Astrophysical Journal Letters"
+    volume: "930"
+    year: 2022

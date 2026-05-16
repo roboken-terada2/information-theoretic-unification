@@ -56,23 +56,30 @@ release tag.
 | 15 | [ITU and Infrastructure / Power Grid](papers/infrastructure/) | [10.5281/zenodo.20226481](https://doi.org/10.5281/zenodo.20226481) | 99–102 | ✅ v1.0.0 |
 | 16 | [ITU and Smart Cities](papers/smartcities/) | [10.5281/zenodo.20228581](https://doi.org/10.5281/zenodo.20228581) | 103–106 | ✅ v1.0.0 |
 | **Tier 0 v3.0** | [Intermediate integration of Tier 1 #1-#16](papers/tier0_v3/) | [10.5281/zenodo.20200156](https://doi.org/10.5281/zenodo.20200156) | 107-110 | ✅ v3.0.0 |
-| **17** ✨ | [**ITU and Quantum Gravity (Block A)**](papers/quantum-gravity/) | [**10.5281/zenodo.20230667**](https://doi.org/10.5281/zenodo.20230667) | **111-118** | ✅ **v1.0.0** |
-| 18+ | (full roadmap to Phase 250) | TBD | 119-250 | planned |
+| 17 | [ITU and Quantum Gravity (Block A)](papers/quantum-gravity/) | [10.5281/zenodo.20230667](https://doi.org/10.5281/zenodo.20230667) | 111-118 | ✅ v1.0.0 |
+| **18** ✨ | [**ITU and Black Holes (Block A)**](papers/black-holes/) | [**10.5281/zenodo.20233070**](https://doi.org/10.5281/zenodo.20233070) | **119-126** | ✅ **v1.0.0** |
+| 19+ | (full roadmap to Phase 250) | TBD | 127-250 | planned |
 
-**🎉 Block A opens — Tier 1 #17 Quantum Gravity published.**
-Phase 111-118 (Block A paper 1/9) brings the ITU polytope to **17 vertices** with
-**Quantum Gravity as the K-skeleton hub** (degree 16, paired with Smart Cities #16
-deg 15 URBAN hub). Phase 111 establishes AdS/CFT and Ryu-Takayanagi as the geometric
-realisation of the ITU axiom (δS = δ⟨K_geom⟩ at machine precision); Phase 112 covers
-ER=EPR and thermofield double; Phase 113 derives Page curve from Haar-random states
-and Island formula as min-ext of two K-channels; Phase 114 resolves AMPS firewall via
-ER=EPR and bounds trans-Planckian divergence; Phase 115 develops loop quantum gravity
-(A_min = 5.17 ℓ_P² at Immirzi γ = 0.2375); Phase 116 covers string/M-theory with
-Strominger-Vafa S_micro = 2π√(Q₁Q₅N) matching Bekenstein-Hawking exactly; Phase 117
-surveys experiments and identifies BMV (Bose-Marletto-Vedral 2017, Δφ = 0.63 rad)
-as the 2030-2040 gold-standard direct QG test; Phase 118 integrates with 10 falsifiable
-predictions (Grand P_avg = 0.625, Strong/Medium = 6/4). The 17-vertex polytope now has
-76 edges and average degree 8.94. **Pass-1 progress: 118 of 220 phases = 53.6%.**
+**🎉 Block A paper 2/9 published — Tier 1 #18 Black Holes.**
+Phase 119-126 brings the ITU polytope to **18 vertices** with **Black Holes as the
+K-horizon hub** (degree 17, new maximum) — the polytope's deepest specialization hub.
+Tier 1 #18 specializes Tier 1 #17 Quantum Gravity (K_geom) to the BH horizon
+(K_horizon), forming a symmetric phase-by-phase pair. Phase 119 establishes
+Schwarzschild + Kerr + No-hair + ISCO (Bardeen-Press-Teukolsky 1972) + Penrose process
+(max 29.29%); Phase 120 develops BH thermodynamics 4 laws (Bardeen-Carter-Hawking 1973)
+with Hawking radiation T_H = ℏc³/(8πG M k_B), Bekenstein-Hawking S_BH = A/(4ℓ_P²) ranging
+10⁷⁹-10⁹⁶ nats, first law dMc² = T_H dS verified to rel diff 8.4e-4; Phase 121 derives
+rigorous Page curve t_Page = 0.643 t_evap (non-linear M(t)) with QECC interpretation
+(BH stores 10⁷⁷-10⁹⁸ logical qubits); Phase 122 unifies 7 information-paradox resolutions
+under ITU K-axiom; Phase 123 covers AdS/CFT BHs (Hawking-Page T_HP = 0.4775, Bekenstein
+bound saturated, holographic complexity); Phase 124 develops Maxwell-demon connection
++ quantum-computer BH simulation (SYK/JT gravity on 100-1000 qubit QPUs); Phase 125
+covers PBH cosmology (asteroid mass window 10¹⁷-10²² g open for 100% DM) + GWTC-3/-4
+statistics (BBH merger rate constrains f_PBH < ~10%) + scrambling bound; Phase 126
+integrates with **10 falsifiable predictions Grand P_avg = 0.660** (Strong/Medium = 7/3),
+top predictions EHT M87* 5 μas 2030 (P=0.90) + GWTC-5 300+ BBH 2030 (P=0.85). The
+18-vertex polytope has 93 edges and avg degree 10.33. **Pass-1 progress: 126 of 220
+phases = 57.3%.**
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 

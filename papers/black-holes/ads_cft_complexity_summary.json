@@ -1,0 +1,67 @@
+{
+  "phase": 123,
+  "title": "AdS/CFT BH + Hawking-Page + Bekenstein bound + Holographic complexity",
+  "tier1_id": 18,
+  "tier1_name": "Black Holes",
+  "block": "A (Physics/Math) — paper 2/9, phase 5/8",
+  "ads_temperature": {
+    "r_h_min": 0.7071067811865476,
+    "T_min": 0.4501581580785531,
+    "L_AdS": 1.0,
+    "d": 4
+  },
+  "hawking_page": {
+    "r_h_HP": 1.0,
+    "T_HP": 0.477464829275686,
+    "L_AdS": 1.0,
+    "d": 4
+  },
+  "bekenstein_bound": [
+    {
+      "M_sol": 1.0,
+      "r_s_m": 2954.126555055405,
+      "S_BH": 1.0495141304015702e+77,
+      "S_Bek": 1.04951413040157e+77,
+      "ratio": 1.0000000000000002
+    },
+    {
+      "M_sol": 10.0,
+      "r_s_m": 29541.26555055405,
+      "S_BH": 1.04951413040157e+79,
+      "S_Bek": 1.0495141304015699e+79,
+      "ratio": 1.0000000000000002
+    },
+    {
+      "M_sol": 1000000.0,
+      "r_s_m": 2954126555.0554047,
+      "S_BH": 1.0495141304015697e+89,
+      "S_Bek": 1.04951413040157e+89,
+      "ratio": 0.9999999999999998
+    },
+    {
+      "M_sol": 6500000000.0,
+      "r_s_m": 19201822607860.133,
+      "S_BH": 4.434197200946634e+96,
+      "S_Bek": 4.434197200946634e+96,
+      "ratio": 1.0
+    }
+  ],
+  "holographic_complexity": [
+    {
+      "M_sol": 1.0,
+      "E_J": 1.78762405050753e+47,
+      "dC_dt_ops_per_s": 1.0791458654284496e+81
+    },
+    {
+      "M_sol": 10.0,
+      "E_J": 1.78762405050753e+48,
+      "dC_dt_ops_per_s": 1.0791458654284494e+82
+    },
+    {
+      "M_sol": 1000000.0,
+      "E_J": 1.7876240505075302e+53,
+      "dC_dt_ops_per_s": 1.0791458654284496e+87
+    }
+  ],
+  "verdict": "AdS/CFT BH physics fully integrated under ITU: Hawking-Page = K-state 1st-order phase transition; Bekenstein bound saturated; holographic complexity grows linearly per Lloyd bound."
+}

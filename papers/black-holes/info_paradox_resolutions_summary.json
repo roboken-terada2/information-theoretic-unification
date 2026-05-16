@@ -1,0 +1,151 @@
+{
+  "phase": 122,
+  "title": "Information paradox resolutions in ITU",
+  "tier1_id": 18,
+  "tier1_name": "Black Holes",
+  "block": "A (Physics/Math) — paper 2/9, phase 4/8",
+  "fuzzball_microstates": {
+    "cases": [
+      {
+        "Q1": 1,
+        "Q5": 1,
+        "N": 1,
+        "S_BH": 6.283185307179586,
+        "log10_microstates": 2.7287527076836824
+      },
+      {
+        "Q1": 10,
+        "Q5": 10,
+        "N": 10,
+        "S_BH": 198.691765315922,
+        "log10_microstates": 86.29073727632084
+      },
+      {
+        "Q1": 100,
+        "Q5": 100,
+        "N": 100,
+        "S_BH": 6283.185307179586,
+        "log10_microstates": 2728.7527076836823
+      },
+      {
+        "Q1": 1000,
+        "Q5": 1000,
+        "N": 1000,
+        "S_BH": 198691.765315922,
+        "log10_microstates": 86290.73727632084
+      }
+    ]
+  },
+  "soft_hair_density": {
+    "rows": [
+      {
+        "M_sol": 1.0,
+        "A": 109665003.59645963,
+        "S_BH": 1.0495141304015702e+77,
+        "N_soft_modes": 4.1980565216062806e+77,
+        "N_soft_over_S_BH": 4.0
+      },
+      {
+        "M_sol": 10.0,
+        "A": 10966500359.645962,
+        "S_BH": 1.04951413040157e+79,
+        "N_soft_modes": 4.19805652160628e+79,
+        "N_soft_over_S_BH": 4.0
+      },
+      {
+        "M_sol": 1000000.0,
+        "A": 1.0966500359645959e+20,
+        "S_BH": 1.0495141304015697e+89,
+        "N_soft_modes": 4.198056521606279e+89,
+        "N_soft_over_S_BH": 4.0
+      },
+      {
+        "M_sol": 6500000000.0,
+        "A": 4.6333464019504196e+27,
+        "S_BH": 4.434197200946634e+96,
+        "N_soft_modes": 1.7736788803786537e+97,
+        "N_soft_over_S_BH": 4.0
+      }
+    ]
+  },
+  "maldacena_maoz_TFD": {
+    "rows": [
+      {
+        "beta": 0.5,
+        "S_L_TFD": 1.6004031100103875,
+        "A_horizon_over_4GN": 1.6004031100103875
+      },
+      {
+        "beta": 1.0,
+        "S_L_TFD": 1.2185287444932298,
+        "A_horizon_over_4GN": 1.2185287444932298
+      },
+      {
+        "beta": 2.0,
+        "S_L_TFD": 0.5841190233237773,
+        "A_horizon_over_4GN": 0.5841190233237773
+      }
+    ]
+  },
+  "complementarity": {
+    "S_b": 0.6931471805599454,
+    "S_R": 0.6931471805599454,
+    "S_bp": 0.6931471805599454,
+    "I_alice": 0.6931471805599454
+  },
+  "holography_of_information": {
+    "rows": [
+      {
+        "M_sol": 10.0,
+        "S_BH": 1.04951413040157e+79,
+        "S_inf": 1.04951413040157e+79,
+        "ratio": 1.0
+      },
+      {
+        "M_sol": 1000000.0,
+        "S_BH": 1.0495141304015697e+89,
+        "S_inf": 1.0495141304015697e+89,
+        "ratio": 1.0
+      },
+      {
+        "M_sol": 6500000000.0,
+        "S_BH": 4.434197200946634e+96,
+        "S_inf": 4.434197200946634e+96,
+        "ratio": 1.0
+      }
+    ]
+  },
+  "itu_integration_table": {
+    "table": [
+      {
+        "resolution": "Fuzzball (Mathur 2005)",
+        "itu_view": "K_geom microstate basis"
+      },
+      {
+        "resolution": "Soft hair (HPS 2016)",
+        "itu_view": "K_geom horizon edge modes"
+      },
+      {
+        "resolution": "Maldacena-Maoz (2004)",
+        "itu_view": "K_LR^(0) TFD ↔ bulk wormhole"
+      },
+      {
+        "resolution": "Complementarity (Susskind 1993)",
+        "itu_view": "observer-dependent K-frame"
+      },
+      {
+        "resolution": "Holography of info (LPRS 2020)",
+        "itu_view": "K-flow boundary completeness"
+      },
+      {
+        "resolution": "Island formula (Penington 2019)",
+        "itu_view": "K-channel competition (Phase 113)"
+      },
+      {
+        "resolution": "ER=EPR (Maldacena-Susskind 2013)",
+        "itu_view": "non-local K_AB encoding (Phase 112)"
+      }
+    ]
+  },
+  "verdict": "All 5+2 information-paradox resolution proposals are projections of ITU axiom δS = δ⟨K⟩ from different K-flow viewpoints."
+}

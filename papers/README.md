@@ -34,7 +34,8 @@ Each Tier 1 paper:
 | 14 | [ITU and Communications / Networks](communications/) | [10.5281/zenodo.20225970](https://doi.org/10.5281/zenodo.20225970) | 95-98 | `communications/` | ✅ v1.0.0 |
 | 15 | [ITU and Infrastructure / Power Grid](infrastructure/) | [10.5281/zenodo.20226481](https://doi.org/10.5281/zenodo.20226481) | 99-102 | `infrastructure/` | ✅ v1.0.0 |
 | 16 | [ITU and Smart Cities](smartcities/) | [10.5281/zenodo.20228581](https://doi.org/10.5281/zenodo.20228581) | 103-106 | `smartcities/` | ✅ v1.0.0 |
-| 17 | [ITU and Quantum Gravity](quantum-gravity/) ✨ | [10.5281/zenodo.20230667](https://doi.org/10.5281/zenodo.20230667) | 111-118 | `quantum-gravity/` | ✅ v1.0.0 |
+| 17 | [ITU and Quantum Gravity](quantum-gravity/) | [10.5281/zenodo.20230667](https://doi.org/10.5281/zenodo.20230667) | 111-118 | `quantum-gravity/` | ✅ v1.0.0 |
+| 18 | [ITU and Black Holes](black-holes/) ✨ | [10.5281/zenodo.20233070](https://doi.org/10.5281/zenodo.20233070) | 119-126 | `black-holes/` | ✅ v1.0.0 |
 
 > **🎉 Pass-1 50% MILESTONE achieved — Tier 0 v3.0 published**: 16-vertex polytope completed (engineering pentagon #1-#4+#10, medicine triangle #5-#7, social #8, philosophy #9, biosphere super-hub #11, cosmic axis #12, embodiment axis #13, K-channel super-hub #14, K-skeleton #15, **URBAN ULTIMATE HUB #16 deg 15**). Tier 0 v3.0 (Phase 107-110) integrates all 16 Tier 1 papers into a unified polytope graph (60 edges, γ=0.79 power-law), 5 meta-axioms β-1〜β-5, 160 falsifiable predictions (top 50 selected, 50% Strong falsifiability), and Pass-2 framework (Phase 221-230 priority Tier 1: #1 QC, #2 AI, #5 Cancer, #10 Energy, #11 Climate, #16 Smart Cities). Pass-1 progress: **110 of 220 phases = 50.0%**.
 
@@ -44,7 +45,8 @@ Each Tier 1 paper:
 |---|---|---|---|
 | Tier 0 v3.0 | Intermediate integration | 107-110 | ✅ v3.0.0 published |
 | 17 | Block A #17: Quantum Gravity | 111-118 | ✅ v1.0.0 published |
-| 18 | Block A #18: Black Holes | 119-126 | planned (next) |
+| 18 | Block A #18: Black Holes | 119-126 | ✅ v1.0.0 published |
+| 19 | Block A #19: Cosmology | 127-134 | planned (next) |
 | 19 | Block A #19: Cosmology | 127-134 | planned |
 | 20 | Block A #20: Standard Model | 135-142 | planned |
 | 21-25 | Block A #21-#25: Stat Mech / Math / Info Theory / Complexity / Foundations | 143-180 | planned |
@@ -144,12 +146,17 @@ papers/
 │   ├── theory_phase107-110.md
 │   └── *.py, *.png, summary*.json
 │
-├── quantum-gravity/                    Tier 1 #17: Quantum Gravity ✨ (Phase 111-118)
+├── quantum-gravity/                    Tier 1 #17: Quantum Gravity (Phase 111-118)
 │   ├── README.md, CITATION.cff, .zenodo.json
 │   ├── theory_phase111-118.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Block A #18-#25 planned, Phase 119-180)
+├── black-holes/                        Tier 1 #18: Black Holes ✨ (Phase 119-126)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase119-126.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Block A #19-#25 planned, Phase 127-180)
 ```
 
 ## How to cite a Tier 1 paper
@@ -277,6 +284,14 @@ Terada, M. (2026). ITU and Quantum Gravity: A Single-Axiom View of AdS/CFT,
 Ryu-Takayanagi, ER=EPR, Page Curve, Loop Quantum Gravity, String Theory,
 and the 2026-2050 Experimental Roadmap (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20230667
+```
+
+```
+Terada, M. (2026). ITU and Black Holes: A Single-Axiom View of
+Schwarzschild-Kerr Solutions, Bekenstein-Hawking Entropy, the Page Curve,
+Information Paradox Resolutions, AdS/CFT BHs, Primordial BHs, and the
+2026-2050 Observational Roadmap (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20233070
 ```
 
 Plus the core ITU citation:

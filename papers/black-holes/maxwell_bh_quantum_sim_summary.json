@@ -1,0 +1,132 @@
+{
+  "phase": 124,
+  "title": "Maxwell demon + Landauer + BH info observable + Q-BH simulation",
+  "tier1_id": 18,
+  "tier1_name": "Black Holes",
+  "block": "A (Physics/Math) — paper 2/9, phase 6/8",
+  "landauer_bound": [
+    {
+      "env": "Room T (300 K)",
+      "T_K": 300.0,
+      "dE_J": 2.870978885078724e-21,
+      "dE_eV": 0.017921216511103146
+    },
+    {
+      "env": "LN2 cooling (77 K)",
+      "T_K": 77.0,
+      "dE_J": 7.368845805035391e-22,
+      "dE_eV": 0.0045997789045164736
+    },
+    {
+      "env": "Cryo (4.2 K, He)",
+      "T_K": 4.2,
+      "dE_J": 4.019370439110214e-23,
+      "dE_eV": 0.0002508970311554441
+    },
+    {
+      "env": "Q-computer (0.01 K)",
+      "T_K": 0.01,
+      "dE_J": 9.56992961692908e-26,
+      "dE_eV": 5.973738837034382e-07
+    },
+    {
+      "env": "CMB (2.725 K)",
+      "T_K": 2.725,
+      "dE_J": 2.6078058206131743e-23,
+      "dE_eV": 0.0001627843833091869
+    }
+  ],
+  "bh_as_demon": [
+    {
+      "M_sol": 1.0,
+      "T_H_K": 6.168429712630829e-08,
+      "dE_per_bit_J": 5.90314381968511e-31,
+      "dE_per_bit_eV": 3.6848588137859615e-12
+    },
+    {
+      "M_sol": 10.0,
+      "T_H_K": 6.168429712630828e-09,
+      "dE_per_bit_J": 5.903143819685109e-32,
+      "dE_per_bit_eV": 3.6848588137859606e-13
+    },
+    {
+      "M_sol": 1000000.0,
+      "T_H_K": 6.168429712630828e-14,
+      "dE_per_bit_J": 5.903143819685109e-37,
+      "dE_per_bit_eV": 3.684858813785961e-18
+    },
+    {
+      "M_sol": 6500000000.0,
+      "T_H_K": 9.489891865585887e-18,
+      "dE_per_bit_J": 9.081759722592474e-41,
+      "dE_per_bit_eV": 5.669013559670708e-22
+    }
+  ],
+  "radiation_mutual_info": {
+    "t_page": 0.6479447236180904,
+    "I_pair_max": 1.96
+  },
+  "petz_fidelity": {
+    "t_page": 0.642929648241206,
+    "F_at_0p1": 8.774382838669728e-08,
+    "F_at_t_page": 0.5
+  },
+  "qpu_simulation": {
+    "syk_table": [
+      {
+        "N_majorana": 10,
+        "hilbert_dim": 32,
+        "qubits_needed": 5
+      },
+      {
+        "N_majorana": 20,
+        "hilbert_dim": 1024,
+        "qubits_needed": 10
+      },
+      {
+        "N_majorana": 30,
+        "hilbert_dim": 32768,
+        "qubits_needed": 15
+      },
+      {
+        "N_majorana": 40,
+        "hilbert_dim": 1048576,
+        "qubits_needed": 20
+      },
+      {
+        "N_majorana": 50,
+        "hilbert_dim": 33554432,
+        "qubits_needed": 25
+      },
+      {
+        "N_majorana": 60,
+        "hilbert_dim": 1073741824,
+        "qubits_needed": 30
+      },
+      {
+        "N_majorana": 100,
+        "hilbert_dim": 1125899906842624,
+        "qubits_needed": 50
+      }
+    ],
+    "qpus": [
+      [
+        "IBM Eagle (2021)",
+        127
+      ],
+      [
+        "IBM Condor (2023)",
+        1121
+      ],
+      [
+        "Google Sycamore (2019)",
+        53
+      ],
+      [
+        "Atom Computing (2024)",
+        1180
+      ]
+    ]
+  },
+  "verdict": "BH = ultimate Maxwell demon at k_B T_H ln 2 / bit; Hawking radiation mutual info I(R_i:R_j) spikes after Page time; Petz fidelity rises at t_Page; SYK/JT gravity tractable on 100-1000 qubit QPUs."
+}

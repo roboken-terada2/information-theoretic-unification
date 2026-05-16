@@ -1,0 +1,323 @@
+{
+  "phase": 126,
+  "title": "Tier 1 #18 Black Holes integration + 18-vertex polytope + 10 predictions",
+  "tier1_id": 18,
+  "tier1_name": "Black Holes",
+  "block": "A (Physics/Math) — paper 2/9 COMPLETE",
+  "phase_integration": [
+    {
+      "phase": 119,
+      "theme": "Schwarzschild + Kerr + No-hair",
+      "key": "r_ISCO, Penrose 29.29%",
+      "axiom": "K_geom stationary points"
+    },
+    {
+      "phase": 120,
+      "theme": "BH 4 laws + Hawking radiation",
+      "key": "dMc^2 = T_H dS rel diff 8.4e-4",
+      "axiom": "dS = d<K_geom> embedded"
+    },
+    {
+      "phase": 121,
+      "theme": "Page curve rigorous + QECC",
+      "key": "t_Page = 0.643, I(R:B)=1.00",
+      "axiom": "Page-Yang QECC"
+    },
+    {
+      "phase": 122,
+      "theme": "Info paradox resolutions",
+      "key": "7 resolutions under K-axiom",
+      "axiom": "Fuzzball/SoftHair/MM/etc."
+    },
+    {
+      "phase": 123,
+      "theme": "AdS/CFT + Bekenstein + Complexity",
+      "key": "T_HP=0.4775, Bek saturated",
+      "axiom": "K-state phase transition"
+    },
+    {
+      "phase": 124,
+      "theme": "Maxwell demon + Q-BH simulation",
+      "key": "I(R_i:R_j) spike at t_Page",
+      "axiom": "K_info conservation"
+    },
+    {
+      "phase": 125,
+      "theme": "PBH + higher corr + merger stats",
+      "key": "f_PBH <~10%, scrambling bound",
+      "axiom": "K-flow chaos"
+    }
+  ],
+  "polytope_18": {
+    "couplings": [
+      [
+        17,
+        "QG",
+        "K_geom (parent)",
+        1.0
+      ],
+      [
+        1,
+        "QC",
+        "K_compute (QECC)",
+        0.85
+      ],
+      [
+        2,
+        "AI/ASI",
+        "K_mind",
+        0.4
+      ],
+      [
+        3,
+        "Crypto",
+        "K_secure",
+        0.45
+      ],
+      [
+        4,
+        "Semi",
+        "K_substrate",
+        0.3
+      ],
+      [
+        5,
+        "Cancer",
+        "K_bio",
+        0.1
+      ],
+      [
+        6,
+        "Aging",
+        "K_organism",
+        0.1
+      ],
+      [
+        7,
+        "Psychiatry",
+        "K_self",
+        0.1
+      ],
+      [
+        8,
+        "Economics",
+        "K_society",
+        0.1
+      ],
+      [
+        9,
+        "FreeWill",
+        "K_agency",
+        0.15
+      ],
+      [
+        10,
+        "Energy",
+        "K_energy",
+        0.85
+      ],
+      [
+        11,
+        "Climate",
+        "K_atm",
+        0.5
+      ],
+      [
+        12,
+        "Astrobio",
+        "K_life",
+        0.4
+      ],
+      [
+        13,
+        "Robotics",
+        "K_action",
+        0.2
+      ],
+      [
+        14,
+        "Comm",
+        "K_channel",
+        0.7
+      ],
+      [
+        15,
+        "Infra",
+        "K_capital",
+        0.15
+      ],
+      [
+        16,
+        "SC",
+        "K_city",
+        0.15
+      ]
+    ],
+    "avg_coupling": 0.38235294117647056,
+    "n_vertices": 18,
+    "n_edges": 93,
+    "avg_degree": 10.333333333333334
+  },
+  "predictions": {
+    "predictions": [
+      {
+        "id": 1,
+        "name": "EHT M87* shadow refined to 5 uas",
+        "year": 2030,
+        "P": 0.9,
+        "ver": "Strong",
+        "tag": "#14 Comm"
+      },
+      {
+        "id": 2,
+        "name": "GWTC-5 catalog 300+ BBH (LIGO O5)",
+        "year": 2030,
+        "P": 0.85,
+        "ver": "Strong",
+        "tag": "#14 Comm"
+      },
+      {
+        "id": 3,
+        "name": "Sgr A* Kerr deviation < 1%",
+        "year": 2035,
+        "P": 0.75,
+        "ver": "Strong",
+        "tag": "#17 QG"
+      },
+      {
+        "id": 4,
+        "name": "LISA IMBH (10^2-10^5 M_sun) detected",
+        "year": 2038,
+        "P": 0.7,
+        "ver": "Strong",
+        "tag": "#17 QG"
+      },
+      {
+        "id": 5,
+        "name": "Pair-instability gap 45-80 M_sun verified",
+        "year": 2032,
+        "P": 0.65,
+        "ver": "Strong",
+        "tag": "stellar evolution"
+      },
+      {
+        "id": 6,
+        "name": "PBH asteroid-mass window constrained",
+        "year": 2038,
+        "P": 0.55,
+        "ver": "Medium",
+        "tag": "#1 QC"
+      },
+      {
+        "id": 7,
+        "name": "Quantum-computer 100-qubit BH simulation",
+        "year": 2032,
+        "P": 0.7,
+        "ver": "Strong",
+        "tag": "#1 QC"
+      },
+      {
+        "id": 8,
+        "name": "BMV gravitational entanglement detected",
+        "year": 2032,
+        "P": 0.65,
+        "ver": "Strong",
+        "tag": "#17 QG"
+      },
+      {
+        "id": 9,
+        "name": "Hawking-Page transition CFT realized",
+        "year": 2040,
+        "P": 0.4,
+        "ver": "Medium",
+        "tag": "AdS/CFT"
+      },
+      {
+        "id": 10,
+        "name": "SMBH origin (DC vs PBH) resolved",
+        "year": 2045,
+        "P": 0.45,
+        "ver": "Medium",
+        "tag": "#11 Climate"
+      }
+    ],
+    "P_avg": 0.66,
+    "strong_count": 7,
+    "medium_count": 3
+  },
+  "meta_comparison": {
+    "comparison": [
+      [
+        "Tier 1 #1-#16 (avg)",
+        0.59,
+        0.5,
+        "10-16 (range)"
+      ],
+      [
+        "Tier 1 #17 Quantum Gravity",
+        0.625,
+        0.6,
+        "16"
+      ],
+      [
+        "Tier 1 #18 Black Holes",
+        0.66,
+        0.7,
+        "17 (new max)"
+      ]
+    ],
+    "pass1_progress_pct": 57.27272727272727
+  },
+  "specialization_mapping_17_to_18": {
+    "mapping": [
+      {
+        "tier17": "Phase 111 (AdS/CFT + RT)",
+        "tier18": "Phase 119 (Schwarzschild + Kerr)"
+      },
+      {
+        "tier17": "Phase 112 (ER=EPR + TFD)",
+        "tier18": "Phase 120 (BH 4 laws + Hawking)"
+      },
+      {
+        "tier17": "Phase 113 (Page curve + Island)",
+        "tier18": "Phase 121 (Page curve rigorous + QECC)"
+      },
+      {
+        "tier17": "Phase 114 (Firewall + Planck)",
+        "tier18": "Phase 122 (Info paradox resolutions)"
+      },
+      {
+        "tier17": "Phase 115 (LQG + area spectrum)",
+        "tier18": "Phase 123 (AdS/CFT BH + complexity)"
+      },
+      {
+        "tier17": "Phase 116 (String + Strominger-Vafa)",
+        "tier18": "Phase 124 (Maxwell + Q-BH sim)"
+      },
+      {
+        "tier17": "Phase 117 (QG experiments)",
+        "tier18": "Phase 125 (PBH + merger stats)"
+      },
+      {
+        "tier17": "Phase 118 (17-vertex integration)",
+        "tier18": "Phase 126 (18-vertex integration)"
+      }
+    ]
+  },
+  "completion_status": {
+    "phases_completed": [
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126
+    ],
+    "all_phases_done": true,
+    "block_A_papers_done": 2,
+    "block_A_papers_total": 9
+  },
+  "verdict": "Tier 1 #18 Black Holes complete: 8 phases, 10 predictions (P_avg = 0.660), polytope extended to 18 vertices with #18 as K-horizon hub (degree 17, new max). Pass-1 progress 126/220 = 57.3 %."
+}

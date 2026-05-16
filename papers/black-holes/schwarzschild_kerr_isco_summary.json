@@ -1,0 +1,102 @@
+{
+  "phase": 119,
+  "title": "Schwarzschild + Kerr + No-hair + ISCO + Penrose + ITU mapping",
+  "tier1_id": 18,
+  "tier1_name": "Black Holes",
+  "block": "A (Physics/Math) — paper 2/9, phase 1/8",
+  "schwarzschild_radii": [
+    {
+      "name": "Sun (toy BH)",
+      "M_solar": 1.0,
+      "r_s_m": 2954.126555055405,
+      "r_s_km": 2.954126555055405,
+      "r_s_AU": 1.9747116327474606e-08
+    },
+    {
+      "name": "Stellar BH (typical)",
+      "M_solar": 10.0,
+      "r_s_m": 29541.26555055405,
+      "r_s_km": 29.54126555055405,
+      "r_s_AU": 1.9747116327474606e-07
+    },
+    {
+      "name": "Cygnus X-1",
+      "M_solar": 21.0,
+      "r_s_m": 62036.6576561635,
+      "r_s_km": 62.0366576561635,
+      "r_s_AU": 4.146894428769667e-07
+    },
+    {
+      "name": "LIGO GW150914 final",
+      "M_solar": 62.0,
+      "r_s_m": 183155.8464134351,
+      "r_s_km": 183.15584641343509,
+      "r_s_AU": 1.2243212123034256e-06
+    },
+    {
+      "name": "Intermediate mass",
+      "M_solar": 1000.0,
+      "r_s_m": 2954126.555055405,
+      "r_s_km": 2954.126555055405,
+      "r_s_AU": 1.9747116327474606e-05
+    },
+    {
+      "name": "Sgr A*",
+      "M_solar": 4000000.0,
+      "r_s_m": 11816506220.221619,
+      "r_s_km": 11816506.220221618,
+      "r_s_AU": 0.07898846530989842
+    },
+    {
+      "name": "M87*",
+      "M_solar": 6500000000.0,
+      "r_s_m": 19201822607860.133,
+      "r_s_km": 19201822607.860134,
+      "r_s_AU": 128.35625612858493
+    },
+    {
+      "name": "Ultra-massive (TON 618)",
+      "M_solar": 66000000000.0,
+      "r_s_m": 194972352633656.72,
+      "r_s_km": 194972352633.6567,
+      "r_s_AU": 1303.3096776133239
+    }
+  ],
+  "kerr_horizons_a_star_sample": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "penrose_max_efficiency": 0.2928932188134524,
+  "k_geom_examples": [
+    {
+      "M_solar": 1.0,
+      "r_s_m": 2954.126555055405,
+      "kappa": 15211859783034.268,
+      "T_H_K": 6.168429712630827e-08,
+      "S_BH_nats": 1.0495141304015702e+77
+    },
+    {
+      "M_solar": 10.0,
+      "r_s_m": 29541.26555055405,
+      "kappa": 1521185978303.4268,
+      "T_H_K": 6.168429712630826e-09,
+      "S_BH_nats": 1.04951413040157e+79
+    },
+    {
+      "M_solar": 1000000.0,
+      "r_s_m": 2954126555.0554047,
+      "kappa": 15211859.783034269,
+      "T_H_K": 6.168429712630827e-14,
+      "S_BH_nats": 1.0495141304015697e+89
+    },
+    {
+      "M_solar": 6500000000.0,
+      "r_s_m": 19201822607860.133,
+      "kappa": 2340.2861204668106,
+      "T_H_K": 9.489891865585889e-18,
+      "S_BH_nats": 4.434197200946634e+96
+    }
+  ],
+  "verdict": "Schwarzschild + Kerr solutions = K_geom stationary points; No-hair theorem = K-flow uniqueness; Penrose max eta = 29.3% at extremal Kerr."
+}
