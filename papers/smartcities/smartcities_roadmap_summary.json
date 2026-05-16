@@ -1,0 +1,261 @@
+{
+  "phase": 106,
+  "title": "Smart cities roadmap 2026-2050 + Tier 1 #16 + Engineering-Industry block completion",
+  "test1_roadmap": {
+    "milestones": [
+      {
+        "year": 2024,
+        "label": "Zurich #1 IMD, Singapore 5M sensors",
+        "category": "obs",
+        "status": "done"
+      },
+      {
+        "year": 2025,
+        "label": "EU AI Act high-risk regulation effective",
+        "category": "policy",
+        "status": "planned"
+      },
+      {
+        "year": 2026,
+        "label": "Songdo IBD final completion (21yr)",
+        "category": "project",
+        "status": "predicted"
+      },
+      {
+        "year": 2027,
+        "label": "NEOM The Line first phase opens",
+        "category": "project",
+        "status": "predicted"
+      },
+      {
+        "year": 2028,
+        "label": "International ISO 37125 smart city std",
+        "category": "policy",
+        "status": "predicted"
+      },
+      {
+        "year": 2030,
+        "label": "Xiongan 1M residents + integrated std",
+        "category": "project",
+        "status": "predicted"
+      },
+      {
+        "year": 2030,
+        "label": "EU Digital Decade 95% penetration",
+        "category": "policy",
+        "status": "predicted"
+      },
+      {
+        "year": 2032,
+        "label": "L4 autonomous driving urban commercial",
+        "category": "autonomy",
+        "status": "predicted"
+      },
+      {
+        "year": 2035,
+        "label": "AGI city L4 autonomy 0.30",
+        "category": "agi",
+        "status": "predicted"
+      },
+      {
+        "year": 2035,
+        "label": "Face recognition ban EU + 50% US states",
+        "category": "policy",
+        "status": "predicted"
+      },
+      {
+        "year": 2038,
+        "label": "15-min cities expand to 30+ globally",
+        "category": "urbanism",
+        "status": "predicted"
+      },
+      {
+        "year": 2040,
+        "label": "AGI city L4 autonomy 0.50 (half AI)",
+        "category": "agi",
+        "status": "predicted"
+      },
+      {
+        "year": 2040,
+        "label": "Smart city market $2.5T",
+        "category": "market",
+        "status": "predicted"
+      },
+      {
+        "year": 2045,
+        "label": "Nusantara full operational",
+        "category": "project",
+        "status": "predicted"
+      },
+      {
+        "year": 2050,
+        "label": "ASI city (L5 autonomy 0.75)",
+        "category": "agi",
+        "status": "predicted"
+      },
+      {
+        "year": 2050,
+        "label": "Market $3T, Telosa complete",
+        "category": "market",
+        "status": "predicted"
+      }
+    ],
+    "n_total": 16
+  },
+  "test2_predictions": {
+    "predictions": [
+      {
+        "id": 1,
+        "year": 2026,
+        "claim": "EU AI Act face recognition ban enforced",
+        "p": 0.8
+      },
+      {
+        "id": 2,
+        "year": 2027,
+        "claim": "NEOM The Line first phase opens",
+        "p": 0.5
+      },
+      {
+        "id": 3,
+        "year": 2032,
+        "claim": "L4 autonomous driving urban commercial",
+        "p": 0.55
+      },
+      {
+        "id": 4,
+        "year": 2040,
+        "claim": "AGI city L4 autonomy 0.50",
+        "p": 0.45
+      },
+      {
+        "id": 5,
+        "year": 2038,
+        "claim": "15-min cities >30 globally",
+        "p": 0.6
+      },
+      {
+        "id": 6,
+        "year": 2035,
+        "claim": "US 5+ states ban face recognition",
+        "p": 0.55
+      },
+      {
+        "id": 7,
+        "year": 2030,
+        "claim": "Xiongan 1M residents",
+        "p": 0.55
+      },
+      {
+        "id": 8,
+        "year": 2035,
+        "claim": "Digital democracy national (5 countries)",
+        "p": 0.4
+      },
+      {
+        "id": 9,
+        "year": 2030,
+        "claim": "Smart city market $1.5T",
+        "p": 0.65
+      },
+      {
+        "id": 10,
+        "year": 2050,
+        "claim": "ASI city L5 realized",
+        "p": 0.35
+      }
+    ],
+    "p_avg": 0.54,
+    "n_total": 10
+  },
+  "test3_polytope": {
+    "n_vertices": 16,
+    "n_edges": 60,
+    "max_degree_vertex_id": 16,
+    "max_degree": 15,
+    "degree": {
+      "1": 5,
+      "2": 10,
+      "3": 4,
+      "4": 7,
+      "5": 5,
+      "6": 4,
+      "7": 4,
+      "8": 7,
+      "9": 5,
+      "10": 9,
+      "11": 11,
+      "12": 6,
+      "13": 9,
+      "14": 11,
+      "15": 8,
+      "16": 15
+    }
+  },
+  "test4_integration": {
+    "phases": {
+      "Phase 103": {
+        "title": "ITU foundation",
+        "key_values": {
+          "IMD #1": "Zurich",
+          "Singapore sensors M": 5,
+          "Greenfield total T$": 1.73,
+          "Estonia privacy": 0.85
+        }
+      },
+      "Phase 104": {
+        "title": "AGI city + sustainability + integration",
+        "key_values": {
+          "AGI 2040 autonomy": 0.5,
+          "Paris 15min car %": -40,
+          "Tier 1 implemented": 15,
+          "Xiongan score": 85
+        }
+      },
+      "Phase 105": {
+        "title": "Economy + policy + ethics",
+        "key_values": {
+          "Market 2050 T$": 3.0,
+          "EU AI Act prohibited": 8,
+          "China surveillance": 0.95,
+          "Lagos divide %": 60
+        }
+      },
+      "Phase 106": {
+        "title": "Roadmap + polytope",
+        "key_values": {
+          "milestones": 16,
+          "n_predictions": 10,
+          "polytope vertices": 16,
+          "Pass-1 progress %": 48.2
+        }
+      }
+    },
+    "block_summary": [
+      {
+        "phase": "91-94",
+        "tier": 13,
+        "topic": "Robotics / Embodied AI",
+        "DOI": "20224976"
+      },
+      {
+        "phase": "95-98",
+        "tier": 14,
+        "topic": "Communications / Networks",
+        "DOI": "20225970"
+      },
+      {
+        "phase": "99-102",
+        "tier": 15,
+        "topic": "Infrastructure / Power Grid",
+        "DOI": "20226481"
+      },
+      {
+        "phase": "103-106",
+        "tier": 16,
+        "topic": "Smart Cities",
+        "DOI": "pending"
+      }
+    ]
+  }
+}

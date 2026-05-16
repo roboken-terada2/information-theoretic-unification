@@ -1,0 +1,282 @@
+{
+  "phase": 103,
+  "title": "ITU × Smart Cities — foundation",
+  "test1_smart_city_index": {
+    "cities": [
+      {
+        "rank": 1,
+        "city": "Zurich",
+        "country": "CH",
+        "score": 100,
+        "focus": "Balanced + citizen sat."
+      },
+      {
+        "rank": 2,
+        "city": "Oslo",
+        "country": "NO",
+        "score": 95,
+        "focus": "Environment + digital"
+      },
+      {
+        "rank": 3,
+        "city": "Canberra",
+        "country": "AU",
+        "score": 94,
+        "focus": "Government digitization"
+      },
+      {
+        "rank": 4,
+        "city": "Geneva",
+        "country": "CH",
+        "score": 93,
+        "focus": "UN city"
+      },
+      {
+        "rank": 5,
+        "city": "Singapore",
+        "country": "SG",
+        "score": 92,
+        "focus": "Smart Nation integration"
+      },
+      {
+        "rank": 6,
+        "city": "Copenhagen",
+        "country": "DK",
+        "score": 90,
+        "focus": "Bicycle + green"
+      },
+      {
+        "rank": 7,
+        "city": "Lausanne",
+        "country": "CH",
+        "score": 89,
+        "focus": "Education + tech"
+      },
+      {
+        "rank": 8,
+        "city": "London",
+        "country": "UK",
+        "score": 88,
+        "focus": "Diversity + finance"
+      },
+      {
+        "rank": 9,
+        "city": "Helsinki",
+        "country": "FI",
+        "score": 87,
+        "focus": "Digital pioneer"
+      },
+      {
+        "rank": 10,
+        "city": "Beijing",
+        "country": "CN",
+        "score": 85,
+        "focus": "Surveillance + AI"
+      }
+    ]
+  },
+  "test2_greenfield": {
+    "projects": [
+      {
+        "name": "Telosa",
+        "country": "USA",
+        "investment_B": 400,
+        "year_start": 2040,
+        "year_complete": 2050
+      },
+      {
+        "name": "NEOM (The Line)",
+        "country": "Saudi",
+        "investment_B": 500,
+        "year_start": 2017,
+        "year_complete": 2030
+      },
+      {
+        "name": "Forest City",
+        "country": "Malaysia",
+        "investment_B": 100,
+        "year_start": 2014,
+        "year_complete": 2035
+      },
+      {
+        "name": "Tianfu New Area",
+        "country": "China",
+        "investment_B": 50,
+        "year_start": 2014,
+        "year_complete": 2030
+      },
+      {
+        "name": "Songdo IBD",
+        "country": "Korea",
+        "investment_B": 40,
+        "year_start": 2003,
+        "year_complete": 2024
+      },
+      {
+        "name": "Nusantara",
+        "country": "Indonesia",
+        "investment_B": 40,
+        "year_start": 2024,
+        "year_complete": 2045
+      },
+      {
+        "name": "Masdar City",
+        "country": "UAE",
+        "investment_B": 22,
+        "year_start": 2008,
+        "year_complete": 2030
+      },
+      {
+        "name": "雄安新区 Xiongan",
+        "country": "China",
+        "investment_B": 580,
+        "year_start": 2017,
+        "year_complete": 2035
+      }
+    ],
+    "total_investment_B": 1732
+  },
+  "test3_iot_density": {
+    "sensor_types": [
+      {
+        "type": "Air quality",
+        "per_km2": 30
+      },
+      {
+        "type": "Temperature",
+        "per_km2": 60
+      },
+      {
+        "type": "Traffic flow",
+        "per_km2": 35
+      },
+      {
+        "type": "Surveillance",
+        "per_km2": 200
+      },
+      {
+        "type": "Smart meters",
+        "per_km2": 5000
+      },
+      {
+        "type": "IoT trash",
+        "per_km2": 12
+      },
+      {
+        "type": "Street lights",
+        "per_km2": 200
+      },
+      {
+        "type": "Other",
+        "per_km2": 100
+      }
+    ],
+    "cities": [
+      {
+        "city": "Beijing",
+        "total_sensors": 30000000.0,
+        "per_km2": 18000
+      },
+      {
+        "city": "New York",
+        "total_sensors": 10000000.0,
+        "per_km2": 16000
+      },
+      {
+        "city": "Singapore",
+        "total_sensors": 5000000.0,
+        "per_km2": 7000
+      },
+      {
+        "city": "Tokyo (Chiyoda)",
+        "total_sensors": 2000000.0,
+        "per_km2": 6000
+      },
+      {
+        "city": "Songdo",
+        "total_sensors": 50000.0,
+        "per_km2": 1200
+      },
+      {
+        "city": "AI City 2040 (proj)",
+        "total_sensors": 100000000.0,
+        "per_km2": 100000
+      }
+    ],
+    "typical_density": 5637
+  },
+  "test4_privacy_efficiency": {
+    "cities": [
+      {
+        "city": "Beijing (CN)",
+        "privacy": 0.15,
+        "efficiency": 0.92,
+        "model": "surveillance",
+        "combined": 1.07
+      },
+      {
+        "city": "Xiongan (CN)",
+        "privacy": 0.1,
+        "efficiency": 0.95,
+        "model": "surveillance",
+        "combined": 1.05
+      },
+      {
+        "city": "Singapore",
+        "privacy": 0.55,
+        "efficiency": 0.93,
+        "model": "balanced",
+        "combined": 1.48
+      },
+      {
+        "city": "Songdo (KR)",
+        "privacy": 0.5,
+        "efficiency": 0.8,
+        "model": "balanced",
+        "combined": 1.3
+      },
+      {
+        "city": "Estonia (Tallinn)",
+        "privacy": 0.85,
+        "efficiency": 0.92,
+        "model": "data-trust",
+        "combined": 1.77
+      },
+      {
+        "city": "Helsinki",
+        "privacy": 0.8,
+        "efficiency": 0.85,
+        "model": "data-trust",
+        "combined": 1.65
+      },
+      {
+        "city": "Zurich",
+        "privacy": 0.75,
+        "efficiency": 0.9,
+        "model": "balanced",
+        "combined": 1.65
+      },
+      {
+        "city": "London",
+        "privacy": 0.6,
+        "efficiency": 0.82,
+        "model": "balanced",
+        "combined": 1.42
+      },
+      {
+        "city": "San Francisco",
+        "privacy": 0.45,
+        "efficiency": 0.78,
+        "model": "tech-corp",
+        "combined": 1.23
+      },
+      {
+        "city": "Dubai",
+        "privacy": 0.4,
+        "efficiency": 0.85,
+        "model": "techno-state",
+        "combined": 1.25
+      }
+    ]
+  }
+}

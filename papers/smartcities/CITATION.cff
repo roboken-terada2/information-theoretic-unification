@@ -1,0 +1,220 @@
+cff-version: 1.2.0
+title: "ITU and Smart Cities: A Single-Axiom View of Urban K-OS, AGI Cities, Sustainability, Privacy-Efficiency Tradeoff, and the 2026-2050 Smart City Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current version
+  v2.0.0 at 10.5281/zenodo.20133709) to smart cities. Cities are
+  reframed as K-OS (operating systems) integrating 7 K-state layers:
+  infrastructure × communications × energy × transport × residents ×
+  governance × environment. This is Tier 1 paper #16, opening the
+  urban ultimate hub axis and bringing the ITU polytope to 16
+  vertices. The Smart Cities vertex achieves degree 15 — the
+  polytope's ULTIMATE hub, connecting to every other vertex. This
+  paper also completes the engineering-industry block (Phases 91-106,
+  4 Tier 1 papers #13-#16). Pass-1 progress: 106 of 220 phases (48.2%).
+  Phase 103 establishes the ITU foundation. Cities as K-OS integrating
+  7 layers. IMD Smart City Index 2024: Zurich #1, Singapore #5,
+  Beijing #10 (surveillance model). Greenfield projects total $1.73T:
+  Xiongan New Area $580B, NEOM The Line $500B, Telosa $400B,
+  Forest City Malaysia $100B, Songdo IBD $40B (2024 complete),
+  Nusantara $40B, Masdar $22B. IoT density: Singapore 5M sensors
+  (7,000/km²), Beijing 30M (18,000/km²), AI City 2040 projection
+  100M (100,000/km²). Privacy vs efficiency tradeoff: China 0.95
+  surveillance vs Estonia 0.85 privacy (2-pole model). Estonia
+  Singapore Zurich on Pareto frontier.
+  Phase 104 covers AGI city + sustainability + full Tier 1 #1-#15
+  integration. AGI city autonomy degree: 0.05 (2024) → 0.50 (2040
+  L4 AGI, half decisions AI) → 0.92 (2060 L5 ASI). 15-minute city
+  Paris 2020-2024: car traffic -40%, bicycle usage +50%, PM2.5
+  -30%, citizen satisfaction +25%. Full Tier 1 #1-#15 implementation
+  maturity 2024 → 2040: Comm 0.55 → 0.95, Semi 0.60 → 0.95, AI 0.30
+  → 0.85, Energy 0.45 → 0.90, Crypto 0.50 → 0.90, Infra 0.40 → 0.85,
+  Climate 0.35 → 0.80, Robotics 0.15 → 0.70. Sustainability ranking:
+  Xiongan (planned) 85, Zurich 78, Copenhagen 75, Helsinki 72,
+  Singapore 70. Carlos Moreno 15-minute city concept expanding
+  globally.
+  Phase 105 analyzes economy, policy, and surveillance ethics. Smart
+  city market: $400B (2020) → $700B (2024) → $1.5T (2030) → $3.0T
+  (2050), 4.3× growth, world GDP 2%. Segments (2024 $700B): smart
+  energy $200B (29%), transportation $150B (21%), buildings $130B
+  (19%). EU AI Act 2024 risk categories: 8 prohibited (social
+  scoring, mass face recognition), 40 high-risk (police, hiring,
+  medical, $500K compliance), 30 limited risk (chatbots), 200
+  minimal risk. Surveillance vs privacy: China 0.95/0.05, Russia
+  0.85/0.10, India 0.65/0.30, USA 0.55/0.45, UK 0.55/0.50, Japan
+  0.30/0.70, Germany 0.25/0.80, EU avg 0.20/0.85, Estonia 0.20/0.90.
+  Digital divide within cities: Singapore 4% (high vs low income),
+  Tokyo 7%, Zurich 9%, New York 19%, London 21%, Mumbai 55%,
+  Lagos and Kinshasa 60%.
+  Phase 106 synthesises the 2026-2050 roadmap with 16 milestones
+  and 10 falsifiable predictions (P_avg = 0.54). Key milestones:
+  2026 EU AI Act face recognition ban, 2027 NEOM The Line first
+  phase opens, 2030 Xiongan 1M residents + EU Digital Decade 95%,
+  2032 L4 autonomous driving urban commercial, 2035 AGI city L4
+  autonomy 0.30 + US 5 states face recognition ban, 2038 15-minute
+  cities >30 globally, 2040 AGI city L4 autonomy 0.50 + market
+  $2.5T, 2050 ASI city L5 + market $3.0T. The ITU 16-vertex
+  polytope completes with Smart Cities as the URBAN ULTIMATE HUB
+  (degree 15, connects to all other vertices). Climate (#11) and
+  Communications (#14) tied at degree 11 as super-hubs. Engineering-
+  industry block (Phases 91-106) complete: Robotics #13 + Comm
+  #14 + Infrastructure #15 + Smart Cities #16.
+  Central thesis: smart cities = ITU polytope's ultimate application
+  hub, integrating every other K-flow at city scale. AGI cities by
+  2040 will make half of urban decisions; ASI cities by 2060+ will
+  reduce citizens to consultative role. Privacy vs efficiency
+  fundamental tradeoff polarizes globally (EU/Estonia data-trust
+  vs China surveillance state). 15-minute cities reduce K-flow
+  inefficiency by 25-50% on multiple metrics. Pass-1 interpretive
+  paper reframing IMD, Singapore Smart Nation, e-Estonia, NEOM,
+  Carlos Moreno, ISO 37120 family, EU AI Act, GDPR, UN SDG 11,
+  IPCC AR6 in ITU language. Pass-2 work would derive ITU-specific
+  K_city optimization frameworks, novel urban resilience metrics,
+  and validation against real smart city deployments.
+keywords:
+  - smart cities
+  - urban K-OS
+  - smart city operating system
+  - K_city
+  - IoT
+  - urban IoT
+  - digital twin
+  - Virtual Singapore
+  - Project PLATEAU
+  - 15-minute city
+  - chrono-urbanism
+  - Carlos Moreno
+  - Paris urbanism
+  - Anne Hidalgo
+  - Smart Nation Singapore
+  - e-Estonia
+  - X-Road
+  - Aadhaar
+  - Singpass
+  - MaaS
+  - Mobility-as-a-Service
+  - Whim
+  - Moovit
+  - Google Maps Mobility
+  - Citymapper
+  - autonomous driving urban
+  - L4 autonomous
+  - AGI city
+  - ASI city
+  - urban autonomy degree
+  - NEOM
+  - The Line
+  - Telosa
+  - Forest City
+  - Songdo IBD
+  - Masdar City
+  - 雄安新区
+  - Xiongan
+  - Nusantara
+  - Tianfu New Area
+  - greenfield city
+  - IMD Smart City Index
+  - sustainability city
+  - SDG 11
+  - ISO 37120
+  - ISO 37122
+  - ISO 37123
+  - ISO 37125
+  - smart city market
+  - Markets and Markets
+  - surveillance state
+  - China Social Credit
+  - face recognition ban
+  - EU AI Act
+  - GDPR
+  - Digital Services Act
+  - data trust
+  - Estonia digital society
+  - NIST AI RMF
+  - Society 5.0
+  - digital democracy
+  - vTaiwan
+  - Pol.is
+  - CONSUL Madrid
+  - Decidim Barcelona
+  - Reykjavík
+  - participatory budgeting
+  - digital divide
+  - urban inequality
+  - Information-Theoretic Unification
+  - ITU
+  - urban ultimate hub
+  - engineering-industry block
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/smartcities"
+url: "https://doi.org/10.5281/zenodo.20228581"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20228581"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest version). Current version v2.0.0 at 10.5281/zenodo.20133709."
+    year: 2026
+  - type: report
+    title: "IMD Smart City Index 2024"
+    authors:
+      - name: "IMD Smart City Observatory"
+    year: 2024
+  - type: report
+    title: "Smart Nation: Singapore's Vision (2014-2024)"
+    authors:
+      - name: "Singapore Government"
+    year: 2024
+  - type: article
+    authors:
+      - family-names: Moreno
+        given-names: Carlos
+    title: "The 15-Minute City"
+    year: 2016
+  - type: report
+    title: "ISO 37120:2018 (Sustainable cities and communities)"
+    authors:
+      - name: "International Organization for Standardization"
+    year: 2018
+  - type: report
+    title: "EU AI Act (Regulation 2024/1689)"
+    authors:
+      - name: "European Union"
+    year: 2024
+  - type: report
+    title: "General Data Protection Regulation (GDPR, Regulation 2016/679)"
+    authors:
+      - name: "European Union"
+    year: 2018
+  - type: report
+    title: "Markets and Markets (2024) Smart Cities Market Report"
+    authors:
+      - name: "Markets and Markets"
+    year: 2024
+  - type: report
+    title: "Sustainable Development Goal 11 (Sustainable Cities and Communities)"
+    authors:
+      - name: "United Nations"
+    year: 2015
+  - type: report
+    title: "IPCC AR6 Working Group II Chapter 6 (Cities)"
+    authors:
+      - name: "IPCC"
+    year: 2022

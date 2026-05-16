@@ -31,15 +31,17 @@ Each Tier 1 paper:
 | 13 | [ITU and Robotics / Embodied AI](robotics/) | [10.5281/zenodo.20224976](https://doi.org/10.5281/zenodo.20224976) | 91-94 | `robotics/` | ✅ v1.0.0 |
 | 14 | [ITU and Communications / Networks](communications/) | [10.5281/zenodo.20225970](https://doi.org/10.5281/zenodo.20225970) | 95-98 | `communications/` | ✅ v1.0.0 |
 | 15 | [ITU and Infrastructure / Power Grid](infrastructure/) | [10.5281/zenodo.20226481](https://doi.org/10.5281/zenodo.20226481) | 99-102 | `infrastructure/` | ✅ v1.0.0 |
+| 16 | [ITU and Smart Cities](smartcities/) | [10.5281/zenodo.20228581](https://doi.org/10.5281/zenodo.20228581) | 103-106 | `smartcities/` | ✅ v1.0.0 |
 
-> **🎉🎉🎉🎉🎉🎉 ITU 15-vertex polytope COMPLETED — K-skeleton axis added (past Phase 100)**: Engineering pentagon (#1-#4 + #10) + Medicine triangle (#5-#7) + Social (#8) + Philosophy (#9) + Biosphere super-hub (#11, deg 10) + Cosmic axis (#12, deg 4) + Embodiment axis (#13, deg 8) + K-channel super-hub (#14, deg 10) + **K-skeleton axis (#15, deg 7)** ← NEW. Infrastructure (#15) is the **physical foundation layer**, bidirectionally connecting AI/ASI (#2), Semi (#4), Economics (#8), Energy (#10), Climate (#11), Robotics (#13), Communications (#14). Climate (#11) + Communications (#14) tied as super-hubs (degree 10). dK_cap/dt = K_invest - K_decay governs infrastructure dynamics. Fifteen Tier 1 papers, all under dS = d<K>. Pass-1 progress: 102 of 220 phases (46.4% — past mid-point).
+> **🎉🎉🎉🎉🎉🎉🎉 ITU 16-vertex polytope COMPLETED — URBAN ULTIMATE HUB added (engineering-industry block COMPLETE)**: Engineering pentagon (#1-#4 + #10) + Medicine triangle (#5-#7) + Social (#8) + Philosophy (#9) + Biosphere super-hub (#11, deg 11) + Cosmic axis (#12, deg 4) + Embodiment axis (#13, deg 9) + K-channel super-hub (#14, deg 11) + K-skeleton (#15, deg 8) + **URBAN ULTIMATE HUB (#16, deg 15)** ← NEW. Smart Cities (#16) connects to **ALL 15 other vertices** — the polytope's **ULTIMATE hub** with maximum possible degree. Cities = K-OS (operating system) integrating 7 K-state layers. **Engineering-industry block (Phases 91-106) COMPLETE**: Robotics #13 + Communications #14 + Infrastructure #15 + Smart Cities #16. Sixteen Tier 1 papers, all under dS = d<K>. Pass-1 progress: 106 of 220 phases (48.2%).
 
 ## Planned Tier 1 Papers
 
 | # | Paper | Phases | Status |
 |---|---|---|---|
-| 16 | ITU and Smart Cities | 103-106 | planned |
-| 17+ | (full roadmap to Phase 250) | 107-250 | planned |
+| (Tier 0 v3.0) | Intermediate integration | 107-110 | planned |
+| 17+ | Block A: Physics/math deepening | 111-140 | planned |
+| 18+ | (full roadmap to Phase 250) | 141-250 | planned |
 
 ## Structure
 
@@ -122,7 +124,12 @@ papers/
 │   ├── theory_phase99-102.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Tier 1 #16+ planned)
+├── smartcities/                        Tier 1 #16: Smart Cities (v1.0.0) ★ URBAN HUB
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase103-106.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Tier 0 v3.0 + Block A planned)
 ```
 
 ## How to cite a Tier 1 paper
@@ -230,6 +237,12 @@ Zenodo. https://doi.org/10.5281/zenodo.20225970
 Terada, M. (2026). ITU and Infrastructure / Power Grid: A Single-Axiom View
 of K-Capital, Smart Grid, Resilience, and the 2026-2050 Infrastructure
 Roadmap (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20226481
+```
+
+```
+Terada, M. (2026). ITU and Smart Cities: A Single-Axiom View of Urban K-OS,
+AGI Cities, Sustainability, Privacy-Efficiency Tradeoff, and the 2026-2050
+Smart City Roadmap (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20228581
 ```
 
 Plus the core ITU citation:

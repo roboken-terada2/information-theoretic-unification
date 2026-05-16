@@ -54,19 +54,21 @@ release tag.
 | 13 | [ITU and Robotics / Embodied AI](papers/robotics/) | [10.5281/zenodo.20224976](https://doi.org/10.5281/zenodo.20224976) | 91–94 | ✅ v1.0.0 |
 | 14 | [ITU and Communications / Networks](papers/communications/) | [10.5281/zenodo.20225970](https://doi.org/10.5281/zenodo.20225970) | 95–98 | ✅ v1.0.0 |
 | 15 | [ITU and Infrastructure / Power Grid](papers/infrastructure/) | [10.5281/zenodo.20226481](https://doi.org/10.5281/zenodo.20226481) | 99–102 | ✅ v1.0.0 |
-| 16+ | (full roadmap to Phase 250) | TBD | 103-250 | planned |
+| 16 | [ITU and Smart Cities](papers/smartcities/) | [10.5281/zenodo.20228581](https://doi.org/10.5281/zenodo.20228581) | 103–106 | ✅ v1.0.0 |
+| 17+ | (full roadmap to Phase 250) | TBD | 107-250 | planned |
 
-**🎉🎉🎉🎉🎉🎉 ITU 15-vertex polytope COMPLETED — K-skeleton axis added (past Phase 100 milestone):**
+**🎉🎉🎉🎉🎉🎉🎉 ITU 16-vertex polytope COMPLETED — URBAN ULTIMATE HUB added (engineering-industry block COMPLETE):**
 Engineering pentagon (#1-#4 + #10) + Medicine triangle (#5-#7) + Social (#8) +
-Philosophy (#9) + Biosphere super-hub (#11, degree 10) + Cosmic axis (#12, deg 4) +
-Embodiment axis (#13, deg 8) + K-channel super-hub (#14, deg 10) +
-**K-skeleton axis (#15, deg 7)** ← NEW. Infrastructure bidirectionally connects to
-AI/ASI (#2), Semiconductors (#4), Economics (#8), Energy (#10), Climate (#11),
-Robotics (#13), Communications (#14) — forming the **physical foundation layer**
-on which all other K-flows operate. Climate (#11) and Communications (#14)
-remain tied as super-hubs (degree 10). All fifteen Tier 1 papers derive from
-the single axiom δS = δ⟨K⟩.
-**Pass-1 progress**: 102 of 220 phases complete (46.4% — past mid-point of Pass-1).
+Philosophy (#9) + Biosphere super-hub (#11, degree 11) + Cosmic axis (#12, deg 4) +
+Embodiment axis (#13, deg 9) + K-channel super-hub (#14, deg 11) +
+K-skeleton axis (#15, deg 8) + **URBAN ULTIMATE HUB (#16, deg 15)** ← NEW.
+Smart Cities (#16) connects to **ALL 15 other vertices** — the polytope's
+**ULTIMATE hub** with maximum possible degree. It integrates every other K-flow
+at city scale: Cities = K-OS (operating system) with 7 layers.
+**Engineering-industry block** (Phases 91-106, 4 Tier 1 papers #13-#16:
+Robotics + Communications + Infrastructure + Smart Cities) **COMPLETE**.
+All sixteen Tier 1 papers derive from the single axiom δS = δ⟨K⟩.
+**Pass-1 progress**: 106 of 220 phases complete (48.2%).
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 
