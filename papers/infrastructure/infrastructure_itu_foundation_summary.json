@@ -1,0 +1,249 @@
+{
+  "phase": 99,
+  "title": "ITU × Infrastructure / Power Grid — foundation",
+  "test1_capital_stock": {
+    "sectors": [
+      {
+        "name": "Buildings",
+        "stock_T": 200,
+        "renewal_T_yr": 5.0,
+        "renewal_rate_pct": 2.5
+      },
+      {
+        "name": "Roads & Bridges",
+        "stock_T": 50,
+        "renewal_T_yr": 2.0,
+        "renewal_rate_pct": 4.0
+      },
+      {
+        "name": "Power Grid",
+        "stock_T": 30,
+        "renewal_T_yr": 1.0,
+        "renewal_rate_pct": 3.3333333333333335
+      },
+      {
+        "name": "Water & Sewage",
+        "stock_T": 25,
+        "renewal_T_yr": 0.8,
+        "renewal_rate_pct": 3.2
+      },
+      {
+        "name": "Rail",
+        "stock_T": 15,
+        "renewal_T_yr": 0.5,
+        "renewal_rate_pct": 3.3333333333333335
+      },
+      {
+        "name": "Ports & Airports",
+        "stock_T": 10,
+        "renewal_T_yr": 0.4,
+        "renewal_rate_pct": 4.0
+      },
+      {
+        "name": "Telecom",
+        "stock_T": 5,
+        "renewal_T_yr": 0.3,
+        "renewal_rate_pct": 6.0
+      },
+      {
+        "name": "Gas & Pipelines",
+        "stock_T": 5,
+        "renewal_T_yr": 0.2,
+        "renewal_rate_pct": 4.0
+      }
+    ],
+    "total_stock_T": 340,
+    "total_renewal_T_yr": 10.2,
+    "world_GDP_2024_T": 105.0,
+    "stock_to_GDP_ratio": 3.238095238095238
+  },
+  "test2_power_inertia": {
+    "timeline": [
+      {
+        "year": 1990,
+        "power_TWh": 11800,
+        "sync_share": 0.95,
+        "inertia_H_s": 6.0,
+        "below_safe": false
+      },
+      {
+        "year": 2000,
+        "power_TWh": 15500,
+        "sync_share": 0.92,
+        "inertia_H_s": 5.8,
+        "below_safe": false
+      },
+      {
+        "year": 2010,
+        "power_TWh": 22000,
+        "sync_share": 0.85,
+        "inertia_H_s": 5.5,
+        "below_safe": false
+      },
+      {
+        "year": 2020,
+        "power_TWh": 27000,
+        "sync_share": 0.75,
+        "inertia_H_s": 4.5,
+        "below_safe": false
+      },
+      {
+        "year": 2024,
+        "power_TWh": 30000,
+        "sync_share": 0.7,
+        "inertia_H_s": 4.0,
+        "below_safe": false
+      },
+      {
+        "year": 2030,
+        "power_TWh": 38000,
+        "sync_share": 0.55,
+        "inertia_H_s": 3.0,
+        "below_safe": false
+      },
+      {
+        "year": 2040,
+        "power_TWh": 50000,
+        "sync_share": 0.35,
+        "inertia_H_s": 2.0,
+        "below_safe": true
+      },
+      {
+        "year": 2050,
+        "power_TWh": 70000,
+        "sync_share": 0.2,
+        "inertia_H_s": 1.5,
+        "below_safe": true
+      }
+    ],
+    "safe_threshold_s": 2.5,
+    "power_2024_2050_ratio": 2.3333333333333335
+  },
+  "test3_decay_invest": {
+    "decay_rate": 0.025,
+    "scenarios_summary": [
+      {
+        "name": "Maintained (3%)",
+        "invest": 0.03,
+        "K_50yr": 114.36023795318167,
+        "decline_pct": -14.360237953181665
+      },
+      {
+        "name": "Sustainable (2.5%)",
+        "invest": 0.025,
+        "K_50yr": 100.0,
+        "decline_pct": 0.0
+      },
+      {
+        "name": "USA actual (1.5%)",
+        "invest": 0.015,
+        "K_50yr": 71.2795240936367,
+        "decline_pct": 28.72047590636331
+      },
+      {
+        "name": "Underfunded (1%)",
+        "invest": 0.01,
+        "K_50yr": 56.91928614045503,
+        "decline_pct": 43.08071385954497
+      }
+    ]
+  },
+  "test4_asce": {
+    "categories": [
+      {
+        "name": "Aviation",
+        "grade": "D+",
+        "score": 1.3,
+        "need_10yr_B": 76
+      },
+      {
+        "name": "Bridges",
+        "grade": "C",
+        "score": 2.0,
+        "need_10yr_B": 125
+      },
+      {
+        "name": "Dams",
+        "grade": "D",
+        "score": 1.0,
+        "need_10yr_B": 94
+      },
+      {
+        "name": "Drinking Water",
+        "grade": "C-",
+        "score": 1.7,
+        "need_10yr_B": 470
+      },
+      {
+        "name": "Energy",
+        "grade": "C-",
+        "score": 1.7,
+        "need_10yr_B": 200
+      },
+      {
+        "name": "Hazardous Waste",
+        "grade": "D+",
+        "score": 1.3,
+        "need_10yr_B": 40
+      },
+      {
+        "name": "Levees",
+        "grade": "D",
+        "score": 1.0,
+        "need_10yr_B": 80
+      },
+      {
+        "name": "Ports",
+        "grade": "B-",
+        "score": 2.7,
+        "need_10yr_B": 25
+      },
+      {
+        "name": "Public Parks",
+        "grade": "D+",
+        "score": 1.3,
+        "need_10yr_B": 47
+      },
+      {
+        "name": "Rail",
+        "grade": "B",
+        "score": 3.0,
+        "need_10yr_B": 105
+      },
+      {
+        "name": "Roads",
+        "grade": "D",
+        "score": 1.0,
+        "need_10yr_B": 1000
+      },
+      {
+        "name": "Schools",
+        "grade": "D+",
+        "score": 1.3,
+        "need_10yr_B": 380
+      },
+      {
+        "name": "Stormwater",
+        "grade": "D",
+        "score": 1.0,
+        "need_10yr_B": 21
+      },
+      {
+        "name": "Transit",
+        "grade": "D-",
+        "score": 0.7,
+        "need_10yr_B": 176
+      },
+      {
+        "name": "Wastewater",
+        "grade": "D+",
+        "score": 1.3,
+        "need_10yr_B": 271
+      }
+    ],
+    "total_need_10yr_B": 3110,
+    "overall_grade": "D+",
+    "avg_score": 1.4866666666666668,
+    "n_categories": 15
+  }
+}

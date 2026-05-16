@@ -1,0 +1,205 @@
+cff-version: 1.2.0
+title: "ITU and Infrastructure / Power Grid: A Single-Axiom View of K-Capital, Smart Grid, Resilience, and the 2026-2050 Infrastructure Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current version
+  v2.0.0 at 10.5281/zenodo.20133709) to infrastructure and power grid
+  systems. Infrastructure is reframed as K_infrastructure =
+  K_capital × K_network × K_maintenance — the K-skeleton (physical
+  foundation) of civilization. This is Tier 1 paper #15, opening the
+  K-skeleton axis and bringing the ITU polytope to 15 vertices. The
+  Infrastructure vertex connects to 7 other vertices (degree 7).
+  Pass-1 progress: 102 of 220 phases (46.4% — past mid-point of
+  Pass-1).
+  Phase 99 establishes the ITU foundation. Global infrastructure
+  capital stock = $340 trillion (3.2× world GDP), annual renewal
+  $10T (3% of stock). Power consumption 1990 11,800 → 2050 70,000
+  TWh (5.9×). Grid inertia H = 6.0s (1990) → 1.5s (2050 NZE) — below
+  the 2.5s safety threshold, requiring grid-forming batteries.
+  USA ASCE 2021 grade D+ (avg score 1.49), 10-year need $3.1T
+  ($1T roads alone). K_capital dynamics: 1.5% USA investment →
+  29% decline over 50 years vs 2.5% sustainable.
+  Phase 100 covers smart grid + AI + resilience (MILESTONE 100).
+  Smart meters: 2B (2024, 20%) → 10B (2050, 95%). DERMS (rooftop
+  solar + V2G + home batteries + heat pumps + smart buildings):
+  480 GW (2024) → 8,500 GW (2050) — exceeding central generation
+  7,000 GW (1.21× ratio). AI predictive maintenance: accuracy 90%
+  (2024 advanced) → 99% (2035 AGI), cost reduction 50%, downtime
+  reduction 94%. Resilience simulation under 30-day attack: AI-
+  resilient grid R = 1.10 (attacks become learning opportunities)
+  vs old grid R = 0.66.
+  Phase 101 analyzes industry, policy, and international comparison.
+  China leads with $1.5T/yr investment (8% GDP, 2.5× USA) via 新基建
+  $1.4T (5yr). USA IIJA $1.2T over 10yr + IRA $369B. EU NextGenEU
+  €750B + RePowerEU €300B. Japan 国土強靭化 (5yr) $100B focuses on
+  aging + disaster. India NIP $1.3T. PPP global market: $20B (2000)
+  → $200B (2024) → $600B (2050), 1,200 projects. Climate adaptation
+  per IPCC AR6: $4.5T cumulative by 2050 (sea-level $1T, flood
+  $0.8T, drought $0.7T, agriculture $0.6T, heat waves $0.5T). Major
+  city projects: Singapore $100B coastal defense (2100), Tokyo $30B
+  super levee + basin (2030), NY $20B The Big U (2050), Netherlands
+  $15B Delta Works expansion (2050), Venice $7B MOSE (2024 complete),
+  Jakarta $40B Nusantara (2045).
+  Phase 102 synthesises the 2026-2050 roadmap with 19 milestones
+  and 10 falsifiable predictions (P_avg = 0.55). The ITU 15-vertex
+  polytope completes with K-skeleton axis. Infrastructure
+  bidirectionally connects to AI/ASI (#2), Semi (#4), Economics
+  (#8), Energy (#10), Climate (#11), Robotics (#13), Communications
+  (#14). Communications (#14) and Climate (#11) remain tied as
+  super-hubs at degree 10.
+  Central thesis: infrastructure = K-skeleton (physical foundation)
+  on which all other K-flows operate. dK_cap/dt = K_invest - K_decay
+  is the governing equation, with most countries underfunding leading
+  to intergenerational debt. AI + Robotics + Communications enable
+  smart, self-healing, predictive infrastructure. Pass-1 interpretive
+  paper reframing ASCE Report Card 2021, IEEE Power & Energy Society,
+  IIJA/IRA/NextGenEU/Xinjianjie/国土強靭化, IPCC AR6, McKinsey,
+  World Bank, IEA, Singapore Virtual Singapore, NVIDIA Omniverse in
+  ITU language. Pass-2 work would derive ITU-specific K_capital
+  optimization, resilience metrics, and quantitative GDP multiplier
+  predictions.
+keywords:
+  - infrastructure
+  - power grid
+  - K-skeleton
+  - K_capital
+  - K_decay
+  - K_maintenance
+  - smart grid
+  - smart meter
+  - DERMS
+  - distributed energy resources
+  - V2G
+  - vehicle-to-grid
+  - rooftop solar
+  - home battery
+  - digital twin
+  - Singapore Virtual Singapore
+  - NVIDIA Omniverse
+  - GE Vernova
+  - Siemens
+  - predictive maintenance
+  - SCADA
+  - grid inertia
+  - synchronous generator
+  - grid-forming battery
+  - ASCE Report Card
+  - IIJA
+  - Bipartisan Infrastructure Law
+  - IRA
+  - Inflation Reduction Act
+  - NextGenerationEU
+  - RePowerEU
+  - 新基建
+  - Xinjianjie
+  - 国土強靭化
+  - NIP
+  - National Infrastructure Pipeline
+  - PPP
+  - public private partnership
+  - PFI
+  - private finance initiative
+  - BOT
+  - BTO
+  - concession
+  - aging infrastructure
+  - intergenerational debt
+  - GDP multiplier
+  - World Bank
+  - McKinsey Global Institute
+  - IEA
+  - climate adaptation
+  - IPCC AR6
+  - sea-level defense
+  - MOSE
+  - Delta Works
+  - The Big U
+  - Tokyo super levee
+  - Singapore coastal defense
+  - Nusantara
+  - flood protection
+  - heat wave response
+  - drought response
+  - wildfire response
+  - resilience
+  - FLISR
+  - cyberattack
+  - Colonial Pipeline
+  - CrashOverride
+  - Volt Typhoon
+  - Iberian peninsula blackout
+  - Information-Theoretic Unification
+  - ITU
+  - K-skeleton axis
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/infrastructure"
+url: "https://doi.org/10.5281/zenodo.20226481"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20226481"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest version). Current version v2.0.0 at 10.5281/zenodo.20133709."
+    year: 2026
+  - type: report
+    title: "2021 Infrastructure Report Card"
+    authors:
+      - name: "American Society of Civil Engineers (ASCE)"
+    year: 2021
+  - type: report
+    title: "Bridging Infrastructure Gaps: Has the World Made Progress?"
+    authors:
+      - name: "McKinsey Global Institute"
+    year: 2023
+  - type: report
+    title: "Infrastructure Investment and Jobs Act (Public Law 117-58)"
+    authors:
+      - name: "US Congress"
+    year: 2021
+  - type: report
+    title: "Inflation Reduction Act of 2022 (Public Law 117-169)"
+    authors:
+      - name: "US Congress"
+    year: 2022
+  - type: report
+    title: "NextGenerationEU and Recovery and Resilience Facility"
+    authors:
+      - name: "European Commission"
+    year: 2021
+  - type: report
+    title: "Climate Change 2022: Impacts, Adaptation and Vulnerability — AR6 Working Group II"
+    authors:
+      - name: "IPCC"
+    year: 2022
+  - type: report
+    title: "Power Systems in Transition"
+    authors:
+      - name: "International Energy Agency (IEA)"
+    year: 2024
+  - type: report
+    title: "DERMS and Smart Grid Trends"
+    authors:
+      - name: "BloombergNEF"
+    year: 2024
+  - type: report
+    title: "Public-Private Partnership Knowledge Lab"
+    authors:
+      - name: "World Bank"
+    year: 2024

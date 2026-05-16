@@ -1,0 +1,153 @@
+{
+  "phase": 100,
+  "title": "Smart grid + AI infrastructure + resilience (MILESTONE)",
+  "test1_smart_meters": {
+    "timeline": [
+      {
+        "year": 2010,
+        "meters_B": 0.2,
+        "penetration_pct": 2,
+        "K_channels_M": 0.2
+      },
+      {
+        "year": 2015,
+        "meters_B": 0.7,
+        "penetration_pct": 7,
+        "K_channels_M": 0.7
+      },
+      {
+        "year": 2020,
+        "meters_B": 1.5,
+        "penetration_pct": 15,
+        "K_channels_M": 1.5
+      },
+      {
+        "year": 2024,
+        "meters_B": 2.0,
+        "penetration_pct": 20,
+        "K_channels_M": 2.0
+      },
+      {
+        "year": 2030,
+        "meters_B": 4.0,
+        "penetration_pct": 40,
+        "K_channels_M": 4.0
+      },
+      {
+        "year": 2040,
+        "meters_B": 8.0,
+        "penetration_pct": 75,
+        "K_channels_M": 8.0
+      },
+      {
+        "year": 2050,
+        "meters_B": 10.0,
+        "penetration_pct": 95,
+        "K_channels_M": 10.0
+      }
+    ]
+  },
+  "test2_derms": {
+    "resources": [
+      {
+        "name": "Rooftop Solar",
+        "cap_2024_GW": 250,
+        "cap_2050_GW": 2500
+      },
+      {
+        "name": "Home Batteries (GWh)",
+        "cap_2024_GW": 30,
+        "cap_2050_GW": 1500
+      },
+      {
+        "name": "EV (V2G capable)",
+        "cap_2024_GW": 50,
+        "cap_2050_GW": 3000
+      },
+      {
+        "name": "Industrial Heat Pumps",
+        "cap_2024_GW": 100,
+        "cap_2050_GW": 1000
+      },
+      {
+        "name": "Smart Buildings",
+        "cap_2024_GW": 50,
+        "cap_2050_GW": 500
+      }
+    ],
+    "total_2024_GW": 480,
+    "total_2050_GW": 8500,
+    "central_gen_GW": 7000,
+    "DERMS_to_central_2024": 0.06857142857142857,
+    "DERMS_to_central_2050": 1.2142857142857142
+  },
+  "test3_resilience": {
+    "attack_time": 5,
+    "scenarios_summary": [
+      {
+        "name": "Old grid (1990s)",
+        "drop": 0.7,
+        "R": 0.6579734029151302,
+        "K_day30": 0.7943696097735271
+      },
+      {
+        "name": "Modern (2010s)",
+        "drop": 0.5,
+        "R": 0.9012303598965935,
+        "K_day30": 1.0370234556061666
+      },
+      {
+        "name": "Smart grid (2024)",
+        "drop": 0.3,
+        "R": 1.0166007143720062,
+        "K_day30": 1.1489016973944808
+      },
+      {
+        "name": "AI-resilient (2035)",
+        "drop": 0.15,
+        "R": 1.0978272669158868,
+        "K_day30": 1.298188232437566
+      }
+    ]
+  },
+  "test4_predictive": {
+    "strategies": [
+      {
+        "name": "Reactive (run to failure)",
+        "accuracy_pct": 0,
+        "downtime_pct": 5.0,
+        "cost_relative": 1.0
+      },
+      {
+        "name": "Scheduled (time-based)",
+        "accuracy_pct": 30,
+        "downtime_pct": 3.0,
+        "cost_relative": 0.9
+      },
+      {
+        "name": "Condition-based",
+        "accuracy_pct": 60,
+        "downtime_pct": 1.5,
+        "cost_relative": 0.75
+      },
+      {
+        "name": "AI predictive (basic)",
+        "accuracy_pct": 80,
+        "downtime_pct": 0.8,
+        "cost_relative": 0.6
+      },
+      {
+        "name": "AI predictive (advanced 2024)",
+        "accuracy_pct": 90,
+        "downtime_pct": 0.3,
+        "cost_relative": 0.5
+      },
+      {
+        "name": "AGI infrastructure (2035)",
+        "accuracy_pct": 99,
+        "downtime_pct": 0.05,
+        "cost_relative": 0.4
+      }
+    ]
+  }
+}

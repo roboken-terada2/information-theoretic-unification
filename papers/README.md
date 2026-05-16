@@ -30,14 +30,14 @@ Each Tier 1 paper:
 | 12 | [ITU and Astrobiology / SETI](astrobiology/) | [10.5281/zenodo.20222121](https://doi.org/10.5281/zenodo.20222121) | 87-90 | `astrobiology/` | ✅ v1.0.0 |
 | 13 | [ITU and Robotics / Embodied AI](robotics/) | [10.5281/zenodo.20224976](https://doi.org/10.5281/zenodo.20224976) | 91-94 | `robotics/` | ✅ v1.0.0 |
 | 14 | [ITU and Communications / Networks](communications/) | [10.5281/zenodo.20225970](https://doi.org/10.5281/zenodo.20225970) | 95-98 | `communications/` | ✅ v1.0.0 |
+| 15 | [ITU and Infrastructure / Power Grid](infrastructure/) | [10.5281/zenodo.20226481](https://doi.org/10.5281/zenodo.20226481) | 99-102 | `infrastructure/` | ✅ v1.0.0 |
 
-> **🎉🎉🎉🎉🎉 ITU 14-vertex polytope COMPLETED — K-channel axis added**: Tier 1 #1-#4 + #10 = **engineering pentagon**. #5-#7 = **medicine triangle**. **#8 (Economics)** = social, **#9 (Free Will)** = philosophy. **#11 (Climate / Earth Systems)** and **#14 (Communications / Networks)** are tied as **super-hubs (degree 9 each)**. #12 (Astrobiology) = cosmic axis (deg 4), #13 (Robotics) = embodiment axis (deg 7). Communications (#14) connects to 9 other vertices: QC, AI/ASI, Crypto, Semi, Economics, Energy, Climate, Astrobiology, Robotics. Shannon's information theory is shown to be a special case of the ITU axiom dS = d<K>. Fourteen Tier 1 papers, all under the same single axiom. Pass-1 progress: 98 of 220 phases (44.5%).
+> **🎉🎉🎉🎉🎉🎉 ITU 15-vertex polytope COMPLETED — K-skeleton axis added (past Phase 100)**: Engineering pentagon (#1-#4 + #10) + Medicine triangle (#5-#7) + Social (#8) + Philosophy (#9) + Biosphere super-hub (#11, deg 10) + Cosmic axis (#12, deg 4) + Embodiment axis (#13, deg 8) + K-channel super-hub (#14, deg 10) + **K-skeleton axis (#15, deg 7)** ← NEW. Infrastructure (#15) is the **physical foundation layer**, bidirectionally connecting AI/ASI (#2), Semi (#4), Economics (#8), Energy (#10), Climate (#11), Robotics (#13), Communications (#14). Climate (#11) + Communications (#14) tied as super-hubs (degree 10). dK_cap/dt = K_invest - K_decay governs infrastructure dynamics. Fifteen Tier 1 papers, all under dS = d<K>. Pass-1 progress: 102 of 220 phases (46.4% — past mid-point).
 
 ## Planned Tier 1 Papers
 
 | # | Paper | Phases | Status |
 |---|---|---|---|
-| 15 | ITU and Infrastructure / Power Grid | 99-102 | planned |
 | 16 | ITU and Smart Cities | 103-106 | planned |
 | 17+ | (full roadmap to Phase 250) | 107-250 | planned |
 
@@ -117,7 +117,12 @@ papers/
 │   ├── theory_phase95-98.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Tier 1 #15+ planned)
+├── infrastructure/                     Tier 1 #15: Infrastructure / Power Grid (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase99-102.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Tier 1 #16+ planned)
 ```
 
 ## How to cite a Tier 1 paper
@@ -219,6 +224,12 @@ Zenodo. https://doi.org/10.5281/zenodo.20224976
 Terada, M. (2026). ITU and Communications / Networks: A Single-Axiom View
 of Shannon Theory, Internet, 5G/6G, Quantum Communication (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20225970
+```
+
+```
+Terada, M. (2026). ITU and Infrastructure / Power Grid: A Single-Axiom View
+of K-Capital, Smart Grid, Resilience, and the 2026-2050 Infrastructure
+Roadmap (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20226481
 ```
 
 Plus the core ITU citation:

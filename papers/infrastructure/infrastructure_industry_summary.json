@@ -1,0 +1,271 @@
+{
+  "phase": 101,
+  "title": "Infrastructure industry, policy, international comparison",
+  "test1_intl_investment": {
+    "countries": [
+      {
+        "name": "China",
+        "investment_B": 1500,
+        "GDP_T": 18.5,
+        "focus": "新基建 + 一帯一路",
+        "GDP_pct": 8.108108108108109
+      },
+      {
+        "name": "USA",
+        "investment_B": 600,
+        "GDP_T": 25.0,
+        "focus": "IIJA + IRA",
+        "GDP_pct": 2.4
+      },
+      {
+        "name": "Japan",
+        "investment_B": 300,
+        "GDP_T": 5.0,
+        "focus": "国土強靭化",
+        "GDP_pct": 6.0
+      },
+      {
+        "name": "India",
+        "investment_B": 250,
+        "GDP_T": 3.5,
+        "focus": "NIP, smart cities",
+        "GDP_pct": 7.142857142857142
+      },
+      {
+        "name": "Germany",
+        "investment_B": 150,
+        "GDP_T": 4.5,
+        "focus": "Energy transition",
+        "GDP_pct": 3.3333333333333335
+      },
+      {
+        "name": "UK",
+        "investment_B": 100,
+        "GDP_T": 3.0,
+        "focus": "National Infrastructure",
+        "GDP_pct": 3.3333333333333335
+      },
+      {
+        "name": "France",
+        "investment_B": 80,
+        "GDP_T": 3.0,
+        "focus": "Green transition",
+        "GDP_pct": 2.666666666666667
+      },
+      {
+        "name": "Korea",
+        "investment_B": 80,
+        "GDP_T": 2.0,
+        "focus": "Smart cities, KNet",
+        "GDP_pct": 4.0
+      },
+      {
+        "name": "Brazil",
+        "investment_B": 50,
+        "GDP_T": 2.1,
+        "focus": "PAC + 新北部廊",
+        "GDP_pct": 2.380952380952381
+      },
+      {
+        "name": "Russia",
+        "investment_B": 40,
+        "GDP_T": 1.8,
+        "focus": "Eastern corridor",
+        "GDP_pct": 2.2222222222222223
+      }
+    ],
+    "total_B": 3150
+  },
+  "test2_policies": {
+    "policies": [
+      {
+        "name": "China 新基建 (2020-2025)",
+        "country": "CN",
+        "budget_B": 1400,
+        "years": 5,
+        "category": "New infrastructure"
+      },
+      {
+        "name": "US IIJA (2021-2031)",
+        "country": "USA",
+        "budget_B": 1200,
+        "years": 10,
+        "category": "Traditional infra"
+      },
+      {
+        "name": "EU NextGenerationEU",
+        "country": "EU",
+        "budget_B": 800,
+        "years": 5,
+        "category": "Recovery + green"
+      },
+      {
+        "name": "US IRA Clean Energy",
+        "country": "USA",
+        "budget_B": 369,
+        "years": 10,
+        "category": "Climate"
+      },
+      {
+        "name": "EU RePowerEU",
+        "country": "EU",
+        "budget_B": 320,
+        "years": 4,
+        "category": "Energy independence"
+      },
+      {
+        "name": "Japan 国土強靭化 (5yr)",
+        "country": "JP",
+        "budget_B": 100,
+        "years": 5,
+        "category": "Disaster + aging"
+      },
+      {
+        "name": "India NIP",
+        "country": "IN",
+        "budget_B": 1300,
+        "years": 5,
+        "category": "All sectors"
+      },
+      {
+        "name": "UK National Infrastructure",
+        "country": "UK",
+        "budget_B": 650,
+        "years": 10,
+        "category": "Comprehensive"
+      }
+    ]
+  },
+  "test3_ppp": {
+    "timeline": [
+      {
+        "year": 2000,
+        "investment_B": 20,
+        "projects": 50
+      },
+      {
+        "year": 2005,
+        "investment_B": 50,
+        "projects": 100
+      },
+      {
+        "year": 2010,
+        "investment_B": 100,
+        "projects": 200
+      },
+      {
+        "year": 2015,
+        "investment_B": 130,
+        "projects": 270
+      },
+      {
+        "year": 2020,
+        "investment_B": 150,
+        "projects": 350
+      },
+      {
+        "year": 2024,
+        "investment_B": 200,
+        "projects": 400
+      },
+      {
+        "year": 2030,
+        "investment_B": 300,
+        "projects": 600
+      },
+      {
+        "year": 2040,
+        "investment_B": 450,
+        "projects": 900
+      },
+      {
+        "year": 2050,
+        "investment_B": 600,
+        "projects": 1200
+      }
+    ]
+  },
+  "test4_climate_adaptation": {
+    "categories": [
+      {
+        "name": "Sea-level defense",
+        "cost_T": 1.0,
+        "examples": "Venice MOSE, Delta Works"
+      },
+      {
+        "name": "Flood protection",
+        "cost_T": 0.8,
+        "examples": "River works, retention basins"
+      },
+      {
+        "name": "Heat wave response",
+        "cost_T": 0.5,
+        "examples": "Urban cooling, greenery"
+      },
+      {
+        "name": "Drought response",
+        "cost_T": 0.7,
+        "examples": "Desalination, conservation"
+      },
+      {
+        "name": "Wildfire response",
+        "cost_T": 0.3,
+        "examples": "Firebreaks, suppression"
+      },
+      {
+        "name": "Ecosystem restoration",
+        "cost_T": 0.4,
+        "examples": "Wetlands, reefs"
+      },
+      {
+        "name": "Agriculture adaption",
+        "cost_T": 0.6,
+        "examples": "Heat-tolerant crops, irrigation"
+      },
+      {
+        "name": "Health systems",
+        "cost_T": 0.2,
+        "examples": "Heat response, vector control"
+      }
+    ],
+    "total_T": 4.5,
+    "cities": [
+      {
+        "city": "Singapore",
+        "project": "Coastal defense + Coastal Park",
+        "B": 100,
+        "year": 2100
+      },
+      {
+        "city": "Tokyo",
+        "project": "Super levee + underground basin",
+        "B": 30,
+        "year": 2030
+      },
+      {
+        "city": "New York",
+        "project": "The Big U",
+        "B": 20,
+        "year": 2050
+      },
+      {
+        "city": "Netherlands",
+        "project": "Delta Works expansion",
+        "B": 15,
+        "year": 2050
+      },
+      {
+        "city": "Venice",
+        "project": "MOSE",
+        "B": 7,
+        "year": 2024
+      },
+      {
+        "city": "Jakarta",
+        "project": "Nusantara new capital",
+        "B": 40,
+        "year": 2045
+      }
+    ]
+  }
+}
