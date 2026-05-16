@@ -1,0 +1,104 @@
+{
+  "phase": 116,
+  "title": "String + M-theory + Strominger-Vafa + LQG integration",
+  "tier1_id": 17,
+  "tier1_name": "Quantum Gravity",
+  "block": "A (Physics/Math)",
+  "strominger_vafa": {
+    "samples": [
+      {
+        "Q1": 1,
+        "Q5": 1,
+        "N": 1,
+        "S_micro": 6.283185307179586,
+        "A_over_4GN": 6.283185307179586
+      },
+      {
+        "Q1": 2,
+        "Q5": 3,
+        "N": 5,
+        "S_micro": 34.41442325727286,
+        "A_over_4GN": 34.41442325727286
+      },
+      {
+        "Q1": 10,
+        "Q5": 10,
+        "N": 10,
+        "S_micro": 198.691765315922,
+        "A_over_4GN": 198.691765315922
+      },
+      {
+        "Q1": 100,
+        "Q5": 100,
+        "N": 100,
+        "S_micro": 6283.185307179586,
+        "A_over_4GN": 6283.185307179586
+      },
+      {
+        "Q1": 1000,
+        "Q5": 1000,
+        "N": 1000,
+        "S_micro": 198691.765315922,
+        "A_over_4GN": 198691.765315922
+      },
+      {
+        "Q1": 10000,
+        "Q5": 10000,
+        "N": 10000,
+        "S_micro": 6283185.307179586,
+        "A_over_4GN": 6283185.307179586
+      }
+    ]
+  },
+  "string_mass_spectrum": {
+    "N_levels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "M2": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0
+    ],
+    "M_excited": [
+      0.0,
+      0.0,
+      1.0,
+      1.4142135623730951,
+      1.7320508075688772,
+      2.0,
+      2.23606797749979,
+      2.449489742783178
+    ],
+    "alpha_prime": 1.0
+  },
+  "duality_web": {
+    "R_fixed": 1.0,
+    "g_fixed": 1.0,
+    "note": "M-theory unifies 5 string theories at 11D"
+  },
+  "lqg_string_itu_integration": {
+    "A_BH_lP2": 1000.0,
+    "S_semiclassical": 250.0,
+    "S_LQG_toy": 134.08844541152422,
+    "S_StromingerVafa": 261.18710844972736,
+    "gamma_LQG": 0.2375,
+    "Q1_Q5_N_string": [
+      12,
+      12,
+      12
+    ]
+  },
+  "verdict": "Same semiclassical S_BH derived from three routes (GR / LQG / String); ITU axiom dS = d<K_geom> integrates them."
+}

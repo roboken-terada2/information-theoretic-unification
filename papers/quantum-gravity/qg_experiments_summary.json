@@ -1,0 +1,65 @@
+{
+  "phase": 117,
+  "title": "QG experimental tests: LIGO / EHT / LISA / BMV / GRB",
+  "tier1_id": 17,
+  "tier1_name": "Quantum Gravity",
+  "block": "A (Physics/Math)",
+  "ligo_echo": {
+    "M_BBH_Msun": 60.0,
+    "R_s_m": 177247.5933033243,
+    "lP_over_Rs": 9.118628884075442e-41,
+    "h_merger": 1e-21,
+    "h_echo_predicted": 9.11862888407544e-62,
+    "h_LIGO_sensitivity": 1e-22,
+    "h_CE": 1e-23
+  },
+  "eht_shadow": {
+    "targets": [
+      {
+        "name": "M87*",
+        "M_solar": 6500000000.0,
+        "d_m": 5.183976e+23,
+        "R_s_m": 19201822607860.133,
+        "theta_uas": 39.6996324763825,
+        "lP_over_Rs": 8.417195892992716e-49
+      },
+      {
+        "name": "Sgr A*",
+        "M_solar": 4000000.0,
+        "d_m": 2.499417e+20,
+        "R_s_m": 11816506220.221619,
+        "theta_uas": 50.67075598125175,
+        "lP_over_Rs": 1.3677943326113165e-45
+      }
+    ],
+    "eht_uas": 20.0,
+    "ngeht_uas": 5.0
+  },
+  "lisa_emri": {
+    "M_smbh_Msun": 1000000.0,
+    "R_s_smbh": 2954126555.0554047,
+    "T_orb_s": 454.97249438031776,
+    "f_orb_Hz": 0.002197935067178119,
+    "N_cycles_LISA": 277446.2227039208,
+    "lP_over_Rs": 5.471177330445266e-45,
+    "integrated_correction": 1.5179574840753602e-39
+  },
+  "bmv_proposal": {
+    "m_kg": 1e-14,
+    "d_m": 0.0001,
+    "t_s": 1.0,
+    "V_J": 6.6743e-35,
+    "phase_diff_rad": 0.6328919370315393,
+    "verdict": "Sufficient to generate detectable entanglement (Bose et al. 2017 criterion: Δφ ≳ 1)."
+  },
+  "grb_bound": {
+    "z": 0.903,
+    "distance_Gpc": 5.0,
+    "E_high_GeV": 31.0,
+    "Delta_t_s": 0.9,
+    "E_QG_lower_GeV": 1.7724512714854357e+19,
+    "E_P_GeV": 1.220890128209864e+19,
+    "E_QG_over_E_P": 1.4517696806053308
+  },
+  "verdict": "BMV (gravitationally-induced entanglement) is the gold-standard direct QG test; GW echoes (CE/ET 2030+) and BH shadow corrections (ngEHT 2030+) provide complementary indirect probes."
+}

@@ -1,0 +1,327 @@
+cff-version: 1.2.0
+title: "ITU and Quantum Gravity: A Single-Axiom View of AdS/CFT, Ryu-Takayanagi, ER=EPR, Page Curve, Loop Quantum Gravity, String Theory, and the 2026-2050 Experimental Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest
+  Tier 0 v3.0 at 10.5281/zenodo.20200156) to quantum gravity. This is
+  Tier 1 paper #17, opening Block A (Physics/Math deepening) and
+  adding the K-skeleton hub to the ITU polytope, bringing it to 17
+  vertices. Tier 1 #17 connects to all 16 existing Tier 1 papers
+  (degree 16), pairing with Smart Cities #16 (degree 15) as the
+  polytope's deepest structural hub. Pass-1 progress: 118 of 220
+  phases (53.6%).
+  Phase 111 establishes AdS/CFT and Ryu-Takayanagi as the geometric
+  realisation of the ITU axiom: S(rho_A) = Area(gamma_A)/(4 G_N)
+  reduces to delta S = delta <K_geom> with K_geom = 2 pi times the
+  boost generator around the minimal surface. Numerical RT for
+  AdS_3/CFT_2 disk reproduces S_CFT = (c/3) log(L/eps) with c = 1.5
+  (L_AdS = G_N = 1) at machine precision.
+  Phase 112 covers ER=EPR (Maldacena-Susskind 2013) and thermofield
+  double. TFD reduces to a thermal state with rel err 2.47e-15 over
+  five beta values; TFD entropy maps to bulk BH area S = A_h/(4 G_N).
+  ITU first law dS = beta dE on TFD verified to mean rel err 6.91e-04.
+  Information paradox preview: t_Page = t_evap/2, S_R peak = S_BH/2.
+  Phase 113 derives the Page curve from Haar-random states (Page 1993)
+  with max |S_emp - S_Page| = 0.019 at d_total = 64, and shows the
+  island formula (Penington 2019, Almheiri et al. 2019) as min ext
+  of two saddles. ITU interpretation: island formula = K-channel
+  competition between K_thermal and K_geom.
+  Phase 114 resolves the AMPS firewall via ER=EPR and Island saddle:
+  monogamy preserved without firewall. Planck-scale fundamentals
+  l_P = 1.616e-35 m, t_P = 5.391e-44 s, E_P = 1.221e+19 GeV. ITU UV
+  cutoff f_ITU regulates trans-Planckian divergence (peak local
+  frequency 31.64 -> 1.92 bounded).
+  Phase 115 develops loop quantum gravity. Area spectrum A = 8 pi
+  gamma l_P^2 sum sqrt(j(j+1)) gives A_min(j=1/2) = 5.169 l_P^2 at
+  Immirzi gamma = 0.2375. Large-N puncture sampling converges to
+  semiclassical mean within 0.1% at N = 10^5. Discrete ITU first
+  law verified. gamma_ABCK = log 3 / (pi sqrt 2) = 0.247275.
+  Phase 116 covers string and M-theory. Five superstrings share
+  Regge slope; M-theory in 11D unifies via T/S-duality. Strominger-
+  Vafa (1996) S_micro = 2 pi sqrt(Q_1 Q_5 N) reproduces Bekenstein-
+  Hawking A/(4 G_N) exactly. Three routes (semiclassical/LQG/string)
+  converge on same S_BH at A = 1000 l_P^2.
+  Phase 117 surveys QG experiments. LIGO 1e-22 strain detects 100+
+  BBH mergers; ITU echo h ~ 1e-62 below sensitivity. EHT M87* shadow
+  39.7 uas, Sgr A* 50.7 uas; QG corrections l_P/R_s ~ 1e-45 out of
+  reach. LISA EMRI 2.77e5 cycles over 4 yr; integrated correction
+  1.5e-39 below SNR. BMV (Bose-Marletto-Vedral 2017) phase Delta phi
+  = 0.633 rad for m = 1e-14 kg, d = 100 um, t = 1 s exceeds detection
+  threshold -> gold standard for direct QG testing 2030-2040. GRB
+  090510 excludes linear (n=1) Lorentz violation E_QG/E_P > 1.45.
+  Phase 118 integrates all 7 prior phases under K_geom backbone. The
+  17-vertex polytope: 17 vertices, 76 edges (60 existing + 16 new),
+  <k> = 8.94. Tier 1 #17 degree 16 = K-skeleton hub (paired with
+  #16 deg 15 URBAN hub). Ten falsifiable predictions for 2026-2050:
+  BMV detection 2032 P=0.65, GW echo 2038 P=0.50, EHT M87* 5 uas
+  2030 P=0.85, LISA EMRI >=10 by 2038 P=0.75, CMB B-mode LiteBIRD
+  2034 P=0.60, quantum BH simulation 1M qubit 2040 P=0.55, atom
+  interferometer 1e-13 by 2030 P=0.70, holographic complexity 2040
+  P=0.40, Sgr A* Kerr deviation <1% 2035 P=0.70, Lorentz E_QG > 10
+  E_P (n=2) 2032 P=0.55. Grand P_avg = 0.625 (>Tier 1 #1-#16 mean
+  0.59). Strong/Medium = 6/4.
+  Central thesis: ITU axiom is the common backbone of all three QG
+  quantizations (AdS/CFT continuous bulk, LQG discrete spin networks,
+  string D-brane microstates). K_geom = modular Hamiltonian as the
+  geometric K-state. The 17-vertex polytope demonstrates QG occupies
+  the deepest structural layer of ITU. BMV is the unique direct-
+  experimental gateway. Pass-2 (Phase 221) will derive ITU-specific
+  predictions: new HaPPY-type holographic codes, bulk reconstruction
+  algorithms, replica-wormhole numerics, ITU-specific BMV phase
+  corrections.
+  Pass-1 interpretive synthesis. Numerical results agree with
+  established literature (Ryu-Takayanagi, Page, Strominger-Vafa,
+  Rovelli-Smolin, Bose 2017). No new physical predictions beyond
+  the cited works; contribution is the unified ITU axiom narrative
+  and 17-vertex polytope structure.
+keywords:
+  - Quantum gravity
+  - AdS/CFT correspondence
+  - Holographic principle
+  - Ryu-Takayanagi formula
+  - Black hole information paradox
+  - Page curve
+  - Loop quantum gravity
+  - String theory
+  - ER=EPR
+  - Modular Hamiltonian
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/quantum-gravity"
+url: "https://doi.org/10.5281/zenodo.20230667"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20230667"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest version). Current latest Tier 0 v3.0 at 10.5281/zenodo.20200156."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Maldacena
+        given-names: Juan
+    title: "The Large N limit of superconformal field theories and supergravity"
+    journal: "Adv. Theor. Math. Phys."
+    volume: "2"
+    pages: "231-252"
+    year: 1998
+  - type: article
+    authors:
+      - family-names: Ryu
+        given-names: Shinsei
+      - family-names: Takayanagi
+        given-names: Tadashi
+    title: "Holographic Derivation of Entanglement Entropy from AdS/CFT"
+    journal: "Physical Review Letters"
+    volume: "96"
+    pages: "181602"
+    year: 2006
+  - type: article
+    authors:
+      - family-names: Faulkner
+        given-names: Thomas
+      - family-names: Guica
+        given-names: Monica
+      - family-names: Hartman
+        given-names: Thomas
+      - family-names: Myers
+        given-names: Robert C.
+      - family-names: Van Raamsdonk
+        given-names: Mark
+    title: "Gravitation from Entanglement in Holographic CFTs"
+    journal: "JHEP"
+    volume: "03"
+    pages: "051"
+    year: 2014
+  - type: article
+    authors:
+      - family-names: Witten
+        given-names: Edward
+    title: "Gravity and the Crossed Product"
+    journal: "JHEP"
+    volume: "10"
+    pages: "008"
+    year: 2022
+  - type: article
+    authors:
+      - family-names: Maldacena
+        given-names: Juan
+      - family-names: Susskind
+        given-names: Leonard
+    title: "Cool horizons for entangled black holes"
+    journal: "Fortschritte der Physik"
+    volume: "61"
+    pages: "781-811"
+    year: 2013
+  - type: article
+    authors:
+      - family-names: Almheiri
+        given-names: Ahmed
+      - family-names: Marolf
+        given-names: Donald
+      - family-names: Polchinski
+        given-names: Joseph
+      - family-names: Sully
+        given-names: James
+    title: "Black Holes: Complementarity or Firewalls?"
+    journal: "JHEP"
+    volume: "02"
+    pages: "062"
+    year: 2013
+  - type: article
+    authors:
+      - family-names: Page
+        given-names: Don N.
+    title: "Average entropy of a subsystem"
+    journal: "Physical Review Letters"
+    volume: "71"
+    pages: "1291-1294"
+    year: 1993
+  - type: article
+    authors:
+      - family-names: Penington
+        given-names: Geoffrey
+    title: "Entanglement Wedge Reconstruction and the Information Paradox"
+    journal: "JHEP"
+    volume: "09"
+    pages: "002"
+    year: 2020
+  - type: article
+    authors:
+      - family-names: Almheiri
+        given-names: Ahmed
+      - family-names: Engelhardt
+        given-names: Netta
+      - family-names: Marolf
+        given-names: Donald
+      - family-names: Maxfield
+        given-names: Henry
+    title: "The entropy of bulk quantum fields and the entanglement wedge of an evaporating black hole"
+    journal: "JHEP"
+    volume: "12"
+    pages: "063"
+    year: 2019
+  - type: article
+    authors:
+      - family-names: Rovelli
+        given-names: Carlo
+      - family-names: Smolin
+        given-names: Lee
+    title: "Discreteness of area and volume in quantum gravity"
+    journal: "Nuclear Physics B"
+    volume: "442"
+    pages: "593-619"
+    year: 1995
+  - type: article
+    authors:
+      - family-names: Ashtekar
+        given-names: Abhay
+      - family-names: Baez
+        given-names: John
+      - family-names: Corichi
+        given-names: Alejandro
+      - family-names: Krasnov
+        given-names: Kirill
+    title: "Quantum geometry and black hole entropy"
+    journal: "Physical Review Letters"
+    volume: "80"
+    pages: "904-907"
+    year: 1998
+  - type: article
+    authors:
+      - family-names: Strominger
+        given-names: Andrew
+      - family-names: Vafa
+        given-names: Cumrun
+    title: "Microscopic origin of the Bekenstein-Hawking entropy"
+    journal: "Physics Letters B"
+    volume: "379"
+    pages: "99-104"
+    year: 1996
+  - type: article
+    authors:
+      - family-names: Witten
+        given-names: Edward
+    title: "String theory dynamics in various dimensions"
+    journal: "Nuclear Physics B"
+    volume: "443"
+    pages: "85-126"
+    year: 1995
+  - type: article
+    authors:
+      - family-names: Bose
+        given-names: Sougato
+      - family-names: Mazumdar
+        given-names: Anupam
+      - family-names: Morley
+        given-names: Gavin W.
+      - family-names: Ulbricht
+        given-names: Hendrik
+      - family-names: Toros
+        given-names: Marko
+      - family-names: Paternostro
+        given-names: Mauro
+      - family-names: Geraci
+        given-names: Andrew
+      - family-names: Barker
+        given-names: Peter
+      - family-names: Kim
+        given-names: M. S.
+      - family-names: Milburn
+        given-names: Gerard
+    title: "Spin entanglement witness for quantum gravity"
+    journal: "Physical Review Letters"
+    volume: "119"
+    pages: "240401"
+    year: 2017
+  - type: article
+    authors:
+      - family-names: Marletto
+        given-names: Chiara
+      - family-names: Vedral
+        given-names: Vlatko
+    title: "Gravitationally induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity"
+    journal: "Physical Review Letters"
+    volume: "119"
+    pages: "240402"
+    year: 2017
+  - type: article
+    authors:
+      - name: "LIGO Scientific Collaboration and Virgo Collaboration"
+    title: "Observation of Gravitational Waves from a Binary Black Hole Merger"
+    journal: "Physical Review Letters"
+    volume: "116"
+    pages: "061102"
+    year: 2016
+  - type: article
+    authors:
+      - name: "Event Horizon Telescope Collaboration"
+    title: "First M87 Event Horizon Telescope Results"
+    journal: "Astrophysical Journal Letters"
+    volume: "875"
+    pages: "L1-L6"
+    year: 2019
+  - type: article
+    authors:
+      - name: "Event Horizon Telescope Collaboration"
+    title: "First Sagittarius A* Event Horizon Telescope Results"
+    journal: "Astrophysical Journal Letters"
+    volume: "930"
+    pages: "L12-L17"
+    year: 2022

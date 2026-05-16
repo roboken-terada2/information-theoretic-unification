@@ -55,23 +55,24 @@ release tag.
 | 14 | [ITU and Communications / Networks](papers/communications/) | [10.5281/zenodo.20225970](https://doi.org/10.5281/zenodo.20225970) | 95–98 | ✅ v1.0.0 |
 | 15 | [ITU and Infrastructure / Power Grid](papers/infrastructure/) | [10.5281/zenodo.20226481](https://doi.org/10.5281/zenodo.20226481) | 99–102 | ✅ v1.0.0 |
 | 16 | [ITU and Smart Cities](papers/smartcities/) | [10.5281/zenodo.20228581](https://doi.org/10.5281/zenodo.20228581) | 103–106 | ✅ v1.0.0 |
-| **Tier 0 v3.0** ✨ | [**Intermediate integration of Tier 1 #1-#16**](papers/tier0_v3/) | [**10.5281/zenodo.20200156**](https://doi.org/10.5281/zenodo.20200156) | **107-110** | ✅ **v3.0.0** |
-| 17+ | (full roadmap to Phase 250) | TBD | 111-250 | planned |
+| **Tier 0 v3.0** | [Intermediate integration of Tier 1 #1-#16](papers/tier0_v3/) | [10.5281/zenodo.20200156](https://doi.org/10.5281/zenodo.20200156) | 107-110 | ✅ v3.0.0 |
+| **17** ✨ | [**ITU and Quantum Gravity (Block A)**](papers/quantum-gravity/) | [**10.5281/zenodo.20230667**](https://doi.org/10.5281/zenodo.20230667) | **111-118** | ✅ **v1.0.0** |
+| 18+ | (full roadmap to Phase 250) | TBD | 119-250 | planned |
 
-**🎉 Pass-1 50% MILESTONE achieved — Tier 0 v3.0 published.**
-Phase 107-110 integrates all 16 Tier 1 papers into a unified Tier 0 v3.0
-intermediate-integration paper: 16-vertex polytope (60 edges, ⟨k⟩=7.5,
-γ=0.79 power-law degree distribution), top hub Smart Cities #16 (deg 15
-URBAN ULTIMATE HUB), super-hubs Climate #11 / Communications #14 (deg 11
-each), 5 meta-axioms β-1〜β-5 (cross-cutting, hub property, conservation,
-emergence, symmetry breaking), 160 falsifiable predictions (16 Tier 1 × 10,
-grand P_avg = 0.59), top 50 selected by Score = Importance × Probability ×
-Verifiability, falsifiability audit 50% Strong / 31% Medium / 19% Weak,
-Pass-2 priority Tier 1 for Phase 221-230 (#1 QC, #2 AI, #5 Cancer, #10 Energy,
-#11 Climate, #16 Smart Cities, plus 4 more). Block A roadmap defined for
-Tier 1 #17-#25 (Phase 111-180): Quantum Gravity → Black Holes → Cosmology →
-Standard Model → Stat Mech → Math → Info Theory → Complexity → Foundations.
-**Pass-1 progress: 110 of 220 phases = 50.0%.**
+**🎉 Block A opens — Tier 1 #17 Quantum Gravity published.**
+Phase 111-118 (Block A paper 1/9) brings the ITU polytope to **17 vertices** with
+**Quantum Gravity as the K-skeleton hub** (degree 16, paired with Smart Cities #16
+deg 15 URBAN hub). Phase 111 establishes AdS/CFT and Ryu-Takayanagi as the geometric
+realisation of the ITU axiom (δS = δ⟨K_geom⟩ at machine precision); Phase 112 covers
+ER=EPR and thermofield double; Phase 113 derives Page curve from Haar-random states
+and Island formula as min-ext of two K-channels; Phase 114 resolves AMPS firewall via
+ER=EPR and bounds trans-Planckian divergence; Phase 115 develops loop quantum gravity
+(A_min = 5.17 ℓ_P² at Immirzi γ = 0.2375); Phase 116 covers string/M-theory with
+Strominger-Vafa S_micro = 2π√(Q₁Q₅N) matching Bekenstein-Hawking exactly; Phase 117
+surveys experiments and identifies BMV (Bose-Marletto-Vedral 2017, Δφ = 0.63 rad)
+as the 2030-2040 gold-standard direct QG test; Phase 118 integrates with 10 falsifiable
+predictions (Grand P_avg = 0.625, Strong/Medium = 6/4). The 17-vertex polytope now has
+76 edges and average degree 8.94. **Pass-1 progress: 118 of 220 phases = 53.6%.**
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 

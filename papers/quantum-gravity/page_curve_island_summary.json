@@ -1,0 +1,53 @@
+{
+  "phase": 113,
+  "title": "Page curve + Island formula + QES + K-channel competition",
+  "tier1_id": 17,
+  "tier1_name": "Quantum Gravity",
+  "block": "A (Physics/Math)",
+  "page_random": {
+    "d_total": 64,
+    "max_abs_diff": 0.018637136853905778,
+    "rows_first_3": [
+      {
+        "d_A": 2,
+        "d_B": 32,
+        "S_emp": 0.6711197137205073,
+        "S_std": 0.018299493145615357,
+        "S_page": 0.6618971805599453,
+        "abs_diff": 0.009222533160561985
+      },
+      {
+        "d_A": 4,
+        "d_B": 16,
+        "S_emp": 1.2799314979737964,
+        "S_std": 0.038093166105561474,
+        "S_page": 1.2612943611198906,
+        "abs_diff": 0.018637136853905778
+      },
+      {
+        "d_A": 8,
+        "d_B": 8,
+        "S_emp": 1.5821144446577375,
+        "S_std": 0.055598826404155116,
+        "S_page": 1.5794415416798357,
+        "abs_diff": 0.002672902977901792
+      }
+    ]
+  },
+  "evaporation": {
+    "S_BH_0": 6.0,
+    "t_evap": 1.0,
+    "t_page": 0.5,
+    "S_R_peak": 2.9697575757575763
+  },
+  "island_formula": {
+    "t_cross": 0.494959595959596,
+    "S_peak": 3.0,
+    "verdict": "min(Hawking saddle, Island saddle) reproduces Page curve"
+  },
+  "k_channel_view": {
+    "peak_t": 0.5025125628140703,
+    "peak_S": 2.984924623115578,
+    "verdict": "Island formula = min over K_thermal and K_geom channels in ITU"
+  }
+}

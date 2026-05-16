@@ -1,0 +1,161 @@
+{
+  "phase": 111,
+  "title": "AdS/CFT + Ryu-Takayanagi + ITU axiom mapping",
+  "tier1_id": 17,
+  "tier1_name": "Quantum Gravity",
+  "block": "A (Physics/Math)",
+  "adscft_pairs": [
+    {
+      "bulk": "Type IIB on AdS_5 x S^5",
+      "boundary": "N=4 SYM_4",
+      "theory": "string",
+      "type": "gauge"
+    },
+    {
+      "bulk": "M-theory on AdS_7 x S^4",
+      "boundary": "6d (2,0) SCFT",
+      "theory": "M-theory",
+      "type": "tensor"
+    },
+    {
+      "bulk": "M-theory on AdS_4 x S^7",
+      "boundary": "3d N=8 SCFT",
+      "theory": "M-theory",
+      "type": "gauge"
+    },
+    {
+      "bulk": "AdS_3 x S^3 x T^4",
+      "boundary": "2d (4,4) SCFT",
+      "theory": "string",
+      "type": "CFT_2"
+    }
+  ],
+  "ryu_takayanagi": {
+    "L_AdS": 1.0,
+    "G_N": 1.0,
+    "c": 1.5,
+    "eps": 0.01,
+    "max_rel_diff": 0.0
+  },
+  "itu_first_law_check": {
+    "max_rel_diff": 0.0,
+    "verdict": "delta S = delta <K_geom> confirmed under RT for AdS_3/CFT_2 disk"
+  },
+  "kstate_qg_map": {
+    "entries": [
+      {
+        "id": 1,
+        "name": "QC",
+        "kstate": "K_compute",
+        "qg_analogue": "bulk QECC (HaPPY tensor network)",
+        "coupling": 0.95
+      },
+      {
+        "id": 2,
+        "name": "AI/ASI",
+        "kstate": "K_mind",
+        "qg_analogue": "bulk neural <-> boundary CFT operators",
+        "coupling": 0.55
+      },
+      {
+        "id": 3,
+        "name": "Crypto",
+        "kstate": "K_secure",
+        "qg_analogue": "boundary error-correcting code",
+        "coupling": 0.7
+      },
+      {
+        "id": 4,
+        "name": "Semi",
+        "kstate": "K_substrate",
+        "qg_analogue": "bulk lattice / discrete geometry",
+        "coupling": 0.45
+      },
+      {
+        "id": 5,
+        "name": "Cancer",
+        "kstate": "K_bio",
+        "qg_analogue": "boundary thermal state degradation",
+        "coupling": 0.3
+      },
+      {
+        "id": 6,
+        "name": "Aging",
+        "kstate": "K_organism",
+        "qg_analogue": "boundary thermal decoherence",
+        "coupling": 0.3
+      },
+      {
+        "id": 7,
+        "name": "Psychiatry",
+        "kstate": "K_self",
+        "qg_analogue": "boundary CFT predictive coding state",
+        "coupling": 0.3
+      },
+      {
+        "id": 8,
+        "name": "Economics",
+        "kstate": "K_society",
+        "qg_analogue": "boundary CFT collective state",
+        "coupling": 0.25
+      },
+      {
+        "id": 9,
+        "name": "FreeWill",
+        "kstate": "K_agency",
+        "qg_analogue": "boundary modular flow direction",
+        "coupling": 0.4
+      },
+      {
+        "id": 10,
+        "name": "Energy",
+        "kstate": "K_energy",
+        "qg_analogue": "bulk stress-energy <-> K_geom",
+        "coupling": 0.85
+      },
+      {
+        "id": 11,
+        "name": "Climate",
+        "kstate": "K_atm",
+        "qg_analogue": "AdS-Schwarzschild thermal boundary",
+        "coupling": 0.6
+      },
+      {
+        "id": 12,
+        "name": "Astrobiology",
+        "kstate": "K_life",
+        "qg_analogue": "boundary life as bulk locality emergence",
+        "coupling": 0.55
+      },
+      {
+        "id": 13,
+        "name": "Robotics",
+        "kstate": "K_action",
+        "qg_analogue": "boundary action <-> bulk diffeomorphism",
+        "coupling": 0.5
+      },
+      {
+        "id": 14,
+        "name": "Comm",
+        "kstate": "K_channel",
+        "qg_analogue": "bulk Wilson lines / non-local boundary ops",
+        "coupling": 0.75
+      },
+      {
+        "id": 15,
+        "name": "Infra",
+        "kstate": "K_capital",
+        "qg_analogue": "bulk network skeleton (TN connectivity)",
+        "coupling": 0.4
+      },
+      {
+        "id": 16,
+        "name": "SmartCities",
+        "kstate": "K_city",
+        "qg_analogue": "boundary CFT macroscopic aggregation",
+        "coupling": 0.5
+      }
+    ],
+    "avg_coupling": 0.521875
+  }
+}

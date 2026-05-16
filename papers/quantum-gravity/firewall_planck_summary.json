@@ -1,0 +1,40 @@
+{
+  "phase": 114,
+  "title": "Firewall paradox + Planck scale + ITU UV cutoff",
+  "tier1_id": 17,
+  "tier1_name": "Quantum Gravity",
+  "block": "A (Physics/Math)",
+  "amps_monogamy": {
+    "caseA": {
+      "S_b": 0.6931471805599454,
+      "S_R": 0.6931471805599454,
+      "S_bp": 0.6931471805599454
+    },
+    "case_ghz_I_bR": 0.6931471805599454,
+    "log2": 0.6931471805599453
+  },
+  "er_epr_resolution": {
+    "S_b": 0.6931471805599454,
+    "S_R": 0.6931471805599454
+  },
+  "planck_scale": {
+    "l_P_m": 1.61625502392855e-35,
+    "t_P_s": 5.391246446661944e-44,
+    "m_P_kg": 2.176434342051127e-08,
+    "E_P_J": 1956081636.0991087,
+    "E_P_GeV": 1.220890128209864e+19,
+    "T_P_K": 1.4167841617232972e+32
+  },
+  "trans_planckian": {
+    "model": "Gaussian f_ITU(x) = exp(-0.05 x^2)",
+    "near_horizon_omega_local_max": 31.63858403911504,
+    "with_itu_cutoff_max": 1.9149868916558526
+  },
+  "experimental_tests": [
+    "EHT next-gen: BH shadow O(ℓ_P / r_s) corrections",
+    "LISA (2030+): post-merger ringdown signatures",
+    "Atom interferometry: gravity-mediated entanglement (Bose 2017)",
+    "GRB delays: Lorentz violation at E ~ E_P",
+    "CMB B-modes: inflation-era K-flow signatures"
+  ]
+}

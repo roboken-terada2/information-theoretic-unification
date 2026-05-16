@@ -1,0 +1,83 @@
+{
+  "phase": 112,
+  "title": "ER=EPR + Thermofield Double + Information paradox",
+  "tier1_id": 17,
+  "tier1_name": "Quantum Gravity",
+  "block": "A (Physics/Math)",
+  "tfd_thermal": {
+    "rows": [
+      {
+        "beta": 0.1,
+        "S_TFD": 1.7829377521076537,
+        "S_thermal": 1.782937752107654,
+        "E_L": 1.8061560321913146,
+        "rel_err": 1.2453861872774133e-16
+      },
+      {
+        "beta": 0.5,
+        "S_TFD": 1.6004031100103875,
+        "S_thermal": 1.6004031100103875,
+        "E_L": 1.1794968949915345,
+        "rel_err": 0.0
+      },
+      {
+        "beta": 1.0,
+        "S_TFD": 1.2185287444932296,
+        "S_thermal": 1.2185287444932296,
+        "E_L": 0.6545634642926232,
+        "rel_err": 0.0
+      },
+      {
+        "beta": 2.0,
+        "S_TFD": 0.5841190233237773,
+        "S_thermal": 0.5841190233237773,
+        "E_L": 0.20176298263849424,
+        "rel_err": 0.0
+      },
+      {
+        "beta": 5.0,
+        "S_TFD": 0.044958772641218545,
+        "S_thermal": 0.044958772641218656,
+        "E_L": 0.0075367661407348555,
+        "rel_err": 2.4694246737672125e-15
+      }
+    ],
+    "spectrum": [
+      0.0,
+      1.0,
+      1.5,
+      2.3,
+      3.0,
+      4.1
+    ],
+    "max_err": 2.4694246737672125e-15
+  },
+  "tfd_to_bh": {
+    "betas_first_3": [
+      0.3,
+      0.5473684210526316,
+      0.7947368421052632
+    ],
+    "S_TFD_first_3": [
+      4.989177901563147,
+      4.566792019942056,
+      4.215816252567944
+    ],
+    "A_h_first_3": [
+      19.95671160625259,
+      18.267168079768226,
+      16.863265010271775
+    ],
+    "G_N": 1.0
+  },
+  "first_law_on_tfd": {
+    "mean_rel_diff": 0.0006906140256791533,
+    "verdict": "dS = beta dE = d<K_geom> confirmed under TFD"
+  },
+  "info_paradox": {
+    "S_BH_0": 5.0,
+    "t_page": 0.5,
+    "t_evap": 1.0,
+    "verdict": "ITU mandates unitary -> Page curve (Hawking radiation carries info)"
+  }
+}

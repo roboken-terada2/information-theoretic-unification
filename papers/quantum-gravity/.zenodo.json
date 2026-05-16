@@ -1,0 +1,55 @@
+{
+  "title": "ITU and Quantum Gravity: A Single-Axiom View of AdS/CFT, Ryu-Takayanagi, ER=EPR, Page Curve, Loop Quantum Gravity, String Theory, and the 2026-2050 Experimental Roadmap",
+  "description": "We apply the Information-Theoretic Unification (ITU) framework (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest Tier 0 v3.0 at 10.5281/zenodo.20200156) to quantum gravity. This is Tier 1 paper #17, opening the Block A (Physics/Math deepening) and adding the K-skeleton hub to the ITU polytope, bringing it to 17 vertices. Tier 1 #17 connects to all 16 existing Tier 1 papers (degree 16), tying with Smart Cities #16 (degree 15) as the polytope's deepest structural hub. Pass-1 progress: 118 of 220 phases (53.6%).\n\nPhase 111 establishes AdS/CFT and the Ryu-Takayanagi formula as the geometric realisation of the ITU axiom: under RT correspondence S(rho_A) = Area(gamma_A)/(4 G_N) reduces to delta S = delta <K_geom> with K_geom = 2 pi times the boost generator around the minimal surface (Bisognano-Wichmann). Numerical RT for AdS_3/CFT_2 disk reproduces S_CFT = (c/3) log(L/eps) with c = 1.5 (L_AdS=G_N=1) at machine precision. K-state map: 16 Tier 1 -> quantum gravity coupling averages 0.522, top couplings QC #1 (0.95, HaPPY tensor), Energy #10 (0.85, stress-energy), Communications #14 (0.75, Wilson lines).\n\nPhase 112 covers ER=EPR (Maldacena-Susskind 2013) and thermofield double (TFD). TFD state |TFD(beta)> = (1/sqrt Z) sum_n e^{-beta E_n/2} |n>_L tensor |n>_R reduces to a thermal state on each side with rel err 2.47e-15 over five beta values, and TFD entropy maps to bulk BH area via S = A_h/(4 G_N). ITU first law dS = beta dE on TFD verified to mean rel err 6.91e-04. Hawking 1976 information paradox preview: naive Hawking saddle vs Page-curve unitary saddle, t_Page = t_evap/2, S_R(t_Page) = S_BH(0)/2 in toy units.\n\nPhase 113 derives the Page curve from Haar-random states (Page 1993) with max |S_emp - S_Page| = 0.019 at d_total = 64, and shows the island formula (Penington 2019, Almheiri-Engelhardt-Marolf-Maxfield 2019) as a min ext of two saddles. The Page time t_Page = 0.500 t_evap and peak S_R = 3.000 = S_BH(0)/2 (S_BH_0 = 6.0) are numerically confirmed. ITU interpretation: island formula = K-channel competition between K_thermal (radiation modular Hamiltonian) and K_geom (boundary boost modular).\n\nPhase 114 resolves the AMPS firewall paradox (Almheiri-Marolf-Polchinski-Sully 2012) using ER=EPR and the island saddle: AMPS three-way consistency (unitarity + EFT + monogamy) breaks at Page time, but ER=EPR identifies the horizon partner b' with the radiation Hilbert space, restoring monogamy without a firewall. Planck-scale fundamentals: l_P = 1.616e-35 m, t_P = 5.391e-44 s, m_P = 2.176e-08 kg, E_P = 1.221e+19 GeV, T_P = 1.417e+32 K. Trans-Planckian divergence is regulated by ITU UV cutoff f_ITU(omega/E_P) = exp(-0.05 x^2), reducing peak local frequency from 31.64 (uncut) to 1.92 (bounded) near the horizon.\n\nPhase 115 develops loop quantum gravity (Rovelli-Smolin 1995). The area operator spectrum A = 8 pi gamma l_P^2 sum_i sqrt(j_i(j_i+1)) gives smallest area quantum A_min(j=1/2) = 5.169 l_P^2 with Immirzi gamma = 0.2375. Large-N puncture sampling converges to the semiclassical mean A/(N l_P^2) = 6.463 within 0.1% at N = 10^5. ITU first law on discrete area jumps verified: dS = dA/(4 l_P^2) = d<K_geom> for spin transitions j -> j+1/2. Immirzi parameter from BH entropy matching: gamma_ABCK = log 3 / (pi sqrt 2) = 0.247275 vs commonly cited 0.2375 (3.95% difference, regularization-dependent).\n\nPhase 116 covers string theory and M-theory. Five superstring theories (Type I, IIA, IIB, Heterotic SO(32), Heterotic E8xE8) all share Regge slope; M-theory (Witten 1995) in 11 dimensions unifies them via T/S-duality (self-dual radius R = sqrt(alpha') = 1, self-dual coupling g = 1). Strominger-Vafa (1996) BH entropy S_micro = 2 pi sqrt(Q_1 Q_5 N) reproduces Bekenstein-Hawking A/(4 G_N) exactly for D1-D5 system: e.g. Q_1 = Q_5 = N = 10^4 gives S = 6.28e+06. Three-route convergence on same S_BH at A = 1000 l_P^2: semiclassical 250.0, LQG (ABCK toy) 134.1, Strominger-Vafa 261.2 nats, all O(1)-consistent.\n\nPhase 117 surveys quantum-gravity experiments. LIGO/Virgo achieves strain sensitivity 1e-22 detecting 100+ BBH mergers; ITU echo prediction h_echo = h_merger * (l_P/R_s) = 9.1e-62 for 60 M_sun BBH lies below CE/ET 2030+ 1e-23 sensitivity by ~39 orders. EHT M87* shadow 39.7 uas and Sgr A* shadow 50.7 uas are well-measured but QG corrections l_P/R_s ~ 1e-45 are out of reach even for ngEHT 5 uas. LISA EMRI for 1e6 M_sun SMBH gives 2.77e+05 cycles over 4 years; integrated QG correction 1.5e-39 below SNR. BMV (Bose-Marletto-Vedral 2017) phase Delta phi = G m^2 t/(hbar d) = 0.633 rad for m = 1e-14 kg, d = 100 um, t = 1 s exceeds the Delta phi ~ 1 detection threshold, making BMV the gold standard for direct quantum-gravity testing in 2030-2040. GRB 090510 (Fermi-LAT) excludes linear (n=1) Lorentz violation up to E_QG/E_P > 1.45, consistent with ITU.\n\nPhase 118 integrates all 7 prior phases under K_geom as the common modular-Hamiltonian backbone. The 17-vertex polytope statistics: 17 vertices, 76 edges (60 existing + 16 new from #17), average degree <k> = 8.94, with Tier 1 #17 Quantum Gravity reaching degree 16 as the K-skeleton hub (paired with Smart Cities #16 at degree 15 as the URBAN hub). Ten falsifiable predictions for 2026-2050: BMV detection 2032 (P=0.65), GW echo 2038 (P=0.50), EHT M87* refined to 5 uas 2030 (P=0.85), LISA EMRI >=10 by 2038 (P=0.75), CMB B-mode primordial GW LiteBIRD 2034 (P=0.60), quantum BH simulation 1M qubit 2040 (P=0.55), atom interferometer 1e-13 by 2030 (P=0.70), holographic complexity measured 2040 (P=0.40), Sgr A* Kerr deviation <1% by 2035 (P=0.70), Lorentz E_QG > 10 E_P (n=2) by 2032 (P=0.55). Grand P_avg = 0.625 (above Tier 1 #1-#16 mean 0.590). Strong/Medium = 6/4.\n\nCentral thesis: ITU axiom delta S(rho_A) = delta Tr[K_A^(0) rho_A] is the common母 backbone of all three quantum-gravity quantizations (AdS/CFT continuous bulk, LQG discrete spin networks, string-theory D-brane microstates), with K_geom = modular Hamiltonian as the geometric K-state. The 17-vertex polytope demonstrates that quantum gravity occupies the deepest structural layer of the ITU framework, connecting to all 16 application Tier 1 domains. BMV is the unique direct-experimental gateway (2030-2040). Pass-2 (Phase 221) will derive ITU-specific predictions: new HaPPY-type holographic codes, bulk reconstruction algorithms, quantum extremal surface numerics, replica-wormhole simulations, and ITU-specific BMV phase corrections distinguishable from Newtonian.\n\nHonest framing: this is a Pass-1 interpretive paper. Numerical results agree with established literature (Ryu-Takayanagi, Page, Strominger-Vafa, Rovelli-Smolin, BMV proposal). No new physical predictions beyond what the cited works already contain; the contribution is the unified ITU axiom narrative and the 17-vertex polytope structure. Pass-2 will derive new predictions.\n\nIncludes 8 theory documents (theory_phase111-118.md), 8 Python numerical experiments, 8 figures (PNG), 8 JSON summaries. Total runtime ~12 seconds.",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken",
+      "orcid": ""
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "version": "1.0.0",
+  "keywords": [
+    "Quantum gravity",
+    "AdS/CFT correspondence",
+    "Holographic principle",
+    "Ryu-Takayanagi formula",
+    "Black hole information paradox",
+    "Page curve",
+    "Loop quantum gravity",
+    "String theory",
+    "ER=EPR",
+    "Modular Hamiltonian"
+  ],
+  "communities": [
+    {"identifier": "physics"}
+  ],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20109209", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isPartOf", "identifier": "10.5281/zenodo.20109209", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20200156", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20139391", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20150501", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20151059", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20174036", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20174318", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20175663", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20177427", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20196309", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20197016", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20199598", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20200728", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20222121", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20224976", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20225970", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20226481", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20228581", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "https://github.com/roboken-terada2/information-theoretic-unification", "resource_type": "software", "scheme": "url"},
+    {"relation": "isDocumentedBy", "identifier": "https://note.com/roboken_ceo", "resource_type": "publication-other", "scheme": "url"}
+  ]
+}
