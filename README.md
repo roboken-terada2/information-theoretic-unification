@@ -52,21 +52,23 @@ release tag.
 | 11 | [ITU and Climate / Earth Systems](papers/climate-earth/) | [10.5281/zenodo.20200728](https://doi.org/10.5281/zenodo.20200728) | 83–86 | ✅ v1.0.0 |
 | 12 | [ITU and Astrobiology / SETI](papers/astrobiology/) | [10.5281/zenodo.20222121](https://doi.org/10.5281/zenodo.20222121) | 87–90 | ✅ v1.0.0 |
 | 13 | [ITU and Robotics / Embodied AI](papers/robotics/) | [10.5281/zenodo.20224976](https://doi.org/10.5281/zenodo.20224976) | 91–94 | ✅ v1.0.0 |
-| 14+ | (full roadmap to Phase 250) | TBD | 95-250 | planned |
+| 14 | [ITU and Communications / Networks](papers/communications/) | [10.5281/zenodo.20225970](https://doi.org/10.5281/zenodo.20225970) | 95–98 | ✅ v1.0.0 |
+| 15+ | (full roadmap to Phase 250) | TBD | 99-250 | planned |
 
-**🎉🎉🎉🎉 ITU 13-vertex polytope COMPLETED — embodiment axis added:**
+**🎉🎉🎉🎉🎉 ITU 14-vertex polytope COMPLETED — K-channel axis added:**
 The five engineering Tier 1 papers (QC, AI/ASI, Cryptography, Semiconductors,
 Energy/Materials) form the **engineering pentagon**; Tier 1 #5-#7 form the
-**medicine triangle**; **#8 (Economics)** is the social-sciences vertex,
-**#9 (Free Will)** is the philosophy vertex, **#11 (Climate / Earth Systems)**
-is the **biosphere super-hub (degree 8)** — bidirectionally connected to Energy (#10),
-Economics (#8), AI (#2), Cancer (#5), Free Will (#9), Astrobiology (#12), and Robotics (#13).
-**#12 (Astrobiology / SETI)** opens the **cosmic axis**, and **#13 (Robotics / Embodied AI)**
-opens the **embodiment axis (degree 6)** — bidirectionally connecting AI/ASI (#2),
-Semiconductors (#4), Economics (#8), Free Will (#9), Energy (#10), and Climate (#11).
-True AGI requires K_self (brain, #2) × K_action (body, #13). All thirteen Tier 1
-papers derive from the single axiom δS = δ⟨K⟩.
-**Pass-1 progress**: 94 of 220 phases complete (42.7%).
+**medicine triangle**; **#8 (Economics)** = social-sciences vertex,
+**#9 (Free Will)** = philosophy vertex. **#11 (Climate / Earth Systems)** and
+**#14 (Communications / Networks)** are tied as the polytope's **super-hubs
+(degree 9 each)**. **#12 (Astrobiology)** = cosmic axis (degree 4),
+**#13 (Robotics)** = embodiment axis (degree 7). Communications (#14)
+bidirectionally connects to **9 other vertices**: QC (#1), AI/ASI (#2),
+Cryptography (#3), Semiconductors (#4), Economics (#8), Energy (#10),
+Climate (#11), Astrobiology (#12), Robotics (#13). Shannon's information
+theory is shown to be a special case of the ITU axiom δS = δ⟨K⟩.
+All fourteen Tier 1 papers derive from the same single axiom.
+**Pass-1 progress**: 98 of 220 phases complete (44.5%).
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 

@@ -29,15 +29,17 @@ Each Tier 1 paper:
 | 11 | [ITU and Climate / Earth Systems](climate-earth/) | [10.5281/zenodo.20200728](https://doi.org/10.5281/zenodo.20200728) | 83-86 | `climate-earth/` | ✅ v1.0.0 |
 | 12 | [ITU and Astrobiology / SETI](astrobiology/) | [10.5281/zenodo.20222121](https://doi.org/10.5281/zenodo.20222121) | 87-90 | `astrobiology/` | ✅ v1.0.0 |
 | 13 | [ITU and Robotics / Embodied AI](robotics/) | [10.5281/zenodo.20224976](https://doi.org/10.5281/zenodo.20224976) | 91-94 | `robotics/` | ✅ v1.0.0 |
+| 14 | [ITU and Communications / Networks](communications/) | [10.5281/zenodo.20225970](https://doi.org/10.5281/zenodo.20225970) | 95-98 | `communications/` | ✅ v1.0.0 |
 
-> **🎉🎉🎉🎉 ITU 13-vertex polytope COMPLETED — embodiment axis added**: Tier 1 #1-#4 + #10 form the **engineering pentagon**. Tier 1 #5-#7 form the **medicine triangle**. **#8 (Economics)** = social-sciences vertex, **#9 (Free Will)** = philosophy vertex. **#11 (Climate / Earth Systems)** = **biosphere super-hub** (degree 8). **#12 (Astrobiology / SETI)** = **cosmic axis** (degree 4). **#13 (Robotics / Embodied AI)** = **embodiment axis** (degree 6 — bidirectionally connects AI/ASI #2, Semi #4, Economics #8, Free Will #9, Energy #10, Climate #11). True AGI requires K_self (brain, #2) × K_action (body, #13). Thirteen Tier 1 papers, all under the ITU axiom dS = d<K>. Pass-1 progress: 94 of 220 phases (42.7%).
+> **🎉🎉🎉🎉🎉 ITU 14-vertex polytope COMPLETED — K-channel axis added**: Tier 1 #1-#4 + #10 = **engineering pentagon**. #5-#7 = **medicine triangle**. **#8 (Economics)** = social, **#9 (Free Will)** = philosophy. **#11 (Climate / Earth Systems)** and **#14 (Communications / Networks)** are tied as **super-hubs (degree 9 each)**. #12 (Astrobiology) = cosmic axis (deg 4), #13 (Robotics) = embodiment axis (deg 7). Communications (#14) connects to 9 other vertices: QC, AI/ASI, Crypto, Semi, Economics, Energy, Climate, Astrobiology, Robotics. Shannon's information theory is shown to be a special case of the ITU axiom dS = d<K>. Fourteen Tier 1 papers, all under the same single axiom. Pass-1 progress: 98 of 220 phases (44.5%).
 
 ## Planned Tier 1 Papers
 
 | # | Paper | Phases | Status |
 |---|---|---|---|
-| 14 | ITU and Communications / Networks | 95-98 | planned |
-| 15+ | (full roadmap to Phase 250) | 99-250 | planned |
+| 15 | ITU and Infrastructure / Power Grid | 99-102 | planned |
+| 16 | ITU and Smart Cities | 103-106 | planned |
+| 17+ | (full roadmap to Phase 250) | 107-250 | planned |
 
 ## Structure
 
@@ -110,7 +112,12 @@ papers/
 │   ├── theory_phase91-94.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Tier 1 #14+ planned)
+├── communications/                     Tier 1 #14: Communications / Networks (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase95-98.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Tier 1 #15+ planned)
 ```
 
 ## How to cite a Tier 1 paper
@@ -206,6 +213,12 @@ Terada, M. (2026). ITU and Robotics / Embodied AI: A Single-Axiom View
 of K-Action, K-Embodiment, Moravec's Paradox, and the 2026-2050
 Humanoid Deployment Roadmap (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20224976
+```
+
+```
+Terada, M. (2026). ITU and Communications / Networks: A Single-Axiom View
+of Shannon Theory, Internet, 5G/6G, Quantum Communication (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20225970
 ```
 
 Plus the core ITU citation:

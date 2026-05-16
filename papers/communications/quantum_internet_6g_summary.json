@@ -1,0 +1,142 @@
+{
+  "phase": 96,
+  "title": "6G + Quantum Internet + Federated Learning",
+  "test1_imt2030": {
+    "metrics": [
+      {
+        "name": "Peak data rate (Gbps)",
+        "G5": 20,
+        "G6": 1000,
+        "ratio_target": 50,
+        "actual_ratio": 50.0
+      },
+      {
+        "name": "User data rate (Mbps)",
+        "G5": 100,
+        "G6": 10000,
+        "ratio_target": 100,
+        "actual_ratio": 100.0
+      },
+      {
+        "name": "Latency (ms)",
+        "G5": 1,
+        "G6": 0.1,
+        "ratio_target": 10,
+        "actual_ratio": 10.0
+      },
+      {
+        "name": "Connection density /km^2",
+        "G5": 1000000.0,
+        "G6": 10000000.0,
+        "ratio_target": 10,
+        "actual_ratio": 10.0
+      },
+      {
+        "name": "Mobility support (km/h)",
+        "G5": 500,
+        "G6": 1000,
+        "ratio_target": 2,
+        "actual_ratio": 2.0
+      },
+      {
+        "name": "Energy efficiency",
+        "G5": 1,
+        "G6": 100,
+        "ratio_target": 100,
+        "actual_ratio": 100.0
+      },
+      {
+        "name": "Reliability uptime",
+        "G5": 0.99999,
+        "G6": 0.9999999,
+        "ratio_target": 100,
+        "actual_ratio": 1.000009900099001
+      }
+    ]
+  },
+  "test2_quantum_internet": {
+    "stages": [
+      {
+        "stage": 0,
+        "name": "Trusted node",
+        "year_demo": 2017,
+        "year_commercial": 2024,
+        "function": "Trust-based relay (QKD)"
+      },
+      {
+        "stage": 1,
+        "name": "Prepare-and-measure",
+        "year_demo": 2020,
+        "year_commercial": 2024,
+        "function": "BB84 QKD"
+      },
+      {
+        "stage": 2,
+        "name": "Entanglement distribution",
+        "year_demo": 2024,
+        "year_commercial": 2030,
+        "function": "No-repeater entangle"
+      },
+      {
+        "stage": 3,
+        "name": "Memory network",
+        "year_demo": 2028,
+        "year_commercial": 2035,
+        "function": "Quantum memory + repeater"
+      },
+      {
+        "stage": 4,
+        "name": "Fault-tolerant",
+        "year_demo": 2032,
+        "year_commercial": 2040,
+        "function": "Error-corrected Q-comm"
+      },
+      {
+        "stage": 5,
+        "name": "Computing network",
+        "year_demo": 2038,
+        "year_commercial": 2045,
+        "function": "Distributed quantum compute"
+      }
+    ]
+  },
+  "test3_federated_learning": {
+    "centralized_final": 0.9941122366856517,
+    "federated_final": 0.9793024567231432,
+    "local_only_final": 0.6983215685868045
+  },
+  "test4_edge_latency": {
+    "layers": [
+      {
+        "layer": "Device (NPU)",
+        "latency_ms": 0.5,
+        "use": "Face/voice ID, robot motor"
+      },
+      {
+        "layer": "Edge (5G base)",
+        "latency_ms": 5,
+        "use": "AR, autonomous vehicle"
+      },
+      {
+        "layer": "Edge (6G, 2030)",
+        "latency_ms": 0.5,
+        "use": "Real-time XR, brain-net?"
+      },
+      {
+        "layer": "Regional DC",
+        "latency_ms": 20,
+        "use": "Video analytics, LLM inference"
+      },
+      {
+        "layer": "Cloud (global)",
+        "latency_ms": 80,
+        "use": "Massive training, batch"
+      },
+      {
+        "layer": "Satellite (Starlink)",
+        "latency_ms": 30,
+        "use": "Global access, remote"
+      }
+    ]
+  }
+}

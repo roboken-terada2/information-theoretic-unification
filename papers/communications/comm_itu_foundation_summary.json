@@ -1,0 +1,175 @@
+{
+  "phase": 95,
+  "title": "ITU × Communications / Networks — foundation",
+  "test1_shannon": {
+    "curves_summary": [
+      {
+        "label": "1e+03 Hz",
+        "C_at_30dB": 9967.226258835994
+      },
+      {
+        "label": "1e+06 Hz",
+        "C_at_30dB": 9967226.258835994
+      },
+      {
+        "label": "1e+09 Hz",
+        "C_at_30dB": 9967226258.835993
+      },
+      {
+        "label": "1e+12 Hz",
+        "C_at_30dB": 9967226258835.992
+      }
+    ]
+  },
+  "test2_internet": {
+    "timeline": [
+      {
+        "year": 1995,
+        "traffic_EB_month": 0.01,
+        "primary_use": "Web, email"
+      },
+      {
+        "year": 2000,
+        "traffic_EB_month": 1,
+        "primary_use": "Web, email"
+      },
+      {
+        "year": 2005,
+        "traffic_EB_month": 3,
+        "primary_use": "P2P, Web 2.0"
+      },
+      {
+        "year": 2010,
+        "traffic_EB_month": 20,
+        "primary_use": "YouTube, SNS"
+      },
+      {
+        "year": 2015,
+        "traffic_EB_month": 80,
+        "primary_use": "Mobile video"
+      },
+      {
+        "year": 2020,
+        "traffic_EB_month": 250,
+        "primary_use": "Streaming, COVID"
+      },
+      {
+        "year": 2024,
+        "traffic_EB_month": 500,
+        "primary_use": "Video (60%), AI (10%)"
+      },
+      {
+        "year": 2030,
+        "traffic_EB_month": 2000,
+        "primary_use": "AI (30%), VR/AR"
+      },
+      {
+        "year": 2040,
+        "traffic_EB_month": 8000,
+        "primary_use": "Embodied AI, Holographic"
+      },
+      {
+        "year": 2050,
+        "traffic_EB_month": 20000,
+        "primary_use": "Quantum Internet, AGI"
+      }
+    ],
+    "doubling_period_yr": 2.8714453154326485,
+    "growth_2024_2050_ratio": 40.0
+  },
+  "test3_mobile": {
+    "gens": [
+      {
+        "gen": "1G",
+        "year": 1980,
+        "bandwidth_kbps": 2,
+        "latency_ms": 1000,
+        "use": "Voice"
+      },
+      {
+        "gen": "2G",
+        "year": 1991,
+        "bandwidth_kbps": 100,
+        "latency_ms": 500,
+        "use": "Voice+SMS"
+      },
+      {
+        "gen": "3G",
+        "year": 2001,
+        "bandwidth_kbps": 200,
+        "latency_ms": 100,
+        "use": "Mobile data"
+      },
+      {
+        "gen": "4G LTE",
+        "year": 2010,
+        "bandwidth_kbps": 100000,
+        "latency_ms": 30,
+        "use": "Smartphone video"
+      },
+      {
+        "gen": "5G",
+        "year": 2020,
+        "bandwidth_kbps": 10000000.0,
+        "latency_ms": 1,
+        "use": "IoT, AR"
+      },
+      {
+        "gen": "6G (proj)",
+        "year": 2030,
+        "bandwidth_kbps": 1000000000.0,
+        "latency_ms": 0.1,
+        "use": "XR, holographic"
+      },
+      {
+        "gen": "7G? (proj)",
+        "year": 2040,
+        "bandwidth_kbps": 100000000000.0,
+        "latency_ms": 0.01,
+        "use": "Brain-net?"
+      }
+    ]
+  },
+  "test4_satellites": {
+    "constellations": [
+      {
+        "name": "Starlink (SpaceX)",
+        "sats_2024": 6800,
+        "planned": 42000,
+        "latency_ms": 30,
+        "country": "USA"
+      },
+      {
+        "name": "OneWeb (Eutelsat)",
+        "sats_2024": 650,
+        "planned": 1980,
+        "latency_ms": 70,
+        "country": "UK"
+      },
+      {
+        "name": "Kuiper (Amazon)",
+        "sats_2024": 100,
+        "planned": 3236,
+        "latency_ms": 40,
+        "country": "USA"
+      },
+      {
+        "name": "Guowang (China)",
+        "sats_2024": 0,
+        "planned": 13000,
+        "latency_ms": 35,
+        "country": "CN"
+      },
+      {
+        "name": "IRIS² (EU)",
+        "sats_2024": 0,
+        "planned": 290,
+        "latency_ms": 50,
+        "country": "EU"
+      }
+    ],
+    "total_sats_2024": 7550,
+    "total_planned": 60506,
+    "expansion_ratio": 8.014039735099338
+  }
+}

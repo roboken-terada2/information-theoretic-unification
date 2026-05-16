@@ -1,0 +1,226 @@
+cff-version: 1.2.0
+title: "ITU and Communications / Networks: A Single-Axiom View of Shannon Theory, Internet, 5G/6G, Quantum Communication"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current version
+  v2.0.0 at 10.5281/zenodo.20133709) to communications and networks.
+  Shannon's information theory is shown to be a special case of the
+  ITU axiom delta_S = delta(K), with H(X) = (K)/ln2 and channel
+  capacity = max modular K-flow. This is Tier 1 paper #14, opening
+  the K-channel axis and bringing the ITU polytope to 14 vertices.
+  Communications achieves degree 9, tying with Climate (#11) as the
+  polytope's maximum-connectivity super-hub. Pass-1 progress: 98 of
+  220 phases (44.5%).
+  Phase 95 establishes the ITU foundation. Shannon H(X) = (K)/ln2 in
+  ITU language. Internet traffic 2024 = 500 EB/month, doubling
+  period 2.9 years, forecast 20,000 EB/mo by 2050 (40x growth).
+  Mobile evolution 1G to 6G: bandwidth 2 kbps to 1 Tbps (5e8x),
+  latency 1000 ms to 0.1 ms (1e4x improvement). Satellite
+  constellations: 7,550 currently (Starlink 6,800, OneWeb 650),
+  planned 60,506 total (8x expansion). Quantum communication
+  (Micius satellite 1,200 km QKD) demonstrates ITU axiom realization
+  in physical observable.
+  Phase 96 details 6G, quantum internet, and federated learning.
+  IMT-2030 (6G) targets: 1 Tbps peak (50x 5G), 10 Gbps user
+  (100x), 0.1 ms latency (10x), 10^7 devices/km^2, 100x energy
+  efficiency. Quantum Internet Wehner 2018 6-stage roadmap: Stage
+  0-1 (trusted node, QKD) commercial 2024; Stage 2 (entanglement
+  distribution) 2030; Stage 5 (distributed quantum computing) 2045.
+  Federated Learning (McMahan 2017): centralized 0.994 acc, federated
+  0.979 acc, local-only 0.698 acc — federated preserves privacy at
+  minimal accuracy cost. Edge AI latency hierarchy: device 0.5 ms,
+  6G edge 0.5 ms, regional DC 20 ms, cloud 80 ms, satellite 30 ms.
+  Phase 97 covers industry, economy, and digital divide. Global ICT
+  market: $5.3T (2024) → $30T (2050), Telecom subset $1.6T → $8T,
+  AI subset $200B → $15T. Annual CapEx: $226B (2024, 5G dominant) →
+  $655B (2050, Quantum $300B largest). Digital divide: world average
+  62% (2024) with 3.17B offline → 93% (2050) with 0.65B offline (80%
+  reduction). Sub-Saharan Africa 40% → 90%, LDCs 27% → 80%. 6G
+  patents: China 40%, USA 35% (combined 75% — standardization war
+  risk). Satellite geopolitics: Starlink (USA) 42,000 planned vs
+  Guowang (China) 13,000 planned.
+  Phase 98 synthesises the 2026-2050 roadmap with 16 milestones and
+  10 falsifiable predictions (P_avg = 0.57). Key milestones: 2028
+  IMT-2030 6G spec, 2030 6G commercial + Q-internet Stage 2, 2032
+  Starlink 42K complete, 2035 Q-memory network, 2045 distributed
+  Q-compute, 2050 99.5% global penetration. The ITU 14-vertex
+  polytope completes with K-channel axis. Communications vertex
+  bidirectionally connects to 9 other vertices (QC #1, AI #2,
+  Crypto #3, Semi #4, Economics #8, Energy #10, Climate #11,
+  Astrobiology #12, Robotics #13) — tying with Climate as the
+  polytope's super-hub.
+  Central thesis: communications is K-channel transport of
+  K_information between subsystems. Shannon capacity = max modular
+  K-flow makes communication engineering a direct application of
+  ITU axiom. Quantum internet directly observes δS = δ⟨K⟩ through
+  entanglement-based protocols. 6G + Quantum + Federated Learning
+  forms a 3-layer K-flow architecture (classical channel + quantum
+  state + distributed K_self) supporting Embodied AGI (Tier 1 #13).
+  Pass-1 interpretive paper reframing Shannon (1948), Wehner (2018)
+  quantum internet, McMahan (2017) federated learning, ITU-R
+  IMT-2030 (2023), NIST PQC (2024), 3GPP Release 19 (2024), Pan
+  Jianwei Micius (2017-2024), SpaceX Starlink, Amazon Kuiper, World
+  Bank broadband economics, Gartner/IDC ICT forecasts in ITU
+  language. Pass-2 follow-up would derive ITU-specific K-channel
+  encoding schemes, novel quantum network latency bounds, K-flow
+  federated learning optimization, and validation against real 6G
+  deployments.
+keywords:
+  - communications
+  - networks
+  - Shannon information theory
+  - channel capacity
+  - Shannon-Hartley
+  - internet
+  - bandwidth
+  - latency
+  - 5G
+  - 6G
+  - IMT-2030
+  - ITU-R
+  - 3GPP
+  - mobile networks
+  - quantum communication
+  - quantum internet
+  - Wehner
+  - Elkouss
+  - Hanson
+  - BB84
+  - QKD
+  - quantum key distribution
+  - Micius satellite
+  - Pan Jianwei
+  - entanglement distribution
+  - quantum repeater
+  - quantum memory
+  - federated learning
+  - McMahan
+  - FedAvg
+  - edge AI
+  - edge computing
+  - active inference
+  - K-channel
+  - K-flow
+  - K_information
+  - K_signal
+  - post-quantum cryptography
+  - PQC
+  - NIST FIPS 203
+  - CRYSTALS-Kyber
+  - CRYSTALS-Dilithium
+  - SPHINCS+
+  - zero-trust
+  - Starlink
+  - SpaceX
+  - OneWeb
+  - Kuiper
+  - Amazon
+  - Guowang
+  - IRIS²
+  - satellite internet
+  - LEO
+  - low earth orbit
+  - GDP multiplier
+  - World Bank
+  - digital divide
+  - internet penetration
+  - ITU Facts and Figures
+  - Sub-Saharan Africa
+  - LDC
+  - geopolitics
+  - 6G patents
+  - US-China competition
+  - standardization war
+  - Information-Theoretic Unification
+  - ITU
+  - K-channel axis
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/communications"
+url: "https://doi.org/10.5281/zenodo.20225970"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20225970"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest version). Current version v2.0.0 at 10.5281/zenodo.20133709."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Shannon
+        given-names: Claude
+    title: "A Mathematical Theory of Communication"
+    journal: "Bell System Technical Journal"
+    year: 1948
+  - type: book
+    authors:
+      - family-names: Cover
+        given-names: Thomas
+      - family-names: Thomas
+        given-names: Joy
+    title: "Elements of Information Theory (2nd ed)"
+    publisher: "Wiley"
+    year: 2006
+  - type: article
+    authors:
+      - family-names: Wehner
+        given-names: Stephanie
+      - family-names: Elkouss
+        given-names: David
+      - family-names: Hanson
+        given-names: Ronald
+    title: "Quantum internet: A vision for the road ahead"
+    journal: "Science"
+    volume: 362
+    pages: 6412
+    year: 2018
+  - type: article
+    authors:
+      - family-names: McMahan
+        given-names: Brendan
+    title: "Communication-Efficient Learning of Deep Networks from Decentralized Data"
+    journal: "AISTATS"
+    year: 2017
+  - type: report
+    title: "IMT-2030 Framework and Overall Objectives of the Future Development of IMT for 2030 and Beyond"
+    authors:
+      - name: "ITU-R"
+    year: 2023
+  - type: report
+    title: "FIPS 203 (CRYSTALS-Kyber), FIPS 204 (CRYSTALS-Dilithium), FIPS 205 (SPHINCS+)"
+    authors:
+      - name: "NIST"
+    year: 2024
+  - type: article
+    authors:
+      - family-names: Liao
+        given-names: Sheng-Kai
+    title: "Satellite-to-ground quantum key distribution"
+    journal: "Nature"
+    year: 2017
+  - type: report
+    title: "Measuring digital development: Facts and figures 2024"
+    authors:
+      - name: "ITU"
+    year: 2024
+  - type: report
+    title: "Broadband and economic growth: A multilateral study"
+    authors:
+      - name: "World Bank"
+    year: 2021

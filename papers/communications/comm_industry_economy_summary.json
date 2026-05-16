@@ -1,0 +1,235 @@
+{
+  "phase": 97,
+  "title": "Communications industry, economy, digital divide",
+  "test1_ict_market": {
+    "timeline": [
+      {
+        "year": 2024,
+        "ICT_T": 5.3,
+        "Telecom_T": 1.6,
+        "AI_B": 200
+      },
+      {
+        "year": 2025,
+        "ICT_T": 5.7,
+        "Telecom_T": 1.7,
+        "AI_B": 300
+      },
+      {
+        "year": 2030,
+        "ICT_T": 8.0,
+        "Telecom_T": 2.5,
+        "AI_B": 1500
+      },
+      {
+        "year": 2040,
+        "ICT_T": 15.0,
+        "Telecom_T": 4.5,
+        "AI_B": 5000
+      },
+      {
+        "year": 2050,
+        "ICT_T": 30.0,
+        "Telecom_T": 8.0,
+        "AI_B": 15000
+      }
+    ]
+  },
+  "test2_capex": {
+    "capex": [
+      {
+        "year": 2024,
+        "G5_B": 200,
+        "G6_B": 5,
+        "Sat_B": 20,
+        "Quantum_B": 1
+      },
+      {
+        "year": 2030,
+        "G5_B": 80,
+        "G6_B": 150,
+        "Sat_B": 50,
+        "Quantum_B": 20
+      },
+      {
+        "year": 2040,
+        "G5_B": 20,
+        "G6_B": 300,
+        "Sat_B": 100,
+        "Quantum_B": 100
+      },
+      {
+        "year": 2050,
+        "G5_B": 5,
+        "G6_B": 200,
+        "Sat_B": 150,
+        "Quantum_B": 300
+      }
+    ]
+  },
+  "test3_digital_divide": {
+    "regions": [
+      {
+        "region": "North America",
+        "pen_2024": 0.92,
+        "pen_2050": 0.995,
+        "bandwidth_Mbps_2024": 200,
+        "pop_2024_B": 0.6,
+        "pop_2050_B": 0.65,
+        "online_2024_B": 0.552,
+        "online_2050_B": 0.64675,
+        "offline_2024_B": 0.04799999999999997,
+        "offline_2050_B": 0.003250000000000003
+      },
+      {
+        "region": "Europe",
+        "pen_2024": 0.89,
+        "pen_2050": 0.995,
+        "bandwidth_Mbps_2024": 150,
+        "pop_2024_B": 0.75,
+        "pop_2050_B": 0.7,
+        "online_2024_B": 0.6675,
+        "online_2050_B": 0.6965,
+        "offline_2024_B": 0.08249999999999999,
+        "offline_2050_B": 0.0035000000000000027
+      },
+      {
+        "region": "East Asia",
+        "pen_2024": 0.78,
+        "pen_2050": 0.99,
+        "bandwidth_Mbps_2024": 100,
+        "pop_2024_B": 1.6,
+        "pop_2050_B": 1.55,
+        "online_2024_B": 1.2480000000000002,
+        "online_2050_B": 1.5345,
+        "offline_2024_B": 0.352,
+        "offline_2050_B": 0.015500000000000014
+      },
+      {
+        "region": "Latin America",
+        "pen_2024": 0.75,
+        "pen_2050": 0.97,
+        "bandwidth_Mbps_2024": 50,
+        "pop_2024_B": 0.66,
+        "pop_2050_B": 0.75,
+        "online_2024_B": 0.495,
+        "online_2050_B": 0.7275,
+        "offline_2024_B": 0.165,
+        "offline_2050_B": 0.02250000000000002
+      },
+      {
+        "region": "Middle East",
+        "pen_2024": 0.7,
+        "pen_2050": 0.95,
+        "bandwidth_Mbps_2024": 50,
+        "pop_2024_B": 0.4,
+        "pop_2050_B": 0.55,
+        "online_2024_B": 0.27999999999999997,
+        "online_2050_B": 0.5225,
+        "offline_2024_B": 0.12000000000000002,
+        "offline_2050_B": 0.027500000000000028
+      },
+      {
+        "region": "South Asia",
+        "pen_2024": 0.55,
+        "pen_2050": 0.95,
+        "bandwidth_Mbps_2024": 25,
+        "pop_2024_B": 1.95,
+        "pop_2050_B": 2.0,
+        "online_2024_B": 1.0725,
+        "online_2050_B": 1.9,
+        "offline_2024_B": 0.8775,
+        "offline_2050_B": 0.10000000000000009
+      },
+      {
+        "region": "Sub-Saharan Africa",
+        "pen_2024": 0.4,
+        "pen_2050": 0.9,
+        "bandwidth_Mbps_2024": 15,
+        "pop_2024_B": 1.2,
+        "pop_2050_B": 2.0,
+        "online_2024_B": 0.48,
+        "online_2050_B": 1.8,
+        "offline_2024_B": 0.72,
+        "offline_2050_B": 0.19999999999999996
+      },
+      {
+        "region": "LDCs (poorest)",
+        "pen_2024": 0.27,
+        "pen_2050": 0.8,
+        "bandwidth_Mbps_2024": 5,
+        "pop_2024_B": 1.1,
+        "pop_2050_B": 1.4,
+        "online_2024_B": 0.29700000000000004,
+        "online_2050_B": 1.1199999999999999,
+        "offline_2024_B": 0.803,
+        "offline_2050_B": 0.2799999999999999
+      }
+    ],
+    "total_offline_2024_B": 3.168,
+    "total_offline_2050_B": 0.65225,
+    "world_avg_pen_2024": 0.6164648910411623,
+    "world_avg_pen_2050": 0.9320572916666666
+  },
+  "test4_geopolitics": {
+    "patents": [
+      {
+        "country": "China",
+        "share_pct": 40
+      },
+      {
+        "country": "USA",
+        "share_pct": 35
+      },
+      {
+        "country": "Korea",
+        "share_pct": 9
+      },
+      {
+        "country": "Japan",
+        "share_pct": 8
+      },
+      {
+        "country": "Europe",
+        "share_pct": 6
+      },
+      {
+        "country": "Other",
+        "share_pct": 2
+      }
+    ],
+    "satellites": [
+      {
+        "name": "Starlink (SpaceX)",
+        "country": "USA",
+        "current": 6800,
+        "planned": 42000
+      },
+      {
+        "name": "Guowang",
+        "country": "CN",
+        "current": 0,
+        "planned": 13000
+      },
+      {
+        "name": "OneWeb",
+        "country": "UK",
+        "current": 650,
+        "planned": 1980
+      },
+      {
+        "name": "Kuiper",
+        "country": "USA",
+        "current": 100,
+        "planned": 3236
+      },
+      {
+        "name": "IRIS²",
+        "country": "EU",
+        "current": 0,
+        "planned": 290
+      }
+    ],
+    "patent_concentration_top2": 75
+  }
+}
