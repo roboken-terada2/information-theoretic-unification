@@ -1,0 +1,336 @@
+cff-version: 1.2.0
+title: "Information-Theoretic Unification (ITU) Tier 0 v3.0: Intermediate Integration of Tier 1 #1-#16 — 16-Vertex Polytope, Meta-Axioms, 160 Falsifiable Predictions, and Pass-2 Framework"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  Tier 0 v3.0 of the Information-Theoretic Unification (ITU)
+  programme (Terada 2026, concept DOI 10.5281/zenodo.20109209;
+  previous version v2.0.0 at 10.5281/zenodo.20133709). v3.0 is
+  the Pass-1 intermediate integration covering the 16 Tier 1
+  papers completed in Phase 43-106 (the 50% Pass-1 milestone,
+  110 of 220 planned phases).
+  Phase 107 establishes motivation and the 24-chapter v3.0 plan.
+  Phase 108 develops the graph theory of the ITU polytope: 16
+  vertices, 60 edges, average degree 7.5, power-law exponent
+  gamma=0.79. Top hub Smart Cities #16 with degree 15 (URBAN
+  ULTIMATE HUB). Super-hubs Climate #11 and Communications #14
+  tied at degree 11. Spectral clustering yields 3 communities:
+  engineering / life-society / climate-cosmos. Five meta-axioms
+  beta-1 (cross-cutting K-flow), beta-2 (hub property), beta-3
+  (conservation), beta-4 (emergence), beta-5 (symmetry breaking).
+  Phase 109 aggregates 160 falsifiable predictions (16 Tier 1 ×
+  10), grand P_avg = 0.59. Top 50 selected by Score = Importance
+  × Probability × Verifiability. Falsifiability audit: 50% Strong,
+  31% Medium, 19% Weak. Pass-2 priority Tier 1 for Phase 221-230:
+  #1 QC, #2 AI/ASI, #5 Cancer, #10 Energy, #11 Climate, #16 Smart
+  Cities, #13 Robotics, #14 Comm, #4 Semi, #7 Psychiatry. 4-stage
+  translation framework (development / PoC / commercialization /
+  diffusion).
+  Phase 110 closes v3.0 with the five-block classification of
+  Tier 1 #1-#16 (Engineering Pentagon + Medicine Triangle +
+  Social-Humanities + Climate-Cosmos + Industry-Urban) and the
+  Block A roadmap (Tier 1 #17-#25, Phase 111-180): Quantum
+  Gravity, Black Holes, Cosmology, Standard Model, Statistical
+  Mechanics, Mathematics, Information Theory, Complexity Theory,
+  Foundations of Physics. Evolution axis: v3.0 (Phase 110, 16
+  Tier 1) → v4.0 (Phase 220, 45 Tier 1, Pass-1 final) → v5.0
+  (Phase 250, Pass-2 final).
+  Central thesis: Tier 0 v3.0 captures the ITU programme at its
+  halfway point. The 16-vertex polytope is the structural
+  snapshot, the meta-axioms beta-1〜beta-5 are the dynamical
+  layer, and the 160 falsifiable predictions form the empirical
+  bridge to Pass-2. Pass-1 interpretive synthesis; numerical
+  results aggregate and re-organize prior Tier 1 outputs. No
+  new physical predictions beyond what each Tier 1 paper
+  already contains. The polytope graph, meta-axioms, and Pass-2
+  priority list are organizational scaffolding for the next 110
+  phases (111-220).
+keywords:
+  - Information theory
+  - Quantum information
+  - Modular Hamiltonian
+  - Entanglement entropy
+  - Network science
+  - Scale-free networks
+  - Complex systems
+  - Falsifiability
+  - Unified theory
+  - Interdisciplinary research
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/tier0_v3"
+url: "https://doi.org/10.5281/zenodo.20200156"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20200156"
+    description: "Version 3.0.0 DOI (Zenodo)"
+version: "3.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest version). Previous version v2.0.0 at 10.5281/zenodo.20133709."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Quantum Computing (Tier 1 #1)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20139391"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Machine Consciousness / AI / ASI (Tier 1 #2)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20150501"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Cryptography (Tier 1 #3)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20151059"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Semiconductors (Tier 1 #4)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20174036"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Cancer (Tier 1 #5)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20174318"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Aging (Tier 1 #6)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20175663"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Psychiatry (Tier 1 #7)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20177427"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Economics (Tier 1 #8)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20196309"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Free Will (Tier 1 #9)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20197016"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Energy / Materials (Tier 1 #10)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20199598"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Climate (Tier 1 #11)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20200728"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Astrobiology (Tier 1 #12)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20222121"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Robotics (Tier 1 #13)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20224976"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Communications (Tier 1 #14)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20225970"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Infrastructure (Tier 1 #15)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20226481"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Smart Cities (Tier 1 #16)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20228581"
+    year: 2026
+  - type: book
+    authors:
+      - family-names: Popper
+        given-names: Karl
+    title: "Logik der Forschung (The Logic of Scientific Discovery)"
+    publisher:
+      name: "Springer (Vienna) / Hutchinson (London)"
+    year: 1959
+  - type: book
+    authors:
+      - family-names: Lakatos
+        given-names: Imre
+    title: "The Methodology of Scientific Research Programmes"
+    publisher:
+      name: "Cambridge University Press"
+    year: 1978
+  - type: article
+    authors:
+      - family-names: Barabási
+        given-names: Albert-László
+      - family-names: Albert
+        given-names: Réka
+    title: "Emergence of scaling in random networks"
+    journal: "Science"
+    volume: "286"
+    issue: "5439"
+    pages: "509-512"
+    year: 1999
+  - type: article
+    authors:
+      - family-names: Newman
+        given-names: M. E. J.
+    title: "The structure and function of complex networks"
+    journal: "SIAM Review"
+    volume: "45"
+    issue: "2"
+    pages: "167-256"
+    year: 2003
+  - type: article
+    authors:
+      - family-names: Watts
+        given-names: Duncan J.
+      - family-names: Strogatz
+        given-names: Steven H.
+    title: "Collective dynamics of 'small-world' networks"
+    journal: "Nature"
+    volume: "393"
+    pages: "440-442"
+    year: 1998
+  - type: article
+    authors:
+      - family-names: Fortunato
+        given-names: Santo
+    title: "Community detection in graphs"
+    journal: "Physics Reports"
+    volume: "486"
+    issue: "3-5"
+    pages: "75-174"
+    year: 2010
+  - type: article
+    authors:
+      - family-names: Shannon
+        given-names: Claude E.
+    title: "A Mathematical Theory of Communication"
+    journal: "Bell System Technical Journal"
+    volume: "27"
+    issue: "3"
+    pages: "379-423"
+    year: 1948
+  - type: book
+    authors:
+      - family-names: Cover
+        given-names: Thomas M.
+      - family-names: Thomas
+        given-names: Joy A.
+    title: "Elements of Information Theory (2nd ed.)"
+    publisher:
+      name: "Wiley-Interscience"
+    year: 2006
+  - type: article
+    authors:
+      - family-names: Jaynes
+        given-names: E. T.
+    title: "Information Theory and Statistical Mechanics"
+    journal: "Physical Review"
+    volume: "106"
+    pages: "620-630"
+    year: 1957
+  - type: article
+    authors:
+      - family-names: Tegmark
+        given-names: Max
+    title: "Consciousness as a state of matter"
+    journal: "Chaos, Solitons & Fractals"
+    volume: "76"
+    pages: "238-270"
+    year: 2015
+  - type: article
+    authors:
+      - family-names: Tononi
+        given-names: Giulio
+    title: "Integrated Information Theory of Consciousness: An Updated Account"
+    journal: "Archives Italiennes de Biologie"
+    volume: "150"
+    issue: "4"
+    pages: "293-329"
+    year: 2012
+  - type: article
+    authors:
+      - family-names: Verlinde
+        given-names: Erik
+    title: "On the origin of gravity and the laws of Newton"
+    journal: "JHEP"
+    volume: "04"
+    pages: "029"
+    year: 2011
+  - type: article
+    authors:
+      - family-names: Wheeler
+        given-names: John Archibald
+    title: "Information, physics, quantum: The search for links"
+    notes: "In: Complexity, Entropy, and the Physics of Information (W. H. Zurek, ed.)"
+    publisher:
+      name: "Addison-Wesley"
+    year: 1990

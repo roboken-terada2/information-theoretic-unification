@@ -1,0 +1,252 @@
+{
+  "phase": 107,
+  "title": "Tier 0 v3.0 intermediate integration — motivation",
+  "test1_version_evolution": {
+    "versions": [
+      {
+        "version": "v1.0.0",
+        "year": 2026,
+        "phases": 16,
+        "title": "GR + QM Unification (16 phases)",
+        "DOI": "20109210",
+        "growth_from_v1": 1.0
+      },
+      {
+        "version": "v2.0.0",
+        "year": 2026,
+        "phases": 42,
+        "title": "Physics + Life + Consciousness (42 phases)",
+        "DOI": "20133709",
+        "growth_from_v1": 2.625
+      },
+      {
+        "version": "v3.0.0",
+        "year": 2026,
+        "phases": 106,
+        "title": "+ 16 Tier 1 polytope integration",
+        "DOI": "TBD",
+        "growth_from_v1": 6.625
+      },
+      {
+        "version": "v4.0",
+        "year": 2030,
+        "phases": 220,
+        "title": "Full Pass-1 synthesis",
+        "DOI": "future",
+        "growth_from_v1": 13.75
+      },
+      {
+        "version": "v5.0",
+        "year": 2032,
+        "phases": 250,
+        "title": "Pass-2 predictions added",
+        "DOI": "future",
+        "growth_from_v1": 15.625
+      }
+    ]
+  },
+  "test2_v2_structure": {
+    "layers": [
+      {
+        "layer": "L0",
+        "name": "Math + Axiom",
+        "phases": 5,
+        "phase_range": "1-5"
+      },
+      {
+        "layer": "L1",
+        "name": "Quantum Info + K",
+        "phases": 5,
+        "phase_range": "6-10"
+      },
+      {
+        "layer": "L2",
+        "name": "Spacetime + Gravity",
+        "phases": 5,
+        "phase_range": "11-15"
+      },
+      {
+        "layer": "L3",
+        "name": "Standard Model",
+        "phases": 5,
+        "phase_range": "16-20"
+      },
+      {
+        "layer": "L4",
+        "name": "Black Holes + GW",
+        "phases": 5,
+        "phase_range": "21-25"
+      },
+      {
+        "layer": "L5",
+        "name": "Dark Sector",
+        "phases": 5,
+        "phase_range": "26-30"
+      },
+      {
+        "layer": "L6",
+        "name": "Life",
+        "phases": 5,
+        "phase_range": "31-35"
+      },
+      {
+        "layer": "L7",
+        "name": "Consciousness",
+        "phases": 5,
+        "phase_range": "36-40"
+      },
+      {
+        "layer": "L8",
+        "name": "Qualia",
+        "phases": 2,
+        "phase_range": "41-42"
+      }
+    ],
+    "total_phases": 42
+  },
+  "test3_tier1_categories": {
+    "tier1": [
+      {
+        "id": 1,
+        "topic": "Quantum Computing",
+        "category": "engineering"
+      },
+      {
+        "id": 2,
+        "topic": "AI/ASI",
+        "category": "engineering"
+      },
+      {
+        "id": 3,
+        "topic": "Cryptography",
+        "category": "engineering"
+      },
+      {
+        "id": 4,
+        "topic": "Semiconductors",
+        "category": "engineering"
+      },
+      {
+        "id": 5,
+        "topic": "Cancer",
+        "category": "medicine"
+      },
+      {
+        "id": 6,
+        "topic": "Aging",
+        "category": "medicine"
+      },
+      {
+        "id": 7,
+        "topic": "Psychiatry",
+        "category": "medicine"
+      },
+      {
+        "id": 8,
+        "topic": "Economics",
+        "category": "social"
+      },
+      {
+        "id": 9,
+        "topic": "Free Will/Ethics",
+        "category": "philosophy"
+      },
+      {
+        "id": 10,
+        "topic": "Energy/Materials",
+        "category": "engineering"
+      },
+      {
+        "id": 11,
+        "topic": "Climate/Earth",
+        "category": "biosphere"
+      },
+      {
+        "id": 12,
+        "topic": "Astrobiology/SETI",
+        "category": "cosmic"
+      },
+      {
+        "id": 13,
+        "topic": "Robotics",
+        "category": "embodiment"
+      },
+      {
+        "id": 14,
+        "topic": "Communications",
+        "category": "K-channel"
+      },
+      {
+        "id": 15,
+        "topic": "Infrastructure",
+        "category": "K-skeleton"
+      },
+      {
+        "id": 16,
+        "topic": "Smart Cities",
+        "category": "urban"
+      }
+    ],
+    "categories": {
+      "engineering": 5,
+      "medicine": 3,
+      "social": 1,
+      "philosophy": 1,
+      "biosphere": 1,
+      "cosmic": 1,
+      "embodiment": 1,
+      "K-channel": 1,
+      "K-skeleton": 1,
+      "urban": 1
+    }
+  },
+  "test4_chapter_plan": {
+    "parts": [
+      {
+        "part": "Part I",
+        "title": "Axiom and Foundation",
+        "chapters": 5,
+        "new": false,
+        "phases": "1-15 revised"
+      },
+      {
+        "part": "Part II",
+        "title": "Physical World",
+        "chapters": 4,
+        "new": false,
+        "phases": "16-30 revised"
+      },
+      {
+        "part": "Part III",
+        "title": "Life and Mind",
+        "chapters": 3,
+        "new": false,
+        "phases": "31-42 revised"
+      },
+      {
+        "part": "Part IV",
+        "title": "16-Vertex Polytope",
+        "chapters": 7,
+        "new": true,
+        "phases": "Polytope graph theory + 4 blocks"
+      },
+      {
+        "part": "Part V",
+        "title": "Predictions and Pass-2",
+        "chapters": 3,
+        "new": true,
+        "phases": "160→50 predictions + framework"
+      },
+      {
+        "part": "Part VI",
+        "title": "Outlook",
+        "chapters": 2,
+        "new": true,
+        "phases": "Block A roadmap + v4.0 path"
+      }
+    ],
+    "total_chapters": 24,
+    "new_chapters": 12,
+    "new_pct": 50.0
+  }
+}

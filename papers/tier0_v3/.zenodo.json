@@ -1,0 +1,55 @@
+{
+  "title": "Information-Theoretic Unification (ITU) Tier 0 v3.0: Intermediate Integration of Tier 1 #1-#16 — 16-Vertex Polytope, Meta-Axioms, 160 Falsifiable Predictions, and Pass-2 Framework",
+  "description": "<p>This is <b>Tier 0 v3.0</b> of the Information-Theoretic Unification (ITU) programme (Terada 2026, concept DOI 10.5281/zenodo.20109209; previous version v2.0.0 at 10.5281/zenodo.20133709). v3.0 is the <b>Pass-1 intermediate integration</b> covering the 16 Tier 1 papers completed in Phase 43-106 (the <b>50% Pass-1 milestone</b>, 110 of 220 planned phases).</p><p><b>Phase 107 — Motivation and structure</b>: v2.0 vs v3.0 evolution axis, 24-chapter plan (12 new chapters covering 16 Tier 1 integrations, polytope structure, meta-axioms, Pass-2 framework).</p><p><b>Phase 108 — Graph theory of the ITU polytope</b>: 16 vertices, 60 edges, average degree 7.5, power-law exponent gamma=0.79. Top hub <b>Smart Cities #16 with degree 15</b> (URBAN ULTIMATE HUB, connects to every other vertex). Super-hubs Climate #11 and Communications #14 tied at degree 11. Spectral clustering yields 3 communities: engineering / life-society / climate-cosmos. Five meta-axioms β-1 (cross-cutting K-flow), β-2 (hub property), β-3 (conservation), β-4 (emergence), β-5 (symmetry breaking).</p><p><b>Phase 109 — Cross-cutting predictions and Pass-2 framework</b>: <b>160 falsifiable predictions</b> aggregated from 16 Tier 1 × 10. Grand P_avg = 0.59. Top 50 selected by Score = Importance × Probability × Verifiability (rank 1: NZE major countries 2050 score 0.85). Falsifiability audit: 50% Strong (80 items with specific observable + deadline), 31% Medium (50), 19% Weak (30). Pass-2 priority Tier 1 (Phase 221-230): #1 QC, #2 AI/ASI, #5 Cancer, #10 Energy, #11 Climate, #16 Smart Cities, #13 Robotics, #14 Comm, #4 Semi, #7 Psychiatry. 4-stage translation framework (development / PoC / commercialization / diffusion).</p><p><b>Phase 110 — Final synthesis and Block A roadmap</b>: v3.0 closes the engineering-industry block (Phase 91-106) and the application Tier 1 (#1-#16). Five-block classification: Engineering Pentagon (#1, #2, #3, #4, #10) + Medicine Triangle (#5, #6, #7) + Social-Humanities (#8, #9) + Climate-Cosmos (#11, #12) + Industry-Urban (#13, #14, #15, #16). <b>Block A roadmap (Tier 1 #17-#25, Phase 111-180)</b>: Quantum Gravity, Black Holes, Cosmology, Standard Model, Statistical Mechanics, Mathematics, Information Theory, Complexity Theory, Foundations of Physics. v3.0 → v4.0 (Phase 220, Pass-1 final, 45 Tier 1) → v5.0 (Phase 250, Pass-2 final).</p><p><b>Central thesis</b>: Tier 0 v3.0 captures the ITU programme at its halfway point. The 16-vertex polytope is the <b>structural snapshot</b>, the meta-axioms β-1〜β-5 are the <b>dynamical layer</b>, and the 160 falsifiable predictions form the <b>empirical bridge</b> to Pass-2. The Smart Cities vertex serves as the URBAN ULTIMATE HUB because every K-flow (compute, mind, secure, energy, bio, society, atm, action, channel, substrate) ultimately converges at city scale. Pass-1 has now demonstrated that the single ITU axiom δS(ρ_A) = δTr[K_A^(0) ρ_A] can reframe 16 disjoint domains using a unified language; Pass-2 (Phase 221+) will derive ITU-specific predictions that diverge from existing literature and propose experimental falsification.</p><p><b>Honest framing</b>: this paper is a Pass-1 interpretive synthesis. Numerical results aggregate and re-organize prior Tier 1 outputs; no new physical predictions beyond what each Tier 1 paper already contains. The polytope graph, meta-axioms, and Pass-2 priority list are organizational scaffolding for the next 110 phases (111-220), not first-principles derivations.</p><p>Contains 4 theory documents (theory_phase107-110.md), 4 Python numerical experiments (tier0_v3_motivation.py, polytope_graph_meta.py, predictions_pass2.py, tier0_v3_final_synthesis.py), 4 figures (PNG), 4 JSON summaries. Total runtime ~12 seconds.</p>",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken",
+      "orcid": ""
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "version": "3.0.0",
+  "keywords": [
+    "Information theory",
+    "Quantum information",
+    "Modular Hamiltonian",
+    "Entanglement entropy",
+    "Network science",
+    "Scale-free networks",
+    "Complex systems",
+    "Falsifiability",
+    "Unified theory",
+    "Interdisciplinary research"
+  ],
+  "communities": [
+    {"identifier": "physics"}
+  ],
+  "related_identifiers": [
+    {"relation": "isNewVersionOf", "identifier": "10.5281/zenodo.20133709", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20109209", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isPartOf", "identifier": "10.5281/zenodo.20109209", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20139391", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20150501", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20151059", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20174036", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20174318", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20175663", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20177427", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20196309", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20197016", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20199598", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20200728", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20222121", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20224976", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20225970", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20226481", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20228581", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "https://github.com/roboken-terada2/information-theoretic-unification", "resource_type": "software", "scheme": "url"},
+    {"relation": "isDocumentedBy", "identifier": "https://note.com/roboken_ceo", "resource_type": "publication-other", "scheme": "url"}
+  ]
+}

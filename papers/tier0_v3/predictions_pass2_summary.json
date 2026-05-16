@@ -1,0 +1,526 @@
+{
+  "phase": 109,
+  "title": "Cross-cutting Predictions + Pass-2 Framework",
+  "test1_inventory": {
+    "tier1": [
+      {
+        "id": 1,
+        "topic": "QC",
+        "P_avg": 0.61,
+        "sample": "Fault-tolerant QC 2030"
+      },
+      {
+        "id": 2,
+        "topic": "AI/ASI",
+        "P_avg": 0.59,
+        "sample": "AGI 2030"
+      },
+      {
+        "id": 3,
+        "topic": "Crypto",
+        "P_avg": 0.65,
+        "sample": "PQC standardization 2024-27"
+      },
+      {
+        "id": 4,
+        "topic": "Semi",
+        "P_avg": 0.62,
+        "sample": "1nm mass production 2030"
+      },
+      {
+        "id": 5,
+        "topic": "Cancer",
+        "P_avg": 0.58,
+        "sample": "Personalized immunotherapy 2030"
+      },
+      {
+        "id": 6,
+        "topic": "Aging",
+        "P_avg": 0.55,
+        "sample": "Aging reversal trial 2035"
+      },
+      {
+        "id": 7,
+        "topic": "Psychiatry",
+        "P_avg": 0.56,
+        "sample": "DSM-6 personalized 2030"
+      },
+      {
+        "id": 8,
+        "topic": "Economics",
+        "P_avg": 0.6,
+        "sample": "UBI in 5 countries 2035"
+      },
+      {
+        "id": 9,
+        "topic": "FreeWill",
+        "P_avg": 0.55,
+        "sample": "Neuroethics intl std 2035"
+      },
+      {
+        "id": 10,
+        "topic": "Energy",
+        "P_avg": 0.63,
+        "sample": "Solar 50% 2050"
+      },
+      {
+        "id": 11,
+        "topic": "Climate",
+        "P_avg": 0.61,
+        "sample": "NZE major countries 2050"
+      },
+      {
+        "id": 12,
+        "topic": "Astrobiology",
+        "P_avg": 0.61,
+        "sample": "DMS biosignature 2030"
+      },
+      {
+        "id": 13,
+        "topic": "Robotics",
+        "P_avg": 0.57,
+        "sample": "Household humanoid 2030"
+      },
+      {
+        "id": 14,
+        "topic": "Communications",
+        "P_avg": 0.57,
+        "sample": "6G commercial 2030"
+      },
+      {
+        "id": 15,
+        "topic": "Infrastructure",
+        "P_avg": 0.55,
+        "sample": "Grid inertia crisis 2028"
+      },
+      {
+        "id": 16,
+        "topic": "SmartCities",
+        "P_avg": 0.54,
+        "sample": "EU face rec ban 2026"
+      }
+    ],
+    "total_predictions": 160,
+    "grand_P_avg": 0.586875
+  },
+  "test2_top": {
+    "top": [
+      {
+        "rank": 1,
+        "tier": 11,
+        "claim": "NZE major countries achieved",
+        "year": 2050,
+        "p": 0.5,
+        "score": 0.85
+      },
+      {
+        "rank": 2,
+        "tier": 14,
+        "claim": "6G IMT-2030 spec finalized",
+        "year": 2028,
+        "p": 0.75,
+        "score": 0.83
+      },
+      {
+        "rank": 3,
+        "tier": 3,
+        "claim": "PQC standardization complete",
+        "year": 2024,
+        "p": 1.0,
+        "score": 0.82
+      },
+      {
+        "rank": 4,
+        "tier": 2,
+        "claim": "AGI achieved",
+        "year": 2030,
+        "p": 0.55,
+        "score": 0.8
+      },
+      {
+        "rank": 5,
+        "tier": 12,
+        "claim": "K2-18b DMS 5sigma confirm",
+        "year": 2027,
+        "p": 0.35,
+        "score": 0.78
+      },
+      {
+        "rank": 6,
+        "tier": 16,
+        "claim": "EU face recognition ban full",
+        "year": 2026,
+        "p": 0.8,
+        "score": 0.76
+      },
+      {
+        "rank": 7,
+        "tier": 15,
+        "claim": "Smart meters 40% global",
+        "year": 2030,
+        "p": 0.7,
+        "score": 0.75
+      },
+      {
+        "rank": 8,
+        "tier": 1,
+        "claim": "1M-qubit FT QC",
+        "year": 2035,
+        "p": 0.5,
+        "score": 0.74
+      },
+      {
+        "rank": 9,
+        "tier": 10,
+        "claim": "Solar LCOE $20/MWh",
+        "year": 2035,
+        "p": 0.8,
+        "score": 0.73
+      },
+      {
+        "rank": 10,
+        "tier": 4,
+        "claim": "1nm/A14 mass production",
+        "year": 2030,
+        "p": 0.65,
+        "score": 0.72
+      },
+      {
+        "rank": 11,
+        "tier": 11,
+        "claim": "AMOC P(collapse) > 25%",
+        "year": 2095,
+        "p": 0.5,
+        "score": 0.71
+      },
+      {
+        "rank": 12,
+        "tier": 8,
+        "claim": "UBI in 5+ countries",
+        "year": 2035,
+        "p": 0.5,
+        "score": 0.7
+      },
+      {
+        "rank": 13,
+        "tier": 14,
+        "claim": "Quantum Stage 2 commercial",
+        "year": 2030,
+        "p": 0.55,
+        "score": 0.69
+      },
+      {
+        "rank": 14,
+        "tier": 16,
+        "claim": "AGI city autonomy 0.50",
+        "year": 2040,
+        "p": 0.45,
+        "score": 0.68
+      },
+      {
+        "rank": 15,
+        "tier": 13,
+        "claim": "Atlas commercial launch",
+        "year": 2028,
+        "p": 0.7,
+        "score": 0.67
+      },
+      {
+        "rank": 16,
+        "tier": 5,
+        "claim": "CAR-T solid tumor approval",
+        "year": 2030,
+        "p": 0.55,
+        "score": 0.66
+      },
+      {
+        "rank": 17,
+        "tier": 9,
+        "claim": "Sapolsky-Sapir framework",
+        "year": 2035,
+        "p": 0.4,
+        "score": 0.65
+      },
+      {
+        "rank": 18,
+        "tier": 11,
+        "claim": "CDR 10 GtCO2/yr by 2050",
+        "year": 2050,
+        "p": 0.45,
+        "score": 0.64
+      },
+      {
+        "rank": 19,
+        "tier": 10,
+        "claim": "Solid-state Li-ion mass prod",
+        "year": 2027,
+        "p": 0.55,
+        "score": 0.63
+      },
+      {
+        "rank": 20,
+        "tier": 12,
+        "claim": "HWO launches on schedule",
+        "year": 2040,
+        "p": 0.65,
+        "score": 0.62
+      },
+      {
+        "rank": 21,
+        "tier": 2,
+        "claim": "ASI 2035+",
+        "year": 2035,
+        "p": 0.5,
+        "score": 0.61
+      },
+      {
+        "rank": 22,
+        "tier": 4,
+        "claim": "GAA transistor 2027",
+        "year": 2027,
+        "p": 0.7,
+        "score": 0.6
+      },
+      {
+        "rank": 23,
+        "tier": 11,
+        "claim": "Solar+wind 30% share by 2030",
+        "year": 2030,
+        "p": 0.85,
+        "score": 0.59
+      },
+      {
+        "rank": 24,
+        "tier": 15,
+        "claim": "Xiongan Phase 2 begins",
+        "year": 2026,
+        "p": 0.8,
+        "score": 0.58
+      },
+      {
+        "rank": 25,
+        "tier": 6,
+        "claim": "Senolytic therapy approved",
+        "year": 2030,
+        "p": 0.4,
+        "score": 0.57
+      },
+      {
+        "rank": 30,
+        "tier": 7,
+        "claim": "Mental disorder genomics 2030",
+        "year": 2030,
+        "p": 0.55,
+        "score": 0.55
+      },
+      {
+        "rank": 35,
+        "tier": 16,
+        "claim": "L4 autonomous urban commercial",
+        "year": 2032,
+        "p": 0.55,
+        "score": 0.5
+      },
+      {
+        "rank": 40,
+        "tier": 13,
+        "claim": "Embodied AGI 2040",
+        "year": 2040,
+        "p": 0.5,
+        "score": 0.45
+      },
+      {
+        "rank": 45,
+        "tier": 14,
+        "claim": "Stage 5 quantum network 2045",
+        "year": 2045,
+        "p": 0.4,
+        "score": 0.42
+      },
+      {
+        "rank": 50,
+        "tier": 16,
+        "claim": "ASI city realized",
+        "year": 2050,
+        "p": 0.35,
+        "score": 0.38
+      }
+    ],
+    "n_displayed": 30,
+    "total_selected": 50
+  },
+  "test3_pass2": {
+    "pass2_plan": [
+      {
+        "order": 1,
+        "tier": 1,
+        "topic": "QC",
+        "phase": 221,
+        "focus": "QECC structure → new code from K"
+      },
+      {
+        "order": 2,
+        "tier": 2,
+        "topic": "AI/ASI",
+        "phase": 222,
+        "focus": "Phi_ITU evaluation of LLMs"
+      },
+      {
+        "order": 3,
+        "tier": 5,
+        "topic": "Cancer",
+        "phase": 223,
+        "focus": "Cellular reprogramming K-targets"
+      },
+      {
+        "order": 4,
+        "tier": 10,
+        "topic": "Energy",
+        "phase": 224,
+        "focus": "K-state battery chemistries"
+      },
+      {
+        "order": 5,
+        "tier": 11,
+        "topic": "Climate",
+        "phase": 225,
+        "focus": "K_atm early warning metrics"
+      },
+      {
+        "order": 6,
+        "tier": 16,
+        "topic": "Smart Cities",
+        "phase": 226,
+        "focus": "K_city optimization algorithm"
+      },
+      {
+        "order": 7,
+        "tier": 13,
+        "topic": "Robotics",
+        "phase": 227,
+        "focus": "K_action policy structure"
+      },
+      {
+        "order": 8,
+        "tier": 14,
+        "topic": "Communications",
+        "phase": 228,
+        "focus": "K-channel coding scheme"
+      },
+      {
+        "order": 9,
+        "tier": 4,
+        "topic": "Semi",
+        "phase": 229,
+        "focus": "K_substrate exotic materials"
+      },
+      {
+        "order": 10,
+        "tier": 7,
+        "topic": "Psychiatry",
+        "phase": 230,
+        "focus": "K_self predictive biomarkers"
+      }
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Development research",
+        "deliverable": "Prototype + paper"
+      },
+      {
+        "stage": 2,
+        "name": "Proof of Concept",
+        "deliverable": "Pilot + validation paper"
+      },
+      {
+        "stage": 3,
+        "name": "Commercialization",
+        "deliverable": "Product + business model paper"
+      },
+      {
+        "stage": 4,
+        "name": "Diffusion / societal",
+        "deliverable": "Standards + regulation paper"
+      }
+    ],
+    "n_priority": 10
+  },
+  "test4_falsifiability": {
+    "audit_levels": {
+      "Strong (specific observable + deadline)": 80,
+      "Medium (qualitative + deadline)": 50,
+      "Weak (qualitative only)": 30
+    },
+    "total": 160,
+    "early_verifiable_2026_2030": [
+      {
+        "year": 2024,
+        "claim": "PQC standardization (NIST FIPS 203-205)",
+        "tier": 3,
+        "status": "DONE"
+      },
+      {
+        "year": 2026,
+        "claim": "EU face recognition ban enforced",
+        "tier": 16,
+        "status": "pending"
+      },
+      {
+        "year": 2026,
+        "claim": "Xiongan Phase 2 begins",
+        "tier": 15,
+        "status": "pending"
+      },
+      {
+        "year": 2027,
+        "claim": "K2-18b DMS 5sigma confirm/deny",
+        "tier": 12,
+        "status": "pending"
+      },
+      {
+        "year": 2028,
+        "claim": "6G IMT-2030 spec finalized",
+        "tier": 14,
+        "status": "pending"
+      },
+      {
+        "year": 2028,
+        "claim": "Atlas commercial launch",
+        "tier": 13,
+        "status": "pending"
+      },
+      {
+        "year": 2030,
+        "claim": "Internet penetration 90% global",
+        "tier": 14,
+        "status": "pending"
+      },
+      {
+        "year": 2030,
+        "claim": "Smart meters 40% global",
+        "tier": 15,
+        "status": "pending"
+      },
+      {
+        "year": 2030,
+        "claim": "Quantum entanglement distribution commercial",
+        "tier": 14,
+        "status": "pending"
+      },
+      {
+        "year": 2030,
+        "claim": "AGI achieved",
+        "tier": 2,
+        "status": "pending"
+      },
+      {
+        "year": 2030,
+        "claim": "Xiongan 1M residents",
+        "tier": 16,
+        "status": "pending"
+      }
+    ],
+    "n_early_verifiable": 11
+  }
+}

@@ -55,20 +55,23 @@ release tag.
 | 14 | [ITU and Communications / Networks](papers/communications/) | [10.5281/zenodo.20225970](https://doi.org/10.5281/zenodo.20225970) | 95–98 | ✅ v1.0.0 |
 | 15 | [ITU and Infrastructure / Power Grid](papers/infrastructure/) | [10.5281/zenodo.20226481](https://doi.org/10.5281/zenodo.20226481) | 99–102 | ✅ v1.0.0 |
 | 16 | [ITU and Smart Cities](papers/smartcities/) | [10.5281/zenodo.20228581](https://doi.org/10.5281/zenodo.20228581) | 103–106 | ✅ v1.0.0 |
-| 17+ | (full roadmap to Phase 250) | TBD | 107-250 | planned |
+| **Tier 0 v3.0** ✨ | [**Intermediate integration of Tier 1 #1-#16**](papers/tier0_v3/) | [**10.5281/zenodo.20200156**](https://doi.org/10.5281/zenodo.20200156) | **107-110** | ✅ **v3.0.0** |
+| 17+ | (full roadmap to Phase 250) | TBD | 111-250 | planned |
 
-**🎉🎉🎉🎉🎉🎉🎉 ITU 16-vertex polytope COMPLETED — URBAN ULTIMATE HUB added (engineering-industry block COMPLETE):**
-Engineering pentagon (#1-#4 + #10) + Medicine triangle (#5-#7) + Social (#8) +
-Philosophy (#9) + Biosphere super-hub (#11, degree 11) + Cosmic axis (#12, deg 4) +
-Embodiment axis (#13, deg 9) + K-channel super-hub (#14, deg 11) +
-K-skeleton axis (#15, deg 8) + **URBAN ULTIMATE HUB (#16, deg 15)** ← NEW.
-Smart Cities (#16) connects to **ALL 15 other vertices** — the polytope's
-**ULTIMATE hub** with maximum possible degree. It integrates every other K-flow
-at city scale: Cities = K-OS (operating system) with 7 layers.
-**Engineering-industry block** (Phases 91-106, 4 Tier 1 papers #13-#16:
-Robotics + Communications + Infrastructure + Smart Cities) **COMPLETE**.
-All sixteen Tier 1 papers derive from the single axiom δS = δ⟨K⟩.
-**Pass-1 progress**: 106 of 220 phases complete (48.2%).
+**🎉 Pass-1 50% MILESTONE achieved — Tier 0 v3.0 published.**
+Phase 107-110 integrates all 16 Tier 1 papers into a unified Tier 0 v3.0
+intermediate-integration paper: 16-vertex polytope (60 edges, ⟨k⟩=7.5,
+γ=0.79 power-law degree distribution), top hub Smart Cities #16 (deg 15
+URBAN ULTIMATE HUB), super-hubs Climate #11 / Communications #14 (deg 11
+each), 5 meta-axioms β-1〜β-5 (cross-cutting, hub property, conservation,
+emergence, symmetry breaking), 160 falsifiable predictions (16 Tier 1 × 10,
+grand P_avg = 0.59), top 50 selected by Score = Importance × Probability ×
+Verifiability, falsifiability audit 50% Strong / 31% Medium / 19% Weak,
+Pass-2 priority Tier 1 for Phase 221-230 (#1 QC, #2 AI, #5 Cancer, #10 Energy,
+#11 Climate, #16 Smart Cities, plus 4 more). Block A roadmap defined for
+Tier 1 #17-#25 (Phase 111-180): Quantum Gravity → Black Holes → Cosmology →
+Standard Model → Stat Mech → Math → Info Theory → Complexity → Foundations.
+**Pass-1 progress: 110 of 220 phases = 50.0%.**
 
 See [`papers/README.md`](papers/) for the full Tier 1 index and roadmap.
 

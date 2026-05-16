@@ -9,8 +9,10 @@ Each Tier 1 paper:
 - links back to the Tier 0 core ITU paper via Zenodo `isSupplementTo` / `isPartOf` relations
 - can be cited independently
 
-| Tier 0 (core) | [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209) | Information-Theoretic Unification of Physics, Life, and Consciousness (42 phases) |
+| Tier 0 (core) | [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209) | Information-Theoretic Unification of Physics, Life, and Consciousness (concept DOI, resolves to latest) |
 |---|---|---|
+| Tier 0 v2.0.0 | [10.5281/zenodo.20133709](https://doi.org/10.5281/zenodo.20133709) | Phase 1-42 (42-phase numerical demonstration) |
+| Tier 0 v3.0.0 ✨ | [10.5281/zenodo.20200156](https://doi.org/10.5281/zenodo.20200156) | Phase 107-110: Intermediate integration of Tier 1 #1-#16 |
 
 ## Published Tier 1 Papers
 
@@ -33,15 +35,22 @@ Each Tier 1 paper:
 | 15 | [ITU and Infrastructure / Power Grid](infrastructure/) | [10.5281/zenodo.20226481](https://doi.org/10.5281/zenodo.20226481) | 99-102 | `infrastructure/` | ✅ v1.0.0 |
 | 16 | [ITU and Smart Cities](smartcities/) | [10.5281/zenodo.20228581](https://doi.org/10.5281/zenodo.20228581) | 103-106 | `smartcities/` | ✅ v1.0.0 |
 
-> **🎉🎉🎉🎉🎉🎉🎉 ITU 16-vertex polytope COMPLETED — URBAN ULTIMATE HUB added (engineering-industry block COMPLETE)**: Engineering pentagon (#1-#4 + #10) + Medicine triangle (#5-#7) + Social (#8) + Philosophy (#9) + Biosphere super-hub (#11, deg 11) + Cosmic axis (#12, deg 4) + Embodiment axis (#13, deg 9) + K-channel super-hub (#14, deg 11) + K-skeleton (#15, deg 8) + **URBAN ULTIMATE HUB (#16, deg 15)** ← NEW. Smart Cities (#16) connects to **ALL 15 other vertices** — the polytope's **ULTIMATE hub** with maximum possible degree. Cities = K-OS (operating system) integrating 7 K-state layers. **Engineering-industry block (Phases 91-106) COMPLETE**: Robotics #13 + Communications #14 + Infrastructure #15 + Smart Cities #16. Sixteen Tier 1 papers, all under dS = d<K>. Pass-1 progress: 106 of 220 phases (48.2%).
+> **🎉 Pass-1 50% MILESTONE achieved — Tier 0 v3.0 published**: 16-vertex polytope completed (engineering pentagon #1-#4+#10, medicine triangle #5-#7, social #8, philosophy #9, biosphere super-hub #11, cosmic axis #12, embodiment axis #13, K-channel super-hub #14, K-skeleton #15, **URBAN ULTIMATE HUB #16 deg 15**). Tier 0 v3.0 (Phase 107-110) integrates all 16 Tier 1 papers into a unified polytope graph (60 edges, γ=0.79 power-law), 5 meta-axioms β-1〜β-5, 160 falsifiable predictions (top 50 selected, 50% Strong falsifiability), and Pass-2 framework (Phase 221-230 priority Tier 1: #1 QC, #2 AI, #5 Cancer, #10 Energy, #11 Climate, #16 Smart Cities). Pass-1 progress: **110 of 220 phases = 50.0%**.
 
 ## Planned Tier 1 Papers
 
 | # | Paper | Phases | Status |
 |---|---|---|---|
-| (Tier 0 v3.0) | Intermediate integration | 107-110 | planned |
-| 17+ | Block A: Physics/math deepening | 111-140 | planned |
-| 18+ | (full roadmap to Phase 250) | 141-250 | planned |
+| Tier 0 v3.0 | Intermediate integration | 107-110 | ✅ v3.0.0 published |
+| 17 | Block A #17: Quantum Gravity | 111-118 | planned (next) |
+| 18 | Block A #18: Black Holes | 119-126 | planned |
+| 19 | Block A #19: Cosmology | 127-134 | planned |
+| 20 | Block A #20: Standard Model | 135-142 | planned |
+| 21-25 | Block A #21-#25: Stat Mech / Math / Info Theory / Complexity / Foundations | 143-180 | planned |
+| 26-45 | Block B-F (Life Sci / Social / Eng / Meta / Ext) | 181-210 | planned |
+| Tier 0 v4.0 | Pass-1 final (45 Tier 1) | 211-220 | planned |
+| Pass-2 | All 45 Tier 1 predictive re-run | 221-249 | planned |
+| Tier 0 v5.0 | Pass-2 final | 250 | planned |
 
 ## Structure
 
@@ -129,7 +138,12 @@ papers/
 │   ├── theory_phase103-106.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Tier 0 v3.0 + Block A planned)
+├── tier0_v3/                           Tier 0 v3.0.0 ✨ (Phase 107-110, Pass-1 50%)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase107-110.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Block A #17-#25 planned, Phase 111-180)
 ```
 
 ## How to cite a Tier 1 paper
@@ -243,6 +257,13 @@ Roadmap (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20226481
 Terada, M. (2026). ITU and Smart Cities: A Single-Axiom View of Urban K-OS,
 AGI Cities, Sustainability, Privacy-Efficiency Tradeoff, and the 2026-2050
 Smart City Roadmap (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20228581
+```
+
+```
+Terada, M. (2026). Information-Theoretic Unification (ITU) Tier 0 v3.0:
+Intermediate Integration of Tier 1 #1-#16 — 16-Vertex Polytope, Meta-Axioms,
+160 Falsifiable Predictions, and Pass-2 Framework (v3.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20200156
 ```
 
 Plus the core ITU citation:
