@@ -1,0 +1,244 @@
+{
+  "phase": 90,
+  "title": "Astrobiology / SETI roadmap 2026-2100 + Tier 1 #12 completion",
+  "test1_roadmap": {
+    "milestones": [
+      {
+        "year": 2024,
+        "label": "DMS @ K2-18b 2.4 sigma (Madhusudhan)",
+        "category": "obs",
+        "status": "done"
+      },
+      {
+        "year": 2025,
+        "label": "JWST cycle 4 K2-18b followup",
+        "category": "obs",
+        "status": "planned"
+      },
+      {
+        "year": 2027,
+        "label": "K2-18b DMS 5 sigma confirm/deny",
+        "category": "obs",
+        "status": "predicted"
+      },
+      {
+        "year": 2028,
+        "label": "ELT first light",
+        "category": "obs",
+        "status": "planned"
+      },
+      {
+        "year": 2030,
+        "label": "GMT first light",
+        "category": "obs",
+        "status": "planned"
+      },
+      {
+        "year": 2032,
+        "label": "TMT first light",
+        "category": "obs",
+        "status": "planned"
+      },
+      {
+        "year": 2032,
+        "label": "Breakthrough Listen phase 2 end",
+        "category": "SETI",
+        "status": "planned"
+      },
+      {
+        "year": 2035,
+        "label": "AGI accelerates SETI 1000x",
+        "category": "tech",
+        "status": "predicted"
+      },
+      {
+        "year": 2040,
+        "label": "HWO launch",
+        "category": "obs",
+        "status": "predicted"
+      },
+      {
+        "year": 2042,
+        "label": "HWO 50+ exoplanet atmospheres",
+        "category": "obs",
+        "status": "predicted"
+      },
+      {
+        "year": 2045,
+        "label": "First confirmed biosignature (P=0.4)",
+        "category": "milestone",
+        "status": "predicted"
+      },
+      {
+        "year": 2050,
+        "label": "UN ETI contact protocol (Rio scale)",
+        "category": "policy",
+        "status": "predicted"
+      },
+      {
+        "year": 2055,
+        "label": "Proxima b flyby (Starshot)",
+        "category": "exploration",
+        "status": "predicted"
+      },
+      {
+        "year": 2060,
+        "label": "ALH84001-Mars reassessment",
+        "category": "obs",
+        "status": "predicted"
+      },
+      {
+        "year": 2070,
+        "label": "LISA-X civilization GW search",
+        "category": "obs",
+        "status": "predicted"
+      },
+      {
+        "year": 2080,
+        "label": "TRAPPIST-1 direct mission",
+        "category": "exploration",
+        "status": "predicted"
+      },
+      {
+        "year": 2100,
+        "label": "Fermi paradox: resolved or continued",
+        "category": "milestone",
+        "status": "predicted"
+      }
+    ],
+    "n_total": 17
+  },
+  "test2_predictions": {
+    "predictions": [
+      {
+        "id": 1,
+        "year": 2027,
+        "claim": "K2-18b DMS 5 sigma confirm",
+        "p": 0.35
+      },
+      {
+        "id": 2,
+        "year": 2030,
+        "claim": "JWST 2nd DMS candidate",
+        "p": 0.4
+      },
+      {
+        "id": 3,
+        "year": 2040,
+        "claim": "HWO launches on schedule",
+        "p": 0.65
+      },
+      {
+        "id": 4,
+        "year": 2045,
+        "claim": "HWO spectra 5+ Earth-like atms",
+        "p": 0.7
+      },
+      {
+        "id": 5,
+        "year": 2045,
+        "claim": "First confirmed biosignature",
+        "p": 0.4
+      },
+      {
+        "id": 6,
+        "year": 2030,
+        "claim": "Breakthrough Listen still null",
+        "p": 0.85
+      },
+      {
+        "id": 7,
+        "year": 2050,
+        "claim": "Type II Kardashev absent in galaxy",
+        "p": 0.85
+      },
+      {
+        "id": 8,
+        "year": 2035,
+        "claim": "EQ-K_self confirmed in fossil record",
+        "p": 0.65
+      },
+      {
+        "id": 9,
+        "year": 2030,
+        "claim": "RNA self-replication synthesized",
+        "p": 0.55
+      },
+      {
+        "id": 10,
+        "year": 2100,
+        "claim": "No definite ETI contact by 2100",
+        "p": 0.75
+      }
+    ],
+    "p_avg": 0.615,
+    "n_total": 10
+  },
+  "test3_polytope": {
+    "n_vertices": 12,
+    "n_edges": 23,
+    "max_degree_vertex_id": 11,
+    "max_degree": 7,
+    "degree": {
+      "1": 3,
+      "2": 6,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 3,
+      "7": 3,
+      "8": 3,
+      "9": 3,
+      "10": 5,
+      "11": 7,
+      "12": 4
+    }
+  },
+  "test4_integration": {
+    "phases": {
+      "Phase 87": {
+        "title": "ITU foundation",
+        "key_values": {
+          "K_life range orders": 22,
+          "Drake N median": 0.27,
+          "PB-style top exoplanet HI (Teegarden b)": 0.58,
+          "Great Filter combined": "65%"
+        }
+      },
+      "Phase 88": {
+        "title": "Drake Bayesian + SDA",
+        "key_values": {
+          "P(alone in galaxy)": "87%",
+          "P(alone in universe)": "33%",
+          "hard steps": 2,
+          "Type II detection ly": "6e9",
+          "BL Bayes 10pct->": "2.2%"
+        }
+      },
+      "Phase 89": {
+        "title": "Abiogenesis + intelligence",
+        "key_values": {
+          "Cambrian speedup": "2x",
+          "EQ-K_self r": 0.9,
+          "K2-18b prior 5pct -> posterior": "30%"
+        }
+      },
+      "Phase 90": {
+        "title": "Roadmap + polytope",
+        "key_values": {
+          "milestones": 17,
+          "n_predictions": 10,
+          "polytope vertices": 12,
+          "Pass-1 progress %": 40.9
+        }
+      }
+    },
+    "crosscuts": {
+      "Tier 1 #11 (Climate)": "Earth habitability = self Great Filter candidate",
+      "Tier 1 #2 (AI/ASI)": "ASI alignment failure = future Great Filter",
+      "Tier 1 #6 (Aging)": "Civilization lifetime L physics",
+      "Tier 1 #9 (Free Will)": "Alien ethics, contact governance",
+      "Tier 0 (Phase 30-35)": "Life self-organization foundation"
+    }
+  }
+}

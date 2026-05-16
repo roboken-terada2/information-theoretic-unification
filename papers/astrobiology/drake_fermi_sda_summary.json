@@ -1,0 +1,142 @@
+{
+  "phase": 88,
+  "title": "Drake Bayesian + Fermi detailed + SDA",
+  "test1_sandberg": {
+    "N_median": 2.2812610222860035e-08,
+    "N_mean": 12628.742119596882,
+    "N_log10_median": -7.64182501982951,
+    "P_alone_galaxy": 0.87235,
+    "P_alone_universe": 0.32987,
+    "sandberg_2018_galaxy": 0.53,
+    "sandberg_2018_universe": 0.3
+  },
+  "test2_hard_steps": {
+    "steps": [
+      {
+        "name": "Abiogenesis",
+        "dt_Gyr": 0.5,
+        "ITU_K_axis": "chemical -> info",
+        "is_hard": false
+      },
+      {
+        "name": "Prokaryote",
+        "dt_Gyr": 0.5,
+        "ITU_K_axis": "self-replication",
+        "is_hard": false
+      },
+      {
+        "name": "Photosynthesis",
+        "dt_Gyr": 1.0,
+        "ITU_K_axis": "energy source",
+        "is_hard": false
+      },
+      {
+        "name": "Eukaryote",
+        "dt_Gyr": 2.0,
+        "ITU_K_axis": "endosymbiosis (HARD)",
+        "is_hard": true
+      },
+      {
+        "name": "Multicellular",
+        "dt_Gyr": 0.5,
+        "ITU_K_axis": "cooperative",
+        "is_hard": false
+      },
+      {
+        "name": "Cambrian explosion",
+        "dt_Gyr": 0.05,
+        "ITU_K_axis": "diversification",
+        "is_hard": false
+      },
+      {
+        "name": "Mammals",
+        "dt_Gyr": 0.2,
+        "ITU_K_axis": "neural",
+        "is_hard": false
+      },
+      {
+        "name": "Intelligence (humans)",
+        "dt_Gyr": 0.06,
+        "ITU_K_axis": "K_self (HARD)",
+        "is_hard": true
+      }
+    ],
+    "mean_dt_Gyr": 0.6012500000000001,
+    "n_hard_steps": 2,
+    "hard_step_threshold": 1.2025000000000001,
+    "hard_step_names": [
+      "Eukaryote",
+      "Intelligence (humans)"
+    ]
+  },
+  "test3_sda": {
+    "S_min_Wm2": 1e-26,
+    "transmitters": [
+      {
+        "name": "TV leakage (terrestrial)",
+        "P_T": 1000000.0,
+        "d_max_m": 2820947917738781.5,
+        "d_max_ly": 0.2981659357085701
+      },
+      {
+        "name": "Earth radar (military)",
+        "P_T": 1000000000.0,
+        "d_max_m": 8.920620580763856e+16,
+        "d_max_ly": 9.428834775144125
+      },
+      {
+        "name": "Arecibo message (1974)",
+        "P_T": 20000000000000.0,
+        "d_max_m": 1.26156626101008e+19,
+        "d_max_ly": 1333.4386016383892
+      },
+      {
+        "name": "Type I (planetary)",
+        "P_T": 1e+17,
+        "d_max_m": 8.920620580763856e+20,
+        "d_max_ly": 94288.34775144124
+      },
+      {
+        "name": "Type II (Dyson sphere)",
+        "P_T": 4e+26,
+        "d_max_m": 5.641895835477563e+25,
+        "d_max_ly": 5963318714.171402
+      },
+      {
+        "name": "Type III (galactic)",
+        "P_T": 1e+37,
+        "d_max_m": 8.920620580763855e+30,
+        "d_max_ly": 942883477514412.2
+      }
+    ],
+    "FAST_max_range_ly_Arecibo": 1333.4386016383892,
+    "Type_II_galactic_diameter_ratio": 59633.18714171402
+  },
+  "test4_bayesian": {
+    "priors": [
+      0.01,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "L_given_ETI": 0.2,
+    "L_given_absence": 1.0,
+    "posteriors": [
+      0.0020161290322580645,
+      0.01041666666666667,
+      0.02173913043478261,
+      0.04761904761904762,
+      0.16666666666666669
+    ],
+    "update_factor": [
+      0.20161290322580644,
+      0.20833333333333337,
+      0.2173913043478261,
+      0.2380952380952381,
+      0.33333333333333337
+    ],
+    "BL_observation_summary": "16000 stars in 1-12 GHz, all null (Price 2020, 2023)",
+    "prior_10pct_posterior": 0.02173913043478261
+  }
+}

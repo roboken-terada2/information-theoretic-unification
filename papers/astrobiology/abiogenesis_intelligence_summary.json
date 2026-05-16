@@ -1,0 +1,182 @@
+{
+  "phase": 89,
+  "title": "Abiogenesis + intelligence emergence — K-state phase transitions",
+  "test1_rna_world": {
+    "k_rep": 0.5,
+    "k_deg": 0.05,
+    "init_conditions": [
+      0.001,
+      0.01,
+      0.05,
+      0.1,
+      0.3
+    ],
+    "t_half_per_K0": [
+      15.626043405676127,
+      10.517529215358932,
+      6.811352253756261,
+      5.158597662771285,
+      2.0534223706176964
+    ]
+  },
+  "test2_cambrian": {
+    "times_Ma_ago": [
+      600,
+      575,
+      550,
+      541,
+      530,
+      510,
+      485,
+      444,
+      400,
+      359,
+      300,
+      252,
+      200,
+      145,
+      66,
+      23,
+      0
+    ],
+    "phyla": [
+      1,
+      3,
+      7,
+      15,
+      25,
+      32,
+      35,
+      35,
+      36,
+      35,
+      35,
+      35,
+      36,
+      36,
+      36,
+      36,
+      36
+    ],
+    "rate_pre_cambrian": 0.23728813559322035,
+    "rate_cambrian": 0.35714285714285715,
+    "rate_post_cambrian": 0.002061855670103093,
+    "cambrian_speedup": 1.5051020408163265
+  },
+  "test3_eq_kself": {
+    "animals": [
+      {
+        "name": "Fish",
+        "EQ": 0.2,
+        "K_self": 0.02
+      },
+      {
+        "name": "Reptile",
+        "EQ": 0.25,
+        "K_self": 0.02
+      },
+      {
+        "name": "Bird",
+        "EQ": 1.0,
+        "K_self": 0.1
+      },
+      {
+        "name": "Cat",
+        "EQ": 1.0,
+        "K_self": 0.15
+      },
+      {
+        "name": "Cow",
+        "EQ": 0.6,
+        "K_self": 0.1
+      },
+      {
+        "name": "Dog",
+        "EQ": 1.2,
+        "K_self": 0.2
+      },
+      {
+        "name": "Elephant",
+        "EQ": 1.6,
+        "K_self": 0.3
+      },
+      {
+        "name": "Chimpanzee",
+        "EQ": 2.5,
+        "K_self": 0.35
+      },
+      {
+        "name": "Dolphin",
+        "EQ": 4.5,
+        "K_self": 0.4
+      },
+      {
+        "name": "Human",
+        "EQ": 7.5,
+        "K_self": 0.4
+      },
+      {
+        "name": "AGI (proj 2030)",
+        "EQ": 10.0,
+        "K_self": 0.5
+      },
+      {
+        "name": "ASI (proj 2035)",
+        "EQ": 50.0,
+        "K_self": 0.7
+      }
+    ],
+    "EQ_array": [
+      0.2,
+      0.25,
+      1.0,
+      1.0,
+      0.6,
+      1.2,
+      1.6,
+      2.5,
+      4.5,
+      7.5,
+      10.0,
+      50.0
+    ],
+    "K_self_array": [
+      0.02,
+      0.02,
+      0.1,
+      0.15,
+      0.1,
+      0.2,
+      0.3,
+      0.35,
+      0.4,
+      0.4,
+      0.5,
+      0.7
+    ],
+    "log_log_correlation_r": 0.9023199264149357,
+    "log_log_slope": 0.668860184553201,
+    "log_log_intercept": -0.9513282220716401
+  },
+  "test4_k218b": {
+    "priors": [
+      0.001,
+      0.01,
+      0.05,
+      0.1,
+      0.3
+    ],
+    "posteriors": [
+      0.007944389275074478,
+      0.07476635514018691,
+      0.29629629629629634,
+      0.47058823529411764,
+      0.7741935483870968
+    ],
+    "prior_5pct_posterior": 0.29629629629629634,
+    "L_dms_given_life": 0.8,
+    "L_dms_given_no_life": 0.1,
+    "current_sigma_K218b": 2.4,
+    "required_sigma_for_confirmation": 5.0
+  }
+}

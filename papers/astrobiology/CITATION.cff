@@ -1,0 +1,220 @@
+cff-version: 1.2.0
+title: "ITU and Astrobiology / SETI: A Single-Axiom View of K-Life Emergence, Drake Equation, Habitability, Biosignatures, and the Fermi Paradox"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current version v2.0.0 at 10.5281/zenodo.20133709) to astrobiology and
+  SETI. Life is reframed as self-replicating K-flow patterns, with
+  information content spanning 22 orders of magnitude from viruses
+  (10^4 bits) to projected ASI (10^26 bits). The Drake equation is
+  reinterpreted as a K-state cascade probability. This is Tier 1
+  paper #12, opening the cosmic axis and bringing the ITU polytope
+  to 12 vertices. Pass-1 progress: 90 of 220 phases (40.9%).
+  Phase 87 establishes the ITU foundation. K_life information content
+  ranges 22 orders of magnitude. Drake Monte Carlo with lognormal
+  priors gives N median = 0.27 civilizations/galaxy (67% with N < 1).
+  Habitability Index ranks exoplanets: Earth 1.00, Teegarden b 0.58,
+  TOI-700d 0.45, TRAPPIST-1e 0.41, Proxima b 0.36, Kepler-452b 0.13.
+  Fermi paradox 12-hypothesis ITU weighting: Great Filter combined
+  65% (past 40% + future 25%), Rare Earth 15%, Dark Forest 8%.
+  Phase 88 applies the Sandberg-Drexler-Ord 2018 log-uniform Drake
+  approach. P(alone in galaxy) = 87% (Sandberg 53%), P(alone in
+  observable universe) = 33% (Sandberg 30%). Carter-Watson hard step
+  analysis identifies 2 hard steps: Eukaryote (2.0 Gyr delay) and
+  Intelligence (Tier 1 #9 K_self HARD criterion). SDA shows Type II
+  Dyson sphere detection range = 6e9 ly (60,000x galactic diameter),
+  meaning absence of Type II is informative. Bayesian update from
+  Breakthrough Listen null result reduces near-ETI probability
+  10% -> 2.2% (5x reduction).
+  Phase 89 examines abiogenesis and intelligence emergence as K-state
+  phase transitions. RNA world autocatalytic dynamics: low initial
+  K_0 still reaches half-max in ~16 time units (inevitable given
+  bootstrap). Cambrian explosion phyla diversification 2x speedup
+  vs pre-Cambrian, with post-Cambrian rate essentially zero (all
+  phyla emerge in Cambrian). Encephalization Quotient vs K_self
+  degree across 12 organisms shows log-log correlation r = 0.902
+  (slope 0.669). K2-18b DMS Bayesian: prior 5% -> posterior 30%
+  given Madhusudhan 2023 2.4 sigma tentative detection.
+  Phase 90 synthesises the 2026-2100 roadmap with 17 milestones and
+  10 falsifiable predictions (P_avg = 0.61). Key milestones: 2027
+  K2-18b DMS 5 sigma judgement, 2040 HWO launch, 2045 first
+  confirmed biosignature (P=0.4), 2050 UN ETI contact protocol,
+  2055 Proxima b flyby (Starshot), 2100 Fermi resolution.
+  The ITU 12-vertex polytope completes by adding the cosmic axis.
+  Astrobiology vertex bidirectionally connects Climate (#11),
+  AI/ASI (#2), Aging (#6), Free Will (#9), and Tier 0 (life
+  self-organization). Climate (#11) remains super-hub at degree 7.
+  Central thesis: life is self-replicating K-flow; intelligence is
+  K_self degree (continuous spectrum); Fermi silence is consistent
+  with Sandberg log-uniform priors and Great Filter at past hard
+  steps. Pass-1 interpretive paper reframing Drake, Sandberg,
+  Hanson, Carter-Watson, Madhusudhan, Lenton, Lingam-Loeb,
+  Breakthrough Listen, JWST exoplanet observations in ITU language.
+  Pass-2 work would derive ITU-specific biosignature combinations,
+  technosignature search strategies, and quantitative constraints
+  on Drake factors f_l and f_i from K-state phase-transition theory.
+keywords:
+  - astrobiology
+  - SETI
+  - search for extraterrestrial intelligence
+  - Drake equation
+  - Fermi paradox
+  - Great Filter
+  - Sandberg Drexler Ord
+  - dissolving the Fermi paradox
+  - habitability
+  - habitable zone
+  - exoplanet
+  - Kepler
+  - TESS
+  - JWST
+  - HWO
+  - Habitable Worlds Observatory
+  - K2-18b
+  - DMS
+  - dimethyl sulfide
+  - Madhusudhan
+  - Hycean planet
+  - TRAPPIST-1
+  - Proxima Centauri b
+  - Teegarden b
+  - TOI-700d
+  - Kepler-452b
+  - LHS 1140b
+  - biosignature
+  - technosignature
+  - Kardashev typology
+  - Type I Type II Type III
+  - Dyson sphere
+  - Breakthrough Listen
+  - Breakthrough Starshot
+  - FAST
+  - Allen Telescope Array
+  - rare earth hypothesis
+  - Ward Brownlee
+  - Carter anthropic
+  - Watson hard steps
+  - RNA world
+  - Gilbert
+  - Joyce
+  - abiogenesis
+  - LUCA
+  - Cambrian explosion
+  - Burgess Shale
+  - encephalization quotient
+  - EQ
+  - Jerison
+  - K_self
+  - K-life
+  - K-flow
+  - Lingam Loeb
+  - Sagan
+  - Tarter
+  - Dark Forest
+  - Three Body Problem
+  - Liu Cixin
+  - Zoo hypothesis
+  - Information-Theoretic Unification
+  - ITU
+  - cosmic axis
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/astrobiology"
+url: "https://doi.org/10.5281/zenodo.20222121"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20222121"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-15"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest version). Current version v2.0.0 at 10.5281/zenodo.20133709."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Drake
+        given-names: Frank
+    title: "Project Ozma: equation for civilizations"
+    year: 1961
+  - type: article
+    authors:
+      - family-names: Sandberg
+        given-names: Anders
+      - family-names: Drexler
+        given-names: Eric
+      - family-names: Ord
+        given-names: Toby
+    title: "Dissolving the Fermi Paradox"
+    journal: "arXiv:1806.02404"
+    year: 2018
+  - type: article
+    authors:
+      - family-names: Hanson
+        given-names: Robin
+    title: "The Great Filter — Are We Almost Past It?"
+    year: 1998
+  - type: article
+    authors:
+      - family-names: Carter
+        given-names: Brandon
+    title: "The anthropic principle and its implications for biological evolution"
+    journal: "Phil. Trans. R. Soc. A"
+    year: 1983
+  - type: article
+    authors:
+      - family-names: Watson
+        given-names: Andrew J
+    title: "Implications of an anthropic model of evolution for emergence of complex life and intelligence"
+    journal: "Astrobiology"
+    volume: 8
+    pages: 175
+    year: 2008
+  - type: article
+    authors:
+      - family-names: Madhusudhan
+        given-names: Nikku
+    title: "Carbon-bearing Molecules in a Possible Hycean Atmosphere"
+    journal: "ApJL"
+    volume: 956
+    pages: L13
+    year: 2023
+  - type: book
+    authors:
+      - family-names: Ward
+        given-names: Peter
+      - family-names: Brownlee
+        given-names: Donald
+    title: "Rare Earth: Why Complex Life Is Uncommon in the Universe"
+    publisher: "Copernicus Books"
+    year: 2000
+  - type: book
+    authors:
+      - family-names: Lingam
+        given-names: Manasvi
+      - family-names: Loeb
+        given-names: Avi
+    title: "Life in the Cosmos: From Biosignatures to Technosignatures"
+    publisher: "Harvard University Press"
+    year: 2021
+  - type: article
+    authors:
+      - family-names: Kardashev
+        given-names: Nikolai
+    title: "Transmission of Information by Extraterrestrial Civilizations"
+    journal: "Soviet Astronomy"
+    volume: 8
+    pages: 217
+    year: 1964

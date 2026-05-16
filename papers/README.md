@@ -27,14 +27,14 @@ Each Tier 1 paper:
 | 9 | [ITU and Free Will](free-will/) | [10.5281/zenodo.20197016](https://doi.org/10.5281/zenodo.20197016) | 75-78 | `free-will/` | ✅ v1.0.0 |
 | 10 | [ITU and Energy / Materials](energy-materials/) | [10.5281/zenodo.20199598](https://doi.org/10.5281/zenodo.20199598) | 79-82 | `energy-materials/` | ✅ v1.0.0 |
 | 11 | [ITU and Climate / Earth Systems](climate-earth/) | [10.5281/zenodo.20200728](https://doi.org/10.5281/zenodo.20200728) | 83-86 | `climate-earth/` | ✅ v1.0.0 |
+| 12 | [ITU and Astrobiology / SETI](astrobiology/) | [10.5281/zenodo.20222121](https://doi.org/10.5281/zenodo.20222121) | 87-90 | `astrobiology/` | ✅ v1.0.0 |
 
-> **🎉🎉 ITU 11-vertex polytope COMPLETED — biosphere super-hub**: Tier 1 #1-#4 + #10 form the **engineering pentagon** (computation, intelligence, communication, substrate, energy). Tier 1 #5-#7 form the **medicine triangle** (cancer acute, aging chronic, psychiatry brain-circuit). **#8 (Economics)** is the social-sciences vertex and **#9 (Free Will)** is the philosophy vertex. **#11 (Climate / Earth Systems)** is the **biosphere super-hub** (highest connectivity degree, 6 — bidirectionally connects Energy #10, Economics #8, AI #2, Cancer #5, Free Will #9). Eleven Tier 1 papers, all under the ITU axiom dS = d<K>. Pass-1 progress: 86 of 220 phases (39.1%).
+> **🎉🎉🎉 ITU 12-vertex polytope COMPLETED — cosmic axis added**: Tier 1 #1-#4 + #10 form the **engineering pentagon** (computation, intelligence, communication, substrate, energy). Tier 1 #5-#7 form the **medicine triangle** (cancer acute, aging chronic, psychiatry brain-circuit). **#8 (Economics)** is the social-sciences vertex, **#9 (Free Will)** is the philosophy vertex, and **#11 (Climate / Earth Systems)** is the **biosphere super-hub** (degree 7 — bidirectionally connects Energy #10, Economics #8, AI #2, Cancer #5, Free Will #9). **#12 (Astrobiology / SETI)** opens the **cosmic axis** — connecting Climate #11, AI/ASI #2, Aging #6, Free Will #9, and Tier 0 (life self-organization). Twelve Tier 1 papers, all under the ITU axiom dS = d<K>. Pass-1 progress: 90 of 220 phases (40.9%).
 
 ## Planned Tier 1 Papers
 
 | # | Paper | Phases | Status |
 |---|---|---|---|
-| 12 | ITU and Astrobiology / SETI | 87-90 | planned |
 | 13+ | (full roadmap to Phase 220) | 91-220 | planned |
 
 ## Structure
@@ -98,7 +98,12 @@ papers/
 │   ├── theory_phase83-86.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Tier 1 #12+ planned)
+├── astrobiology/                       Tier 1 #12: Astrobiology / SETI (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase87-90.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Tier 1 #13+ planned)
 ```
 
 ## How to cite a Tier 1 paper
@@ -180,6 +185,13 @@ Terada, M. (2026). ITU and Climate / Earth Systems: A Single-Axiom View
 of Atmospheric Information, Earth Energy Imbalance, Planetary Boundaries,
 Tipping Points, and the 2026-2100 Mitigation Roadmap (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20200728
+```
+
+```
+Terada, M. (2026). ITU and Astrobiology / SETI: A Single-Axiom View
+of K-Life Emergence, Drake Equation, Habitability, Biosignatures,
+and the Fermi Paradox (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20222121
 ```
 
 Plus the core ITU citation:
