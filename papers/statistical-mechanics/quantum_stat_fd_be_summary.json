@@ -1,0 +1,62 @@
+{
+  "phase": 144,
+  "title": "Quantum statistics: FD + BE + BEC + superfluidity in ITU",
+  "tier1_id": 21,
+  "tier1_name": "Statistical Mechanics",
+  "block": "A (Physics/Math) — paper 5/9, phase 2/8",
+  "three_distributions_normalized": "see figure",
+  "fermi_energy_cu": {
+    "n_e": 8.49758278860129e+28,
+    "eps_F_eV": 7.0490952965646505,
+    "T_F_K": 81792.33581523305,
+    "T_room_over_T_F": 0.003667825316514898
+  },
+  "BEC_critical_T_Rb87": {
+    "m_Rb_kg": 1.444635e-25,
+    "n_per_m3": 1e+20,
+    "T_BEC_K": 3.979539298408348e-07,
+    "T_BEC_nK": 397.9539298408348
+  },
+  "BEC_condensate_fraction": "n_0/N = 1 - (T/T_BEC)^{3/2}",
+  "chandrasekhar_mass": {
+    "M_Ch_solar": 1.4574999999999998,
+    "mu_e": 2.0
+  },
+  "degeneracy_parameters": {
+    "systems": [
+      {
+        "system": "Air N2 @ 300 K",
+        "T_K": 300.0,
+        "n_per_m3": 2.5e+25,
+        "lambda_dB_m": 1.9048499595615346e-11,
+        "n_lambda3": 1.7279148130367145e-07,
+        "regime": "Classical MB"
+      },
+      {
+        "system": "Cu electrons @ 300 K",
+        "T_K": 300.0,
+        "n_per_m3": 8.5e+28,
+        "lambda_dB_m": 4.303520515298212e-09,
+        "n_lambda3": 6774.707647365803,
+        "regime": "Quantum"
+      },
+      {
+        "system": "Rb-87 cold @ 170 nK",
+        "T_K": 1.7e-07,
+        "n_per_m3": 1e+20,
+        "lambda_dB_m": 4.539586847468923e-07,
+        "n_lambda3": 9.355111912066691,
+        "regime": "Quantum"
+      },
+      {
+        "system": "Sun core @ 1.5e7 K",
+        "T_K": 15000000.0,
+        "n_per_m3": 1e+32,
+        "lambda_dB_m": 4.491363241341424e-13,
+        "n_lambda3": 9.060132328084632e-06,
+        "regime": "Classical MB"
+      }
+    ]
+  },
+  "verdict": "Quantum statistics (FD + BE) emerge from ITU K_stat with identical particle symmetry constraint. Spin-statistics theorem (Pauli 1940) = ITU axiom + Lorentz invariance. BEC at T~nK, Cu electrons degenerate at 5 eV, Chandrasekhar limit 1.4 M_sun from FD pressure."
+}

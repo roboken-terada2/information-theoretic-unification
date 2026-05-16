@@ -1,0 +1,99 @@
+{
+  "phase": 143,
+  "title": "Boltzmann + Maxwell-Boltzmann + K_stat foundation in ITU",
+  "tier1_id": 21,
+  "tier1_name": "Statistical Mechanics",
+  "block": "A (Physics/Math) — paper 5/9, phase 1/8",
+  "maxwell_boltzmann": {
+    "T_K": 300.0,
+    "v_p_mps": 422.1033616342747,
+    "v_mean_mps": 476.29263962909874,
+    "v_rms_mps": 516.9689273587271
+  },
+  "boltzmann_entropy": {
+    "T_K": 273.15,
+    "S_total_J_per_K": 148.48370968887244,
+    "log_W": 1.075463131388734e+25,
+    "log10_W": 4.6706770345251903e+24
+  },
+  "canonical_ensemble_2_level": {
+    "Z_at_beta_1": 1.3328710836980795,
+    "F_at_beta_1": -0.26121393192311887
+  },
+  "max_entropy_principle": [
+    {
+      "beta": 0.1,
+      "probabilities": [
+        0.28865140515740234,
+        0.26118259215507555,
+        0.23632778232153764,
+        0.21383822036598443
+      ],
+      "mean_E": 1.375352817896104,
+      "entropy": 1.3800708112447733
+    },
+    {
+      "beta": 0.5,
+      "probabilities": [
+        0.45505423392341127,
+        0.27600434470659363,
+        0.16740509727844333,
+        0.1015363240915518
+      ],
+      "mean_E": 0.9154235115381357,
+      "entropy": 1.2450504274673975
+    },
+    {
+      "beta": 1.0,
+      "probabilities": [
+        0.6439142598879724,
+        0.23688281808991013,
+        0.08714431874203257,
+        0.03205860328008499
+      ],
+      "mean_E": 0.5073472654142303,
+      "entropy": 0.9475369639754255
+    },
+    {
+      "beta": 2.0,
+      "probabilities": [
+        0.8649548767993754,
+        0.11705891323853293,
+        0.01584220117850692,
+        0.002144008783584634
+      ],
+      "mean_E": 0.15517534194630067,
+      "entropy": 0.45542862285338365
+    },
+    {
+      "beta": 5.0,
+      "probabilities": [
+        0.9932620550481802,
+        0.00669254708311735,
+        4.509402753492875e-05,
+        3.0384116750565056e-07
+      ],
+      "mean_E": 0.006783646661689724,
+      "entropy": 0.04067898069678356
+    }
+  ],
+  "ensemble_equivalence": [
+    {
+      "N": 10,
+      "sigma_over_mean": 0.31622776601683794
+    },
+    {
+      "N": 100,
+      "sigma_over_mean": 0.1
+    },
+    {
+      "N": 1000,
+      "sigma_over_mean": 0.03162277660168379
+    },
+    {
+      "N": 10000,
+      "sigma_over_mean": 0.01
+    }
+  ],
+  "verdict": "Boltzmann + Maxwell-Boltzmann + Gibbs ensembles = ITU K_stat thermal equilibrium framework. Statistical mechanics is the ITU axiom dS = d<K> specialized to thermal/multi-body systems."
+}

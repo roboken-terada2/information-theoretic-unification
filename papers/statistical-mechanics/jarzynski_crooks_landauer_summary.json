@@ -1,0 +1,48 @@
+{
+  "phase": 147,
+  "title": "Fluctuation theorems — Jarzynski + Crooks + Landauer",
+  "tier1_paper": "#21 Statistical Mechanics (phase 5/8)",
+  "setup": {
+    "potential": "U_λ(x) = (1/2) k (x - λ)^2",
+    "protocol": "linear ramp λ: 0 → 2.0, time τ = 1.0",
+    "dynamics": "overdamped Langevin",
+    "n_trajectories": 5000,
+    "n_steps": 200,
+    "k_B_T": 1.0
+  },
+  "tests": {
+    "jarzynski": {
+      "DeltaF_true": 0.0,
+      "DeltaF_jarzynski_estimate": 0.06668971321089244,
+      "mean_W_forward": 1.4660752821256027,
+      "mean_W_reverse": 1.4594130034667385,
+      "fraction_W_less_than_DF": 0.2022
+    },
+    "crooks_crossing_W": 0.8125,
+    "integral_FT": {
+      "mean_sigma_tot": 1.4660752821256027,
+      "exp_minus_sigma_mean": 0.9354854250769559,
+      "theory_value": 1.0
+    },
+    "landauer": {
+      "T_K": 300.0,
+      "W_min_J_per_bit": 2.870978885078724e-21,
+      "W_min_meV_per_bit": 17.921216511103147,
+      "kT_units": 0.6931471805599453,
+      "experimental_verification": "Bérut et al. Nature 483, 187 (2012)"
+    }
+  },
+  "itu_interpretation": {
+    "jarzynski": "K_stat path-space exp moment = K_eq boundary contraction",
+    "crooks": "K_stat path probability time-reversal duality",
+    "second_law": "Jensen inequality corollary of Jarzynski equality",
+    "landauer": "K_info ↔ K_thermo minimal conversion cost (1 bit = k_B T ln 2)"
+  },
+  "key_findings": [
+    "Jarzynski ΔF = 0.067 (truth 0, naive ⟨W⟩ = 1.466)",
+    "20.2% trajectories have W < ΔF (allowed microscopic 'violations')",
+    "Crooks crossing point ≈ 0.812 (theory ΔF = 0)",
+    "Integral FT: ⟨e^(-σ)⟩ = 0.9355 (theory 1.000)",
+    "Landauer limit: 2.87e-21 J/bit = 17.92 meV/bit at 300 K"
+  ]
+}

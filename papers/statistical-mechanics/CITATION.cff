@@ -1,0 +1,333 @@
+cff-version: 1.2.0
+title: "ITU and Statistical Mechanics: A Single-Axiom View of Quantum Statistics, Phase Transitions, Fluctuation Theorems, Information Theory, and Complex Systems"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest
+  Tier 0 v3.0 at 10.5281/zenodo.20200156) to statistical mechanics.
+  This is Tier 1 paper #21, the fifth paper of Block A (Physics/Math
+  deepening), introducing K_stat = K_eq ⊕ K_FD ⊕ K_BE ⊕ K_phase ⊕
+  K_RG ⊕ K_response ⊕ K_path ⊕ K_info ⊕ K_complex and completing the
+  UNIVERSAL FOUNDATION with Tier 1 #17 Quantum Gravity (K_geom, DOI
+  10.5281/zenodo.20230667), Tier 1 #19 Cosmology (K_cosmic, DOI
+  10.5281/zenodo.20233952), and Tier 1 #20 Standard Model (K_field,
+  DOI 10.5281/zenodo.20234703). The ITU polytope reaches 21 vertices
+  with Tier 1 #21 attaining degree 20 (new maximum). Pass-1 progress:
+  150 of 220 phases (68.2%).
+  Phase 143 establishes the Boltzmann + Maxwell-Boltzmann + Gibbs
+  foundation: S = k_B ln Ω; canonical p_i = e^(-βE_i)/Z; v_p, v̄, v_rms
+  for N_2 at 300 K = 422, 476, 517 m/s; H-theorem framed via K_stat
+  coarse-graining.
+  Phase 144 covers Fermi-Dirac and Bose-Einstein statistics. Cu electron
+  Fermi energy ε_F = 7.05 eV, T_F = 8.18×10^4 K (degenerate at room T).
+  Rb-87 BEC critical temperature T_BEC = 398 nK (Cornell-Wieman-Ketterle
+  1995 order of magnitude). Chandrasekhar mass M_Ch ≈ 1.46 M_sun.
+  Superfluidity in He-4 (T_λ = 2.17 K) and He-3 (Cooper, 2.5 mK).
+  Spin-statistics theorem from K_quantum + Lorentz invariance.
+  Phase 145 develops phase transitions and critical phenomena.
+  Onsager's exact 2D Ising T_c = 2.269 J/k_B reproduced via Metropolis
+  Monte Carlo (L=16, χ peaks at T_c). Mean-field exponents (α=0,
+  β=1/2, γ=1, δ=3, ν=1/2, η=0) satisfy Rushbrooke / Widom / Fisher
+  scaling laws. Five universality classes tabulated. Wilson RG +
+  Migdal-Kadanoff illustrated. Mermin-Wagner and Kosterlitz-Thouless
+  (Nobel 2016) discussed.
+  Phase 146 covers non-equilibrium thermodynamics. Onsager L_ij = L_ji
+  verified in toy thermoelectric matrix. Kubo linear response χ_BA as
+  K_stat 2-point function. Langevin Brownian motion (200 particles,
+  0.5 μm bead, 300 K): D_fit = 4.92×10^-13 m²/s vs Einstein D =
+  4.40×10^-13 (ratio 1.12). Johnson-Nyquist V_rms = 12.87 μV for 1 MΩ.
+  Fokker-Planck Gaussian spreading verified.
+  Phase 147 demonstrates fluctuation theorems. Jarzynski equality
+  ⟨exp(-βW)⟩ = exp(-βΔF) in harmonic switching protocol (5000
+  trajectories): ΔF_Jarz ≈ 0.07 vs truth 0; 20.2% trajectories have
+  W < ΔF (microscopic 'violations' sanctioned by Crooks). Integral FT
+  ⟨e^(-σ)⟩ ≈ 0.94. Landauer limit W_erase ≥ k_BT ln 2 = 17.9 meV/bit at
+  300 K (Bérut et al. 2012 experimental anchor).
+  Phase 148 establishes the K_stat ↔ K_info isomorphism. Shannon
+  H for 6 distributions; Jaynes max-entropy reproduces canonical Gibbs
+  with H = βU + ln Z identity verified. 1 bit = k_B ln 2 ≈ 9.57×10^-24
+  J/K. Bell state |Φ+⟩: S(ρ_AB) = 0, S(ρ_A) = ln 2, quantum mutual
+  information = 2 ln 2 saturating classical bound.
+  Phase 149 covers complex systems. Vicsek active-matter flocking
+  transition (⟨v_a⟩ drops 0.79 → 0.07 as η: 0.05 → 2.5). BTW sandpile
+  SOC avalanche exponent τ ≈ 1.18. Barabási-Albert scale-free network
+  (N=1000, m=3): ⟨k⟩=5.99, γ ≈ 2.73. Schrödinger negative-entropy
+  flow: human 100 W / 310 K → 0.32 W/K = 2.9×10^27 bit/day; ATP
+  turnover 75 kg/day ≈ 85 W matches basal metabolism. Gray-Scott
+  Turing pattern.
+  Phase 150 integrates under K_stat. 21-vertex polytope: 152 edges,
+  ⟨k⟩ = 14.48. #21 strong couplings: #18 BH (0.90), #17 QG (0.85),
+  #20 SM (0.85), #10 Energy (0.80), #19 Cos (0.80); avg 0.603.
+  UNIVERSAL FOUNDATION K_geom + K_cosmic + K_field + K_stat covers
+  all physics. Ten predictions for 2026-2050: Crooks FT in quantum
+  computer 2028 P=0.80, active-matter universality 2030 P=0.65, life
+  thermodynamic efficiency bound 2032 P=0.60, CMB↔BEC 2035 P=0.30,
+  high-Tc universality 2028 P=0.70, BEC + Page curve 2032 P=0.70,
+  superfluid gravitational analog 2030 P=0.55, AI/ML thermodynamic
+  cost 2030 P=0.75, MEMS Maxwell demon 2027 P=0.80, dark matter halo
+  statistical signature 2035 P=0.50. Grand P_avg = 0.635.
+  Strong/Medium/Weak = 5/4/1.
+  Central thesis: ITU axiom dS = d<K> specializes to K_stat as the
+  universal information-energy backbone, unifying equilibrium and
+  non-equilibrium statistical mechanics, quantum statistics, phase
+  transitions, fluctuation theorems, information theory, and complex
+  systems under one principle. UNIVERSAL FOUNDATION (#17+#19+#20+#21)
+  covers all physics in 4 K-states. Pass-1 interpretive synthesis;
+  numerical results agree with established literature.
+keywords:
+  - statistical mechanics
+  - quantum statistics
+  - Bose-Einstein condensation
+  - phase transitions
+  - renormalization group
+  - fluctuation theorems
+  - information theory
+  - Shannon entropy
+  - complex systems
+  - self-organized criticality
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/statistical-mechanics"
+url: "https://doi.org/10.5281/zenodo.20237082"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20237082"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification (ITU) Tier 0 v3.0"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest). Current Tier 0 v3.0 at 10.5281/zenodo.20200156."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Boltzmann
+        given-names: Ludwig
+    title: "Weitere Studien über das Wärmegleichgewicht unter Gasmolekülen"
+    journal: "Wiener Berichte"
+    volume: "66"
+    pages: "275-370"
+    year: 1872
+  - type: book
+    authors:
+      - family-names: Gibbs
+        given-names: J. Willard
+    title: "Elementary Principles in Statistical Mechanics"
+    publisher: "Yale University Press"
+    year: 1902
+  - type: article
+    authors:
+      - family-names: Bose
+        given-names: Satyendra Nath
+    title: "Plancks Gesetz und Lichtquantenhypothese"
+    journal: "Zeitschrift für Physik"
+    volume: "26"
+    pages: "178-181"
+    year: 1924
+  - type: article
+    authors:
+      - family-names: Fermi
+        given-names: Enrico
+    title: "Sulla quantizzazione del gas perfetto monoatomico"
+    journal: "Rendiconti Lincei"
+    volume: "3"
+    pages: "145-149"
+    year: 1926
+  - type: article
+    authors:
+      - family-names: Dirac
+        given-names: Paul A. M.
+    title: "On the theory of quantum mechanics"
+    journal: "Proceedings of the Royal Society A"
+    volume: "112"
+    pages: "661-677"
+    year: 1926
+  - type: article
+    authors:
+      - family-names: Pauli
+        given-names: Wolfgang
+    title: "The connection between spin and statistics"
+    journal: "Physical Review"
+    volume: "58"
+    pages: "716-722"
+    year: 1940
+  - type: article
+    authors:
+      - family-names: Chandrasekhar
+        given-names: Subrahmanyan
+    title: "The maximum mass of ideal white dwarfs"
+    journal: "Astrophysical Journal"
+    volume: "74"
+    pages: "81-82"
+    year: 1931
+  - type: article
+    authors:
+      - family-names: Ising
+        given-names: Ernst
+    title: "Beitrag zur Theorie des Ferromagnetismus"
+    journal: "Zeitschrift für Physik"
+    volume: "31"
+    pages: "253-258"
+    year: 1925
+  - type: article
+    authors:
+      - family-names: Onsager
+        given-names: Lars
+    title: "Crystal statistics I. A two-dimensional model with order-disorder transition"
+    journal: "Physical Review"
+    volume: "65"
+    pages: "117-149"
+    year: 1944
+  - type: article
+    authors:
+      - family-names: Wilson
+        given-names: Kenneth G.
+    title: "Renormalization group and critical phenomena"
+    journal: "Physical Review B"
+    volume: "4"
+    pages: "3174-3183"
+    year: 1971
+  - type: article
+    authors:
+      - family-names: Kosterlitz
+        given-names: J. Michael
+      - family-names: Thouless
+        given-names: David J.
+    title: "Ordering, metastability and phase transitions in two-dimensional systems"
+    journal: "Journal of Physics C"
+    volume: "6"
+    pages: "1181-1203"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: Onsager
+        given-names: Lars
+    title: "Reciprocal relations in irreversible processes"
+    journal: "Physical Review"
+    volume: "37"
+    pages: "405-426"
+    year: 1931
+  - type: article
+    authors:
+      - family-names: Kubo
+        given-names: Ryogo
+    title: "Statistical-mechanical theory of irreversible processes"
+    journal: "Journal of the Physical Society of Japan"
+    volume: "12"
+    pages: "570-586"
+    year: 1957
+  - type: article
+    authors:
+      - family-names: Einstein
+        given-names: Albert
+    title: "Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung"
+    journal: "Annalen der Physik"
+    volume: "17"
+    pages: "549-560"
+    year: 1905
+  - type: article
+    authors:
+      - family-names: Jarzynski
+        given-names: Christopher
+    title: "Nonequilibrium equality for free energy differences"
+    journal: "Physical Review Letters"
+    volume: "78"
+    pages: "2690-2693"
+    year: 1997
+  - type: article
+    authors:
+      - family-names: Crooks
+        given-names: Gavin E.
+    title: "Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences"
+    journal: "Physical Review E"
+    volume: "60"
+    pages: "2721-2726"
+    year: 1999
+  - type: article
+    authors:
+      - family-names: Landauer
+        given-names: Rolf
+    title: "Irreversibility and heat generation in the computing process"
+    journal: "IBM Journal of Research and Development"
+    volume: "5"
+    pages: "183-191"
+    year: 1961
+  - type: article
+    authors:
+      - family-names: Bérut
+        given-names: Antoine
+    title: "Experimental verification of Landauer's principle linking information and thermodynamics"
+    journal: "Nature"
+    volume: "483"
+    pages: "187-189"
+    year: 2012
+  - type: article
+    authors:
+      - family-names: Shannon
+        given-names: Claude E.
+    title: "A mathematical theory of communication"
+    journal: "Bell System Technical Journal"
+    volume: "27"
+    pages: "379-423"
+    year: 1948
+  - type: article
+    authors:
+      - family-names: Jaynes
+        given-names: Edwin T.
+    title: "Information theory and statistical mechanics"
+    journal: "Physical Review"
+    volume: "106"
+    pages: "620-630"
+    year: 1957
+  - type: book
+    authors:
+      - family-names: Schrödinger
+        given-names: Erwin
+    title: "What is Life? The Physical Aspect of the Living Cell"
+    publisher: "Cambridge University Press"
+    year: 1944
+  - type: article
+    authors:
+      - family-names: Vicsek
+        given-names: Tamás
+    title: "Novel type of phase transition in a system of self-driven particles"
+    journal: "Physical Review Letters"
+    volume: "75"
+    pages: "1226-1229"
+    year: 1995
+  - type: article
+    authors:
+      - family-names: Bak
+        given-names: Per
+      - family-names: Tang
+        given-names: Chao
+      - family-names: Wiesenfeld
+        given-names: Kurt
+    title: "Self-organized criticality"
+    journal: "Physical Review Letters"
+    volume: "59"
+    pages: "381-384"
+    year: 1987
+  - type: article
+    authors:
+      - family-names: Barabási
+        given-names: Albert-László
+      - family-names: Albert
+        given-names: Réka
+    title: "Emergence of scaling in random networks"
+    journal: "Science"
+    volume: "286"
+    pages: "509-512"
+    year: 1999

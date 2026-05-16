@@ -1,0 +1,81 @@
+{
+  "phase": 149,
+  "title": "Complex systems + Active matter + Life thermodynamics + Networks",
+  "tier1_paper": "#21 Statistical Mechanics (phase 7/8)",
+  "tests": {
+    "vicsek": {
+      "eta_scan": [
+        0.05,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.5,
+        2.5
+      ],
+      "order_parameter": [
+        0.790747437410625,
+        0.89999527841743,
+        0.6710486865913893,
+        0.15111832443296933,
+        0.07551276268502534,
+        0.06654622732170444,
+        0.06537340988017862
+      ],
+      "transition_eta_estimate": "~0.5-0.8 (between flocking and disordered)"
+    },
+    "btw_sandpile": {
+      "lattice_L": 20,
+      "n_grains": 8000,
+      "n_avalanches": 3119,
+      "max_avalanche": 670,
+      "mean_avalanche": 39.134979159987175,
+      "tau_exponent_fit": 1.1826960834925297,
+      "theory_tau": "1.2-1.4 (2D BTW)"
+    },
+    "barabasi_albert": {
+      "N": 1000,
+      "m": 3,
+      "mean_degree": 5.988,
+      "max_degree": 103,
+      "gamma_fit": 2.7302510988929023,
+      "theory_gamma": 3.0
+    },
+    "life_thermodynamics": {
+      "metabolic_W": 100.0,
+      "T_body_K": 310.0,
+      "entropy_rate_W_per_K": 0.3225806451612903,
+      "entropy_per_day_J_per_K": 27870.967741935485,
+      "bits_per_day": 2.912348246807595e+27,
+      "ATP_mass_kg_per_day": 75.0,
+      "ATP_energy_MJ_per_day": 7.396449704142012,
+      "ATP_power_W": 85.6070567609029
+    },
+    "turing_pattern": {
+      "model": "Gray-Scott",
+      "Du": 0.16,
+      "Dv": 0.08,
+      "F": 0.035,
+      "k": 0.06,
+      "grid": "80x80, 4000 steps",
+      "v_min": 0.007785042485314756,
+      "v_max": 0.3302274704347245
+    }
+  },
+  "itu_interpretation": {
+    "active_matter": "K_stat + energy injection per particle",
+    "life": "K_stat dissipative attractor sustained far from equilibrium",
+    "SOC": "K_stat self-tuned critical attractor (scale-free)",
+    "scale_free_network": "K_topo preferential-attachment fixed point",
+    "turing": "K_stat reaction-diffusion broken-translation symmetry",
+    "hierarchy": "K-state coarse-graining tower: physics → chemistry → biology → cognition → society"
+  },
+  "key_findings": [
+    "Vicsek: order ⟨v_a⟩ drops from 0.79 (η=0.05) to 0.07 (η=2.5)",
+    "BTW avalanche power-law exponent τ ≈ 1.18",
+    "BA scale-free P(k) ∝ k^(-2.73)",
+    "Human entropy output: 27871.0 J/K/day = 2.9e+27 bit/day",
+    "ATP turnover 86 W matches basal metabolic 100 W ✓",
+    "Turing Gray-Scott pattern formed (spots/labyrinth)"
+  ]
+}

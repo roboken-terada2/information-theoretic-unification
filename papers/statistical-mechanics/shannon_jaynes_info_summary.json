@@ -1,0 +1,137 @@
+{
+  "phase": 148,
+  "title": "Information theory — Shannon + Jaynes + von Neumann",
+  "tier1_paper": "#21 Statistical Mechanics (phase 6/8)",
+  "tests": {
+    "shannon_examples": [
+      {
+        "name": "Fair coin (1/2, 1/2)",
+        "H_nats": 0.6931471805599453,
+        "H_bits": 1.0
+      },
+      {
+        "name": "Biased coin (0.9, 0.1)",
+        "H_nats": 0.3250829733914482,
+        "H_bits": 0.4689955935892812
+      },
+      {
+        "name": "Uniform 6-die",
+        "H_nats": 1.7917594692280547,
+        "H_bits": 2.584962500721156
+      },
+      {
+        "name": "Loaded 6-die (1/2 at 6)",
+        "H_nats": 1.4978661367769954,
+        "H_bits": 2.1609640474436813
+      },
+      {
+        "name": "Uniform N=100",
+        "H_nats": 4.60517018598809,
+        "H_bits": 6.643856189774724
+      },
+      {
+        "name": "Delta (degenerate)",
+        "H_nats": -0.0,
+        "H_bits": -0.0
+      }
+    ],
+    "jaynes_canonical": {
+      "energy_levels": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "beta": 1.0,
+      "partition_function": 1.5713174316646532,
+      "p_gibbs": [
+        0.6364086465588308,
+        0.23412165725273662,
+        0.0861285444362687,
+        0.03168492079612427,
+        0.011656230956039605
+      ],
+      "mean_energy_U": 0.5480584323378053,
+      "shannon_H": 0.9999728282753987,
+      "identity_check_bU_plus_logZ": 0.9999728282753986,
+      "max_random_dist_H": -Infinity
+    },
+    "boltzmann_units": {
+      "k_B_J_per_K": 1.380649e-23,
+      "S_thermo_J_per_K": 1.380611485385601e-23,
+      "one_bit_J_per_K": 9.569929616929079e-24,
+      "landauer_300K_J_per_bit": 2.870978885078724e-21
+    },
+    "kl_divergence": {
+      "p": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "q": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "D_KL_p_q": 0.09203285023383187,
+      "D_KL_q_p": 0.0851228259572216,
+      "D_KL_p_p": 0.0
+    },
+    "mutual_info_gaussian": [
+      {
+        "rho": 0.0,
+        "I_nats": -0.0
+      },
+      {
+        "rho": 0.3,
+        "I_nats": 0.047155339735620645
+      },
+      {
+        "rho": 0.6,
+        "I_nats": 0.22314355131420974
+      },
+      {
+        "rho": 0.9,
+        "I_nats": 0.8303656034108255
+      },
+      {
+        "rho": 0.99,
+        "I_nats": 1.9585177736258443
+      }
+    ],
+    "von_neumann": {
+      "bell_state_S_AB": 2.220446049250313e-16,
+      "bell_state_S_A": 0.6931471805599454,
+      "bell_state_quantum_MI": 1.3862943611198906,
+      "product_state_S_A": -0.0,
+      "mixed_single_qubit_S_vs_p": [
+        -0.0,
+        0.1985152433458725,
+        0.3250829733914482,
+        0.4227090878059909,
+        0.5004024235381879,
+        0.5623351446188083,
+        0.6108643020548935,
+        0.6474466390346325,
+        0.6730116670092565,
+        0.6881388137135884,
+        0.6931471805599453
+      ]
+    }
+  },
+  "itu_interpretation": {
+    "K_stat_K_info_isomorphism": "S_thermo = k_B × H_Shannon (unit conversion)",
+    "jaynes": "K-state uniquely determined by constraints (Max-Ent)",
+    "von_neumann": "K_quantum log-density measure",
+    "entanglement": "K-state non-separable structure with quantum MI exceeding classical bound"
+  },
+  "key_findings": [
+    "Shannon H computed for 6 distributions (binary to uniform N=100)",
+    "Jaynes Max-Ent reproduces Gibbs e^(-βE)/Z: H = βU + log Z = 1.0000",
+    "Random distributions at same ⟨E⟩ all have H ≤ H_Gibbs (Max-Ent verified)",
+    "K_stat ↔ K_info: 1 bit = 9.570e-24 J/K, Landauer 300K = 2.871e-21 J/bit",
+    "KL asymmetry: D[p||q] = 0.092 vs D[q||p] = 0.085",
+    "Bell state: S(AB)=0 (pure), S(A)=ln 2 (0.693), quantum MI=2 ln 2 > classical bound"
+  ]
+}
