@@ -1,0 +1,147 @@
+{
+  "phase": 128,
+  "title": "Inflation + CMB anisotropies + Inflaton K-state",
+  "tier1_id": 19,
+  "tier1_name": "Cosmology",
+  "block": "A (Physics/Math) — paper 3/9, phase 2/8",
+  "slow_roll_parameters": {
+    "rows": [
+      {
+        "phi_Mpl": 15.0,
+        "epsilon": 0.008888888888888889,
+        "eta": 0.008888888888888889,
+        "n_s": 0.9644444444444444,
+        "r": 0.14222222222222222
+      },
+      {
+        "phi_Mpl": 13.0,
+        "epsilon": 0.01183431952662722,
+        "eta": 0.01183431952662722,
+        "n_s": 0.9526627218934911,
+        "r": 0.18934911242603553
+      },
+      {
+        "phi_Mpl": 12.0,
+        "epsilon": 0.013888888888888888,
+        "eta": 0.013888888888888888,
+        "n_s": 0.9444444444444444,
+        "r": 0.2222222222222222
+      },
+      {
+        "phi_Mpl": 11.0,
+        "epsilon": 0.01652892561983471,
+        "eta": 0.01652892561983471,
+        "n_s": 0.9338842975206612,
+        "r": 0.2644628099173554
+      },
+      {
+        "phi_Mpl": 10.0,
+        "epsilon": 0.020000000000000004,
+        "eta": 0.020000000000000004,
+        "n_s": 0.92,
+        "r": 0.32000000000000006
+      },
+      {
+        "phi_Mpl": 8.0,
+        "epsilon": 0.03125,
+        "eta": 0.03125,
+        "n_s": 0.875,
+        "r": 0.5
+      },
+      {
+        "phi_Mpl": 5.0,
+        "epsilon": 0.08000000000000002,
+        "eta": 0.08000000000000002,
+        "n_s": 0.6799999999999999,
+        "r": 1.2800000000000002
+      },
+      {
+        "phi_Mpl": 3.0,
+        "epsilon": 0.2222222222222222,
+        "eta": 0.2222222222222222,
+        "n_s": 0.11111111111111116,
+        "r": 3.5555555555555554
+      },
+      {
+        "phi_Mpl": 2.0,
+        "epsilon": 0.5,
+        "eta": 0.5,
+        "n_s": -1.0,
+        "r": 8.0
+      }
+    ],
+    "phi_match_n_s": 15.112112112112113,
+    "r_predicted": 0.14011984385235046
+  },
+  "e_folds_chaotic": [
+    {
+      "phi_start_Mpl": 12.0,
+      "N_efolds": 35.5
+    },
+    {
+      "phi_start_Mpl": 14.0,
+      "N_efolds": 48.5
+    },
+    {
+      "phi_start_Mpl": 15.5,
+      "N_efolds": 59.5625
+    },
+    {
+      "phi_start_Mpl": 17.5,
+      "N_efolds": 76.0625
+    }
+  ],
+  "cmb_power_spectrum_peaks": {
+    "peak_positions_ell": [
+      220,
+      540,
+      810,
+      1140,
+      1450
+    ],
+    "peak_amplitudes_uK2": [
+      5800,
+      2500,
+      2500,
+      1400,
+      800
+    ]
+  },
+  "r_history": [
+    {
+      "experiment": "COBE (1992)",
+      "r_upper": 1.0
+    },
+    {
+      "experiment": "WMAP (2009)",
+      "r_upper": 0.2
+    },
+    {
+      "experiment": "Planck (2013)",
+      "r_upper": 0.12
+    },
+    {
+      "experiment": "Planck (2018)",
+      "r_upper": 0.1
+    },
+    {
+      "experiment": "Planck + BICEP/Keck (2021)",
+      "r_upper": 0.06
+    },
+    {
+      "experiment": "LiteBIRD target (2032+)",
+      "r_upper": 0.001
+    },
+    {
+      "experiment": "CMB-S4 target (2030s)",
+      "r_upper": 0.0005
+    }
+  ],
+  "inflaton_models": [
+    "phi^2 (chaotic)",
+    "phi^4 (chaotic, excluded)",
+    "Starobinsky R^2",
+    "Hilltop"
+  ],
+  "verdict": "Inflation = ITU axiom dS = d<K> earliest cosmic realization; inflaton phi K-state's quantum fluctuations imprint CMB anisotropies; LiteBIRD 2032+ targets r ~ 0.001 to detect primordial GW."
+}

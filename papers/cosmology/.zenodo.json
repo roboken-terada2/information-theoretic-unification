@@ -1,0 +1,57 @@
+{
+  "title": "ITU and Cosmology: A Single-Axiom View of Big Bang, Inflation, Dark Matter, Dark Energy, Hubble/S_8 Tensions, CMB B-modes, Cosmic Horizons, and the 2026-2050 Observational Roadmap",
+  "description": "We apply the Information-Theoretic Unification (ITU) framework (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest Tier 0 v3.0 at 10.5281/zenodo.20200156) to cosmology. This is Tier 1 paper #19, the third paper of Block A (Physics/Math deepening) and the dual specialization of Tier 1 #17 Quantum Gravity (DOI 10.5281/zenodo.20230667) and Tier 1 #18 Black Holes (DOI 10.5281/zenodo.20233070) — completing the HORIZON TRIAD with K_cosmic (observer INSIDE the de Sitter horizon). The ITU polytope reaches 19 vertices with Tier 1 #19 attaining degree 18 (new maximum). Pass-1 progress: 134 of 220 phases (60.9 %).\n\nPhase 127 establishes the Big Bang ΛCDM framework. Friedmann equations integrate to age 13.80 Gyr (Planck 2018: 13.797 Gyr), matter-Λ equality at a=0.772 (t=10.3 Gyr). Planck 2018 parameters: H_0 = 67.4 km/s/Mpc, Ω_m = 0.315, Ω_Λ = 0.685, σ_8 = 0.811, n_s = 0.965. de Sitter horizon r_dS = 5.37 Gpc, S_dS = 3.31e+122 nats (Gibbons-Hawking). #18 BH (observer OUTSIDE) and #19 Cosmic (observer INSIDE) are symmetric specializations of K_geom.\n\nPhase 128 covers inflation (Guth 1981, Linde 1982, Albrecht-Steinhardt 1982). Slow-roll parameters ε, η for V = (1/2)m²φ²: Planck 2018 n_s = 0.965 matched at φ ≈ 15.11 M_Pl, predicting r ≈ 0.14 (EXCLUDED by BICEP/Keck 2021 limit r < 0.06). e-folds N = (φ² - 2)/4 gives N ≈ 50-60 for φ_start ≈ 14-15.5 M_Pl. CMB power spectrum 5 acoustic peaks at ℓ = 220, 540, 810, 1140, 1450. Inflaton models surviving Planck+BICEP: Starobinsky R² (r ≈ 0.003), Higgs inflation, hilltop. ITU: inflaton = K_inflaton scalar K-state quantum fluctuations imprinting CMB anisotropies.\n\nPhase 129 covers dark matter and structure formation. Milky Way rotation curve: visible-only v_solar = 141.6 km/s, total (visible + NFW DM halo M_200 = 1.2e12 M_sun) = 216 km/s ≈ observed 220 km/s. DM candidates span 53 orders of magnitude (fuzzy DM 10^{-22} eV to MACHO 10^31 eV); WIMP, axion, primordial BH still alive. Matter power spectrum P(k) with n_s = 0.965, k_eq = 0.01 h/Mpc, σ_8 = 0.811. S_8 = σ_8 √(Ω_m/0.3) tension: Planck 2018 0.834 ± 0.016 vs KiDS-1000 + DES Y3 + HSC Y3 weak lensing average 0.773 ± 0.012 — tension 3.08-3.69σ depending on combination.\n\nPhase 130 covers dark energy and the Λ problem. Type Ia SN Hubble diagram: at z = 0.5, μ_ΛCDM - μ_matter-only = 0.386 mag (SNe appear DIMMER → accelerating expansion, Riess 1998, Perlmutter 1999, Nobel 2011). Cosmological constant Λ ≈ 1.1e-52 m^-2, Ω_Λ = 0.685. Λ problem: Planck-cutoff theoretical ρ_vac is ~10^120 times observed — 'worst prediction in physics' (Weinberg 1989). Cohen-Kaplan-Nelson (1999) holographic bound reduces gap to ~10^17 (still large but qualitatively better). DESI Y1 (2024) hints at evolving DE: w_0 = -0.95 ± 0.09, w_a = -0.39 ± 0.34 (2-4σ deviation from ΛCDM). ITU K_Λ = vacuum modular Hamiltonian, time-evolution candidate for Pass-2.\n\nPhase 131 deepens Hubble and S_8 tensions. Late-time H_0 average 73.91 ± 0.90 (SH0ES, TRGB, megamaser, HOLiCOW, JWST) vs early-time 67.92 ± 0.30 (Planck, ACT, BAO) — combined tension 6.30σ. S_8: CMB 0.837 ± 0.013 vs lensing 0.773 ± 0.012 — combined tension 3.69σ. Resolution candidates: Early Dark Energy improves H_0 but worsens S_8 (f_EDE = 11.3% needed for H_0 = 73 forces σ_8 = 0.867 > Planck 0.811); compounded EDE + Interacting Dark Matter (IDM) resolves both simultaneously. ITU K-state superposition (K_inflaton + K_Λ + K_EDE + K_DM + K_IDM) naturally accommodates compounded solutions.\n\nPhase 132 covers CMB polarization E/B-modes and primordial gravitational waves. E-mode from scalar density perturbations (acoustic peaks at ℓ ~ 140 with τ = 0.054). B-mode primordial signature from inflation tensor modes peaks at ℓ ~ 80-100 (recombination) and ℓ ~ 5 (reionization); B-mode lensing peaks at ℓ ~ 1000. Current upper limit r < 0.06 (BICEP/Keck + Planck 2021). LiteBIRD (JAXA, 2032 launch) targets r ~ 0.001 (5σ at r ≥ 0.005, 3σ at r ≥ 0.003). CMB-S4 (2030s) targets r ~ 0.0005. Starobinsky R² inflation (r ≈ 0.003) detectable at borderline 3σ. 15 LiteBIRD bands 40-402 GHz for synchrotron + thermal-dust foreground separation. r ≈ 0.001 corresponds to V^{1/4} = 5.6e+15 GeV (near GUT scale).\n\nPhase 133 covers cosmic horizons and multiverse. Three horizons in ΛCDM: particle 46.95 Gly (14.4 Gpc, causal past), event 17.53 Gly (5.37 Gpc, causal future = de Sitter), Hubble 14.51 Gly (4.45 Gpc). Gibbons-Hawking entropy S_dS = 3.31e+122 nats = observable universe maximum information capacity. Tegmark Level I-IV multiverse mapped to ITU K-state realization space: Level I same K-state different boundary conditions, Level II K-vacuum landscape (string ~10^500), Level III K-superposition (Everett), Level IV mathematical structure space. Anthropic Λ bound (Weinberg 1987): observed Λ within 10x of upper limit allowing structure formation; string landscape >>> observable universe info content (10^377 ratio).\n\nPhase 134 integrates under K_cosmic. 19-vertex polytope: 111 edges (93 + 18 new), avg degree 11.68. Tier 1 #19 couples strongly (≥0.75) to #17 QG (1.00, parent), #18 BH (0.85, dual), #10 Energy (0.80); medium to #11 Climate, #12 Astrobio, #14 Comm; average coupling 0.400. Horizon TRIAD: #17 K_geom (general) → #18 K_horizon (BH inside, observer OUTSIDE) + #19 K_cosmic (de Sitter, observer INSIDE) form an inside/outside dual specialization pair. Ten falsifiable predictions for 2026-2050: LiteBIRD r ~ 0.001 detected 2034 P=0.85, Hubble >6σ confirmed 2027 P=0.80, DESI evolving DE 2027 P=0.75, S_8 >4σ 2030 P=0.70, CMB-S4 r ~ 0.0005 2035 P=0.60, PBH asteroid window 2038 P=0.55, EDE+IDM compound ΛCDM replacement 2035 P=0.55, anthropic Λ tightening 2040 P=0.45, LiteBIRD τ 2034 P=0.75, multiverse Level II 2050 P=0.30. Grand P_avg = 0.630. Strong/Medium/Weak = 6/3/1.\n\nCentral thesis: ITU axiom delta S(rho_A) = delta Tr[K_A^(0) rho_A] specializes to K_cosmic at cosmological horizons, unifying Big Bang ΛCDM cosmology, inflation, dark matter, dark energy, the Hubble + S_8 tensions, CMB polarization B-mode primordial GW, cosmic horizons, multiverse Level I-IV, and the holographic information bound under one principle. With Tier 1 #18 BH and Tier 1 #19 Cosmology forming dual specializations of the general K_geom (Tier 1 #17 QG), Block A papers 1-3 form a HORIZON TRIAD covering all spacetime-horizon physics. LiteBIRD (2034) and DESI Y3 (2027) provide the strongest near-term tests; Pass-2 (Phase 223) will derive evolving K_Λ(t), K_DM dynamical correction, and Compound EDE+IDM in ITU language.\n\nHonest framing: this is a Pass-1 interpretive paper. Numerical results agree with established literature (Friedmann 1922, Hubble 1929, Penzias-Wilson 1965, Guth 1981, Linde 1982, Smoot 1992, Riess 1998, Perlmutter 1999, Planck 2018, KiDS-1000 2021, BICEP/Keck 2021, DESI 2024, etc.). No new physical predictions beyond what the cited works already contain; the contribution is the unified ITU axiom narrative under K_cosmic and the HORIZON TRIAD with #17 and #18.\n\nIncludes 8 theory documents (theory_phase127-134.md), 8 Python numerical experiments, 8 figures (PNG), 8 JSON summaries. Total runtime ~15 seconds.",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken",
+      "orcid": ""
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "version": "1.0.0",
+  "keywords": [
+    "Cosmology",
+    "Big Bang",
+    "Inflation",
+    "Lambda-CDM",
+    "Dark matter",
+    "Dark energy",
+    "CMB polarization",
+    "Hubble tension",
+    "Cosmic horizon",
+    "Multiverse"
+  ],
+  "communities": [
+    {"identifier": "physics"}
+  ],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20109209", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isPartOf", "identifier": "10.5281/zenodo.20109209", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20200156", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20230667", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20233070", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20139391", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20150501", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20151059", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20174036", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20174318", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20175663", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20177427", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20196309", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20197016", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20199598", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20200728", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20222121", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20224976", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20225970", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20226481", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20228581", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "https://github.com/roboken-terada2/information-theoretic-unification", "resource_type": "software", "scheme": "url"},
+    {"relation": "isDocumentedBy", "identifier": "https://note.com/roboken_ceo", "resource_type": "publication-other", "scheme": "url"}
+  ]
+}

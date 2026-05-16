@@ -57,10 +57,29 @@ release tag.
 | 16 | [ITU and Smart Cities](papers/smartcities/) | [10.5281/zenodo.20228581](https://doi.org/10.5281/zenodo.20228581) | 103–106 | ✅ v1.0.0 |
 | **Tier 0 v3.0** | [Intermediate integration of Tier 1 #1-#16](papers/tier0_v3/) | [10.5281/zenodo.20200156](https://doi.org/10.5281/zenodo.20200156) | 107-110 | ✅ v3.0.0 |
 | 17 | [ITU and Quantum Gravity (Block A)](papers/quantum-gravity/) | [10.5281/zenodo.20230667](https://doi.org/10.5281/zenodo.20230667) | 111-118 | ✅ v1.0.0 |
-| **18** ✨ | [**ITU and Black Holes (Block A)**](papers/black-holes/) | [**10.5281/zenodo.20233070**](https://doi.org/10.5281/zenodo.20233070) | **119-126** | ✅ **v1.0.0** |
-| 19+ | (full roadmap to Phase 250) | TBD | 127-250 | planned |
+| 18 | [ITU and Black Holes (Block A)](papers/black-holes/) | [10.5281/zenodo.20233070](https://doi.org/10.5281/zenodo.20233070) | 119-126 | ✅ v1.0.0 |
+| **19** ✨ | [**ITU and Cosmology (Block A)**](papers/cosmology/) | [**10.5281/zenodo.20233952**](https://doi.org/10.5281/zenodo.20233952) | **127-134** | ✅ **v1.0.0** |
+| 20+ | (full roadmap to Phase 250) | TBD | 135-250 | planned |
 
-**🎉 Block A paper 2/9 published — Tier 1 #18 Black Holes.**
+**🎉 Block A paper 3/9 published — Tier 1 #19 Cosmology — Pass-1 60.9% milestone.**
+Phase 127-134 brings the ITU polytope to **19 vertices** with **Cosmology as the K_cosmic
+hub** (degree 18, new maximum) and completes the **HORIZON TRIAD** of Block A papers 1-3:
+#17 K_geom (general spacetime) → #18 K_horizon (BH inside, observer OUTSIDE) and
+#19 K_cosmic (de Sitter, observer INSIDE) form an inside/outside dual specialization pair.
+Phase 127 establishes ΛCDM Friedmann equations (age 13.80 Gyr ≈ Planck 2018 13.797 Gyr,
+de Sitter horizon r_dS = 5.37 Gpc, S_dS = 3.31×10¹²² nats); Phase 128 develops inflation
+(slow-roll n_s=0.965 with V∝φ² excluded by BICEP/Keck; Starobinsky R² survives at r≈0.003);
+Phase 129 covers dark matter (Milky Way rotation, S_8 tension 3.69σ); Phase 130 covers
+dark energy (Λ problem 120 orders, holographic CKN bound reduction, DESI 2024 evolving DE
+hint at 2-4σ); Phase 131 deepens Hubble (6.30σ) + S_8 (3.69σ) tensions, with compounded
+EDE+IDM resolving both; Phase 132 covers CMB B-mode (LiteBIRD 2032 target r~0.001, CMB-S4
+2030s r~0.0005); Phase 133 covers cosmic horizons + Tegmark Level I-IV multiverse +
+anthropic Λ bound; Phase 134 integrates with **10 falsifiable predictions Grand P_avg = 0.630**
+(Strong/Medium/Weak = 6/3/1), top: LiteBIRD r~0.001 detected 2034 (P=0.85) + Hubble >6σ
+confirmed 2027 (P=0.80). The 19-vertex polytope has 111 edges and avg degree 11.68.
+**Pass-1 progress: 134 of 220 phases = 60.9%.**
+
+(Previous, Block A 2/9) Tier 1 #18 Black Holes.
 Phase 119-126 brings the ITU polytope to **18 vertices** with **Black Holes as the
 K-horizon hub** (degree 17, new maximum) — the polytope's deepest specialization hub.
 Tier 1 #18 specializes Tier 1 #17 Quantum Gravity (K_geom) to the BH horizon

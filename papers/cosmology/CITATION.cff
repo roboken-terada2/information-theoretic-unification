@@ -1,0 +1,307 @@
+cff-version: 1.2.0
+title: "ITU and Cosmology: A Single-Axiom View of Big Bang, Inflation, Dark Matter, Dark Energy, Hubble/S_8 Tensions, CMB B-modes, Cosmic Horizons, and the 2026-2050 Observational Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest
+  Tier 0 v3.0 at 10.5281/zenodo.20200156) to cosmology. This is
+  Tier 1 paper #19, the third paper of Block A (Physics/Math
+  deepening) and dual specialization of Tier 1 #17 Quantum Gravity
+  (DOI 10.5281/zenodo.20230667) and #18 Black Holes (DOI 10.5281/
+  zenodo.20233070), completing the HORIZON TRIAD with K_cosmic
+  (observer INSIDE de Sitter horizon). The ITU polytope reaches
+  19 vertices with Tier 1 #19 attaining degree 18 (new max).
+  Pass-1 progress: 134 of 220 phases (60.9%).
+  Phase 127 establishes Big Bang ΛCDM. Friedmann equations
+  integrate to age 13.80 Gyr (Planck 2018: 13.797 Gyr). Planck
+  parameters H_0 = 67.4 km/s/Mpc, Ω_m = 0.315, Ω_Λ = 0.685.
+  de Sitter horizon r_dS = 5.37 Gpc, S_dS = 3.31e+122 nats.
+  Phase 128 covers inflation. Slow-roll for V = (1/2)m²φ²:
+  n_s = 0.965 matched at φ = 15.11 M_Pl, r ≈ 0.14 (EXCLUDED).
+  Surviving models: Starobinsky R² (r ≈ 0.003), Higgs, hilltop.
+  Phase 129 covers DM + structure. Milky Way rotation v_total
+  = 216 km/s ≈ observed; Ω_DM = 0.265. DM candidates span 53
+  orders of magnitude. S_8 tension 3.69σ (CMB vs lensing).
+  Phase 130 covers DE + Λ problem. SNe Ia at z=0.5: Δμ = 0.39
+  mag indicates accelerating expansion. Λ problem: theoretical
+  ρ_vac ~10^120 times observed (Weinberg 1989). CKN holographic
+  bound reduces to ~10^17. DESI Y1: w_0 = -0.95, w_a = -0.39
+  (2-4σ ΛCDM deviation).
+  Phase 131 deepens tensions. Hubble: late 73.91 ± 0.90 vs
+  early 67.92 ± 0.30, combined tension 6.30σ. S_8: CMB 0.837
+  vs lensing 0.773, tension 3.69σ. EDE alone worsens S_8;
+  compounded EDE + Interacting DM resolves both. ITU K-state
+  superposition naturally accommodates.
+  Phase 132 covers CMB E/B polarization. E-mode acoustic
+  peaks at ℓ~140. B-mode primordial bumps at ℓ ~ 5 (reion) +
+  ℓ ~ 100 (recomb); lensing peak ℓ ~ 1000. LiteBIRD (2032)
+  targets r ~ 0.001 (5σ at r ≥ 0.005). r = 0.001 corresponds
+  to V^{1/4} = 5.6e+15 GeV (near GUT).
+  Phase 133 covers cosmic horizons + multiverse. Particle
+  horizon 46.95 Gly, event 17.53 Gly (= de Sitter), Hubble
+  14.51 Gly. S_dS = 3.31e+122 nats = observable universe info
+  cap. Tegmark Level I-IV mapped to ITU K-state realization
+  space; string landscape ~10^500 vacua.
+  Phase 134 integrates under K_cosmic. 19-vertex polytope:
+  111 edges, ⟨k⟩ = 11.68. Strong couplings: #17 QG (0.95),
+  #18 BH (0.85), #10 Energy (0.80). Horizon TRIAD #17 (general)
+  → #18 (BH inside) + #19 (cosmic inside) form inside/outside
+  dual specialization pair. Ten falsifiable predictions for
+  2026-2050: LiteBIRD r ~ 0.001 detected 2034 P=0.85, Hubble
+  >6σ confirmed 2027 P=0.80, DESI evolving DE 2027 P=0.75,
+  S_8 >4σ 2030 P=0.70, CMB-S4 2035 P=0.60, PBH DM 2038 P=0.55,
+  EDE+IDM ΛCDM replacement 2035 P=0.55, anthropic Λ 2040
+  P=0.45, LiteBIRD τ 2034 P=0.75, multiverse Level II 2050
+  P=0.30. Grand P_avg = 0.630. Strong/Medium/Weak = 6/3/1.
+  Central thesis: ITU axiom dS = d<K> specializes to K_cosmic
+  at cosmological horizons, unifying Big Bang ΛCDM, inflation,
+  DM, DE, Hubble+S_8 tensions, CMB B-modes, multiverse, and
+  holographic information bound under one principle. Block A
+  papers 1-3 (#17 QG + #18 BH + #19 Cosmology) form HORIZON
+  TRIAD. LiteBIRD (2034) and DESI Y3 (2027) provide strongest
+  near-term tests. Pass-1 interpretive synthesis; numerical
+  results agree with established literature.
+keywords:
+  - Cosmology
+  - Big Bang
+  - Inflation
+  - Lambda-CDM
+  - Dark matter
+  - Dark energy
+  - CMB polarization
+  - Hubble tension
+  - Cosmic horizon
+  - Multiverse
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/cosmology"
+url: "https://doi.org/10.5281/zenodo.20233952"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20233952"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification (ITU) Tier 0 v3.0"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest). Current Tier 0 v3.0 at 10.5281/zenodo.20200156."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Quantum Gravity (Tier 1 #17)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20230667"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "ITU and Black Holes (Tier 1 #18)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20233070"
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Friedmann
+        given-names: Alexander
+    title: "Über die Krümmung des Raumes"
+    journal: "Zeitschrift für Physik"
+    volume: "10"
+    pages: "377-386"
+    year: 1922
+  - type: article
+    authors:
+      - family-names: Hubble
+        given-names: Edwin
+    title: "A relation between distance and radial velocity among extra-galactic nebulae"
+    journal: "PNAS"
+    volume: "15"
+    pages: "168-173"
+    year: 1929
+  - type: article
+    authors:
+      - family-names: Penzias
+        given-names: Arno A.
+      - family-names: Wilson
+        given-names: Robert W.
+    title: "A Measurement of Excess Antenna Temperature at 4080 Mc/s"
+    journal: "ApJ"
+    volume: "142"
+    pages: "419-421"
+    year: 1965
+  - type: article
+    authors:
+      - family-names: Guth
+        given-names: Alan H.
+    title: "Inflationary universe: A possible solution to the horizon and flatness problems"
+    journal: "Physical Review D"
+    volume: "23"
+    pages: "347-356"
+    year: 1981
+  - type: article
+    authors:
+      - family-names: Linde
+        given-names: Andrei D.
+    title: "A new inflationary universe scenario"
+    journal: "Physics Letters B"
+    volume: "108"
+    pages: "389-393"
+    year: 1982
+  - type: article
+    authors:
+      - family-names: Riess
+        given-names: Adam G.
+      - family-names: et al.
+    title: "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant"
+    journal: "AJ"
+    volume: "116"
+    pages: "1009-1038"
+    year: 1998
+  - type: article
+    authors:
+      - family-names: Perlmutter
+        given-names: Saul
+      - family-names: et al.
+    title: "Measurements of Ω and Λ from 42 High-Redshift Supernovae"
+    journal: "ApJ"
+    volume: "517"
+    pages: "565-586"
+    year: 1999
+  - type: article
+    authors:
+      - family-names: Weinberg
+        given-names: Steven
+    title: "The cosmological constant problem"
+    journal: "Reviews of Modern Physics"
+    volume: "61"
+    pages: "1-23"
+    year: 1989
+  - type: article
+    authors:
+      - family-names: Rubin
+        given-names: Vera C.
+      - family-names: Ford
+        given-names: W. Kent
+    title: "Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions"
+    journal: "ApJ"
+    volume: "159"
+    pages: "379-403"
+    year: 1970
+  - type: article
+    authors:
+      - family-names: Riess
+        given-names: Adam G.
+      - family-names: et al.
+    title: "A Comprehensive Measurement of the Local Value of the Hubble Constant"
+    journal: "ApJL"
+    volume: "934"
+    pages: "L7"
+    year: 2022
+  - type: article
+    authors:
+      - family-names: Kamionkowski
+        given-names: Marc
+      - family-names: Kosowsky
+        given-names: Arthur
+      - family-names: Stebbins
+        given-names: Albert
+    title: "Statistics of cosmic microwave background polarization"
+    journal: "Physical Review D"
+    volume: "55"
+    pages: "7368-7388"
+    year: 1997
+  - type: article
+    authors:
+      - family-names: Seljak
+        given-names: Uros
+      - family-names: Zaldarriaga
+        given-names: Matias
+    title: "Signature of Gravity Waves in Polarization of the Microwave Background"
+    journal: "Physical Review Letters"
+    volume: "78"
+    pages: "2054-2057"
+    year: 1997
+  - type: article
+    authors:
+      - family-names: Gibbons
+        given-names: G. W.
+      - family-names: Hawking
+        given-names: S. W.
+    title: "Cosmological event horizons, thermodynamics, and particle creation"
+    journal: "Physical Review D"
+    volume: "15"
+    pages: "2738-2751"
+    year: 1977
+  - type: article
+    authors:
+      - family-names: Tegmark
+        given-names: Max
+    title: "Parallel universes"
+    journal: "Scientific American"
+    volume: "288"
+    issue: "5"
+    pages: "41-51"
+    year: 2003
+  - type: article
+    authors:
+      - family-names: Bousso
+        given-names: Raphael
+      - family-names: Polchinski
+        given-names: Joseph
+    title: "Quantization of four-form fluxes and dynamical neutralization of the cosmological constant"
+    journal: "JHEP"
+    volume: "06"
+    pages: "006"
+    year: 2000
+  - type: article
+    authors:
+      - name: "Planck Collaboration"
+    title: "Planck 2018 results. VI. Cosmological parameters"
+    journal: "Astronomy & Astrophysics"
+    volume: "641"
+    pages: "A6"
+    year: 2020
+  - type: article
+    authors:
+      - name: "DESI Collaboration"
+    title: "DESI 2024 VI: Cosmological Constraints from the Measurements of Baryon Acoustic Oscillations"
+    journal: "arXiv:2404.03002"
+    year: 2024
+  - type: article
+    authors:
+      - name: "BICEP/Keck Collaboration"
+    title: "Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations"
+    journal: "PRL"
+    volume: "127"
+    pages: "151301"
+    year: 2021
+  - type: article
+    authors:
+      - name: "LiteBIRD Collaboration"
+    title: "LiteBIRD: JAXA's New Strategic L-class Mission"
+    journal: "PTEP"
+    volume: "2023"
+    pages: "042F01"
+    year: 2023
+  - type: article
+    authors:
+      - name: "KiDS-1000 Collaboration"
+    title: "KiDS-1000 Cosmology: Multi-probe weak gravitational lensing and spectroscopic galaxy clustering"
+    journal: "A&A"
+    volume: "646"
+    pages: "A140"
+    year: 2021

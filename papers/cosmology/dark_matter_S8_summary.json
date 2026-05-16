@@ -1,0 +1,87 @@
+{
+  "phase": 129,
+  "title": "Dark matter + structure formation + S_8 tension + K_DM",
+  "tier1_id": 19,
+  "tier1_name": "Cosmology",
+  "block": "A (Physics/Math) — paper 3/9, phase 3/8",
+  "rotation_curve": {
+    "v_solar_total_kms": 215.99528533842243,
+    "v_solar_visible_kms": 141.5558438692249,
+    "DM_contribution_kms": 74.43944146919753
+  },
+  "dm_candidates": [
+    {
+      "name": "Fuzzy DM",
+      "m_min_eV": 1e-22,
+      "m_max_eV": 1e-19,
+      "type": "ultralight scalar (string)"
+    },
+    {
+      "name": "QCD axion",
+      "m_min_eV": 1e-06,
+      "m_max_eV": 0.001,
+      "type": "Peccei-Quinn pseudoscalar"
+    },
+    {
+      "name": "Sterile neutrino",
+      "m_min_eV": 1000.0,
+      "m_max_eV": 10000.0,
+      "type": "right-handed ν (keV)"
+    },
+    {
+      "name": "WIMP",
+      "m_min_eV": 10000000000.0,
+      "m_max_eV": 10000000000000.0,
+      "type": "thermal relic (GeV-TeV)"
+    },
+    {
+      "name": "Primordial BH",
+      "m_min_eV": 1e+17,
+      "m_max_eV": 1e+22,
+      "type": "asteroid mass window"
+    },
+    {
+      "name": "MACHO",
+      "m_min_eV": 1e+29,
+      "m_max_eV": 1e+31,
+      "type": "lunar-stellar mass"
+    }
+  ],
+  "power_spectrum": {
+    "n_s": 0.965,
+    "k_eq_h_Mpc": 0.01,
+    "sigma_8": 0.811
+  },
+  "s8_tension": {
+    "surveys": [
+      {
+        "survey": "Planck 2018 (CMB)",
+        "S_8": 0.834,
+        "sigma": 0.016
+      },
+      {
+        "survey": "KiDS-1000 (2021)",
+        "S_8": 0.766,
+        "sigma": 0.02
+      },
+      {
+        "survey": "DES Y3 (2022)",
+        "S_8": 0.776,
+        "sigma": 0.017
+      },
+      {
+        "survey": "HSC Y3 (2023)",
+        "S_8": 0.776,
+        "sigma": 0.024
+      }
+    ],
+    "tension_sigma": 3.0799562608561097
+  },
+  "linear_growth": {
+    "Omega_m": 0.315,
+    "Omega_L": 0.685,
+    "D_at_a_0p001": 0.0016467694017078189,
+    "D_at_a_1": 1.0
+  },
+  "verdict": "Dark matter is required by 5σ-level observations (rotation curves, Bullet cluster, CMB peaks); ITU K_DM hypothesis encompasses WIMP/axion/PBH candidates; S_8 tension (2.5-3σ) may signal K_DM dynamical correction beyond ΛCDM."
+}

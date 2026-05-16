@@ -1,0 +1,112 @@
+{
+  "phase": 127,
+  "title": "Big Bang + ΛCDM + Friedmann + cosmic timeline + #18/#19 symmetry",
+  "tier1_id": 19,
+  "tier1_name": "Cosmology",
+  "block": "A (Physics/Math) — paper 3/9, phase 1/8",
+  "lcdm_parameters": {
+    "H_0_kms_Mpc": 67.4,
+    "H_0_SI": 2.1842693716174612e-18,
+    "Omega_m": 0.315,
+    "Omega_Lambda": 0.685,
+    "Omega_b": 0.049,
+    "Omega_DM": 0.265,
+    "Omega_r": 9.2e-05,
+    "sigma_8": 0.811,
+    "n_s": 0.965,
+    "Age_Gyr": 13.797,
+    "rho_c": 8.532731176836996e-27,
+    "t_H_Gyr": 14.507408392841116,
+    "r_dS_Gpc": 5.374220987880094,
+    "S_dS_nats": 3.3072615309629415e+122,
+    "T_dS_K": 2.6553343020823123e-30
+  },
+  "hubble_tension": {
+    "H_planck": 67.4,
+    "H_shoes": 73.0,
+    "tension_sigma": 5.008792269599524
+  },
+  "cosmic_timeline": [
+    {
+      "epoch": "Planck epoch",
+      "t_s": 5.39e-44,
+      "E_GeV": 1.22e+19,
+      "physics": "Quantum gravity"
+    },
+    {
+      "epoch": "GUT scale",
+      "t_s": 1e-36,
+      "E_GeV": 1e+16,
+      "physics": "Unification breaking"
+    },
+    {
+      "epoch": "Inflation end",
+      "t_s": 1e-32,
+      "E_GeV": 1000000000000000.0,
+      "physics": "Reheating"
+    },
+    {
+      "epoch": "EW symmetry breaking",
+      "t_s": 1e-11,
+      "E_GeV": 100.0,
+      "physics": "Higgs mechanism"
+    },
+    {
+      "epoch": "QCD transition",
+      "t_s": 1e-05,
+      "E_GeV": 0.15,
+      "physics": "Hadronization"
+    },
+    {
+      "epoch": "BBN start",
+      "t_s": 1.0,
+      "E_GeV": 0.001,
+      "physics": "Big Bang nucleosynthesis"
+    },
+    {
+      "epoch": "BBN end",
+      "t_s": 200.0,
+      "E_GeV": 0.0007,
+      "physics": "He/Li abundance fixed"
+    },
+    {
+      "epoch": "Matter-radiation eq",
+      "t_s": 1800000000000.0,
+      "E_GeV": 8.6e-10,
+      "physics": "z ≈ 3400"
+    },
+    {
+      "epoch": "Recombination",
+      "t_s": 11991888000000.0,
+      "E_GeV": 2.7e-10,
+      "physics": "CMB released, z ≈ 1100"
+    },
+    {
+      "epoch": "Reionization",
+      "t_s": 6311520000000000.0,
+      "E_GeV": 2.3e-11,
+      "physics": "First stars, z ≈ 6-20"
+    },
+    {
+      "epoch": "Now",
+      "t_s": 4.354002072e+17,
+      "E_GeV": 2.35e-13,
+      "physics": "T_CMB = 2.725 K"
+    }
+  ],
+  "scale_factor_integration": {
+    "age_Gyr_computed": 13.803607214428856,
+    "a_eq": 0.7716856626658916,
+    "t_eq_Gyr": 10.296593186372744
+  },
+  "bh_cosmic_symmetry": {
+    "r_BH_m": 19201822607860.133,
+    "T_BH_K": 9.489891865585887e-18,
+    "S_BH": 4.434197200946634e+96,
+    "r_dS_m": 1.6583233702301606e+26,
+    "T_dS_K": 2.6553343020823123e-30,
+    "S_dS": 3.3072615309629415e+122,
+    "size_ratio_dS_over_BH": 7.458535065280568e+25
+  },
+  "verdict": "Big Bang ΛCDM cosmology fully consistent with ITU under K_cosmic = de Sitter horizon modular Hamiltonian. #18 BH and #19 Cosmic are symmetric specializations of K_geom (inside/outside dual)."
+}

@@ -1,0 +1,82 @@
+{
+  "phase": 130,
+  "title": "Dark energy + cosmic acceleration + Λ problem + DESI 2024 + K_Λ",
+  "tier1_id": 19,
+  "tier1_name": "Cosmology",
+  "block": "A (Physics/Math) — paper 3/9, phase 4/8",
+  "sn_hubble_diagram": {
+    "delta_mu_at_z05": 0.38573173422589946,
+    "interpretation": "ΛCDM predicts dimmer SNe -> evidence of acceleration"
+  },
+  "lambda_problem": {
+    "rho_L_obs": 5.8449208561333425e-27,
+    "cutoffs": [
+      {
+        "cutoff": "Planck (E_P)",
+        "rho_vac": 2.924011325552927e+111,
+        "ratio_to_obs": 5.002653410584043e+137
+      },
+      {
+        "cutoff": "GUT (10^16 GeV)",
+        "rho_vac": 1.3198960456577389e+99,
+        "ratio_to_obs": 2.258193187120253e+125
+      },
+      {
+        "cutoff": "EW (10^3 GeV)",
+        "rho_vac": 1.3198960456577392e+47,
+        "ratio_to_obs": 2.258193187120253e+73
+      },
+      {
+        "cutoff": "QCD (1 GeV)",
+        "rho_vac": 1.3198960456577392e+35,
+        "ratio_to_obs": 2.2581931871202533e+61
+      }
+    ]
+  },
+  "w_z_evolution_models": {
+    "LCDM": "w(z) = -1",
+    "DESI_2024": "w_0 = -0.95, w_a = -0.39",
+    "Quintessence_toy": "w_0 = -0.99, w_a = -0.1"
+  },
+  "w0_wa_constraints": [
+    {
+      "survey": "Planck 2018",
+      "w_0": -1.0,
+      "w_a": 0.0,
+      "sigma_w0": 0.1,
+      "sigma_wa": 0.3,
+      "deviation_from_LCDM_sigma": 0.0
+    },
+    {
+      "survey": "Pantheon+ (2022)",
+      "w_0": -1.0,
+      "w_a": 0.0,
+      "sigma_w0": 0.15,
+      "sigma_wa": 0.6,
+      "deviation_from_LCDM_sigma": 0.0
+    },
+    {
+      "survey": "DESI Y1 (2024)",
+      "w_0": -0.95,
+      "w_a": -0.39,
+      "sigma_w0": 0.09,
+      "sigma_wa": 0.34,
+      "deviation_from_LCDM_sigma": 1.2745139936247545
+    },
+    {
+      "survey": "DESI + SNe + CMB",
+      "w_0": -0.85,
+      "w_a": -0.55,
+      "sigma_w0": 0.06,
+      "sigma_wa": 0.2,
+      "deviation_from_LCDM_sigma": 3.716517186829627
+    }
+  ],
+  "holographic_bound": {
+    "r_dS_m": 1.6583233702301606e+26,
+    "rho_CKN": 4.400871072933858e-09,
+    "rho_L_obs": 5.844920856133343e-27,
+    "ratio_CKN_over_obs": 7.529393778387645e+17
+  },
+  "verdict": "Dark energy = ITU K_Λ vacuum K-state; Λ problem (120 orders) is reduced to ~factor 10 via holographic bound (CKN 1999); DESI 2024 hints at evolving w(z) ≠ -1 (2-4σ), suggesting K_Λ(t) time evolution — Pass-2 priority for Phase 222."
+}

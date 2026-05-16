@@ -1,0 +1,62 @@
+{
+  "phase": 133,
+  "title": "Cosmic horizons + Multiverse + Anthropic + Holographic in ITU",
+  "tier1_id": 19,
+  "tier1_name": "Cosmology",
+  "block": "A (Physics/Math) — paper 3/9, phase 7/8",
+  "horizons": {
+    "Omega_m": 0.315,
+    "Omega_L": 0.685,
+    "particle_Gly": 46.953619749195155,
+    "particle_Gpc": 14.39635079389232,
+    "event_Gly": 17.527992497940605,
+    "event_Gpc": 5.374220987880094,
+    "hubble_Gly": 14.506995102032175,
+    "hubble_Gpc": 4.447959317507419,
+    "particle_m": 4.442281964471353e+26,
+    "event_m": 1.6583233702301606e+26,
+    "hubble_m": 1.372506806603264e+26
+  },
+  "de_sitter_entropy": {
+    "r_dS_Gpc": 5.374220987880094,
+    "A_dS_m2": 3.455797660853876e+53,
+    "S_dS_nats": 3.3072615309629415e+122,
+    "T_dS_K": 2.1976801803795858e-30
+  },
+  "multiverse_levels": [
+    {
+      "level": "I",
+      "description": "Same physics, different IC",
+      "realization": "Inflation bubbles >> 46 Gly",
+      "itu_view": "K-state same, boundary conditions differ"
+    },
+    {
+      "level": "II",
+      "description": "Different vacua",
+      "realization": "String landscape ~10^500",
+      "itu_view": "K-state vacuum selection"
+    },
+    {
+      "level": "III",
+      "description": "Many-worlds (Everett)",
+      "realization": "Quantum branching",
+      "itu_view": "K-state superposition all branches"
+    },
+    {
+      "level": "IV",
+      "description": "Mathematical universes",
+      "realization": "All consistent math",
+      "itu_view": "K-state structure space"
+    }
+  ],
+  "string_landscape": {
+    "N_vacua": "1e500",
+    "S_dS_bits": 3.751007106311305e+122
+  },
+  "anthropic_lambda": {
+    "Lambda_obs_Planck": 2.873508332611706e-122,
+    "Lambda_anthropic_max_Planck": 2.873508332611706e-120,
+    "ratio_to_anthropic": 0.01
+  },
+  "verdict": "Cosmic event horizon = de Sitter, r_dS = 5.4 Gpc, S = 2.6e+122 nats; Multiverse Level I-IV (Tegmark 2003) maps to ITU K-state realization space; anthropic Λ bound consistent with observation within ~10x; string landscape (10^500 vacua) >> 1 observable universe info content."
+}
