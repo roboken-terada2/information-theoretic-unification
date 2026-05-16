@@ -326,7 +326,7 @@ def main():
                           "and ethics consensus.",
         "tier": 1,
         "paper_number": 9,
-        "tier_0_concept_doi": "10.5281/zenodo.20109210",
+        "tier_0_concept_doi": "10.5281/zenodo.20109209",
         "polytope_vertices": 9,
         "next_paper_candidates": [
             "Tier 1 #10: Energy / Materials (Phase 79-82)",

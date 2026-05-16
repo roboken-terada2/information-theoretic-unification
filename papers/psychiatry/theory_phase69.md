@@ -1,7 +1,7 @@
 # Phase 69: うつ病・不安障害の ITU 解析 ― K_reward と K_threat の破綻
 
 > **Tier 1 #7 (Psychiatry) — Phase 3/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

@@ -9,7 +9,7 @@ authors:
     email: munehiro.terada@roboken2.com
 abstract: >
   We apply the Information-Theoretic Unification (ITU) framework
-  (Terada 2026, DOI 10.5281/zenodo.20109210) to economics.
+  (Terada 2026, DOI 10.5281/zenodo.20109209) to economics.
   Markets are reframed as collective Bayesian inference engines
   implementing the ITU axiom dS = d<K> at the social scale.
   This is Tier 1 paper #8, opening the social-sciences axis of
@@ -155,7 +155,7 @@ references:
         given-names: Munehiro
     title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
     journal: "Zenodo"
-    doi: "10.5281/zenodo.20109210"
+    doi: "10.5281/zenodo.20109209"
     year: 2026
   - type: article
     authors:

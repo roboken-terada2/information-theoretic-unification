@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20109210.svg)](https://doi.org/10.5281/zenodo.20109210)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20109209.svg)](https://doi.org/10.5281/zenodo.20109209)
 # Information-Theoretic Unification of General Relativity and Quantum Mechanics
 
 **A 42-phase numerical demonstration that spacetime, gravity, the Standard
@@ -19,7 +19,7 @@ as modular-Hamiltonian eigenstructure (Russellian monism made mathematical).
 > Author / 著者: **Munehiro Terada (寺田 宗弘)**, Roboken
 > Contact: `munehiro.terada@roboken2.com`
 > Blog (note.com): https://note.com/roboken_ceo
-> Citation DOI: [`10.5281/zenodo.20109210`](https://doi.org/10.5281/zenodo.20109210)
+> Citation DOI: [`10.5281/zenodo.20109209`](https://doi.org/10.5281/zenodo.20109209)
 
 This repository contains the **bilingual full research record** (English + Japanese)
 of the Information-Theoretic Unification (ITU) project. The English-only
@@ -215,7 +215,7 @@ If you use this work, please cite the Zenodo DOI:
 ```
 Terada, M. (2026). Information-Theoretic Unification of Physics, Life,
 and Consciousness: Numerical Demonstration in 42 Phases. Zenodo.
-DOI: 10.5281/zenodo.20109210
+DOI: 10.5281/zenodo.20109209
 ```
 
 A machine-readable `CITATION.cff` is included.

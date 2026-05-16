@@ -329,7 +329,7 @@ def main():
                           "ITU-informed but overlap with industry consensus.",
         "tier": 1,
         "paper_number": 8,
-        "tier_0_concept_doi": "10.5281/zenodo.20109210",
+        "tier_0_concept_doi": "10.5281/zenodo.20109209",
         "engineering_rectangle_complete": True,
         "medicine_triangle_complete": True,
         "social_sciences_first_vertex": True,

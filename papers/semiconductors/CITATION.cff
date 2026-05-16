@@ -9,7 +9,7 @@ authors:
     email: munehiro.terada@roboken2.com
 abstract: >
   We apply the Information-Theoretic Unification (ITU) framework
-  (Terada 2026, DOI 10.5281/zenodo.20109210) to semiconductor
+  (Terada 2026, DOI 10.5281/zenodo.20109209) to semiconductor
   transistors. The single ITU axiom dS = d<K> simultaneously
   governs the Landauer minimum bit-erasure energy (k_B T ln 2),
   the Boltzmann subthreshold-swing tyranny (60 mV/decade @ 300K),
@@ -102,7 +102,7 @@ references:
         given-names: Munehiro
     title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
     journal: "Zenodo"
-    doi: "10.5281/zenodo.20109210"
+    doi: "10.5281/zenodo.20109209"
     year: 2026
   - type: article
     authors:

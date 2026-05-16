@@ -4,7 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20199598.svg)](https://doi.org/10.5281/zenodo.20199598)
 
-> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 📄 **Tier 1 #1-#9 (engineering rectangle + medicine triangle + social/philosophy)**: completed
 > 📄 **Tier 1 #10 (this paper)**: [10.5281/zenodo.20199598](https://doi.org/10.5281/zenodo.20199598)
 > 💻 **GitHub**: https://github.com/roboken-terada2/information-theoretic-unification
@@ -38,7 +38,7 @@ The ITU axiom yields:
 
 | Tier | DOI | Contents | Status |
 |---|---|---|---|
-| Tier 0 (core) | [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210) | ITU foundational 42 phases | v2.0.0 |
+| Tier 0 (core) | [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209) | ITU foundational 42 phases | v2.0.0 |
 | Tier 1 #1 | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | Quantum Computing | v1.0.0 |
 | Tier 1 #2 | [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501) | Machine Consciousness / ASI | v1.0.0 |
 | Tier 1 #3 | [10.5281/zenodo.20151059](https://doi.org/10.5281/zenodo.20151059) | Cryptography | v1.0.0 |

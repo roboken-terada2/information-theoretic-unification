@@ -1,7 +1,7 @@
 # Phase 74: 経済ロードマップ 2026-2050 ― AGI 経済、CBDC、ITU 経済学の完成
 
 > **Tier 1 #8 (Economics) — Phase 4/4 (最終回)**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

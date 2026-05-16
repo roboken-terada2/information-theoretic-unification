@@ -129,7 +129,7 @@
   "honest_framing": "Pass-1 interpretive paper across 4 phases. Reframes Hallmarks, Warburg, immune evasion, and drug response in ITU language. Predictions are consistent with industry consensus rather than ITU-unique. Pass-2 work would derive a specific ITU figure-of-merit for patient stratification.",
   "tier": 1,
   "paper_number": 5,
-  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_0_concept_doi": "10.5281/zenodo.20109209",
   "tier_1_qc_doi": "10.5281/zenodo.20139391",
   "tier_1_ai_doi": "10.5281/zenodo.20150501",
   "tier_1_crypto_doi": "10.5281/zenodo.20151059",

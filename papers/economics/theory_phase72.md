@@ -1,7 +1,7 @@
 # Phase 72: バブルと金融危機の ITU 解析 ― Minsky 不安定性と K_market の破綻
 
 > **Tier 1 #8 (Economics) — Phase 2/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

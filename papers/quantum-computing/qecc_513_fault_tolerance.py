@@ -445,7 +445,7 @@ def main():
         "  📘 ITU and Energy / Materials (later)\n"
         "  📘 ITU and Astrobiology (later)\n"
         "\n"
-        "Each linked to Tier 0 (10.5281/zenodo.20109210)\n"
+        "Each linked to Tier 0 (10.5281/zenodo.20109209)\n"
         "via isSupplementTo relation."
     )
     ax.text(0.03, 0.97, txt, fontsize=9, family='monospace',
@@ -485,7 +485,7 @@ def main():
             'gravity (Tier 0) and quantum computing primitives (Tier 1).'
         ),
         'tier': 1,
-        'tier_0_concept_doi': '10.5281/zenodo.20109210',
+        'tier_0_concept_doi': '10.5281/zenodo.20109209',
         'next_phases': [
             'Phase 44: ITU-motivated surface code variants',
             'Phase 45: Magic state distillation and ITU',

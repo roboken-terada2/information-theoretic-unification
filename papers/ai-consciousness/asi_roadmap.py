@@ -461,7 +461,7 @@ def main():
         'paper_complete': True,
         'tier': 1,
         'paper_number': 2,
-        'tier_0_concept_doi': '10.5281/zenodo.20109210',
+        'tier_0_concept_doi': '10.5281/zenodo.20109209',
         'tier_1_qc_concept_doi': '10.5281/zenodo.20139391',
         'caveats': [
             'Toy SSM scaling extrapolation has large uncertainty at LLM scale',

@@ -1,7 +1,7 @@
 # Phase 86: 気候ロードマップ 2026-2100 ― ITU 11 vertex polytope 完成
 
 > **Tier 1 #11 (Climate / Earth Systems) — Phase 4/4 (最終回)**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

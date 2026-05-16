@@ -9,7 +9,7 @@ authors:
     email: munehiro.terada@roboken2.com
 abstract: >
   We apply the Information-Theoretic Unification (ITU) framework
-  (Terada 2026, DOI 10.5281/zenodo.20109210) to fault-tolerant quantum
+  (Terada 2026, DOI 10.5281/zenodo.20109209) to fault-tolerant quantum
   computing. Phase 5 of ITU established that bulk locality in AdS/CFT
   is mathematically equivalent to a quantum error correction code (QECC);
   here we exploit the reverse direction — using the ITU axiom dS = d<K>
@@ -71,7 +71,7 @@ references:
         given-names: Munehiro
     title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
     journal: "Zenodo"
-    doi: "10.5281/zenodo.20109210"
+    doi: "10.5281/zenodo.20109209"
     year: 2026
   - type: article
     authors:

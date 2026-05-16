@@ -1,7 +1,7 @@
 # Phase 60: Warburg 効果 ― がん代謝の ITU 解釈
 
 > **Tier 1 #5 (Cancer Biology) — Phase 2/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

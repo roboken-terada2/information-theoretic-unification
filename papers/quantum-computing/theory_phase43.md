@@ -147,7 +147,7 @@ Phase 43-46 で 1 本の論文 (新 Zenodo deposit) を構成:
 | 次々論文 | Cancer Biology | 51-54 |
 | … | (各分野) | … |
 
-各論文は独立した DOI を持ち、コア ITU (10.5281/zenodo.20109210) に
+各論文は独立した DOI を持ち、コア ITU (10.5281/zenodo.20109209) に
 `isSupplementTo` で参照される。
 
 ---

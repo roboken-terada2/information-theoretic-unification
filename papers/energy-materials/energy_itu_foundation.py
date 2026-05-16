@@ -305,7 +305,7 @@ def main():
                           "from IEA, BNEF, US DOE, Merchant 2023.",
         "tier": 1,
         "paper_number": 10,
-        "tier_0_concept_doi": "10.5281/zenodo.20109210",
+        "tier_0_concept_doi": "10.5281/zenodo.20109209",
         "next_phases": [
             "Phase 80: Renewable energy + nuclear fusion (ITU systems view)",
             "Phase 81: Materials science - perovskites, MOFs, quantum materials",

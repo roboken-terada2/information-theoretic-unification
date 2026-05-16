@@ -313,7 +313,7 @@ def main():
             "Tier 1 #6: Aging (chronic K decay) — THIS PAPER",
             "Tier 1 #7: Psychiatry (FEP failures, planned)",
         ],
-        "tier_0_concept_doi": "10.5281/zenodo.20109210",
+        "tier_0_concept_doi": "10.5281/zenodo.20109209",
         "tier_1_cancer_doi": "10.5281/zenodo.20174318",
         "next_phases": [
             "Phase 64: Telomeres, mitochondria, proteostasis (deep dive)",

@@ -41,7 +41,7 @@
   "n_trials_per_point": 200,
   "ITU_connection": "Phase 5 of ITU established bulk locality = QECC. Phase 43 uses the same [[5,1,3]] code (HaPPY building block) for fault-tolerant quantum computing. The single ITU axiom δS = δ⟨K⟩ thus gives both gravity (Tier 0) and quantum computing primitives (Tier 1).",
   "tier": 1,
-  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_0_concept_doi": "10.5281/zenodo.20109209",
   "next_phases": [
     "Phase 44: ITU-motivated surface code variants",
     "Phase 45: Magic state distillation and ITU",

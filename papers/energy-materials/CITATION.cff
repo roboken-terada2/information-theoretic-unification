@@ -9,7 +9,7 @@ authors:
     email: munehiro.terada@roboken2.com
 abstract: >
   We apply the Information-Theoretic Unification (ITU) framework
-  (Terada 2026, DOI 10.5281/zenodo.20109210) to energy and
+  (Terada 2026, DOI 10.5281/zenodo.20109209) to energy and
   materials science. Energy is reframed as K-work and information
   as K-bit; the Landauer-Bennett equivalence (E_bit = k_B T ln 2)
   establishes their unity. This is Tier 1 paper #10, extending
@@ -146,7 +146,7 @@ references:
         given-names: Munehiro
     title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
     journal: "Zenodo"
-    doi: "10.5281/zenodo.20109210"
+    doi: "10.5281/zenodo.20109209"
     year: 2026
   - type: article
     authors:

@@ -1,7 +1,7 @@
 # Phase 85: 緩和策 ― 再エネ転換 + CDR + 気候工学のリスク低減
 
 > **Tier 1 #11 (Climate / Earth Systems) — Phase 3/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

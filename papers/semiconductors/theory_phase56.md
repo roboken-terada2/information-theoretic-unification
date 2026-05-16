@@ -1,7 +1,7 @@
 # Phase 56: 3D スケーリングと量子限界 ― FinFET から CFET、そして 1 nm の壁
 
 > **Tier 1 #4 (Semiconductors) — Phase 2/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

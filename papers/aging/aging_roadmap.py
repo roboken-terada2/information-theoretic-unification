@@ -294,7 +294,7 @@ def main():
                           "or intervention validated against long-term data.",
         "tier": 1,
         "paper_number": 6,
-        "tier_0_concept_doi": "10.5281/zenodo.20109210",
+        "tier_0_concept_doi": "10.5281/zenodo.20109209",
         "tier_1_qc_doi": "10.5281/zenodo.20139391",
         "tier_1_ai_doi": "10.5281/zenodo.20150501",
         "tier_1_crypto_doi": "10.5281/zenodo.20151059",

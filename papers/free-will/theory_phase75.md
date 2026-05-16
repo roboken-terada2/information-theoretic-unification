@@ -1,7 +1,7 @@
 # Phase 75: 自由意志とは何か ― ITU が解く 2500 年の哲学的難題
 
 > **Tier 1 #9 (Free Will) — Phase 1/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > Tier 1 #2 (AI/ASI): [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501)
 > Tier 1 #7 (Psychiatry): [10.5281/zenodo.20177427](https://doi.org/10.5281/zenodo.20177427)
 > 著者: 寺田 宗弘 (Roboken)

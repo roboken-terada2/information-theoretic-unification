@@ -5,7 +5,7 @@
 **A single-axiom derivation of optimal QECC architectures.**
 
 > 📄 **Tier 1 paper DOI (concept)**: [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391)
-> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 💻 **GitHub**: https://github.com/roboken-terada2/information-theoretic-unification
 > ✉️ **著者**: 寺田 宗弘 (Munehiro Terada), Roboken — `munehiro.terada@roboken2.com`
 
@@ -15,7 +15,7 @@
 
 This **Tier 1 application paper** applies the Information-Theoretic
 Unification (ITU) framework — established in 42 phases of numerical
-verification (Terada 2026, DOI [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210))
+verification (Terada 2026, DOI [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209))
 — to fault-tolerant quantum computing.
 
 ITU Phase 5 (Almheiri-Dong-Harlow 2015) established that bulk locality
@@ -33,7 +33,7 @@ derive optimal QECC architectures for practical quantum computing.
 
 | Tier | DOI (concept) | This version | Contents |
 |---|---|---|---|
-| Tier 0 (core) | [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210) | v2.0.0 | ITU foundational theory (42 phases) |
+| Tier 0 (core) | [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209) | v2.0.0 | ITU foundational theory (42 phases) |
 | **Tier 1 (this paper)** | **[10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391)** | **[10.5281/zenodo.20139392](https://doi.org/10.5281/zenodo.20139392)** (v1.0.0) | **ITU + QC** |
 | Tier 1 (future) | TBD | TBD | ITU + AI / Cancer / Economics / ... |
 
@@ -124,7 +124,7 @@ If you cite the underlying core ITU framework (Tier 0):
 ```
 Terada, M. (2026). Information-Theoretic Unification of Physics,
 Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0).
-Zenodo. https://doi.org/10.5281/zenodo.20109210
+Zenodo. https://doi.org/10.5281/zenodo.20109209
 ```
 
 **Both citations are recommended** when using this work to indicate both
@@ -159,4 +159,4 @@ ITU Tier 1 paper #1 — Quantum Computing
 
 Part of the *Information-Theoretic Unification* research programme.
 For the foundational theory (Phases 1-42), see
-[10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210).
+[10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209).

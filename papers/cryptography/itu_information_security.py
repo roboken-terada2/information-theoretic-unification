@@ -424,7 +424,7 @@ def main():
         },
         'tier': 1,
         'paper_number': 3,
-        'tier_0_concept_doi': '10.5281/zenodo.20109210',
+        'tier_0_concept_doi': '10.5281/zenodo.20109209',
         'tier_1_qc_doi': '10.5281/zenodo.20139391',
         'tier_1_ai_doi': '10.5281/zenodo.20150501',
         'next_phases': [

@@ -1,7 +1,7 @@
 # Phase 55: 半導体トランジスタの ITU 基礎 ― Landauer 極限と 60 mV/decade の壁
 
 > **Tier 1 #4 (Semiconductors) — Phase 1/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

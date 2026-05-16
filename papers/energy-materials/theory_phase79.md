@@ -1,7 +1,7 @@
 # Phase 79: エネルギー・材料の ITU 基礎 ― 情報がエネルギーである時代
 
 > **Tier 1 #10 (Energy/Materials) — Phase 1/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > Tier 1 #4 (Semiconductors): [10.5281/zenodo.20174036](https://doi.org/10.5281/zenodo.20174036)
 > 著者: 寺田 宗弘 (Roboken)
 

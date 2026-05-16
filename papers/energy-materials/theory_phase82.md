@@ -1,7 +1,7 @@
 # Phase 82: エネルギー・材料ロードマップ 2026-2050 ― ITU 10 vertex polytope 完成
 
 > **Tier 1 #10 (Energy/Materials) — Phase 4/4 (最終回)**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

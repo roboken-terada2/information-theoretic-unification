@@ -1,7 +1,7 @@
 # Phase 73: 不平等・成長・AI 労働代替 ― ITU が見る 21 世紀資本主義の K-断層
 
 > **Tier 1 #8 (Economics) — Phase 3/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > Tier 1 #2 (AI/ASI): [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501)
 > 著者: 寺田 宗弘 (Roboken)
 

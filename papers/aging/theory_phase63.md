@@ -1,7 +1,7 @@
 # Phase 63: 老化とは何か ― K_organism の経時劣化と Sinclair の情報理論
 
 > **Tier 1 #6 (Aging) — Phase 1/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > Tier 1 #5 (Cancer Biology): [10.5281/zenodo.20174318](https://doi.org/10.5281/zenodo.20174318)
 > 著者: 寺田 宗弘 (Roboken)
 

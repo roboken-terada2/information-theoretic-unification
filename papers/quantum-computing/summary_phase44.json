@@ -60,7 +60,7 @@
   "n_trials_per_point": 200,
   "ITU_correspondence": "Toric code = discrete bulk-locality realization. Threshold reflects modular Hamiltonian spectral gap.",
   "tier": 1,
-  "tier_0_concept_doi": "10.5281/zenodo.20109210",
+  "tier_0_concept_doi": "10.5281/zenodo.20109209",
   "next_phases": [
     "Phase 45: Magic state distillation",
     "Phase 46: NISQ-era applications"

@@ -4,7 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20177427.svg)](https://doi.org/10.5281/zenodo.20177427)
 
-> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 📄 **Tier 1 #1: Quantum Computing**: [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391)
 > 📄 **Tier 1 #2: Machine Consciousness / ASI**: [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501)
 > 📄 **Tier 1 #3: Cryptography**: [10.5281/zenodo.20151059](https://doi.org/10.5281/zenodo.20151059)
@@ -44,7 +44,7 @@ This **completes the medicine triangle**: #5 Cancer + #6 Aging + #7 Psychiatry.
 
 | Tier | DOI | Contents | Status |
 |---|---|---|---|
-| Tier 0 (core) | [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210) | ITU foundational 42 phases | v2.0.0 |
+| Tier 0 (core) | [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209) | ITU foundational 42 phases | v2.0.0 |
 | Tier 1 #1 | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | Quantum Computing | v1.0.0 |
 | Tier 1 #2 | [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501) | Machine Consciousness / ASI | v1.0.0 |
 | Tier 1 #3 | [10.5281/zenodo.20151059](https://doi.org/10.5281/zenodo.20151059) | Cryptography | v1.0.0 |
@@ -142,7 +142,7 @@ The core ITU framework (Tier 0):
 ```
 Terada, M. (2026). Information-Theoretic Unification of Physics,
 Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0).
-Zenodo. https://doi.org/10.5281/zenodo.20109210
+Zenodo. https://doi.org/10.5281/zenodo.20109209
 ```
 
 ---
@@ -209,4 +209,4 @@ ITU Tier 1 paper #7 — Psychiatry
 
 Part of the *Information-Theoretic Unification* research programme.
 For the foundational theory (Phases 1-42), see
-[10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210).
+[10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209).

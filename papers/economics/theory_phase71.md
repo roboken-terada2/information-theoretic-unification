@@ -1,7 +1,7 @@
 # Phase 71: 経済とは何か ― ITU が見る市場 = 集合的推論エンジン
 
 > **Tier 1 #8 (Economics) — Phase 1/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > Tier 1 #1-#7 (engineering rectangle + medicine triangle): completed
 > 著者: 寺田 宗弘 (Roboken)
 

@@ -311,7 +311,7 @@ def main():
                           "with industry consensus (BNEF, IEA, Goldman).",
         "tier": 1,
         "paper_number": 10,
-        "tier_0_concept_doi": "10.5281/zenodo.20109210",
+        "tier_0_concept_doi": "10.5281/zenodo.20109209",
         "next_paper_candidates": [
             "Tier 1 #11: Climate / Earth Systems (Phase 83-86)",
             "Tier 1 #12: Astrobiology / SETI (Phase 87-90)",

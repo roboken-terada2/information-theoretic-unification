@@ -320,7 +320,7 @@ def main():
         "paper_number": 7,
         "medicine_triangle_progress": "Cancer (#5) + Aging (#6) + Psychiatry (#7) "
                                        "= medicine triangle complete after Tier 1 #7",
-        "tier_0_concept_doi": "10.5281/zenodo.20109210",
+        "tier_0_concept_doi": "10.5281/zenodo.20109209",
         "tier_1_cancer_doi": "10.5281/zenodo.20174318",
         "tier_1_aging_doi": "10.5281/zenodo.20175663",
         "next_phases": [

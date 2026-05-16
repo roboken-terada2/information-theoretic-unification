@@ -1,7 +1,7 @@
 # Phase 76: 神経科学的基盤 ― PFC, DMN, Sapolsky の「Determined」 と K_self 変動
 
 > **Tier 1 #9 (Free Will) — Phase 2/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

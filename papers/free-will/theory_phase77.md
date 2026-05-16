@@ -1,7 +1,7 @@
 # Phase 77: 倫理・刑法・道徳責任 ― ITU が提案する K_self degree-based 司法
 
 > **Tier 1 #9 (Free Will) — Phase 3/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > Tier 1 #7 (Psychiatry): [10.5281/zenodo.20177427](https://doi.org/10.5281/zenodo.20177427)
 > 著者: 寺田 宗弘 (Roboken)
 

@@ -264,7 +264,7 @@ def main():
                           "informed estimates. No novel free-will discovery.",
         "tier": 1,
         "paper_number": 9,
-        "tier_0_concept_doi": "10.5281/zenodo.20109210",
+        "tier_0_concept_doi": "10.5281/zenodo.20109209",
         "tier_1_ai_doi": "10.5281/zenodo.20150501",
         "tier_1_psych_doi": "10.5281/zenodo.20177427",
         "tier_1_econ_doi": "10.5281/zenodo.20196309",

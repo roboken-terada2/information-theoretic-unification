@@ -9,7 +9,7 @@ authors:
     email: munehiro.terada@roboken2.com
 abstract: >
   We apply the Information-Theoretic Unification (ITU) framework
-  (Terada 2026, DOI 10.5281/zenodo.20109210) to psychiatric biology.
+  (Terada 2026, DOI 10.5281/zenodo.20109209) to psychiatric biology.
   Psychiatric disorders are reframed as K_brain-component failures
   in the predictive-coding machinery; Friston's Free Energy
   Principle (FEP) is shown to be the brain-specific incarnation
@@ -145,7 +145,7 @@ references:
         given-names: Munehiro
     title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
     journal: "Zenodo"
-    doi: "10.5281/zenodo.20109210"
+    doi: "10.5281/zenodo.20109209"
     year: 2026
   - type: article
     authors:

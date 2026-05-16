@@ -1,7 +1,7 @@
 # Phase 81: 新材料革命 ― perovskites, MOFs, 量子材料, AI 駆動材料発見
 
 > **Tier 1 #10 (Energy/Materials) — Phase 3/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > Tier 1 #1 (QC): [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391)
 > Tier 1 #2 (AI): [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501)
 > 著者: 寺田 宗弘 (Roboken)

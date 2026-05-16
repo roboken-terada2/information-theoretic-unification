@@ -1,7 +1,7 @@
 # Phase 65: 老化介入療法 ― ITU が評価する rapamycin, metformin, senolytics, NAD+
 
 > **Tier 1 #6 (Aging) — Phase 3/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

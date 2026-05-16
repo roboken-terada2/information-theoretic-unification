@@ -183,7 +183,7 @@ ITU 単一公理 δS = δ⟨K⟩
 
 | Tier | 論文 | 状況 | DOI |
 |---|---|---|---|
-| Tier 0 | ITU 万物の理論 (42 phases) | v2.0.0 | 10.5281/zenodo.20109210 |
+| Tier 0 | ITU 万物の理論 (42 phases) | v2.0.0 | 10.5281/zenodo.20109209 |
 | Tier 1 #1 | ITU + Quantum Computing | v1.0.0 | **10.5281/zenodo.20139391** |
 | **Tier 1 #2** | **ITU + Machine Consciousness/ASI** | **v1.0.0 完成 (本論文)** | (発行予定) |
 | Tier 1 #3 | ITU + Cryptography | 計画中 | TBD |

@@ -1,7 +1,7 @@
 # Phase 67: 精神医学とは何か ― ITU が見る Free Energy Principle と K_brain の破綻
 
 > **Tier 1 #7 (Psychiatry) — Phase 1/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > Tier 1 #5 (Cancer): [10.5281/zenodo.20174318](https://doi.org/10.5281/zenodo.20174318)
 > Tier 1 #6 (Aging): [10.5281/zenodo.20175663](https://doi.org/10.5281/zenodo.20175663)
 > 著者: 寺田 宗弘 (Roboken)

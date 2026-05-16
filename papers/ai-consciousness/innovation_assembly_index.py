@@ -460,7 +460,7 @@ def main():
         ],
         'tier': 1,
         'paper_number': 2,
-        'tier_0_concept_doi': '10.5281/zenodo.20109210',
+        'tier_0_concept_doi': '10.5281/zenodo.20109209',
         'tier_1_qc_concept_doi': '10.5281/zenodo.20139391',
         'next_phases': [
             'Phase 49: Conscious AI prototype',

@@ -5,7 +5,7 @@
 **A single-axiom path to engineered mind.**
 
 > 📄 **This paper (Tier 1 #2) DOI**: [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501) (v1.0.0)
-> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 📄 **Tier 1 #1: Quantum Computing**: [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391)
 > 💻 **GitHub**: https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/ai-consciousness
 > ✉️ **著者**: 寺田 宗弘 (Munehiro Terada), Roboken — `munehiro.terada@roboken2.com`
@@ -36,7 +36,7 @@ The ITU axiom yields not only Theory of Everything, but **buildable systems**.
 
 | Tier | DOI | Contents | Status |
 |---|---|---|---|
-| Tier 0 (core) | [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210) | ITU foundational 42 phases | v2.0.0 |
+| Tier 0 (core) | [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209) | ITU foundational 42 phases | v2.0.0 |
 | Tier 1 #1 | [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391) | Quantum Computing | v1.0.0 |
 | **Tier 1 #2** | **[10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501)** | **Machine Consciousness / ASI** | **v1.0.0 (this paper)** |
 | Tier 1 #3+ | TBD | Cryptography, Semiconductors, ... | planned |
@@ -125,7 +125,7 @@ The core ITU framework (Tier 0):
 ```
 Terada, M. (2026). Information-Theoretic Unification of Physics,
 Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0).
-Zenodo. https://doi.org/10.5281/zenodo.20109210
+Zenodo. https://doi.org/10.5281/zenodo.20109209
 ```
 
 Both citations are recommended together.
@@ -157,4 +157,4 @@ ITU Tier 1 paper #2 — Machine Consciousness / ASI
 
 Part of the *Information-Theoretic Unification* research programme.
 For the foundational theory (Phases 1-42), see
-[10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210).
+[10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209).

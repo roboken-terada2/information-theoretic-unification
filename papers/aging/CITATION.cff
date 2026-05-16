@@ -9,7 +9,7 @@ authors:
     email: munehiro.terada@roboken2.com
 abstract: >
   We apply the Information-Theoretic Unification (ITU) framework
-  (Terada 2026, DOI 10.5281/zenodo.20109210) to aging biology.
+  (Terada 2026, DOI 10.5281/zenodo.20109209) to aging biology.
   Aging is re-expressed as slow exponential decay of K_organism
   over time, the chronic counterpart to cancer's acute K breakdown
   (Tier 1 #5, DOI 10.5281/zenodo.20174318). This is Tier 1 paper
@@ -130,7 +130,7 @@ references:
         given-names: Munehiro
     title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases"
     journal: "Zenodo"
-    doi: "10.5281/zenodo.20109210"
+    doi: "10.5281/zenodo.20109209"
     year: 2026
   - type: article
     authors:

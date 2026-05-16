@@ -5,7 +5,7 @@
 **A single-axiom framework for quantum and post-quantum information protection.**
 
 > 📄 **This paper (Tier 1 #3) DOI**: [10.5281/zenodo.20151059](https://doi.org/10.5281/zenodo.20151059) (v1.0.0)
-> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> 📄 **Tier 0 ITU framework**: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 📄 **Tier 1 #1: Quantum Computing**: [10.5281/zenodo.20139391](https://doi.org/10.5281/zenodo.20139391)
 > 📄 **Tier 1 #2: Machine Consciousness / ASI**: [10.5281/zenodo.20150501](https://doi.org/10.5281/zenodo.20150501)
 > 💻 **GitHub**: https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/cryptography
@@ -124,7 +124,7 @@ The core ITU framework (Tier 0):
 ```
 Terada, M. (2026). Information-Theoretic Unification of Physics,
 Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0).
-Zenodo. https://doi.org/10.5281/zenodo.20109210
+Zenodo. https://doi.org/10.5281/zenodo.20109209
 ```
 
 ---

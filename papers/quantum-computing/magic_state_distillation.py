@@ -370,7 +370,7 @@ def main():
             'fault-tolerant quantum computing under the single ITU axiom.'
         ),
         'tier': 1,
-        'tier_0_concept_doi': '10.5281/zenodo.20109210',
+        'tier_0_concept_doi': '10.5281/zenodo.20109209',
         'caveats': [
             'Probabilistic model only (no full state simulation)',
             'Single-error-type model (real protocols handle multiple errors)',

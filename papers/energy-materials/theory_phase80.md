@@ -1,7 +1,7 @@
 # Phase 80: 再生可能エネルギーと核融合 ― ITU が描く 21 世紀のエネルギー転換
 
 > **Tier 1 #10 (Energy/Materials) — Phase 2/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > Tier 1 #8 (Economics): [10.5281/zenodo.20196309](https://doi.org/10.5281/zenodo.20196309)
 > 著者: 寺田 宗弘 (Roboken)
 

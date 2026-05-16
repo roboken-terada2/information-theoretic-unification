@@ -1,7 +1,7 @@
 # Phase 83: ITU と気候・地球システム ― 情報理論的気候観
 
 > **Tier 1 #11 (Climate / Earth Systems) — Phase 1/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 直接前駆: Tier 1 #10 Energy/Materials [10.5281/zenodo.20199598](https://doi.org/10.5281/zenodo.20199598)
 > 著者: 寺田 宗弘 (Roboken)
 

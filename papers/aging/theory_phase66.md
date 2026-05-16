@@ -1,7 +1,7 @@
 # Phase 66: Longevity ロードマップ 2026-2050 ― ITU が描く 100 歳社会への道
 
 > **Tier 1 #6 (Aging) — Phase 4/4 (最終回)**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

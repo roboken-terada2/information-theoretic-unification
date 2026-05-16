@@ -367,7 +367,7 @@ def main():
             'paper Phases 43-46 complete; v1.0.0 ready for Zenodo deposit.'
         ),
         'tier': 1,
-        'tier_0_concept_doi': '10.5281/zenodo.20109210',
+        'tier_0_concept_doi': '10.5281/zenodo.20109209',
         'paper_complete': True,
         'caveats': [
             'Uses standard surface-code formula (Fowler et al. 2012)',

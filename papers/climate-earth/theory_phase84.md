@@ -1,7 +1,7 @@
 # Phase 84: 炭素循環 + ENSO + AMOC ― 地球システムの動的 K-flow
 
 > **Tier 1 #11 (Climate / Earth Systems) — Phase 2/4**
-> Tier 0 ITU: [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210)
+> Tier 0 ITU: [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209)
 > 著者: 寺田 宗弘 (Roboken)
 
 ---

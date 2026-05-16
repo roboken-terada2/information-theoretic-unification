@@ -299,7 +299,7 @@ def main():
                           "drug target derived from ITU first principles.",
         "tier": 1,
         "paper_number": 5,
-        "tier_0_concept_doi": "10.5281/zenodo.20109210",
+        "tier_0_concept_doi": "10.5281/zenodo.20109209",
         "next_phases": [
             "Phase 61: Cancer immunology, immune evasion, immunotherapy (ITU)",
             "Phase 62: ITU-informed cancer treatment roadmap and 10 predictions",

@@ -9,7 +9,7 @@ Each Tier 1 paper:
 - links back to the Tier 0 core ITU paper via Zenodo `isSupplementTo` / `isPartOf` relations
 - can be cited independently
 
-| Tier 0 (core) | [10.5281/zenodo.20109210](https://doi.org/10.5281/zenodo.20109210) | Information-Theoretic Unification of Physics, Life, and Consciousness (42 phases) |
+| Tier 0 (core) | [10.5281/zenodo.20109209](https://doi.org/10.5281/zenodo.20109209) | Information-Theoretic Unification of Physics, Life, and Consciousness (42 phases) |
 |---|---|---|
 
 ## Published Tier 1 Papers
@@ -199,7 +199,7 @@ Plus the core ITU citation:
 ```
 Terada, M. (2026). Information-Theoretic Unification of Physics,
 Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0).
-Zenodo. https://doi.org/10.5281/zenodo.20109210
+Zenodo. https://doi.org/10.5281/zenodo.20109209
 ```
 
 ---
