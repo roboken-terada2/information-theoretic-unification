@@ -28,14 +28,16 @@ Each Tier 1 paper:
 | 10 | [ITU and Energy / Materials](energy-materials/) | [10.5281/zenodo.20199598](https://doi.org/10.5281/zenodo.20199598) | 79-82 | `energy-materials/` | ✅ v1.0.0 |
 | 11 | [ITU and Climate / Earth Systems](climate-earth/) | [10.5281/zenodo.20200728](https://doi.org/10.5281/zenodo.20200728) | 83-86 | `climate-earth/` | ✅ v1.0.0 |
 | 12 | [ITU and Astrobiology / SETI](astrobiology/) | [10.5281/zenodo.20222121](https://doi.org/10.5281/zenodo.20222121) | 87-90 | `astrobiology/` | ✅ v1.0.0 |
+| 13 | [ITU and Robotics / Embodied AI](robotics/) | [10.5281/zenodo.20224976](https://doi.org/10.5281/zenodo.20224976) | 91-94 | `robotics/` | ✅ v1.0.0 |
 
-> **🎉🎉🎉 ITU 12-vertex polytope COMPLETED — cosmic axis added**: Tier 1 #1-#4 + #10 form the **engineering pentagon** (computation, intelligence, communication, substrate, energy). Tier 1 #5-#7 form the **medicine triangle** (cancer acute, aging chronic, psychiatry brain-circuit). **#8 (Economics)** is the social-sciences vertex, **#9 (Free Will)** is the philosophy vertex, and **#11 (Climate / Earth Systems)** is the **biosphere super-hub** (degree 7 — bidirectionally connects Energy #10, Economics #8, AI #2, Cancer #5, Free Will #9). **#12 (Astrobiology / SETI)** opens the **cosmic axis** — connecting Climate #11, AI/ASI #2, Aging #6, Free Will #9, and Tier 0 (life self-organization). Twelve Tier 1 papers, all under the ITU axiom dS = d<K>. Pass-1 progress: 90 of 220 phases (40.9%).
+> **🎉🎉🎉🎉 ITU 13-vertex polytope COMPLETED — embodiment axis added**: Tier 1 #1-#4 + #10 form the **engineering pentagon**. Tier 1 #5-#7 form the **medicine triangle**. **#8 (Economics)** = social-sciences vertex, **#9 (Free Will)** = philosophy vertex. **#11 (Climate / Earth Systems)** = **biosphere super-hub** (degree 8). **#12 (Astrobiology / SETI)** = **cosmic axis** (degree 4). **#13 (Robotics / Embodied AI)** = **embodiment axis** (degree 6 — bidirectionally connects AI/ASI #2, Semi #4, Economics #8, Free Will #9, Energy #10, Climate #11). True AGI requires K_self (brain, #2) × K_action (body, #13). Thirteen Tier 1 papers, all under the ITU axiom dS = d<K>. Pass-1 progress: 94 of 220 phases (42.7%).
 
 ## Planned Tier 1 Papers
 
 | # | Paper | Phases | Status |
 |---|---|---|---|
-| 13+ | (full roadmap to Phase 220) | 91-220 | planned |
+| 14 | ITU and Communications / Networks | 95-98 | planned |
+| 15+ | (full roadmap to Phase 250) | 99-250 | planned |
 
 ## Structure
 
@@ -103,7 +105,12 @@ papers/
 │   ├── theory_phase87-90.md
 │   └── *.py, *.png, summary*.json
 │
-└── ...                                 (Tier 1 #13+ planned)
+├── robotics/                           Tier 1 #13: Robotics / Embodied AI (v1.0.0)
+│   ├── README.md, CITATION.cff, .zenodo.json
+│   ├── theory_phase91-94.md
+│   └── *.py, *.png, summary*.json
+│
+└── ...                                 (Tier 1 #14+ planned)
 ```
 
 ## How to cite a Tier 1 paper
@@ -192,6 +199,13 @@ Terada, M. (2026). ITU and Astrobiology / SETI: A Single-Axiom View
 of K-Life Emergence, Drake Equation, Habitability, Biosignatures,
 and the Fermi Paradox (v1.0.0).
 Zenodo. https://doi.org/10.5281/zenodo.20222121
+```
+
+```
+Terada, M. (2026). ITU and Robotics / Embodied AI: A Single-Axiom View
+of K-Action, K-Embodiment, Moravec's Paradox, and the 2026-2050
+Humanoid Deployment Roadmap (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.20224976
 ```
 
 Plus the core ITU citation:

@@ -1,0 +1,227 @@
+cff-version: 1.2.0
+title: "ITU and Robotics / Embodied AI: A Single-Axiom View of K-Action, K-Embodiment, Moravec's Paradox, and the 2026-2050 Humanoid Deployment Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current version
+  v2.0.0 at 10.5281/zenodo.20133709) to robotics and embodied AI.
+  Robotics is reframed as the product space K_action × K_embodiment
+  × K_env (motor control × body × environment). The intersection
+  with Tier 1 #2 (AI/ASI) yields Embodied AGI. This is Tier 1 paper
+  #13, opening the embodiment axis and bringing the ITU polytope to
+  13 vertices. Pass-1 progress: 94 of 220 phases (42.7%).
+  Phase 91 establishes the ITU foundation. K-state range spans 22
+  orders of magnitude: industrial 6 DOF (10^2 K-dim) → human 244 DOF
+  (10^9) → ASI 1000+ DOF (10^12). Humanoid K-state doubling period
+  = 1.9 years (faster than Moore's Law); 2024 K-state = 10^6 bits
+  (10,000× 1995). Moravec's Paradox quantified: chess K-total 10^8
+  (discrete) vs walking K-total 10^11 (continuous + 5×10^8 years
+  evolutionary optimization), explaining why physical tasks resist
+  AI automation more than cognitive ones.
+  Phase 92 covers manipulation, locomotion, and sensorimotor loops.
+  Manipulation K-channel total bandwidth = 10^8.8 bps (vision
+  dominant 6×10^8 bps; tactile bottleneck 100× behind human).
+  Locomotion: Atlas electric (2024) walks at 2.5 m/s and runs at
+  5.6 m/s — matching human sprinter level. Bayesian sensorimotor
+  control implements ITU active inference δS = δ⟨K⟩ in real time.
+  VLA models (RT-2 55B, OpenVLA 7B, π0 3B, Helix 7B at 200 Hz)
+  directly bridge Tier 1 #2 (LLM K_self) with #13 (K_action).
+  Phase 93 analyzes industry, economics, and ethics. 5-level
+  adoption: L1 simple automation (2024-27, K_deg 0.03) → L6 human-
+  indistinguishable (2050+, K_deg 0.95). Wright's Law price curve:
+  $200K (2024) → $20K (2030) → $5K (2040) → $3K (2050). Cumulative
+  deployment 2 billion units by 2050 (1 per 4 humans), market $223B/yr.
+  Industry automation across 10 sectors: 23% (2030) → 69% (2050),
+  with 540M jobs replaced. K_self threshold = 0.5 marks emergence
+  of moral agency (Tier 1 #9 connection): below this, liability falls
+  on manufacturer/owner; above this, the robot itself becomes a
+  moral subject.
+  Phase 94 synthesises the 2026-2050 roadmap with 14 milestones and
+  10 falsifiable predictions (P_avg = 0.57). Key milestones: 2026
+  Optimus mass production 100K/yr, 2028 Atlas commercial launch,
+  2030 $20K price tier + 10M cumulative, 2035 Embodied AGI
+  achievement (K_self × K_action = 0.5), 2040 $5K + 500M units,
+  2050 human-indistinguishable humanoid.
+  The ITU 13-vertex polytope completes with embodiment axis. Robotics
+  vertex bidirectionally connects AI/ASI (#2), Semiconductors (#4),
+  Economics (#8), Free Will (#9), Energy (#10), and Climate (#11)
+  — degree 6, second-highest after Climate super-hub (degree 8) and
+  AI/ASI (degree 7). The polytope now spans physics + life +
+  intelligence + embodiment + engineering + social + philosophy +
+  biosphere + cosmic — a near-complete unified worldview.
+  Central thesis: true AGI requires K_self (brain, Tier 1 #2) ⊗
+  K_action (body, Tier 1 #13). Software-only ASI lacks physical-world
+  agency; embodied ASI introduces both new safety risks (physical
+  accidents, hardware kill switches needed) and new observation
+  opportunities (direct behavioral verification). Pass-1 interpretive
+  paper reframing Moravec (1988), Pfeifer-Bongard (2006), ASIMO,
+  Boston Dynamics Atlas, Tesla Optimus, Figure 02, RT-2 (DeepMind
+  2023), OpenVLA (Stanford 2024), π0 (Physical Intelligence 2024),
+  Goldman Sachs humanoid market analysis 2024, McKinsey 2023
+  employment displacement, Asimov's Three Laws (1942), and EU AI
+  Act (2024) in ITU language. Pass-2 follow-up would derive ITU-
+  specific K_action policy structures, safety constraints on
+  K_embodiment, and quantitative validation against real-world
+  Optimus/Figure deployment metrics.
+keywords:
+  - robotics
+  - embodied AI
+  - humanoid
+  - Atlas
+  - Boston Dynamics
+  - Tesla Optimus
+  - Figure 02
+  - Unitree G1
+  - NEO
+  - Sanctuary AI Phoenix
+  - Apptronik Apollo
+  - Agility Robotics Digit
+  - Moravec's paradox
+  - Pfeifer Bongard
+  - K_action
+  - K_embodiment
+  - K_env
+  - sensorimotor
+  - manipulation
+  - grasping
+  - locomotion
+  - ZMP
+  - Zero Moment Point
+  - MPC
+  - Model Predictive Control
+  - reinforcement learning
+  - RL
+  - PPO
+  - SAC
+  - Bayesian sensorimotor
+  - Körding Wolpert
+  - active inference
+  - Friston
+  - VLA
+  - Vision-Language-Action
+  - RT-2
+  - DeepMind
+  - OpenVLA
+  - Stanford
+  - pi0
+  - Physical Intelligence
+  - Helix
+  - DOF
+  - degrees of freedom
+  - tactile sensing
+  - proprioception
+  - Wright's Law
+  - humanoid market
+  - Goldman Sachs
+  - McKinsey
+  - automation
+  - job displacement
+  - UBI
+  - universal basic income
+  - robot tax
+  - robot ethics
+  - robot rights
+  - moral agency
+  - mens rea
+  - Asimov three laws
+  - EU AI Act
+  - AI safety
+  - alignment
+  - hardware kill switch
+  - Embodied AGI
+  - Embodied ASI
+  - Information-Theoretic Unification
+  - ITU
+  - embodiment axis
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/robotics"
+url: "https://doi.org/10.5281/zenodo.20224976"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20224976"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification of Physics, Life, and Consciousness: Numerical Demonstration in 42 Phases (v2.0.0)"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest version). Current version v2.0.0 at 10.5281/zenodo.20133709."
+    year: 2026
+  - type: book
+    authors:
+      - family-names: Moravec
+        given-names: Hans
+    title: "Mind Children: The Future of Robot and Human Intelligence"
+    publisher: "Harvard University Press"
+    year: 1988
+  - type: book
+    authors:
+      - family-names: Pfeifer
+        given-names: Rolf
+      - family-names: Bongard
+        given-names: Josh
+    title: "How the Body Shapes the Way We Think: A New View of Intelligence"
+    publisher: "MIT Press"
+    year: 2006
+  - type: article
+    authors:
+      - family-names: Körding
+        given-names: Konrad
+      - family-names: Wolpert
+        given-names: Daniel
+    title: "Bayesian integration in sensorimotor learning"
+    journal: "Nature"
+    volume: 427
+    pages: 244
+    year: 2004
+  - type: article
+    authors:
+      - family-names: Friston
+        given-names: Karl
+    title: "The free-energy principle: a unified brain theory?"
+    journal: "Nature Reviews Neuroscience"
+    volume: 11
+    pages: 127
+    year: 2010
+  - type: article
+    authors:
+      - family-names: Brohan
+        given-names: Anthony
+    title: "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control"
+    journal: "DeepMind"
+    year: 2023
+  - type: article
+    authors:
+      - family-names: Kim
+        given-names: Moo Jin
+    title: "OpenVLA: An Open-Source Vision-Language-Action Model"
+    journal: "Stanford / UC Berkeley"
+    year: 2024
+  - type: article
+    authors:
+      - family-names: "Physical Intelligence"
+    title: "π0: A Vision-Language-Action Flow Model for General Robot Control"
+    journal: "Physical Intelligence"
+    year: 2024
+  - type: report
+    title: "Humanoid Robots: From Sci-Fi to Reality"
+    authors:
+      - name: "Goldman Sachs"
+    year: 2024
+  - type: report
+    title: "Generative AI and the Future of Work"
+    authors:
+      - name: "McKinsey Global Institute"
+    year: 2023

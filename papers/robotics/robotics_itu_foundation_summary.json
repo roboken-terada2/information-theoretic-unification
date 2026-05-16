@@ -1,0 +1,318 @@
+{
+  "phase": 91,
+  "title": "ITU × Robotics / Embodied AI — foundation",
+  "test1_dof_kstate": {
+    "robots": [
+      {
+        "name": "Industrial arm (ABB)",
+        "DOF": 6,
+        "K_dim_log10": 2.0,
+        "category": "industrial"
+      },
+      {
+        "name": "Spot (BD quadruped)",
+        "DOF": 12,
+        "K_dim_log10": 3.0,
+        "category": "quadruped"
+      },
+      {
+        "name": "Digit (Agility)",
+        "DOF": 16,
+        "K_dim_log10": 4.0,
+        "category": "humanoid"
+      },
+      {
+        "name": "ASIMO (Honda 2010)",
+        "DOF": 34,
+        "K_dim_log10": 4.5,
+        "category": "humanoid"
+      },
+      {
+        "name": "Atlas (BD electric)",
+        "DOF": 28,
+        "K_dim_log10": 5.5,
+        "category": "humanoid"
+      },
+      {
+        "name": "Optimus Gen 2",
+        "DOF": 28,
+        "K_dim_log10": 5.7,
+        "category": "humanoid"
+      },
+      {
+        "name": "Figure 02",
+        "DOF": 35,
+        "K_dim_log10": 6.0,
+        "category": "humanoid"
+      },
+      {
+        "name": "Human (estimated)",
+        "DOF": 244,
+        "K_dim_log10": 9.0,
+        "category": "biological"
+      },
+      {
+        "name": "ASI embodied (proj)",
+        "DOF": 1000,
+        "K_dim_log10": 12.0,
+        "category": "ASI"
+      }
+    ],
+    "DOF_range": [
+      6,
+      1000
+    ],
+    "K_dim_range_log10": [
+      2.0,
+      12.0
+    ]
+  },
+  "test2_humanoid_evolution": {
+    "timeline": [
+      {
+        "year": 1995,
+        "name": "Honda P2",
+        "DOF": 28,
+        "control_Hz": 50,
+        "K_bits_log10": 2.0
+      },
+      {
+        "year": 2000,
+        "name": "ASIMO v1",
+        "DOF": 26,
+        "control_Hz": 100,
+        "K_bits_log10": 2.5
+      },
+      {
+        "year": 2005,
+        "name": "ASIMO v2",
+        "DOF": 34,
+        "control_Hz": 200,
+        "K_bits_log10": 3.0
+      },
+      {
+        "year": 2010,
+        "name": "ASIMO 2010",
+        "DOF": 34,
+        "control_Hz": 100,
+        "K_bits_log10": 3.0
+      },
+      {
+        "year": 2013,
+        "name": "Atlas v1",
+        "DOF": 28,
+        "control_Hz": 500,
+        "K_bits_log10": 4.0
+      },
+      {
+        "year": 2016,
+        "name": "Atlas v2",
+        "DOF": 28,
+        "control_Hz": 1000,
+        "K_bits_log10": 4.5
+      },
+      {
+        "year": 2020,
+        "name": "Atlas hydraulic",
+        "DOF": 28,
+        "control_Hz": 1000,
+        "K_bits_log10": 5.0
+      },
+      {
+        "year": 2022,
+        "name": "Optimus Bumblebee",
+        "DOF": 28,
+        "control_Hz": 1000,
+        "K_bits_log10": 5.0
+      },
+      {
+        "year": 2024,
+        "name": "Atlas electric",
+        "DOF": 28,
+        "control_Hz": 2000,
+        "K_bits_log10": 6.0
+      },
+      {
+        "year": 2024,
+        "name": "Optimus Gen 2",
+        "DOF": 28,
+        "control_Hz": 2000,
+        "K_bits_log10": 5.7
+      },
+      {
+        "year": 2024,
+        "name": "Figure 02",
+        "DOF": 35,
+        "control_Hz": 1500,
+        "K_bits_log10": 6.0
+      },
+      {
+        "year": 2025,
+        "name": "Unitree G1",
+        "DOF": 23,
+        "control_Hz": 1000,
+        "K_bits_log10": 5.0
+      },
+      {
+        "year": 2028,
+        "name": "Optimus Gen 4 (proj)",
+        "DOF": 35,
+        "control_Hz": 5000,
+        "K_bits_log10": 7.5
+      },
+      {
+        "year": 2030,
+        "name": "Embodied AGI (proj)",
+        "DOF": 40,
+        "control_Hz": 10000,
+        "K_bits_log10": 8.5
+      }
+    ],
+    "K_growth_per_year_orders": 0.15982680722891895,
+    "K_doubling_period_yr": 1.8834762508445644,
+    "control_freq_2024_vs_1995_ratio": 40.0,
+    "K_bits_2024_vs_1995_ratio": 10000.0
+  },
+  "test3_embodied_agi": {
+    "use_cases": [
+      {
+        "name": "Warehouse logistics (Optimus, Digit)",
+        "K_self": 0.2,
+        "K_embodiment": 0.3,
+        "K_action": 0.5,
+        "year": 2025,
+        "embodied_AGI_degree": 0.03
+      },
+      {
+        "name": "Housekeeping (laundry, dish)",
+        "K_self": 0.3,
+        "K_embodiment": 0.5,
+        "K_action": 0.6,
+        "year": 2028,
+        "embodied_AGI_degree": 0.09
+      },
+      {
+        "name": "Childcare / eldercare assistance",
+        "K_self": 0.5,
+        "K_embodiment": 0.6,
+        "K_action": 0.65,
+        "year": 2032,
+        "embodied_AGI_degree": 0.195
+      },
+      {
+        "name": "Full cooking (gourmet)",
+        "K_self": 0.6,
+        "K_embodiment": 0.7,
+        "K_action": 0.7,
+        "year": 2035,
+        "embodied_AGI_degree": 0.294
+      },
+      {
+        "name": "Surgical assistant",
+        "K_self": 0.7,
+        "K_embodiment": 0.8,
+        "K_action": 0.85,
+        "year": 2040,
+        "embodied_AGI_degree": 0.4759999999999999
+      },
+      {
+        "name": "Free dialogue + empathetic action",
+        "K_self": 0.8,
+        "K_embodiment": 0.85,
+        "K_action": 0.85,
+        "year": 2045,
+        "embodied_AGI_degree": 0.5780000000000001
+      },
+      {
+        "name": "Human-indistinguishable (Turing+phys)",
+        "K_self": 0.95,
+        "K_embodiment": 0.95,
+        "K_action": 0.95,
+        "year": 2050,
+        "embodied_AGI_degree": 0.8573749999999999
+      }
+    ],
+    "max_degree": 0.8573749999999999
+  },
+  "test4_moravec": {
+    "tasks": [
+      {
+        "name": "Chess",
+        "K_action_log10": 4.0,
+        "K_env_log10": 4.0,
+        "continuous": false,
+        "evol_yr": 500,
+        "K_total_log10": 8.0,
+        "AI_difficulty_log10": 8.0,
+        "evol_log10_yr": 2.6989700043360187,
+        "moravec_gap": 5.301029995663981
+      },
+      {
+        "name": "Go",
+        "K_action_log10": 5.7,
+        "K_env_log10": 5.7,
+        "continuous": false,
+        "evol_yr": 4000,
+        "K_total_log10": 11.4,
+        "AI_difficulty_log10": 11.4,
+        "evol_log10_yr": 3.6020599913279625,
+        "moravec_gap": 7.797940008672038
+      },
+      {
+        "name": "Theorem proof",
+        "K_action_log10": 6.0,
+        "K_env_log10": 1.0,
+        "continuous": false,
+        "evol_yr": 2500,
+        "K_total_log10": 7.0,
+        "AI_difficulty_log10": 7.0,
+        "evol_log10_yr": 3.3979400086720375,
+        "moravec_gap": 3.6020599913279625
+      },
+      {
+        "name": "Walking",
+        "K_action_log10": 5.0,
+        "K_env_log10": 6.0,
+        "continuous": true,
+        "evol_yr": 500000000.0,
+        "K_total_log10": 11.0,
+        "AI_difficulty_log10": 12.0,
+        "evol_log10_yr": 8.698970004336019,
+        "moravec_gap": 3.3010299956639813
+      },
+      {
+        "name": "Grasping",
+        "K_action_log10": 5.0,
+        "K_env_log10": 6.0,
+        "continuous": true,
+        "evol_yr": 500000000.0,
+        "K_total_log10": 11.0,
+        "AI_difficulty_log10": 12.0,
+        "evol_log10_yr": 8.698970004336019,
+        "moravec_gap": 3.3010299956639813
+      },
+      {
+        "name": "Driving",
+        "K_action_log10": 4.0,
+        "K_env_log10": 7.0,
+        "continuous": true,
+        "evol_yr": 100,
+        "K_total_log10": 11.0,
+        "AI_difficulty_log10": 12.0,
+        "evol_log10_yr": 2.0,
+        "moravec_gap": 10.0
+      },
+      {
+        "name": "Conversation",
+        "K_action_log10": 4.0,
+        "K_env_log10": 5.0,
+        "continuous": false,
+        "evol_yr": 100000.0,
+        "K_total_log10": 9.0,
+        "AI_difficulty_log10": 9.0,
+        "evol_log10_yr": 5.0,
+        "moravec_gap": 4.0
+      }
+    ]
+  }
+}

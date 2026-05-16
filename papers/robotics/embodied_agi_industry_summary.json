@@ -1,0 +1,280 @@
+{
+  "phase": 93,
+  "title": "Embodied AGI — industry, economics, ethics",
+  "test1_adoption": {
+    "levels": [
+      {
+        "level": "L1 Simple automation",
+        "period": "2024-2027",
+        "K_degree": 0.03,
+        "year_start": 2024
+      },
+      {
+        "level": "L2 Structured tasks",
+        "period": "2027-2030",
+        "K_degree": 0.1,
+        "year_start": 2027
+      },
+      {
+        "level": "L3 Household help",
+        "period": "2030-2034",
+        "K_degree": 0.2,
+        "year_start": 2030
+      },
+      {
+        "level": "L4 Care + dialogue",
+        "period": "2034-2040",
+        "K_degree": 0.5,
+        "year_start": 2034
+      },
+      {
+        "level": "L5 Professional",
+        "period": "2040-2050",
+        "K_degree": 0.8,
+        "year_start": 2040
+      },
+      {
+        "level": "L6 Human-indistinguishable",
+        "period": "2050+",
+        "K_degree": 0.95,
+        "year_start": 2050
+      }
+    ],
+    "years": [
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033,
+      2034,
+      2035,
+      2036,
+      2037,
+      2038,
+      2039,
+      2040,
+      2041,
+      2042,
+      2043,
+      2044,
+      2045,
+      2046,
+      2047,
+      2048,
+      2049,
+      2050
+    ],
+    "deployment_cumulative": [
+      100000.0,
+      316227.7660168379,
+      1000000.0,
+      2154434.6900318824,
+      4641588.833612782,
+      10000000.0,
+      15848931.924611142,
+      25118864.315095823,
+      39810717.05534969,
+      63095734.448019296,
+      100000000.0,
+      137972966.14612135,
+      190365393.8715875,
+      262652780.44037715,
+      362389831.838848,
+      499999999.99999994,
+      574349177.4985169,
+      659753955.386446,
+      757858283.2552003,
+      870550563.2961248,
+      1000000000.0,
+      1148698354.997034,
+      1319507910.7728922,
+      1515716566.5104008,
+      1741101126.5922499,
+      2000000000.0000002
+    ],
+    "deployment_2050": 2000000000.0000002,
+    "per_capita_2050_humans": 3.9999999999999996
+  },
+  "test2_price_market": {
+    "price_2030": 21929.563922863697,
+    "price_2050": 3001.6468431816825,
+    "market_2030_B": 11.75076201982751,
+    "market_2050_B": 223.11252613631774,
+    "years_subset": [
+      2024,
+      2029,
+      2034,
+      2039,
+      2044,
+      2049
+    ],
+    "price_subset": [
+      200000.0,
+      28034.74836693539,
+      12162.700025574359,
+      5821.434236133211,
+      4088.479599850942,
+      3160.287798658514
+    ]
+  },
+  "test3_automation": {
+    "industries": [
+      {
+        "name": "Warehouse/logistics",
+        "auto_2030": 0.4,
+        "auto_2050": 0.9,
+        "workers_M_2024": 50,
+        "jobs_replaced_2030_M": 20.0,
+        "jobs_replaced_2050_M": 45.0
+      },
+      {
+        "name": "Manufacturing",
+        "auto_2030": 0.3,
+        "auto_2050": 0.8,
+        "workers_M_2024": 400,
+        "jobs_replaced_2030_M": 120.0,
+        "jobs_replaced_2050_M": 320.0
+      },
+      {
+        "name": "Trucking",
+        "auto_2030": 0.2,
+        "auto_2050": 0.7,
+        "workers_M_2024": 30,
+        "jobs_replaced_2030_M": 6.0,
+        "jobs_replaced_2050_M": 21.0
+      },
+      {
+        "name": "Eldercare",
+        "auto_2030": 0.05,
+        "auto_2050": 0.5,
+        "workers_M_2024": 30,
+        "jobs_replaced_2030_M": 1.5,
+        "jobs_replaced_2050_M": 15.0
+      },
+      {
+        "name": "Food service",
+        "auto_2030": 0.1,
+        "auto_2050": 0.6,
+        "workers_M_2024": 100,
+        "jobs_replaced_2030_M": 10.0,
+        "jobs_replaced_2050_M": 60.0
+      },
+      {
+        "name": "Cleaning",
+        "auto_2030": 0.15,
+        "auto_2050": 0.7,
+        "workers_M_2024": 60,
+        "jobs_replaced_2030_M": 9.0,
+        "jobs_replaced_2050_M": 42.0
+      },
+      {
+        "name": "Security",
+        "auto_2030": 0.25,
+        "auto_2050": 0.65,
+        "workers_M_2024": 20,
+        "jobs_replaced_2030_M": 5.0,
+        "jobs_replaced_2050_M": 13.0
+      },
+      {
+        "name": "Banking (teller)",
+        "auto_2030": 0.6,
+        "auto_2050": 0.95,
+        "workers_M_2024": 10,
+        "jobs_replaced_2030_M": 6.0,
+        "jobs_replaced_2050_M": 9.5
+      },
+      {
+        "name": "Surgery (assist)",
+        "auto_2030": 0.05,
+        "auto_2050": 0.3,
+        "workers_M_2024": 5,
+        "jobs_replaced_2030_M": 0.25,
+        "jobs_replaced_2050_M": 1.5
+      },
+      {
+        "name": "Education (teacher)",
+        "auto_2030": 0.05,
+        "auto_2050": 0.2,
+        "workers_M_2024": 80,
+        "jobs_replaced_2030_M": 4.0,
+        "jobs_replaced_2050_M": 16.0
+      }
+    ],
+    "total_workers_2024_M": 785,
+    "total_replaced_2030_M": 181.75,
+    "total_replaced_2050_M": 543.0,
+    "replacement_rate_2030": 0.23152866242038217,
+    "replacement_rate_2050": 0.6917197452229299
+  },
+  "test4_ethics": {
+    "thresholds": [
+      {
+        "K_self": 0.05,
+        "rights_level": "Property (machine)",
+        "year": 2024,
+        "examples": "Industrial robots"
+      },
+      {
+        "K_self": 0.2,
+        "rights_level": "Animal welfare-like",
+        "year": 2030,
+        "examples": "Advanced humanoid"
+      },
+      {
+        "K_self": 0.4,
+        "rights_level": "Partial personhood",
+        "year": 2040,
+        "examples": "Embodied AGI"
+      },
+      {
+        "K_self": 0.6,
+        "rights_level": "Full personhood",
+        "year": 2050,
+        "examples": "Embodied ASI"
+      },
+      {
+        "K_self": 0.85,
+        "rights_level": "Super-personhood",
+        "year": 2060,
+        "examples": "Future ASI"
+      }
+    ],
+    "liability_by_K_self": [
+      {
+        "manufacturer": 0.8,
+        "owner": 0.2,
+        "robot": 0.0,
+        "K_self": 0.05
+      },
+      {
+        "manufacturer": 0.4,
+        "owner": 0.4,
+        "robot": 0.2,
+        "K_self": 0.2
+      },
+      {
+        "manufacturer": 0.4,
+        "owner": 0.4,
+        "robot": 0.2,
+        "K_self": 0.4
+      },
+      {
+        "manufacturer": 0.2,
+        "owner": 0.3,
+        "robot": 0.5,
+        "K_self": 0.6
+      },
+      {
+        "manufacturer": 0.1,
+        "owner": 0.1,
+        "robot": 0.8,
+        "K_self": 0.85
+      }
+    ],
+    "moral_agency_threshold_K_self": 0.5
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "phase": 92,
+  "title": "Manipulation + Locomotion + Sensorimotor",
+  "test1_kchannels": {
+    "channels": [
+      {
+        "name": "Vision (RGB-D)",
+        "freq_Hz": 60,
+        "bits_per_sample": 10000000.0,
+        "color": "#1f77b4",
+        "total_bits_per_sec": 600000000.0,
+        "log10_bps": 8.778151250383644
+      },
+      {
+        "name": "Plan (high-level)",
+        "freq_Hz": 5,
+        "bits_per_sample": 1000.0,
+        "color": "#ff7f0e",
+        "total_bits_per_sec": 5000.0,
+        "log10_bps": 3.6989700043360187
+      },
+      {
+        "name": "Trajectory",
+        "freq_Hz": 500,
+        "bits_per_sample": 100.0,
+        "color": "#2ca02c",
+        "total_bits_per_sec": 50000.0,
+        "log10_bps": 4.698970004336019
+      },
+      {
+        "name": "Tactile (skin)",
+        "freq_Hz": 500,
+        "bits_per_sample": 1000.0,
+        "color": "#d62728",
+        "total_bits_per_sec": 500000.0,
+        "log10_bps": 5.698970004336019
+      },
+      {
+        "name": "Proprioception",
+        "freq_Hz": 1000,
+        "bits_per_sample": 100.0,
+        "color": "#9467bd",
+        "total_bits_per_sec": 100000.0,
+        "log10_bps": 5.0
+      },
+      {
+        "name": "Audio",
+        "freq_Hz": 100,
+        "bits_per_sample": 1000.0,
+        "color": "#8c564b",
+        "total_bits_per_sec": 100000.0,
+        "log10_bps": 5.0
+      }
+    ],
+    "total_bps": 600755000.0
+  },
+  "test2_locomotion": {
+    "timeline": [
+      {
+        "year": 2000,
+        "model": "ASIMO",
+        "walk_ms": 0.5,
+        "run_ms": null,
+        "stair": true,
+        "parkour": false
+      },
+      {
+        "year": 2005,
+        "model": "ASIMO v2",
+        "walk_ms": 1.7,
+        "run_ms": 1.4,
+        "stair": true,
+        "parkour": false
+      },
+      {
+        "year": 2013,
+        "model": "Atlas v1 (DRC)",
+        "walk_ms": 0.4,
+        "run_ms": null,
+        "stair": true,
+        "parkour": false
+      },
+      {
+        "year": 2016,
+        "model": "Atlas v2",
+        "walk_ms": 1.0,
+        "run_ms": null,
+        "stair": true,
+        "parkour": false
+      },
+      {
+        "year": 2018,
+        "model": "Atlas parkour",
+        "walk_ms": 1.5,
+        "run_ms": 2.5,
+        "stair": true,
+        "parkour": true
+      },
+      {
+        "year": 2020,
+        "model": "Atlas dance",
+        "walk_ms": 2.0,
+        "run_ms": 3.0,
+        "stair": true,
+        "parkour": true
+      },
+      {
+        "year": 2024,
+        "model": "Atlas electric",
+        "walk_ms": 2.5,
+        "run_ms": 5.6,
+        "stair": true,
+        "parkour": true
+      },
+      {
+        "year": 2024,
+        "model": "Optimus Gen 2",
+        "walk_ms": 1.5,
+        "run_ms": null,
+        "stair": false,
+        "parkour": false
+      },
+      {
+        "year": 2025,
+        "model": "Unitree G1",
+        "walk_ms": 2.0,
+        "run_ms": 3.3,
+        "stair": true,
+        "parkour": true
+      },
+      {
+        "year": 2030,
+        "model": "Embodied AGI",
+        "walk_ms": 3.0,
+        "run_ms": 7.0,
+        "stair": true,
+        "parkour": true
+      }
+    ],
+    "human_walk_ms": 1.4,
+    "human_run_ms": 4.0,
+    "bolt_sprint_ms": 12.4
+  },
+  "test3_rl_convergence": {
+    "n_steps": 500,
+    "tasks_summary": [
+      {
+        "task": "Block stacking",
+        "R_max": 1.0,
+        "tau": 50,
+        "converged": 90
+      },
+      {
+        "task": "Door opening",
+        "R_max": 1.0,
+        "tau": 100,
+        "converged": 130
+      },
+      {
+        "task": "Cloth folding",
+        "R_max": 0.7,
+        "tau": 200,
+        "converged": 166
+      },
+      {
+        "task": "Bipedal walking",
+        "R_max": 0.95,
+        "tau": 80,
+        "converged": 98
+      },
+      {
+        "task": "Backflip",
+        "R_max": 0.8,
+        "tau": 300,
+        "converged": 287
+      }
+    ]
+  },
+  "test4_vla": {
+    "models": [
+      {
+        "name": "RT-2 (DeepMind 2023)",
+        "params_B": 55,
+        "ctrl_Hz": 5,
+        "year": 2023,
+        "compute_score": 11.439332693830263
+      },
+      {
+        "name": "Code as Policies",
+        "params_B": 0.5,
+        "ctrl_Hz": 1,
+        "year": 2022,
+        "compute_score": 8.698970004336019
+      },
+      {
+        "name": "Octo (UCB 2024)",
+        "params_B": 0.1,
+        "ctrl_Hz": 20,
+        "year": 2024,
+        "compute_score": 9.301029995663981
+      },
+      {
+        "name": "OpenVLA (Stanford 2024)",
+        "params_B": 7,
+        "ctrl_Hz": 10,
+        "year": 2024,
+        "compute_score": 10.845098040014257
+      },
+      {
+        "name": "π0 (Physical Intelligence)",
+        "params_B": 3,
+        "ctrl_Hz": 50,
+        "year": 2024,
+        "compute_score": 11.176091259055681
+      },
+      {
+        "name": "Helix (Figure 2024)",
+        "params_B": 7,
+        "ctrl_Hz": 200,
+        "year": 2024,
+        "compute_score": 12.146128035678238
+      },
+      {
+        "name": "Embodied GPT-5 (proj 2027)",
+        "params_B": 100,
+        "ctrl_Hz": 500,
+        "year": 2027,
+        "compute_score": 13.698970004336019
+      },
+      {
+        "name": "Embodied AGI (proj 2030)",
+        "params_B": 500,
+        "ctrl_Hz": 1000,
+        "year": 2030,
+        "compute_score": 14.698970004336019
+      }
+    ]
+  }
+}
