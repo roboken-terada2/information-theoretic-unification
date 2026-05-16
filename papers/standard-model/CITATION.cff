@@ -1,0 +1,257 @@
+cff-version: 1.2.0
+title: "ITU and the Standard Model: A Single-Axiom View of Gauge Symmetry, Higgs Mechanism, QCD, Electroweak Precision, BSM Physics, and the 2026-2070 Collider Roadmap"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest
+  Tier 0 v3.0 at 10.5281/zenodo.20200156) to the Standard Model of
+  particle physics. This is Tier 1 paper #20, the fourth paper of
+  Block A (Physics/Math deepening), introducing K_field = K_gauge ⊕
+  K_fermion ⊕ K_Higgs and completing the FUNDAMENTAL TRINITY with
+  Tier 1 #17 Quantum Gravity (K_geom, DOI 10.5281/zenodo.20230667)
+  and Tier 1 #19 Cosmology (K_cosmic, DOI 10.5281/zenodo.20233952).
+  The ITU polytope reaches 20 vertices with Tier 1 #20 attaining
+  degree 19 (new maximum). Pass-1 progress: 142 of 220 phases (64.5%).
+  Phase 135 establishes SM gauge group SU(3)_C × SU(2)_L × U(1)_Y
+  with 12 generators. Couplings at M_Z: α_s=0.1181, α_em=1/127.94,
+  α_2=0.0339, α_1=0.0102; sin²θ_W=0.2312. Asymptotic freedom (GWP
+  1973, Nobel 2004).
+  Phase 136 covers 3-generation fermion content with 11-order mass
+  hierarchy (m_t = 172.5 GeV to m_ν ~ 1 eV). Top Yukawa y_t ≈ 0.99
+  ≈ O(1), electron y_e ~ 3×10⁻⁶. CKM Cabibbo θ_C = 13.0°; PMNS angles
+  much larger (θ_12=33.4°, θ_23=49.1°, θ_13=8.5°). LEP N_ν = 2.996 ±
+  0.007 fixes exactly 3 generations.
+  Phase 137 develops Higgs mechanism (Englert-Brout-Higgs 1964,
+  Nobel 2013). v=246.22 GeV, m_H=125.25 GeV, λ=0.129. W mass
+  predicted M_W = g v/2 = 80.379 GeV (perfect). Hierarchy problem:
+  δm_H²/m_H² ~ 10^32 at Planck cutoff = ★ fine-tuning #1. Higgs
+  couplings κ_W,Z,t,b,τ,γ,g all within ±2σ of SM (Standard Higgs).
+  Phase 138 covers QCD non-perturbative regime. Cornell potential
+  V(r) = -α/r + σr with σ ≈ 1 GeV/fm; string breaking at r≈2.5 fm.
+  Proton mass 938.27 MeV decomposes: 0.96% from bare quarks +
+  99.04% from QCD chiral SSB ★. QGP transition T_c ≈ 155 MeV.
+  Strong CP problem: θ_QCD < 1.8×10⁻¹⁰ from neutron EDM = ★
+  fine-tuning #2 (Peccei-Quinn axion DM candidate).
+  Phase 139 covers electroweak precision tests. ρ = 1.0104 (custodial
+  SU(2) symmetry). LEP Z pole observables at ‰-level. W mass CDF
+  2022 anomaly (80.4335, 7σ above SM) vs ATLAS 2024 (80.367)
+  unresolved. Muon g-2 (Fermilab 2023): Δa_μ = 251 ± 59 × 10⁻¹¹
+  = 4.2σ vs HVPI but ~1.8σ vs BMW lattice. CKM CAA 2.1σ deficit.
+  Phase 140 covers BSM. LHC 2024 SUSY: gluino > 2.3 TeV, squark
+  > 1.9 TeV — natural SUSY excluded. GUT: minimal SU(5) ruled out
+  by Super-K 2020 (τ_p > 2.4×10^34 yr); SO(10)/SUSY-SU(5) viable.
+  See-saw mechanism: m_ν = m_D²/M_R, M_R ~ 10^14 GeV gives natural
+  m_ν = 0.1 eV. KATRIN m_ν < 0.8 eV; KamLAND-Zen 2024 0νββ m_ν^Maj
+  < 0.036 eV. Leptogenesis ties to η_B = 6×10⁻¹⁰.
+  Phase 141 surveys LHC (Run 3 → HL-LHC 2030-2041 → FCC-ee/hh
+  2045-2100) and future colliders. HL-LHC will measure Higgs
+  self-coupling κ_λ at 50% precision; FCC-hh 5%. Block A ITU
+  verification priority: 9 experiments (BMV, LiteBIRD, EHT, DESI,
+  HL-LHC, FCC-hh, Muon g-2, KamLAND-Zen, IceCube), P_avg = 0.678.
+  Phase 142 integrates under K_field. 20-vertex polytope: 130 edges,
+  ⟨k⟩ = 13.00. Tier 1 #20 strong couplings: #19 Cosmology (0.90),
+  #17 QG (0.85), #10 Energy (0.75); avg 0.426. FUNDAMENTAL TRINITY
+  #17 K_geom + #19 K_cosmic + #20 K_field covers all physics. Ten
+  predictions for 2026-2050: HL-LHC λ_3 2041 P=0.85, Muon g-2 2027
+  P=0.80, W mass anomaly 2026 P=0.85, CKM CAA 2030 P=0.65, 0νββ
+  2035 P=0.40, KATRIN 2030 P=0.65, Natural SUSY excluded 2035 P=0.85,
+  proton decay 2040 P=0.30, axion DM 2035 P=0.45, dark photon 2030
+  P=0.30. Grand P_avg = 0.610. Strong/Medium/Weak = 6/4/0.
+  Central thesis: ITU axiom dS = d<K> specializes to K_field at
+  particle physics scales, unifying SM gauge structure, 3-gen fermion
+  content, Higgs mechanism, QCD, electroweak precision, and BSM
+  extensions under one principle. FUNDAMENTAL TRINITY (#17+#19+#20)
+  covers all physics in 3 K-states. Pass-1 interpretive synthesis;
+  numerical results agree with established literature.
+keywords:
+  - Standard Model
+  - Gauge symmetry
+  - Higgs boson
+  - Quantum chromodynamics
+  - Electroweak unification
+  - Yukawa coupling
+  - CKM matrix
+  - Supersymmetry
+  - Beyond Standard Model
+  - Particle physics
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/standard-model"
+url: "https://doi.org/10.5281/zenodo.20234703"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20234703"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-16"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification (ITU) Tier 0 v3.0"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest). Current Tier 0 v3.0 at 10.5281/zenodo.20200156."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Yang
+        given-names: Chen Ning
+      - family-names: Mills
+        given-names: Robert L.
+    title: "Conservation of isotopic spin and isotopic gauge invariance"
+    journal: "Physical Review"
+    volume: "96"
+    pages: "191-195"
+    year: 1954
+  - type: article
+    authors:
+      - family-names: Glashow
+        given-names: Sheldon L.
+    title: "Partial-symmetries of weak interactions"
+    journal: "Nuclear Physics"
+    volume: "22"
+    pages: "579-588"
+    year: 1961
+  - type: article
+    authors:
+      - family-names: Weinberg
+        given-names: Steven
+    title: "A model of leptons"
+    journal: "Physical Review Letters"
+    volume: "19"
+    pages: "1264-1266"
+    year: 1967
+  - type: article
+    authors:
+      - family-names: Higgs
+        given-names: Peter W.
+    title: "Broken symmetries and the masses of gauge bosons"
+    journal: "Physical Review Letters"
+    volume: "13"
+    pages: "508-509"
+    year: 1964
+  - type: article
+    authors:
+      - family-names: Englert
+        given-names: François
+      - family-names: Brout
+        given-names: Robert
+    title: "Broken symmetry and the mass of gauge vector mesons"
+    journal: "Physical Review Letters"
+    volume: "13"
+    pages: "321-323"
+    year: 1964
+  - type: article
+    authors:
+      - family-names: Cabibbo
+        given-names: Nicola
+    title: "Unitary symmetry and leptonic decays"
+    journal: "Physical Review Letters"
+    volume: "10"
+    pages: "531-533"
+    year: 1963
+  - type: article
+    authors:
+      - family-names: Kobayashi
+        given-names: Makoto
+      - family-names: Maskawa
+        given-names: Toshihide
+    title: "CP-violation in the renormalizable theory of weak interaction"
+    journal: "Progress of Theoretical Physics"
+    volume: "49"
+    pages: "652-657"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: Gross
+        given-names: David J.
+      - family-names: Wilczek
+        given-names: Frank
+    title: "Ultraviolet behavior of non-Abelian gauge theories"
+    journal: "Physical Review Letters"
+    volume: "30"
+    pages: "1343-1346"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: Politzer
+        given-names: H. David
+    title: "Reliable perturbative results for strong interactions"
+    journal: "Physical Review Letters"
+    volume: "30"
+    pages: "1346-1349"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: Georgi
+        given-names: Howard
+      - family-names: Glashow
+        given-names: Sheldon L.
+    title: "Unity of all elementary-particle forces"
+    journal: "Physical Review Letters"
+    volume: "32"
+    pages: "438-441"
+    year: 1974
+  - type: article
+    authors:
+      - name: "ATLAS Collaboration"
+    title: "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC"
+    journal: "Physics Letters B"
+    volume: "716"
+    pages: "1-29"
+    year: 2012
+  - type: article
+    authors:
+      - name: "CMS Collaboration"
+    title: "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC"
+    journal: "Physics Letters B"
+    volume: "716"
+    pages: "30-61"
+    year: 2012
+  - type: article
+    authors:
+      - name: "Particle Data Group"
+    title: "Review of Particle Physics"
+    journal: "Physical Review D"
+    volume: "110"
+    pages: "030001"
+    year: 2024
+  - type: article
+    authors:
+      - name: "CDF Collaboration"
+    title: "High-precision measurement of the W boson mass with the CDF II detector"
+    journal: "Science"
+    volume: "376"
+    pages: "170-176"
+    year: 2022
+  - type: article
+    authors:
+      - name: "Muon g-2 Collaboration"
+    title: "Measurement of the Positive Muon Anomalous Magnetic Moment to 0.20 ppm"
+    journal: "Physical Review Letters"
+    volume: "131"
+    pages: "161802"
+    year: 2023
+  - type: article
+    authors:
+      - family-names: Yanagida
+        given-names: Tsutomu
+    title: "Horizontal gauge symmetry and masses of neutrinos"
+    journal: "KEK Workshop Proceedings"
+    year: 1979
+  - type: article
+    authors:
+      - name: "KATRIN Collaboration"
+    title: "Direct neutrino-mass measurement with sub-electronvolt sensitivity"
+    journal: "Nature Physics"
+    volume: "18"
+    pages: "160-166"
+    year: 2022

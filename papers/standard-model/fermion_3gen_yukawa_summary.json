@@ -1,0 +1,199 @@
+{
+  "phase": 136,
+  "title": "SM fermion 3 generations + Yukawa + CKM/PMNS in ITU",
+  "tier1_id": 20,
+  "tier1_name": "Standard Model",
+  "block": "A (Physics/Math) — paper 4/9, phase 2/8",
+  "three_generations": {
+    "fermions": [
+      {
+        "name": "up (u)",
+        "type": "quark",
+        "generation": 1,
+        "charge": "+2/3",
+        "mass_GeV": 0.00216
+      },
+      {
+        "name": "down (d)",
+        "type": "quark",
+        "generation": 1,
+        "charge": "-1/3",
+        "mass_GeV": 0.00467
+      },
+      {
+        "name": "electron (e)",
+        "type": "lepton",
+        "generation": 1,
+        "charge": "-1",
+        "mass_GeV": 0.000511
+      },
+      {
+        "name": "nu_e",
+        "type": "neutrino",
+        "generation": 1,
+        "charge": "0",
+        "mass_GeV": 1e-09
+      },
+      {
+        "name": "charm (c)",
+        "type": "quark",
+        "generation": 2,
+        "charge": "+2/3",
+        "mass_GeV": 1.27
+      },
+      {
+        "name": "strange (s)",
+        "type": "quark",
+        "generation": 2,
+        "charge": "-1/3",
+        "mass_GeV": 0.093
+      },
+      {
+        "name": "muon (μ)",
+        "type": "lepton",
+        "generation": 2,
+        "charge": "-1",
+        "mass_GeV": 0.10566
+      },
+      {
+        "name": "nu_mu",
+        "type": "neutrino",
+        "generation": 2,
+        "charge": "0",
+        "mass_GeV": 1e-09
+      },
+      {
+        "name": "top (t)",
+        "type": "quark",
+        "generation": 3,
+        "charge": "+2/3",
+        "mass_GeV": 172.5
+      },
+      {
+        "name": "bottom (b)",
+        "type": "quark",
+        "generation": 3,
+        "charge": "-1/3",
+        "mass_GeV": 4.18
+      },
+      {
+        "name": "tau (τ)",
+        "type": "lepton",
+        "generation": 3,
+        "charge": "-1",
+        "mass_GeV": 1.77686
+      },
+      {
+        "name": "nu_tau",
+        "type": "neutrino",
+        "generation": 3,
+        "charge": "0",
+        "mass_GeV": 1e-09
+      }
+    ],
+    "m_t_over_m_e": 337573.38551859104,
+    "m_t_over_m_nu": 172500000000.0
+  },
+  "yukawa_couplings": [
+    {
+      "fermion": "electron",
+      "mass_GeV": 0.000511,
+      "yukawa": 2.9350301777786193e-06
+    },
+    {
+      "fermion": "up",
+      "mass_GeV": 0.00216,
+      "yukawa": 1.2406389792567159e-05
+    },
+    {
+      "fermion": "down",
+      "mass_GeV": 0.00467,
+      "yukawa": 2.6823074227448438e-05
+    },
+    {
+      "fermion": "strange",
+      "mass_GeV": 0.093,
+      "yukawa": 0.0005341640049577526
+    },
+    {
+      "fermion": "charm",
+      "mass_GeV": 1.27,
+      "yukawa": 0.0072944977021112455
+    },
+    {
+      "fermion": "muon",
+      "mass_GeV": 0.10566,
+      "yukawa": 0.0006068792340197435
+    },
+    {
+      "fermion": "bottom",
+      "mass_GeV": 4.18,
+      "yukawa": 0.024008661728208664
+    },
+    {
+      "fermion": "tau",
+      "mass_GeV": 1.77686,
+      "yukawa": 0.010205748966120778
+    },
+    {
+      "fermion": "top",
+      "mass_GeV": 172.5,
+      "yukawa": 0.9907880737119604
+    }
+  ],
+  "ckm_matrix": {
+    "lambda_wolf": 0.225,
+    "A_wolf": 0.832,
+    "rho_bar": 0.159,
+    "eta_bar": 0.348,
+    "Cabibbo_angle_deg": 13.002878162913944,
+    "V_CKM_abs": [
+      [
+        0.9746875,
+        0.225,
+        0.0036259279422880156
+      ],
+      [
+        0.225,
+        0.9746875,
+        0.04212
+      ],
+      [
+        0.008625553908049326,
+        0.04212,
+        1.0
+      ]
+    ],
+    "unitarity_max_dev": 0.002414817056250129
+  },
+  "pmns_matrix": {
+    "theta_12_deg": 33.41,
+    "theta_23_deg": 49.1,
+    "theta_13_deg": 8.54,
+    "V_PMNS_abs": [
+      [
+        0.8254964064135945,
+        0.5445213319965839,
+        0.14849983838007247
+      ],
+      [
+        0.4542135800493192,
+        0.48474147632935227,
+        0.7474728923678908
+      ],
+      [
+        0.3350309040924766,
+        0.6844868297686274,
+        0.6474813303688931
+      ]
+    ],
+    "dm2_21_eV2": 7.41e-05,
+    "dm2_31_eV2": 0.00251
+  },
+  "neutrino_flavors_LEP": {
+    "N_nu_LEP": 2.9963,
+    "N_nu_err": 0.0074,
+    "anomaly_per_gen": 0.0
+  },
+  "verdict": "SM 3-generation fermion structure with 11-order mass hierarchy, top Yukawa ≈ 1, others << 1. CKM Cabibbo ≈ 13°, PMNS angles much larger (33°/49°/9°). N_ν = 3 fixed by LEP. ITU: K_fermion 3-fold repetition + anomaly cancellation per generation."
+}

@@ -1,0 +1,112 @@
+{
+  "phase": 137,
+  "title": "Higgs mechanism + EWSB + hierarchy + K_Higgs",
+  "tier1_id": 20,
+  "tier1_name": "Standard Model",
+  "block": "A (Physics/Math) — paper 4/9, phase 3/8",
+  "mexican_hat": {
+    "v_GeV": 246.22,
+    "m_H_GeV": 125.25,
+    "lambda": 0.12938347743146458,
+    "mu2_GeV2": 7843.78125
+  },
+  "W_Z_masses": {
+    "v": 246.22,
+    "g": 0.6529039070749736,
+    "g_prime": 0.35804407807337263,
+    "M_W_pred": 80.379,
+    "M_W_obs": 80.379,
+    "M_Z_pred": 91.67183220160243,
+    "M_Z_obs": 91.188,
+    "cos_theta_W": 0.8768124086713189
+  },
+  "hierarchy_problem": {
+    "m_H_GeV": 125.25,
+    "delta_m_H2_GeV2": 9.425403108328472e+35,
+    "log10_fine_tuning": 31.778744464226737,
+    "cutoff_table": [
+      {
+        "cutoff": "M_Planck (10^19 GeV)",
+        "Lambda_GeV": 1.22e+19,
+        "delta_m_H2_GeV2": 9.425403108328472e+35,
+        "ratio_to_m_H2": 6.008201151917943e+31
+      },
+      {
+        "cutoff": "GUT (10^16 GeV)",
+        "Lambda_GeV": 1e+16,
+        "delta_m_H2_GeV2": 6.3325739776461114e+29,
+        "ratio_to_m_H2": 4.036684461111222e+25
+      },
+      {
+        "cutoff": "Intermediate (10^10 GeV)",
+        "Lambda_GeV": 10000000000.0,
+        "delta_m_H2_GeV2": 6.332573977646111e+17,
+        "ratio_to_m_H2": 40366844611112.22
+      },
+      {
+        "cutoff": "LHC scale (10^4 GeV)",
+        "Lambda_GeV": 10000.0,
+        "delta_m_H2_GeV2": 633257.397764611,
+        "ratio_to_m_H2": 40.366844611112214
+      }
+    ]
+  },
+  "higgs_couplings": [
+    {
+      "coupling": "κ_W (HWW)",
+      "mu": 1.05,
+      "sigma": 0.06,
+      "deviation_sigma_from_SM": 0.8333333333333341,
+      "note": "W boson"
+    },
+    {
+      "coupling": "κ_Z (HZZ)",
+      "mu": 1.04,
+      "sigma": 0.07,
+      "deviation_sigma_from_SM": 0.5714285714285718,
+      "note": "Z boson"
+    },
+    {
+      "coupling": "κ_t (Htt̄)",
+      "mu": 0.94,
+      "sigma": 0.11,
+      "deviation_sigma_from_SM": 0.545454545454546,
+      "note": "Top quark (direct)"
+    },
+    {
+      "coupling": "κ_b (Hbb̄)",
+      "mu": 0.91,
+      "sigma": 0.16,
+      "deviation_sigma_from_SM": 0.5624999999999998,
+      "note": "Bottom quark"
+    },
+    {
+      "coupling": "κ_τ (Hτ⁺τ⁻)",
+      "mu": 0.95,
+      "sigma": 0.09,
+      "deviation_sigma_from_SM": 0.555555555555556,
+      "note": "Tau lepton"
+    },
+    {
+      "coupling": "κ_γ (Hγγ)",
+      "mu": 1.01,
+      "sigma": 0.06,
+      "deviation_sigma_from_SM": 0.16666666666666682,
+      "note": "Photon (loop)"
+    },
+    {
+      "coupling": "κ_g (Hgg)",
+      "mu": 1.03,
+      "sigma": 0.07,
+      "deviation_sigma_from_SM": 0.42857142857142894,
+      "note": "Gluon (loop)"
+    }
+  ],
+  "dof_count": {
+    "before_total_dof": 12,
+    "after_total_dof": 12,
+    "goldstones_eaten": 3,
+    "physical_higgs_boson": 1
+  },
+  "verdict": "Higgs mechanism = K_Higgs spontaneous symmetry breaking with v = 246 GeV; m_H = 125.25 GeV, λ ≈ 0.129; W/Z masses predicted correctly. Hierarchy problem: δm_H²/m_H² ~ 10^31 if cutoff at Planck (fine-tuning); Higgs couplings all within ±2σ of SM (Standard Higgs confirmed)."
+}

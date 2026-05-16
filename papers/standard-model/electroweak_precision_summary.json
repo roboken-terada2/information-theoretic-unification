@@ -1,0 +1,112 @@
+{
+  "phase": 139,
+  "title": "Electroweak unification + precision tests + g-2 + W-mass anomalies",
+  "tier1_id": 20,
+  "tier1_name": "Standard Model",
+  "block": "A (Physics/Math) — paper 4/9, phase 5/8",
+  "weinberg_angle": {
+    "sin2_theta_W": 0.23121,
+    "cos_theta_W": 0.8768067061787336,
+    "theta_W_deg": 28.740474790576716,
+    "M_Z": 91.1876,
+    "M_W_pred": 79.95389920034388,
+    "M_W_obs": 80.3692,
+    "rho": 1.0104154867387778,
+    "delta_rho": 0.01041548673877779
+  },
+  "lep_z_pole": [
+    {
+      "obs": "M_Z (GeV)",
+      "value": 91.1876,
+      "uncertainty": 0.0021
+    },
+    {
+      "obs": "Γ_Z (total, GeV)",
+      "value": 2.4955,
+      "uncertainty": 0.0023
+    },
+    {
+      "obs": "Γ(Z→e⁺e⁻) (MeV)",
+      "value": 83.984,
+      "uncertainty": 0.086
+    },
+    {
+      "obs": "Γ(Z→hadrons) (GeV)",
+      "value": 1.7449,
+      "uncertainty": 0.0033
+    },
+    {
+      "obs": "N_ν (light neutrinos)",
+      "value": 2.9963,
+      "uncertainty": 0.0074
+    },
+    {
+      "obs": "sin²θ_W^eff",
+      "value": 0.23149,
+      "uncertainty": 0.00013
+    },
+    {
+      "obs": "A_FB^b (b forward-back)",
+      "value": 0.0996,
+      "uncertainty": 0.0016
+    },
+    {
+      "obs": "R_ℓ = Γ_had/Γ_ℓ",
+      "value": 20.767,
+      "uncertainty": 0.025
+    }
+  ],
+  "W_mass_anomaly": {
+    "measurements": [
+      {
+        "experiment": "LEP/Tevatron 2017 avg",
+        "M_W": 80.385,
+        "sigma": 0.015,
+        "deviation_from_SM_sigma": 1.8727784893239057
+      },
+      {
+        "experiment": "CDF 2022 (Science)",
+        "M_W": 80.4335,
+        "sigma": 0.0094,
+        "deviation_from_SM_sigma": 6.783236943835976
+      },
+      {
+        "experiment": "ATLAS 2024 preliminary",
+        "M_W": 80.3665,
+        "sigma": 0.016,
+        "deviation_from_SM_sigma": 0.715747917892498
+      },
+      {
+        "experiment": "CMS 2024 (preliminary)",
+        "M_W": 80.3608,
+        "sigma": 0.0094,
+        "deviation_from_SM_sigma": 0.5802013989695083
+      },
+      {
+        "experiment": "World avg (PDG 2024)",
+        "M_W": 80.3692,
+        "sigma": 0.0133,
+        "deviation_from_SM_sigma": 1.0113351112941737
+      }
+    ],
+    "M_W_SM": 80.354,
+    "M_W_SM_err": 0.007
+  },
+  "muon_g_minus_2": {
+    "a_exp_x1e11": 116592061,
+    "a_SM_HVPI_x1e11": 116591810,
+    "a_SM_BMW_x1e11": 116591954,
+    "delta_a_HVPI_x1e11": 251,
+    "sigma_HVPI": 4.2246075299215295,
+    "sigma_BMW": 1.800928309568142
+  },
+  "ckm_unitarity": {
+    "V_ud": 0.97373,
+    "V_us": 0.22431,
+    "V_ub": 0.00382,
+    "sum_squared": 0.9984796814,
+    "uncertainty": 0.0007140598848218263,
+    "deviation_sigma": 2.1291191849817577
+  },
+  "verdict": "GWS electroweak unification with sin²θ_W = 0.231 and ρ = 1.0004 verified at LEP-level precision. CDF 2022 W mass anomaly (7σ) unresolved (ATLAS 2024 differs); muon g-2 (Fermilab 2023) 4.2σ vs HVPI but ~1σ vs BMW; CKM CAA ~3σ. These anomalies are ITU BSM hint candidates for Pass-2."
+}

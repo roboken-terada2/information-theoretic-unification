@@ -58,10 +58,27 @@ release tag.
 | **Tier 0 v3.0** | [Intermediate integration of Tier 1 #1-#16](papers/tier0_v3/) | [10.5281/zenodo.20200156](https://doi.org/10.5281/zenodo.20200156) | 107-110 | ✅ v3.0.0 |
 | 17 | [ITU and Quantum Gravity (Block A)](papers/quantum-gravity/) | [10.5281/zenodo.20230667](https://doi.org/10.5281/zenodo.20230667) | 111-118 | ✅ v1.0.0 |
 | 18 | [ITU and Black Holes (Block A)](papers/black-holes/) | [10.5281/zenodo.20233070](https://doi.org/10.5281/zenodo.20233070) | 119-126 | ✅ v1.0.0 |
-| **19** ✨ | [**ITU and Cosmology (Block A)**](papers/cosmology/) | [**10.5281/zenodo.20233952**](https://doi.org/10.5281/zenodo.20233952) | **127-134** | ✅ **v1.0.0** |
-| 20+ | (full roadmap to Phase 250) | TBD | 135-250 | planned |
+| 19 | [ITU and Cosmology (Block A)](papers/cosmology/) | [10.5281/zenodo.20233952](https://doi.org/10.5281/zenodo.20233952) | 127-134 | ✅ v1.0.0 |
+| **20** ✨ | [**ITU and the Standard Model (Block A)**](papers/standard-model/) | [**10.5281/zenodo.20234703**](https://doi.org/10.5281/zenodo.20234703) | **135-142** | ✅ **v1.0.0** |
+| 21+ | (full roadmap to Phase 250) | TBD | 143-250 | planned |
 
-**🎉 Block A paper 3/9 published — Tier 1 #19 Cosmology — Pass-1 60.9% milestone.**
+**🎉 Block A paper 4/9 published — Tier 1 #20 Standard Model — FUNDAMENTAL TRINITY complete — Pass-1 64.5% milestone.**
+Phase 135-142 brings the ITU polytope to **20 vertices** with **Standard Model as the K_field hub**
+(degree 19, new maximum). Tier 1 #20 introduces K_field = K_gauge ⊕ K_fermion ⊕ K_Higgs and
+completes the **FUNDAMENTAL TRINITY** with #17 K_geom and #19 K_cosmic — all of physics in 3
+fundamental K-states. Phase 135 SM gauge SU(3)×SU(2)×U(1) (12 generators, asymptotic freedom α_s(M_Z)=0.118);
+Phase 136 3-generation fermion content with 11-order Yukawa hierarchy (y_top ≈ 1, y_e ~ 3e-6);
+Phase 137 Higgs mechanism (v=246 GeV, m_H=125 GeV, λ=0.13) with hierarchy problem 10³² fine-tuning ★;
+Phase 138 QCD chiral SSB explaining 99% of proton mass + Strong CP problem (θ_QCD < 10⁻¹⁰) ★;
+Phase 139 electroweak precision (ρ=1.0104) + anomalies (CDF W 7σ, Muon g-2 4.2σ);
+Phase 140 BSM (LHC SUSY > 2 TeV, natural SUSY excluded; See-saw m_ν natural at M_R ~ 10¹⁴ GeV);
+Phase 141 LHC + future colliders (HL-LHC 2030+, FCC-hh 100 TeV 2070+, Block A 9 verification platforms);
+Phase 142 integration with **10 falsifiable predictions Grand P_avg = 0.610** (Strong/Medium = 6/4),
+top: HL-LHC Higgs λ_3 measure 2041 (P=0.85), W mass CDF anomaly resolved 2026 (P=0.85),
+Natural SUSY excluded >10 TeV 2035 (P=0.85). The 20-vertex polytope has 130 edges and avg degree 13.00.
+**Pass-1 progress: 142 of 220 phases = 64.5%.**
+
+(Previous, Block A 3/9) Tier 1 #19 Cosmology — Pass-1 60.9% milestone.
 Phase 127-134 brings the ITU polytope to **19 vertices** with **Cosmology as the K_cosmic
 hub** (degree 18, new maximum) and completes the **HORIZON TRIAD** of Block A papers 1-3:
 #17 K_geom (general spacetime) → #18 K_horizon (BH inside, observer OUTSIDE) and

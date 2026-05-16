@@ -1,0 +1,58 @@
+{
+  "title": "ITU and the Standard Model: A Single-Axiom View of Gauge Symmetry, Higgs Mechanism, QCD, Electroweak Precision, BSM Physics, and the 2026-2070 Collider Roadmap",
+  "description": "We apply the Information-Theoretic Unification (ITU) framework (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest Tier 0 v3.0 at 10.5281/zenodo.20200156) to the Standard Model of particle physics. This is Tier 1 paper #20, the fourth paper of Block A (Physics/Math deepening), introducing K_field = K_gauge ⊕ K_fermion ⊕ K_Higgs and completing the FUNDAMENTAL TRINITY with Tier 1 #17 Quantum Gravity (K_geom, DOI 10.5281/zenodo.20230667) and Tier 1 #19 Cosmology (K_cosmic, DOI 10.5281/zenodo.20233952). The ITU polytope reaches 20 vertices with Tier 1 #20 attaining degree 19 (new maximum). Pass-1 progress: 142 of 220 phases (64.5 %).\n\nPhase 135 establishes the SM gauge group SU(3)_C × SU(2)_L × U(1)_Y with 12 generators (8 gluons + W^± + Z^0 + photon after EWSB). Three coupling constants at M_Z: α_s = 0.1181, α_em = 1/127.94, α_2 = 0.0339, α_1 = 0.0102. Weinberg angle sin²θ_W = 0.2312. Asymptotic freedom (Gross-Wilczek-Politzer 1973, Nobel 2004): QCD β-function negative for N_f ≤ 16, α_s(μ) decreases from 0.509 at μ=1 GeV to 0.081 at μ=5 TeV.\n\nPhase 136 covers 3 generations of fermions (6 quarks + 6 leptons) with 11-order mass hierarchy: m_t (172.5 GeV) / m_ν (~1 eV) ≈ 10^11. Yukawa coupling y_top = 0.991 ≈ O(1) but y_electron = 2.94e-6 ≈ 10^-6. CKM matrix (Wolfenstein, PDG 2024): λ = 0.2250, A = 0.832, ρ̄ = 0.159, η̄ = 0.348, Cabibbo angle θ_C = 13.00°. PMNS matrix (NuFIT 2024): θ_12 = 33.4°, θ_23 = 49.1°, θ_13 = 8.5° (much larger than CKM). LEP N_ν = 2.9963 ± 0.0074 fixes exactly 3 light neutrino generations. ITU anomaly cancellation Σ Y = 0 per generation makes 3-fold natural.\n\nPhase 137 develops the Higgs mechanism (Englert-Brout-Higgs 1964, Nobel 2013). Mexican hat potential V(H) = -μ²|H|² + λ|H|⁴ with VEV v = 246.22 GeV. m_H = 125.25 GeV (LHC 2012) gives λ = 0.1294. W mass M_W = g v/2 = 80.379 GeV (perfect agreement), M_Z = √(g²+g'²) v/2 = 91.67 GeV (predicted), cos θ_W = M_W/M_Z = 0.876. Hierarchy problem: δm_H² ~ Λ_UV² / (16π²); Planck-scale cutoff requires fine-tuning to 1 part in 10^32 ★. Higgs couplings (ATLAS+CMS 2022): κ_W, κ_Z, κ_t, κ_b, κ_τ, κ_γ, κ_g all within ±2σ of SM prediction (κ=1).\n\nPhase 138 covers QCD non-perturbative physics. Cornell potential V(r) = -α_eff/r + σ r with σ ≈ 1 GeV/fm gives confinement; string breaking at r ≈ 2.5 fm. Lattice QCD reproduces hadron masses within ~1%. Chiral SSB: proton mass 938.27 MeV decomposes into bare quarks (8.99 MeV, 0.96%) + QCD contribution (929.28 MeV, 99.04%) — ★ 99% of ordinary matter mass from QCD. QGP transition T_c ≈ 155 MeV (BMW/HotQCD lattice). Strong CP problem: θ_QCD < 1.8×10⁻¹⁰ from neutron EDM (PSI 2020), 10-order fine-tuning ★; Peccei-Quinn axion proposed solution + DM candidate.\n\nPhase 139 covers electroweak precision tests. ρ parameter = M_W²/(M_Z² cos²θ_W) = 1.0104 ≈ 1 (custodial SU(2) symmetry). LEP Z pole observables: M_Z = 91.1876 ± 0.0021 GeV, Γ_Z = 2.4955 ± 0.0023 GeV — ‰-level precision. W mass anomaly: CDF 2022 (80.4335) is 7σ above SM (80.354 ± 0.007) but ATLAS 2024 (80.367) and CMS 2024 (80.361) are consistent with SM → unresolved (likely CDF systematic). Muon g-2 (Fermilab 2023): Δa_μ = 251 ± 59 × 10⁻¹¹ vs HVPI = 4.2σ tension ★, vs BMW lattice ~1.8σ. CKM first-row unitarity (Cabibbo angle anomaly): Σ|V|² = 0.99848 ± 0.00071, 2.1σ deficit.\n\nPhase 140 covers BSM physics. SUSY mass limits (LHC 2024): gluino > 2.3 TeV, squark > 1.9 TeV, stop > 1.2 TeV — natural SUSY (m_SUSY ~ TeV) excluded; high-scale SUSY only partially solves hierarchy. GUT: minimal SU(5) (Georgi-Glashow 1974) excluded by Super-K 2020 (τ_p > 2.4×10^34 yr for p → e⁺π⁰); SO(10) + SUSY-SU(5) still viable. Neutrino mass: Dirac approach requires y_ν ~ 5.7×10^-13 (Yukawa hierarchy worsens by 6 orders); See-saw with M_R ~ 10^14 GeV gives natural m_ν = 0.1 eV. KATRIN 2022: m_ν^β < 0.8 eV. KamLAND-Zen 2024: m_ν^Maj < 0.036 eV (lower edge). Leptogenesis ties neutrino mass + baryon asymmetry η_B = 6×10⁻¹⁰ (Sakharov 1967).\n\nPhase 141 surveys colliders + particle cosmology. LHC Runs: Run 1 (30 fb⁻¹, Higgs 2012), Run 2 (140 fb⁻¹), Run 3 (300 fb⁻¹ target 2025), HL-LHC (3000 fb⁻¹ by 2041). Higgs self-coupling κ_λ: current Run 2 [-0.4, 6.3] (95% CL), HL-LHC 1±0.5 (first measure), FCC-hh 1±0.05 (direct di-Higgs). Future colliders: FCC-ee (365 GeV, 2045), FCC-hh (100 TeV, 2070), CEPC+SppC (China), ILC (Japan), Muon Collider (10 TeV, 2040+). BSM reach: FCC-hh gluino to 20 TeV. ITU verification priority map: 9 experiments across Block A #17-#20 with average P = 0.678 (BMV, LiteBIRD, EHT, DESI, HL-LHC, FCC-hh, Muon g-2, KamLAND-Zen, IceCube).\n\nPhase 142 integrates under K_field. 20-vertex polytope: 130 edges (111 + 19 new), avg degree 13.00. Tier 1 #20 couples strongly (≥0.75) to #19 Cosmology (0.90, particle cosmology), #17 QG (0.85, geometric foundation), #10 Energy (0.75, nuclear); medium to #4 Semi, #12 Astrobio, #18 BH, #14 Comm, #1 QC; average coupling 0.426. FUNDAMENTAL TRINITY: K_geom (#17) + K_cosmic (#19) + K_field (#20) covers all of physics. Ten falsifiable predictions for 2026-2050: HL-LHC Higgs λ_3 first measure 2041 P=0.85, Muon g-2 resolved 2027 P=0.80, W mass CDF anomaly resolved 2026 P=0.85, CKM CAA resolved 2030 P=0.65, 0νββ detected LEGEND-1000 2035 P=0.40, KATRIN m_ν<0.2 eV 2030 P=0.65, Natural SUSY excluded >10 TeV 2035 P=0.85, proton decay τ_p>10^36 yr 2040 P=0.30, axion DM detected 2035 P=0.45, LHC dark photon 2030 P=0.30. Grand P_avg = 0.610. Strong/Medium/Weak = 6/4/0.\n\nCentral thesis: ITU axiom delta S(rho_A) = delta Tr[K_A^(0) rho_A] specializes to K_field at particle physics scales, unifying SM gauge structure, 3-generation fermion content with Yukawa hierarchy, Higgs mechanism and EWSB, QCD non-perturbative physics, precision electroweak tests, and BSM extensions (SUSY/GUT/neutrino Seesaw) under one principle. The FUNDAMENTAL TRINITY (#17 K_geom + #19 K_cosmic + #20 K_field) covers all of physics in 3 K-states. HL-LHC (2041) Higgs self-coupling, W mass anomaly resolution (2026), and natural SUSY exclusion (2035) provide near-term tests. Pass-2 (Phase 224) will derive ITU-specific approaches to the hierarchy problem (K_Higgs UV cutoff f_ITU), DM candidates (K_DM ITU specific), neutrino mass (K_ν Majorana/Dirac discrimination), and BSM K-state hypothesis space.\n\nHonest framing: this is a Pass-1 interpretive paper. Numerical results agree with established literature (Yang-Mills 1954, Glashow 1961, Weinberg 1967, Englert-Brout 1964, Higgs 1964, Kobayashi-Maskawa 1973, Gross-Wilczek-Politzer 1973, Georgi-Glashow 1974, ATLAS+CMS 2012, etc.). No new physical predictions beyond what the cited works already contain; the contribution is the unified ITU axiom narrative under K_field and the FUNDAMENTAL TRINITY structure.\n\nIncludes 8 theory documents (theory_phase135-142.md), 8 Python numerical experiments, 8 figures (PNG), 8 JSON summaries. Total runtime ~15 seconds.",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken",
+      "orcid": ""
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "version": "1.0.0",
+  "keywords": [
+    "Standard Model",
+    "Gauge symmetry",
+    "Higgs boson",
+    "Quantum chromodynamics",
+    "Electroweak unification",
+    "Yukawa coupling",
+    "CKM matrix",
+    "Supersymmetry",
+    "Beyond Standard Model",
+    "Particle physics"
+  ],
+  "communities": [
+    {"identifier": "physics"}
+  ],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20109209", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isPartOf", "identifier": "10.5281/zenodo.20109209", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20200156", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20230667", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20233070", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20233952", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20139391", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20150501", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20151059", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20174036", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20174318", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20175663", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20177427", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20196309", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20197016", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20199598", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20200728", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20222121", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20224976", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20225970", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20226481", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.20228581", "resource_type": "publication-preprint", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "https://github.com/roboken-terada2/information-theoretic-unification", "resource_type": "software", "scheme": "url"},
+    {"relation": "isDocumentedBy", "identifier": "https://note.com/roboken_ceo", "resource_type": "publication-other", "scheme": "url"}
+  ]
+}

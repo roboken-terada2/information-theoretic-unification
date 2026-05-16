@@ -1,0 +1,204 @@
+{
+  "phase": 141,
+  "title": "LHC + Future colliders + Particle Cosmology + ITU verification",
+  "tier1_id": 20,
+  "tier1_name": "Standard Model",
+  "block": "A (Physics/Math) — paper 4/9, phase 7/8",
+  "lhc_runs": [
+    {
+      "run": "Run 1",
+      "period": "2010-2013",
+      "sqrt_s": "7-8 TeV",
+      "integrated_luminosity_fbinv": 30,
+      "highlights": "Higgs discovery (2012)"
+    },
+    {
+      "run": "Run 2",
+      "period": "2015-2018",
+      "sqrt_s": "13 TeV",
+      "integrated_luminosity_fbinv": 140,
+      "highlights": "Higgs precision + BSM"
+    },
+    {
+      "run": "Run 3",
+      "period": "2022-2025",
+      "sqrt_s": "13.6 TeV",
+      "integrated_luminosity_fbinv": 300,
+      "highlights": "Ongoing, target 2025"
+    },
+    {
+      "run": "HL-LHC",
+      "period": "2030-2041",
+      "sqrt_s": "14 TeV",
+      "integrated_luminosity_fbinv": 3000,
+      "highlights": "Higgs λ_3 first measure"
+    }
+  ],
+  "higgs_self_coupling_evolution": [
+    {
+      "experiment": "Run 2 ATLAS+CMS (2022)",
+      "kappa_lambda": "-0.4 to 6.3",
+      "note": "95% CL, di-Higgs"
+    },
+    {
+      "experiment": "Run 3 (2025 projected)",
+      "kappa_lambda": "0.1 to 4.5",
+      "note": "improved precision"
+    },
+    {
+      "experiment": "HL-LHC ATLAS+CMS (2041)",
+      "kappa_lambda": "1 ± 0.5",
+      "note": "first 50% measure"
+    },
+    {
+      "experiment": "FCC-ee (2065)",
+      "kappa_lambda": "1 ± 0.10",
+      "note": "indirect via Z H"
+    },
+    {
+      "experiment": "FCC-hh (2100)",
+      "kappa_lambda": "1 ± 0.05",
+      "note": "direct di-Higgs"
+    },
+    {
+      "experiment": "Muon Collider 10 TeV",
+      "kappa_lambda": "1 ± 0.05",
+      "note": "competitive with FCC"
+    }
+  ],
+  "future_colliders": [
+    {
+      "collider": "FCC-ee",
+      "location": "CERN",
+      "sqrt_s_GeV": 365,
+      "purpose": "Higgs+Z+top precision (e⁺e⁻)",
+      "era": "2045-2065"
+    },
+    {
+      "collider": "FCC-hh",
+      "location": "CERN",
+      "sqrt_s_GeV": 100000,
+      "purpose": "Direct BSM up to 50 TeV (pp)",
+      "era": "2070-2100"
+    },
+    {
+      "collider": "CEPC + SppC",
+      "location": "China",
+      "sqrt_s_GeV": 100000,
+      "purpose": "Higgs factory + pp",
+      "era": "2030s+"
+    },
+    {
+      "collider": "ILC",
+      "location": "Japan",
+      "sqrt_s_GeV": 500,
+      "purpose": "Higgs precision (e⁺e⁻)",
+      "era": "TBD"
+    },
+    {
+      "collider": "Muon Collider",
+      "location": "TBD",
+      "sqrt_s_GeV": 10000,
+      "purpose": "Higgs+BSM (μ⁺μ⁻, low synch)",
+      "era": "2040+"
+    },
+    {
+      "collider": "CLIC",
+      "location": "CERN",
+      "sqrt_s_GeV": 3000,
+      "purpose": "e⁺e⁻ multi-TeV alternative",
+      "era": "Backup"
+    }
+  ],
+  "bsm_reach": [
+    {
+      "collider": "LHC Run 2 (13 TeV)",
+      "sqrt_s_TeV": 13.0,
+      "gluino_reach_GeV": 2300
+    },
+    {
+      "collider": "HL-LHC (14 TeV)",
+      "sqrt_s_TeV": 14.0,
+      "gluino_reach_GeV": 3000
+    },
+    {
+      "collider": "FCC-hh (100 TeV)",
+      "sqrt_s_TeV": 100.0,
+      "gluino_reach_GeV": 20000
+    },
+    {
+      "collider": "Muon Collider (10 TeV)",
+      "sqrt_s_TeV": 10.0,
+      "gluino_reach_GeV": null
+    }
+  ],
+  "itu_verification_priority": {
+    "experiments": [
+      {
+        "experiment": "BMV (Bose 2017)",
+        "itu_target": "#17 QG K_geom",
+        "year": 2032,
+        "P": 0.65,
+        "verifiability": "Strong"
+      },
+      {
+        "experiment": "LiteBIRD r ~ 0.001",
+        "itu_target": "#19 K_tensor",
+        "year": 2034,
+        "P": 0.85,
+        "verifiability": "Strong"
+      },
+      {
+        "experiment": "EHT M87* 5 μas",
+        "itu_target": "#18 K_horizon",
+        "year": 2030,
+        "P": 0.9,
+        "verifiability": "Strong"
+      },
+      {
+        "experiment": "DESI Y3 evolving DE",
+        "itu_target": "#19 K_Λ(t)",
+        "year": 2027,
+        "P": 0.75,
+        "verifiability": "Strong"
+      },
+      {
+        "experiment": "HL-LHC Higgs λ_3",
+        "itu_target": "#20 K_Higgs",
+        "year": 2035,
+        "P": 0.85,
+        "verifiability": "Strong"
+      },
+      {
+        "experiment": "FCC-hh BSM",
+        "itu_target": "#20 K_BSM 5 TeV",
+        "year": 2070,
+        "P": 0.3,
+        "verifiability": "Weak"
+      },
+      {
+        "experiment": "Muon g-2 Fermilab",
+        "itu_target": "#20 K_μ 4.2σ",
+        "year": 2025,
+        "P": 0.55,
+        "verifiability": "Medium"
+      },
+      {
+        "experiment": "KamLAND-Zen 0νββ",
+        "itu_target": "#20 K_lepton",
+        "year": 2030,
+        "P": 0.4,
+        "verifiability": "Medium"
+      },
+      {
+        "experiment": "IceCube cosmic ν",
+        "itu_target": "#20 K_ν_astro",
+        "year": 2025,
+        "P": 0.85,
+        "verifiability": "Strong"
+      }
+    ],
+    "P_avg": 0.6777777777777777
+  },
+  "verdict": "LHC Run 3 (2025) + HL-LHC (2041) = K_field mid-energy verification; FCC-hh (2100) + Muon Collider = 100 TeV K_BSM reach; Block A #17-#20 9 verification experiments with P_avg = 0.678."
+}

@@ -1,0 +1,144 @@
+{
+  "phase": 140,
+  "title": "BSM — SUSY + GUT + Neutrino Mass + Leptogenesis + ITU K_BSM",
+  "tier1_id": 20,
+  "tier1_name": "Standard Model",
+  "block": "A (Physics/Math) — paper 4/9, phase 6/8",
+  "susy_limits_LHC2024": [
+    {
+      "particle": "Gluino (g̃)",
+      "lower_limit_GeV": 2300,
+      "category": "strong"
+    },
+    {
+      "particle": "Squark (q̃)",
+      "lower_limit_GeV": 1900,
+      "category": "strong"
+    },
+    {
+      "particle": "Stop (t̃)",
+      "lower_limit_GeV": 1200,
+      "category": "third gen"
+    },
+    {
+      "particle": "Sbottom (b̃)",
+      "lower_limit_GeV": 1300,
+      "category": "third gen"
+    },
+    {
+      "particle": "Chargino (χ̃⁺)",
+      "lower_limit_GeV": 900,
+      "category": "EW"
+    },
+    {
+      "particle": "Slepton (ℓ̃)",
+      "lower_limit_GeV": 700,
+      "category": "EW"
+    },
+    {
+      "particle": "Neutralino LSP",
+      "lower_limit_GeV": 100,
+      "category": "DM candidate"
+    }
+  ],
+  "proton_decay": {
+    "predictions": [
+      {
+        "theory": "Minimal SU(5)",
+        "mode": "p → e⁺ π⁰",
+        "tau_p_min_yr": 1e+30,
+        "tau_p_max_yr": 1e+32,
+        "status": "EXCLUDED"
+      },
+      {
+        "theory": "SUSY-SU(5)",
+        "mode": "p → e⁺ π⁰",
+        "tau_p_min_yr": 1e+34,
+        "tau_p_max_yr": 1e+36,
+        "status": "PARTIAL EXCLUDED"
+      },
+      {
+        "theory": "Minimal SO(10)",
+        "mode": "p → e⁺ π⁰",
+        "tau_p_min_yr": 1e+34,
+        "tau_p_max_yr": 1e+36,
+        "status": "PARTIAL EXCLUDED"
+      },
+      {
+        "theory": "Flipped SU(5)",
+        "mode": "various",
+        "tau_p_min_yr": 1e+35,
+        "tau_p_max_yr": 1e+37,
+        "status": "ALIVE"
+      },
+      {
+        "theory": "Pati-Salam (no GUT)",
+        "mode": "no decay",
+        "tau_p_min_yr": 1e+40,
+        "tau_p_max_yr": 1e+45,
+        "status": "ALIVE"
+      }
+    ],
+    "Super_K_limit_yr": 2.4e+34
+  },
+  "neutrino_mechanisms": {
+    "Dirac_yukawa": 5.743698978040351e-13,
+    "y_e_to_y_nu_ratio": 5118652.650914299,
+    "seesaw_m_D_GeV": 100.0,
+    "seesaw_M_R_GeV": 100000000000000.0,
+    "seesaw_m_nu_eV": 0.1
+  },
+  "neutrino_mass_limits": [
+    {
+      "experiment": "KATRIN 2022 (β decay)",
+      "observable": "m_ν^β",
+      "limit_or_target": 0.8,
+      "unit": "eV"
+    },
+    {
+      "experiment": "Planck 2018 (cosmology)",
+      "observable": "Σ m_ν",
+      "limit_or_target": 0.12,
+      "unit": "eV"
+    },
+    {
+      "experiment": "KamLAND-Zen 2024 (0νββ)",
+      "observable": "m_ν^{Maj}",
+      "limit_or_target": 0.036,
+      "unit": "eV (lower edge)"
+    },
+    {
+      "experiment": "LEGEND-200 (planned 2027)",
+      "observable": "m_ν^{Maj}",
+      "limit_or_target": 0.02,
+      "unit": "eV target"
+    },
+    {
+      "experiment": "LEGEND-1000 (planned 2030+)",
+      "observable": "m_ν^{Maj}",
+      "limit_or_target": 0.01,
+      "unit": "eV target"
+    }
+  ],
+  "baryon_asymmetry": {
+    "eta_B": 6e-10,
+    "mechanisms": [
+      {
+        "name": "Electroweak Baryogenesis",
+        "process": "EW phase transition (1st order)",
+        "requirement": "SM + extra Higgs/SUSY"
+      },
+      {
+        "name": "Leptogenesis",
+        "process": "Heavy ν_R decay → lepton asymmetry → sphaleron",
+        "requirement": "Natural with See-saw + Majorana neutrinos"
+      },
+      {
+        "name": "GUT Baryogenesis",
+        "process": "X, Y gauge boson decays (10¹⁶ GeV)",
+        "requirement": "Requires SU(5)/SO(10)"
+      }
+    ]
+  },
+  "verdict": "BSM candidates: SUSY (LHC pushed to TeV+, natural fine-tuning hurt); GUT (minimal SU(5) excluded by τ_p, SO(10)/SUSY-SU(5) viable); Neutrino See-saw natural with M_R ~ GUT scale and m_ν ~ 0.1 eV; Leptogenesis ties neutrino mass + baryon asymmetry η_B = 6e-10."
+}
