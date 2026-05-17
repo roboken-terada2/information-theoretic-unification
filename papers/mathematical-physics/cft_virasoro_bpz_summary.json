@@ -1,0 +1,132 @@
+{
+  "phase": 170,
+  "title": "CFT + Virasoro + BPZ + Minimal models + WZW",
+  "tier1_paper": "#24 Mathematical Physics (phase 4/8)",
+  "tests": {
+    "virasoro_algebra": {
+      "form": "[L_m, L_n] = (m-n) L_{m+n} + (c/12) m(m²-1) δ_{m+n,0}",
+      "test_pairs": [
+        {
+          "m": 1,
+          "n": -1,
+          "structure": 2,
+          "central_if_m_plus_n_zero": 0.0
+        },
+        {
+          "m": 2,
+          "n": -2,
+          "structure": 4,
+          "central_if_m_plus_n_zero": 0.25
+        },
+        {
+          "m": 3,
+          "n": -3,
+          "structure": 6,
+          "central_if_m_plus_n_zero": 1.0
+        },
+        {
+          "m": 1,
+          "n": 2,
+          "structure": -1,
+          "central_if_m_plus_n_zero": 0
+        },
+        {
+          "m": 2,
+          "n": 0,
+          "structure": 2,
+          "central_if_m_plus_n_zero": 0
+        }
+      ],
+      "c_used": 0.5
+    },
+    "minimal_models_central_charges": {
+      "(3,4)_Ising": 0.5,
+      "(4,5)_Tricritical Ising": 0.7,
+      "(5,6)_Three-state Potts (subset)": 0.8,
+      "(6,7)_4-state Potts": 0.8571428571428572,
+      "(7,8)_": 0.8928571428571429,
+      "(10,11)_": 0.9454545454545454,
+      "(100,101)_": 0.9994059405940594
+    },
+    "ising_CFT_primaries": [
+      {
+        "field": "1 (identity)",
+        "h": 0,
+        "h_bar": 0,
+        "Delta": 0,
+        "spin": 0
+      },
+      {
+        "field": "σ (spin)",
+        "h": 0.0625,
+        "h_bar": 0.0625,
+        "Delta": 0.125,
+        "spin": 0
+      },
+      {
+        "field": "ε (energy)",
+        "h": 0.5,
+        "h_bar": 0.5,
+        "Delta": 1,
+        "spin": 0
+      }
+    ],
+    "2D_ising_exponents_from_CFT": {
+      "β (order param)": 0.125,
+      "γ (susceptibility)": 1.75,
+      "δ (spin response)": 15,
+      "η (anomalous dim)": 0.25,
+      "ν (correlation)": 1,
+      "α (specific heat)": 0
+    },
+    "WZW_SU2_k_central_charges": {
+      "k=1": 1.0,
+      "k=2": 1.5,
+      "k=3": 1.8,
+      "k=4": 2.0,
+      "k=10": 2.5,
+      "k=100": 2.9411764705882355,
+      "k=1000": 2.9940119760479043
+    },
+    "cardy_formula": {
+      "form": "S = 2π √(c L_0 / 6)",
+      "examples": {
+        "c1_L0_100": 25.65099660323728,
+        "c24_L0_1": 12.566370614359172,
+        "c1500_L0_1000_BH_analog": 3141.592653589793,
+        "M87_BH_estimate": 2.0680494611602953e+45
+      }
+    },
+    "modular_invariance_SU2_k4": {
+      "k": 4,
+      "n_primaries": 5,
+      "S_squared_minus_I_norm": 8.446231779064342e-16,
+      "S_squared_is_identity": true
+    }
+  },
+  "itu_interpretation": {
+    "conformal_transformation": "K_sym scale-invariant extension",
+    "Virasoro": "K_CFT infinite-dim algebra",
+    "central_charge_c": "K_CFT universal label",
+    "BPZ": "K_CFT axiomatic",
+    "primary_field": "K_CFT L_0 eigenstate",
+    "OPE": "K_CFT operator algebra",
+    "minimal_models": "K_CFT rational series",
+    "Ising_c_half": "K_CFT critical 2D realisation (Phase 145)",
+    "WZW": "K_CFT + K_sym non-abelian",
+    "Kac_Moody": "K_sym affine extension",
+    "modular_invariance": "K_CFT torus consistency",
+    "ADE_classification": "K_sym ↔ K_CFT double role",
+    "AdS_CFT": "K_CFT ↔ K_geom holographic duality",
+    "Cardy_formula": "K_CFT entropy = K_geom area (Phase 122 BH)"
+  },
+  "key_findings": [
+    "Ising CFT c = 1/2 has 3 primary fields: 1, σ, ε with conformal weights 0, 1/16, 1/2",
+    "2D Ising critical exponents β=1/8, γ=7/4, η=1/4 derive from Ising CFT (Phase 145)",
+    "Minimal series c < 1 (Kac bound); Ising 1/2, tricritical 7/10, ...",
+    "WZW SU(2)_k: c = 3k/(k+2); k=1 → c=1 (free boson), k→∞ → c=3",
+    "Cardy formula = microscopic origin of BH entropy (Strominger-Vafa 1996, Phase 122)",
+    "Modular invariance → ADE classification (Cappelli-Itzykson-Zuber 1987)",
+    "AdS/CFT (Maldacena 1997): K_CFT boundary ↔ K_geom bulk holography"
+  ]
+}

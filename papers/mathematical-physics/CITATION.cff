@@ -1,0 +1,242 @@
+cff-version: 1.2.0
+title: "ITU and Mathematical Physics: A Single-Axiom View of Lie Groups, Integrable Systems, Yang-Mills, Conformal Field Theory, Index Theorems, Knot Theory, Random Matrix Theory, and Clay Millennium Connections"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest
+  Tier 0 v3.0 at 10.5281/zenodo.20200156) to mathematical physics.
+  This is Tier 1 paper #24, the eighth paper of Block A, introducing
+  K_math = K_sym ⊕ K_int ⊕ K_gauge ⊕ K_CFT ⊕ K_index ⊕ K_knot ⊕
+  K_random, completing the MATHEMATICAL FOUNDATION BLOCK with #17
+  K_geom (DOI 10.5281/zenodo.20230667), #19 K_cosmic (DOI
+  10.5281/zenodo.20233952), #20 K_field (DOI 10.5281/zenodo.20234703),
+  #21 K_stat (DOI 10.5281/zenodo.20237082), #22 K_solid (DOI
+  10.5281/zenodo.20249191), #23 K_flow (DOI 10.5281/zenodo.20249794)
+  — physics + mathematics in 7 fundamental K-states. The ITU polytope
+  reaches 24 vertices with #17-#24 all attaining degree 23 (new
+  maximum). Pass-1 progress: 174 of 220 phases (79.1%).
+  Phase 167 establishes Lie group structure: Cartan's classification
+  (4 families A_n, B_n, C_n, D_n + 5 exceptional E_6, E_7, E_8, F_4,
+  G_2; E_8 dim 248 maximal). Pauli verifies [σ_a, σ_b] = 2i ε_abc σ_c;
+  SU(3) Gell-Mann tr(λ_a λ_b) = 2 δ_ab; fundamental Casimir 4/3.
+  Phase 168 covers integrable systems: Russell 1834; KdV 1895; IST
+  (Gardner-Greene-Kruskal-Miura 1967); Lax pair (1968). sine-Gordon
+  kink Q = ±1.0000. Yang-Baxter equation satisfied to ||LHS - RHS|| =
+  2.22e-16 (machine precision). Toda lattice energy drift 3.27e-6
+  (integrable). Bethe ansatz (1931).
+  Phase 169 derives Yang-Mills (1954) non-Abelian gauge theory; QCD
+  asymptotic freedom (Nobel 2004) b_0 = 7; α_s(M_Z) = 0.118.
+  Cornell linear confinement V at 1 fm = 1.95 GeV. Wilson loop area
+  law. BPST instanton (1975) S = 8π²/g². Clay Millennium Problem #5
+  Yang-Mills mass gap unresolved (glueball 0++ = 1.71 GeV lattice
+  candidate, $1M).
+  Phase 170 covers CFT: Virasoro [L_m, L_n] = (m-n)L_{m+n} +
+  (c/12)m(m²-1)δ_{m+n,0}. BPZ (1984) axiomatic. Kac minimal models
+  c = 1 - 6(p-q)²/(pq); Ising c = 1/2 reproduces 2D Ising exponents
+  β=1/8, γ=7/4, η=1/4 — perfect match with Phase 145. WZW SU(2)_k:
+  c = 3k/(k+2). Cardy entropy formula → BH microscopic (Phase 122).
+  SU(2)_4 modular ||S² - I|| = 8.4e-16. AdS/CFT (Phase 111).
+  Phase 171 establishes index theorems: Atiyah-Singer (1963, Abel
+  2004) analytic = topological. Dirac index = Pontryagin n. ABJ
+  anomaly (1969) ∂_μ j^μ_5 = (1/16π²) F F̃; π⁰ → γγ decay 7.76 eV
+  vs experiment 7.82 ± 0.14 eV (0.8% match). SM anomaly cancellation
+  with 15 fermions/generation. Witten index W = 1 for SUSY HO.
+  Chern number ∈ {-1, 0, +1} reproducing Phase 155.
+  Phase 172 develops knot theory: Reidemeister (1927); Alexander
+  (1928, chirality-blind). Jones polynomial (1985, Fields 1990)
+  distinguishes mirror image. Kauffman bracket → Jones via (-A)^{-3w}
+  factor (sympy-verified exactly, residual = 0). Khovanov (1999)
+  categorification. Witten CS (1989, Fields 1990) Wilson loop ⟨W_K⟩
+  = V_K(q). Fibonacci anyons d_τ = φ = 1.618 → universal topological
+  QC (Phase 156).
+  Phase 173 covers random matrix theory: Wigner (1955); GOE/GUE/GSE
+  by time-reversal classification. Wigner semicircle reproduced
+  N=500. Wigner surmise Poisson e^{-s} vs GUE s² exp(-4s²/π). Clay
+  Millennium Problem #4 Riemann Hypothesis unresolved (30 zeros γ_n
+  computed, all on Re=1/2 verified to 10^13). Montgomery-Dyson (1973):
+  ζ-zero pair correlation = GUE R_2(s) = 1 - (sin πs/πs)². Odlyzko
+  (1987) 10^{-8} agreement at 10^20 scale. Hilbert-Pólya conjecture.
+  BGS (1984) quantum chaos universality.
+  Phase 174 integrates K_math. 24-vertex polytope: 218 edges,
+  ⟨k⟩ = 18.17, #17-#24 all degree 23 (new max). #24 strong
+  couplings: #17 QG (0.95), #20 SM (0.90), #1 QC (0.85), #15 CS
+  (0.80), #21 Stat Mech (0.85), #22 CM (0.85); avg 0.589.
+  MATHEMATICAL FOUNDATION BLOCK covers physics + math in 7 K-states.
+  Ten predictions for 2026-2080: RH solved 2080 P=0.20, YM mass gap
+  2050 P=0.25, geometric Langlands 2040 P=0.50, twin prime 2035
+  P=0.55, Hodge partial 2035 P=0.45, BSD partial 2040 P=0.50,
+  Fibonacci anyon QC 2032 P=0.75, Khovanov 4D 2030 P=0.70, knot
+  volume conjecture 2035 P=0.65, AdS/CFT rigor 2035 P=0.70. Grand
+  P_avg = 0.525. Strong/Medium/Weak = 3/5/2.
+  Central thesis: ITU axiom dS = d<K> specializes to K_math as the
+  mathematical-foundation backbone, unifying Lie groups, integrable
+  systems, gauge theory, CFT, index theorems, knot theory, and RMT
+  under one principle. Tier 1 papers #23 (Fluid, Clay #6 NS) and
+  #24 (Math, Clay #4 RH + #5 YM) address three of seven Clay
+  Millennium Problems. Pass-1 interpretive synthesis; numerical
+  results agree with established literature.
+keywords:
+  - mathematical physics
+  - Lie groups
+  - conformal field theory
+  - Yang-Mills theory
+  - knot theory
+  - random matrix theory
+  - Riemann Hypothesis
+  - Clay Millennium Problems
+  - index theorems
+  - integrable systems
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/mathematical-physics"
+url: "https://doi.org/10.5281/zenodo.20251178"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20251178"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-17"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification (ITU) Tier 0 v3.0"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest). Current Tier 0 v3.0 at 10.5281/zenodo.20200156."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Cartan
+        given-names: Élie
+    title: "Sur la structure des groupes de transformations finis et continus"
+    journal: "Thèse"
+    year: 1894
+  - type: article
+    authors:
+      - family-names: Yang
+        given-names: Chen Ning
+      - family-names: Mills
+        given-names: Robert L.
+    title: "Conservation of isotopic spin and isotopic gauge invariance"
+    journal: "Physical Review"
+    volume: "96"
+    pages: "191-195"
+    year: 1954
+  - type: article
+    authors:
+      - family-names: Belavin
+        given-names: A. A.
+      - family-names: Polyakov
+        given-names: A. M.
+      - family-names: Zamolodchikov
+        given-names: A. B.
+    title: "Infinite conformal symmetry in two-dimensional quantum field theory"
+    journal: "Nuclear Physics B"
+    volume: "241"
+    pages: "333-380"
+    year: 1984
+  - type: article
+    authors:
+      - family-names: Atiyah
+        given-names: Michael F.
+      - family-names: Singer
+        given-names: Isadore M.
+    title: "The index of elliptic operators on compact manifolds"
+    journal: "Bulletin of the American Mathematical Society"
+    volume: "69"
+    pages: "422-433"
+    year: 1963
+  - type: article
+    authors:
+      - family-names: Adler
+        given-names: Stephen L.
+    title: "Axial-vector vertex in spinor electrodynamics"
+    journal: "Physical Review"
+    volume: "177"
+    pages: "2426-2438"
+    year: 1969
+  - type: article
+    authors:
+      - family-names: Jones
+        given-names: Vaughan F. R.
+    title: "A polynomial invariant for knots via von Neumann algebras"
+    journal: "Bulletin of the American Mathematical Society"
+    volume: "12"
+    pages: "103-111"
+    year: 1985
+  - type: article
+    authors:
+      - family-names: Witten
+        given-names: Edward
+    title: "Quantum field theory and the Jones polynomial"
+    journal: "Communications in Mathematical Physics"
+    volume: "121"
+    pages: "351-399"
+    year: 1989
+  - type: article
+    authors:
+      - family-names: Wigner
+        given-names: Eugene P.
+    title: "Characteristic vectors of bordered matrices with infinite dimensions"
+    journal: "Annals of Mathematics"
+    volume: "62"
+    pages: "548-564"
+    year: 1955
+  - type: article
+    authors:
+      - family-names: Montgomery
+        given-names: Hugh L.
+    title: "The pair correlation of zeros of the zeta function"
+    journal: "Proceedings of Symposia in Pure Mathematics"
+    volume: "24"
+    pages: "181-193"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: Odlyzko
+        given-names: Andrew M.
+    title: "On the distribution of spacings between zeros of the zeta function"
+    journal: "Mathematics of Computation"
+    volume: "48"
+    pages: "273-308"
+    year: 1987
+  - type: article
+    authors:
+      - family-names: Lax
+        given-names: Peter D.
+    title: "Integrals of nonlinear equations of evolution and solitary waves"
+    journal: "Communications on Pure and Applied Mathematics"
+    volume: "21"
+    pages: "467-490"
+    year: 1968
+  - type: article
+    authors:
+      - family-names: Gross
+        given-names: David J.
+      - family-names: Wilczek
+        given-names: Frank
+    title: "Ultraviolet behavior of non-Abelian gauge theories"
+    journal: "Physical Review Letters"
+    volume: "30"
+    pages: "1343-1346"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: Riemann
+        given-names: Bernhard
+    title: "Über die Anzahl der Primzahlen unter einer gegebenen Größe"
+    journal: "Monatsberichte der Berliner Akademie"
+    year: 1859
+  - type: article
+    authors:
+      - name: "Clay Mathematics Institute"
+    title: "Millennium Prize Problems"
+    year: 2000

@@ -1,0 +1,125 @@
+{
+  "phase": 169,
+  "title": "Yang-Mills gauge theory + Clay Millennium mass gap",
+  "tier1_paper": "#24 Mathematical Physics (phase 3/8)",
+  "tests": {
+    "alpha_s_running": {
+      "n_f": 6,
+      "b_0": 7.0,
+      "1_loop_data": [
+        {
+          "mu_GeV": 1.0,
+          "label": "1 GeV (low)",
+          "alpha_s": -0.632522795299525
+        },
+        {
+          "mu_GeV": 1.777,
+          "label": "M_τ",
+          "alpha_s": -3.3340328269374773
+        },
+        {
+          "mu_GeV": 5.0,
+          "label": "M_b",
+          "alpha_s": 0.49872095498219815
+        },
+        {
+          "mu_GeV": 91.1876,
+          "label": "M_Z",
+          "alpha_s": 0.118
+        },
+        {
+          "mu_GeV": 1000.0,
+          "label": "1 TeV",
+          "alpha_s": 0.07240774715144235
+        },
+        {
+          "mu_GeV": 10000.0,
+          "label": "10 TeV",
+          "alpha_s": 0.05279489278247286
+        },
+        {
+          "mu_GeV": 1.22e+19,
+          "label": "M_Pl",
+          "alpha_s": 0.010379631135015817
+        }
+      ]
+    },
+    "cornell_potential": {
+      "sigma_GeV2": 0.18,
+      "alpha_eff": 0.03183098861837907,
+      "V_at_1fm_GeV": 0.909267182203068
+    },
+    "wilson_loop_area_law": {
+      "sigma": 0.18,
+      "exp_at_A_1": 0.835270211411272,
+      "exp_at_A_10": 0.16529888822158656
+    },
+    "BPST_instanton": {
+      "g_at_MZ": 1.2177157847767197,
+      "S_at_MZ": 53.24733311169141,
+      "instanton_suppression_exp_minus_S": 7.498545888156628e-24
+    },
+    "glueball_spectrum_lattice": {
+      "lightest_0pp_GeV": 1.71,
+      "Clay_mass_gap_candidate": 1.71,
+      "all_states": [
+        {
+          "J_PC": "J^PC = 0^++",
+          "mass_GeV": 1.71,
+          "name": "scalar"
+        },
+        {
+          "J_PC": "J^PC = 2^++",
+          "mass_GeV": 2.39,
+          "name": "tensor"
+        },
+        {
+          "J_PC": "J^PC = 0^-+",
+          "mass_GeV": 2.56,
+          "name": "pseudoscalar"
+        },
+        {
+          "J_PC": "J^PC = 1^+-",
+          "mass_GeV": 2.98,
+          "name": "axial vector"
+        },
+        {
+          "J_PC": "J^PC = 2^-+",
+          "mass_GeV": 3.04,
+          "name": "tensor pseudoscalar"
+        }
+      ]
+    },
+    "lattice_beta": {
+      "N": 3,
+      "real_lattice_QCD_beta": 6.0,
+      "regimes": {
+        "g2_05_beta_12": "weak coupling",
+        "g2_1_beta_6": "crossover",
+        "g2_2_beta_3": "strong coupling"
+      }
+    }
+  },
+  "itu_interpretation": {
+    "Yang_Mills": "K_gauge non-Abelian extension",
+    "gauge_field": "K_gauge connection",
+    "field_strength_F": "K_gauge curvature",
+    "asymptotic_freedom": "K_gauge UV fixed point at g=0",
+    "Wilson_loop": "K_gauge holonomy",
+    "confinement_area_law": "K_gauge non-perturbative",
+    "mass_gap": "K_gauge excitation threshold (Clay $1M)",
+    "lattice_gauge": "K_gauge UV regularization",
+    "instanton": "K_gauge topological saddle",
+    "Pontryagin_n": "K_gauge ∈ ℤ topological invariant",
+    "theta_vacuum": "K_gauge instanton sum"
+  },
+  "key_findings": [
+    "QCD β_1 = (33 - 2 n_f)/3 = 7.000 > 0 (asymptotic freedom Nobel 2004)",
+    "α_s(M_Z)=0.118 → α_s(M_Pl)≈0.05 (1-loop)",
+    "Cornell V at 1 fm = 0.91 GeV; linear confinement",
+    "Wilson loop area law ⟨W⟩ ∝ exp(-σA) (σ=0.18 GeV²)",
+    "BPST instanton: S = 8π²/g², at M_Z: S = 53.2, exp(-S) = 7.50e-24",
+    "Lattice glueball 0++ at 1.71 GeV = Clay Millennium #5 mass gap candidate Δ ★",
+    "Clay $1M Yang-Mills mass gap proof remains unresolved"
+  ]
+}

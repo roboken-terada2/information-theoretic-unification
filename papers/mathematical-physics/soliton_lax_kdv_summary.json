@@ -1,0 +1,73 @@
+{
+  "phase": 168,
+  "title": "Soliton + Lax pair + KdV + sine-Gordon + exactly solvable",
+  "tier1_paper": "#24 Mathematical Physics (phase 2/8)",
+  "tests": {
+    "KdV_1_soliton_speed": {
+      "c": 1.0,
+      "peaks": [
+        {
+          "t": 0,
+          "peak_x_numerical": -9.98998998998999,
+          "peak_x_theory": -10.0
+        },
+        {
+          "t": 5,
+          "peak_x_numerical": -4.984984984984983,
+          "peak_x_theory": -5.0
+        },
+        {
+          "t": 10,
+          "peak_x_numerical": 0.020020020020020013,
+          "peak_x_theory": 0.0
+        }
+      ]
+    },
+    "sine_Gordon_kink_topological_charge": {
+      "Q_kink_numerical": 0.9999999617431651,
+      "Q_antikink_numerical": -0.9999999617431651,
+      "theory_kink": 1.0,
+      "theory_antikink": -1.0
+    },
+    "NLS_bright_soliton": {
+      "eta": 1.0,
+      "peak_value": 0.9995483646298551,
+      "theory_peak": 1.0,
+      "FWHM": 1.762747174039086
+    },
+    "Toda_lattice_integrability": {
+      "N_particles": 4,
+      "T_total": 20,
+      "H_drift_relative": 3.2674492039582997e-06,
+      "integrable": true
+    },
+    "Yang_Baxter": {
+      "u": 0.5,
+      "v": 0.3,
+      "norm_diff": 2.220446049250313e-16,
+      "satisfied": true
+    }
+  },
+  "itu_interpretation": {
+    "soliton": "K_int particle-like non-linear wave",
+    "KdV": "K_int prototype equation",
+    "IST": "K_int linearization strategy (Gardner-Greene-Kruskal-Miura 1967)",
+    "Lax_pair": "K_int spectral representation",
+    "infinite_conserved_quantities": "K_int Cartan extension",
+    "sine_Gordon_kink": "K_int topological soliton",
+    "Thirring_duality": "K_int bosonization (Coleman 1975)",
+    "NLS": "K_int focusing wave packet",
+    "Toda_lattice": "K_int discrete integrable",
+    "Yang_Baxter": "K_int braiding consistency",
+    "Bethe_ansatz": "K_int exact eigenstate construction"
+  },
+  "key_findings": [
+    "KdV 1-soliton speed = amplitude c verified",
+    "sine-Gordon kink Q = +1.00, antikink Q = -1.00 (theory ±1 ✓)",
+    "NLS bright soliton |ψ|² = η² sech², FWHM = 1.763 for η=1",
+    "Toda lattice energy conserved to 3.27e-06 (integrability indicator)",
+    "Yang-Baxter equation satisfied: ||LHS - RHS|| = 2.22e-16",
+    "Lax pair → infinite conserved quantities I_n = tr(L^n)",
+    "Coleman 1975: sine-Gordon ↔ Thirring (bosonization duality)"
+  ]
+}

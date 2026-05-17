@@ -1,0 +1,94 @@
+{
+  "phase": 171,
+  "title": "Index theorems — Atiyah-Singer + ABJ anomaly + Witten index",
+  "tier1_paper": "#24 Mathematical Physics (phase 5/8)",
+  "tests": {
+    "SM_anomaly_cancellation": {
+      "fermions_per_generation": [
+        {
+          "name": "Q_L (u_L)",
+          "Y_over_2": 0.16666666666666666,
+          "n_color": 3
+        },
+        {
+          "name": "Q_L (d_L)",
+          "Y_over_2": 0.16666666666666666,
+          "n_color": 3
+        },
+        {
+          "name": "u_R",
+          "Y_over_2": 0.6666666666666666,
+          "n_color": 3
+        },
+        {
+          "name": "d_R",
+          "Y_over_2": -0.3333333333333333,
+          "n_color": 3
+        },
+        {
+          "name": "L_L (ν_L)",
+          "Y_over_2": -0.5,
+          "n_color": 1
+        },
+        {
+          "name": "L_L (e_L)",
+          "Y_over_2": -0.5,
+          "n_color": 1
+        },
+        {
+          "name": "e_R",
+          "Y_over_2": -1,
+          "n_color": 1
+        }
+      ],
+      "sum_left_Y3": -0.22222222222222224,
+      "sum_right_Y3": -0.22222222222222243,
+      "anomaly_left_minus_right": 1.942890293094024e-16,
+      "cancellation_holds": true
+    },
+    "ABJ_pi0_to_gg": {
+      "m_pi0_GeV": 0.1349766,
+      "f_pi_GeV": 0.0922,
+      "alpha_em": 0.0072973525205055605,
+      "Gamma_theory_eV": 7.762733412969382,
+      "Gamma_exp_eV": 7.82,
+      "ratio_theory_exp": 0.9926769070293328,
+      "tau_theory_s": 8.47897209635371e-17
+    },
+    "Witten_index_SUSY_HO": {
+      "value": 1.0,
+      "beta_independent": true,
+      "SUSY_unbroken": true
+    },
+    "Chern_number_phase_diagram": {
+      "mass_-3.0": -7.730514850779382e-18,
+      "mass_-1.5": -0.999999999999999,
+      "mass_+0.0": -1.0000000000000002,
+      "mass_+1.5": 0.9999999999999989,
+      "mass_+3.0": 8.475957354247393e-17
+    },
+    "Atiyah_Singer_examples": {
+      "Dirac_4D": "index(D̸) = Pontryagin n",
+      "Dirac_S2_monopole_deg1": "index = 1",
+      "trivial_bundle": "index = 0"
+    }
+  },
+  "itu_interpretation": {
+    "Atiyah_Singer": "K_sym ↔ K_topo bridge",
+    "Dirac_index": "K_fermion zero mode topology",
+    "ABJ_anomaly": "K_sym local vs global topology conflict",
+    "pi0_to_gg": "K_chiral breaking observable",
+    "SM_anomaly_cancellation": "K_field global consistency constraint",
+    "Witten_index": "K_SUSY × K_index topology",
+    "Chern_number": "K_topo ∈ ℤ invariant",
+    "eta_invariant": "K_index boundary refinement"
+  },
+  "key_findings": [
+    "π⁰→γγ decay: Γ_theory = 7.76 eV vs exp 7.82 ± 0.14 eV ✓",
+    "Chern number 2-band: m=±1.5 → C=±1, |m|>2 → C=0 (Phase 155 reproduction)",
+    "Witten index for SUSY HO: W = 1 (β-independent, SUSY unbroken)",
+    "SM anomaly cancellation requires 15 fermions per generation",
+    "Dirac index on 4D = Pontryagin n (Phase 169 instanton connection)",
+    "Atiyah-Singer Abel Prize 2004 = analytic = topological correspondence"
+  ]
+}

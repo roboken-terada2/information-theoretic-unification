@@ -1,0 +1,78 @@
+{
+  "phase": 172,
+  "title": "Knot theory + Jones polynomial + Witten Chern-Simons",
+  "tier1_paper": "#24 Mathematical Physics (phase 6/8)",
+  "tests": {
+    "jones_polynomials": [
+      {
+        "knot": "Unknot",
+        "V_t": "1",
+        "V_1": 1.0
+      },
+      {
+        "knot": "Trefoil (right, 3_1+)",
+        "V_t": "-t**4 + t**3 + t",
+        "V_1": 1.0
+      },
+      {
+        "knot": "Trefoil (left, 3_1-)",
+        "V_t": "1/t + t**(-3) - 1/t**4",
+        "V_1": 1.0
+      },
+      {
+        "knot": "Figure-eight (4_1)",
+        "V_t": "t**2 - t + 1 - 1/t + t**(-2)",
+        "V_1": 1.0
+      },
+      {
+        "knot": "Cinquefoil (5_1)",
+        "V_t": "-t**7 + t**6 - t**5 + t**4 + t**2",
+        "V_1": 1.0
+      },
+      {
+        "knot": "5_2",
+        "V_t": "-t**6 + 2*t**5 - 2*t**4 + 2*t**3 - t**2 + t",
+        "V_1": 1.0
+      }
+    ],
+    "chirality_detection": {
+      "V_trefoil_right_minus_V_trefoil_left": "-t**4 + t**3 + t - 1/t - 1/t**3 + t**(-4)",
+      "non_zero": true,
+      "alexander_chirality_blind": true
+    },
+    "kauffman_bracket_trefoil": {
+      "bracket_in_A": "-A^5 - A^{-3} + A^{-7}",
+      "via_t_substitution": "V(t) = (-A)^{-3w} ⟨K⟩",
+      "verified": true
+    },
+    "fibonacci_anyon": {
+      "golden_ratio_phi": 1.618033988749895,
+      "R_1": "(-0.8090169943749473+0.5877852522924732j)",
+      "R_tau": "(-0.30901699437494734-0.9510565162951536j)",
+      "F_squared_minus_I_norm": 1.6135589642920888e-16,
+      "universal_quantum_computation": true
+    }
+  },
+  "itu_interpretation": {
+    "knot": "K_topo 1D embedding",
+    "Reidemeister_moves": "K_knot equivalence",
+    "Alexander_polynomial": "K_knot 1928 invariant (chirality blind)",
+    "Jones_polynomial": "K_knot chirality-sensitive (Fields 1990)",
+    "Kauffman_bracket": "K_knot state sum",
+    "Witten_Chern_Simons": "K_knot 3D QFT origin (Fields 1990)",
+    "HOMFLY": "K_knot 2-variable generalization",
+    "Khovanov": "K_knot categorified homology",
+    "Volume_conjecture": "K_knot ↔ K_hyperbolic duality",
+    "anyon_braiding": "K_knot physical realization (Phase 155, 156)"
+  },
+  "key_findings": [
+    "Jones polynomials computed for 6 knots: unknot, trefoil L/R, figure-eight, 5_1, 5_2",
+    "All V_K(1) = 1 (normalization ✓)",
+    "Chirality: V(trefoil R) ≠ V(trefoil L) — Jones distinguishes mirror image (Alexander cannot)",
+    "Kauffman bracket → Jones polynomial via (-A)^{-3w} factor verified",
+    "Fibonacci anyons: d_τ = φ = 1.6180 (golden ratio)",
+    "R^ττ_1 = exp(4πi/5), R^ττ_τ = exp(-3πi/5) → braiding eigenvalues",
+    "F² = I (Fibonacci F-matrix order 2)",
+    "Witten 1989 + Jones 1985 → 同年 Fields Medal (1990): QFT ↔ operator algebra"
+  ]
+}
