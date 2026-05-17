@@ -1,0 +1,68 @@
+cff-version: 1.2.0
+title: "ITU and Linguistics: A Single-Axiom View of Phonology, Syntax, Semantics, Pragmatics, Language Acquisition, Sociolinguistics, Language Change, Endangered Languages, NLP, and Large Language Models — Pass-1 Extension Paper #3, Block C 1/6 OPENING"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to linguistics. Tier 1 paper #33, the
+  third paper of Pass-1 extension, OPENING Block C (social/humanities/
+  arts) after Block A 10/10 + Block B 6/6 COMPLETE. Introduces K_lang
+  across 8 sub-states (K_lang_phonology, K_lang_syntax, K_lang_semantics,
+  K_lang_pragmatics, K_lang_acquisition, K_lang_socio,
+  K_lang_computational, K_lang_universal). ITU axiom delta S = delta <K>
+  verified to machine precision in 11+ linguistic contexts. 33-vertex
+  ITU polytope with #33 Linguistics reaching new max degree 32.
+  Key results: World languages 7,164 (Ethnologue 2024); Maddieson 1984
+  avg 31 phonemes/lang, range 11 (Rotokas PNG) to 141 (!Xoo Khoisan);
+  Greenberg 1963 SOV 41% + SVO 35% = 76%; Chomsky revolution 1957-2024
+  (Syntactic Structures -> Standard Theory -> Principles and Parameters
+  -> Minimalist Program -> Merge); Pirahã recursion controversy
+  (Everett 2005); Lenneberg 1967 critical period 0-13 years; Werker-Tees
+  1984 phonemic narrowing 6-12 months; Berlin-Kay 1969 color hierarchy
+  7 stages; Frege 1892 Sinn vs Bedeutung; Montague 1970 lambda-calculus
+  compositional semantics; Grice 1975 4 maxims; Searle 1969 5 speech
+  acts; WordNet 117,000+ synsets; FrameNet 1,200+ frames; Bialystok
+  bilingual dementia delay 4.7 years (Mendis 2020); Indo-European
+  Steppe Hypothesis 5,500 BP (Gray-Atkinson 2003, ancient DNA);
+  Endangered 3,000+ languages, 230+ extinct since 1950; Vaswani 2017
+  Transformer; BERT/GPT-1 2018; GPT-3 175B 2020; ChatGPT 2022 1M users
+  in 5 days; GPT-4o MMLU 88.7% (2024); Llama 3.1 405B open (2024);
+  Chinchilla N ~= 20D scaling; Shannon English 1.0-1.5 bits/char;
+  Piantadosi 2023 "Modern language models refute Chomsky's approach".
+  Ten falsifiable predictions (P_avg = 0.780 - Pass-1 + extension
+  highest, Strong/Medium/Weak = 7/3/0) including LLM 7000+ language
+  translation 2028 (P=0.80), AI 100+ endangered langs documented 2028
+  (P=0.85), LLM acquires UG emergently 2027 (P=0.75), AI L2 instruction
+  50% acceleration 2028 (P=0.85), Embodied LLM body-grounded 2028
+  (P=0.80), GPT-5/Claude 4 partial AGI 2026 (P=0.75), AI full Turing
+  test passed 2027 (P=0.85), AI discovers new conceptual metaphor 2028
+  (P=0.80). Block C OPENS 1/6 (social/humanities/arts). Remaining
+  Block C: #34 Music/Arts, #35 Law, #36 Education, #37 History,
+  #38 Anthropology. Pass-1 interpretive synthesis.
+keywords:
+  - linguistics
+  - phonology
+  - syntax
+  - semantics
+  - pragmatics
+  - language acquisition
+  - sociolinguistics
+  - endangered languages
+  - NLP
+  - large language models
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/linguistics"
+url: "https://doi.org/10.5281/zenodo.20258418"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20258418"
+    description: "Version 1.0.0 DOI (Zenodo) — 10.5281/zenodo.20258418 (to be assigned)"
+version: "1.0.0"
+date-released: "2026-05-17"
