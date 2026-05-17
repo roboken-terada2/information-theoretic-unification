@@ -1,0 +1,100 @@
+{
+  "phase": 188,
+  "tier1_paper": 26,
+  "block": "B",
+  "topic": "Vaccines + mRNA + prime-boost + K_vaccine",
+  "prime_boost_titer": {
+    "prime_peak_relative": 10.0,
+    "boost_peak_relative": 500.0,
+    "boost_over_prime_fold": 50.0,
+    "boost_rise_tau_days": 4.0,
+    "prime_rise_tau_days": 7.0
+  },
+  "memory_longevity": {
+    "measles_60yr_titer_pct": 16.211684919411226,
+    "HBV_60yr_titer_pct": 2.7215396647809578,
+    "COVID_60yr_titer_pct": 0.49787068367863946,
+    "references": [
+      "Amanna 2007 NEJM (measles 200+ yr)",
+      "Wang 2021 Nature (COVID 1-2 month fast decay)"
+    ]
+  },
+  "mRNA_translation": {
+    "unmodified_half_life_hours": 1.5,
+    "pseudouridine_half_life_hours": 9.0,
+    "fold_extension": 6.0,
+    "Kariko_Weissman_Nobel": 2023
+  },
+  "pseudouridine_TLR_escape": {
+    "mrna_types": [
+      "Unmodified",
+      "m5C",
+      "Ψ (pseudo)",
+      "m1Ψ (BNT/Moderna)"
+    ],
+    "IFN_alpha_relative": [
+      100.0,
+      40.0,
+      8.0,
+      3.0
+    ],
+    "translation_efficiency_fold": [
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "BNT_Moderna_modification": "N1-methylpseudouridine (m1Ψ)"
+  },
+  "affinity_evolution": {
+    "stages": [
+      "Naive",
+      "Day 14 prime",
+      "Day 30 boost",
+      "Day 60 post-boost",
+      "Year 1 memory"
+    ],
+    "Kd_M": [
+      0.001,
+      1e-05,
+      1e-07,
+      1e-08,
+      5e-09
+    ],
+    "total_fold_improvement": 200000.00000000003
+  },
+  "vaccine_efficacy_Phase_III": {
+    "Smallpox (Jenner 1796)": 100.0,
+    "Measles MMR": 97.0,
+    "MMR (mumps)": 88.0,
+    "HBV recombinant": 95.0,
+    "HPV Gardasil 9": 97.0,
+    "BNT162b2 (Pfizer COVID)": 95.0,
+    "mRNA-1273 (Moderna)": 94.1,
+    "AZD1222 (AstraZeneca)": 70.0,
+    "Sinovac (inactivated COVID)": 51.0,
+    "Influenza (seasonal avg)": 45.0,
+    "Malaria RTS,S": 36.0
+  },
+  "ITU_K_vaccine_descent": {
+    "S_naive_nats": 9.90348755253613,
+    "S_prime_nats": 7.021633801303028,
+    "S_boost_nats": 2.060198006917828,
+    "S_memory_nats": 3.1277894017944106,
+    "naive_to_prime_ratio_dS_dK": 0.2,
+    "prime_to_boost_ratio_dS_dK": 1.0000000000000002,
+    "boost_to_memory_ratio_dS_dK": 1.0000000000000004
+  },
+  "ITU_interpretation": {
+    "K_state": "K_vaccine (sub-state of K_immune)",
+    "modular_Hamiltonian": "K_vaccine^(0) controls prime->boost->memory cascade",
+    "prime_boost_meaning": "Two-step ITU descent flow on repertoire manifold",
+    "pseudouridine_role": "Suppress K_innate, optimize K_translation",
+    "memory_plateau": "Long-lived plasma cell = topological ITU local minimum",
+    "modern_mRNA": "Karikó-Weissman Ψ-modification (Nobel 2023)"
+  },
+  "outputs": {
+    "figure": "vaccine_mrna_prime_boost.png",
+    "summary_json": "vaccine_mrna_prime_boost_summary.json"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "phase": 185,
+  "tier1_paper": 26,
+  "block": "B",
+  "topic": "MHC + antigen presentation + peptide-MHC binding (K_MHC)",
+  "class_I": {
+    "peptide_length_range": "8-10 aa",
+    "peak_aa": 9,
+    "binding_pocket": "closed groove (both termini fixed)",
+    "T_cell": "CD8+ cytotoxic",
+    "processing": "proteasome + TAP transporter"
+  },
+  "class_II": {
+    "peptide_length_range": "13-25 aa",
+    "peak_aa": 16,
+    "binding_pocket": "open groove (termini overhang)",
+    "T_cell": "CD4+ helper",
+    "processing": "endosomal + cathepsin + HLA-DM"
+  },
+  "HLA_alleles_IPD_IMGT_2024": {
+    "HLA-A": 8500,
+    "HLA-B": 10500,
+    "HLA-C": 8000,
+    "HLA-DRB1": 4500,
+    "HLA-DQB1": 2800,
+    "HLA-DPB1": 1500
+  },
+  "HLA_total_alleles": 35800,
+  "binding_affinity_distribution": {
+    "strong_pct": 17.663,
+    "weak_pct": 28.701,
+    "non_pct": 53.635999999999996,
+    "strong_threshold_nM": 50,
+    "weak_threshold_nM": 500,
+    "human_proteome_9mers": 7000000,
+    "estimated_binders_per_HLA": 1236410
+  },
+  "anchor_residues_A0201_9mer": {
+    "positions_kcal_per_mol": [
+      -1.0,
+      -3.5,
+      -0.8,
+      -0.5,
+      -1.0,
+      -0.8,
+      -1.0,
+      -0.5,
+      -3.0
+    ],
+    "total_dG_kcal_per_mol": -12.1,
+    "predicted_Kd_nM": 1.3751242396587822,
+    "P2_anchor_kcal": -3.5,
+    "P9_anchor_kcal": -3.0
+  },
+  "C_terminus_cleavage_freq": {
+    "A": 0.03333333333333333,
+    "R": 0.03333333333333333,
+    "N": 0.03333333333333333,
+    "D": 0.03333333333333333,
+    "C": 0.03333333333333333,
+    "E": 0.03333333333333333,
+    "Q": 0.03333333333333333,
+    "G": 0.03333333333333333,
+    "H": 0.03333333333333333,
+    "I": 0.06666666666666667,
+    "L": 0.15,
+    "K": 0.03333333333333333,
+    "M": 0.03333333333333333,
+    "F": 0.1,
+    "P": 0.03333333333333333,
+    "S": 0.03333333333333333,
+    "T": 0.03333333333333333,
+    "W": 0.05,
+    "Y": 0.08333333333333334,
+    "V": 0.08333333333333334
+  },
+  "half_life_example_nM_to_sec": {
+    "Kd_5_nM_strong": 45839.09077984661,
+    "Kd_5000_nM_weak": 11.514259016263244
+  },
+  "ITU_K_MHC": {
+    "N_peptides": 50000,
+    "Shannon_S_nats": NaN,
+    "mean_K_MHC_nats": NaN,
+    "S_K_consistency": NaN,
+    "S_after_negative_selection": 9.914126297337196,
+    "delta_S_first_order": -0.00017020410229460055,
+    "delta_K_first_order": -0.00017020410229451896,
+    "ratio_dS_over_dK": 1.0000000000004794,
+    "expected_ratio": 1.0
+  },
+  "HLA_disease_associations": {
+    "HLA-B*51 / HIV slow progression": 0.4,
+    "HLA-B*53 / Malaria protection": 0.6,
+    "HLA-DRB1*15:01 / Multiple sclerosis": 3.0,
+    "HLA-DR2 / SLE": 2.5,
+    "HLA-B*27 / Ankylosing spondylitis": 87.0,
+    "HLA-DQ2/DQ8 / Celiac disease": 19.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_MHC (sub-state of K_immune)",
+    "modular_Hamiltonian": "K_MHC^(0) = -log P(peptide | HLA)",
+    "negative_selection": "Thymic deletion of self-pMHC reactive T cells = local zero set",
+    "HLA_heterozygosity": "Multi-dimensional K_MHC^(0) → multi-pathogen coverage",
+    "holes_in_repertoire": "Per-individual K_MHC zero-measure subset = immune blind spots"
+  },
+  "outputs": {
+    "figure": "mhc_antigen_presentation.png",
+    "summary_json": "mhc_antigen_presentation_summary.json"
+  }
+}

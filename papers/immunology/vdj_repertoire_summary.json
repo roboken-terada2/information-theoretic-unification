@@ -1,0 +1,124 @@
+{
+  "phase": 184,
+  "tier1_paper": 26,
+  "block": "B",
+  "topic": "TCR/BCR + V(D)J recombination + repertoire diversity",
+  "IMGT_segment_counts": {
+    "TRA (TCR α)": {
+      "V": 47,
+      "D": 0,
+      "J": 61
+    },
+    "TRB (TCR β)": {
+      "V": 65,
+      "D": 2,
+      "J": 13
+    },
+    "TRG (TCR γ)": {
+      "V": 6,
+      "D": 0,
+      "J": 5
+    },
+    "TRD (TCR δ)": {
+      "V": 3,
+      "D": 3,
+      "J": 4
+    },
+    "IGH (BCR H)": {
+      "V": 46,
+      "D": 23,
+      "J": 6
+    },
+    "IGK (BCR κ)": {
+      "V": 41,
+      "D": 0,
+      "J": 5
+    },
+    "IGL (BCR λ)": {
+      "V": 33,
+      "D": 0,
+      "J": 5
+    }
+  },
+  "combinatorial_VDJ": {
+    "TRA (TCR α)": 2867,
+    "TRB (TCR β)": 1690,
+    "TRG (TCR γ)": 30,
+    "TRD (TCR δ)": 36,
+    "IGH (BCR H)": 6348,
+    "IGK (BCR κ)": 205,
+    "IGL (BCR λ)": 165
+  },
+  "CDR3_mean_aa": {
+    "TCR_beta_predicted": 14.00367158138989,
+    "TCR_beta_IMGT_obs": "14-15",
+    "BCR_H_predicted": 16.162888376060177,
+    "BCR_H_obs": "12-20"
+  },
+  "RSS_12_23_rule": {
+    "in_vitro_efficiency": 0.5,
+    "in_vivo_efficiency": 0.95,
+    "reference": "Schatz-Oettinger-Baltimore 1989; Tonegawa 1976 Nobel 1987"
+  },
+  "junctional_additions": {
+    "lambda_P_per_joint": 2.0,
+    "lambda_N_per_joint": 4.0,
+    "total_per_BCR_H": 12.0,
+    "diversity_factor_4_to_total": 16777216.0
+  },
+  "hierarchical_diversity_steps": [
+    {
+      "step": "Germline VDJ combinatorial (one chain)",
+      "value": 1690.0
+    },
+    {
+      "step": "+ second chain pairing",
+      "value": 4845230.0
+    },
+    {
+      "step": "+ junctional P/N (germline)",
+      "value": 81289470279680.0
+    },
+    {
+      "step": "BCR germline (paired + junctional)",
+      "value": 20128833994752.0
+    },
+    {
+      "step": "BCR post-SHM",
+      "value": 2.0128833994752e+18
+    }
+  ],
+  "TCR_paired_post_junctional": 81289470279680.0,
+  "BCR_germline_paired_junctional": 20128833994752.0,
+  "BCR_post_SHM": 2.0128833994752e+18,
+  "repertoire_entropy_nats": {
+    "naive_alpha_1.0": 7.968004312133277,
+    "post_antigen_alpha_1.6": 2.709673245633198,
+    "delta_S": -5.258331066500079
+  },
+  "ITU_axiom_linearized": {
+    "delta_S_first_order": -4.298300055734206,
+    "delta_K_first_order": -4.298300055734206,
+    "ratio_dS_over_dK": 1.0,
+    "expected_ratio": 1.0
+  },
+  "SHM_verification": {
+    "rate_per_bp_per_division": 0.001,
+    "V_region_bp": 350,
+    "divisions_in_GC": 7,
+    "expected_mean_mutations": 2.45,
+    "simulated_mean": 2.48,
+    "simulated_std": 1.5740393895960798,
+    "reference": "Rajewsky 1996; Berek-Milstein 1987"
+  },
+  "ITU_interpretation": {
+    "K_state": "K_adaptive (sub-state of K_immune)",
+    "decomposition": "K_adaptive^(0) = K_VDJ ⊕ K_pairing ⊕ K_junctional ⊕ K_SHM",
+    "axiom_realization": "Germinal center selection lowers S(rho) and <K^(0)> simultaneously",
+    "biological_meaning": "Affinity maturation = ITU descent flow on repertoire manifold"
+  },
+  "outputs": {
+    "figure": "vdj_repertoire.png",
+    "summary_json": "vdj_repertoire_summary.json"
+  }
+}

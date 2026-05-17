@@ -1,0 +1,106 @@
+{
+  "phase": 187,
+  "tier1_paper": 26,
+  "block": "B",
+  "topic": "Tolerance + autoimmunity + K_tolerance",
+  "thymic_selection": {
+    "N_thymocytes_simulated": 1000000,
+    "biology_N_per_day": "10^9",
+    "negative_selection_pct": 5.0,
+    "death_by_neglect_pct": 28.1688,
+    "survival_to_periphery_pct": 66.8312,
+    "expected_survival_pct": "1-5"
+  },
+  "AIRE_function": {
+    "TSAs_expressed_in_mTEC": 1500,
+    "fraction_escape_AIRE_WT": 0.001,
+    "fraction_escape_AIRE_KO": 0.15,
+    "fold_increase_in_KO": 150.0,
+    "loss_of_function_disease": "APECED (1/9,000 Finns)",
+    "reference": "Anderson 2002 Science; AIRE 1997"
+  },
+  "Treg_dynamics": {
+    "discovery": "Sakaguchi 1995 (CD4+CD25+)",
+    "transcription_factor": "FoxP3 (Brunkow 2001)",
+    "fraction_of_CD4_T": "5-10%",
+    "loss_of_function_disease": "IPEX (X-linked, FoxP3 mutation)",
+    "scurfy_mouse_lethality_weeks": "3-4 (multi-organ autoimmune)"
+  },
+  "autoimmune_diseases": {
+    "SLE": {
+      "prev_pct": 0.05,
+      "F_to_M": 9.0
+    },
+    "RA": {
+      "prev_pct": 0.75,
+      "F_to_M": 3.0
+    },
+    "T1D": {
+      "prev_pct": 0.4,
+      "F_to_M": 1.0
+    },
+    "MS": {
+      "prev_pct": 0.1,
+      "F_to_M": 2.5
+    },
+    "Hashimoto": {
+      "prev_pct": 1.5,
+      "F_to_M": 8.0
+    },
+    "Graves": {
+      "prev_pct": 0.5,
+      "F_to_M": 7.0
+    },
+    "Sjögren": {
+      "prev_pct": 0.5,
+      "F_to_M": 9.0
+    },
+    "Psoriasis": {
+      "prev_pct": 2.0,
+      "F_to_M": 1.0
+    },
+    "IBD": {
+      "prev_pct": 0.3,
+      "F_to_M": 1.2
+    }
+  },
+  "HLA_disease_OR": {
+    "DRB1*04 (shared epitope) / RA": 4.0,
+    "DRB1*15:01 / MS": 3.0,
+    "DR2 / SLE": 2.5,
+    "DQ2/DQ8 / T1D": 7.0,
+    "DQ2/DQ8 / Celiac": 19.0,
+    "B27 / AS": 87.0,
+    "B57 / drug hypersensitivity": 100.0
+  },
+  "ITU_K_tolerance": {
+    "N_clones": 10000,
+    "S_pre_selection_nats": 9.21034037197618,
+    "S_post_selection_nats": 8.920789888464375,
+    "delta_S": -0.289550483511805,
+    "fraction_allowed": 0.7486,
+    "forbidden_count": 2514,
+    "leaky_count": 57,
+    "delta_S_linear": 1.0408340855860843e-16,
+    "delta_K_linear": 4.649058915617843e-16,
+    "ratio_dS_over_dK": NaN,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_tolerance (sub-state of K_immune)",
+    "modular_Hamiltonian": "K_tolerance^(0) = forbidden-subset operator",
+    "central_tolerance": "Thymic deletion = global zero-set on repertoire manifold",
+    "peripheral_tolerance": "Treg + anergy + AICD = local damping field",
+    "autoimmune_disease": "Leakage in K_tolerance^(0) forbidden subset",
+    "AIRE_role": "Promiscuous TSA expression extends thymic deletion to peripheral antigens",
+    "loss_diseases": [
+      "APECED (AIRE)",
+      "IPEX (FoxP3)",
+      "ALPS (Fas/FasL)"
+    ]
+  },
+  "outputs": {
+    "figure": "tolerance_autoimmunity.png",
+    "summary_json": "tolerance_autoimmunity_summary.json"
+  }
+}

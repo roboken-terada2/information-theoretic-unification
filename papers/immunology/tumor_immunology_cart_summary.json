@@ -1,0 +1,102 @@
+{
+  "phase": 189,
+  "tier1_paper": 26,
+  "block": "B",
+  "topic": "Tumor immunology + checkpoint + CAR-T (K_tumor)",
+  "cancer_immunoediting_3E": {
+    "model": "Schreiber 2002 (Elimination, Equilibrium, Escape)",
+    "Burnet_immunosurveillance": "1957",
+    "evidence": "10× cancer rate in immunosuppressed transplant patients"
+  },
+  "melanoma_5yr_survival": {
+    "periods": [
+      "Pre-2011\n(chemo)",
+      "Ipilimumab\n(2011)",
+      "Anti-PD-1\n(2014-)",
+      "Combination\nIpi+Nivo (2015)",
+      "Triplet incl.\nLAG3 (2022)"
+    ],
+    "five_yr_pct": [
+      5,
+      18,
+      34,
+      52,
+      60
+    ],
+    "ORR_pct": [
+      10,
+      11,
+      44,
+      58,
+      65
+    ],
+    "fold_increase_2011_to_2022": 12.0,
+    "Allison_Honjo_Nobel": 2018
+  },
+  "CAR_T_products": {
+    "Tisagenlec (CD19, pALL)": 83,
+    "Axi-cel (CD19, DLBCL)": 51,
+    "Brexu-cel (CD19, MCL)": 65,
+    "Liso-cel (CD19, DLBCL)": 53,
+    "Ide-cel (BCMA, MM)": 33,
+    "Cilta-cel (BCMA, MM)": 67
+  },
+  "Tisagenlecleucel_CR": 83,
+  "BCMA_CART_avg_CR": 50,
+  "CRS_dynamics": {
+    "peak_IL6_no_intervention_pg_per_mL": 1500,
+    "tocilizumab_rescue_hours_to_normal": "24-48 hours",
+    "drug": "Anti-IL-6R (Tocilizumab)"
+  },
+  "TMB_response": {
+    "TMB_mut_per_Mb": [
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      300
+    ],
+    "response_pct": [
+      10,
+      18,
+      25,
+      35,
+      50,
+      58,
+      65
+    ],
+    "threshold_high_TMB": 10,
+    "reference": "CheckMate-227, KN-158 (Marabelle 2020)"
+  },
+  "PDL1_stratification": {
+    "<1%": 11,
+    "1-49%": 19,
+    "50-89%": 45,
+    "≥90%": 50
+  },
+  "TIL_Lifileucel_ORR": 31,
+  "Blinatumomab_ALL_CR": 44,
+  "ITU_K_tumor": {
+    "N_clones": 5000,
+    "S_pre_checkpoint_nats": 7.45325890658914,
+    "S_post_checkpoint_nats": 8.459425160761334,
+    "S_CAR_T_nats": 6.837524814786145,
+    "checkpoint_dS_dK_ratio": 1.0,
+    "CAR_T_dS_dK_ratio": 0.9999999999996142,
+    "exhausted_fraction": 0.7
+  },
+  "ITU_interpretation": {
+    "K_state": "K_tumor (sub-state of K_immune)",
+    "tumor_escape": "K_tumor^(0) = inverse(K_tolerance) local inversion",
+    "checkpoint_inhibitor": "Reopens forbidden region of K_tumor^(0)",
+    "CAR_T": "Bypasses K_tumor via artificial K_state injection (non-MHC)",
+    "neoantigen_vaccine": "ITU descent flow targeted at K_tumor specific subset",
+    "Allison_Honjo_Nobel": "2018 (Physiology/Medicine)"
+  },
+  "outputs": {
+    "figure": "tumor_immunology_cart.png",
+    "summary_json": "tumor_immunology_cart_summary.json"
+  }
+}

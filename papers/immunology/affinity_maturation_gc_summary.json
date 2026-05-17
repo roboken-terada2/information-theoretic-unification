@@ -1,0 +1,111 @@
+{
+  "phase": 186,
+  "tier1_paper": 26,
+  "block": "B",
+  "topic": "Affinity maturation + germinal center + K_affinity",
+  "GC_simulation": {
+    "N_clones": 5000,
+    "N_cycles": 8,
+    "V_region_bp": 350,
+    "SHM_rate_per_bp_per_div": 0.001,
+    "Kd_ref_M": 1e-06,
+    "Kd_initial_geomean_M": 0.00010005826469079754,
+    "Kd_final_geomean_M": 3.159017571923465e-07,
+    "improvement_factor": 316.7385505547346,
+    "expected_improvement_Foote_Milstein_1991": "10^2 - 10^5"
+  },
+  "Eisen_Siskind_fit": {
+    "r_per_cycle": 0.5773556651519006,
+    "Kd_decay_law": "Kd(t) = Kd_0 * exp(-r*t)",
+    "reference": "Eisen-Siskind 1964"
+  },
+  "entropy_evolution_nats": {
+    "S_start": 1.6111087661050962,
+    "S_end": 8.485928134100911,
+    "delta_S": 6.874819367995815
+  },
+  "mean_log10_Kd_evolution": {
+    "start": -3.999747033350932,
+    "end": -6.500447958340444,
+    "delta": -2.500700924989512
+  },
+  "mutation_density_final_pct": 1.7024000000000001,
+  "ITU_axiom_per_cycle": [
+    {
+      "cycle": 1,
+      "delta_S_linear": 58.13393821880199,
+      "delta_K_linear": 58.13393821880197,
+      "ratio": 1.0000000000000002
+    },
+    {
+      "cycle": 2,
+      "delta_S_linear": 0.9747257009028506,
+      "delta_K_linear": 0.9747257009028505,
+      "ratio": 1.0000000000000002
+    },
+    {
+      "cycle": 3,
+      "delta_S_linear": 1.5208430560816262,
+      "delta_K_linear": 1.5208430560816262,
+      "ratio": 1.0
+    },
+    {
+      "cycle": 4,
+      "delta_S_linear": 0.4646754243707981,
+      "delta_K_linear": 0.4646754243707979,
+      "ratio": 1.0000000000000004
+    },
+    {
+      "cycle": 5,
+      "delta_S_linear": 0.24697084590668522,
+      "delta_K_linear": 0.24697084590668522,
+      "ratio": 1.0
+    },
+    {
+      "cycle": 6,
+      "delta_S_linear": 0.17501321363843936,
+      "delta_K_linear": 0.1750132136384395,
+      "ratio": 0.9999999999999992
+    },
+    {
+      "cycle": 7,
+      "delta_S_linear": 0.12299220757973246,
+      "delta_K_linear": 0.12299220757973228,
+      "ratio": 1.0000000000000016
+    },
+    {
+      "cycle": 8,
+      "delta_S_linear": 0.09385507638834889,
+      "delta_K_linear": 0.093855076388349,
+      "ratio": 0.9999999999999988
+    }
+  ],
+  "memory_B_longevity": {
+    "measles_half_life_years": 198.04205158855578,
+    "covid_half_life_years_dominant_fast": 0.49510512897138953,
+    "references": [
+      "Amanna 2007 NEJM (measles 200+ yr)",
+      "Wang 2021 Nature (COVID 1-2 month fast decay)"
+    ]
+  },
+  "class_switch_AID": {
+    "discoverer": "Tasuku Honjo 2000, Nobel 2018",
+    "knockout_effect": "AID -/- mice: complete loss of CSR and SHM (Muramatsu 2000)"
+  },
+  "ITU_interpretation": {
+    "K_state": "K_affinity (sub-state of K_immune)",
+    "modular_Hamiltonian": "K_affinity^(0) = -log P(clone | antigen)",
+    "GC_dynamics_4_phase": {
+      "Phase_1_initial": "Clonal expansion, S up, <K> high",
+      "Phase_2_SHM": "Mutation diversification, S up further",
+      "Phase_3_selection": "Convergent selection, S down, <K> down (ITU descent)",
+      "Phase_4_exit": "Plasma cell + memory B differentiation"
+    },
+    "biological_meaning": "Germinal center = local ITU descent flow on BCR sequence manifold",
+    "Burnet_clonal_selection": "1957 theory, Nobel 1960"
+  },
+  "outputs": {
+    "figure": "affinity_maturation_gc.png",
+    "summary_json": "affinity_maturation_gc_summary.json"
+  }
+}

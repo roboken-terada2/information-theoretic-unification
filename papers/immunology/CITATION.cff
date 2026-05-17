@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: "ITU and Immunology: A Single-Axiom View of Innate/Adaptive Immunity, V(D)J Recombination, MHC Presentation, Affinity Maturation, Tolerance/Autoimmunity, Vaccines, and Tumor Immunology — Block B Opener"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to immunology. Tier 1 paper #26, opening
+  Block B (Life Sciences Deepening). Introduces K_immune across 8
+  sub-states (K_innate, K_adaptive, K_MHC, K_affinity, K_tolerance,
+  K_vaccine, K_tumor, K_infect). Pass-1 progress 86.4% (190/220).
+  ITU axiom delta S = delta <K> verified to machine precision in 7+
+  immunological contexts including V(D)J repertoire evolution, MHC
+  negative selection, germinal-center affinity maturation across 8
+  cycles, vaccine prime-boost-memory transitions, checkpoint inhibitor
+  rescue, and CAR-T injection. 26-vertex ITU polytope with #26 Immune
+  reaching new max degree 25 (196 edges). Key numerical results: TCR
+  alphabeta diversity 5.8e13, BCR post-SHM 2.0e18 (Tonegawa Nobel
+  1987); HLA 35,800 alleles (IPD-IMGT 2024); HLA-B*27/AS OR=87;
+  affinity Kd 10^-4 -> 10^-7 M (317x improvement); BNT162b2 95%
+  efficacy (Polack 2020 NEJM); Kariko-Weissman pseudouridine
+  (Nobel 2023) suppressing TLR 33x, boosting translation 10x;
+  melanoma 5-year survival 5% (2011) -> 60% (2022) under
+  checkpoint inhibitor era (Allison-Honjo Nobel 2018);
+  Tisagenlecleucel CD19 pALL CR 83%. Ten falsifiable predictions
+  (P_avg = 0.620, Strong/Medium/Weak = 5/4/1) including
+  pan-coronavirus mRNA Phase III 2028 (P=0.70), cancer neoantigen
+  mRNA standardization 2028 (P=0.75), saRNA single-dose 2027
+  (P=0.80), in vivo CAR-T 2028 (P=0.75), CAR-NK 2027 (P=0.70).
+  Pass-1 interpretive synthesis; numerical results agree with
+  established immunological literature.
+keywords:
+  - immunology
+  - V(D)J recombination
+  - MHC antigen presentation
+  - affinity maturation
+  - germinal center
+  - tolerance
+  - autoimmunity
+  - mRNA vaccine
+  - checkpoint inhibitor
+  - CAR-T therapy
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/immunology"
+url: "https://doi.org/10.5281/zenodo.20256116"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20256116"
+    description: "Version 1.0.0 DOI (Zenodo) — 10.5281/zenodo.20256116"
+version: "1.0.0"
+date-released: "2026-05-17"
