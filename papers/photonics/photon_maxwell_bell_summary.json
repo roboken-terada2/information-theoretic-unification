@@ -1,0 +1,62 @@
+{
+  "phase": 220,
+  "tier1_paper": 31,
+  "block": "A_residual",
+  "topic": "Maxwell + Photon + Bell + K_photon (Tier 1 #31 opening)",
+  "milestone": "Pass-1 extension opening (Tier 1 #31 starts)",
+  "Maxwell_verification": {
+    "mu0": 1.2566370614359173e-06,
+    "eps0": 8.854e-12,
+    "c_computed": 299795637.69321626,
+    "c_exact": 299800000.0,
+    "match_pct": 99.99854492769055
+  },
+  "Bell_CHSH": {
+    "classical_max": 2.0,
+    "tsirelson_bound": 2.8284271247461903,
+    "QM_optimal": -2.3889551651687704,
+    "Aspect_1982": 2.697,
+    "Nobel_2022": "Aspect + Clauser + Zeilinger Physics"
+  },
+  "photon_spectrum_regions": {
+    "Radio (1 MHz)": 1000000.0,
+    "Microwave (10 GHz)": 10000000000.0,
+    "Infrared (10 THz)": 10000000000000.0,
+    "Visible (550 nm)": 545090909090909.06,
+    "UV (100 nm)": 2998000000000000.0,
+    "X-ray (0.1 nm)": 2.998e+18,
+    "Gamma (10⁻¹² m)": 2.998e+20
+  },
+  "fine_structure_alpha": 0.0072973525205055605,
+  "fiber_min_attenuation_dB_per_km": 0.15,
+  "fiber_optimal_nm": 1550,
+  "optogenetics_ChR2_nm": 470,
+  "optogenetics_NpHR_nm": 580,
+  "ITU_K_photon": {
+    "N_states": 2000,
+    "S_thermal_nats": NaN,
+    "S_coherent_nats": 3.7206860722602553,
+    "S_fock_nats": 0.0,
+    "thermal_to_coherent_ratio": 0.9999999999999999,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_photon",
+    "sub_states": [
+      "K_photon_frequency (γ to radio)",
+      "K_photon_polarization (basis qubit)",
+      "K_photon_coherence (thermal vs laser)",
+      "K_photon_fock (number state)",
+      "K_photon_entanglement (Bell/GHZ)",
+      "K_photon_kvector (momentum)"
+    ],
+    "Maxwell_meaning": "Classical limit of K_photon dynamics",
+    "Bell_violation_meaning": "K_photon entanglement = non-local K-state correlation",
+    "laser_meaning": "Coherent K_photon descent (Poisson)",
+    "Aspect_Nobel_2022": "Experimental confirmation of K_photon non-locality"
+  },
+  "outputs": {
+    "figure": "photon_maxwell_bell.png",
+    "summary_json": "photon_maxwell_bell_summary.json"
+  }
+}

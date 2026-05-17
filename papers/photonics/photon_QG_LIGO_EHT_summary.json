@@ -1,0 +1,127 @@
+{
+  "phase": 225,
+  "tier1_paper": 31,
+  "topic": "LIGO + EHT + Quantum Gravity Optics (K_photon_QG)",
+  "LIGO_strain_sensitivity": 1e-21,
+  "LIGO_arm_length_km": 4,
+  "Weiss_Barish_Thorne_Nobel_2017": "Physics - GW detection",
+  "GW_events_history": {
+    "GW150914 (BH-BH 36+29)": 2015,
+    "GW151226": 2015,
+    "GW170104": 2017,
+    "GW170817 (NS-NS) ★": 2017,
+    "GW190425 (NS-NS)": 2019,
+    "GW190521 (BH 85+66) ★": 2019,
+    "GWTC-3 (90 events)": 2021,
+    "O4 ~150 events": 2023,
+    "O5 (predicted)": 2025
+  },
+  "GW150914_total_mass_Msun": "36 + 29 = 62 (3 M☉ to GW)",
+  "GW170817_significance": "First multi-messenger NS-NS merger",
+  "EHT_results": {
+    "M87* (2019)": {
+      "mass_Msun": 6500000000.0,
+      "shadow_uas": 42,
+      "distance_Mly": 55,
+      "r_s_m": 19000000000000.0,
+      "ratio_observed": 5.0
+    },
+    "Sgr A* (2022)": {
+      "mass_Msun": 4000000.0,
+      "shadow_uas": 52,
+      "distance_kly": 26,
+      "r_s_m": 12000000000.0,
+      "ratio_observed": 5.1
+    }
+  },
+  "GR_shadow_to_rs_ratio_theory": 5.196152422706632,
+  "EHT_2019_M87_shadow_uas": 42,
+  "EHT_2022_SgrA_shadow_uas": 52,
+  "optical_clock_history": {
+    "Cs-133 (1955)": 1e-09,
+    "H maser (1960)": 1e-12,
+    "Cs fountain (NIST 1999)": 1e-15,
+    "Sr lattice (Ye 2008)": 1e-17,
+    "Yb lattice (NIST 2015)": 1.4e-18,
+    "Al+ ion (NIST 2019)": 9.4e-19,
+    "Future (2030)": 1e-20
+  },
+  "current_best_clock_2024": "Al+ ion 9.4e-19 (NIST)",
+  "multimessenger_GW170817": {
+    "GW170817 LIGO": {
+      "time_sec": 0.0,
+      "strain": 1e-22
+    },
+    "Fermi GBM (γ-ray)": {
+      "time_sec": 1.7,
+      "energy": "GRB 170817A"
+    },
+    "Optical (kilonova)": {
+      "time_sec": 43200,
+      "magnitude": 17
+    },
+    "X-ray (Chandra)": {
+      "time_sec": 777600,
+      "detection": "afterglow"
+    },
+    "Radio (VLA)": {
+      "time_sec": 1382400,
+      "detection": "afterglow"
+    }
+  },
+  "BMV_quantum_gravity_2017": "Levitated nanosphere entanglement via gravity",
+  "ITU_K_photon_QG": {
+    "N_states": 2000,
+    "S_flat_no_GW_nats": 7.599689903444952,
+    "S_GW_event_nats": 7.541376542887388,
+    "S_BH_shadow_nats": 7.516797406175626,
+    "flat_to_GW_ratio": 1.0000000000004257,
+    "flat_to_shadow_ratio": 1.0000000000008098,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_photon_QG",
+    "modular_Hamiltonian": "K_photon_QG^(0) = -log P(photon | gravity, quantum state)",
+    "LIGO_meaning": "K_photon strain readout of K_geom (#17) perturbation",
+    "EHT_meaning": "K_photon imaging of K_horizon (#18) shadow",
+    "multi_messenger_meaning": "K_photon ⊗ K_field ⊗ K_geom simultaneous observation",
+    "BMV_meaning": "Direct test K_photon ↔ K_geom entanglement (proves QG)",
+    "optical_clock_meaning": "K_photon ⊗ K_time precision (Einstein equivalence)"
+  },
+  "predictions": [
+    [
+      "LIGO O5 BH 1/week",
+      2026,
+      0.85,
+      "Strong"
+    ],
+    [
+      "BMV quantum gravity experiment",
+      2030,
+      0.65,
+      "Medium"
+    ],
+    [
+      "Optical clock km GR test",
+      2028,
+      0.8,
+      "Strong"
+    ],
+    [
+      "Cosmic Explorer / Einstein Telescope build",
+      2030,
+      0.65,
+      "Medium"
+    ],
+    [
+      "QG dispersion relation detected",
+      2035,
+      0.3,
+      "Weak"
+    ]
+  ],
+  "outputs": {
+    "figure": "photon_QG_LIGO_EHT.png",
+    "summary_json": "photon_QG_LIGO_EHT_summary.json"
+  }
+}

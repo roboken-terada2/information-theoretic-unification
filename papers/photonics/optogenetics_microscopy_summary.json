@@ -1,0 +1,174 @@
+{
+  "phase": 224,
+  "tier1_paper": 31,
+  "topic": "Optogenetics + Fluorescence + Super-Resolution (K_photon_bio)",
+  "fluorescent_proteins": {
+    "BFP": {
+      "ex": 380,
+      "em": 440,
+      "color": "#0033ff"
+    },
+    "CFP": {
+      "ex": 433,
+      "em": 475,
+      "color": "#00cccc"
+    },
+    "GFP": {
+      "ex": 488,
+      "em": 509,
+      "color": "#00ff00"
+    },
+    "YFP": {
+      "ex": 514,
+      "em": 527,
+      "color": "#ffff00"
+    },
+    "mCherry": {
+      "ex": 587,
+      "em": 610,
+      "color": "#ff0000"
+    },
+    "mScarlet": {
+      "ex": 569,
+      "em": 594,
+      "color": "#ff3300"
+    },
+    "iRFP670": {
+      "ex": 643,
+      "em": 670,
+      "color": "#990033"
+    }
+  },
+  "Shimomura_Chalfie_Tsien_Nobel_2008": "GFP discovery + multicolor + in vivo",
+  "GFP_quantum_yield": 0.79,
+  "super_resolution_techniques": {
+    "Abbe limit (1873)": {
+      "resolution_nm": 200,
+      "year": 1873
+    },
+    "Confocal": {
+      "resolution_nm": 150,
+      "year": 1957
+    },
+    "STED (Hell 2000)": {
+      "resolution_nm": 50,
+      "year": 2000
+    },
+    "PALM (Betzig 2006)": {
+      "resolution_nm": 20,
+      "year": 2006
+    },
+    "STORM (Zhuang 2006)": {
+      "resolution_nm": 20,
+      "year": 2006
+    },
+    "MINFLUX (Hell 2017)": {
+      "resolution_nm": 2,
+      "year": 2017
+    },
+    "Cryo-EM atomic": {
+      "resolution_nm": 0.3,
+      "year": 2013
+    }
+  },
+  "Abbe_limit_1873_nm": 200,
+  "MINFLUX_resolution_nm": 2,
+  "Betzig_Hell_Moerner_Nobel_2014": "Super-resolution fluorescence microscopy",
+  "Cryo_EM_Nobel_2017": "Henderson + Frank + Dubochet (atomic resolution)",
+  "optogenetics_tools": {
+    "ChR2 (excitation)": {
+      "wavelength_nm": 470,
+      "effect": "Na+ influx",
+      "kinetics_ms": 1
+    },
+    "NpHR (inhibition)": {
+      "wavelength_nm": 580,
+      "effect": "Cl- pump",
+      "kinetics_ms": 5
+    },
+    "Arch (inhibition)": {
+      "wavelength_nm": 575,
+      "effect": "H+ pump",
+      "kinetics_ms": 8
+    },
+    "Chrimson (red)": {
+      "wavelength_nm": 590,
+      "effect": "Na+ red-shifted",
+      "kinetics_ms": 8
+    },
+    "ChR2-XXM": {
+      "wavelength_nm": 470,
+      "effect": "fast variant",
+      "kinetics_ms": 0.2
+    },
+    "bPAC (cAMP)": {
+      "wavelength_nm": 460,
+      "effect": "cAMP up",
+      "kinetics_ms": 100
+    }
+  },
+  "Boyden_Deisseroth_2005": "Optogenetics founding paper (ChR2 + neurons)",
+  "GenSight_RPE65_2021": "First optogenetic therapy in humans (partial vision recovery)",
+  "ITU_K_photon_bio": {
+    "N_neurons_simulated": 2000,
+    "S_pre_light_nats": 7.595875506481349,
+    "S_ChR2_light_nats": 5.991580853013522,
+    "S_NpHR_inhibition_nats": 7.477234234909163,
+    "pre_to_light_ratio": 0.9999999999999941,
+    "pre_to_inhib_ratio": 0.9999999999961492,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_photon_bio",
+    "modular_Hamiltonian": "K_photon_bio^(0) = -log P(biomolecule state | photon)",
+    "optogenetics_meaning": "Light = direct K_neuro^(0) operator (control)",
+    "GFP_meaning": "K_photon as readout of K_genome state",
+    "MINFLUX_meaning": "Subcellular K-state imaging at 2 nm",
+    "Cryo_EM_AlphaFold_synergy": "K_photon (e-beam) + K_genome_AI = structure determination"
+  },
+  "Nobel_count_optical": 6,
+  "Nobel_optical_decades": [
+    1921,
+    2008,
+    2014,
+    2017,
+    2022,
+    2024
+  ],
+  "predictions": [
+    [
+      "Optogenetic neural prosthesis FDA",
+      2030,
+      0.65,
+      "Medium"
+    ],
+    [
+      "All-optical brain imaging (mouse)",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "Multi-photon all-optical interrogation",
+      2028,
+      0.75,
+      "Strong"
+    ],
+    [
+      "MINFLUX subcellular real-time",
+      2028,
+      0.8,
+      "Strong"
+    ],
+    [
+      "Adaptive optics in vivo human retina",
+      2030,
+      0.7,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "optogenetics_microscopy.png",
+    "summary_json": "optogenetics_microscopy_summary.json"
+  }
+}

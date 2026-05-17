@@ -1,0 +1,149 @@
+{
+  "phase": 223,
+  "tier1_paper": 31,
+  "topic": "Optical fiber + QKD + Quantum internet (K_photon_comm)",
+  "Kao_Nobel_2009": "Optical fiber theory (Charles Kuen Kao, half with Boyle-Smith CCD)",
+  "fiber_history": {
+    "1980 SMF": {
+      "year": 1980,
+      "Gbps": 0.1
+    },
+    "1990 EDFA": {
+      "year": 1990,
+      "Gbps": 2.5
+    },
+    "2000 WDM": {
+      "year": 2000,
+      "Gbps": 10
+    },
+    "2010 coherent": {
+      "year": 2010,
+      "Gbps": 100
+    },
+    "2018 400G": {
+      "year": 2018,
+      "Gbps": 400
+    },
+    "2022 800G": {
+      "year": 2022,
+      "Gbps": 800
+    },
+    "2024 1.6T": {
+      "year": 2024,
+      "Gbps": 1600
+    },
+    "2024 NICT 402T": {
+      "year": 2024,
+      "Gbps": 402000
+    }
+  },
+  "NICT_record_2024_Tbps": 402,
+  "submarine_cable_total_km": 1300000.0,
+  "BB84_Bennett_Brassard_1984": {
+    "n_bits_simulated": 1000,
+    "matching_basis_pct": 50.5,
+    "QBER_threshold_secure": 0.11,
+    "Eve_full_QBER": 0.25
+  },
+  "QKD_companies_2024": {
+    "ID_Quantique": {
+      "distance_km": 100,
+      "rate_kbps": 100
+    },
+    "Toshiba": {
+      "distance_km": 600,
+      "rate_kbps": 1000
+    },
+    "QuantumCTek": {
+      "distance_km": 500,
+      "rate_kbps": 10
+    },
+    "MagiQ": {
+      "distance_km": 80,
+      "rate_kbps": 100
+    }
+  },
+  "Micius_2017_QKD_km": 1200,
+  "Beijing_Vienna_2018_km": 7600,
+  "China_Quantum_backbone": "2017 Beijing-Shanghai 2000 km; 2022 4600 km",
+  "Holevo_bound_1973": "Quantum channel capacity > classical capacity",
+  "quantum_internet_6_stages": {
+    "1. Trusted repeater": {
+      "status": "Commercial 2010+",
+      "year": 2010
+    },
+    "2. Prepare-and-measure": {
+      "status": "Partial",
+      "year": 2015
+    },
+    "3. Entanglement distribution": {
+      "status": "Micius 2017",
+      "year": 2017
+    },
+    "4. Quantum memory": {
+      "status": "In progress 2024",
+      "year": 2024
+    },
+    "5. Few-qubit fault tolerance": {
+      "status": "Target 2028",
+      "year": 2028
+    },
+    "6. Full quantum internet": {
+      "status": "Target 2035+",
+      "year": 2035
+    }
+  },
+  "Wehner_Elkouss_Hanson_2018": "Quantum internet stage roadmap",
+  "ITU_K_photon_comm": {
+    "N_messages": 10000,
+    "S_classical_uniform_nats": 9.21034037197618,
+    "S_quantum_QKD_targeted_nats": 0.16169482620698292,
+    "S_eve_intercepted_nats": 8.294258228132785,
+    "classical_to_quantum_ratio": 0.34615384615384615,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_photon_comm",
+    "modular_Hamiltonian": "K_photon_comm^(0) = -log P(message | channel)",
+    "BB84_meaning": "ITU-secure K-state transport via Heisenberg uncertainty",
+    "Holevo_bound_meaning": "Universal upper limit of K-state channel capacity",
+    "quantum_internet_meaning": "Global K-state network (Phase 14 Comm × Phase 3 Crypto)",
+    "Micius_significance": "Inter-continental K-state coherence"
+  },
+  "predictions": [
+    [
+      "Quantum repeater 1000+ km",
+      2030,
+      0.75,
+      "Strong"
+    ],
+    [
+      "Quantum internet 5 countries",
+      2035,
+      0.65,
+      "Medium"
+    ],
+    [
+      "PB-class fiber single pair",
+      2028,
+      0.8,
+      "Strong"
+    ],
+    [
+      "Quantum constellation 5+ satellites",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "QKD + PQC hybrid standard",
+      2028,
+      0.85,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "fiber_qkd_quantum_internet.png",
+    "summary_json": "fiber_qkd_quantum_internet_summary.json"
+  }
+}

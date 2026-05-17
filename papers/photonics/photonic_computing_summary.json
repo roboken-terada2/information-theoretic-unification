@@ -1,0 +1,150 @@
+{
+  "phase": 226,
+  "tier1_paper": 31,
+  "topic": "Photonic Computing + Silicon Photonics (K_photon_compute)",
+  "silicon_photonics_history": {
+    "Intel Si Mod 2004": {
+      "year": 2004,
+      "gbps": 1
+    },
+    "Lipson MZM 2006": {
+      "year": 2006,
+      "gbps": 10
+    },
+    "100G CWDM4 2018": {
+      "year": 2018,
+      "gbps": 100
+    },
+    "400G QSFP-DD 2020": {
+      "year": 2020,
+      "gbps": 400
+    },
+    "800G port 2022": {
+      "year": 2022,
+      "gbps": 800
+    },
+    "NVIDIA X800 (2025)": {
+      "year": 2025,
+      "gbps": 800
+    },
+    "Co-packaged 1.6T": {
+      "year": 2024,
+      "gbps": 1600
+    }
+  },
+  "current_2024_co_packaged_Tbps": 1.6,
+  "energy_per_op_J": {
+    "Photon (theoretical)": 1e-18,
+    "Photonic NN (2024)": 1e-16,
+    "Silicon photonics MAC": 1e-15,
+    "GPU FP16 MAC": 5e-13,
+    "CPU FP64 op": 1e-11,
+    "Brain synapse": 1e-15
+  },
+  "photonic_vs_GPU_energy_advantage": "~3 orders of magnitude (1 fJ vs 1 pJ)",
+  "boson_sampling_milestones": {
+    "Aaronson-Arkhipov theory": {
+      "year": 2010,
+      "photons": 0
+    },
+    "First experiment": {
+      "year": 2013,
+      "photons": 3
+    },
+    "Jiuzhang 1.0 (USTC)": {
+      "year": 2020,
+      "photons": 76
+    },
+    "Jiuzhang 2.0": {
+      "year": 2021,
+      "photons": 113
+    },
+    "Xanadu Borealis": {
+      "year": 2022,
+      "photons": 219
+    },
+    "Xanadu Aurora": {
+      "year": 2024,
+      "photons": 12000
+    }
+  },
+  "Jiuzhang_2.0_USTC_2021": "113 photons (quantum supremacy claim)",
+  "Xanadu_Aurora_2024": "12,000 photons (record)",
+  "KLM_scheme_2001": "Knill-Laflamme-Milburn linear optical QC",
+  "Aaronson_Arkhipov_2010": "Boson sampling theory (#P-hard classical)",
+  "QC_comparison": {
+    "Operating temperature (K)": {
+      "photonic": 300,
+      "superconducting": 0.02
+    },
+    "Coherence time (ms)": {
+      "photonic": 1000,
+      "superconducting": 0.1
+    },
+    "Gate fidelity (%)": {
+      "photonic": 99.0,
+      "superconducting": 99.9
+    },
+    "Connectivity": {
+      "photonic": "all-to-all (in principle)",
+      "superconducting": "neighbor"
+    },
+    "Scalability": {
+      "photonic": "manufacturing-limited",
+      "superconducting": "wiring-limited"
+    }
+  },
+  "ITU_K_photon_compute": {
+    "N_states": 5000,
+    "S_classical_nats": 8.512196615834274,
+    "S_photonic_NN_nats": 8.478285374400375,
+    "S_boson_sampling_nats": 8.311297788876452,
+    "classical_to_NN_ratio": 1.0000000000004854,
+    "classical_to_boson_ratio": 0.999999999998865,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_photon_compute",
+    "modular_Hamiltonian": "K_photon_compute^(0) = -log P(output | hardware, input)",
+    "photonic_NN_meaning": "ITU descent flow via optical matrix multiplication",
+    "boson_sampling_meaning": "Photonic K-state generates classically-hard distribution",
+    "energy_advantage": "Photon thermodynamic efficiency >> electronic",
+    "K_universe_connection": "K_photon + K_QC + K_semi merge in K_photon_compute"
+  },
+  "predictions": [
+    [
+      "Co-packaged optics 1.6T deployed",
+      2027,
+      0.85,
+      "Strong"
+    ],
+    [
+      "Photonic NN data center training",
+      2030,
+      0.65,
+      "Medium"
+    ],
+    [
+      "Photonic quantum advantage new task",
+      2027,
+      0.75,
+      "Strong"
+    ],
+    [
+      "Fault-tolerant photonic qubit",
+      2030,
+      0.55,
+      "Medium"
+    ],
+    [
+      "Photonic ASIC for LLM inference",
+      2028,
+      0.7,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "photonic_computing.png",
+    "summary_json": "photonic_computing_summary.json"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "phase": 221,
+  "tier1_paper": 31,
+  "topic": "Laser + Coherence + BEC (K_photon_coherence)",
+  "photon_statistics": {
+    "thermal_g2": 2.0,
+    "coherent_g2": 1.0,
+    "fock_g2_n10": 0.9,
+    "single_photon_g2": 0.0,
+    "thermal_std": 10.488088481701515,
+    "coherent_std": 3.1622776601683795
+  },
+  "laser_history": {
+    "Maser (Townes 1954)": {
+      "year": 1954,
+      "wavelength_nm": 12700000
+    },
+    "Ruby laser (Maiman 1960)": {
+      "year": 1960,
+      "wavelength_nm": 694
+    },
+    "He-Ne laser (1960)": {
+      "year": 1960,
+      "wavelength_nm": 632.8
+    },
+    "Semiconductor 1962": {
+      "year": 1962,
+      "wavelength_nm": 850
+    },
+    "Continuous DH 1970": {
+      "year": 1970,
+      "wavelength_nm": 850
+    },
+    "Blue InGaN (Nakamura 1996)": {
+      "year": 1996,
+      "wavelength_nm": 450
+    },
+    "Fiber laser": {
+      "year": 1985,
+      "wavelength_nm": 1064
+    },
+    "Petawatt CPA": {
+      "year": 2018,
+      "wavelength_nm": 800
+    }
+  },
+  "BEC_atoms": {
+    "H (atomic)": {
+      "T_c_nK": 50,
+      "year": 1998,
+      "lab": "MIT"
+    },
+    "Li-7": {
+      "T_c_nK": 100,
+      "year": 1995,
+      "lab": "Rice"
+    },
+    "Na-23": {
+      "T_c_nK": 200,
+      "year": 1995,
+      "lab": "MIT (Ketterle) ★"
+    },
+    "Rb-87": {
+      "T_c_nK": 170,
+      "year": 1995,
+      "lab": "JILA (Wieman-Cornell) ★"
+    },
+    "K-40": {
+      "T_c_nK": 100,
+      "year": 2001,
+      "lab": "JILA fermi"
+    },
+    "Sr-88": {
+      "T_c_nK": 1000,
+      "year": 2009,
+      "lab": "Innsbruck"
+    },
+    "Photon (Klaers-Weitz 2010)": {
+      "T_c_nK": 300000000000.0,
+      "year": 2010,
+      "lab": "Bonn"
+    }
+  },
+  "Wieman_Cornell_Ketterle_Nobel_2001": "Physics",
+  "Glauber_Hänsch_Hall_Nobel_2005": "Physics",
+  "Nakamura_blue_LED_laser_Nobel_2014": "Physics",
+  "Mourou_Strickland_CPA_Nobel_2018": "Physics",
+  "Klaers_Weitz_Photon_BEC_2010": "Bonn (Nature)",
+  "ITU_K_photon_coherence": {
+    "S_thermal_nats": 3.2425163159986257,
+    "S_coherent_nats": 2.5614099352550097,
+    "S_fock_10_nats": 4.78114424233485e-07,
+    "thermal_to_coherent_ratio": 1.0000000000000016,
+    "coherent_to_fock_ratio": 0.9999999999999999,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_photon_coherence",
+    "modular_Hamiltonian": "K_photon_coherence^(0) = -log P(photon dist | coherence)",
+    "laser_meaning": "ITU descent from thermal to coherent (Poisson) state",
+    "BEC_meaning": "Atomic K-state coherence (same ITU descent as laser)",
+    "Photon_BEC_2010": "K_photon and K_atom share ITU coherence descent",
+    "Glauber_coherent_state": "ITU canonical descent endpoint for bosonic field"
+  },
+  "predictions": [
+    [
+      "Room-temp atomic BEC practical",
+      2030,
+      0.55,
+      "Medium"
+    ],
+    [
+      "Atom interferometer GPS-free",
+      2028,
+      0.75,
+      "Strong"
+    ],
+    [
+      "Petawatt laser fusion application",
+      2030,
+      0.65,
+      "Medium"
+    ],
+    [
+      "Photon BEC computer",
+      2032,
+      0.45,
+      "Medium"
+    ],
+    [
+      "GHZ photon 100+ qubits",
+      2028,
+      0.7,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "laser_coherence_bec.png",
+    "summary_json": "laser_coherence_bec_summary.json"
+  }
+}

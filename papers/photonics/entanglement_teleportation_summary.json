@@ -1,0 +1,147 @@
+{
+  "phase": 222,
+  "tier1_paper": 31,
+  "topic": "Quantum entanglement + Bell + Teleportation (K_photon_entanglement)",
+  "EPR_1935": "Einstein-Podolsky-Rosen paradox",
+  "Schrodinger_entanglement_1935": "Verschränkung concept introduced",
+  "Bell_1964": "Bell's theorem - QM != local hidden variables",
+  "CHSH_1969": "Experimentally testable Bell inequality",
+  "Bell_test_history": {
+    "Clauser-Freedman (1972)": {
+      "S": 2.4,
+      "year": 1972,
+      "loophole_free": false
+    },
+    "Aspect 1 (1981)": {
+      "S": 2.7,
+      "year": 1981,
+      "loophole_free": false
+    },
+    "Aspect 2 (1982) ★": {
+      "S": 2.697,
+      "year": 1982,
+      "loophole_free": false
+    },
+    "Weihs (1998)": {
+      "S": 2.73,
+      "year": 1998,
+      "loophole_free": "locality"
+    },
+    "Hensen (2015) ★": {
+      "S": 2.42,
+      "year": 2015,
+      "loophole_free": "all"
+    },
+    "Cosmic Bell (Rauch 2018)": {
+      "S": 2.65,
+      "year": 2018,
+      "loophole_free": "cosmic"
+    }
+  },
+  "Nobel_2022_Physics": [
+    "Aspect",
+    "Clauser",
+    "Zeilinger"
+  ],
+  "entanglement_distance_record": {
+    "Lab (1972)": {
+      "km": 0.005,
+      "year": 1972
+    },
+    "1 km (1990s)": {
+      "km": 1.0,
+      "year": 1996
+    },
+    "North Sea (2005)": {
+      "km": 13,
+      "year": 2005
+    },
+    "Geneva (Vivoli)": {
+      "km": 51,
+      "year": 2007
+    },
+    "Canary Islands (Ma)": {
+      "km": 144,
+      "year": 2012
+    },
+    "Micius satellite (Pan)": {
+      "km": 1200,
+      "year": 2017
+    },
+    "Beijing-Vienna": {
+      "km": 7600,
+      "year": 2018
+    }
+  },
+  "Micius_satellite_2017": "Pan Jianwei, 1200 km satellite entanglement",
+  "GHZ_records": {
+    "3 (Bouwmeester 1999)": 3,
+    "5 (Walther 2005)": 5,
+    "8 (Lu 2007)": 8,
+    "10 (Wang 2016)": 10,
+    "12 (Pan 2019)": 12,
+    "18 (Zhong 2020)": 18,
+    "30+ (2024 photonic)": 30
+  },
+  "GHZ_Greenberger_Horne_Zeilinger_1989": "3-particle entanglement paradox",
+  "teleportation_milestones": {
+    "Bouwmeester 1997": 0.75,
+    "Furusawa 1998 (CV)": 0.62,
+    "Riebe 2004 (ions)": 0.8,
+    "Ren 2017 (satellite)": 0.83,
+    "Bao 2023 (3D state)": 0.92,
+    "Classical limit": 0.667
+  },
+  "Bouwmeester_1997_Nature": "First quantum teleportation experiment",
+  "singlet_entanglement_entropy_nats": 0.6931471805599453,
+  "ITU_K_photon_entanglement": {
+    "S_separable_4_state_nats": 1.3862943611198906,
+    "S_Bell_2_component_nats": 0.6931471805599453,
+    "S_GHZ_2_component_nats": 0.6931471805599453,
+    "separable_to_Bell_ratio": NaN,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_photon_entanglement",
+    "non_locality": "Bell violation = K-state non-local correlation",
+    "tensor_product_meaning": "K_photon_entanglement = K_photon ⊗ K_photon (non-separable)",
+    "ER_EPR_link": "Bell pair ≡ Einstein-Rosen bridge (Phase 179 Maldacena-Susskind)",
+    "K_universe_implication": "K-state are fundamentally non-local"
+  },
+  "predictions": [
+    [
+      "GHZ 50+ photonic qubits",
+      2028,
+      0.75,
+      "Strong"
+    ],
+    [
+      "National quantum internet",
+      2032,
+      0.65,
+      "Medium"
+    ],
+    [
+      "Loophole-free Bell @ 1000 km",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "Inter-satellite teleportation",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "CMB cosmic Bell test",
+      2032,
+      0.55,
+      "Medium"
+    ]
+  ],
+  "outputs": {
+    "figure": "entanglement_teleportation.png",
+    "summary_json": "entanglement_teleportation_summary.json"
+  }
+}

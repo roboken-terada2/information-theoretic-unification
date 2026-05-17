@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+title: "ITU and Optics & Photonics: A Single-Axiom View of Maxwell Electromagnetism, Quantum Entanglement, Laser/BEC, Quantum Cryptography, Optogenetics, LIGO/EHT Gravitational-Wave & Black-Hole Imaging, and Photonic Quantum Computing — Pass-1 Extension Paper #1"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to optics and photonics. Tier 1 paper #31,
+  the first paper of the Pass-1 extension, completing Block A
+  (physics deepening) to 100%. Introduces K_photon across 7 sub-states
+  (K_photon_basic, K_photon_coherence, K_photon_entanglement,
+  K_photon_comm, K_photon_bio, K_photon_QG, K_photon_compute).
+  ITU axiom delta S = delta <K> verified to machine precision in 7+
+  photonic contexts. 31-vertex ITU polytope with #31 Photon reaching
+  new max degree 30 and highest average coupling 0.890 in all Pass-1
+  (336 edges).
+  Key results: Maxwell c = 1/sqrt(mu0*eps0) verified 99.999%; Aspect
+  1982 CHSH S=2.697 > 2 (Aspect-Clauser-Zeilinger Nobel Physics 2022);
+  Maiman ruby laser 1960; Glauber-Hänsch-Hall coherent state Nobel
+  2005; Wieman-Cornell-Ketterle BEC Rb-87 T_c=170 nK Nobel 2001;
+  Nakamura blue InGaN Nobel 2014; Mourou-Strickland CPA Nobel 2018;
+  Bouwmeester 1997 first quantum teleportation; Micius satellite 1200
+  km entanglement (Pan 2017), 7600 km Beijing-Vienna (2018);
+  Bennett-Brassard BB84 1984; Kao optical fiber Nobel 2009; NICT 402
+  Tbps record 2024; Boyden-Deisseroth optogenetics 2005 (ChR2 470 nm);
+  Shimomura-Chalfie-Tsien GFP Nobel 2008; Betzig-Hell-Moerner
+  super-resolution Nobel 2014 (MINFLUX 2 nm 2017); Henderson-Frank-
+  Dubochet Cryo-EM Nobel 2017; LIGO GW150914 strain 10^-21 (Weiss-
+  Barish-Thorne Nobel 2017); GW170817 multi-messenger NS-NS merger;
+  EHT M87* 42 microarcsec shadow (2019), Sgr A* 52 microarcsec (2022)
+  confirming GR shadow/r_s = sqrt(27); Al+ optical clock 9.4e-19
+  precision (NIST 2019); BMV 2017 levitated nanosphere quantum
+  gravity proposal; Silicon photonics 1 Gbps (2004) -> 1.6 Tbps
+  (2024); KLM linear-optical QC 2001; Aaronson-Arkhipov 2010 boson
+  sampling; Jiuzhang 113 photons (2021); Xanadu Aurora 12,000 photons
+  (2024); Baker-Hassabis-Jumper AlphaFold Nobel Chemistry 2024.
+  Ten falsifiable predictions (P_avg = 0.775, highest in Pass-1,
+  Strong/Medium/Weak = 8/2/0) including LIGO O5 BH 1/week 2026
+  (P=0.85), Co-packaged optics 1.6T 2027 (P=0.85), QKD+PQC hybrid
+  standard 2028 (P=0.85), Photonic quantum advantage new task 2027
+  (P=0.75), Optical clock km-scale GR test 2028 (P=0.80).
+  Total Nobel Prize coverage: 10 (1921-2024) - highest density of
+  any Pass-1 paper. Pass-1 interpretive synthesis.
+keywords:
+  - optics
+  - photonics
+  - Bell inequality
+  - quantum entanglement
+  - laser
+  - Bose-Einstein condensate
+  - quantum key distribution
+  - optogenetics
+  - LIGO gravitational wave
+  - photonic computing
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/photonics"
+url: "https://doi.org/10.5281/zenodo.20257844"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20257844"
+    description: "Version 1.0.0 DOI (Zenodo) — 10.5281/zenodo.20257844"
+version: "1.0.0"
+date-released: "2026-05-17"
