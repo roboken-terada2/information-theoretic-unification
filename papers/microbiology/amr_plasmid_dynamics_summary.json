@@ -1,0 +1,156 @@
+{
+  "phase": 194,
+  "tier1_paper": 27,
+  "block": "B",
+  "topic": "AMR + plasmid + resistance mechanisms (K_resistance)",
+  "antibiotic_discovery_timeline": {
+    "decades": [
+      1940,
+      1950,
+      1960,
+      1970,
+      1980,
+      1990,
+      2000,
+      2010,
+      2020
+    ],
+    "new_classes_per_decade": [
+      5,
+      11,
+      13,
+      6,
+      3,
+      2,
+      0,
+      2,
+      1
+    ],
+    "trend": "Golden age 1950s-60s, void 2000s+"
+  },
+  "resistance_mechanisms_pct": {
+    "Drug degradation (β-lactamase)": 35,
+    "Drug modification (AAC/APH/ANT)": 18,
+    "Target alteration (PBP2a, VanA)": 25,
+    "Efflux pumps + porin loss": 22
+  },
+  "plasmid_Inc_groups": {
+    "IncF (CTX-M-15 ESBL)": {
+      "global_prevalence_pct": 40,
+      "host_range": "Enterobacteriaceae"
+    },
+    "IncH (NDM, KPC)": {
+      "global_prevalence_pct": 20,
+      "host_range": "Broad gram-neg"
+    },
+    "IncN (KPC)": {
+      "global_prevalence_pct": 10,
+      "host_range": "Enterobacteriaceae"
+    },
+    "IncP (multi-resistance)": {
+      "global_prevalence_pct": 8,
+      "host_range": "Very broad"
+    },
+    "ColE1 (mobilizable)": {
+      "global_prevalence_pct": 22,
+      "host_range": "Gram-neg"
+    }
+  },
+  "NDM_1_history": {
+    "discovery": "2008 New Delhi (Yong 2009 AAC)",
+    "spread": "1 country -> 80+ countries by 2024",
+    "type": "Class B metallo-β-lactamase, Zn-dependent",
+    "ESKAPE_member_carrying": [
+      "K. pneumoniae",
+      "A. baumannii",
+      "E. coli",
+      "P. aeruginosa"
+    ]
+  },
+  "conjugation_kinetics_simulation": {
+    "donor_initial_CFU": 1000000.0,
+    "recipient_initial_CFU": 100000000.0,
+    "transconjugant_24h_CFU": 9844775944.900272,
+    "transfer_efficiency": 98.44775944900272,
+    "Lederberg_year": 1946
+  },
+  "ESKAPE_pathogens_2024": {
+    "E. faecium (VRE)": {
+      "VRE_pct": 30,
+      "WHO_priority": "Medium"
+    },
+    "S. aureus (MRSA)": {
+      "MRSA_pct": 22,
+      "WHO_priority": "High"
+    },
+    "K. pneumoniae (CRE)": {
+      "CRE_pct": 15,
+      "WHO_priority": "Critical"
+    },
+    "A. baumannii (CRAB)": {
+      "CRAB_pct": 56,
+      "WHO_priority": "Critical"
+    },
+    "P. aeruginosa (CRPA)": {
+      "CRPA_pct": 25,
+      "WHO_priority": "Critical"
+    },
+    "Enterobacter (ESBL/CRE)": {
+      "ESBL_pct": 35,
+      "WHO_priority": "Critical"
+    }
+  },
+  "time_to_resistance_years": {
+    "Cefiderocol": 1,
+    "Linezolid": 1,
+    "Ciprofloxacin": 4,
+    "Vancomycin": 28,
+    "Penicillin": 2,
+    "trend": "acceleration: 28 -> 1 year over 50 years"
+  },
+  "NDM_global_spread_year_country_pairs": {
+    "2008": 1,
+    "2009": 2,
+    "2010": 5,
+    "2011": 15,
+    "2012": 25,
+    "2013": 40,
+    "2014": 50,
+    "2015": 55,
+    "2016": 60,
+    "2017": 65,
+    "2018": 68,
+    "2019": 70,
+    "2020": 72,
+    "2021": 75,
+    "2022": 78,
+    "2023": 80,
+    "2024": 82
+  },
+  "ITU_K_resistance": {
+    "N_strains": 5000,
+    "R_initial_pct": 0.1414763306365846,
+    "R_post_antibiotic_pct": 60.840740447414696,
+    "enrichment_factor": 430.04183225318815,
+    "S_pre_nats": 8.472109729976886,
+    "S_post_nats": 5.068374149074975,
+    "delta_S_first_order": -0.08100126131734564,
+    "delta_K_first_order": -0.08100126131734559,
+    "ratio_dS_over_dK": 1.0000000000000007,
+    "expected_ratio": 1.0
+  },
+  "AMR_mortality_2019_Murray_Lancet_per_year": 1270000.0,
+  "AMR_2050_projection_ONeill_per_year": 10000000.0,
+  "ITU_interpretation": {
+    "K_state": "K_resistance (sub-state of K_microbe)",
+    "modular_Hamiltonian": "K_resistance^(0) = -log P(resistant | exposure context)",
+    "selection_dynamics": "Antibiotic exposure → ITU descent into R-enriched repertoire",
+    "HGT_role": "Plasmid spread = K-state jumps between communities (fastest ITU mixing)",
+    "Cefiderocol_lesson": "Designer antibiotic, 1-year resistance = ITU rapid descent saturation",
+    "consequence": "AMR = accelerating ITU descent on global K_microbe manifold"
+  },
+  "outputs": {
+    "figure": "amr_plasmid_dynamics.png",
+    "summary_json": "amr_plasmid_dynamics_summary.json"
+  }
+}

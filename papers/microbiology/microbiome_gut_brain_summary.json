@@ -1,0 +1,140 @@
+{
+  "phase": 195,
+  "tier1_paper": 27,
+  "block": "B",
+  "topic": "Microbiome + gut-brain axis + FMT (K_microbiome)",
+  "human_microbiome_scale": {
+    "Bacterial cells": 38000000000000.0,
+    "Human cells": 30000000000000.0,
+    "Bacterial genes": 3500000.0,
+    "Human genes": 20000.0,
+    "Biomass (g)": 1800.0,
+    "ATP production (kcal/day)": 150.0,
+    "SCFA daily (mmol)": 550.0
+  },
+  "phylum_composition": {
+    "healthy_pct": {
+      "Firmicutes": 55,
+      "Bacteroidetes": 30,
+      "Actinobacteria": 8,
+      "Proteobacteria": 3,
+      "Verrucomicrobia": 2,
+      "Other": 2
+    },
+    "obese_pct": {
+      "Firmicutes": 65,
+      "Bacteroidetes": 18,
+      "Actinobacteria": 8,
+      "Proteobacteria": 5,
+      "Verrucomicrobia": 1,
+      "Other": 3
+    },
+    "UC_pct": {
+      "Firmicutes": 35,
+      "Bacteroidetes": 28,
+      "Actinobacteria": 5,
+      "Proteobacteria": 25,
+      "Verrucomicrobia": 1,
+      "Other": 6
+    },
+    "CD_pct": {
+      "Firmicutes": 42,
+      "Bacteroidetes": 18,
+      "Actinobacteria": 4,
+      "Proteobacteria": 28,
+      "Verrucomicrobia": 1,
+      "Other": 7
+    }
+  },
+  "F_B_ratios": {
+    "healthy": 1.8333333333333333,
+    "obese": 3.611111111111111,
+    "UC": 1.25,
+    "CD": 2.3333333333333335,
+    "note": "Walters 2014: F/B ratio is not a reliable single marker"
+  },
+  "SCFA_producers": {
+    "Faecalibacterium prausnitzii": 350,
+    "Roseburia intestinalis": 280,
+    "Eubacterium rectale": 250,
+    "Bacteroides fragilis": 180,
+    "Bifidobacterium": 90,
+    "Akkermansia muciniphila": 120
+  },
+  "SCFA_composition_pct": {
+    "Acetate (C2)": 60,
+    "Propionate (C3)": 25,
+    "Butyrate (C4)": 15
+  },
+  "SCFA_daily_production_mmol": 550,
+  "neurotransmitters_microbial": {
+    "GABA": {
+      "main_producer": "Lactobacillus / Bifidobacterium",
+      "function": "Inhibitory"
+    },
+    "Serotonin": {
+      "main_producer": "Enterochromaffin (microbe-induced)",
+      "function": "Mood/sleep; 90% in gut!"
+    },
+    "Dopamine": {
+      "main_producer": "Bacillus / Serratia",
+      "function": "Reward"
+    },
+    "Acetylcholine": {
+      "main_producer": "Lactobacillus",
+      "function": "Parasympathetic"
+    },
+    "Norepinephrine": {
+      "main_producer": "Bacillus",
+      "function": "Arousal"
+    },
+    "Histamine": {
+      "main_producer": "Lactobacillus / Morganella",
+      "function": "Immune/inflammation"
+    }
+  },
+  "FMT_efficacy_pct": {
+    "rCDI (recurrent C. diff)": 92,
+    "UC (ulcerative colitis)": 35,
+    "CD (Crohn's disease)": 25,
+    "IBS": 40,
+    "Autism (MTT protocol)": 50,
+    "Obesity": 15,
+    "Depression (pilot RCTs)": 30,
+    "Hepatic encephalopathy": 55
+  },
+  "FMT_FDA_approval": {
+    "Rebyota_2022": "C. difficile recurrence",
+    "Vowst_2023": "C. difficile recurrence (oral)"
+  },
+  "ITU_K_microbiome": {
+    "N_species": 1000,
+    "S_healthy_nats": 5.623552925947925,
+    "S_dysbiosis_nats": 5.795392591513455,
+    "S_FMT_nats": 5.762762239687373,
+    "healthy_to_dysbiosis": {
+      "dS": 1.656144629502014,
+      "dK": 1.6561446295020144,
+      "ratio": 0.9999999999999998
+    },
+    "dysbiosis_to_FMT": {
+      "dS": 1.153116001918724,
+      "dK": 1.153116001918725,
+      "ratio": 0.9999999999999992
+    },
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_microbiome (sub-state of K_microbe)",
+    "modular_Hamiltonian": "K_microbiome^(0) controls host-symbiont equilibria",
+    "dysbiosis": "ITU descent into wrong basin (perturbation-induced)",
+    "FMT_role": "Forced K-state reset by donor microbiome injection",
+    "gut_brain_axis": "K_microbiome coupled to K_brain via SCFA + neurotransmitters",
+    "Cryan_review_2019": "Gut-brain axis comprehensive review",
+    "key_FMT_paper": "van Nood 2013 NEJM (CDI cure 92%)"
+  },
+  "outputs": {
+    "figure": "microbiome_gut_brain.png",
+    "summary_json": "microbiome_gut_brain_summary.json"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "phase": 196,
+  "tier1_paper": 27,
+  "block": "B",
+  "topic": "Virus evolution + pandemic + zoonotic spillover (K_pandemic)",
+  "mutation_rates_per_bp_per_replication": {
+    "DNA repair host": 1e-09,
+    "Bacteria": 1e-09,
+    "DNA virus (Pox)": 1e-07,
+    "Retrovirus (HIV RT)": 1e-05,
+    "Influenza (RdRp)": 0.00015,
+    "Other RNA virus": 0.001,
+    "SARS-CoV-2 (nsp14 proof-reading)": 1e-06
+  },
+  "quasispecies_theory": {
+    "discoverer": "Manfred Eigen 1971",
+    "error_threshold_formula": "mu * L * (1 - 1/sigma) > 1",
+    "SARS-CoV-2_length_bp": 30000,
+    "drug_strategy": "Favipiravir increases mu past threshold -> error catastrophe"
+  },
+  "SARS_CoV_2_R0_variants": {
+    "Wild (R₀=2.5)": 2.5,
+    "Alpha (R₀=4.5)": 4.5,
+    "Delta (R₀=6)": 6.0,
+    "Omicron (R₀=9)": 9.0
+  },
+  "pandemic_mortality_M": {
+    "1918 H1N1": 50.0,
+    "HIV/AIDS (1981-)": 40.0,
+    "COVID-19 (2020-23 excess)": 24.0,
+    "1957 H2N2": 1.1,
+    "1968 H3N2": 1.0,
+    "2009 H1N1": 0.4,
+    "Ebola 2014-16": 0.011,
+    "SARS 2003": 0.0008,
+    "MERS 2012-": 0.001
+  },
+  "spillover_5_stages_Plowright_2017": {
+    "1. Reservoir\nabundance": 0.8,
+    "2. Pathogen\nprevalence": 0.3,
+    "3. Release\n(shedding)": 0.1,
+    "4. Exposure\n(contact)": 0.05,
+    "5. Susceptibility\n(barrier)": 0.01
+  },
+  "spillover_cumulative_probability": 1.2000000000000002e-05,
+  "herd_immunity_thresholds_pct": {
+    "Measles": 93.33333333333333,
+    "Pertussis": 92.3076923076923,
+    "SARS-CoV-2 Wild": 66.66666666666667,
+    "SARS-CoV-2 Omicron": 88.88888888888889,
+    "Smallpox": 81.81818181818181,
+    "Flu seasonal": 23.076923076923084,
+    "Polio": 83.33333333333334,
+    "Ebola": 44.44444444444444
+  },
+  "ITU_K_pandemic_axiom": {
+    "N_variants": 10000,
+    "S_animal_reservoir_nats": 7.980120221866121,
+    "S_human_adapted_nats": 6.362466122519376,
+    "delta_S": -1.617654099346745,
+    "delta_S_first_order": 4.408583688191042,
+    "delta_K_first_order": 4.408583688191042,
+    "ratio_dS_over_dK": 1.0,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_pandemic (sub-state of K_microbe)",
+    "modular_Hamiltonian": "K_pandemic^(0) = -log P(virus state | host, environment)",
+    "spillover_meaning": "ITU K-state inter-species jump (Plowright cascade)",
+    "Quasispecies_role": "Cloud of variants samples K-state manifold",
+    "Disease_X_concept": "WHO 2018: unknown next pandemic = K_pandemic dark zero set",
+    "One_Health_view": "K_human ⊗ K_animal ⊗ K_environment integrated",
+    "COVID_excess_deaths": "WHO 2023: 18-30 million globally"
+  },
+  "predictions": [
+    [
+      "Next major pandemic (CFR>0.5%)",
+      2030,
+      0.55,
+      "Medium"
+    ],
+    [
+      "WHO Pandemic Treaty in force",
+      2028,
+      0.65,
+      "Medium"
+    ],
+    [
+      "Universal coronavirus vaccine",
+      2028,
+      0.7,
+      "Strong"
+    ],
+    [
+      "Disease X AI early detection system",
+      2030,
+      0.75,
+      "Strong"
+    ],
+    [
+      "Spillover prediction model accuracy >80%",
+      2032,
+      0.5,
+      "Medium"
+    ]
+  ],
+  "outputs": {
+    "figure": "pandemic_spillover.png",
+    "summary_json": "pandemic_spillover_summary.json"
+  }
+}

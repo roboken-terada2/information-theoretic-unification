@@ -1,0 +1,143 @@
+{
+  "phase": 197,
+  "tier1_paper": 27,
+  "block": "B",
+  "topic": "Metabolism + symbiosis + extremophiles (K_metabolism + K_extremophile)",
+  "metabolic_types_6": {
+    "Photoautotroph": {
+      "C_src": "CO2",
+      "E_src": "Light",
+      "ATP_yield": 38
+    },
+    "Chemolithoautotroph": {
+      "C_src": "CO2",
+      "E_src": "Inorganic chemistry",
+      "ATP_yield": 2
+    },
+    "Chemoheterotroph": {
+      "C_src": "Organic",
+      "E_src": "Organic",
+      "ATP_yield": 38
+    },
+    "Photoheterotroph": {
+      "C_src": "Organic",
+      "E_src": "Light",
+      "ATP_yield": 20
+    },
+    "Mixotroph": {
+      "C_src": "Both",
+      "E_src": "Both",
+      "ATP_yield": 30
+    },
+    "Diazotroph": {
+      "C_src": "CO2 or Organic",
+      "E_src": "Varied",
+      "ATP_yield": -16
+    }
+  },
+  "fermentation_ATP_yields": {
+    "Lactate (Lactobacillus)": 2,
+    "Ethanol (Yeast)": 2,
+    "Acetate (Acetobacter)": 3,
+    "Butyrate (Clostridium)": 2.5,
+    "Methane (Methanogens)": 0.5,
+    "Mixed acid (E. coli)": 2.5
+  },
+  "anaerobic_electron_acceptors_mV": {
+    "O2 -> H2O": 820,
+    "NO3- -> N2": 740,
+    "Mn4+ -> Mn2+": 500,
+    "Fe3+ -> Fe2+": 200,
+    "SO4 -> H2S": -220,
+    "CO2 -> CH4": -240
+  },
+  "endosymbiotic_DNA_bp": {
+    "α-Proteobacteria (free)": 4000000.0,
+    "Cyanobacteria (free)": 3500000.0,
+    "Mitochondria (human)": 16569,
+    "Mitochondria (plant)": 367000,
+    "Chloroplast (Arabidopsis)": 154478,
+    "Cyanelle (Glaucocystis)": 135000
+  },
+  "endosymbiotic_theory_Margulis_1970": {
+    "mitochondria_origin": "alpha-Proteobacteria (Rickettsia-like)",
+    "chloroplast_origin": "Cyanobacteria",
+    "evidence": [
+      "double membrane",
+      "circular DNA",
+      "70S ribosomes",
+      "antibiotic susceptibility",
+      "binary fission"
+    ]
+  },
+  "extremophiles": {
+    "Methanopyrus kandleri": {
+      "temp_C": 122,
+      "category": "Thermophile"
+    },
+    "Picrophilus oshimae": {
+      "pH": 0.0,
+      "category": "Acidophile"
+    },
+    "Natranaerobius": {
+      "pH": 12.0,
+      "category": "Alkalophile"
+    },
+    "Halobacterium": {
+      "salt_pct": 30,
+      "category": "Halophile"
+    },
+    "Pyrococcus yayanosii": {
+      "pressure_MPa": 110,
+      "category": "Piezophile"
+    },
+    "Deinococcus radiodurans": {
+      "radiation_Gy": 5000,
+      "category": "Radioresistant"
+    },
+    "Polaromonas": {
+      "temp_C": -25,
+      "category": "Psychrophile"
+    }
+  },
+  "life_temperature_upper_limit_C": 122,
+  "life_pH_range": "0 to 12",
+  "radiation_LD50_Gy": {
+    "Human": 5,
+    "E. coli": 200,
+    "Yeast": 400,
+    "Tardigrade": 1000,
+    "Bacillus spore": 3000,
+    "Deinococcus radiodurans": 5000
+  },
+  "Deinococcus_vs_human_radiation_fold": 1000,
+  "N_fixation_Tg_N_per_year": {
+    "Marine cyanobacteria (Trichodesmium)": 100.0,
+    "Free-living soil (Azotobacter etc.)": 30.0,
+    "Symbiotic legume (Rhizobium)": 50.0,
+    "Lightning (atmospheric)": 10.0,
+    "Industrial Haber-Bosch": 120.0
+  },
+  "N_fixation_total_biological": 190.0,
+  "ITU_K_metabolism": {
+    "N_states": 2000,
+    "S_aerobic_nats": 6.456036040013839,
+    "S_anaerobic_nats": 6.457696505962348,
+    "delta_S": 0.0016604659485093265,
+    "delta_S_first_order": 0.0030271585861369106,
+    "delta_K_first_order": 0.00302715858613701,
+    "ratio_dS_over_dK": 0.9999999999999671,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_metabolism + K_extremophile (sub-states of K_microbe)",
+    "modular_Hamiltonian": "K_metabolism^(0) = -log P(pathway | environment)",
+    "endosymbiosis": "ITU K-state fusion operator (Margulis 1970)",
+    "extremophile_meaning": "K-state stability under extreme environments",
+    "metabolic_shift": "Aerobic <-> anaerobic = ITU descent between K-state basins"
+  },
+  "outputs": {
+    "figure": "metabolism_symbiosis_extremophiles.png",
+    "summary_json": "metabolism_symbiosis_extremophiles_summary.json"
+  }
+}

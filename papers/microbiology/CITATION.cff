@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+title: "ITU and Microbiology: A Single-Axiom View of Bacteria, Archaea, Viruses, Phylogeny, CRISPR, AMR, Microbiome, Pandemics, and Extremophiles — Block B 2/?"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to microbiology. Tier 1 paper #27,
+  second of Block B (Life Sciences Deepening). Introduces K_microbe
+  across 8 sub-states (K_phylogeny, K_phage, K_resistance,
+  K_microbiome, K_pandemic, K_metabolism, K_extremophile, K_HGT).
+  Pass-1 progress: 198/220 phases (90.0%) — major threshold crossed.
+  ITU axiom delta S = delta <K> verified to machine precision in 7+
+  microbiological contexts including antibiotic selection,
+  phylogenetic evolution across 4 generations, phage-host
+  bidirectional coevolution, AMR R-strain 430x enrichment, microbiome
+  dysbiosis and FMT recovery, zoonotic spillover, and metabolic shift.
+  27-vertex ITU polytope with #26 Immune + #27 Microbe forming
+  dual hub at max degree 26 (222 edges). Key numerical results: Earth
+  bacteria 5e30 (Whitman 1998); LUCA 354 conserved genes (Weiss 2016
+  Nat Microbiol); Doudna-Charpentier CRISPR Nobel 2020; NDM-1
+  spread from 1 country (2008) to 80+ (2024); Cefiderocol 1-year
+  resistance; AMR mortality 1.27M/yr (2019) projected to 10M/yr
+  (2050; Murray 2022 Lancet, O'Neill 2014); microbial:human cell
+  ratio 1.27:1 (Sender 2016 Cell); FMT rCDI cure 92% (van Nood 2013
+  NEJM); SARS-CoV-2 R0 2.5 (wild) to 9 (Omicron); COVID-19 excess
+  mortality 24M (WHO 2023); D. radiodurans LD50 5000 Gy (1000x
+  human tolerance); life temperature upper limit 122 C (Takai 2008).
+  Ten falsifiable predictions (P_avg = 0.635, Strong/Medium/Weak =
+  4/5/1) including phage therapy FDA approval 2028 (P=0.75), AI
+  antibiotic clinical 2030 (P=0.70), universal FMT bank 2028
+  (P=0.75), Disease X AI early detection 2030 (P=0.75). Pass-1
+  interpretive synthesis.
+keywords:
+  - microbiology
+  - bacteriophage
+  - CRISPR
+  - antibiotic resistance
+  - microbiome
+  - gut-brain axis
+  - fecal microbiota transplantation
+  - pandemic
+  - zoonotic spillover
+  - extremophile
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/microbiology"
+url: "https://doi.org/10.5281/zenodo.20256555"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20256555"
+    description: "Version 1.0.0 DOI (Zenodo) — 10.5281/zenodo.20256555"
+version: "1.0.0"
+date-released: "2026-05-17"

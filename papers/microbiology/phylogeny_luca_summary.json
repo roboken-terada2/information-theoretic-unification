@@ -1,0 +1,148 @@
+{
+  "phase": 192,
+  "tier1_paper": 27,
+  "block": "B",
+  "topic": "Phylogeny + 16S rRNA + LUCA + Tree of Life (K_phylogeny)",
+  "Woese_1977_3_domains": "Bacteria + Archaea + Eukarya based on 16S/18S rRNA",
+  "phyla_per_domain_GTDB_2020": {
+    "Bacteria": 92,
+    "Archaea": 26,
+    "Eukarya": 30
+  },
+  "16S_rRNA": {
+    "length_bp": 1500,
+    "evolutionary_rate_per_position_per_Myr": 0.0002,
+    "molecular_clock_calibrations": {
+      "Human-chimp split": {
+        "Myr_ago": 6,
+        "divergence_pct": 1.0
+      },
+      "Mammalian radiation": {
+        "Myr_ago": 100,
+        "divergence_pct": 5.0
+      },
+      "Cambrian explosion": {
+        "Myr_ago": 540,
+        "divergence_pct": 12.0
+      },
+      "Eukaryotic LCA": {
+        "Myr_ago": 1800,
+        "divergence_pct": 25.0
+      },
+      "Bacteria-Archaea split": {
+        "Myr_ago": 3500,
+        "divergence_pct": 40.0
+      },
+      "LUCA": {
+        "Myr_ago": 4000,
+        "divergence_pct": 50.0
+      }
+    }
+  },
+  "LUCA": {
+    "age_Ga": 4.0,
+    "habitat": "Deep-sea alkaline serpentinization vents (Lost City-like)",
+    "metabolism": "H2 + CO2 -> reductive acetyl CoA, anaerobic autotroph",
+    "conserved_genes_354": {
+      "Translation (ribosome)": 60,
+      "Replication/repair": 35,
+      "Energy metabolism": 45,
+      "Membrane transport": 28,
+      "Amino acid metabolism": 50,
+      "Cofactor biosynthesis": 30,
+      "Nucleotide metabolism": 25,
+      "Carbon fixation": 25,
+      "Other": 56
+    },
+    "reference": "Weiss 2016 Nat Microbiol"
+  },
+  "deep_time_events_Ma": {
+    "Earth formation": 4540,
+    "LUCA": 4000,
+    "Photosynthesis (cyanobacteria)": 2400,
+    "Great Oxygenation Event": 2300,
+    "Eukaryotic cell": 1800,
+    "Multicellularity": 1200,
+    "Cambrian explosion": 540,
+    "Land plants": 470,
+    "Dinosaur extinction": 65,
+    "Human-chimp split": 6,
+    "Homo sapiens": 0.3
+  },
+  "HGT_contribution": {
+    "early_evolution_Ga4": 0.7,
+    "present_day": 0.1,
+    "reference": "Doolittle 2000 Science"
+  },
+  "ITU_K_phylogeny_simulation": {
+    "N_lineages": 200,
+    "generations": 10000,
+    "mutation_rate": 0.001,
+    "S_initial_nats": 5.183635538397277,
+    "S_final_nats": 5.295737139743914,
+    "K_initial_nats": 5.183635538397277,
+    "K_final_nats": 5.295737139743914,
+    "ITU_axiom_ratios_per_sample_gen": [
+      {
+        "generation": 100,
+        "ratio": 0.999999999999999
+      },
+      {
+        "generation": 500,
+        "ratio": 1.0000000000000278
+      },
+      {
+        "generation": 1000,
+        "ratio": 0.9999999999999272
+      },
+      {
+        "generation": 5000,
+        "ratio": 1.0000000000000084
+      }
+    ]
+  },
+  "ITU_interpretation": {
+    "K_state": "K_phylogeny (sub-state of K_microbe)",
+    "modular_Hamiltonian": "K_phylogeny^(0) = -log P(species | environment, time)",
+    "LUCA": "Origin of K_phylogeny manifold (singularity)",
+    "tree_of_life": "K_phylogeny descent flow trajectory in genotype-time space",
+    "HGT": "ITU K-state mixing operation between lineages (dominant in early evolution)",
+    "molecular_clock": "K_phylogeny^(0)(t) - K_phylogeny^(0)(0) = mu * Delta_t * N"
+  },
+  "predictions_phase_192": [
+    [
+      "LUCA genome in silico reconstruction",
+      2030,
+      0.55,
+      "Medium"
+    ],
+    [
+      "Asgardarchaea-eukaryote direct ancestry confirmed",
+      2028,
+      0.65,
+      "Medium"
+    ],
+    [
+      "Cryosphere microbial dark matter major phyla",
+      2030,
+      0.6,
+      "Medium"
+    ],
+    [
+      "CPR cell culture established",
+      2028,
+      0.5,
+      "Medium"
+    ],
+    [
+      "Marine OTU count > 1 million confirmed",
+      2030,
+      0.7,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "phylogeny_luca.png",
+    "summary_json": "phylogeny_luca_summary.json"
+  }
+}
