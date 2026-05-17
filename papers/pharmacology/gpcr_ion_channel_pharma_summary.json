@@ -1,0 +1,216 @@
+{
+  "phase": 229,
+  "tier1_paper": 32,
+  "topic": "GPCR + Ion channel + Structural pharmacology (K_pharma_target)",
+  "GPCR_classes": {
+    "Class A (rhodopsin-like)": 640,
+    "Class B (secretin)": 33,
+    "Class C (glutamate)": 22,
+    "Class F (frizzled)": 11,
+    "Adhesion": 33,
+    "Taste/Olfactory": 61
+  },
+  "GPCR_total_human": 800,
+  "Lefkowitz_Kobilka_Nobel_2012": "β2-AR + Gs complex structure",
+  "GPCR_crystallized_2024": "200+ (of 800)",
+  "ion_channel_drugs": {
+    "Lidocaine (Nav)": {
+      "channel": "Nav",
+      "use": "Local anesthetic"
+    },
+    "Carbamazepine (Nav)": {
+      "channel": "Nav",
+      "use": "Antiepileptic"
+    },
+    "Amiodarone (Kv)": {
+      "channel": "Kv",
+      "use": "Antiarrhythmic"
+    },
+    "Amlodipine (Cav L)": {
+      "channel": "Cav",
+      "use": "Hypertension"
+    },
+    "Verapamil (Cav L)": {
+      "channel": "Cav",
+      "use": "Arrhythmia"
+    },
+    "Ziconotide (Cav N)": {
+      "channel": "Cav",
+      "use": "Chronic pain"
+    },
+    "Diazepam (GABA-A)": {
+      "channel": "GABA",
+      "use": "Anxiety"
+    },
+    "Varenicline (nAChR)": {
+      "channel": "nAChR",
+      "use": "Smoking cessation"
+    },
+    "Capsaicin (TRPV1)": {
+      "channel": "TRP",
+      "use": "Pain (topical)"
+    }
+  },
+  "MacKinnon_Nobel_2003": "KcsA K+ channel + selectivity filter",
+  "K_Na_selectivity_ratio": 10000.0,
+  "GLP1_evolution": {
+    "Exenatide (2005)": {
+      "weight_loss_pct": 4,
+      "year": 2005
+    },
+    "Liraglutide (Saxenda)": {
+      "weight_loss_pct": 6,
+      "year": 2014
+    },
+    "Semaglutide (Ozempic)": {
+      "weight_loss_pct": 12,
+      "year": 2017
+    },
+    "Semaglutide (Wegovy)": {
+      "weight_loss_pct": 15,
+      "year": 2021
+    },
+    "Tirzepatide (Mounjaro)": {
+      "weight_loss_pct": 22,
+      "year": 2022
+    },
+    "Retatrutide (trial)": {
+      "weight_loss_pct": 24,
+      "year": 2024
+    }
+  },
+  "GLP1_max_weight_loss_pct_2024": 24,
+  "kinase_inhibitors_2001_2024": {
+    "Imatinib (Gleevec)": {
+      "year": 2001,
+      "target": "BCR-ABL",
+      "cancer": "CML"
+    },
+    "Erlotinib": {
+      "year": 2004,
+      "target": "EGFR",
+      "cancer": "NSCLC"
+    },
+    "Sunitinib": {
+      "year": 2006,
+      "target": "VEGFR",
+      "cancer": "RCC"
+    },
+    "Crizotinib": {
+      "year": 2011,
+      "target": "ALK",
+      "cancer": "NSCLC"
+    },
+    "Vemurafenib": {
+      "year": 2011,
+      "target": "BRAF",
+      "cancer": "Melanoma"
+    },
+    "Ibrutinib": {
+      "year": 2013,
+      "target": "BTK",
+      "cancer": "CLL"
+    },
+    "Palbociclib": {
+      "year": 2015,
+      "target": "CDK4/6",
+      "cancer": "Breast"
+    },
+    "Osimertinib": {
+      "year": 2015,
+      "target": "EGFR T790M",
+      "cancer": "NSCLC"
+    },
+    "Alpelisib": {
+      "year": 2019,
+      "target": "PI3Kα",
+      "cancer": "Breast"
+    },
+    "Sotorasib": {
+      "year": 2021,
+      "target": "KRAS G12C",
+      "cancer": "NSCLC"
+    }
+  },
+  "Imatinib_2001_first_targeted_therapy": "CML 5y survival 5% -> 90%",
+  "agonist_types": {
+    "Full agonist (balanced)": {
+      "G_protein": 1.0,
+      "beta_arrestin": 1.0
+    },
+    "Partial agonist": {
+      "G_protein": 0.5,
+      "beta_arrestin": 0.5
+    },
+    "G-biased (TRV130 oliceridine)": {
+      "G_protein": 0.8,
+      "beta_arrestin": 0.1
+    },
+    "β-arrestin biased": {
+      "G_protein": 0.1,
+      "beta_arrestin": 0.8
+    },
+    "Antagonist": {
+      "G_protein": 0.0,
+      "beta_arrestin": 0.0
+    },
+    "Inverse agonist": {
+      "G_protein": -0.3,
+      "beta_arrestin": -0.3
+    }
+  },
+  "biased_agonism_first_clinical": "TRV130 oliceridine FDA 2020",
+  "ITU_K_pharma_target": {
+    "N_pathways": 2000,
+    "S_apo_nats": 7.5961870629235335,
+    "S_full_agonist_nats": 6.5887643942392735,
+    "S_biased_agonist_nats": 5.957143280403343,
+    "apo_to_full_ratio": 1.0,
+    "apo_to_biased_ratio": 1.000000000000319,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_pharma_target",
+    "modular_Hamiltonian": "K_pharma_target^(0) = -log P(downstream | binding mode)",
+    "biased_agonism_meaning": "Drug selects which K-state to activate (precision)",
+    "GLP1_meaning": "Single GPCR + 24% weight loss = ITU K-state powerful operator",
+    "Imatinib_meaning": "Targeted kinase inhibition = K-state cancer reversal",
+    "allosteric_meaning": "Modulator at non-orthosteric site (selectivity advantage)"
+  },
+  "predictions": [
+    [
+      "All 800 GPCR cryo-EM structures",
+      2028,
+      0.8,
+      "Strong"
+    ],
+    [
+      "GLP-1 5+ adaptations (CV/AD/addiction)",
+      2030,
+      0.85,
+      "Strong"
+    ],
+    [
+      "Allosteric drug 10+ new FDA approvals",
+      2030,
+      0.75,
+      "Strong"
+    ],
+    [
+      "Biased agonist mainstream class",
+      2028,
+      0.7,
+      "Strong"
+    ],
+    [
+      "AI-designed allosteric drugs",
+      2028,
+      0.75,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "gpcr_ion_channel_pharma.png",
+    "summary_json": "gpcr_ion_channel_pharma_summary.json"
+  }
+}

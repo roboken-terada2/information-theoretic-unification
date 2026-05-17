@@ -1,0 +1,157 @@
+{
+  "phase": 228,
+  "tier1_paper": 32,
+  "block": "B_residual",
+  "topic": "Drug discovery + Pharmacology + K_pharma introduction",
+  "milestone": "Pass-1 extension paper #2 (Block B residual)",
+  "drug_pipeline": {
+    "Target ID": {
+      "years": 1.5,
+      "success_to_next": 0.5
+    },
+    "Hit discovery": {
+      "years": 1.5,
+      "success_to_next": 0.5
+    },
+    "Lead optimization": {
+      "years": 2.0,
+      "success_to_next": 0.25
+    },
+    "Preclinical": {
+      "years": 1.5,
+      "success_to_next": 0.65
+    },
+    "Phase I": {
+      "years": 1.5,
+      "success_to_next": 0.63
+    },
+    "Phase II": {
+      "years": 2.5,
+      "success_to_next": 0.3
+    },
+    "Phase III": {
+      "years": 2.5,
+      "success_to_next": 0.58
+    },
+    "FDA review": {
+      "years": 1.0,
+      "success_to_next": 0.85
+    }
+  },
+  "total_years_avg": 14.0,
+  "overall_success_rate_pct": 0.3785315625,
+  "DiMasi_2016_cost_USD": 2600000000.0,
+  "receptor_targets": {
+    "GPCR": {
+      "human_count": 800,
+      "drug_targets_pct": 33
+    },
+    "Kinase (RTK)": {
+      "human_count": 518,
+      "drug_targets_pct": 20
+    },
+    "Ion channel": {
+      "human_count": 400,
+      "drug_targets_pct": 18
+    },
+    "Nuclear receptor": {
+      "human_count": 48,
+      "drug_targets_pct": 10
+    },
+    "Cytokine receptor": {
+      "human_count": 50,
+      "drug_targets_pct": 5
+    },
+    "Other": {
+      "human_count": 100,
+      "drug_targets_pct": 14
+    }
+  },
+  "Lefkowitz_Kobilka_Nobel_2012": "GPCR structural pharmacology (β2-AR)",
+  "GPCR_count_human": 800,
+  "GPCR_drug_target_pct": 33,
+  "top_selling_2024": {
+    "Keytruda (Merck, PD-1)": {
+      "sales_B": 25.0,
+      "class": "Biologic"
+    },
+    "Eliquis (BMS-Pfizer, FXa)": {
+      "sales_B": 13.0,
+      "class": "Small mol"
+    },
+    "Humira (AbbVie, TNF-a)": {
+      "sales_B": 8.5,
+      "class": "Biologic"
+    },
+    "Skyrizi (AbbVie, IL-23)": {
+      "sales_B": 11.7,
+      "class": "Biologic"
+    },
+    "Stelara (J&J, IL-12/23)": {
+      "sales_B": 10.5,
+      "class": "Biologic"
+    },
+    "Ozempic (Novo Nordisk)": {
+      "sales_B": 14.0,
+      "class": "Peptide"
+    },
+    "Trulicity (Lilly, GLP-1)": {
+      "sales_B": 7.1,
+      "class": "Peptide"
+    },
+    "Mounjaro (Lilly, GIP/GLP)": {
+      "sales_B": 11.5,
+      "class": "Peptide"
+    },
+    "Rinvoq (AbbVie, JAK)": {
+      "sales_B": 5.7,
+      "class": "Small mol"
+    },
+    "Imbruvica (J&J/AbbVie, BTK)": {
+      "sales_B": 3.5,
+      "class": "Small mol"
+    }
+  },
+  "Keytruda_2024_sales_B": 25.0,
+  "Imatinib_2001_CML_revolution": {
+    "5y_survival_pre": 5,
+    "5y_survival_post": 90,
+    "discoverer": "Brian Druker (OHSU) + Novartis"
+  },
+  "Lipinski_rule_of_5": {
+    "MW_lt": 500,
+    "logP_lt": 5,
+    "HB_donor_le": 5,
+    "HB_acceptor_le": 10,
+    "test_compounds": 1000,
+    "pass_pct": 75.4
+  },
+  "ITU_K_pharma": {
+    "N_states": 3000,
+    "S_disease_nats": 6.226841273246841,
+    "S_treated_nats": 6.22684127324684,
+    "S_side_effect_nats": 6.206804414657081,
+    "disease_to_treated_ratio": 1.0,
+    "disease_to_side_ratio": 0.9999999999999997,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_pharma",
+    "sub_states": [
+      "K_pharma_target (GPCR/kinase/channel/nuclear)",
+      "K_pharma_PK (ADME, t1/2, Vd, Cl)",
+      "K_pharma_PD (efficacy, side effects)",
+      "K_pharma_biologic (Ab, ADC, peptide)",
+      "K_pharma_small_mol (Lipinski space)",
+      "K_pharma_pharmacogenomic (CYP, personalized)",
+      "K_pharma_AI (AlphaFold + computational design)",
+      "K_pharma_regulatory (FDA, Phase I-III)"
+    ],
+    "axiom": "delta S(rho_patient) = delta Tr[K_pharma^(0) rho_patient]",
+    "drug_as_operator": "Small mol = K_genome local control; Ab = K_immune enhancer; mRNA = K_immune trainer"
+  },
+  "outputs": {
+    "figure": "drug_discovery_K_pharma.png",
+    "summary_json": "drug_discovery_K_pharma_summary.json"
+  }
+}

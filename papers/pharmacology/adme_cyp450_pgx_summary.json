@@ -1,0 +1,124 @@
+{
+  "phase": 230,
+  "tier1_paper": 32,
+  "topic": "ADME + CYP450 + Pharmacogenomics (K_pharma_PK)",
+  "PK_parameters": {
+    "F_bioavailability": 0.8,
+    "Ka": 2.0,
+    "Ke": 0.1,
+    "Vd_L": 30,
+    "t_half_hr": 6.931471805599452,
+    "Cmax": 2.277665991903751,
+    "AUC": 24.11370904214441
+  },
+  "CYP_drug_coverage": {
+    "CYP3A4": 50,
+    "CYP2D6": 25,
+    "CYP2C9": 15,
+    "CYP2C19": 10,
+    "CYP1A2": 5,
+    "CYP2E1": 4,
+    "CYP2B6": 3,
+    "Other": 3
+  },
+  "CYP3A4_pct_of_all_drugs": 50,
+  "DDI_grapefruit_simvastatin": {
+    "Simvastatin alone": 1.0,
+    "+ Grapefruit (250 mL)": 3.0,
+    "+ Itraconazole": 19.0,
+    "+ Erythromycin": 6.0,
+    "+ Rifampin (CYP3A induce)": 0.1
+  },
+  "CYP2D6_phenotypes": {
+    "Poor Metabolizer (PM)": {
+      "freq_pct": 7,
+      "metab_rate": 0.1
+    },
+    "Intermediate Metabolizer (IM)": {
+      "freq_pct": 23,
+      "metab_rate": 0.6
+    },
+    "Extensive Metabolizer (EM)": {
+      "freq_pct": 65,
+      "metab_rate": 1.0
+    },
+    "Ultra-rapid Metabolizer (UM)": {
+      "freq_pct": 5,
+      "metab_rate": 2.5
+    }
+  },
+  "HLA_B5701_population_freq_pct": {
+    "Caucasian": 6,
+    "African": 1,
+    "Asian": 0.5,
+    "Hispanic": 4
+  },
+  "CPIC_gene_drug_pairs": 100,
+  "PGx_examples": {
+    "CYP2C19_clopidogrel": "PM = no activation, increased CV events",
+    "TPMT_thiopurine": "PM = severe myelosuppression",
+    "HLA_B5701_abacavir": "Carrier = severe hypersensitivity",
+    "HLA_B1502_carbamazepine": "Asian carrier = SJS/TEN risk",
+    "DPYD_5FU": "Variant = severe toxicity"
+  },
+  "warfarin_dosing_mg_per_week": {
+    "VKORC1 GG\nCYP2C9 *1/*1": 49,
+    "VKORC1 GA\nCYP2C9 *1/*2": 35,
+    "VKORC1 GA\nCYP2C9 *1/*3": 25,
+    "VKORC1 AA\nCYP2C9 *2/*3": 14
+  },
+  "annual_US_ADR_deaths": 100000,
+  "PGx_potential_reduction_pct": 30,
+  "ITU_K_pharma_PK": {
+    "N_concentrations": 2000,
+    "S_pre_drug_nats": 7.596034857525034,
+    "S_EM_normal_nats": 6.226841273246834,
+    "S_PM_accumulated_nats": 6.388008586104156,
+    "pre_to_EM_ratio": 1.000000000000029,
+    "EM_to_PM_ratio": 1.0,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_pharma_PK",
+    "modular_Hamiltonian": "K_pharma_PK^(0) = -log P(drug conc | genome, dose, time)",
+    "PGx_meaning": "Personalized dosing via K_genome (CYP, HLA, VKORC1)",
+    "DDI_meaning": "K-state interference: one drug modulates another's K_pharma_PK",
+    "CYP3A4_central": "50% drugs share single metabolic K-state operator"
+  },
+  "predictions": [
+    [
+      "All hospitals PGx routine testing",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "Annual ADR deaths 50% reduction",
+      2032,
+      0.65,
+      "Medium"
+    ],
+    [
+      "All 1B humans genotyped",
+      2035,
+      0.55,
+      "Medium"
+    ],
+    [
+      "PGx algorithms for 50+ drugs",
+      2028,
+      0.8,
+      "Strong"
+    ],
+    [
+      "Universal newborn PGx panel",
+      2030,
+      0.75,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "adme_cyp450_pgx.png",
+    "summary_json": "adme_cyp450_pgx_summary.json"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "phase": 232,
+  "tier1_paper": 32,
+  "topic": "Vaccines + Immunotherapy deep (K_pharma_immune)",
+  "vaccine_generations": {
+    "1G Live attenuated (1796)": {
+      "efficacy_pct": 95,
+      "dev_months": 60,
+      "year": 1796
+    },
+    "2G Inactivated": {
+      "efficacy_pct": 60,
+      "dev_months": 18,
+      "year": 1950
+    },
+    "3G Subunit": {
+      "efficacy_pct": 90,
+      "dev_months": 12,
+      "year": 1986
+    },
+    "4G Vector (Adeno)": {
+      "efficacy_pct": 70,
+      "dev_months": 6,
+      "year": 2010
+    },
+    "5G mRNA ★": {
+      "efficacy_pct": 95,
+      "dev_months": 0.5,
+      "year": 2020
+    },
+    "6G saRNA": {
+      "efficacy_pct": 90,
+      "dev_months": 0.3,
+      "year": 2025
+    }
+  },
+  "COVID_vaccine_2020_2024": {
+    "doses_B_per_year": {
+      "2020": 0.3,
+      "2021": 9.0,
+      "2022": 11.5,
+      "2023": 12.8,
+      "2024": 13.0
+    },
+    "lives_saved_M_per_year": {
+      "2020": 1.0,
+      "2021": 11.0,
+      "2022": 16.5,
+      "2023": 18.0,
+      "2024": 19.0
+    },
+    "total_doses_B": 13.0,
+    "Watson_2022_Lancet_lives_saved_M_range": "14.4-19.8"
+  },
+  "Kariko_Weissman_journey": {
+    "Karikó moves UPenn": 1985,
+    "Karikó UPenn assistant prof": 1989,
+    "Demoted at UPenn": 1995,
+    "Meets Weissman": 1997,
+    "Pseudouridine paper": 2005,
+    "BioNTech co-founded": 2008,
+    "BNT162b2 FDA approval": 2020,
+    "Nobel Physiology/Medicine": 2023
+  },
+  "Kariko_Weissman_Nobel_2023": "Physiology/Medicine - pseudouridine mRNA",
+  "Allison_Honjo_Nobel_2018": "Physiology/Medicine - checkpoint inhibitors",
+  "melanoma_5y_survival_evolution": {
+    "1990s\nchemo": 5,
+    "2011\nipilimumab": 18,
+    "2014-15\nnivolumab": 34,
+    "2015-16\nipi+nivo": 52,
+    "2022\ntriplet": 60
+  },
+  "CART_TIL_products": {
+    "Kymriah (CD19, pALL) 2017": {
+      "CR_pct": 83,
+      "year": 2017
+    },
+    "Yescarta (CD19, DLBCL) 2017": {
+      "CR_pct": 51,
+      "year": 2017
+    },
+    "Brexucabtagene (CD19, MCL) 2020": {
+      "CR_pct": 65,
+      "year": 2020
+    },
+    "Liso-cel (CD19, DLBCL) 2021": {
+      "CR_pct": 53,
+      "year": 2021
+    },
+    "Abecma (BCMA, MM) 2021": {
+      "CR_pct": 33,
+      "year": 2021
+    },
+    "Carvykti (BCMA, MM) 2022": {
+      "CR_pct": 67,
+      "year": 2022
+    },
+    "Lifileucel TIL (melanoma) 2024": {
+      "CR_pct": 31,
+      "year": 2024
+    }
+  },
+  "Lifileucel_2024_first_TIL": "FDA approval Feb 2024",
+  "cancer_vaccine_pipeline": {
+    "Provenge (Sipuleucel)": {
+      "approved": true,
+      "year": 2010,
+      "cancer": "Prostate (1st gen)"
+    },
+    "T-VEC (Imlygic)": {
+      "approved": true,
+      "year": 2015,
+      "cancer": "Melanoma (oncolytic)"
+    },
+    "mRNA-4157 (Moderna)": {
+      "approved": false,
+      "year": 2025,
+      "cancer": "Melanoma (Phase III)"
+    },
+    "BNT122 (BioNTech)": {
+      "approved": false,
+      "year": 2025,
+      "cancer": "Melanoma + colorectal"
+    },
+    "INO-4800 (Inovio)": {
+      "approved": false,
+      "year": 2026,
+      "cancer": "Various (DNA)"
+    }
+  },
+  "ITU_K_pharma_immune": {
+    "N_states": 2500,
+    "S_naive_nats": 7.819298689697959,
+    "S_vaccine_nats": 6.630603872498634,
+    "S_checkpoint_nats": 7.354698088294863,
+    "S_CART_nats": 5.4502768401281,
+    "naive_to_vaccine_ratio": 0.9999999999999754,
+    "naive_to_checkpoint_ratio": 1.0000000000005613,
+    "naive_to_CART_ratio": 1.0,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_pharma_immune",
+    "modular_Hamiltonian": "K_pharma_immune^(0) = -log P(immune state | therapy × patient)",
+    "vaccine_meaning": "ITU K-state descent: naive → memory (Phase 188 prime-boost)",
+    "checkpoint_meaning": "K-state rescue: exhausted T cells reactivated",
+    "CART_meaning": "Massive K-state expansion (CAR+ T cell 1000-fold)",
+    "lives_saved": "COVID mRNA saved ~19M lives (Watson 2022 Lancet)"
+  },
+  "predictions": [
+    [
+      "Universal flu vaccine FDA",
+      2030,
+      0.55,
+      "Medium"
+    ],
+    [
+      "HIV mRNA vaccine >70% efficacy",
+      2032,
+      0.4,
+      "Weak"
+    ],
+    [
+      "Cancer neoantigen mRNA standard",
+      2028,
+      0.8,
+      "Strong"
+    ],
+    [
+      "CAR-T solid tumor first FDA",
+      2028,
+      0.7,
+      "Strong"
+    ],
+    [
+      "Universal cancer vaccine",
+      2032,
+      0.45,
+      "Medium"
+    ]
+  ],
+  "outputs": {
+    "figure": "vaccine_immunotherapy_deep.png",
+    "summary_json": "vaccine_immunotherapy_deep_summary.json"
+  }
+}

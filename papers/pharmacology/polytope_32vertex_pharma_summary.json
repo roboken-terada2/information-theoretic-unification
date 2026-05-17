@@ -1,0 +1,130 @@
+{
+  "phase": 235,
+  "tier1_paper": 32,
+  "block": "B_residual",
+  "topic": "Tier 1 #32 integration + 32-vertex polytope",
+  "milestone": "Pass-1 extension paper #2; Block B 6/6 COMPLETE",
+  "polytope_32vertex": {
+    "vertices": 32,
+    "edges": 367,
+    "mean_degree": 22.9375,
+    "max_degree": 31
+  },
+  "pharma_couplings": {
+    "#26 Immune (IO/Ab)": 0.95,
+    "#5 Cancer (chemo+IO)": 0.95,
+    "#30 Genome (CRISPR/PGx)": 0.92,
+    "#2 AI (Insilico/AlphaFold)": 0.9,
+    "#6 Aging (Lecanemab)": 0.9,
+    "#7 Psych (psilocybin)": 0.85,
+    "#28 Neuro (Aducanumab)": 0.85,
+    "#31 Photon (AlphaFold)": 0.85,
+    "#27 Microbe (antibiotics)": 0.8,
+    "#22 CM (small molecule)": 0.5
+  },
+  "pharma_avg_coupling": 0.8469999999999999,
+  "10_predictions": [
+    {
+      "prediction": "AI 創薬 5+ FDA approvals",
+      "year": 2030,
+      "P": 0.8,
+      "class": "Strong"
+    },
+    {
+      "prediction": "CAR-T solid tumor approval",
+      "year": 2028,
+      "P": 0.7,
+      "class": "Strong"
+    },
+    {
+      "prediction": "ADC market $50B",
+      "year": 2030,
+      "P": 0.85,
+      "class": "Strong"
+    },
+    {
+      "prediction": "GLP-1 5+ adaptations",
+      "year": 2030,
+      "P": 0.85,
+      "class": "Strong"
+    },
+    {
+      "prediction": "All hospitals PGx routine testing",
+      "year": 2030,
+      "P": 0.7,
+      "class": "Strong"
+    },
+    {
+      "prediction": "Cancer neoantigen mRNA standard",
+      "year": 2028,
+      "P": 0.8,
+      "class": "Strong"
+    },
+    {
+      "prediction": "FDA AI/ML framework complete",
+      "year": 2027,
+      "P": 0.8,
+      "class": "Strong"
+    },
+    {
+      "prediction": "Trispecific Ab FDA approval",
+      "year": 2028,
+      "P": 0.7,
+      "class": "Strong"
+    },
+    {
+      "prediction": "Digital twin clinical trial regulatory",
+      "year": 2030,
+      "P": 0.65,
+      "class": "Medium"
+    },
+    {
+      "prediction": "Universal cancer vaccine",
+      "year": 2032,
+      "P": 0.45,
+      "class": "Medium"
+    }
+  ],
+  "predictions_summary": {
+    "grand_P_avg": 0.7300000000000001,
+    "strong": 8,
+    "medium": 2,
+    "weak": 0
+  },
+  "K_pharma_structure": {
+    "K_pharma_target": "GPCR/RTK/channel/nuclear",
+    "K_pharma_PK": "ADME, CYP, half-life",
+    "K_pharma_biologic": "Ab, ADC, bispecific",
+    "K_pharma_immune": "Vaccines, IO, CAR-T",
+    "K_pharma_AI": "Insilico, Recursion, AlphaFold",
+    "K_pharma_regulatory": "FDA, ICH, adaptive trial",
+    "K_pharma_pharmacogenomic": "CYP, HLA, personalized",
+    "K_pharma_small_mol": "Lipinski rule of 5"
+  },
+  "Nobel_Prize_coverage": {
+    "count": 8,
+    "names": [
+      "1972: Edelman-Porter (Ab structure)",
+      "1984: Köhler-Milstein (hybridoma)",
+      "2003: MacKinnon (K+ channel)",
+      "2012: Lefkowitz-Kobilka (GPCR)",
+      "2018: Allison-Honjo (checkpoint)",
+      "2020: Doudna-Charpentier (CRISPR)",
+      "2023: Karikó-Weissman (mRNA)",
+      "2024: Baker-Hassabis-Jumper (AlphaFold)"
+    ]
+  },
+  "Block_B_complete_6_papers": {
+    "26": "Immune",
+    "27": "Microbe",
+    "28": "Neuro",
+    "29": "Dev",
+    "30": "Genome",
+    "32": "Pharma"
+  },
+  "ITU_axiom_verification_count": 11,
+  "outputs": {
+    "figure": "polytope_32vertex_pharma.png",
+    "summary_json": "polytope_32vertex_pharma_summary.json"
+  }
+}

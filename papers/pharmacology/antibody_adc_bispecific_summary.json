@@ -1,0 +1,226 @@
+{
+  "phase": 231,
+  "tier1_paper": 32,
+  "topic": "Antibody + ADC + Bispecific (K_pharma_biologic)",
+  "Kohler_Milstein_Nobel_1984": "Hybridoma technology",
+  "Ab_generation_evolution": {
+    "Murine (1986)": {
+      "year": 1986,
+      "immunogenicity_pct": 100
+    },
+    "Chimeric (1988)": {
+      "year": 1988,
+      "immunogenicity_pct": 30
+    },
+    "Humanized (1990)": {
+      "year": 1990,
+      "immunogenicity_pct": 8
+    },
+    "Fully human (1994)": {
+      "year": 1994,
+      "immunogenicity_pct": 3
+    },
+    "AI-designed (2024)": {
+      "year": 2024,
+      "immunogenicity_pct": 1
+    }
+  },
+  "major_mAb_FDA_approvals": {
+    "Muromonab-CD3 (1986)": {
+      "year": 1986,
+      "target": "CD3"
+    },
+    "Rituximab (1997) ★": {
+      "year": 1997,
+      "target": "CD20"
+    },
+    "Trastuzumab (1998) ★": {
+      "year": 1998,
+      "target": "HER2"
+    },
+    "Bevacizumab (2004)": {
+      "year": 2004,
+      "target": "VEGF"
+    },
+    "Adalimumab (2002)": {
+      "year": 2002,
+      "target": "TNF-α"
+    },
+    "Ipilimumab (2011)": {
+      "year": 2011,
+      "target": "CTLA-4"
+    },
+    "Pembrolizumab (2014)★": {
+      "year": 2014,
+      "target": "PD-1"
+    },
+    "Nivolumab (2014)": {
+      "year": 2014,
+      "target": "PD-1"
+    },
+    "Dupilumab (2018)": {
+      "year": 2018,
+      "target": "IL-4Rα"
+    },
+    "Lecanemab (2023)": {
+      "year": 2023,
+      "target": "Aβ"
+    }
+  },
+  "Trastuzumab_1998_breast": "HER2+ breast cancer pivotal",
+  "Keytruda_2024_sales_B": 25,
+  "ADC_FDA_approvals": {
+    "Mylotarg (2000/2017)": {
+      "year": 2017,
+      "target": "CD33",
+      "payload": "Calicheamicin"
+    },
+    "Kadcyla T-DM1 (2013)": {
+      "year": 2013,
+      "target": "HER2",
+      "payload": "DM1"
+    },
+    "Adcetris (2011)": {
+      "year": 2011,
+      "target": "CD30",
+      "payload": "MMAE"
+    },
+    "Enhertu T-DXd (2019)★": {
+      "year": 2019,
+      "target": "HER2",
+      "payload": "DXd"
+    },
+    "Trodelvy (2020)": {
+      "year": 2020,
+      "target": "TROP2",
+      "payload": "SN-38"
+    },
+    "Padcev (2019)": {
+      "year": 2019,
+      "target": "Nectin-4",
+      "payload": "MMAE"
+    },
+    "Blenrep (2020)": {
+      "year": 2020,
+      "target": "BCMA",
+      "payload": "MMAF"
+    }
+  },
+  "Enhertu_DESTINY_Breast04_2022": {
+    "HR_for_death": 0.64,
+    "median_PFS_chemo_mo": 5.4,
+    "median_PFS_Enhertu_mo": 9.9,
+    "patient_category": "HER2-low (previously incurable)"
+  },
+  "bispecific_antibodies": {
+    "Blincyto (2014) BiTE": {
+      "year": 2014,
+      "target_pair": "CD3 × CD19"
+    },
+    "Hemlibra (2017)": {
+      "year": 2017,
+      "target_pair": "F.IX × F.X (mimic FVIII)"
+    },
+    "Rybrevant (2021)": {
+      "year": 2021,
+      "target_pair": "EGFR × MET"
+    },
+    "Faricimab (2022)": {
+      "year": 2022,
+      "target_pair": "VEGF-A × Ang-2"
+    },
+    "Tecvayli (2022)": {
+      "year": 2022,
+      "target_pair": "BCMA × CD3"
+    },
+    "Epkinly (2023)": {
+      "year": 2023,
+      "target_pair": "CD20 × CD3"
+    },
+    "Talquetamab (2023)": {
+      "year": 2023,
+      "target_pair": "GPRC5D × CD3"
+    }
+  },
+  "Blincyto_BiTE_2014_first": "CD3 x CD19, ALL",
+  "Hemlibra_HAVEN3_bleeding_reduction_pct": 87,
+  "ADC_market_growth_B": {
+    "2020": 6,
+    "2021": 8,
+    "2022": 10,
+    "2023": 12,
+    "2024": 13,
+    "2025": 17,
+    "2026": 22,
+    "2027": 28,
+    "2028": 35,
+    "2029": 42,
+    "2030": 50
+  },
+  "Bispecific_market_growth_B": {
+    "2020": 2,
+    "2021": 3,
+    "2022": 4,
+    "2023": 5,
+    "2024": 7,
+    "2025": 10,
+    "2026": 13,
+    "2027": 17,
+    "2028": 22,
+    "2029": 26,
+    "2030": 30
+  },
+  "ITU_K_pharma_biologic": {
+    "N_cells": 2000,
+    "S_tumor_pre_nats": 7.097985997471004,
+    "S_post_ADC_nats": 6.729485347615952,
+    "S_post_BsAb_nats": 7.60050195627808,
+    "tumor_to_ADC_ratio": 1.0000000000000042,
+    "tumor_to_BsAb_ratio": 0.999999999999999,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_pharma_biologic",
+    "modular_Hamiltonian": "K_pharma_biologic^(0) = -log P(cell kill | Ab × payload × patient)",
+    "ADC_meaning": "Magic bullet (Ehrlich 1900) - target + payload K-state",
+    "Bispecific_meaning": "Recruit K_immune (T cell) + bind K_tumor",
+    "Enhertu_HER2_low": "HER2-low → HER2 spectrum expansion (K-state continuum)",
+    "Hemlibra_meaning": "F.VIII function mimicry (functional replacement)"
+  },
+  "predictions": [
+    [
+      "ADC market $50 B",
+      2030,
+      0.85,
+      "Strong"
+    ],
+    [
+      "Trispecific Ab approval",
+      2028,
+      0.7,
+      "Strong"
+    ],
+    [
+      "AI-designed first-in-class Ab",
+      2028,
+      0.75,
+      "Strong"
+    ],
+    [
+      "Multiple ADCs for solid tumors",
+      2028,
+      0.8,
+      "Strong"
+    ],
+    [
+      "ADC + IO standard NSCLC",
+      2030,
+      0.75,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "antibody_adc_bispecific.png",
+    "summary_json": "antibody_adc_bispecific_summary.json"
+  }
+}

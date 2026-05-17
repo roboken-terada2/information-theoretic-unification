@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+title: "ITU and Pharmacology: A Single-Axiom View of Drug Discovery, Receptor Pharmacology, ADME, Pharmacogenomics, Antibody Medicines, Vaccines and Immunotherapy, AI Drug Design, and FDA Regulation — Pass-1 Extension Paper #2, Block B 6/6 COMPLETE"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to pharmacology. Tier 1 paper #32, the
+  second paper of Pass-1 extension, completing Block B (life sciences)
+  to 6/6. Introduces K_pharma across 8 sub-states (K_pharma_target,
+  K_pharma_PK, K_pharma_biologic, K_pharma_immune, K_pharma_AI,
+  K_pharma_regulatory, K_pharma_pharmacogenomic, K_pharma_small_mol).
+  ITU axiom delta S = delta <K> verified to machine precision in 11+
+  pharmacological contexts. 32-vertex ITU polytope with #32 Pharma
+  reaching new max degree 31 (367 edges).
+  Key results: Drug discovery 14 years / $2.6B (DiMasi 2016) with 1.5%
+  overall success rate; GPCRs 800 human receptors with 33% of FDA
+  drugs targeting them (Lefkowitz-Kobilka Nobel Chemistry 2012);
+  Imatinib (Gleevec 2001) CML 5-year survival 5% to 90% (Druker);
+  Keytruda 2024 sales $25 billion; CYP3A4 metabolizes 50% of drugs;
+  Tirzepatide 22% weight loss (Mounjaro 2022); MacKinnon K+ channel
+  Nobel Chemistry 2003 (K+/Na+ selectivity 10^4); Köhler-Milstein
+  hybridoma Nobel 1984; Trastuzumab (Herceptin) 1998; Enhertu HER2-low
+  DESTINY-Breast04 HR=0.64 (NEJM 2022); ADC market $13B (2024) ->
+  $50B (2030); Blincyto BiTE 2014; Hemlibra HAVEN-3 87% bleeding
+  reduction; Karikó-Weissman pseudouridine mRNA Nobel Physiology
+  2023; COVID vaccines 13 billion doses saving 14.4-19.8M lives
+  (Watson 2022 Lancet); Allison-Honjo Nobel 2018 melanoma 5y survival
+  5% to 60%; Kymriah CAR-T pALL CR 83%; Carvykti BCMA MM CR 67%;
+  Lifileucel first TIL FDA February 2024; Insilico INS018_055
+  AI-designed 21 days for IPF Phase II; Halicin AI antibiotic
+  discovery (Stokes 2020 Cell); AI accelerating discovery from 14
+  to 9.8 years (-30%); FDA Kefauver-Harris 1962 post-Thalidomide;
+  RECOVERY 50,000-patient adaptive trial (dexamethasone 35%
+  mortality reduction); ICH 17 members + 33 observers.
+  Ten falsifiable predictions (P_avg = 0.730, Strong/Medium/Weak =
+  8/2/0) including AI 創薬 5+ FDA approvals 2030 (P=0.80), CAR-T
+  solid tumor approval 2028 (P=0.70), ADC market $50B 2030 (P=0.85),
+  GLP-1 5+ adaptations 2030 (P=0.85), Cancer neoantigen mRNA standard
+  2028 (P=0.80), FDA AI/ML framework 2027 (P=0.80).
+  Eight Nobel Prizes featured: 1972 Edelman-Porter (Ab structure),
+  1984 Köhler-Milstein (hybridoma), 2003 MacKinnon (K+ channel),
+  2012 Lefkowitz-Kobilka (GPCR), 2018 Allison-Honjo (checkpoint),
+  2020 Doudna-Charpentier (CRISPR pharm), 2023 Karikó-Weissman
+  (mRNA), 2024 Baker-Hassabis-Jumper (AlphaFold). Block B life
+  sciences 6/6 COMPLETE: K_immune + K_microbe + K_neuro + K_dev +
+  K_genome + K_pharma. Pass-1 interpretive synthesis.
+keywords:
+  - pharmacology
+  - drug discovery
+  - GPCR
+  - pharmacogenomics
+  - antibody drug conjugate
+  - bispecific antibody
+  - mRNA vaccine
+  - CAR-T therapy
+  - AI drug discovery
+  - clinical trial regulation
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/pharmacology"
+url: "https://doi.org/10.5281/zenodo.20258192"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20258192"
+    description: "Version 1.0.0 DOI (Zenodo) — 10.5281/zenodo.20258192"
+version: "1.0.0"
+date-released: "2026-05-17"

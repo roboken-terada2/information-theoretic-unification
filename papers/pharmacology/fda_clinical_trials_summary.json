@@ -1,0 +1,186 @@
+{
+  "phase": 234,
+  "tier1_paper": 32,
+  "topic": "FDA + Clinical trials + Regulation (K_pharma_regulatory)",
+  "FDA_milestones": {
+    "Pure Food and Drug Act": 1906,
+    "Sulfanilamide tragedy": 1937,
+    "FDCA": 1938,
+    "Kefauver-Harris (Thalidomide)": 1962,
+    "Orphan Drug Act": 1983,
+    "PDUFA": 1992,
+    "Accelerated approval": 1997,
+    "Breakthrough therapy": 2012,
+    "COVID EUA (BNT162b2)": 2020,
+    "AI/ML guidance": 2024
+  },
+  "phase_success_rates": {
+    "Discovery → Preclinical": 0.25,
+    "Preclinical → Phase I": 0.65,
+    "Phase I → II": 0.63,
+    "Phase II → III": 0.3,
+    "Phase III → FDA": 0.58,
+    "FDA → Approval": 0.85
+  },
+  "overall_success_rate_pct": 1.51412625,
+  "Phase_II_to_III_bottleneck": 0.3,
+  "FDA_approval_pathways": {
+    "Standard": {
+      "review_months": 10,
+      "drugs_pct": 60
+    },
+    "Priority Review": {
+      "review_months": 6,
+      "drugs_pct": 25
+    },
+    "Accelerated": {
+      "review_months": 6,
+      "drugs_pct": 10
+    },
+    "Breakthrough": {
+      "review_months": 6,
+      "drugs_pct": 30
+    },
+    "Orphan Drug": {
+      "review_months": 8,
+      "drugs_pct": 35
+    }
+  },
+  "global_agencies": {
+    "FDA (US)": {
+      "market_pct": 45,
+      "drugs_2024": 55
+    },
+    "EMA (EU)": {
+      "market_pct": 22,
+      "drugs_2024": 40
+    },
+    "PMDA (JP)": {
+      "market_pct": 8,
+      "drugs_2024": 30
+    },
+    "NMPA (CN)": {
+      "market_pct": 11,
+      "drugs_2024": 45
+    },
+    "MHRA (UK)": {
+      "market_pct": 4,
+      "drugs_2024": 25
+    },
+    "Others": {
+      "market_pct": 10,
+      "drugs_2024": 100
+    }
+  },
+  "trial_types": {
+    "Single-arm Phase I": {
+      "patients": 50,
+      "duration_yr": 1.5
+    },
+    "Phase II open-label": {
+      "patients": 200,
+      "duration_yr": 2.5
+    },
+    "Phase III RCT": {
+      "patients": 2000,
+      "duration_yr": 2.5
+    },
+    "Master protocol": {
+      "patients": 5000,
+      "duration_yr": 3.0
+    },
+    "RECOVERY (COVID)": {
+      "patients": 50000,
+      "duration_yr": 0.5
+    },
+    "All of Us cohort": {
+      "patients": 1000000,
+      "duration_yr": 10
+    }
+  },
+  "RECOVERY_2020_dexamethasone": "Mortality reduction 35% in COVID severe",
+  "All_of_Us_2018_cohort": "1M+ individuals (genome + EHR)",
+  "ICH_harmonization": {
+    "founded": 1990,
+    "members": 17,
+    "observers": 33,
+    "guidelines": [
+      "Q (Quality)",
+      "S (Safety)",
+      "E (Efficacy)",
+      "M (Multi)"
+    ]
+  },
+  "in_silico_trials": {
+    "Heart-on-Chip": {
+      "virtual_cohort": 10000,
+      "year": 2017
+    },
+    "AI cancer twin": {
+      "virtual_cohort": 50000,
+      "year": 2023
+    },
+    "Alzheimer model": {
+      "virtual_cohort": 100000,
+      "year": 2024
+    },
+    "Synthetic control": {
+      "virtual_cohort": 5000,
+      "year": 2024
+    }
+  },
+  "ITU_K_pharma_regulatory": {
+    "N_decisions": 2000,
+    "S_pre_trial_nats": 7.595720286707984,
+    "S_approve_nats": 5.933413885344518,
+    "S_reject_nats": 5.921495125044249,
+    "S_accelerated_nats": 6.728817961340622,
+    "pre_to_approve_ratio": 0.9999999999991126,
+    "pre_to_reject_ratio": 1.00000000000005,
+    "pre_to_accelerated_ratio": 1.0,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_pharma_regulatory",
+    "modular_Hamiltonian": "K_pharma_regulatory^(0) = -log P(approval | trial data + risk-benefit)",
+    "Phase_II_meaning": "Bottleneck = max K-state uncertainty reduction needed",
+    "Master_protocol_meaning": "K-state evidence flow optimization",
+    "RECOVERY_2020_significance": "Largest-ever adaptive trial demonstrating speed"
+  },
+  "predictions": [
+    [
+      "FDA AI/ML drug regulatory framework",
+      2027,
+      0.8,
+      "Strong"
+    ],
+    [
+      "Digital twin clinical trial regulatory approval",
+      2030,
+      0.65,
+      "Medium"
+    ],
+    [
+      "Master protocol become standard",
+      2028,
+      0.85,
+      "Strong"
+    ],
+    [
+      "FDA accelerated approval reform",
+      2026,
+      0.7,
+      "Strong"
+    ],
+    [
+      "Global ICH harmonization 30+ members",
+      2030,
+      0.75,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "fda_clinical_trials.png",
+    "summary_json": "fda_clinical_trials_summary.json"
+  }
+}
