@@ -1,0 +1,145 @@
+{
+  "phase": 176,
+  "title": "Holographic entropy bounds — Bekenstein + Bousso + RT + HRT",
+  "tier1_paper": "#25 Information & Holography (phase 2/8) — BLOCK A FINALE",
+  "tests": {
+    "bekenstein_bound": [
+      {
+        "name": "Hydrogen atom",
+        "R_m": 5.3e-11,
+        "E_J": 2.17872e-18,
+        "S_max_nats": 0.02294823923554059,
+        "comment": "atomic scale"
+      },
+      {
+        "name": "Cell (e.g. E. coli)",
+        "R_m": 1e-06,
+        "E_J": 1e-12,
+        "S_max_nats": 198733956.61378974,
+        "comment": "biological"
+      },
+      {
+        "name": "Brain (1.4 kg)",
+        "R_m": 0.15,
+        "E_J": 1.25832056e+17,
+        "S_max_nats": 3.7510653536591947e+42,
+        "comment": "human cognition"
+      },
+      {
+        "name": "Earth",
+        "R_m": 6370000.0,
+        "E_J": 5.3658383880000006e+41,
+        "S_max_nats": 6.792804248941437e+74,
+        "comment": "planet"
+      },
+      {
+        "name": "Sun",
+        "R_m": 696000000.0,
+        "E_J": 1.7877139956e+47,
+        "S_max_nats": 2.4727451504504682e+82,
+        "comment": "star"
+      },
+      {
+        "name": "Galaxy (1e11 M_sun)",
+        "R_m": 1e+21,
+        "E_J": 1.7877139955999998e+58,
+        "S_max_nats": 3.5527947563943506e+105,
+        "comment": "Milky Way"
+      },
+      {
+        "name": "Sgr A* (BH)",
+        "R_m": 12700000000.0,
+        "E_J": 7.68717018108e+53,
+        "S_max_nats": 1.940181216466955e+90,
+        "comment": "SMBH"
+      },
+      {
+        "name": "Observable universe",
+        "R_m": 4.4e+26,
+        "E_J": 1e+54,
+        "S_max_nats": 8.74429409100675e+106,
+        "comment": "cosmic"
+      }
+    ],
+    "BH_entropy": [
+      {
+        "name": "Mini BH (10^17 kg)",
+        "M_Msun": 5.027652086475616e-14,
+        "r_s_m": 1.4851573274778248e-10,
+        "A_m2": 2.771754674421288e-19,
+        "S_BH_nats": 2.6528200932548334e+50
+      },
+      {
+        "name": "Solar mass BH",
+        "M_Msun": 1.0,
+        "r_s_m": 2953.9779243533935,
+        "A_m2": 109653968.74326219,
+        "S_BH_nats": 1.0494877280147404e+77
+      },
+      {
+        "name": "Sgr A*",
+        "M_Msun": 4300000.0,
+        "r_s_m": 12702105074.719591,
+        "A_m2": 2.0275018820629176e+21,
+        "S_BH_nats": 1.9405028090992548e+90
+      },
+      {
+        "name": "M87*",
+        "M_Msun": 6500000000.0,
+        "r_s_m": 19200856508297.06,
+        "A_m2": 4.632880179402828e+27,
+        "S_BH_nats": 4.434085650862279e+96
+      },
+      {
+        "name": "TON 618",
+        "M_Msun": 66000000000.0,
+        "r_s_m": 194962543007323.94,
+        "A_m2": 4.7765268784565e+29,
+        "S_BH_nats": 4.571568543232208e+98
+      }
+    ],
+    "RT_AdS3_formula": {
+      "form": "S_A = (c/3) log(L/a)",
+      "examples": {
+        "c=0.5 Ising": "S = (1/6) log(L/a)",
+        "c=1 free boson": "S = (1/3) log(L/a)",
+        "c=24 Monster": "S = 8 log(L/a)"
+      }
+    },
+    "lloyd_bound": {
+      "form": "Ops/s ≤ 2E/(πℏ)",
+      "1kg_ops_per_s": 5.42584295187827e+50,
+      "ratio_to_supercomputer": 5.42584295187827e+35
+    },
+    "holographic_density": {
+      "S_per_m2": 9.570905093931926e+68,
+      "bits_per_cm2": 1.380789731583451e+65
+    },
+    "universe_entropy_vs_bound": {
+      "Hubble_radius_m": 1.3725413353115727e+26,
+      "holographic_S_max": 2.2657591302907784e+122,
+      "observed_S_estimate": 1.000000001e+89,
+      "ratio_observed_over_bound": 4.413531816471877e-34
+    }
+  },
+  "itu_interpretation": {
+    "Bekenstein_bound": "K_info ≤ K_geom constraint",
+    "holographic_principle": "K_info volume ↔ K_geom boundary",
+    "Bousso_covariant": "K_info light-sheet upper bound",
+    "RT_formula": "K_info = K_geom area/(4G) — ITU axiom geometric realisation",
+    "HRT": "K_holo time-dependent extension",
+    "QES": "K_holo + bulk K_info quantum correction",
+    "island_formula": "K_holo disconnected component for evaporating BH",
+    "Page_curve": "K_holo unitarity preservation",
+    "Lloyd_bound": "K_info × K_quantum computational speed limit"
+  },
+  "key_findings": [
+    "Hydrogen atom S_max ~ 10^-1 nats",
+    "M87* BH S_BH ~ 10^96 nats (cosmic-scale storage)",
+    "RT formula: S_A = (c/3) log(L/a) — universal CFT entanglement scaling",
+    "Lloyd 1 kg: 5.7×10⁵⁰ ops/s (10³⁵× modern supercomputer)",
+    "Holographic density: 1 nat per 4 ℓ_P² ≈ 10^69 /m²",
+    "Universe holographic bound 10^122 >> observed 10^89",
+    "ITU axiom δS = δ⟨K_geom⟩ realised geometrically by Ryu-Takayanagi (Phase 111)"
+  ]
+}

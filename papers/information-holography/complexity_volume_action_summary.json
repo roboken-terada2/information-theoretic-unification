@@ -1,0 +1,143 @@
+{
+  "phase": 177,
+  "title": "Computational complexity = volume/action (Susskind conjectures)",
+  "tier1_paper": "#25 Information & Holography (phase 3/8) — BLOCK A FINALE",
+  "tests": {
+    "CA_growth_rates": [
+      {
+        "name": "Mini BH (10^15 kg)",
+        "M_Msun": 5.027652086475616e-16,
+        "M_kg": 1000000000000000.0,
+        "rate_ops_per_s": 5.42584295187827e+65
+      },
+      {
+        "name": "Solar mass BH",
+        "M_Msun": 1.0,
+        "M_kg": 1.989e+30,
+        "rate_ops_per_s": 1.0792001631285878e+81
+      },
+      {
+        "name": "Sgr A*",
+        "M_Msun": 4300000.0,
+        "M_kg": 8.552699999999999e+36,
+        "rate_ops_per_s": 4.640560701452927e+87
+      },
+      {
+        "name": "M87*",
+        "M_Msun": 6500000000.0,
+        "M_kg": 1.29285e+40,
+        "rate_ops_per_s": 7.014801060335821e+90
+      },
+      {
+        "name": "TON 618",
+        "M_Msun": 66000000000.0,
+        "M_kg": 1.3127399999999999e+41,
+        "rate_ops_per_s": 7.122721076648678e+91
+      }
+    ],
+    "scrambling_times": [
+      {
+        "name": "Mini BH (10^15 kg)",
+        "M_Msun": 5.027652086475616e-16,
+        "T_K": 122699326.90794665,
+        "S_BH_nats": 2.652820093254834e+46,
+        "t_scr_s": 1.0590740873377858e-18
+      },
+      {
+        "name": "Solar mass BH",
+        "M_Msun": 1.0,
+        "T_K": 6.168895269378916e-08,
+        "S_BH_nats": 1.0494877280147404e+77,
+        "t_scr_s": 0.0034948643737568127
+      },
+      {
+        "name": "Sgr A*",
+        "M_Msun": 4300000.0,
+        "T_K": 1.434626806832306e-14,
+        "S_BH_nats": 1.9405028090992548e+90,
+        "t_scr_s": 17616.489829836803
+      },
+      {
+        "name": "M87*",
+        "M_Msun": 6500000000.0,
+        "T_K": 9.490608106736793e-18,
+        "S_BH_nats": 4.434085650862279e+96,
+        "t_scr_s": 28505072.848753616
+      },
+      {
+        "name": "TON 618",
+        "M_Msun": 66000000000.0,
+        "T_K": 9.34681101421048e-19,
+        "S_BH_nats": 4.571568543232208e+98,
+        "t_scr_s": 295465402.9016526
+      }
+    ],
+    "maximally_chaotic": [
+      {
+        "T_K": 1e-09,
+        "beta": 7.242970516039919e+31,
+        "lambda_max_per_s": 822.596751717687,
+        "system": "cold (sub-mK)"
+      },
+      {
+        "T_K": 0.001,
+        "beta": 7.242970516039919e+25,
+        "lambda_max_per_s": 822596751.717687,
+        "system": "lab cryogenic"
+      },
+      {
+        "T_K": 1.0,
+        "beta": 7.24297051603992e+22,
+        "lambda_max_per_s": 822596751717.6869,
+        "system": "room temp"
+      },
+      {
+        "T_K": 1000.0,
+        "beta": 7.24297051603992e+19,
+        "lambda_max_per_s": 822596751717686.9,
+        "system": "hot plasma"
+      },
+      {
+        "T_K": 1000000000.0,
+        "beta": 72429705160399.2,
+        "lambda_max_per_s": 8.225967517176868e+20,
+        "system": "early universe"
+      },
+      {
+        "T_K": 1000000000000000.0,
+        "beta": 72429705.1603992,
+        "lambda_max_per_s": 8.225967517176869e+26,
+        "system": "early universe"
+      }
+    ],
+    "complexity_exponential": {
+      "form": "𝒞_max(N qubits) = 2^N",
+      "examples_2N": {
+        "S=10": "1024",
+        "S=30": "1073741824",
+        "S=100": "1267650600228229401496703205376",
+        "S=500": "3273390607896141870013189696827599152216642046043064789483291368096133796404674554883270092325904157150886684127560071009217256545885393053328527589376"
+      }
+    },
+    "CA_equals_Lloyd": true
+  },
+  "itu_interpretation": {
+    "computational_complexity": "K_complexity main quantity",
+    "CV_conjecture": "K_complexity = K_geom volume",
+    "CA_conjecture": "K_complexity = K_geom action",
+    "Lloyd_saturation": "K_complexity universal rate",
+    "scrambling_time": "K_holo time scale",
+    "maximally_chaotic": "K_quantum chaos upper bound",
+    "switchback": "K_complexity reversibility",
+    "complexity_anything": "K_complexity universality class"
+  },
+  "key_findings": [
+    "CA growth: M87 BH = 7.01e+90 ops/s",
+    "CA saturates Lloyd bound exactly (Brown et al. 2016)",
+    "Sgr A* scrambling time t_scr = 1.76e+04 s (Sekino-Susskind 2008)",
+    "Maximally chaotic bound: λ_L ≤ 2πk_BT/ℏ (Maldacena-Shenker-Stanford 2016)",
+    "BH saturates maximally chaotic bound = fastest scrambler in nature",
+    "Complexity exponential: 𝒞 ~ 2^N at late times (full Hilbert space)",
+    "Susskind 2014: BH interior growth = boundary complexity growth"
+  ]
+}

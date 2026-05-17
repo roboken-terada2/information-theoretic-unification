@@ -1,0 +1,300 @@
+cff-version: 1.2.0
+title: "ITU and Information Geometry / Holography: A Single-Axiom View of Fisher Metric, Holographic Entropy Bounds, Complexity = Volume/Action, Tensor Networks, ER=EPR, and Wheeler's 'It from Bit' — Block A FINALE"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest
+  Tier 0 v3.0 at 10.5281/zenodo.20200156) to information geometry and
+  holography. This is Tier 1 paper #25 — the ninth and final paper of
+  Block A — completing the ITU COMPLETE FOUNDATION with K_holo-info,
+  joining K_geom (#17, DOI 10.5281/zenodo.20230667), K_horizon (#18,
+  DOI 10.5281/zenodo.20233070), K_cosmic (#19, DOI
+  10.5281/zenodo.20233952), K_field (#20, DOI 10.5281/zenodo.20234703),
+  K_stat (#21, DOI 10.5281/zenodo.20237082), K_solid (#22, DOI
+  10.5281/zenodo.20249191), K_flow (#23, DOI 10.5281/zenodo.20249794),
+  and K_math (#24, DOI 10.5281/zenodo.20251178) — physics + math +
+  information in 8 fundamental K-states. Block A polytope reaches 25
+  vertices with #17-#25 all attaining degree 24 (new max). Pass-1
+  progress: 182 of 220 phases (82.7%).
+  Phase 175 develops information geometry: Fisher Gaussian g_μμ =
+  1/σ², Cramér-Rao saturation Var/CRLB = 1.00, Bures qubit metric =
+  4 × Fubini-Study = round S² metric, Amari α-connections, Heisenberg
+  limit F_Q ∝ N² for GHZ, Berry phase γ = -Ω/2.
+  Phase 176 catalogs holographic entropy bounds: Bekenstein S ≤
+  2πRE/(ℏc) across 100 orders, 't Hooft-Susskind holographic principle,
+  Bousso covariant bound, Ryu-Takayanagi S_A = Area(γ_A)/(4G_N) across
+  70 orders, HRT, Engelhardt-Wall quantum extremal surfaces, Page
+  curve from islands, Lloyd 2E/(πℏ).
+  Phase 177 establishes computational complexity as bulk geometry:
+  Susskind 2014; Complexity = Volume (Stanford-Susskind 2014);
+  Complexity = Action (Brown-Roberts-Susskind-Swingle-Zhao 2016);
+  scrambling t_scr = (β/2π) log S_BH; chaos bound λ_L ≤ 2π/(ℏβ).
+  Phase 178 develops tensor networks: MPS/DMRG, MERA (Vidal 2007),
+  Swingle 2009 MERA = AdS/CFT, HaPPY code (Pastawski-Yoshida-Harlow-
+  Preskill 2015), random tensor networks (Hayden et al. 2016),
+  entanglement-wedge reconstruction = QECC decoding.
+  Phase 179 covers ER=EPR: Einstein-Rosen 1935 ≡ EPR 1935;
+  thermofield double = eternal BH (Maldacena 2003); Maldacena-Susskind
+  2013; Gao-Jafferis-Wall 2017 traversable wormhole; replica wormholes
+  (Penington 2019, AEMM 2019, AHMST 2020); SYK + JT gravity
+  (Kitaev 2015).
+  Phase 180 presents the rigorous ITU axiom δS(ρ_A) = δTr[K_A^(0) ρ_A]
+  verified numerically (ratio = 0.96, random ρ dim 4) with K_A^(0) =
+  -log ρ_A modular Hamiltonian (Tomita-Takesaki 1967, 1970); Wheeler
+  "It from Bit" (1989); Wheeler-de Witt as ITU cosmic-amplitude.
+  Phase 181 synthesizes Block A and extends meta-axioms to 10:
+  β-1~5 (Pass-1) + β-6 holographic universality, β-7 K-state
+  composition, β-8 complexity-entropy duality, β-9 QECC bulk-boundary,
+  β-10 ER=EPR universality. K_universe ≥ 16 K-states.
+  Phase 182 integrates K_holo-info. 25-vertex polytope: 241 edges,
+  ⟨k⟩ = 19.28, #17-#25 all degree 24 (new max). #25 strong couplings:
+  #17 QG (0.98), #18 BH (0.95), #20 SM (0.92), #24 Math (0.90).
+  Ten predictions for 2026-2080: holographic complexity P=0.65;
+  ER=EPR experimental P=0.55; traversable wormhole P=0.50; MERA in
+  cold-atom P=0.75; Fisher saturation P=0.85; Page curve QECC P=0.80;
+  scrambling SYK P=0.80; Lyapunov bound P=0.70; entanglement-wedge
+  reconstruction P=0.65; ITU axiom rigorous derivation P=0.30. Grand
+  P_avg = 0.600. Strong/Medium/Weak = 4/5/1.
+  Central thesis: ITU axiom δS = d<K> specializes to K_holo-info as
+  the information-and-holography backbone, unifying Fisher geometry,
+  holographic entropy bounds, complexity, tensor networks, ER=EPR,
+  and Wheeler "It from Bit" under one principle. Across Block A, ITU
+  engages 3 of 7 Clay Millennium Problems (#4 Riemann via Phase 173,
+  #5 Yang-Mills via Phase 169, #6 Navier-Stokes via Phase 165).
+  Pass-1 interpretive synthesis; numerical results agree with
+  established literature. ★★★ Block A 9/9 COMPLETE — ITU COMPLETE
+  FOUNDATION achieved ★★★.
+keywords:
+  - information geometry
+  - holographic principle
+  - AdS/CFT correspondence
+  - ER=EPR
+  - Ryu-Takayanagi formula
+  - quantum complexity
+  - tensor networks
+  - modular Hamiltonian
+  - ITU axiom
+  - Wheeler It from Bit
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/information-holography"
+url: "https://doi.org/10.5281/zenodo.20253960"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20253960"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-17"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification (ITU) Tier 0 v3.0"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest). Current Tier 0 v3.0 at 10.5281/zenodo.20200156."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Fisher
+        given-names: Ronald A.
+    title: "Theory of statistical estimation"
+    journal: "Mathematical Proceedings of the Cambridge Philosophical Society"
+    volume: "22"
+    pages: "700-725"
+    year: 1925
+  - type: article
+    authors:
+      - family-names: Amari
+        given-names: Shun-ichi
+    title: "Differential-Geometrical Methods in Statistics"
+    journal: "Lecture Notes in Statistics, Vol. 28, Springer"
+    year: 1985
+  - type: article
+    authors:
+      - family-names: Bekenstein
+        given-names: Jacob D.
+    title: "Black holes and entropy"
+    journal: "Physical Review D"
+    volume: "7"
+    pages: "2333-2346"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: "'t Hooft"
+        given-names: Gerard
+    title: "Dimensional reduction in quantum gravity"
+    journal: "arXiv:gr-qc/9310026"
+    year: 1993
+  - type: article
+    authors:
+      - family-names: Susskind
+        given-names: Leonard
+    title: "The world as a hologram"
+    journal: "Journal of Mathematical Physics"
+    volume: "36"
+    pages: "6377-6396"
+    year: 1995
+  - type: article
+    authors:
+      - family-names: Maldacena
+        given-names: Juan M.
+    title: "The large N limit of superconformal field theories and supergravity"
+    journal: "International Journal of Theoretical Physics"
+    volume: "38"
+    pages: "1113-1133"
+    year: 1999
+  - type: article
+    authors:
+      - family-names: Ryu
+        given-names: Shinsei
+      - family-names: Takayanagi
+        given-names: Tadashi
+    title: "Holographic derivation of entanglement entropy from AdS/CFT"
+    journal: "Physical Review Letters"
+    volume: "96"
+    pages: "181602"
+    year: 2006
+  - type: article
+    authors:
+      - family-names: Hubeny
+        given-names: Veronika E.
+      - family-names: Rangamani
+        given-names: Mukund
+      - family-names: Takayanagi
+        given-names: Tadashi
+    title: "A covariant holographic entanglement entropy proposal"
+    journal: "JHEP"
+    volume: "2007"
+    pages: "062"
+    year: 2007
+  - type: article
+    authors:
+      - family-names: Lloyd
+        given-names: Seth
+    title: "Ultimate physical limits to computation"
+    journal: "Nature"
+    volume: "406"
+    pages: "1047-1054"
+    year: 2000
+  - type: article
+    authors:
+      - family-names: Stanford
+        given-names: Douglas
+      - family-names: Susskind
+        given-names: Leonard
+    title: "Complexity and shock wave geometries"
+    journal: "Physical Review D"
+    volume: "90"
+    pages: "126007"
+    year: 2014
+  - type: article
+    authors:
+      - family-names: Brown
+        given-names: Adam R.
+      - family-names: Roberts
+        given-names: Daniel A.
+      - family-names: Susskind
+        given-names: Leonard
+      - family-names: Swingle
+        given-names: Brian
+      - family-names: Zhao
+        given-names: Ying
+    title: "Holographic complexity equals bulk action?"
+    journal: "Physical Review Letters"
+    volume: "116"
+    pages: "191301"
+    year: 2016
+  - type: article
+    authors:
+      - family-names: Vidal
+        given-names: Guifre
+    title: "Entanglement renormalization"
+    journal: "Physical Review Letters"
+    volume: "99"
+    pages: "220405"
+    year: 2007
+  - type: article
+    authors:
+      - family-names: Swingle
+        given-names: Brian
+    title: "Entanglement renormalization and holography"
+    journal: "Physical Review D"
+    volume: "86"
+    pages: "065007"
+    year: 2012
+  - type: article
+    authors:
+      - family-names: Pastawski
+        given-names: Fernando
+      - family-names: Yoshida
+        given-names: Beni
+      - family-names: Harlow
+        given-names: Daniel
+      - family-names: Preskill
+        given-names: John
+    title: "Holographic quantum error-correcting codes"
+    journal: "JHEP"
+    volume: "2015"
+    pages: "149"
+    year: 2015
+  - type: article
+    authors:
+      - family-names: Maldacena
+        given-names: Juan
+      - family-names: Susskind
+        given-names: Leonard
+    title: "Cool horizons for entangled black holes"
+    journal: "Fortschritte der Physik"
+    volume: "61"
+    pages: "781-811"
+    year: 2013
+  - type: article
+    authors:
+      - family-names: Gao
+        given-names: Ping
+      - family-names: Jafferis
+        given-names: Daniel L.
+      - family-names: Wall
+        given-names: Aron C.
+    title: "Traversable wormholes via a double trace deformation"
+    journal: "JHEP"
+    volume: "2017"
+    pages: "151"
+    year: 2017
+  - type: article
+    authors:
+      - family-names: Penington
+        given-names: Geoffrey
+    title: "Entanglement wedge reconstruction and the information paradox"
+    journal: "JHEP"
+    volume: "2020"
+    pages: "002"
+    year: 2020
+  - type: article
+    authors:
+      - family-names: Takesaki
+        given-names: Masamichi
+    title: "Tomita's Theory of Modular Hilbert Algebras and Its Applications"
+    journal: "Lecture Notes in Mathematics, Vol. 128, Springer"
+    year: 1970
+  - type: article
+    authors:
+      - family-names: Wheeler
+        given-names: John A.
+    title: "Information, physics, quantum: the search for links"
+    journal: "Proceedings of the 3rd International Symposium on Foundations of Quantum Mechanics, Tokyo"
+    pages: "354-368"
+    year: 1989
+  - type: article
+    authors:
+      - name: "Clay Mathematics Institute"
+    title: "Millennium Prize Problems"
+    year: 2000

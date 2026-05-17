@@ -1,0 +1,69 @@
+{
+  "phase": 175,
+  "title": "Information geometry — Fisher metric + Amari + Bures",
+  "tier1_paper": "#25 Information Geometry & Holography (phase 1/8) — BLOCK A FINALE",
+  "tests": {
+    "fisher_gaussian": {
+      "mu_true": 1.0,
+      "sigma_true": 2.0,
+      "g_mu_mu_numerical": 0.25045091378560597,
+      "g_mu_mu_theory": 0.25,
+      "g_sigma_sigma_numerical": 0.49978790029933257,
+      "g_sigma_sigma_theory": 0.5,
+      "g_mu_sigma_numerical": 4.34568670211792e-05,
+      "g_mu_sigma_theory": 0.0
+    },
+    "cramer_rao": {
+      "N": 100,
+      "n_trials": 5000,
+      "CRLB": 0.04,
+      "numerical_variance": 0.040943128012686646,
+      "ratio": 1.023578200317166
+    },
+    "bures_metric_qubit": {
+      "form": "g_Bures = dθ² + sin²(θ) dφ²",
+      "factor_vs_Fubini_Study": 4,
+      "pure_state": "Round metric on S²"
+    },
+    "thermodynamic_fisher": {
+      "form": "Fisher in β = Var(H)",
+      "two_level_epsilon": 1.0,
+      "beta_range": [
+        0.1,
+        5.0
+      ],
+      "max_variance": 0.24937604019289197
+    },
+    "heisenberg_limit": {
+      "SQL_F_Q": "∝ N (product state)",
+      "Heisenberg_F_Q": "∝ N² (entangled GHZ)",
+      "gain_at_N_10": 10.0,
+      "physics_examples": "LIGO interferometry, atomic clocks, quantum sensing"
+    },
+    "berry_phase": {
+      "theta_cone_deg": 59.99999999999999,
+      "solid_angle_sr": 3.1415926535897922,
+      "gamma_berry_rad": -0.7853981633974481,
+      "gamma_berry_deg": -44.999999999999986
+    }
+  },
+  "itu_interpretation": {
+    "Fisher_metric": "K_info Riemannian metric",
+    "Cramer_Rao": "K_info estimation lower bound",
+    "Amari_alpha_connections": "K_info dual connection family (e/m)",
+    "Bures_metric": "K_quantum Riemannian (Fisher quantum version)",
+    "Heisenberg_limit": "K_quantum metrology scaling with entanglement",
+    "thermodynamic_Fisher": "K_stat information geometry (Var(H) × β²)",
+    "Berry_phase": "K_quantum geometric phase",
+    "ITU_axiom_geometric": "δS = Fisher × covariant ⟨K⟩"
+  },
+  "key_findings": [
+    "Gaussian Fisher metric: g_μμ = 1/σ² = 0.2500 (verified numerically)",
+    "Cramér-Rao saturated by sample mean: Var/CRLB = 1.024",
+    "Bures metric for qubit = 4 × Fubini-Study = round metric on S²",
+    "Thermodynamic Fisher = Var(H) = specific heat × T² (Phase 143 link)",
+    "Heisenberg limit: entangled GHZ → F_Q ∝ N² (factor N improvement over SQL)",
+    "Berry phase γ = -Ω/2 = -45.00° for 60° cone",
+    "ITU axiom δS = δ⟨K⟩ has geometric form via Fisher and covariant derivative"
+  ]
+}

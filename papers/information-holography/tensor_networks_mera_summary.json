@@ -1,0 +1,101 @@
+{
+  "phase": 178,
+  "title": "Tensor networks — MPS + MERA + HaPPY + holography",
+  "tier1_paper": "#25 Information & Holography (phase 4/8) — BLOCK A FINALE",
+  "tests": {
+    "ising_tfim_entanglement": {
+      "N": 10,
+      "L_cuts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "S_critical_h_1": [
+        0.26485952038244853,
+        0.32877245124830523,
+        0.3593070151265377,
+        0.37441332616173606,
+        0.37905240541800833,
+        0.37441332616173484,
+        0.3593070151265391,
+        0.32877245124830434,
+        0.26485952038244853
+      ],
+      "S_gapped_h_2": [
+        0.08267677452743838,
+        0.08799425485151222,
+        0.08870220667145931,
+        0.08881641140488442,
+        0.08883311565520316,
+        0.08881641140488422,
+        0.08870220667145884,
+        0.08799425485151208,
+        0.08267677452743914
+      ],
+      "critical_CFT_c_fit": 0.5845384845416496,
+      "theory_c_Ising": 0.5,
+      "gapped_S_max": 0.08883311565520316,
+      "area_law_bound": 0.6931471805599453
+    },
+    "bond_dimension_scaling": {
+      "product_state": "D = 1",
+      "gapped_1D": "D = const (area law)",
+      "critical_1D_CFT": "D ~ L^{c/6}",
+      "volume_law": "D ~ exp(L)"
+    },
+    "happy_code": {
+      "construction": "hyperbolic pentagonal tiling",
+      "tensor_type": "6-leg perfect tensor (or 5-leg)",
+      "bulk_qubits": "logical",
+      "boundary_qubits": "physical",
+      "feature": "RT formula + QECC unified"
+    },
+    "page_entropy": [
+      {
+        "N": 4,
+        "L": 2,
+        "page_entropy": 0.8862943611198906
+      },
+      {
+        "N": 6,
+        "L": 3,
+        "page_entropy": 1.5794415416798357
+      },
+      {
+        "N": 8,
+        "L": 4,
+        "page_entropy": 2.272588722239781
+      },
+      {
+        "N": 10,
+        "L": 5,
+        "page_entropy": 2.9657359027997265
+      }
+    ]
+  },
+  "itu_interpretation": {
+    "tensor_networks": "K_info geometric structure",
+    "MPS_DMRG": "K_info 1D area-law efficient",
+    "PEPS": "K_info 2D area-law",
+    "MERA": "K_info hierarchical RG",
+    "Swingle_holographic": "K_tensor ↔ K_geom AdS bulk",
+    "HaPPY_code": "K_info + K_holo + QECC unified",
+    "random_tensors": "K_holo universality",
+    "bulk_reconstruction": "K_geom ← K_info QECC decoding"
+  },
+  "key_findings": [
+    "1D TFIM N=10: critical (h=1) S grows with L (log scaling); gapped (h=2) saturates",
+    "Bond dim scaling: gapped const, critical L^c/6, volume exp(L)",
+    "MERA (Vidal 2007) = log-entanglement = critical CFT representation",
+    "Swingle 2009: MERA = AdS/CFT discrete (causal cone ↔ AdS geodesic)",
+    "HaPPY (2015): hyperbolic QECC implements RT formula",
+    "Random tensors (Hayden-Penington-Vasudevan 2016) reproduce Page curve",
+    "AdS/CFT = QECC (bulk reconstruction = entanglement wedge decoding)"
+  ]
+}
