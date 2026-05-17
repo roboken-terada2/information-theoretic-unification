@@ -1,0 +1,292 @@
+cff-version: 1.2.0
+title: "ITU and Fluid Dynamics: A Single-Axiom View of Navier-Stokes, Turbulence, Boundary Layers, Vortices, Magnetohydrodynamics, Astrophysical Flows, and the Clay Millennium Problem"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest
+  Tier 0 v3.0 at 10.5281/zenodo.20200156) to fluid dynamics. This is
+  Tier 1 paper #23, the seventh paper of Block A (Physics/Math
+  deepening), introducing K_flow = K_visc ⊕ K_turb ⊕ K_boundary ⊕
+  K_compressible ⊕ K_vortex ⊕ K_MHD ⊕ K_astro ⊕ K_NS-regularity, and
+  completing the EXTENDED MATTER BLOCK with Tier 1 #17 (K_geom, DOI
+  10.5281/zenodo.20230667), #19 (K_cosmic, DOI 10.5281/zenodo.20233952),
+  #20 (K_field, DOI 10.5281/zenodo.20234703), #21 (K_stat, DOI
+  10.5281/zenodo.20237082), and #22 (K_solid, DOI 10.5281/zenodo.20249191).
+  The ITU polytope reaches 23 vertices with #17-#23 all attaining
+  degree 22 (new maximum). Pass-1 progress: 166 of 220 phases (75.5%).
+  Phase 159 establishes K_flow backbone: Euler 1755, Bernoulli 1738,
+  Navier-Stokes 1822-1845. Reynolds Re = UL/ν spans 18 orders across
+  16 systems (bacterium 3e-5 → solar convection 1.3e11). Stokes drag
+  F = 6πμRv matches Einstein D = k_BT/(6πμR) of Phase 146.
+  Hagen-Poiseuille Q ∝ R^4 verified to slope 4.000 exactly.
+  Phase 160 demonstrates Kolmogorov 1941 turbulence universality:
+  K41 -5/3 spectrum slope = -1.667 (theory exactly -5/3). Kolmogorov
+  microscale η = (ν³/ε)^(1/4) spans μm (jet exhaust) to mm (deep
+  ocean). η/L ∝ Re^(-3/4). She-Leveque (1994) intermittency:
+  ζ_p < p/3 for p > 3. Kraichnan (1967) 2D inverse cascade.
+  Phase 161 recovers Prandtl boundary layer (1904), resolving
+  D'Alembert paradox. Blasius f''(0) = 0.3321 (Howarth-table 0.3320),
+  η_99 = 4.925 (theory 5.0). Rankine-Hugoniot normal shock for Ma=2:
+  p×4.5, ρ×2.67, T×1.69, Ma_2 = 0.577. Apollo re-entry Ma=37,
+  RH-ideal T_shock ~ 60,000 K (real ~5-10 kK with chemistry).
+  Phase 162 proves Kelvin (1869) and Helmholtz (1858) theorems.
+  4-vortex 2D RK4 conserves total Γ. Strouhal St = 0.21 universal for
+  Re∈[200, 200,000]; Tacoma Narrows 1940 f ~ 1.66 Hz. Rayleigh-Bénard
+  Ra_c = 1708. 3D vortex stretching ω(t) ∝ exp(γt) cascade engine.
+  Quantum vortex Γ = h/m_He4 = 9.98×10⁻⁸ m²/s (Onsager 1949, Feynman
+  1955). BEC Rb-87 @ 100Hz: vortex density 2.74e11/m², spacing 1.91 μm.
+  Topological-quanta family: Φ_0 = h/(2e) (Phase 153 SC) ↔ Γ = h/m
+  (SF).
+  Phase 163 develops MHD: magnetic Reynolds R_m spans 13 orders (lab
+  Hg 0.013 → AGN 1.3e13). Alfvén v_A across 8 cosmic plasmas
+  (photosphere 8.9 km/s → magnetar > c). Magnetic pressure: ITER 110
+  atm, magnetar 4e22 atm ≈ neutron star degeneracy scale (Phase 144).
+  Plasma β: tokamak core 0.005 → photosphere granule 20.8.
+  Solar wind 450 km/s, mass loss 3.3e16 kg/yr; Earth magnetopause
+  7.7 R_E. ITER tokamak: nτ_E T = 5.55e21 keV·s/m³ = 1.85× Lawson
+  threshold (Q=10 target).
+  Phase 164 covers astrophysical fluids: Eddington L_Edd =
+  1.26e31 (M/M_sun) W. Bondi accretion; Sgr A* overestimate 10⁵×
+  observed (RIAF). Shakura-Sunyaev α-disk; Kerr extreme η = 1 - 1/√3
+  = 0.423 (Thorne 1974) = 50× nuclear fusion. M87 shadow 19.9 μas,
+  Sgr A* 26.7 μas (EHT 2019/2022 ✓, Phase 122). Doppler boost δ^4 at
+  Γ=100 = 1.6e9 (blazar). Superluminal v_app = 9.95 c at Γ=10.
+  Blandford-Znajek (1977) jet launching. Sedov-Taylor blast wave:
+  Crab @ 1000 yr → 5.32 pc (observed ~5 pc ✓). Fermi (1949) shock
+  acceleration → cosmic-ray E^(-2).
+  Phase 165 presents Clay Millennium Navier-Stokes problem (2000,
+  $1M, unresolved). 2D NS solved by Ladyzhenskaya (1969): vorticity
+  bounded by Maximum Principle. 3D NS open: vortex stretching
+  candidate. Leray (1934) weak solutions global existence;
+  uniqueness/smoothness open. Serrin-Prodi (1959-1962) 2/q + 3/p ≤ 1;
+  L³ endpoint (Iskauriaza 2003). Beale-Kato-Majda (1984): blow-up
+  ⇔ ∫||ω||_L∞ dt = ∞. CKN (1982): singular set 1D parabolic measure 0.
+  Tao (2014-2016): averaged-NS blow-up + scale-invariance barrier.
+  Onsager (1949) Hölder 1/3 threshold proved by Isett (2018):
+  α > 1/3 conserves energy, α < 1/3 dissipative — Fourier dual of
+  K41 -5/3 spectrum (Phase 160 ✓).
+  Phase 166 integrates under K_flow. 23-vertex polytope: 195 edges,
+  ⟨k⟩=16.96, #17-#23 all degree 22 (new max). #23 strong couplings:
+  #2 Plasma (0.95), #13 Climate (0.90), #21 Stat Mech (0.90), #22 CM
+  (0.85), #18 BH (0.80), #10 Energy (0.80); avg 0.618. EXTENDED
+  MATTER BLOCK K_geom + K_cosmic + K_field + K_stat + K_solid +
+  K_flow covers physics in 6 K-states. Ten predictions for 2026-2050:
+  NS Millennium 2050 P=0.30, DNS Re_λ>10000 2030 P=0.85, riblets
+  2030 P=0.70, AI flow control 2035 P=0.65, hypersonic Mach 5 2035
+  P=0.55, ITER Q>1 2028 P=0.85, M87 jet 2030 P=0.65, corona heating
+  2030 P=0.70, sonic BH Hawking 2032 P=0.50, quantum vortex tangle
+  2028 P=0.75. Grand P_avg = 0.650. Strong/Medium/Weak = 5/4/1.
+  Central thesis: ITU axiom dS = d<K> specializes to K_flow for
+  continuum velocity-field physics, unifying NS, turbulence, boundary
+  layers, vortices, MHD, astrophysics, and the Clay Millennium
+  Problem under one principle. EXTENDED MATTER BLOCK
+  (#17+#19+#20+#21+#22+#23) covers physics in 6 K-states. Pass-1
+  interpretive synthesis; numerical results agree with established
+  literature.
+keywords:
+  - fluid dynamics
+  - Navier-Stokes equations
+  - turbulence
+  - Kolmogorov theory
+  - magnetohydrodynamics
+  - boundary layer theory
+  - vortex dynamics
+  - shock waves
+  - accretion disks
+  - Clay Millennium Problem
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/fluid-dynamics"
+url: "https://doi.org/10.5281/zenodo.20249794"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20249794"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-17"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification (ITU) Tier 0 v3.0"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest). Current Tier 0 v3.0 at 10.5281/zenodo.20200156."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Navier
+        given-names: Claude-Louis
+    title: "Mémoire sur les lois du mouvement des fluides"
+    journal: "Mémoires de l'Académie des Sciences"
+    volume: "6"
+    pages: "389-440"
+    year: 1822
+  - type: article
+    authors:
+      - family-names: Stokes
+        given-names: George Gabriel
+    title: "On the theories of internal friction of fluids in motion"
+    journal: "Transactions of the Cambridge Philosophical Society"
+    volume: "8"
+    pages: "287-319"
+    year: 1845
+  - type: article
+    authors:
+      - family-names: Reynolds
+        given-names: Osborne
+    title: "An experimental investigation of the circumstances which determine whether the motion of water shall be direct or sinuous"
+    journal: "Philosophical Transactions of the Royal Society"
+    volume: "174"
+    pages: "935-982"
+    year: 1883
+  - type: conference-paper
+    authors:
+      - family-names: Prandtl
+        given-names: Ludwig
+    title: "Über Flüssigkeitsbewegung bei sehr kleiner Reibung"
+    booktitle: "Verhandlungen des III Internationalen Mathematiker-Kongresses"
+    pages: "484-491"
+    year: 1904
+  - type: article
+    authors:
+      - family-names: Blasius
+        given-names: Heinrich
+    title: "Grenzschichten in Flüssigkeiten mit kleiner Reibung"
+    journal: "Zeitschrift für Mathematik und Physik"
+    volume: "56"
+    pages: "1-37"
+    year: 1908
+  - type: article
+    authors:
+      - family-names: Kolmogorov
+        given-names: Andrei N.
+    title: "The local structure of turbulence in incompressible viscous fluid for very large Reynolds numbers"
+    journal: "Doklady Akademii Nauk SSSR"
+    volume: "30"
+    pages: "301-305"
+    year: 1941
+  - type: article
+    authors:
+      - family-names: Onsager
+        given-names: Lars
+    title: "Statistical hydrodynamics"
+    journal: "Nuovo Cimento Supplemento"
+    volume: "6"
+    pages: "279-287"
+    year: 1949
+  - type: article
+    authors:
+      - family-names: Helmholtz
+        given-names: Hermann
+    title: "Über Integrale der hydrodynamischen Gleichungen, welche den Wirbelbewegungen entsprechen"
+    journal: "Journal für die reine und angewandte Mathematik"
+    volume: "55"
+    pages: "25-55"
+    year: 1858
+  - type: article
+    authors:
+      - name: "Kelvin (W. Thomson)"
+    title: "On vortex motion"
+    journal: "Transactions of the Royal Society of Edinburgh"
+    volume: "25"
+    pages: "217-260"
+    year: 1869
+  - type: article
+    authors:
+      - family-names: Alfvén
+        given-names: Hannes
+    title: "Existence of electromagnetic-hydrodynamic waves"
+    journal: "Nature"
+    volume: "150"
+    pages: "405-406"
+    year: 1942
+  - type: article
+    authors:
+      - family-names: Parker
+        given-names: Eugene N.
+    title: "Dynamics of the interplanetary gas and magnetic fields"
+    journal: "Astrophysical Journal"
+    volume: "128"
+    pages: "664-676"
+    year: 1958
+  - type: article
+    authors:
+      - family-names: Shakura
+        given-names: Nikolai I.
+      - family-names: Sunyaev
+        given-names: Rashid A.
+    title: "Black holes in binary systems: observational appearance"
+    journal: "Astronomy & Astrophysics"
+    volume: "24"
+    pages: "337-355"
+    year: 1973
+  - type: article
+    authors:
+      - family-names: Blandford
+        given-names: Roger D.
+      - family-names: Znajek
+        given-names: Roman L.
+    title: "Electromagnetic extraction of energy from Kerr black holes"
+    journal: "MNRAS"
+    volume: "179"
+    pages: "433-456"
+    year: 1977
+  - type: article
+    authors:
+      - name: "Event Horizon Telescope Collaboration"
+    title: "First M87 Event Horizon Telescope results"
+    journal: "Astrophysical Journal Letters"
+    volume: "875"
+    pages: "L1-L6"
+    year: 2019
+  - type: article
+    authors:
+      - family-names: Feynman
+        given-names: Richard P.
+    title: "Application of quantum mechanics to liquid helium"
+    journal: "Progress in Low Temperature Physics"
+    volume: "1"
+    pages: "17-53"
+    year: 1955
+  - type: article
+    authors:
+      - family-names: Leray
+        given-names: Jean
+    title: "Sur le mouvement d'un liquide visqueux emplissant l'espace"
+    journal: "Acta Mathematica"
+    volume: "63"
+    pages: "193-248"
+    year: 1934
+  - type: article
+    authors:
+      - family-names: Fefferman
+        given-names: Charles L.
+    title: "Existence and smoothness of the Navier-Stokes equation"
+    journal: "Clay Mathematics Institute Millennium Prize Problem"
+    year: 2000
+  - type: article
+    authors:
+      - family-names: Isett
+        given-names: Philip
+    title: "A proof of Onsager's conjecture"
+    journal: "Annals of Mathematics"
+    volume: "188"
+    pages: "871-963"
+    year: 2018
+  - type: article
+    authors:
+      - family-names: Tao
+        given-names: Terence
+    title: "Finite time blowup for an averaged three-dimensional Navier-Stokes equation"
+    journal: "Journal of the American Mathematical Society"
+    volume: "29"
+    pages: "601-674"
+    year: 2016

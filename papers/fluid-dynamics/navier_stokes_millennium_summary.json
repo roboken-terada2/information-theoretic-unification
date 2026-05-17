@@ -1,0 +1,85 @@
+{
+  "phase": 165,
+  "title": "Navier-Stokes Millennium Problem + mathematical existence",
+  "tier1_paper": "#23 Fluid Dynamics (phase 7/8)",
+  "tests": {
+    "2D_max_principle": {
+      "initial_omega_max": 1.0,
+      "final_omega_max": 0.16666382158759552,
+      "verdict": "bounded (Ladyzhenskaya 1969)"
+    },
+    "3D_vortex_stretching": {
+      "sigma_stretch": 1.0,
+      "nu": 0.01,
+      "k_typical": 10.0,
+      "sigma_eff": 0.0,
+      "blow_up_candidate": false
+    },
+    "BKM_scenarios": {
+      "log_divergence_integral": 10.066613367329872,
+      "sqrt_finite_integral": 2.000310810232431,
+      "bounded_integral": 0.999
+    },
+    "serrin_condition": {
+      "p_endpoint": 3,
+      "iskauriaza_seregin_shverak_2003": "L³ endpoint regularity",
+      "critical_line": "2/q + 3/p = 1"
+    },
+    "onsager_threshold": {
+      "alpha_critical": 0.3333333333333333,
+      "constantin_e_titi_1994": "α > 1/3 conserve energy",
+      "isett_2018": "α < 1/3 dissipative weak solutions",
+      "K41_dual": "E(k) ∝ k^(-5/3) ↔ α = 1/3"
+    },
+    "clay_millennium_problems": [
+      [
+        "P vs NP",
+        "unresolved"
+      ],
+      [
+        "Hodge Conjecture",
+        "unresolved"
+      ],
+      [
+        "Poincaré Conjecture",
+        "Perelman 2003 ✓"
+      ],
+      [
+        "Riemann Hypothesis",
+        "unresolved"
+      ],
+      [
+        "Yang-Mills mass gap",
+        "unresolved"
+      ],
+      [
+        "Navier-Stokes (THIS PHASE)",
+        "unresolved ★"
+      ],
+      [
+        "Birch-Swinnerton-Dyer",
+        "unresolved"
+      ]
+    ]
+  },
+  "itu_interpretation": {
+    "Millennium_NS": "K_flow well-posedness question",
+    "2D_resolved": "K_flow + 2D topological constraint (no blow-up)",
+    "vortex_stretching": "K_flow 3D non-linear source of K_singular",
+    "Leray_weak": "K_flow weak K-state global existence",
+    "Serrin_condition": "K_flow regularity sufficient",
+    "BKM": "K_flow blow-up ⇔ vorticity concentration",
+    "CKN": "K_flow singular set thin",
+    "Tao_program": "K_flow scale-invariance barrier",
+    "Onsager_1_3": "K_flow energy regularity threshold (= K41 dual)"
+  },
+  "key_findings": [
+    "2D NS: ω bounded by Maximum Principle (Ladyzhenskaya 1969)",
+    "3D NS: vortex stretching σ vs viscosity ν k² competition — open",
+    "BKM criterion: blow-up ⇔ ∫||ω||_L∞ dt = ∞",
+    "Serrin 2/q + 3/p ≤ 1; L³ endpoint (Iskauriaza 2003)",
+    "CKN: singular set has 1D parabolic Hausdorff measure 0",
+    "Onsager 1/3 = K41 -5/3 dual (Isett 2018 proved both directions)",
+    "Clay $1M prize for resolution; ITU compatible with either outcome"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "phase": 162,
+  "title": "Vortex dynamics — Helmholtz + Kelvin + Kármán + quantum vortex",
+  "tier1_paper": "#23 Fluid Dynamics (phase 4/8)",
+  "tests": {
+    "point_vortex_2D": {
+      "N": 4,
+      "Gammas": [
+        1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "Gamma_total": 0.0,
+      "T_end": 20.0,
+      "n_steps": 2000
+    },
+    "strouhal_cylinder": {
+      "universal_St": 0.21,
+      "Re_range_universal": [
+        200,
+        200000
+      ],
+      "examples": [
+        {
+          "D_m": 0.01,
+          "U_m_per_s": 1.0,
+          "Re": 666.6666666666666,
+          "f_Hz": 21.0
+        },
+        {
+          "D_m": 0.05,
+          "U_m_per_s": 5.0,
+          "Re": 16666.666666666668,
+          "f_Hz": 21.0
+        },
+        {
+          "D_m": 0.5,
+          "U_m_per_s": 10,
+          "Re": 333333.3333333333,
+          "f_Hz": 4.2
+        },
+        {
+          "D_m": 1.0,
+          "U_m_per_s": 5.0,
+          "Re": 333333.3333333333,
+          "f_Hz": 1.05
+        },
+        {
+          "D_m": 10.0,
+          "U_m_per_s": 20.0,
+          "Re": 13333333.333333332,
+          "f_Hz": 0.42000000000000004
+        }
+      ],
+      "tacoma_narrows_1940": {
+        "D_m": 2.4,
+        "U_m_per_s": 19,
+        "f_estimated_Hz": 1.6624999999999999
+      }
+    },
+    "rayleigh_benard_Rac": 1708,
+    "vortex_stretching_3D": {
+      "rate_per_s": 1.0,
+      "amplification_at_t_5": 148.4131591025766
+    },
+    "He4_circulation_quantum": {
+      "Gamma_m2_per_s": 9.975781785680994e-08,
+      "reference": 9.97e-08
+    },
+    "BEC_vortex_lattice_Rb87": {
+      "rotation_Hz": 100,
+      "vortex_density_per_m2": 273982096575.75623,
+      "inter_vortex_spacing_um": 1.91046421655896
+    },
+    "universal_topological_quanta": {
+      "SC_flux_Phi0_Wb": 2.0678338484619295e-15,
+      "SF_circulation_He4_m2_per_s": 9.975781785680994e-08,
+      "type": "h / (charge × mass)"
+    }
+  },
+  "itu_interpretation": {
+    "vorticity": "K_flow curl topological",
+    "vortex_stretching_3D": "K_flow 3D non-linearity engine",
+    "2D_omega_conservation": "K_vortex topological conservation",
+    "Helmholtz": "K_vortex invariance",
+    "Kelvin_circulation": "K_vortex Stokes-dual invariant",
+    "Karman_St": "K_vortex universal frequency",
+    "KH_instability": "K_flow shear interface instability",
+    "Benard_Rac": "K_flow buoyancy dissipative structure",
+    "quantum_vortex": "K_BE topological defect (geometric quantization)",
+    "Phi_0_vs_Gamma": "Universal h/(charge × mass) family"
+  },
+  "key_findings": [
+    "Point vortex 2D conservation: Γ_total = 0 preserved",
+    "Strouhal St = 0.21 universal for Re∈[200, 2e5]",
+    "Tacoma Narrows 1940: f_shedding ~ 1.66 Hz matched torsional mode",
+    "Bénard Ra_c = 1708 (rigid-rigid boundaries)",
+    "3D vortex stretching: ω(t) ∝ exp(γt) — cascade engine",
+    "He-4 SF Γ = h/m_He4 = 9.976e-08 m²/s (Onsager-Feynman)",
+    "SC Φ_0 = h/(2e) and SF Γ = h/m_He4 share K_quantum geometric quantization family"
+  ]
+}

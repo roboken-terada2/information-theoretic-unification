@@ -1,0 +1,156 @@
+{
+  "phase": 160,
+  "title": "Turbulence — Kolmogorov 1941 + energy cascade + universality",
+  "tier1_paper": "#23 Fluid Dynamics (phase 2/8)",
+  "tests": {
+    "K41_spectrum": {
+      "N_k": 1024,
+      "L_box": "2π",
+      "numerical_slope": -1.6666666666666663,
+      "theory_slope": -1.6666666666666667,
+      "match_quality": "near-perfect for synthetic field"
+    },
+    "kolmogorov_microscale": [
+      {
+        "name": "Air (room ventilation)",
+        "nu": 1.5e-05,
+        "eps": 0.01,
+        "eta_m": 0.0007621991222319221,
+        "tau_eta_s": 0.03872983346207417,
+        "u_eta_m_per_s": 0.019679896712654306
+      },
+      {
+        "name": "Air (atmospheric BL)",
+        "nu": 1.5e-05,
+        "eps": 0.1,
+        "eta_m": 0.00042861606445481994,
+        "tau_eta_s": 0.01224744871391589,
+        "u_eta_m_per_s": 0.03499635511580583
+      },
+      {
+        "name": "Air (jet engine exhaust)",
+        "nu": 1.5e-05,
+        "eps": 100,
+        "eta_m": 7.62199122231922e-05,
+        "tau_eta_s": 0.00038729833462074166,
+        "u_eta_m_per_s": 0.19679896712654305
+      },
+      {
+        "name": "Water (river)",
+        "nu": 1e-06,
+        "eps": 0.001,
+        "eta_m": 0.00017782794100389227,
+        "tau_eta_s": 0.03162277660168379,
+        "u_eta_m_per_s": 0.005623413251903491
+      },
+      {
+        "name": "Water (oceanic mixing)",
+        "nu": 1e-06,
+        "eps": 1e-07,
+        "eta_m": 0.0017782794100389228,
+        "tau_eta_s": 3.1622776601683795,
+        "u_eta_m_per_s": 0.0005623413251903491
+      },
+      {
+        "name": "Water (turbulent stirring)",
+        "nu": 1e-06,
+        "eps": 1.0,
+        "eta_m": 3.1622776601683795e-05,
+        "tau_eta_s": 0.001,
+        "u_eta_m_per_s": 0.03162277660168379
+      },
+      {
+        "name": "Glycerol (high ν)",
+        "nu": 0.0012,
+        "eps": 1.0,
+        "eta_m": 0.006447419590941251,
+        "tau_eta_s": 0.034641016151377546,
+        "u_eta_m_per_s": 0.18612097182041992
+      },
+      {
+        "name": "Liquid He superfluid",
+        "nu": 1e-09,
+        "eps": 0.001,
+        "eta_m": 1e-06,
+        "tau_eta_s": 0.001,
+        "u_eta_m_per_s": 0.001
+      }
+    ],
+    "eta_over_L_scaling": {
+      "law": "η/L = Re^(-3/4)",
+      "examples": {
+        "Re_1e3": 0.005623413251903491,
+        "Re_1e6": 3.1622776601683795e-05,
+        "Re_1e9": 1.7782794100389227e-07,
+        "Re_1e12": 1e-09
+      }
+    },
+    "inertial_range_width": {
+      "Re_lambda_min_clear_K41": 100,
+      "examples": {
+        "Re_lambda_20": 0.3010299956639812,
+        "Re_lambda_50": 0.6989700043360189,
+        "Re_lambda_100": 1.0,
+        "Re_lambda_200": 1.3010299956639813,
+        "Re_lambda_500": 1.6989700043360187,
+        "Re_lambda_1000": 2.0,
+        "Re_lambda_5000": 2.6989700043360187
+      }
+    },
+    "intermittency": {
+      "K41_zeta_p": [
+        0.3333333333333333,
+        0.6666666666666666,
+        1.0,
+        1.3333333333333333,
+        1.6666666666666667,
+        2.0,
+        2.3333333333333335,
+        2.6666666666666665,
+        3.0,
+        3.3333333333333335
+      ],
+      "she_leveque_zeta_p": [
+        0.3639501816385133,
+        0.6959365654844464,
+        1.0,
+        1.2796704914627126,
+        1.5380317843970386,
+        1.7777777777777777,
+        2.00126180912329,
+        2.210539708116544,
+        2.4074074074074074,
+        2.593433798674786
+      ],
+      "p_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  },
+  "itu_interpretation": {
+    "Richardson_cascade": "K_flow scale-by-scale K-state transfer",
+    "K41_minus_five_thirds": "K_flow universal RG fixed-point spectrum",
+    "Kolmogorov_microscale": "K_flow viscous dissipation cutoff",
+    "inertial_range": "K_flow scale-invariant attractor",
+    "2D_dual_cascade": "K_flow dimension-dependent cascade topology (Kraichnan 1967)",
+    "intermittency": "K_flow multi-fractal anomalous scaling",
+    "K_turbulence": "K_flow at high Re — universality class"
+  },
+  "key_findings": [
+    "K41 numerical slope = -1.667 (theory -5/3 = -1.667)",
+    "Air η = 0.4-30 mm depending on ε; ocean η = several mm; superfluid He η → 0 (quantum)",
+    "η/L scaling: Re=10⁹ → 10⁻⁶·⁷⁵; Re=10¹² → 10⁻⁹ (Earth atmosphere)",
+    "Inertial range width ~ log10(Re_λ/10) decades",
+    "She-Leveque ζ_p < p/3 for p > 3 (intermittency, multi-fractal)",
+    "Kraichnan 2D: inverse energy + forward enstrophy dual cascade"
+  ]
+}

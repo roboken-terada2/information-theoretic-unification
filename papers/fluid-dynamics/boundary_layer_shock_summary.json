@@ -1,0 +1,138 @@
+{
+  "phase": 161,
+  "title": "Boundary layer + compressible flow + shocks",
+  "tier1_paper": "#23 Fluid Dynamics (phase 3/8)",
+  "tests": {
+    "blasius_solution": {
+      "fpp0_numerical": 0.33205733710952345,
+      "fpp0_reference": 0.332,
+      "eta_99_numerical": 4.92462311557789,
+      "eta_99_theory": 5.0
+    },
+    "boundary_layer_thickness": {
+      "U_inf_m_per_s": 30.0,
+      "nu_air": 1.5e-05,
+      "delta_at_x_1m_mm": 3.5355339059327378,
+      "Re_at_x_1m": 2000000.0
+    },
+    "Cf_comparison": {
+      "Re_x_samples": [
+        100000.0,
+        1000000.0,
+        10000000.0,
+        100000000.0
+      ],
+      "Cf_laminar": [
+        0.002099752366351804,
+        0.000664,
+        0.00020997523663518039,
+        6.64e-05
+      ],
+      "Cf_turbulent": [
+        0.005919999999999999,
+        0.003735267479322744,
+        0.0023567944496767036,
+        0.001487036767453671
+      ]
+    },
+    "speed_of_sound": {
+      "T_K": [
+        220,
+        288,
+        300,
+        1000,
+        2500
+      ],
+      "c_m_per_s": [
+        297.3146481423342,
+        340.17407308611865,
+        347.18870949384285,
+        633.8769596696192,
+        1002.2474744293446
+      ]
+    },
+    "rankine_hugoniot": [
+      {
+        "Ma_1": 1.5,
+        "p_ratio": 2.4583333333333335,
+        "rho_ratio": 1.8620689655172413,
+        "T_ratio": 1.3202160493827162,
+        "Ma_2": 0.7010887416930994,
+        "example": "mild supersonic"
+      },
+      {
+        "Ma_1": 2.0,
+        "p_ratio": 4.5,
+        "rho_ratio": 2.666666666666667,
+        "T_ratio": 1.6874999999999998,
+        "Ma_2": 0.5773502691896257,
+        "example": "Concorde Ma=2"
+      },
+      {
+        "Ma_1": 3.0,
+        "p_ratio": 10.333333333333334,
+        "rho_ratio": 3.857142857142857,
+        "T_ratio": 2.6790123456790123,
+        "Ma_2": 0.4751909633114914,
+        "example": "SR-71 cruise"
+      },
+      {
+        "Ma_1": 5.0,
+        "p_ratio": 29.0,
+        "rho_ratio": 5.000000000000001,
+        "T_ratio": 5.799999999999999,
+        "Ma_2": 0.41522739926869984,
+        "example": "hypersonic onset"
+      },
+      {
+        "Ma_1": 10.0,
+        "p_ratio": 116.50000000000001,
+        "rho_ratio": 5.714285714285715,
+        "T_ratio": 20.3875,
+        "Ma_2": 0.3875752730434155,
+        "example": "high hypersonic"
+      },
+      {
+        "Ma_1": 25.0,
+        "p_ratio": 729.0,
+        "rho_ratio": 5.952380952380953,
+        "T_ratio": 122.47199999999998,
+        "Ma_2": 0.37951669503554064,
+        "example": "Earth re-entry"
+      },
+      {
+        "Ma_1": 32.0,
+        "p_ratio": 1194.5,
+        "rho_ratio": 5.9708454810495635,
+        "T_ratio": 200.05541992187497,
+        "Ma_2": 0.37891254591924256,
+        "example": "Apollo re-entry"
+      }
+    ],
+    "apollo_reentry": {
+      "v_m_per_s": 11000.0,
+      "Ma": 36.997840734486594,
+      "T_ambient_K": 220.0,
+      "T_shock_K": 58763.69815783973,
+      "note": "real-gas dissociation/ionization reduces to ~5000-10000 K"
+    }
+  },
+  "itu_interpretation": {
+    "Prandtl_BL": "K_flow wall-boundary constraint",
+    "Blasius": "K_flow boundary-layer universal profile",
+    "Mach": "K_flow / K_sound ratio",
+    "compressibility": "K_density fluctuation",
+    "shock": "K_flow discontinuity",
+    "entropy_production": "K_stat irreversibility (Phase 146)",
+    "wave_drag": "K_flow → K_shock dissipation",
+    "hypersonic": "K_flow + K_chemistry + K_radiation coupling"
+  },
+  "key_findings": [
+    "Blasius f''(0) = 0.3321 (reference 0.3320 ✓)",
+    "η_99 = 4.925 (theory 5.0 ✓)",
+    "BL thickness at x=1m, U=30 m/s: 3.54 mm",
+    "Turbulent C_f > laminar above transition Re ~ 5e5",
+    "Ma=2 normal shock: p×4.5, ρ×2.67, T×1.69, Ma_2=0.577",
+    "Apollo re-entry Ma=37, T_shock ~ 58764 K (RH ideal)"
+  ]
+}
