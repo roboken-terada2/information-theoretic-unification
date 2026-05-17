@@ -1,0 +1,145 @@
+{
+  "phase": 215,
+  "tier1_paper": 30,
+  "block": "B",
+  "paper_in_block": "5/?",
+  "milestone": "★ Pass-1 final Tier 1 paper opening ★",
+  "topic": "DNA + Genome + Central Dogma + K_genome introduction",
+  "central_dogma_Crick_1958": {
+    "DNA replication": "DNA → DNA (semi-conservative, Meselson-Stahl 1958)",
+    "Transcription": "DNA → mRNA (RNA polymerase II)",
+    "Translation": "mRNA → protein (ribosome + tRNA)",
+    "Reverse transcription": "RNA → DNA (Temin-Baltimore 1970, Nobel 1975)",
+    "RNA replication": "RNA → RNA (RNA viruses, e.g. influenza)"
+  },
+  "human_genome": {
+    "size_bp": 3200000000.0,
+    "chromosomes": "22 autosomes + XY",
+    "gene_count_2024": "19,900 (revised down from 100,000 in 1990)",
+    "protein_coding_pct": 2,
+    "non_coding_pct": 98
+  },
+  "genome_composition_pct": {
+    "Protein-coding exons": 2,
+    "Introns + UTRs": 25,
+    "Regulatory elements": 10,
+    "LINE-1 + SINE (Alu)": 45,
+    "LTR retrotransposons": 8,
+    "Other repeats": 7,
+    "Centromere + telomere": 3
+  },
+  "Human_Genome_Project": {
+    "start": 1990,
+    "completion": 2003,
+    "total_cost_USD": 3000000000.0,
+    "joint_announcement_2000": "Clinton + Blair",
+    "Venter_Celera_competition": "1998-2000"
+  },
+  "sequencing_technology_generations": {
+    "Sanger (1st)": {
+      "read_length_bp": 800,
+      "cost_per_genome": 100000000.0,
+      "start_year": 1977
+    },
+    "Illumina (2nd)": {
+      "read_length_bp": 150,
+      "cost_per_genome": 1000.0,
+      "start_year": 2007
+    },
+    "Oxford Nanopore (3rd)": {
+      "read_length_bp": 10000,
+      "cost_per_genome": 1500.0,
+      "start_year": 2015
+    },
+    "PacBio HiFi (3rd)": {
+      "read_length_bp": 15000,
+      "cost_per_genome": 1500.0,
+      "start_year": 2019
+    }
+  },
+  "cost_reduction_factor_1990_to_2024": "~15 million times",
+  "current_cost_USD_2024": 200,
+  "gene_count_history": {
+    "1990 (HGP start)": 100000,
+    "2001 (draft)": 30000,
+    "2003 (HGP done)": 25000,
+    "2010": 22500,
+    "2015": 20500,
+    "2024 (current)": 19900
+  },
+  "GWAS_milestones": {
+    "AMD 2005 (first)": 1500,
+    "Diabetes 2007": 20000,
+    "Schizophrenia 2014": 150000,
+    "Height GIANT 2014": 250000,
+    "PGC SZ 2022": 320000,
+    "EduYears 2018": 1100000.0,
+    "UKBB 2024": 500000.0
+  },
+  "approved_gene_therapies": {
+    "Glybera 2012": {
+      "target": "LPL deficiency",
+      "year": 2012,
+      "withdrawn": true
+    },
+    "Luxturna 2017": {
+      "target": "RPE65 blindness",
+      "year": 2017,
+      "active": true
+    },
+    "Zolgensma 2019": {
+      "target": "SMA",
+      "year": 2019,
+      "price_M": 2.1
+    },
+    "Hemgenix 2022": {
+      "target": "Hemophilia B",
+      "year": 2022,
+      "price_M": 3.5
+    },
+    "Casgevy (CRISPR) 2023": {
+      "target": "Sickle cell",
+      "year": 2023,
+      "first_CRISPR": true
+    },
+    "Lyfgenia 2023": {
+      "target": "Sickle cell",
+      "year": 2023,
+      "lentiviral": true
+    },
+    "Roctavian 2023": {
+      "target": "Hemophilia A",
+      "year": 2023
+    }
+  },
+  "Casgevy_2023": "First CRISPR-Cas9 therapy FDA-approved (sickle cell disease)",
+  "ITU_K_genome": {
+    "N_genes": 20000,
+    "S_baseline_nats": 9.90348755253613,
+    "S_tissue_specific_nats": 8.89943992410973,
+    "S_disease_nats": 8.684740197323606,
+    "baseline_to_tissue_ratio": -0.8,
+    "tissue_to_disease_ratio": 1.0000000000000013,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_genome",
+    "sub_states": [
+      "K_genome_coding (2% protein)",
+      "K_genome_regulatory (10% reg)",
+      "K_genome_repeat (50%+ LINE/SINE/LTR)",
+      "K_genome_variant (SNP/indel/CNV)",
+      "K_genome_epigenome (DNAm + histone)",
+      "K_genome_3D (TAD + Hi-C)",
+      "K_genome_RNA (ncRNA + lncRNA)",
+      "K_genome_phylogenetic (cross-species)"
+    ],
+    "axiom": "delta S(rho_expression) = delta Tr[K_genome^(0) rho_expression]",
+    "Central_Dogma_meaning": "DNA → RNA → protein = ITU information flow physical realization",
+    "genome_as_source_code": "K_genome is the biological substrate of K_universe"
+  },
+  "outputs": {
+    "figure": "genome_dna_central_dogma.png",
+    "summary_json": "genome_dna_central_dogma_summary.json"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "phase": 216,
+  "tier1_paper": 30,
+  "block": "B",
+  "topic": "CRISPR + Gene editing + Gene therapy (K_genome_edit)",
+  "CRISPR_mechanism": {
+    "sgRNA_target_length_bp": 20,
+    "PAM_sequence": "NGG",
+    "Cas9_source": "Streptococcus pyogenes",
+    "cleavage_site": "3 bp upstream of PAM",
+    "discoverers_2012": "Jinek, Doudna, Charpentier (Science)",
+    "Nobel_Chemistry_2020": "Doudna + Charpentier"
+  },
+  "DSB_repair_efficiency": {
+    "cell_types": [
+      "Mouse ESC",
+      "Human iPSC",
+      "Primary T cell",
+      "HSC",
+      "Neuron",
+      "Fibroblast",
+      "Cardiomyocyte"
+    ],
+    "NHEJ_pct": [
+      85,
+      75,
+      70,
+      60,
+      30,
+      80,
+      25
+    ],
+    "HDR_pct": [
+      25,
+      15,
+      8,
+      5,
+      1,
+      12,
+      2
+    ],
+    "NHEJ_dominance": "NHEJ ~10× HDR in most cells"
+  },
+  "CRISPR_variants": {
+    "Cas9 (DSB)": {
+      "year": 2012,
+      "DSB": true,
+      "edit_type": "indel/KO"
+    },
+    "Cas12 (Cpf1)": {
+      "year": 2015,
+      "DSB": true,
+      "edit_type": "blunt cut"
+    },
+    "Cas13 (RNA)": {
+      "year": 2016,
+      "DSB": false,
+      "edit_type": "RNA degradation"
+    },
+    "Base Editor (BE)": {
+      "year": 2016,
+      "DSB": false,
+      "edit_type": "C→T / A→G"
+    },
+    "Prime Editor (PE)": {
+      "year": 2019,
+      "DSB": false,
+      "edit_type": "any small edit ★"
+    },
+    "dCas9 (CRISPRi/a)": {
+      "year": 2013,
+      "DSB": false,
+      "edit_type": "transcription mod"
+    }
+  },
+  "Prime_Editor_2019_Liu": {
+    "paper": "Anzalone et al. 2019 Nature",
+    "mechanism": "Nickase + reverse transcriptase",
+    "DSB_free": true,
+    "editable_pathogenic_variants_pct": 89
+  },
+  "Casgevy_2023": {
+    "UK_approval": "2023-11",
+    "FDA_approval": "2023-12",
+    "EMA_approval": "2024",
+    "developer": "Vertex + CRISPR Therapeutics",
+    "target": "BCL11A (HbF reactivation)",
+    "Phase_III_CLIMB_121": {
+      "Pain-free 1 year": 89,
+      "Hospitalization free": 93,
+      "Transfusion free": 96,
+      "Adverse events G3+": 18
+    },
+    "price_USD": 2200000.0,
+    "significance": "First CRISPR-Cas9 therapy worldwide"
+  },
+  "gene_therapies_approved": {
+    "Glybera (2012, EU)": {
+      "year": 2012,
+      "price_M": 1.0,
+      "tech": "AAV1"
+    },
+    "Luxturna (2017)": {
+      "year": 2017,
+      "price_M": 0.85,
+      "tech": "AAV2"
+    },
+    "Zolgensma (2019)": {
+      "year": 2019,
+      "price_M": 2.1,
+      "tech": "AAV9"
+    },
+    "Hemgenix (2022)": {
+      "year": 2022,
+      "price_M": 3.5,
+      "tech": "AAV5"
+    },
+    "Casgevy CRISPR (2023) ★": {
+      "year": 2023,
+      "price_M": 2.2,
+      "tech": "CRISPR-Cas9"
+    },
+    "Lyfgenia (2023)": {
+      "year": 2023,
+      "price_M": 3.1,
+      "tech": "Lentiviral"
+    },
+    "Roctavian (2023)": {
+      "year": 2023,
+      "price_M": 2.9,
+      "tech": "AAV5"
+    }
+  },
+  "He_Jiankui_2018": {
+    "act": "First germline-edited CRISPR babies (Lulu + Nana)",
+    "target": "CCR5 KO (HIV resistance)",
+    "punishment": "3 years prison + $430K fine (China)",
+    "international_consensus": "Germline editing = scientific misconduct"
+  },
+  "WHO_2023_framework": "Heritable editing tightly regulated; somatic accelerated",
+  "ITU_K_genome_edit": {
+    "N_genome_states": 5000,
+    "S_disease_nats": NaN,
+    "S_healthy_nats": NaN,
+    "S_mixed_nats": NaN,
+    "disease_to_healthy_ratio": 1.0,
+    "disease_to_mixed_ratio": 1.0,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_genome_edit",
+    "modular_Hamiltonian": "K_genome_edit^(0) = -log P(corrected genome | guide RNA, repair)",
+    "CRISPR_meaning": "Direct K_genome operator with PAM specificity",
+    "Base_Editor_meaning": "Subtle K-state shift (single nucleotide) without DSB",
+    "Prime_Editor_meaning": "Programmable K-state operator (any small edit)",
+    "Casgevy_significance": "First clinical-grade K_genome operator FDA-approved"
+  },
+  "predictions": [
+    [
+      "Prime Editor clinical (1 indication)",
+      2028,
+      0.75,
+      "Strong"
+    ],
+    [
+      "In vivo CRISPR (mRNA-LNP)",
+      2028,
+      0.8,
+      "Strong"
+    ],
+    [
+      "Heritable editing legal framework (international)",
+      2032,
+      0.45,
+      "Medium"
+    ],
+    [
+      "CRISPR drug 10+ indications approved",
+      2030,
+      0.85,
+      "Strong"
+    ],
+    [
+      "Synthetic yeast complete genome",
+      2028,
+      0.7,
+      "Strong"
+    ]
+  ],
+  "outputs": {
+    "figure": "crispr_gene_therapy.png",
+    "summary_json": "crispr_gene_therapy_summary.json"
+  }
+}

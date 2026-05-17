@@ -1,0 +1,131 @@
+{
+  "phase": 218,
+  "tier1_paper": 30,
+  "block": "B",
+  "topic": "Population genetics + Evolution + Coalescent (K_genome_evolution)",
+  "Hardy_Weinberg_1908": "p² + 2pq + q² = 1 (no selection/migration/mutation/drift)",
+  "Wright_Fisher_1930s": {
+    "model": "Binomial sampling, 2N gametes",
+    "fixation_prob_neutral": "1/(2N) = 0.0050"
+  },
+  "Coalescent_Kingman_1982": {
+    "MRCA_2_lineages": "2N generations",
+    "MRCA_n_inf": "4N generations",
+    "PSMC_Li_Durbin_2011": "Single genome → Ne(t) inference"
+  },
+  "human_Ne_estimates": {
+    "effective_N_modern": 10000,
+    "chimpanzee_Ne": 20000,
+    "gorilla_Ne": 25000,
+    "bonobo_Ne": 30000,
+    "interpretation": "Humans have lowest primate diversity due to bottleneck"
+  },
+  "Out_of_Africa": {
+    "bottleneck_kya": "60-70",
+    "mtDNA_Eve_kya": "150-200",
+    "Y_Adam_kya": "200",
+    "evidence": "Cann-Stoneking 1987 mtDNA + ancient DNA confirmation"
+  },
+  "Paabo_2022_Nobel": {
+    "category": "Physiology/Medicine",
+    "achievements": [
+      "Neanderthal genome 2010 Science",
+      "Denisovan genome 2010 Nature",
+      "Denisovan-Neanderthal hybrid 2018",
+      "Ust'-Ishim 45 kya genome 2014"
+    ],
+    "founding_field": "Paleogenomics"
+  },
+  "archaic_admixture_pct": {
+    "African": {
+      "Neanderthal_pct": 0.3,
+      "Denisovan_pct": 0.0
+    },
+    "European": {
+      "Neanderthal_pct": 2.0,
+      "Denisovan_pct": 0.0
+    },
+    "East Asian": {
+      "Neanderthal_pct": 2.5,
+      "Denisovan_pct": 0.2
+    },
+    "Melanesian": {
+      "Neanderthal_pct": 1.9,
+      "Denisovan_pct": 5.0
+    },
+    "Aboriginal Australian": {
+      "Neanderthal_pct": 2.0,
+      "Denisovan_pct": 4.5
+    },
+    "Tibetan (EPAS1)": {
+      "Neanderthal_pct": 2.0,
+      "Denisovan_pct": 0.1
+    }
+  },
+  "1000_Genomes_2015": {
+    "populations": 26,
+    "individuals": 2504,
+    "SNVs_per_individual_M": 3.5,
+    "total_human_SNPs_M": 88
+  },
+  "key_SNPs": {
+    "LCT_lactase_persistence": "Northern European 80%, ~7500 ya emergence",
+    "EPAS1_Tibetan": "High altitude adaptation, Denisovan introgression",
+    "DARC_Duffy_negative": "Malaria resistance, African",
+    "ALDH2_504K": "East Asian alcohol intolerance ~40%"
+  },
+  "ITU_K_genome_evolution": {
+    "N_alleles": 1000,
+    "S_pre_event_nats": 6.902712648586684,
+    "S_post_sweep_nats": 6.395616840282918,
+    "S_post_admixture_nats": 6.8897312549263345,
+    "pre_to_sweep_ratio": 0.9999999999997741,
+    "pre_to_admix_ratio": 0.9999999999999382,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_genome_evolution",
+    "modular_Hamiltonian": "K_genome_evolution^(0) = -log P(genome | population, time, env)",
+    "Coalescent_meaning": "K-state past-directed ITU descent (time-reversed)",
+    "Selection_meaning": "K-state biased descent under fitness gradient",
+    "Drift_meaning": "K-state stochastic fluctuation in finite N",
+    "Admixture_meaning": "K-state population mixing (ITU tensor product)",
+    "Paabo_Nobel_meaning": "Paleogenomics = ITU descent flow archaeology"
+  },
+  "predictions": [
+    [
+      "All living humans WGS (1e9 genomes)",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "1M+ ancient genomes",
+      2030,
+      0.8,
+      "Strong"
+    ],
+    [
+      "Polygenic risk score clinical full",
+      2030,
+      0.75,
+      "Strong"
+    ],
+    [
+      "AI global selection sweeps map",
+      2028,
+      0.7,
+      "Strong"
+    ],
+    [
+      "New archaic human identified",
+      2030,
+      0.55,
+      "Medium"
+    ]
+  ],
+  "outputs": {
+    "figure": "popgen_evolution.png",
+    "summary_json": "popgen_evolution_summary.json"
+  }
+}

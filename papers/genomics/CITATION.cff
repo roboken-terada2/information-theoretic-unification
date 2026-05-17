@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+title: "ITU and Genomics: A Single-Axiom View of DNA, Human Genome Project, CRISPR Gene Editing, AlphaFold, AI Drug Discovery, Population Genetics, Coalescent Theory, and Ancient DNA — Block B 5/?, Pass-1 Final Tier 1"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to genomics. Tier 1 paper #30, fifth and
+  final Tier 1 paper of Pass-1 (Block B 5/?). Introduces K_genome
+  across 8 sub-states (K_genome_coding, K_genome_regulatory,
+  K_genome_repeat, K_genome_variant, K_genome_epigenome, K_genome_3D,
+  K_genome_RNA, K_genome_phylogenetic) plus 3 application dimensions
+  (K_genome_edit, K_genome_AI, K_genome_evolution). Pass-1 progress
+  99.5% (219/220) — only Phase 220 (Tier 0 v4.0 finale) remains.
+  ITU axiom delta S = delta <K> verified to machine precision in 7+
+  genomics contexts: tissue/disease expression shift, CRISPR
+  disease/healthy correction and off-target mixed state, pre/post
+  AlphaFold prediction collapse, Baker inverse-folding design,
+  adaptive sweep allele fixation, archaic human admixture. 30-vertex
+  ITU polytope with #30 Genome reaching new max degree 29 (306
+  edges) and highest avg coupling 0.878 in all Pass-1.
+  Key results: Human genome 3.2 Gb with ~19,900 genes (HGP completed
+  2003); sequencing cost reduction 15 M-fold from $3 B (1990) to
+  $200 (2024); Watson-Crick double helix Nobel 1962; Doudna-
+  Charpentier CRISPR-Cas9 Nobel Chemistry 2020; Casgevy first CRISPR-
+  Cas9 FDA approval 2023 ($2.2 M/dose) with Phase III 89% pain-free
+  in sickle cell disease (Frangoul 2021 NEJM); Prime Editor (Anzalone
+  2019 Nature) 89% pathogenic variant coverage; AlphaFold 2 GDT_TS
+  92.4 reaching experimental accuracy (Jumper 2021 Nature); AlphaFold
+  DB 250 M structures (2024); AlphaFold 3 multi-molecular (Nature
+  2024); Baker-Hassabis-Jumper Nobel Chemistry 2024; Insilico
+  INS018_055 first AI-designed AI-validated drug in Phase II for IPF
+  (21-day design); Hardy-Weinberg 1908, Kingman coalescent 1982,
+  human Ne=10,000 (lowest primate), Out-of-Africa bottleneck 60-70
+  kya; Pääbo Nobel 2022 paleogenomics with Neanderthal 1-4% in non-
+  Africans and Denisovan 4-6% in Melanesians/Aboriginal Australians;
+  1000 Genomes Project 2015 88 M SNPs.
+  Ten falsifiable predictions (P_avg = 0.735 highest in Pass-1,
+  Strong/Medium/Weak = 9/1/0) including CRISPR drug 10+ indications
+  approved 2030 (P=0.85), AlphaFold 4 with RNA + dynamics 2027
+  (P=0.80), in vivo CRISPR mRNA-LNP 2028 (P=0.80), 1M+ ancient genomes
+  2030 (P=0.80), Prime Editor clinical 2028 (P=0.75), AI-designed
+  protein therapy approved 2028 (P=0.75). Pass-1 interpretive
+  synthesis.
+keywords:
+  - genomics
+  - Human Genome Project
+  - CRISPR
+  - gene therapy
+  - AlphaFold
+  - AI drug discovery
+  - population genetics
+  - coalescent theory
+  - ancient DNA
+  - paleogenomics
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/genomics"
+url: "https://doi.org/10.5281/zenodo.20257528"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20257528"
+    description: "Version 1.0.0 DOI (Zenodo) — 10.5281/zenodo.20257528"
+version: "1.0.0"
+date-released: "2026-05-17"
