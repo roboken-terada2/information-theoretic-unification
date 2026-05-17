@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+title: "ITU and Neuroscience: A Single-Axiom View of Neurons, Synapses, Connectome, Vision, Memory, Decision-Making, Sleep, Consciousness, and Neurological Disorders — Block B 3/?"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to neuroscience. Tier 1 paper #28, third
+  of Block B (Life Sciences Deepening). Introduces K_neuro across 8
+  sub-states (K_neuron, K_synapse, K_network, K_perception, K_memory,
+  K_executive, K_consciousness, K_pathology). Pass-1 progress
+  93.6% (206/220). ITU axiom delta S = delta <K> verified to machine
+  precision in 10+ neuroscience contexts including neural state
+  transitions, LTP induction, two-step visual cortex hierarchy
+  (V1->V4->IT), hippocampal episodic encoding, decision selection,
+  sleep wake-N3-REM transitions, and AD pathology with Lecanemab
+  treatment. 28-vertex ITU polytope with #28 Neuro reaching new max
+  degree 27 (248 edges). Key results: Hodgkin-Huxley action
+  potential peak +39 mV (Nobel 1963); brain census 86 G neurons
+  (cerebellar 69 G > cortical 16 G); 10^14 synapses; HCP 180
+  cortical areas/hemi (Glasser 2016 Nature); Hubel-Wiesel Nobel
+  1981; CNN history Fukushima 1980 -> ResNet 2015 sub-human;
+  O'Keefe-Moser Nobel 2014 place + grid cells; loss aversion
+  lambda=2.25 (Kahneman Nobel 2002); Libet readiness potential
+  -1000 ms; Tononi IIT Phi; Lecanemab 27% cognitive decline
+  reduction (CLARITY AD, van Dyck 2023 NEJM); Ketamine 2-hour
+  antidepressant (Zarate 2006); Schizophrenia 287 GWAS loci
+  (PGC 2022); neurological DALYs ~303 M/yr globally. Ten
+  falsifiable predictions (P_avg = 0.640, Strong/Medium/Weak =
+  4/6/0) including Lecanemab anti-tau follow-on 2028 (P=0.75),
+  Psilocybin TRD FDA 2028 (P=0.70), CNN >99% ImageNet 2027
+  (P=0.80), AD 10-year early dx via sleep biomarker 2030 (P=0.75).
+  Pass-1 interpretive synthesis.
+keywords:
+  - neuroscience
+  - Hodgkin-Huxley
+  - synaptic plasticity
+  - visual cortex
+  - hippocampus place cell
+  - prefrontal executive function
+  - consciousness Hard Problem
+  - Alzheimer disease
+  - Parkinson disease
+  - psychiatric disorders
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/neuroscience"
+url: "https://doi.org/10.5281/zenodo.20256729"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20256729"
+    description: "Version 1.0.0 DOI (Zenodo) — 10.5281/zenodo.20256729"
+version: "1.0.0"
+date-released: "2026-05-17"

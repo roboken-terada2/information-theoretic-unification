@@ -1,0 +1,131 @@
+{
+  "phase": 201,
+  "tier1_paper": 28,
+  "block": "B",
+  "topic": "Visual cortex + Hubel-Wiesel + perception (K_perception)",
+  "Hubel_Wiesel_1959_Nobel_1981": {
+    "discoverer": "David Hubel + Torsten Wiesel",
+    "species": "Cat striate cortex (V1)",
+    "discovery": "Orientation-selective simple cells",
+    "hierarchy": "Simple -> Complex -> Hypercomplex",
+    "Nobel_year": 1981
+  },
+  "visual_hierarchy_RF_degrees": {
+    "Retina": 0.05,
+    "LGN": 0.1,
+    "V1": 0.3,
+    "V2": 0.8,
+    "V4": 2.0,
+    "PIT (post IT)": 6.0,
+    "AIT (ant IT)": 15.0
+  },
+  "ventral_what_stream": [
+    "V1",
+    "V2",
+    "V4",
+    "PIT",
+    "AIT",
+    "Perirhinal",
+    "Hippocampus"
+  ],
+  "dorsal_where_stream": [
+    "V1",
+    "V2",
+    "MT",
+    "MST",
+    "Parietal",
+    "Premotor",
+    "Motor"
+  ],
+  "CNN_history": {
+    "Neocognitron (Fukushima 1980)": {
+      "err_pct": NaN,
+      "params": 10000.0,
+      "year": 1980
+    },
+    "LeNet-5 (LeCun 1998)": {
+      "err_pct": 0.7,
+      "params": 60000.0,
+      "year": 1998
+    },
+    "AlexNet (Krizhevsky 2012)": {
+      "err_pct": 16.4,
+      "params": 60000000.0,
+      "year": 2012
+    },
+    "VGG-16 (2014)": {
+      "err_pct": 7.3,
+      "params": 138000000.0,
+      "year": 2014
+    },
+    "GoogLeNet (2014)": {
+      "err_pct": 6.7,
+      "params": 7000000.0,
+      "year": 2014
+    },
+    "ResNet-152 (He 2015)": {
+      "err_pct": 3.57,
+      "params": 60000000.0,
+      "year": 2015
+    },
+    "ViT-Large (2020)": {
+      "err_pct": 3.5,
+      "params": 304000000.0,
+      "year": 2020
+    },
+    "CLIP (2021)": {
+      "err_pct": 3.5,
+      "params": 400000000.0,
+      "year": 2021
+    },
+    "Human estimate": {
+      "err_pct": 5.1,
+      "params": NaN,
+      "year": NaN
+    }
+  },
+  "key_milestones": {
+    "Fukushima_Neocognitron_1980": "First Hubel-Wiesel inspired NN",
+    "LeCun_LeNet_1998": "CNN with backprop",
+    "Krizhevsky_AlexNet_2012": "ImageNet breakthrough (16.4% top-5)",
+    "He_ResNet_2015": "Sub-human performance (3.57%)",
+    "ViT_2020": "Transformer for vision"
+  },
+  "concept_cells_Quiroga_2005": {
+    "discovery": "Jennifer Aniston neuron",
+    "site": "Medial temporal lobe (hippocampus + IT)",
+    "abstraction": "Single neuron responds to identity across formats"
+  },
+  "face_patches_Tsao": {
+    "n_patches_macaque_IT": 6,
+    "hierarchy": "ML/MF (low) -> AL (mid) -> AM (high invariance)",
+    "Chang_Tsao_2017_Cell": "200 neurons can reconstruct face identity"
+  },
+  "predictive_coding": {
+    "Rao_Ballard_1999": "Hierarchical predictive coding",
+    "Friston_FEP": "Free energy principle (2010)",
+    "simulation_final_error": 4.518384832971097,
+    "simulation_initial_error": 5.363699255238185
+  },
+  "ITU_K_perception_hierarchy": {
+    "S_V1_nats": 7.165320878977759,
+    "S_V4_nats": 6.497677936478478,
+    "S_IT_nats": 5.5951333543312405,
+    "V1_to_V4_ratio": 0.9999999999999997,
+    "V4_to_IT_ratio": 1.0,
+    "expected_ratio": 1.0,
+    "interpretation": "Each hierarchy layer = ITU descent step"
+  },
+  "ITU_interpretation": {
+    "K_state": "K_perception (sub-state of K_neuro)",
+    "modular_Hamiltonian": "K_perception^(0) = -log P(stimulus | response)",
+    "Hubel_Wiesel_meaning": "Hierarchy of K-states from edges to concepts",
+    "CNN_correspondence": "Neocognitron-AlexNet-ResNet = Hubel-Wiesel implementation",
+    "predictive_coding_meaning": "Top-down K^(0) + bottom-up error = ITU descent",
+    "free_energy_principle": "Friston FEP = ITU variational form (Phase 175 link)"
+  },
+  "outputs": {
+    "figure": "visual_cortex_hubel_wiesel.png",
+    "summary_json": "visual_cortex_hubel_wiesel_summary.json"
+  }
+}

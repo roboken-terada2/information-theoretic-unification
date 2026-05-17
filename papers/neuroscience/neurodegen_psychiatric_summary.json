@@ -1,0 +1,82 @@
+{
+  "phase": 205,
+  "tier1_paper": 28,
+  "block": "B",
+  "topic": "Neurodegenerative + psychiatric disorders (K_pathology)",
+  "Alzheimer_disease": {
+    "first_described": "Alzheimer 1906 (Auguste Deter)",
+    "amyloid_hypothesis": "Hardy-Selkoe 1992",
+    "key_genes": "APP, PSEN1, PSEN2 (familial); APOE4 (sporadic)",
+    "APOE4_risk": {
+      "e2/e3 (protective)": 0.6,
+      "e3/e3 (reference)": 1.0,
+      "e3/e4": 3.5,
+      "e4/e4 (homozygous)": 14.0
+    },
+    "Lecanemab_approval_2023": true,
+    "Lecanemab_CLARITY_AD": {
+      "Phase_III": "van Dyck 2023 NEJM",
+      "cognitive_decline_reduction_pct": 20.83333333333334,
+      "ARIA_E_incidence_pct": 12,
+      "deaths_reported": 3
+    }
+  },
+  "Parkinson_disease": {
+    "first_described": "Parkinson 1817 (Shaking Palsy)",
+    "pathology": "Substantia nigra dopamine neuron death + Lewy bodies (alpha-synuclein)",
+    "Braak_hypothesis_2003": "Gut -> vagus -> brainstem -> midbrain progression",
+    "L_DOPA_introduced": 1967,
+    "DBS_introduced": 1987,
+    "cell_loss_per_year_pct": 4,
+    "symptom_onset_threshold_pct_remaining": 40
+  },
+  "depression_treatments": {
+    "SSRI_onset_weeks": 3,
+    "Ketamine_onset_hours": 2,
+    "Ketamine_paper": "Zarate 2006 Arch Gen Psychiatry",
+    "Spravato_FDA_2019": "Esketamine intranasal",
+    "Psilocybin_Phase_III": "Compass Pathways (treatment-resistant depression)",
+    "MDMA_Phase_III": "MAPS (PTSD)"
+  },
+  "schizophrenia": {
+    "dopamine_hypothesis_Carlsson_1963": "Mesolimbic DA excess",
+    "Carlsson_Nobel_2000": "Physiology/Medicine",
+    "PGC_2022_GWAS_loci": 287,
+    "heritability_pct": 80,
+    "F_M_ratio": "1:1.4"
+  },
+  "global_disease_burden_DALYs": {
+    "Stroke": 143.0,
+    "Migraine": 45.0,
+    "Depression": 50.0,
+    "AD/Dementia": 28.5,
+    "Schizophrenia": 15.0,
+    "Epilepsy": 13.5,
+    "PD": 5.8,
+    "MS": 2.0,
+    "ALS": 0.4
+  },
+  "total_neurological_DALYs": 303.2,
+  "ITU_K_pathology": {
+    "N_states": 3000,
+    "S_healthy_nats": 7.031559517811498,
+    "S_AD_nats": 6.9583589375733474,
+    "S_treated_nats": 7.295088530977358,
+    "healthy_to_AD_ratio": 1.0,
+    "AD_to_treated_ratio": 1.0,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_pathology",
+    "definition": "Deviation of K_neuro^(0) from healthy basin",
+    "AD_mechanism": "K_memory degradation + K_neuron death (hippo->cortex)",
+    "PD_mechanism": "K_motor (SN-striatum) collapse",
+    "depression_mechanism": "K_emotion + K_reward global descent (anhedonia)",
+    "schizophrenia_mechanism": "K_perception (positive) + K_executive (negative) dual deviation",
+    "treatment_as_K_state_restoration": "Lecanemab/L-DOPA/Ketamine/Risperidone return ρ to healthy basin"
+  },
+  "outputs": {
+    "figure": "neurodegen_psychiatric.png",
+    "summary_json": "neurodegen_psychiatric_summary.json"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "phase": 206,
+  "tier1_paper": 28,
+  "block": "B",
+  "paper_in_block": "3/?",
+  "topic": "Integration: K_neuro + 28-vertex polytope + 10 predictions",
+  "milestone": "Pass-1 93.6% (206/220) ★",
+  "polytope_28vertex": {
+    "vertices": 28,
+    "edges": 249,
+    "mean_degree": 17.785714285714285,
+    "max_degree": 27,
+    "top_hubs": [
+      25,
+      26,
+      27
+    ]
+  },
+  "neuro_couplings": {
+    "#2 AI Consciousness (bio vs AI)": 0.98,
+    "#7 Psychiatry": 0.95,
+    "#25 Info/Holo (modular ham)": 0.9,
+    "#9 Free Will (Libet)": 0.85,
+    "#26 Immune (neuroinflammation)": 0.85,
+    "#27 Microbe (gut-brain)": 0.85,
+    "#5 Cancer (brain tumor)": 0.75,
+    "#6 Aging (AD)": 0.85,
+    "#22 CM (neuromorphic chip)": 0.7,
+    "#1 QC (quantum brain debate)": 0.4
+  },
+  "neuro_avg_coupling": 0.808,
+  "10_predictions": [
+    {
+      "prediction": "Lecanemab follow-on (anti-tau)",
+      "year": 2028,
+      "P": 0.75,
+      "class": "Strong"
+    },
+    {
+      "prediction": "Psilocybin FDA approval (TRD)",
+      "year": 2028,
+      "P": 0.7,
+      "class": "Strong"
+    },
+    {
+      "prediction": "Engram-based memory editing clinical",
+      "year": 2032,
+      "P": 0.55,
+      "class": "Medium"
+    },
+    {
+      "prediction": "In vivo CAR-T for neurology",
+      "year": 2030,
+      "P": 0.6,
+      "class": "Medium"
+    },
+    {
+      "prediction": "Phi proxy whole-brain measurement",
+      "year": 2030,
+      "P": 0.65,
+      "class": "Medium"
+    },
+    {
+      "prediction": "BCI visual prosthesis 100x100",
+      "year": 2030,
+      "P": 0.65,
+      "class": "Medium"
+    },
+    {
+      "prediction": "CNN ImageNet >99% (human parity)",
+      "year": 2027,
+      "P": 0.8,
+      "class": "Strong"
+    },
+    {
+      "prediction": "Alpha-synuclein vaccine effective",
+      "year": 2030,
+      "P": 0.5,
+      "class": "Medium"
+    },
+    {
+      "prediction": "AD 10yr early dx via sleep biomarker",
+      "year": 2030,
+      "P": 0.75,
+      "class": "Strong"
+    },
+    {
+      "prediction": "Schizophrenia molecular biomarker",
+      "year": 2032,
+      "P": 0.45,
+      "class": "Medium"
+    }
+  ],
+  "predictions_summary": {
+    "grand_P_avg": 0.6399999999999999,
+    "strong": 4,
+    "medium": 6,
+    "weak": 0
+  },
+  "ITU_axiom_strict_unity_Phase_199_205": {
+    "Phase_199_neural_resting_active": 1.0,
+    "Phase_200_LTP_synaptic": 1.0,
+    "Phase_201_V1_V4_IT_hierarchy": "1.000 each step",
+    "Phase_202_episodic_encoding": 1.0,
+    "Phase_203_decision_selection": 1.0,
+    "Phase_204_sleep_transitions": "1.000 wake->N3, 1.000 wake->REM",
+    "Phase_205_AD_pathology_treatment": "1.000 healthy->AD, 1.000 AD->Tx",
+    "interpretation": "K_neuro axiom verified across 10+ contexts (perception, memory, decision, sleep, pathology)"
+  },
+  "K_neuro_structure": {
+    "K_neuron": "Hodgkin-Huxley dynamics",
+    "K_synapse": "LTP/LTD/STDP plasticity",
+    "K_network": "Connectome (HCP 180 areas)",
+    "K_perception": "Hubel-Wiesel V1->V4->IT",
+    "K_memory": "Hippocampus place/grid cells",
+    "K_executive": "PFC decision (loss aversion λ=2.25)",
+    "K_consciousness": "IIT Φ + GWT (Hard Problem)",
+    "K_pathology": "AD/PD/depression/schizophrenia"
+  },
+  "pass1_progress": {
+    "phases_completed": 206,
+    "phases_total": 220,
+    "percent": 93.6,
+    "block_A_status": "9/9 COMPLETE",
+    "block_B_status": "3/? (#26 Immune + #27 Microbe + #28 Neuro complete)",
+    "next": "Phase 207 -> Tier 1 #29 Developmental Biology"
+  },
+  "outputs": {
+    "figure": "polytope_28vertex_neuro.png",
+    "summary_json": "polytope_28vertex_neuro_summary.json"
+  }
+}

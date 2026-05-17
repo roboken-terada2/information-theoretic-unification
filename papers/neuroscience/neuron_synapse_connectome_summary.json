@@ -1,0 +1,151 @@
+{
+  "phase": 199,
+  "tier1_paper": 28,
+  "block": "B",
+  "paper_in_block": "3/?",
+  "topic": "Neuron + synapse + connectome (K_neuro introduction)",
+  "Hodgkin_Huxley_1952_Nobel_1963": {
+    "C_m_uF_per_cm2": 1.0,
+    "g_Na": 120.0,
+    "g_K": 36.0,
+    "g_L": 0.3,
+    "E_Na_mV": 50.0,
+    "E_K_mV": -77.0,
+    "E_L_mV": -54.387,
+    "peak_voltage_mV": 39.068465905697245,
+    "spike_count_in_80ms": 3
+  },
+  "brain_cell_census_Herculano_Houzel_2009": {
+    "Cerebral cortex neurons": 16000000000.0,
+    "Cerebellar neurons": 69000000000.0,
+    "Other regions neurons": 1000000000.0,
+    "Total neurons": 86000000000.0,
+    "Glia cells": 85000000000.0,
+    "Total brain cells": 171000000000.0,
+    "Synapses": 150000000000000.0
+  },
+  "neurotransmitters_pct_synapses": {
+    "Glutamate": {
+      "type": "Excitatory",
+      "pct_synapses": 80
+    },
+    "GABA": {
+      "type": "Inhibitory",
+      "pct_synapses": 15
+    },
+    "Acetylcholine": {
+      "type": "Excitatory",
+      "pct_synapses": 1
+    },
+    "Dopamine": {
+      "type": "Modulatory",
+      "pct_synapses": 0.5
+    },
+    "Serotonin": {
+      "type": "Modulatory",
+      "pct_synapses": 0.3
+    },
+    "Norepinephrine": {
+      "type": "Modulatory",
+      "pct_synapses": 0.2
+    },
+    "Histamine": {
+      "type": "Modulatory",
+      "pct_synapses": 0.1
+    },
+    "Endorphin": {
+      "type": "Modulatory",
+      "pct_synapses": 0.1
+    }
+  },
+  "EEG_bands": {
+    "δ delta (0.5-4 Hz)": {
+      "state": "Deep sleep"
+    },
+    "θ theta (4-8 Hz)": {
+      "state": "Memory, meditation"
+    },
+    "α alpha (8-13 Hz)": {
+      "state": "Resting wakefulness"
+    },
+    "β beta (13-30 Hz)": {
+      "state": "Attention, cognition"
+    },
+    "γ gamma (30-100 Hz)": {
+      "state": "Consciousness binding (Crick-Koch 1990)"
+    }
+  },
+  "small_world_Watts_Strogatz_1998": {
+    "p_grid": [
+      0,
+      0.01,
+      0.1,
+      0.5,
+      1.0
+    ],
+    "C_normalized": [
+      1.0,
+      0.9858465608465607,
+      0.8151587301587303,
+      0.35727112393779065,
+      0.19116023636856969
+    ],
+    "L_normalized": [
+      1.0,
+      0.8303729334871203,
+      0.41391772395232607,
+      0.29719338715878507,
+      0.26559015763168015
+    ],
+    "small_world_regime": "p ~ 0.001 - 0.1"
+  },
+  "HCP_connectome": {
+    "Total cortical areas (180/hemi)": 360,
+    "Old (Brodmann 1909)": 52,
+    "Functional connections per area": "20-50",
+    "Rich-club hubs": [
+      "Precuneus",
+      "Insula",
+      "Anterior cingulate",
+      "Dorsolateral PFC"
+    ],
+    "Reference": "Glasser 2016 Nature"
+  },
+  "ITU_K_neuro": {
+    "N_states": 2000,
+    "S_resting_nats": 6.828738928861554,
+    "S_active_nats": 6.949233166749838,
+    "delta_S": 0.12049423788828406,
+    "delta_S_first_order": 0.4957813172109079,
+    "delta_K_first_order": 0.49578131721090835,
+    "ratio_dS_over_dK": 0.9999999999999991,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_neuro",
+    "sub_states": [
+      "K_neuron (Hodgkin-Huxley dynamics)",
+      "K_synapse (LTP, LTD, neurotransmitters)",
+      "K_network (connectome, small-world)",
+      "K_oscillation (EEG bands)",
+      "K_perception (Hubel-Wiesel)",
+      "K_memory (hippocampus, place cells)",
+      "K_executive (prefrontal)",
+      "K_consciousness (Hard Problem)"
+    ],
+    "axiom": "delta S(rho_neural) = delta Tr[K_neuro^(0) rho_neural]",
+    "learning_meaning": "Synaptic plasticity = ITU descent flow",
+    "consciousness_hypothesis": "K_neuro global integration state"
+  },
+  "key_facts": {
+    "neurons_total": "86 billion (cortex 16B, cerebellum 69B!)",
+    "synapses": "10^14 - 10^15",
+    "axon_total_length_km": 170000,
+    "brain_power_W": 20,
+    "HCP_cortical_areas_per_hemi": 180
+  },
+  "outputs": {
+    "figure": "neuron_synapse_connectome.png",
+    "summary_json": "neuron_synapse_connectome_summary.json"
+  }
+}

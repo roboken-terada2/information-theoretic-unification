@@ -1,0 +1,63 @@
+{
+  "phase": 203,
+  "tier1_paper": 28,
+  "block": "B",
+  "topic": "Prefrontal cortex + executive function + decision (K_executive)",
+  "PFC_pct_of_cortex_by_species": {
+    "Mouse": 5,
+    "Cat": 10,
+    "Dog": 12,
+    "Macaque": 17,
+    "Chimp": 25,
+    "Human": 30
+  },
+  "human_PFC_dominance": "30% of cortex, 3x rodent ratio",
+  "working_memory": {
+    "Goldman_Rakic": "DLPFC delay-period activity",
+    "Baddeley_1974": "Central executive + phonological loop + visuospatial sketchpad",
+    "Miller_1956_capacity": "7 ± 2 chunks",
+    "Cowan_2001_capacity": "4 ± 1 chunks (no chunking)"
+  },
+  "prospect_theory_Kahneman_Tversky_1979": {
+    "Nobel_2002": "Daniel Kahneman",
+    "loss_aversion_lambda": 2.25,
+    "value_alpha_beta": 0.88,
+    "interpretation": "Loss feels 2.25x stronger than equivalent gain"
+  },
+  "dopamine_RPE_Schultz_1997": {
+    "TD_error": "delta = R - V(s)",
+    "neural_evidence": "VTA/SNc DA neurons encode RPE",
+    "Sutton_Barto_correspondence": "RL algorithm matches neural firing"
+  },
+  "Iowa_Gambling_Damasio_1994": {
+    "task": "4 decks; A,B bad (high reward, huge loss); C,D good",
+    "normal_pattern": "Progressive shift to good decks",
+    "VMPFC_damage": "Continues picking bad decks (somatic marker absent)"
+  },
+  "Libet_1983_readiness_potential": {
+    "RP_onset_ms": -1000,
+    "W_decision_reported_ms": -200,
+    "movement_ms": 0,
+    "interpretation": "Brain prepares before conscious decision"
+  },
+  "ITU_K_executive": {
+    "N_states": 2000,
+    "S_pre_decision_nats": 7.165320878977759,
+    "S_post_decision_nats": 4.76602337841146,
+    "delta_S": -2.3992975005662993,
+    "ratio_dS_over_dK": 1.0,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_executive (sub-state of K_neuro)",
+    "modular_Hamiltonian": "K_executive^(0) = -log P(action | state, goal, value)",
+    "decomposition": "K_executive = K_WM ⊕ K_attention ⊕ K_value ⊕ K_planning ⊕ K_inhibition ⊕ K_meta",
+    "top_down_hierarchy": "K_executive ⊃ K_perception ⊃ K_memory",
+    "free_will_link": "Libet RP shows K_executive descent precedes conscious choice (Phase 9 link)",
+    "dopamine_RPE_meaning": "Reward prediction error = ITU update signal"
+  },
+  "outputs": {
+    "figure": "prefrontal_executive.png",
+    "summary_json": "prefrontal_executive_summary.json"
+  }
+}

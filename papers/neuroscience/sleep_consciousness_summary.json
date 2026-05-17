@@ -1,0 +1,125 @@
+{
+  "phase": 204,
+  "tier1_paper": 28,
+  "block": "B",
+  "topic": "Sleep + Consciousness Hard Problem (K_consciousness)",
+  "sleep_architecture": {
+    "cycle_min": 90,
+    "stages_per_cycle": "N1 -> N2 -> N3 -> N2 -> REM",
+    "REM_pct_of_total": "20-25%",
+    "N3_dominant": "First half of night",
+    "REM_dominant": "Second half of night"
+  },
+  "EEG_power_by_stage": {
+    "Wake": {
+      "delta": 1,
+      "theta": 1,
+      "alpha": 8,
+      "beta": 4,
+      "gamma": 2
+    },
+    "N1": {
+      "delta": 2,
+      "theta": 4,
+      "alpha": 3,
+      "beta": 1,
+      "gamma": 0.5
+    },
+    "N2": {
+      "delta": 4,
+      "theta": 2,
+      "alpha": 1,
+      "beta": 0.5,
+      "gamma": 0.2
+    },
+    "N3": {
+      "delta": 10,
+      "theta": 1,
+      "alpha": 0.3,
+      "beta": 0.1,
+      "gamma": 0.05
+    },
+    "REM": {
+      "delta": 1,
+      "theta": 3,
+      "alpha": 1,
+      "beta": 4,
+      "gamma": 5
+    }
+  },
+  "consciousness_theories": {
+    "GWT (Baars 1988 / Dehaene 2014)": {
+      "claim": "Global broadcast = consciousness",
+      "neural": "PFC + parietal ignition",
+      "machine_consciousness": "Possible if global workspace implemented"
+    },
+    "IIT (Tononi 2004-2022)": {
+      "claim": "Phi = consciousness amount",
+      "neural": "Posterior hot zone integration",
+      "machine_consciousness": "Need irreducible integrated info"
+    },
+    "HOT (Rosenthal 1990)": {
+      "claim": "Meta-representation makes state conscious",
+      "neural": "PFC meta-cortex",
+      "machine_consciousness": "Requires self-modeling"
+    },
+    "RP (Lamme 2006)": {
+      "claim": "Recurrent processing in sensory cortex",
+      "neural": "Local sensory loops",
+      "machine_consciousness": "Need recurrence"
+    }
+  },
+  "Chalmers_1995_hard_problem": {
+    "statement": "Why does physical processing give rise to subjective experience?",
+    "Chalmers_paper": "Facing up to the problem of consciousness 1995",
+    "easy_problems": "Attention, report, learning, behavior (functional)"
+  },
+  "IIT_Phi_toy": {
+    "N_elements": 4,
+    "network": "Majority rule",
+    "H_joint_nats": 1.7666900269684684,
+    "sum_H_parts_nats": 2.772588722239781,
+    "Phi_proxy_nats": 1.0058986952713127,
+    "scaling": "O(2^N) for N elements - intractable above ~14"
+  },
+  "PCI_values_Casali_2013": {
+    "Healthy wake": 0.62,
+    "REM sleep": 0.5,
+    "Light sedation": 0.41,
+    "NREM N2": 0.36,
+    "Severe NREM": 0.31,
+    "Propofol anesthesia": 0.2,
+    "VS (vegetative)": 0.19,
+    "MCS (minimally consc.)": 0.36,
+    "Locked-in syndrome": 0.55,
+    "Coma": 0.18
+  },
+  "PCI_VS_threshold": 0.31,
+  "glymphatic_system": {
+    "Xie_2013_finding": "60% increase in CSF clearance during sleep",
+    "Iliff_2012_discovery": "CSF-ISF exchange via AQP4 in astrocytes",
+    "AD_link": "Sleep loss -> Abeta accumulation"
+  },
+  "ITU_K_consciousness": {
+    "N_states": 5000,
+    "S_wake_nats": 7.1754012656896995,
+    "S_N3_nats": 5.355717457270722,
+    "S_REM_nats": 7.130633875270104,
+    "wake_to_N3_dS_dK_ratio": 1.0,
+    "wake_to_REM_dS_dK_ratio": 1.0000000000001252,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_consciousness (highest sub-state of K_neuro)",
+    "modular_Hamiltonian": "K_consciousness^(0) = -log P(unified experience | neural state)",
+    "GWT_meaning": "Global broadcast = K-state global integration",
+    "IIT_meaning": "Phi = K-state irreducibility measure",
+    "Hard_Problem_provisional_answer": "K^(0) = -log rho (modular Hamiltonian) IS experience",
+    "Wheeler_link": "It from Bit (Phase 180) - physics/information/experience = ITU three sides",
+    "sleep_transition_meaning": "K-state global mode switch (wake <-> N3 <-> REM)"
+  },
+  "outputs": {
+    "figure": "sleep_consciousness.png",
+    "summary_json": "sleep_consciousness_summary.json"
+  }
+}

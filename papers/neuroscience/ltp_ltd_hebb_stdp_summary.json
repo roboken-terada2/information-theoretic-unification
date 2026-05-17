@@ -1,0 +1,111 @@
+{
+  "phase": 200,
+  "tier1_paper": 28,
+  "block": "B",
+  "topic": "LTP/LTD/Hebb/STDP/Memory (K_synapse + K_memory)",
+  "milestone": "200/220 = 90.9% Pass-1 ★★★",
+  "LTP_Bliss_Lomo_1973": {
+    "induction_freq_Hz": 100,
+    "duration_sec": 1,
+    "EPSP_increase_factor": 2.5,
+    "persistence": "hours-days-weeks",
+    "NMDA_dependence": "AP5 blocks LTP (Collingridge 1983)"
+  },
+  "LTD_induction": {
+    "freq_Hz": 1,
+    "duration_min": 15,
+    "EPSP_decrease_factor": 0.5,
+    "mechanism": "Low Ca → phosphatase → AMPA endocytosis"
+  },
+  "STDP_Markram_1997": {
+    "tau_plus_ms": 20,
+    "tau_minus_ms": 20,
+    "A_plus": 0.1,
+    "A_minus": 0.12,
+    "rule": "pre→post within 20ms: LTP; post→pre within 20ms: LTD"
+  },
+  "NMDA_Mg_block": {
+    "rest_potential_mV": -65,
+    "unblock_potential_mV": "-40 to 0",
+    "function": "Coincidence detector (Glu + depolarization both needed)"
+  },
+  "Hebbian_Oja_learning": {
+    "N_inputs": 100,
+    "N_outputs": 50,
+    "training_steps": 1000,
+    "eta": 0.001,
+    "W_final_mean": 4938.657901025683,
+    "W_final_std": 3572.105412930744,
+    "Hebb_quote": "Neurons that fire together, wire together",
+    "Hebb_book": "The Organization of Behavior 1949"
+  },
+  "memory_taxonomy": {
+    "Sensory (<1 sec)": {
+      "duration_sec": 1,
+      "site": "Sensory cortex"
+    },
+    "Short-term / Working (sec-min)": {
+      "duration_sec": 60,
+      "site": "Prefrontal cortex"
+    },
+    "Long-term declarative (perm)": {
+      "duration_sec": 3150000000.0,
+      "site": "Hippocampus + cortex"
+    },
+    "Procedural (permanent)": {
+      "duration_sec": 3150000000.0,
+      "site": "Cerebellum + basal ganglia"
+    },
+    "Episodic (sub of declarative)": {
+      "duration_sec": 3150000000.0,
+      "site": "Hippocampus"
+    },
+    "Semantic (sub of declarative)": {
+      "duration_sec": 3150000000.0,
+      "site": "Temporal cortex"
+    }
+  },
+  "Patient_H_M_Henry_Molaison_1953_2008": {
+    "surgery_year": 1953,
+    "procedure": "Bilateral medial temporal lobe resection (hippocampus)",
+    "preserved": [
+      "IQ",
+      "short-term memory",
+      "procedural memory"
+    ],
+    "lost": "Anterograde declarative memory (new fact learning)",
+    "key_paper": "Scoville-Milner 1957 J Neurol Neurosurg Psychiatry",
+    "significance": "Established memory-cognition dissociation"
+  },
+  "engram_Tonegawa_lab": {
+    "Liu_2012_Nature": "Optogenetic reactivation reproduces fear memory",
+    "Ramirez_2013_Science": "False memory implantation",
+    "sparse_coding_fraction": 0.025,
+    "n_engram_cells_estimate": 2500,
+    "memories_per_hippocampus_rough": 40
+  },
+  "ITU_K_synapse": {
+    "N_synapses": 5000,
+    "S_pre_LTP_nats": 8.472925342102204,
+    "S_post_LTP_nats": 8.379390013913241,
+    "delta_S": -0.09353532818896326,
+    "ratio_dS_over_dK": 0.999999999999957,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_synapse_meaning": "Distribution of synaptic strengths",
+    "learning_as_ITU_descent": "Hebb/STDP rules = ITU axiom δS = δ⟨K⟩ implementation",
+    "engram_meaning": "Specific neural assembly = ITU K-state localization",
+    "ML_correspondence": {
+      "Hebb": "PCA / Hebbian learning",
+      "LTP_LTD": "Gradient descent (approximate)",
+      "STDP": "Predictive coding",
+      "Dopamine_RPE": "TD-learning / Q-learning",
+      "Hippocampal_replay": "Experience replay (DQN)"
+    }
+  },
+  "outputs": {
+    "figure": "ltp_ltd_hebb_stdp.png",
+    "summary_json": "ltp_ltd_hebb_stdp_summary.json"
+  }
+}

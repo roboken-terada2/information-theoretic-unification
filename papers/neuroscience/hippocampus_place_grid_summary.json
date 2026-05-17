@@ -1,0 +1,80 @@
+{
+  "phase": 202,
+  "tier1_paper": 28,
+  "block": "B",
+  "topic": "Hippocampus + place/grid cells + episodic memory (K_memory)",
+  "Nobel_2014_OKeefe_Moser": {
+    "OKeefe_1971": "Place cell discovery in CA1",
+    "Moser_couple_2005": "Grid cell discovery in MEC",
+    "Nobel_year": 2014,
+    "category": "Physiology/Medicine"
+  },
+  "place_cell_properties": {
+    "field_diameter_cm": "20-50",
+    "coding_fraction_per_env": "30-40%",
+    "remapping_time_hr": "1-2"
+  },
+  "grid_cell_properties": {
+    "spacing_range_cm": "30 to several m",
+    "hex_symmetry_deg": 60,
+    "modules": "5-10 discrete spacing levels",
+    "MEC_location": "Medial entorhinal cortex"
+  },
+  "other_spatial_cells": {
+    "head_direction": "Anterodorsal thalamus",
+    "border_cell": "MEC + subiculum",
+    "object_vector": "MEC + subiculum",
+    "time_cell": "CA1 (MacDonald 2011)",
+    "speed_cell": "MEC"
+  },
+  "episodic_vs_semantic": {
+    "Episodic": {
+      "autonoetic": true,
+      "context": true,
+      "time_specific": true,
+      "site": "Hippocampus + frontal",
+      "example": "Last summer in Paris"
+    },
+    "Semantic": {
+      "autonoetic": false,
+      "context": false,
+      "time_specific": false,
+      "site": "Temporal cortex",
+      "example": "Paris = capital of France"
+    }
+  },
+  "Tulving_mental_time_travel": "Tulving 2002 - autonoetic consciousness",
+  "trisynaptic_circuit": [
+    "Entorhinal Cortex layer II",
+    "Dentate Gyrus",
+    "CA3",
+    "CA1",
+    "Subiculum",
+    "Entorhinal Cortex layer V"
+  ],
+  "SWR_replay": {
+    "speed_compression": "10-20×",
+    "Wilson_McNaughton_1994": "Hippocampal replay during slow-wave sleep",
+    "consolidation_role": "Hippocampus -> cortex transfer (Marr 1971)"
+  },
+  "ITU_K_memory": {
+    "N_traces": 2000,
+    "S_pre_encoding_nats": 6.828738928861554,
+    "S_post_encoding_nats": 6.83245046936265,
+    "delta_S": 0.003711540501095456,
+    "ratio_dS_over_dK": 0.9999999999999958,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_memory (sub-state of K_neuro)",
+    "modular_Hamiltonian": "K_memory^(0) = -log P(experience | reactivation)",
+    "decomposition": "K_episodic = K_space ⊗ K_time ⊗ K_what",
+    "place_grid_meaning": "Discrete K-state index over spatial manifold",
+    "consolidation_meaning": "Slow K-state transfer hippocampus -> cortex",
+    "replay_meaning": "Accelerated ITU descent flow during SWR"
+  },
+  "outputs": {
+    "figure": "hippocampus_place_grid.png",
+    "summary_json": "hippocampus_place_grid_summary.json"
+  }
+}
