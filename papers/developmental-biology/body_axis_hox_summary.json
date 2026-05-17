@@ -1,0 +1,98 @@
+{
+  "phase": 209,
+  "tier1_paper": 29,
+  "block": "B",
+  "topic": "Body axis + Hox + Segmentation (K_dev_spatial)",
+  "Drosophila_HOM_C_8_genes": [
+    "lab",
+    "pb",
+    "Dfd",
+    "Scr",
+    "Antp",
+    "Ubx",
+    "abd-A",
+    "AbdB"
+  ],
+  "Mammalian_Hox_clusters": {
+    "HOXA cluster": 11,
+    "HOXB cluster": 10,
+    "HOXC cluster": 9,
+    "HOXD cluster": 9
+  },
+  "mammalian_Hox_total": 39,
+  "Hox_colinearity": "Gene cluster order on chromosome matches body segment order (Lewis 1978)",
+  "Nobel_1995_homeotic_genes": "Lewis + Nüsslein-Volhard + Wieschaus",
+  "Spemann_organizer_1924": {
+    "Year": 1924,
+    "Discoverer": "Spemann + Mangold",
+    "Nobel": 1935,
+    "Experiment": "Dorsal lip transplant to ventral side -> 2nd embryo axis",
+    "Modern_equivalent": "Hensen's node (chick), shield (zebrafish)"
+  },
+  "Pourquié_1997": {
+    "discovery": "c-Hairy1 oscillation in chick presomitic mesoderm",
+    "period_min": 90,
+    "model": "Clock-and-wavefront (Cooke-Zeeman 1976)"
+  },
+  "human_somite_count": "40-44 (Day 20-32)",
+  "human_vertebrae_count": 33,
+  "LR_asymmetry": {
+    "mechanism": "Node cilia rotation -> Nodal left -> Lefty right -> Pitx2 left visceral",
+    "Kartagener_syndrome": "Cilia dysfunction -> situs inversus",
+    "situs_inversus_frequency": "1/10,000"
+  },
+  "ITU_K_dev_spatial": {
+    "N_cells": 1000,
+    "S_pre_axis_nats": 6.907755278982134,
+    "S_AP_nats": 6.438698019856906,
+    "S_AP_DV_nats": 6.394558438024388,
+    "S_AP_DV_LR_nats": 6.30503837615977,
+    "pre_to_AP_ratio": NaN,
+    "AP_to_AP_DV_ratio": 0.9999999999991309,
+    "AP_DV_to_full_ratio": 0.9999999999999941,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_dev_spatial",
+    "modular_Hamiltonian": "K_dev_spatial^(0) = -log P(cell identity | spatial coordinate)",
+    "Hox_colinearity_meaning": "Genomic spatial order = K-state index (DNA as ordering operator)",
+    "segmentation_clock_meaning": "K_dev_temporal x K_dev_spatial coupling",
+    "axis_formation_meaning": "Progressive symmetry breaking = ITU descent flow"
+  },
+  "predictions": [
+    [
+      "Synthetic embryo (gastruloid) 3 axes complete",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "In vitro segmentation clock organoid",
+      2028,
+      0.75,
+      "Strong"
+    ],
+    [
+      "Hox function reconstituted by AI design",
+      2032,
+      0.45,
+      "Medium"
+    ],
+    [
+      "LR asymmetry origin in single-cell",
+      2030,
+      0.55,
+      "Medium"
+    ],
+    [
+      "Synthetic 5th mammalian Hox cluster",
+      2035,
+      0.3,
+      "Weak"
+    ]
+  ],
+  "outputs": {
+    "figure": "body_axis_hox.png",
+    "summary_json": "body_axis_hox_summary.json"
+  }
+}

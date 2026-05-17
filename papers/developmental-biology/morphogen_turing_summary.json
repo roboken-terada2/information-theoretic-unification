@@ -1,0 +1,116 @@
+{
+  "phase": 210,
+  "tier1_paper": 29,
+  "block": "B",
+  "topic": "Morphogen gradients + Turing + Organogenesis (K_dev_morphogen)",
+  "Wolpert_1969_French_flag": "Positional information via morphogen + thresholds",
+  "Bicoid_gradient": {
+    "discoverer": "Driever-Nüsslein-Volhard 1988 Cell",
+    "lambda_um": 100,
+    "diffusion_coefficient_um2_per_s": 0.3,
+    "half_life_min": 50
+  },
+  "Turing_1952": "The Chemical Basis of Morphogenesis (Phil Trans R Soc B)",
+  "Turing_pattern_biological": {
+    "Kondo_Asai_1995": "Zebrafish stripes",
+    "fingerprints": "Predicted human",
+    "limb_digit": "Sheth 2012 Science",
+    "Gray_Scott_simulation_iterations": 2500
+  },
+  "morphogen_pathways_6": {
+    "Sonic Hedgehog (Shh)": {
+      "pathway": "Hedgehog",
+      "role": "Neural tube ventral, limb AP"
+    },
+    "BMP": {
+      "pathway": "TGF-β",
+      "role": "DV axis, bone"
+    },
+    "Wnt": {
+      "pathway": "Wnt/β-cat",
+      "role": "AP axis, gastrulation"
+    },
+    "FGF": {
+      "pathway": "RTK",
+      "role": "Limb outgrowth, lung branching"
+    },
+    "Retinoic Acid": {
+      "pathway": "Nuclear receptor",
+      "role": "Hindbrain, limb"
+    },
+    "Notch": {
+      "pathway": "Notch",
+      "role": "Lateral inhibition, neurogenesis"
+    }
+  },
+  "organogenesis_timeline_days": {
+    "Neural plate": 18,
+    "Cardiac progenitor": 17,
+    "Heart beat": 22,
+    "Neural tube closure": 22,
+    "Optic vesicle": 24,
+    "Limb buds": 28,
+    "Liver primordium": 30,
+    "Kidney primordium": 35,
+    "Lung branching start": 35,
+    "Organogenesis complete": 56
+  },
+  "lung_branching": {
+    "generations": 23,
+    "terminal_bronchioles": 8388608,
+    "alveoli_per_lung": 500000000,
+    "mechanism": "FGF10 + Shh feedback (fractal-like)"
+  },
+  "folate_NTD_prevention": "70% reduction (MRC 1991)",
+  "ITU_K_dev_morphogen": {
+    "N_cells": 1000,
+    "S_pre_nats": 6.907755278982134,
+    "S_post_nats": 6.07919946915346,
+    "delta_S": -0.828555809828674,
+    "ratio_dS_over_dK": null,
+    "note": "Uniform prior: linearization gives 0/0 NaN; direct ΔS shown"
+  },
+  "ITU_interpretation": {
+    "K_state": "K_dev_morphogen",
+    "modular_Hamiltonian": "K_dev_morphogen^(0) = -log P(fate | morphogen concentration)",
+    "Wolpert_meaning": "Threshold response = K-state quantization",
+    "Turing_meaning": "Diffusion-driven instability = K-state spontaneous symmetry breaking",
+    "Reaction_diffusion": "ITU dynamic spatial expansion (∂ρ/∂t = D∇²ρ + f(ρ, K))"
+  },
+  "predictions": [
+    [
+      "3D organoid kidney/heart/lung functional",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "Synthetic morphogen system in iPS",
+      2028,
+      0.65,
+      "Medium"
+    ],
+    [
+      "Limb regeneration via Turing patch (mammals)",
+      2035,
+      0.3,
+      "Weak"
+    ],
+    [
+      "Fingerprint mathematical prediction validated",
+      2028,
+      0.75,
+      "Strong"
+    ],
+    [
+      "Synthetic bilaterian gastruloid",
+      2030,
+      0.65,
+      "Medium"
+    ]
+  ],
+  "outputs": {
+    "figure": "morphogen_turing.png",
+    "summary_json": "morphogen_turing_summary.json"
+  }
+}

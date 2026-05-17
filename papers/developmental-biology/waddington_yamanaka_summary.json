@@ -1,0 +1,91 @@
+{
+  "phase": 208,
+  "tier1_paper": 29,
+  "block": "B",
+  "topic": "Waddington landscape + Yamanaka iPSC (K_dev_lineage)",
+  "Waddington_1957": "The Strategy of the Genes - epigenetic landscape concept",
+  "Yamanaka_2006": {
+    "factors_OSKM": [
+      "Oct3/4",
+      "Sox2",
+      "Klf4",
+      "c-Myc"
+    ],
+    "method": "Retroviral transduction of mouse fibroblasts",
+    "first_iPS_paper": "Takahashi-Yamanaka 2006 Cell",
+    "Nobel_2012": "Gurdon + Yamanaka shared Physiology/Medicine",
+    "human_iPS_first": "Takahashi 2007 Cell"
+  },
+  "reprogramming_efficiency_pct": {
+    "OSKM retrovirus (Takahashi 2006)": 0.05,
+    "OSKM lentivirus": 0.1,
+    "Sendai virus (non-integrating)": 0.3,
+    "Episomal plasmid": 0.05,
+    "mRNA delivery (Warren 2010)": 1.5,
+    "Small molecules (CiPS, Deng 2013)": 0.005,
+    "Direct conversion (iN, Wernig 2010)": 5.0
+  },
+  "clinical_milestones": {
+    "2006 mouse iPS (Takahashi)": 2006,
+    "2007 human iPS": 2007,
+    "2012 Yamanaka Nobel": 2012,
+    "2013 RPE transplant (高橋政代)": 2013,
+    "2018 PD iPS trial (京都大)": 2018,
+    "2024 cardiac sheet trial": 2024
+  },
+  "Takahashi_Masayo_2013": "World's first iPS-RPE transplant (age-related macular degeneration)",
+  "ITU_K_dev_lineage": {
+    "N_states": 200,
+    "S_pluripotent_nats": 5.298266465399848,
+    "S_differentiated_nats": 2.3755705437119485,
+    "S_reprogrammed_nats": 5.298100096252983,
+    "pluri_to_diff_ratio": 0.9999999999998787,
+    "diff_to_repro_ratio": 0.9999999999999999,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_dev_lineage",
+    "modular_Hamiltonian": "K_dev_lineage^(0) = -log P(cell type t+1 | type t, signal)",
+    "Waddington_meaning": "K-state landscape with valleys (attractors) and ridges (barriers)",
+    "differentiation_meaning": "ITU descent flow into valley (natural)",
+    "reprogramming_meaning": "Anti-descent: forced K-state lifting (Yamanaka factors as operators)",
+    "direct_conversion": "Lateral motion in K-state space (cross-valley)",
+    "RNA_velocity_meaning": "Real-time ITU descent flow vector (La Manno 2018)"
+  },
+  "predictions": [
+    [
+      "iPS β-cell for T1D approved",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "iPS cardiac sheet for HF approved",
+      2030,
+      0.65,
+      "Medium"
+    ],
+    [
+      "In vivo direct reprogramming clinical",
+      2032,
+      0.55,
+      "Medium"
+    ],
+    [
+      "Universal iPS bank 50 HLA-matched lines",
+      2028,
+      0.75,
+      "Strong"
+    ],
+    [
+      "AI-designed Yamanaka 5.0 factors",
+      2030,
+      0.5,
+      "Medium"
+    ]
+  ],
+  "outputs": {
+    "figure": "waddington_yamanaka.png",
+    "summary_json": "waddington_yamanaka_summary.json"
+  }
+}

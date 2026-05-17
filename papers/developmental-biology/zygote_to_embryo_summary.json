@@ -1,0 +1,123 @@
+{
+  "phase": 207,
+  "tier1_paper": 29,
+  "block": "B",
+  "paper_in_block": "4/?",
+  "topic": "Zygote -> Embryo + K_dev introduction",
+  "cell_count_growth": {
+    "Zygote (D0)": 1.0,
+    "8-cell (D3)": 8.0,
+    "Morula (D4)": 32.0,
+    "Blastocyst (D6)": 128.0,
+    "Gastrulation (D14)": 10000.0,
+    "Week 8 organogenesis": 1000000000.0,
+    "Birth (W38)": 1000000000000.0,
+    "Adult": 37000000000000.0
+  },
+  "total_doublings_zygote_to_adult": 45.0725905042773,
+  "germ_layers_3": {
+    "Ectoderm (外胚葉)": [
+      "Nervous system",
+      "Epidermis",
+      "Sensory organs",
+      "Tooth enamel"
+    ],
+    "Mesoderm (中胚葉)": [
+      "Muscle",
+      "Bone",
+      "Cardiovascular",
+      "Kidney",
+      "Gonads",
+      "Connective"
+    ],
+    "Endoderm (内胚葉)": [
+      "GI tract",
+      "Lung",
+      "Liver",
+      "Pancreas",
+      "Thyroid",
+      "Bladder"
+    ]
+  },
+  "cell_potency": {
+    "Totipotent": {
+      "capability": "All cells incl. placenta",
+      "examples": "Zygote, 2-cell"
+    },
+    "Pluripotent": {
+      "capability": "All 3 germ layers",
+      "examples": "ICM, ES, iPS"
+    },
+    "Multipotent": {
+      "capability": "1 lineage",
+      "examples": "HSC, NSC"
+    },
+    "Oligopotent": {
+      "capability": "Few cell types",
+      "examples": "Myeloid progenitor"
+    },
+    "Unipotent": {
+      "capability": "Single cell type",
+      "examples": "Satellite, spermatogonia"
+    }
+  },
+  "potency_reach_estimates": {
+    "Totipotent": 220,
+    "Pluripotent": 200,
+    "Multipotent": 30,
+    "Oligopotent": 5,
+    "Unipotent": 1
+  },
+  "developmental_timeline_days": {
+    "Fertilization": 0,
+    "Cleavage (2-cell)": 1,
+    "Morula": 4,
+    "Blastocyst": 5,
+    "Implantation": 7,
+    "Gastrulation": 14,
+    "Neural tube": 22,
+    "Heart beat": 22,
+    "Limb buds": 28,
+    "Organogenesis complete": 56,
+    "Fetal period start": 63,
+    "Lung surfactant": 168,
+    "Birth": 266
+  },
+  "human_cell_type_counts": {
+    "Classical broad (Alberts)": 200,
+    "Human Cell Atlas v1 (2024)": 400,
+    "Single-cell RNA seq (fine)": 700
+  },
+  "pregnancy_duration_days": 266,
+  "adult_cell_count_Bianconi_2013": 37000000000000.0,
+  "ITU_K_dev_potency_descent": {
+    "N_fates": 200,
+    "S_pluripotent_nats": 5.298254973790648,
+    "S_multipotent_nats": 4.4277182411622125,
+    "S_unipotent_nats": 0.5738169301401022,
+    "pluri_to_multi_ratio": 0.9999999999996748,
+    "multi_to_uni_ratio": 0.9999999999999997,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_dev",
+    "sub_states": [
+      "K_dev_temporal (timing)",
+      "K_dev_spatial (body axes)",
+      "K_dev_lineage (Waddington)",
+      "K_dev_morphogen (gradients)",
+      "K_dev_stem (potency)",
+      "K_dev_organoid (in vitro)",
+      "K_dev_aging (life cycle close)",
+      "K_dev_teratology (defects)"
+    ],
+    "axiom": "delta S(rho_lineage) = delta Tr[K_dev^(0) rho_lineage]",
+    "modular_Hamiltonian": "K_dev^(0) = -log P(cell type | spatiotemporal coord, genotype)",
+    "cell_differentiation_meaning": "ITU descent flow on lineage manifold (S monotonic decrease)",
+    "duality_with_aging": "Block B #6 Aging is the temporal reversal/closure of K_dev"
+  },
+  "outputs": {
+    "figure": "zygote_to_embryo.png",
+    "summary_json": "zygote_to_embryo_summary.json"
+  }
+}

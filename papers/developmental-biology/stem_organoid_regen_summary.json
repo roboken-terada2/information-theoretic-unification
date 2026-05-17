@@ -1,0 +1,180 @@
+{
+  "phase": 211,
+  "tier1_paper": 29,
+  "block": "B",
+  "topic": "Stem cells + Organoids + Regeneration (K_dev_stem)",
+  "adult_stem_cells": {
+    "HSC (骨髄)": {
+      "fraction": 0.0001,
+      "turnover_days": 30,
+      "potency": "Multipotent"
+    },
+    "NSC (SVZ+DG)": {
+      "fraction": 0.001,
+      "turnover_days": 60,
+      "potency": "Multipotent"
+    },
+    "MSC (骨髄+脂肪)": {
+      "fraction": 0.001,
+      "turnover_days": 30,
+      "potency": "Multipotent"
+    },
+    "ISC (Lgr5+ crypt)": {
+      "fraction": 5e-05,
+      "turnover_days": 5,
+      "potency": "Multipotent"
+    },
+    "Satellite (筋)": {
+      "fraction": 0.01,
+      "turnover_days": 365,
+      "potency": "Unipotent"
+    },
+    "Skin (basal)": {
+      "fraction": 0.001,
+      "turnover_days": 30,
+      "potency": "Multipotent"
+    }
+  },
+  "Lgr5_ISC_Clevers_2007": {
+    "cells_per_crypt": 5,
+    "epithelial_cells_per_crypt": 250,
+    "turnover_days": 5,
+    "Sato_intestinal_organoid_2009": "1 Lgr5+ cell -> mini-gut in vitro"
+  },
+  "organoid_history": {
+    "Sato intestinal (Clevers)": {
+      "year": 2009,
+      "tissue": "Intestine"
+    },
+    "Lancaster cerebral": {
+      "year": 2013,
+      "tissue": "Brain"
+    },
+    "Takebe liver": {
+      "year": 2014,
+      "tissue": "Liver"
+    },
+    "Kim kidney": {
+      "year": 2015,
+      "tissue": "Kidney"
+    },
+    "Hofer pancreas": {
+      "year": 2017,
+      "tissue": "Pancreas"
+    },
+    "Lung organoid": {
+      "year": 2019,
+      "tissue": "Lung"
+    },
+    "COVID lung infection model": {
+      "year": 2020,
+      "tissue": "Lung/COVID"
+    },
+    "Cerebral + EEG-like": {
+      "year": 2024,
+      "tissue": "Brain consciousness debate"
+    }
+  },
+  "Lancaster_cerebral_organoid_2013": {
+    "size_mm_max": 4.5,
+    "structure": "Cortical layers + cerebral hemispheres",
+    "disease_model": "Microcephaly (CDK5RAP2)",
+    "ethics_debate_2024": "EEG-like activity raises consciousness questions"
+  },
+  "regeneration_capacity_by_species": {
+    "Planaria": {
+      "score": 100,
+      "capacity": "Whole-body"
+    },
+    "Hydra": {
+      "score": 95,
+      "capacity": "Whole-body"
+    },
+    "Axolotl": {
+      "score": 90,
+      "capacity": "Limb+heart+spinal cord"
+    },
+    "Zebrafish": {
+      "score": 75,
+      "capacity": "Heart+fin+optic"
+    },
+    "Lizard": {
+      "score": 40,
+      "capacity": "Tail only"
+    },
+    "Mouse": {
+      "score": 25,
+      "capacity": "Liver+skin+blood"
+    },
+    "Human": {
+      "score": 25,
+      "capacity": "Liver+skin+blood"
+    }
+  },
+  "axolotl_limb_regeneration_days": {
+    "Amputation": 0,
+    "Wound epithelium": 1.5,
+    "Blastema initiation": 5,
+    "AEC + blastema growth": 10,
+    "Pattern restoration": 17,
+    "Re-differentiation": 24,
+    "Complete limb": 30
+  },
+  "liver_regeneration": {
+    "75pct_hepatectomy_recovery_days": 14,
+    "mechanism": "Mature hepatocyte re-entry + LPC activation"
+  },
+  "planaria_minimum_fragment": "1/300 body fragment regenerates whole",
+  "ITU_K_dev_stem": {
+    "N_cells": 1000,
+    "S_start_1_ISC_nats": 4.986211189940136,
+    "S_mature_organoid_nats": 2.4171348377164192,
+    "delta_S": -2.5690763522237163,
+    "ratio_dS_over_dK": 1.0,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_dev_stem",
+    "modular_Hamiltonian": "K_dev_stem^(0) = -log P(progeny | stem state, niche)",
+    "organoid_meaning": "Self-organization from 1 stem cell = ITU pattern generation",
+    "regeneration_meaning": "K_dev_stem reactivation + K_dev_morphogen reuse",
+    "axolotl_meaning": "Conserved K_dev programs reactivated post-injury",
+    "evolution_loss": "Mammals lost K_dev_stem accessibility (cost: regeneration vs cancer trade-off)"
+  },
+  "predictions": [
+    [
+      "Functional kidney organoid transplant",
+      2032,
+      0.55,
+      "Medium"
+    ],
+    [
+      "Pancreas β-cell organoid for T1D",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "Cerebral organoid + EEG consciousness debate",
+      2028,
+      0.8,
+      "Strong"
+    ],
+    [
+      "Mammalian limb regen via blastema engineering",
+      2035,
+      0.3,
+      "Weak"
+    ],
+    [
+      "iPS oocyte/sperm clinical (infertility)",
+      2030,
+      0.45,
+      "Medium"
+    ]
+  ],
+  "outputs": {
+    "figure": "stem_organoid_regen.png",
+    "summary_json": "stem_organoid_regen_summary.json"
+  }
+}

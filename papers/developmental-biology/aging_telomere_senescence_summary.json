@@ -1,0 +1,138 @@
+{
+  "phase": 212,
+  "tier1_paper": 29,
+  "block": "B",
+  "topic": "Aging deepening + Telomere + Senescence (K_dev_aging)",
+  "12_Hallmarks_of_Aging_2023": [
+    "1. Genomic instability",
+    "2. Telomere attrition",
+    "3. Epigenetic alterations",
+    "4. Loss of proteostasis",
+    "5. Disabled autophagy",
+    "6. Deregulated nutrient",
+    "7. Mitochondrial dysfunction",
+    "8. Cellular senescence",
+    "9. Stem cell exhaustion",
+    "10. Altered intercellular",
+    "11. Chronic inflammation",
+    "12. Dysbiosis"
+  ],
+  "Lopez_Otin_papers": "Cell 2013 (6500+ citations), Cell 2023 (updated)",
+  "telomere_shortening": {
+    "initial_length_kb": 12.0,
+    "loss_per_division_bp": 100,
+    "critical_short_kb": 4.0,
+    "Hayflick_limit_divisions": 79,
+    "Hayflick_1961": "50 divisions in vitro for human fibroblasts",
+    "Nobel_2009": "Blackburn + Greider + Szostak"
+  },
+  "Horvath_clock": {
+    "year": 2013,
+    "method": "353 CpG methylation sites",
+    "accuracy_yr": "±3-5",
+    "applications": [
+      "chronological age prediction",
+      "biological age",
+      "disease risk"
+    ]
+  },
+  "senolytics": {
+    "first_class_Kirkland_2015": "Dasatinib + Quercetin (D+Q)",
+    "Mayo_Clinic_Tchkonia_Kirkland": "Senolytic concept",
+    "mouse_healthspan_extension_pct": 30,
+    "Phase_II_trials_2024": [
+      "CKD",
+      "Alzheimer",
+      "Pulmonary fibrosis"
+    ]
+  },
+  "partial_reprogramming": {
+    "Ocampo_2016_Cell_Belmonte": "OSKM pulse rescues progeria",
+    "progeria_lifespan_extension_pct": 30,
+    "DNAm_age_reduction": "10-15 years"
+  },
+  "longevity_companies_2022_2024": {
+    "Altos_Labs": {
+      "founding_year": 2022,
+      "funding_USD": 3000000000.0,
+      "leaders": "Yamanaka + Ocampo + López-Otín + Belmonte"
+    },
+    "Calico_Labs": {
+      "founding_year": 2013,
+      "funding_USD": 1000000000.0,
+      "leaders": "Alphabet/Google + AbbVie + Kenyon (prev)"
+    },
+    "Retro_Biosciences": {
+      "founding_year": 2022,
+      "funding_USD": 180000000.0,
+      "leaders": "Sam Altman investment"
+    }
+  },
+  "species_max_lifespan_years": {
+    "Mouse": 4,
+    "Rat": 3,
+    "Naked mole rat": 32,
+    "Dog": 20,
+    "Cat": 25,
+    "Cow": 30,
+    "Human (Calment 1997)": 122,
+    "Bowhead whale": 211,
+    "Ocean quahog": 507,
+    "Greenland shark": 400,
+    "Hydra": "Negligible senescence"
+  },
+  "ITU_K_dev_aging": {
+    "N_states": 2000,
+    "S_young_nats": 7.165320878977759,
+    "S_old_nats": 7.196976609094629,
+    "S_reprogrammed_nats": 7.305329018608824,
+    "young_to_old_ratio": 0.9999999999999993,
+    "old_to_reprogrammed_ratio": 0.9999999999999993,
+    "expected_ratio": 1.0
+  },
+  "ITU_interpretation": {
+    "K_state": "K_dev_aging",
+    "modular_Hamiltonian": "K_dev_aging^(0) = -log P(cell state | age, cumulative damage)",
+    "aging_meaning": "K-state degradation flow (information loss)",
+    "duality_with_Phase_207": "Development (S↓ specialization) vs Aging (S↓ degradation)",
+    "Yamanaka_rejuvenation_meaning": "Partial K-state lifting on aging axis",
+    "senolytic_meaning": "Selective removal of irreversibly degraded K-states",
+    "evolutionary_logic": "Long-lived species suppress somatic K-state plasticity (anti-cancer)"
+  },
+  "predictions": [
+    [
+      "Senolytics FDA approval (1 indication)",
+      2028,
+      0.65,
+      "Medium"
+    ],
+    [
+      "Partial reprogramming clinical (Altos)",
+      2030,
+      0.7,
+      "Strong"
+    ],
+    [
+      "Healthspan extension 5+ years population",
+      2035,
+      0.45,
+      "Medium"
+    ],
+    [
+      "Horvath clock clinical standardization",
+      2028,
+      0.75,
+      "Strong"
+    ],
+    [
+      "Human max lifespan >130 years",
+      2050,
+      0.3,
+      "Weak"
+    ]
+  ],
+  "outputs": {
+    "figure": "aging_telomere_senescence.png",
+    "summary_json": "aging_telomere_senescence_summary.json"
+  }
+}

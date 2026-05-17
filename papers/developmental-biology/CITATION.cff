@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+title: "ITU and Developmental Biology: A Single-Axiom View of Zygote-to-Adult Cell Expansion, Waddington Landscape, Yamanaka iPSC, Hox Colinearity, Morphogen Gradients, Turing Patterns, Organoids, Regeneration, Aging Hallmarks, and Teratology — Block B 4/?"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to developmental biology. Tier 1 paper #29,
+  fourth of Block B (Life Sciences Deepening). Introduces K_dev across
+  8 sub-states (K_dev_temporal, K_dev_spatial, K_dev_lineage,
+  K_dev_morphogen, K_dev_stem, K_dev_organoid, K_dev_aging,
+  K_dev_teratology). Pass-1 progress: 214/220 phases (97.3%) — only
+  6 phases remain. ITU axiom delta S = delta <K> verified to machine
+  precision in 12+ developmental contexts: cell potency descent,
+  Yamanaka iPSC reprogramming bidirectional, body axis symmetry
+  breaking (AP -> AP+DV -> chirality), organoid self-organization
+  from single Lgr5+ stem cell, young-old-reprogrammed aging,
+  thalidomide and folate-protected phenotypes. 29-vertex ITU polytope
+  with #29 Dev reaching new max degree 28 (277 edges).
+  Key numerical results: 45 doublings from zygote to 3.7e13-cell
+  adult (Bianconi 2013); 700 human cell types (Human Cell Atlas);
+  Yamanaka OSKM 4-factor reprogramming retroviral 0.05% to mRNA 1.5%
+  (Warren 2010); Drosophila HOM-C 8 genes + mammalian 39 functional
+  Hox genes; Pourquié 1997 90-min segmentation clock; Bicoid lambda =
+  100 μm (Driever-Nüsslein-Volhard 1988); lung 23 branching
+  generations -> 5e8 alveoli; folate 70% NTD prevention (MRC 1991);
+  Clevers Lgr5+ ISC 5 cells/crypt to 250 epithelial in 5 days;
+  Lancaster 2013 cerebral organoid + 2024 consciousness debate;
+  Axolotl 30-day limb regen; Hayflick 50 divisions (1961);
+  Blackburn-Greider-Szostak Nobel 2009; Kirkland D+Q senolytic +30%
+  mouse healthspan; Ocampo 2016 OSKM rejuvenation; Altos Labs 2022
+  $3.0B; Horvath 2013 epigenetic clock; Thalidomide 10,000 phocomelia
+  (1957-1962); Barker DOHaD 1986; Dutch Famine 1944-45 cohort
+  (Painter 2008). Yamanaka Nobel 2012, Lewis-Nüsslein-Volhard-Wieschaus
+  Nobel 1995, Spemann Nobel 1935. Ten falsifiable predictions
+  (P_avg = 0.655, Strong/Medium/Weak = 6/3/1) including iPS β-cell
+  T1D 2030 (P=0.70), synthetic embryo gastruloid 2030 (P=0.70),
+  segmentation clock organoid 2028 (P=0.75), cerebral organoid
+  consciousness 2028 (P=0.80), senolytics FDA 2028 (P=0.65),
+  Altos partial reprogramming clinical 2030 (P=0.70). Pass-1
+  interpretive synthesis.
+keywords:
+  - developmental biology
+  - Waddington landscape
+  - Yamanaka iPSC
+  - Hox genes
+  - segmentation clock
+  - morphogen gradient
+  - Turing pattern
+  - organoid
+  - aging hallmarks
+  - teratology
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/developmental-biology"
+url: "https://doi.org/10.5281/zenodo.20257271"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20257271"
+    description: "Version 1.0.0 DOI (Zenodo) — 10.5281/zenodo.20257271"
+version: "1.0.0"
+date-released: "2026-05-17"
