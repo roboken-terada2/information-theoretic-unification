@@ -1,0 +1,156 @@
+{
+  "phase": 153,
+  "title": "Superconductivity — BCS + Meissner + Josephson",
+  "tier1_paper": "#22 Condensed Matter (phase 3/8)",
+  "tests": {
+    "bcs_gap": {
+      "omega_D_K": 105.0,
+      "NV_coupling": 0.3,
+      "T_c_numerical_K": 0.15151407532663555,
+      "Delta_0_K_units": 0.2673322828345331,
+      "ratio_2Delta_over_kBTc": 3.5288111980120065,
+      "BCS_universal_3p53": 3.53
+    },
+    "specific_heat_jump": {
+      "BCS_universal_DeltaC_over_gammaTc": 1.43,
+      "Al_exp": 1.45,
+      "Sn_exp": 1.6,
+      "Pb_exp_strong_coupling": 2.71
+    },
+    "London_penetration": {
+      "Pb_lambda_L_nm": 43.38938979993901,
+      "reference_Pb": 37
+    },
+    "materials_kappa_type": {
+      "Al": {
+        "lambda_L": 16,
+        "xi": 1600,
+        "Tc": 1.2,
+        "kappa": 0.01,
+        "type": "I"
+      },
+      "Pb": {
+        "lambda_L": 37,
+        "xi": 83,
+        "Tc": 7.2,
+        "kappa": 0.4457831325301205,
+        "type": "I"
+      },
+      "Nb": {
+        "lambda_L": 39,
+        "xi": 38,
+        "Tc": 9.3,
+        "kappa": 1.0263157894736843,
+        "type": "II"
+      },
+      "YBCO": {
+        "lambda_L": 150,
+        "xi": 2,
+        "Tc": 93,
+        "kappa": 75.0,
+        "type": "II"
+      }
+    },
+    "flux_quantum_Wb": 2.0678338471949278e-15,
+    "AC_Josephson_K_J_GHz_per_mV": 483.59784871329333,
+    "Tc_history": [
+      {
+        "material": "Hg (Onnes 1911)",
+        "year": 1911,
+        "Tc_K": 4.2,
+        "type": "I"
+      },
+      {
+        "material": "Pb",
+        "year": 1913,
+        "Tc_K": 7.2,
+        "type": "I"
+      },
+      {
+        "material": "Nb",
+        "year": 1930,
+        "Tc_K": 9.3,
+        "type": "II"
+      },
+      {
+        "material": "Nb3Sn",
+        "year": 1954,
+        "Tc_K": 18.0,
+        "type": "II"
+      },
+      {
+        "material": "Nb3Ge",
+        "year": 1973,
+        "Tc_K": 23.2,
+        "type": "II"
+      },
+      {
+        "material": "La2-xBaxCuO4",
+        "year": 1986,
+        "Tc_K": 30.0,
+        "type": "HTS"
+      },
+      {
+        "material": "YBa2Cu3O7",
+        "year": 1987,
+        "Tc_K": 93.0,
+        "type": "HTS"
+      },
+      {
+        "material": "Bi2Sr2Ca2Cu3O10",
+        "year": 1988,
+        "Tc_K": 110.0,
+        "type": "HTS"
+      },
+      {
+        "material": "HgBa2Ca2Cu3O8",
+        "year": 1993,
+        "Tc_K": 138.0,
+        "type": "HTS"
+      },
+      {
+        "material": "LaFeAsO1-xFx",
+        "year": 2008,
+        "Tc_K": 26.0,
+        "type": "Fe"
+      },
+      {
+        "material": "SmFeAsO1-xFx",
+        "year": 2008,
+        "Tc_K": 55.0,
+        "type": "Fe"
+      },
+      {
+        "material": "H3S @ 155 GPa",
+        "year": 2015,
+        "Tc_K": 203.0,
+        "type": "H"
+      },
+      {
+        "material": "LaH10 @ 170 GPa",
+        "year": 2019,
+        "Tc_K": 250.0,
+        "type": "H"
+      }
+    ],
+    "above_LN2_77K_count": 5
+  },
+  "itu_interpretation": {
+    "BCS": "K_FD × K_phonon → K_Cooper-pair → K_BE macroscopic condensation",
+    "Meissner": "K_SC macroscopic coherence excludes B field",
+    "lambda_L": "K_SC screening length",
+    "xi": "K_SC correlation length",
+    "Type_II_vortex": "K_SC topological defect with quantized flux",
+    "Phi_0": "K_SC geometric quantization (= h/2e)",
+    "Josephson": "K_SC phase tunneling",
+    "HTS": "K_SC non-BCS mechanism candidate (Phase 154 K_correlation)"
+  },
+  "key_findings": [
+    "BCS T_c = 0.15 K, 2Δ(0)/k_BT_c = 3.529 (universal 3.53)",
+    "London λ_L(Pb) = 43.4 nm (ref 37 nm ✓)",
+    "Φ_0 = h/(2e) = 2.0678e-15 Wb",
+    "AC Josephson K_J = 483.60 THz/V",
+    "T_c history: Hg 4.2K (1911) → YBCO 93K (1987) > LN₂ → LaH10 250K (2019, 170GPa)",
+    "Type II HTS YBCO κ = 75 (extreme), λ_L=150 nm, ξ=2 nm"
+  ]
+}

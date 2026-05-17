@@ -1,0 +1,119 @@
+{
+  "phase": 157,
+  "title": "Soft matter — liquid crystals + colloids + polymers + self-assembly",
+  "tier1_paper": "#22 Condensed Matter (phase 7/8)",
+  "tests": {
+    "maier_saupe": {
+      "lambda_c_numerical": 4.5423728813559325,
+      "lambda_c_theory": 4.541,
+      "S_at_NI_numerical": 0.4298669053374184,
+      "S_at_NI_theory": 0.43
+    },
+    "DLVO_potential": {
+      "colloid_R_nm": 100.0,
+      "Hamaker_A_J": 1e-20,
+      "salt_100mM_lambda_D_nm": 0.9617409846658773,
+      "surface_potential_mV": 25.0,
+      "barrier_height_kT": 3.1991035246637773
+    },
+    "debye_length_vs_salt": {
+      "1e-06M": 304.1292030677244,
+      "1e-05M": 96.17409846658774,
+      "1e-04M": 30.412920306772442,
+      "1e-03M": 9.617409846658774,
+      "1e-02M": 3.041292030677244,
+      "1e-01M": 0.7852582257177536,
+      "1e+00M": 0.30412920306772445
+    },
+    "SAW_Flory": {
+      "N_chain": [
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "R_2D": [
+        4.138230040182211,
+        6.399483482423182,
+        9.791056280076464,
+        15.613903563655057,
+        26.872868907068906
+      ],
+      "R_3D": [
+        3.551668692500549,
+        5.010804341944446,
+        7.1739498155366075,
+        10.572572928340875,
+        16.33486404792104
+      ],
+      "nu_2D_fit": 0.6684933090657674,
+      "nu_3D_fit": 0.5479983465695252,
+      "nu_2D_exact": 0.75,
+      "nu_3D_accurate": 0.588
+    },
+    "stokes_einstein": {
+      "T_K": 298.0,
+      "viscosity_water_Pa_s": 0.001,
+      "size_nm": [
+        0.5,
+        1.0,
+        5.0,
+        10.0,
+        50.0,
+        100.0,
+        500.0,
+        1000.0
+      ],
+      "D_m2_per_s": [
+        4.365443978760993e-10,
+        2.1827219893804965e-10,
+        4.365443978760993e-11,
+        2.1827219893804965e-11,
+        4.3654439787609934e-12,
+        2.1827219893804967e-12,
+        4.365443978760993e-13,
+        2.1827219893804966e-13
+      ]
+    },
+    "packing_fractions": {
+      "Random Loose Packing (RLP)": 0.55,
+      "Random Close Packing (RCP)": 0.64,
+      "BCC": 0.68,
+      "FCC / HCP (close-packed)": 0.7404804896930609,
+      "Glass transition (hard sphere)": 0.58
+    },
+    "glass_Tg_K": {
+      "Glycerol": 190,
+      "Vitreous ice (H₂O)": 136,
+      "Toluene": 117,
+      "Polystyrene": 373,
+      "PMMA (acrylic)": 378,
+      "Polycarbonate": 420,
+      "Selenium": 313,
+      "B₂O₃": 528,
+      "Pyrex 7740": 820,
+      "Soda-lime glass": 830,
+      "Fused silica (SiO₂)": 1473
+    }
+  },
+  "itu_interpretation": {
+    "nematic": "K_orientation only (K_position absent)",
+    "DLVO": "K_attractive vdW + K_repulsive screened Coulomb",
+    "Flory": "K_chain self-avoiding scaling",
+    "reptation": "K_chain topological constraint dynamics",
+    "self_assembly": "K_amphiphile minimum free energy",
+    "lipid_bilayer": "K_membrane 2D fluid + bending elastic",
+    "protein_folding": "K_polymer native attractor (Phase 149 K_complex)",
+    "glass_transition": "K_stat dynamical arrest"
+  },
+  "key_findings": [
+    "Maier-Saupe λ_c ≈ 4.54 (theory 4.54), S(NI) ≈ 0.430",
+    "DLVO barrier 3.2 k_BT for 100 nm colloid in 100 mM NaCl",
+    "Debye length: 1 μm (ultrapure) → 1 nm (100 mM) → 0.3 nm (1 M)",
+    "Flory ν: 2D = 0.668 (exact 0.75), 3D = 0.548 (best 0.588)",
+    "Stokes-Einstein: protein D ~ 10⁻¹⁰ m²/s, virus D ~ 10⁻¹² m²/s",
+    "Hard sphere RCP = 0.64, FCC = 0.7405 (max possible)",
+    "Glass T_g: vitreous ice 136 K → fused silica 1473 K (10× range)"
+  ]
+}

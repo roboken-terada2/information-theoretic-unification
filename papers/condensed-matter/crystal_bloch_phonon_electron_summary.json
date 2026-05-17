@@ -1,0 +1,69 @@
+{
+  "phase": 151,
+  "title": "Condensed matter foundations — Crystal + Bloch + Phonons + Sommerfeld",
+  "tier1_paper": "#22 Condensed Matter (phase 1/8)",
+  "tests": {
+    "cu_lattice": {
+      "a_Angstrom": 3.6149999999999998,
+      "atoms_per_cell": 4,
+      "n_per_m3": 8.467107748473357e+28,
+      "reference": "8.49e28 /m³"
+    },
+    "cu_fermi_gas": {
+      "k_F_per_m": 13584761834.404285,
+      "eps_F_J": 1.1265160612185115e-18,
+      "eps_F_eV": 7.031160218621136,
+      "T_F_K": 81593.226172511,
+      "phase144_match": "ε_F = 7.05 eV, T_F = 8.18e4 K ✓"
+    },
+    "phonon_1D_chain": {
+      "K_spring_Npm": 30.0,
+      "m_Cu_kg": 1.0552061552616359e-25,
+      "omega_max_rad_per_s": 33722670963110.965,
+      "BZ_edge_per_m": 8690436109.515333,
+      "sound_velocity_simplified_m_per_s": 6095.372776582307
+    },
+    "debye_temperatures_K": {
+      "Pb": 105.0,
+      "Cu": 343.0,
+      "Si": 645.0,
+      "Diamond": 2230.0
+    },
+    "cu_Cv_T3_low_T_slope": 2.9997805751574735,
+    "cu_sommerfeld_gamma": {
+      "value_mJ_per_mol_K2": 0.5028631707448319,
+      "experimental_Cu": 0.69,
+      "ratio_theory_over_exp": 0.7287872039780173
+    },
+    "wiedemann_franz": {
+      "L_0_theory_W_Ohm_per_K2": 2.443004509073667e-08,
+      "Cu_measured": 2.2427293064876957e-08,
+      "ratio_measured_over_theory": 0.9180209443567866,
+      "all_metals": {
+        "Cu": 2.2427293064876957e-08,
+        "Ag": 2.26984126984127e-08,
+        "Au": 2.5853658536585364e-08,
+        "Al": 2.0954907161803713e-08,
+        "Fe": 2.6666666666666667e-08,
+        "Pb": 2.4255024255024255e-08
+      }
+    },
+    "drude_relaxation_Cu_s": 2.49792492454479e-14
+  },
+  "itu_interpretation": {
+    "K_solid": "K_stat + lattice periodicity",
+    "Bloch_theorem": "K-state eigendecomposition under translation symmetry",
+    "band_structure": "K_band k-space spectrum (gap = forbidden region)",
+    "phonon": "K_lattice quantized normal modes",
+    "free_electron": "K_FD on lattice (Sommerfeld 1928 = Phase 144 result)",
+    "Wiedemann_Franz": "K_FD universal scaling (thermal/electrical conductivity ratio)"
+  },
+  "key_findings": [
+    "Cu FCC atomic density n = 8.47e+28 /m³ (ref 8.49e28 ✓)",
+    "Cu Fermi energy ε_F = 7.03 eV, T_F = 8.16e+04 K (Phase 144 match)",
+    "Debye Cv low-T slope = 3.00 (theory T³ ⇒ slope 3.0 ✓)",
+    "Sommerfeld γ_Cu = 0.50 mJ/(mol K²) vs exp 0.69 mJ/(mol K²)",
+    "Wiedemann-Franz L_0 = 2.443e-08; Cu measured 2.243e-08",
+    "Drude τ_Cu = 2.50e-14 s (ref 2.5e-14 s ✓)"
+  ]
+}

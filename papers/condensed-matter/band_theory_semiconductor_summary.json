@@ -1,0 +1,91 @@
+{
+  "phase": 152,
+  "title": "Band theory + Drude-Sommerfeld + semiconductor physics",
+  "tier1_paper": "#22 Condensed Matter (phase 2/8)",
+  "tests": {
+    "tight_binding_1D": {
+      "epsilon_0_eV": 0.0,
+      "t_hopping_eV": 1.0,
+      "lattice_a_Angstrom": 3.0,
+      "bandwidth_W_eV": 4.0,
+      "E_min_eV": -1.999938005707171,
+      "E_max_eV": 2.0
+    },
+    "NFE_band_gap": {
+      "V_0_eV": 1.0,
+      "BZ_boundary_k_per_m": 10471975511.965977,
+      "gap_size_eV": 2.0004385578931507,
+      "theory_2V0_eV": 2.0
+    },
+    "DOS_3D": {
+      "D_at_eps_F_per_m3_per_eV": 3.6046646680811477e+28,
+      "reference_Cu_per_m3_per_eV": 1.5e+28,
+      "sqrt_eps_scaling_test": {
+        "eps_eV": [
+          1,
+          4,
+          9
+        ],
+        "D_ratios": [
+          1.0,
+          2.0,
+          3.0
+        ],
+        "theory_sqrt_ratios": [
+          1.0,
+          2.0,
+          3.0
+        ]
+      }
+    },
+    "Si_intrinsic_300K": {
+      "m_eff_e_over_me": 1.08,
+      "m_eff_h_over_me": 0.81,
+      "E_g_eV": 1.12,
+      "N_c_per_cm3": 2.8164863025338864e+19,
+      "N_v_per_cm3": 1.8293615155539366e+19,
+      "n_i_per_cm3": 8880095677.347586,
+      "reference_n_i": "~1e10 /cm³"
+    },
+    "GaAs_intrinsic_300K": {
+      "E_g_eV": 1.42,
+      "n_i_per_cm3": 2145667.6772861658,
+      "reference_n_i": "~1e6 /cm³"
+    },
+    "Si_pn_junction": {
+      "N_A_per_cm3": 9.999999999999998e+16,
+      "N_D_per_cm3": 9.999999999999998e+16,
+      "V_T_thermal_V": 0.025851999786435535,
+      "V_bi_V": 0.839511037466228
+    },
+    "shockley_diode": {
+      "I_s_A": 1e-12,
+      "I_at_06V_A": 0.01201036955312849,
+      "I_at_07V_A": 0.5747545691036834,
+      "I_reverse_neg03V_A": -9.999908752323474e-13
+    },
+    "Hall_coefficient": {
+      "Cu_R_H_m3_per_C": -7.342951852306781e-11,
+      "Si_doped_1e16_R_H_m3_per_C": -0.0006241509074460763,
+      "ratio_Si_over_Cu": 8499999.999999998
+    }
+  },
+  "itu_interpretation": {
+    "tight_binding": "K_solid effective lattice Hamiltonian",
+    "NFE_gap": "K_band Bragg-reflection forbidden region",
+    "DOS": "K_band volume measure",
+    "semiconductor": "K_band partial Fermi level (μ in gap)",
+    "doping": "K_chemical-potential injection",
+    "pn_junction": "K_band boundary K-flow",
+    "Hall": "K_band carrier identification"
+  },
+  "key_findings": [
+    "1D TB bandwidth W = 4t = 4.0 eV (verified)",
+    "NFE gap at BZ boundary = 2.00 eV vs theory 2V_0 = 2.0 eV ✓",
+    "3D free-electron DOS ∝ √ε confirmed (ratios 1:2:3 at ε=1,4,9)",
+    "Si n_i @ 300K = 8.88e+09 /cm³ (ref ~1e10 ✓)",
+    "GaAs n_i @ 300K = 2.15e+06 /cm³ (4 orders lower due to higher E_g)",
+    "Si p-n V_bi = 0.84 V (10¹⁷ doping)",
+    "Cu R_H = -7.34e-11 m³/C (electron carriers)"
+  ]
+}

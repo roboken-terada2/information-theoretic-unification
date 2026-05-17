@@ -1,0 +1,158 @@
+{
+  "phase": 154,
+  "title": "Magnetism — Heisenberg + Hubbard + Stoner + Mott",
+  "tier1_paper": "#22 Condensed Matter (phase 4/8)",
+  "tests": {
+    "AF_Ising_MC": {
+      "Onsager_Tc": 2.269185314213022,
+      "T_scan": [
+        1.5,
+        2.0,
+        2.27,
+        2.5,
+        3.0
+      ],
+      "staggered_m": [
+        0.9860416666666667,
+        0.8892447916666667,
+        0.749296875,
+        0.454140625,
+        0.21302083333333333
+      ]
+    },
+    "magnon_dispersion": {
+      "FM_log_log_slope_small_k": 1.9949386498383108,
+      "AF_log_log_slope_small_k": 0.9898553749548821,
+      "theory_FM_slope": 2.0,
+      "theory_AF_slope": 1.0
+    },
+    "curie_weiss_materials": {
+      "Fe": {
+        "theta_K": 1043,
+        "mu_eff": 2.22,
+        "g": 2.0,
+        "S": 1.11
+      },
+      "Co": {
+        "theta_K": 1394,
+        "mu_eff": 1.72,
+        "g": 2.0,
+        "S": 0.86
+      },
+      "Ni": {
+        "theta_K": 631,
+        "mu_eff": 0.61,
+        "g": 2.0,
+        "S": 0.305
+      },
+      "Gd": {
+        "theta_K": 293,
+        "mu_eff": 7.55,
+        "g": 2.0,
+        "S": 3.5
+      }
+    },
+    "stoner_criterion": {
+      "Fe": {
+        "D_eF": 2.0,
+        "I": 0.93,
+        "FM": true,
+        "I_times_D": 1.86,
+        "Stoner_prediction": "FM"
+      },
+      "Co": {
+        "D_eF": 1.8,
+        "I": 0.99,
+        "FM": true,
+        "I_times_D": 1.782,
+        "Stoner_prediction": "FM"
+      },
+      "Ni": {
+        "D_eF": 2.8,
+        "I": 0.99,
+        "FM": true,
+        "I_times_D": 2.772,
+        "Stoner_prediction": "FM"
+      },
+      "Cu": {
+        "D_eF": 0.3,
+        "I": 0.73,
+        "FM": false,
+        "I_times_D": 0.219,
+        "Stoner_prediction": "PM"
+      },
+      "Pd": {
+        "D_eF": 1.8,
+        "I": 0.5,
+        "FM": false,
+        "I_times_D": 0.9,
+        "Stoner_prediction": "PM"
+      },
+      "Pt": {
+        "D_eF": 1.6,
+        "I": 0.4,
+        "FM": false,
+        "I_times_D": 0.6400000000000001,
+        "Stoner_prediction": "PM"
+      }
+    },
+    "superexchange_cuprate": {
+      "t_eV": 0.4,
+      "U_eV": 10.0,
+      "J_ex_eV": -0.06400000000000002,
+      "J_ex_K": -742.607281068541,
+      "experimental_La2CuO4_J_K": -1500
+    },
+    "hubbard_regimes": {
+      "Cu metal": {
+        "U_eV": 7,
+        "W_eV": 9,
+        "U_over_W": 0.7777777777777778
+      },
+      "NiO": {
+        "U_eV": 8,
+        "W_eV": 2,
+        "U_over_W": 4.0
+      },
+      "La2CuO4 (Mott)": {
+        "U_eV": 10,
+        "W_eV": 2,
+        "U_over_W": 5.0
+      },
+      "V2O3": {
+        "U_eV": 2,
+        "W_eV": 1.5,
+        "U_over_W": 1.3333333333333333
+      },
+      "SrVO3": {
+        "U_eV": 5,
+        "W_eV": 3,
+        "U_over_W": 1.6666666666666667
+      }
+    },
+    "bloch_T32_law": {
+      "T_C_Ni_K": 631.0,
+      "Bloch_constant": 0.117,
+      "log_log_slope": 1.4999999999999991,
+      "theory_slope": 1.5
+    }
+  },
+  "itu_interpretation": {
+    "Heisenberg": "K_spin SU(2)-invariant Hamiltonian",
+    "Curie_Weiss": "K_spin mean-field response",
+    "magnon": "K_spin Goldstone mode (Phase 145)",
+    "Hubbard": "K_band + K_correlation",
+    "Mott": "K_correlation U/t → ∞ (kinetic blocking)",
+    "superexchange": "K_correlation second-order perturbative",
+    "Stoner": "K_FD exchange instability → spin polarization",
+    "frustration": "K_spin geometric constraint",
+    "spin_liquid": "K_spin topological order (Anderson RVB)"
+  },
+  "key_findings": [
+    "2D AF Ising staggered order drops near Onsager T_c = 2.27",
+    "Magnon dispersion: FM k^1.99 (theory k²), AF k^0.99 (theory k¹)",
+    "Stoner correctly predicts Fe/Co/Ni FM and Cu/Pt PM",
+    "Cuprate superexchange J = -4t²/U = -743 K (exp -1500 K)",
+    "Bloch T^(3/2) law: log-log slope = 1.500 (theory 1.5 ✓)"
+  ]
+}

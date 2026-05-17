@@ -1,0 +1,313 @@
+cff-version: 1.2.0
+title: "ITU and Condensed Matter Physics: A Single-Axiom View of Crystal Structure, Band Theory, Superconductivity, Magnetism, Topological Matter, Strongly Correlated Electrons, and Soft Matter"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; current latest
+  Tier 0 v3.0 at 10.5281/zenodo.20200156) to condensed matter physics.
+  This is Tier 1 paper #22, the sixth paper of Block A (Physics/Math
+  deepening), introducing K_solid = K_lattice ⊕ K_band ⊕ K_phonon ⊕
+  K_SC ⊕ K_magnetic ⊕ K_topo ⊕ K_correlation ⊕ K_soft, and completing
+  the COMPLETE PHYSICS BLOCK with Tier 1 #17 (K_geom, DOI
+  10.5281/zenodo.20230667), #19 (K_cosmic, DOI 10.5281/zenodo.20233952),
+  #20 (K_field, DOI 10.5281/zenodo.20234703), and #21 (K_stat, DOI
+  10.5281/zenodo.20237082). The ITU polytope reaches 22 vertices with
+  #17-#22 all attaining degree 21 (new maximum). Pass-1 progress:
+  158 of 220 phases (71.8%).
+  Phase 151 establishes the K_solid backbone via Bravais lattices,
+  Bloch's theorem, Debye phonons, and the Sommerfeld free electron gas.
+  Cu Fermi energy ε_F = 7.03 eV (consistent with Phase 144), T_F =
+  8.16×10^4 K. Debye T³ specific heat law verified (log-log slope
+  3.000); Dulong-Petit 3k_B asymptotic. Wiedemann-Franz Lorenz number
+  L_0 = (π²/3)(k_B/e)² = 2.443×10⁻⁸ W·Ω/K². Drude τ_Cu = 2.50×10⁻¹⁴ s.
+  Phase 152 covers band theory and semiconductor physics. Tight-binding
+  W=4t for 1D. Nearly-free-electron gap = 2|V_G| at BZ boundary
+  (verified). DOS 3D ∝ √ε (ratios 1:2:3 at ε=1,4,9 eV). Si @ 300 K:
+  N_c = 2.82×10¹⁹/cm³, N_v = 1.83×10¹⁹/cm³, n_i = 8.88×10⁹/cm³. GaAs
+  n_i = 2.15×10⁶/cm³ (4 orders lower). p-n V_bi = 0.84 V; Shockley
+  diode 0.6V → 12 mA. Cu Hall R_H = -7.34×10⁻¹¹ m³/C.
+  Phase 153 derives BCS superconductivity (Bardeen-Cooper-Schrieffer
+  1957, Nobel 1972). Universal ratio 2Δ(0)/k_BT_c = 3.529 (theory
+  3.53). London λ_L(Pb) = 43.4 nm. Type I (Al/Pb κ<1/√2) vs Type II
+  (Nb/YBCO). Flux quantum Φ_0 = h/(2e) = 2.0678×10⁻¹⁵ Wb (CODATA
+  exact). AC Josephson K_J = 2e/h = 483,598 GHz/mV. T_c progression:
+  Hg 4.2K (1911) → YBCO 93K (1987, above LN₂) → LaH10 250K (2019).
+  Phase 154 treats magnetism. Heisenberg, Hubbard, Mott. 2D AF Ising
+  MC: staggered m drops 0.99→0.21 across Onsager 2.269. Magnon FM
+  slope=1.995 (theory k²), AF slope=0.990 (theory |k|, Goldstone).
+  Curie-Weiss for Fe(1043K)/Co(1394)/Ni(631)/Gd(293). Stoner I·D>1
+  predicts all 6 metals correctly. Anderson superexchange J=-4t²/U
+  = -742K for La₂CuO₄. Bloch T^(3/2) slope = 1.500 exact.
+  Phase 155 establishes topological matter. GaAs Landau levels at
+  B=10T: ℏω_c = 17.28 meV, l_B = 8.11 nm. von Klitzing R_K = h/e²
+  = 25,812.807 Ω (CODATA exact). IQHE plateaus σ_xy = ν e²/h. FQHE
+  plateaus ν = 1/3, 2/5, 3/7, 5/2. Chern number C ∈ {-1, 0, +1}
+  for two-band model with transitions at m = ±2, 0. Bi₂Se₃ TI
+  surface state v_F = 5×10⁵ m/s. Laughlin e/3 = 5.34×10⁻²⁰ C.
+  Phase 156 covers strongly correlated electrons. Kondo log-T
+  resistivity. Heavy fermion γ_max/γ_Cu = 2464× (YbRh₂Si₂).
+  d-wave gap Δ(k) = Δ₀(cos kx - cos ky)/2 with 4 nodes along
+  k_x=±k_y. Cuprate phase diagram: T_c^max = 95 K at x_opt = 0.16.
+  Linear-T resistivity (strange metal): slope 1.00 vs FL T² slope
+  2.00. 4-site Heisenberg GS = -2J exact. Magic-angle graphene
+  (Cao 2018): 1.1° → moiré 12.8 nm, T_c = 1.7 K.
+  Phase 157 covers soft matter. Maier-Saupe nematic-isotropic:
+  λ_c = 4.54 (theory 4.541), S(NI) = 0.430 (theory 0.43). DLVO
+  barrier 3.2 k_BT for 100 nm colloid in 100 mM NaCl. Debye length:
+  ultrapure 304 nm → 100mM 0.96 nm → 1M 0.30 nm. Flory ν: 2D=0.668
+  (exact 0.75), 3D=0.548 (best 0.588). Stokes-Einstein D for ions
+  to bacteria. Hard sphere FCC π/(3√2) = 0.7405. Glass T_g database
+  11 materials (136 K vitreous ice → 1473 K fused silica).
+  Phase 158 integrates under K_solid. 22-vertex polytope: 173 edges,
+  ⟨k⟩=15.73, #17-#22 all degree 21 (new max). #22 strong couplings:
+  #21 Stat Mech (0.95), #4 Semi (0.90), #1 QC (0.85), #10 Energy
+  (0.85), #11 Material (0.85); avg 0.610. COMPLETE PHYSICS BLOCK
+  K_geom + K_cosmic + K_field + K_stat + K_solid covers physics
+  in 5 K-states. Ten predictions for 2026-2050: room-T 1atm SC 2040
+  P=0.40, magic-angle theory 2030 P=0.65, spin liquid 2028 P=0.70,
+  twisted TMD 2030 P=0.75, iron-based SC mechanism 2028 P=0.65, HOTI
+  2028 P=0.80, strange-metal universality 2032 P=0.60, Majorana qubit
+  2030 P=0.70, protein dynamics AlphaFold-style 2027 P=0.85, cuprate
+  phonon/spin 2035 P=0.55. Grand P_avg = 0.665 (highest in Block A).
+  Strong/Medium/Weak = 5/5/0.
+  Central thesis: ITU axiom dS = d<K> specializes to K_solid for
+  ordered-matter physics, unifying crystals, semiconductors, super-
+  conductivity, magnetism, topological matter, strongly correlated
+  electrons, and soft matter under one principle. COMPLETE PHYSICS
+  BLOCK (#17+#19+#20+#21+#22) covers physics in 5 K-states.
+  Pass-1 interpretive synthesis; numerical results agree with
+  established literature.
+keywords:
+  - condensed matter physics
+  - superconductivity
+  - topological insulators
+  - quantum Hall effect
+  - band theory
+  - strongly correlated electrons
+  - magnetism
+  - BCS theory
+  - soft matter
+  - magic-angle graphene
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/condensed-matter"
+url: "https://doi.org/10.5281/zenodo.20249191"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20249191"
+    description: "Version 1.0.0 DOI (Zenodo)"
+version: "1.0.0"
+date-released: "2026-05-17"
+references:
+  - type: article
+    authors:
+      - family-names: Terada
+        given-names: Munehiro
+    title: "Information-Theoretic Unification (ITU) Tier 0 v3.0"
+    journal: "Zenodo"
+    doi: "10.5281/zenodo.20109209"
+    notes: "Concept DOI (resolves to latest). Current Tier 0 v3.0 at 10.5281/zenodo.20200156."
+    year: 2026
+  - type: article
+    authors:
+      - family-names: Bloch
+        given-names: Felix
+    title: "Über die Quantenmechanik der Elektronen in Kristallgittern"
+    journal: "Zeitschrift für Physik"
+    volume: "52"
+    pages: "555-600"
+    year: 1928
+  - type: article
+    authors:
+      - family-names: Sommerfeld
+        given-names: Arnold
+    title: "Zur Elektronentheorie der Metalle auf Grund der Fermischen Statistik"
+    journal: "Zeitschrift für Physik"
+    volume: "47"
+    pages: "1-32"
+    year: 1928
+  - type: article
+    authors:
+      - family-names: Onnes
+        given-names: Heike Kamerlingh
+    title: "Disappearance of the electrical resistance of mercury at helium temperatures"
+    journal: "Communications from the Leiden Physical Laboratory"
+    volume: "122b"
+    year: 1911
+  - type: article
+    authors:
+      - family-names: Bardeen
+        given-names: John
+      - family-names: Cooper
+        given-names: Leon N.
+      - family-names: Schrieffer
+        given-names: J. Robert
+    title: "Theory of superconductivity"
+    journal: "Physical Review"
+    volume: "108"
+    pages: "1175-1204"
+    year: 1957
+  - type: article
+    authors:
+      - family-names: Josephson
+        given-names: Brian D.
+    title: "Possible new effects in superconductive tunnelling"
+    journal: "Physics Letters"
+    volume: "1"
+    pages: "251-253"
+    year: 1962
+  - type: article
+    authors:
+      - family-names: Bednorz
+        given-names: J. Georg
+      - family-names: Müller
+        given-names: K. Alex
+    title: "Possible high-Tc superconductivity in the Ba-La-Cu-O system"
+    journal: "Zeitschrift für Physik B"
+    volume: "64"
+    pages: "189-193"
+    year: 1986
+  - type: article
+    authors:
+      - family-names: Heisenberg
+        given-names: Werner
+    title: "Zur Theorie des Ferromagnetismus"
+    journal: "Zeitschrift für Physik"
+    volume: "49"
+    pages: "619-636"
+    year: 1928
+  - type: article
+    authors:
+      - family-names: Hubbard
+        given-names: John
+    title: "Electron correlations in narrow energy bands"
+    journal: "Proceedings of the Royal Society A"
+    volume: "276"
+    pages: "238-257"
+    year: 1963
+  - type: article
+    authors:
+      - family-names: Anderson
+        given-names: Philip W.
+    title: "The resonating valence bond state in La2CuO4 and superconductivity"
+    journal: "Science"
+    volume: "235"
+    pages: "1196-1198"
+    year: 1987
+  - type: article
+    authors:
+      - family-names: von Klitzing
+        given-names: Klaus
+      - family-names: Dorda
+        given-names: Gerhard
+      - family-names: Pepper
+        given-names: Michael
+    title: "New method for high-accuracy determination of the fine-structure constant based on quantized Hall resistance"
+    journal: "Physical Review Letters"
+    volume: "45"
+    pages: "494-497"
+    year: 1980
+  - type: article
+    authors:
+      - family-names: Tsui
+        given-names: Daniel C.
+      - family-names: Stormer
+        given-names: Horst L.
+      - family-names: Gossard
+        given-names: Arthur C.
+    title: "Two-dimensional magnetotransport in the extreme quantum limit"
+    journal: "Physical Review Letters"
+    volume: "48"
+    pages: "1559-1562"
+    year: 1982
+  - type: article
+    authors:
+      - family-names: Laughlin
+        given-names: Robert B.
+    title: "Anomalous quantum Hall effect: An incompressible quantum fluid with fractionally charged excitations"
+    journal: "Physical Review Letters"
+    volume: "50"
+    pages: "1395-1398"
+    year: 1983
+  - type: article
+    authors:
+      - family-names: Berry
+        given-names: Michael V.
+    title: "Quantal phase factors accompanying adiabatic changes"
+    journal: "Proceedings of the Royal Society A"
+    volume: "392"
+    pages: "45-57"
+    year: 1984
+  - type: article
+    authors:
+      - family-names: Kane
+        given-names: Charles L.
+      - family-names: Mele
+        given-names: Eugene J.
+    title: "Quantum spin Hall effect in graphene"
+    journal: "Physical Review Letters"
+    volume: "95"
+    pages: "226801"
+    year: 2005
+  - type: article
+    authors:
+      - family-names: König
+        given-names: Markus
+    title: "Quantum spin Hall insulator state in HgTe quantum wells"
+    journal: "Science"
+    volume: "318"
+    pages: "766-770"
+    year: 2007
+  - type: article
+    authors:
+      - family-names: Kondo
+        given-names: Jun
+    title: "Resistance minimum in dilute magnetic alloys"
+    journal: "Progress of Theoretical Physics"
+    volume: "32"
+    pages: "37-49"
+    year: 1964
+  - type: article
+    authors:
+      - family-names: Cao
+        given-names: Yuan
+    title: "Unconventional superconductivity in magic-angle graphene superlattices"
+    journal: "Nature"
+    volume: "556"
+    pages: "43-50"
+    year: 2018
+  - type: article
+    authors:
+      - family-names: de Gennes
+        given-names: Pierre-Gilles
+    title: "Reptation of a polymer chain in the presence of fixed obstacles"
+    journal: "Journal of Chemical Physics"
+    volume: "55"
+    pages: "572-579"
+    year: 1971
+  - type: article
+    authors:
+      - family-names: Maier
+        given-names: Wilhelm
+      - family-names: Saupe
+        given-names: Alfred
+    title: "Eine einfache molekular-statistische Theorie der nematischen kristallinflüssigen Phase"
+    journal: "Zeitschrift für Naturforschung A"
+    volume: "13"
+    pages: "564-566"
+    year: 1958
+  - type: article
+    authors:
+      - family-names: Drozdov
+        given-names: A. P.
+    title: "Conventional superconductivity at 203 K in H3S at high pressure"
+    journal: "Nature"
+    volume: "525"
+    pages: "73-76"
+    year: 2015

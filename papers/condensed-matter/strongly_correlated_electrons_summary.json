@@ -1,0 +1,99 @@
+{
+  "phase": 156,
+  "title": "Strongly correlated electrons — Kondo + HTS + RVB + fractionalization",
+  "tier1_paper": "#22 Condensed Matter (phase 6/8)",
+  "tests": {
+    "kondo": {
+      "T_K_K": 5.0,
+      "rho_min_T_K": 12.61856883066021,
+      "form": "ρ = ρ_0 + a T² - b log T"
+    },
+    "heavy_fermion_gamma": {
+      "Cu (normal)": {
+        "gamma_mJ_per_mol_K2": 0.69,
+        "m_star_over_me": 1.0,
+        "gamma_ratio_to_Cu": 1.0
+      },
+      "Al": {
+        "gamma_mJ_per_mol_K2": 1.35,
+        "m_star_over_me": 1.5,
+        "gamma_ratio_to_Cu": 1.956521739130435
+      },
+      "V": {
+        "gamma_mJ_per_mol_K2": 9.3,
+        "m_star_over_me": 5.0,
+        "gamma_ratio_to_Cu": 13.478260869565219
+      },
+      "CeCu₂Si₂": {
+        "gamma_mJ_per_mol_K2": 1100,
+        "m_star_over_me": 800,
+        "gamma_ratio_to_Cu": 1594.2028985507247
+      },
+      "UPt₃": {
+        "gamma_mJ_per_mol_K2": 420,
+        "m_star_over_me": 300,
+        "gamma_ratio_to_Cu": 608.6956521739131
+      },
+      "CeAl₃": {
+        "gamma_mJ_per_mol_K2": 1620,
+        "m_star_over_me": 1000,
+        "gamma_ratio_to_Cu": 2347.826086956522
+      },
+      "YbRh₂Si₂": {
+        "gamma_mJ_per_mol_K2": 1700,
+        "m_star_over_me": 1200,
+        "gamma_ratio_to_Cu": 2463.768115942029
+      }
+    },
+    "d_wave_gap": {
+      "Delta_0_meV": 30.0,
+      "gap_at_antinode_pi_0_meV": -30.0,
+      "gap_at_node_meV": 0.0,
+      "form": "Δ(k) = Δ_0 (cos k_x - cos k_y)/2",
+      "node_lines": "k_x = ±k_y diagonals"
+    },
+    "cuprate_phase_diagram": {
+      "x_optimal": 0.1606060606060606,
+      "T_c_max_K": 94.99644223388736,
+      "T_N_max_K": 300,
+      "T_star_max_K": 350,
+      "above_LN2_doping_range": "x ∈ [~0.08, ~0.22]"
+    },
+    "resistivity_FL_vs_strange": {
+      "Fermi_liquid_slope": 2.0,
+      "strange_metal_slope": 1.0000000000000004,
+      "FL_theory_slope": 2.0,
+      "strange_metal_theory_slope": 1.0
+    },
+    "RVB_4site_Heisenberg": {
+      "GS_energy_J_units": -1.9999999999999996,
+      "exact_GS_4site_square": -2.0,
+      "match_ratio": 0.9999999999999998
+    },
+    "magic_angle_graphene": {
+      "twist_angle_deg": 1.1,
+      "moire_period_nm": 12.81361657000531,
+      "observed_Tc_K": 1.7,
+      "reference": "Cao et al. Nature 2018"
+    }
+  },
+  "itu_interpretation": {
+    "Kondo": "K_spin × K_FD hybridization",
+    "heavy_fermion": "K_FD renormalized quasi-particle",
+    "d_wave_SC": "K_SC × K_topo (node structure)",
+    "pseudogap": "K_SC precursor + K_AF",
+    "strange_metal": "K_FD universality break (NFL)",
+    "RVB": "K_spin topologically-ordered ground state",
+    "spinon_holon": "K_electron fractionalization",
+    "magic_angle_graphene": "K_moiré flat band → K_correlation"
+  },
+  "key_findings": [
+    "Kondo log-T resistance minimum at T ≈ T_K = 5.0 K",
+    "Heavy fermion γ_max/γ_Cu = 2464× (CeAl₃, YbRh₂Si₂)",
+    "d-wave gap: 4 nodes along k_x=±k_y, antinode max ±Δ_0 = ±30.0 meV",
+    "Cuprate T_c^max = 95 K at x_opt = 0.16",
+    "Strange metal linear-T resistivity (slope = 1.00 vs FL slope = 2.00)",
+    "4-site Heisenberg GS = -2.000 J (exact -2J ✓)",
+    "Magic-angle graphene (1.1°): moiré flat band → Mott + SC (Cao 2018)"
+  ]
+}
