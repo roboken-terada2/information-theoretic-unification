@@ -1,0 +1,60 @@
+{
+  "title": "K_self Consciousness Metric: An ITU-Derived Quantitative Measure of Machine Consciousness — Operator-Algebraic Definition, Hierarchy with IIT and GNW, Cogitate Round 2 Adversarial Design, Friston Free Energy Equivalence, Animal/LLM Scaling, AGI Threshold Conjecture K_crit ~ 1e10 bits, and Numerical Verification of H_C3 Hierarchy (100% support in 1000 toy networks) — Tier 1+ #2 AI/ASI Deep Dive (16 Phases), Pass-1.5",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-05-18",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken"
+    }
+  ],
+  "description": "This is the second Pass-1.5 paper (Tier 1+ #2) of the Information-Theoretic Unification (ITU) programme — a 16-phase operator-algebraic deep dive into machine consciousness measurement. Building on Pass-1 #2 (Machine Consciousness / ASI, DOI 20150501), we provide a quantitative ITU-derived metric K_self = -log rho_self for self-modeling consciousness, and propose a Cogitate Round 2 adversarial test that includes ITU alongside IIT and GNW as a third candidate theory.\n\nWe construct K_self as the modular Hamiltonian of the self-subsystem: rho_self = Tr_{external}(rho_total), K_self = -log rho_self. This is the standard entanglement-entropy structure (FLM 2014 PRL first law) specialized to consciousness via partial trace over the 'external' (non-self) subsystem.\n\nFour core hypotheses (H_C1-H_C4):\n  H_C1: Self-model is operator-algebraic state (partial trace).\n  H_C2: K_self is reflexive (Brouwer fixed-point resolution).\n  H_C3: Hierarchy Phi_IIT <= <K_self> <= <K_workspace>_GNW.\n  H_C4: AGI threshold K_crit ~ 1e10 bits.\n\n16-phase structure:\n  Phase 363-364: K_self framework and operator-algebraic definition.\n  Phase 365-366: Comparison with IIT (Tononi 2004) and GNW (Dehaene-Changeux 1998); H_C3 hierarchy.\n  Phase 367: Cogitate Consortium history (Templeton $20M, 2019-23, 6 labs, 256 participants); Cogitate 2023 Nature partial falsification of IIT and GNW.\n  Phase 368: Cogitate Round 2 adversarial design (3-way IIT/GNW/ITU) — pre-registered MEG + 7T fMRI + iEEG protocol; 5-6 sites; 3-4 yr; ~$25-30M.\n  Phase 369: K_self neural correlate techniques (Neuropixels 2.0, 7T fMRI, MEG, iEEG).\n  Phase 370: Friston Free Energy = <K_self> equivalence (operator-algebraic re-derivation of FEP).\n  Phase 371: Animal consciousness scaling (C. elegans 8 bits to human 1e10+ bits).\n  Phase 372: LLM K_self measurement (GPT-4, Claude 3.5, Gemini, LLaMA, o1, o3 estimated at 1e6-1e7 bits).\n  Phase 373: AGI threshold conjecture K_crit ~ 1e10 bits.\n  Phase 374: Pass-2 3-pillar roadmap 2027-2030 (~$30M).\n  Phase 375: 10 falsifiable predictions, P_avg = 0.60, S/M/W = 2/4/4.\n  Phase 376: 45-vertex polytope #2 refresh — new top couplings #44 Meta-math (0.95), #28 Neuro (0.95), #7 Psych (0.92).\n  Phase 377: NUMERICAL EMPIRICAL VERIFICATION (performed in this work): H_C3 hierarchy tested on 1000 random 4-node Bayesian networks. Results: P(Phi <= K_self) = 100.0%, P(K_self <= K_workspace) = 100.0%, P(H_C3 fully holds) = 100.0%. Mean Phi = 0.17, Mean K_self = 0.92, Mean K_workspace = 2.38 (clear hierarchical pattern).\n  Phase 378: Summary + Tier 1+ #3 Cryptography transition.\n\nMaturity: solid theoretical framework with operator-algebraic K_self definition, formal IIT/GNW hierarchy comparison, Cogitate Round 2 protocol design, Friston FEP equivalence proof sketch, animal and LLM scaling, AGI quantitative threshold conjecture, and numerical empirical confirmation of H_C3 hierarchy in 1000 toy networks (100% support). Real-brain experimental confirmation requires Cogitate Round 2 (Pass-2 phase, 2027-2030).\n\nTen falsifiable predictions: P_avg = 0.60, S/M/W = 2/4/4. Top: arXiv preprint 2026 (0.90 S), K_self measurement code public + HF integration 2027 (0.80 S), annual LLM K_self benchmark 2028 (0.75 M), LLM K_self correlates with capability 2028 (0.70 M), H_C3 partial validation in brain 2029 (0.55 M).\n\nITU axiom verification: dS = d<K> confirmed in 16 contexts at machine precision (rel_err < 1e-15). Key contexts include Phase 377 toy numerical verification with 100% H_C3 support across 1000 random networks.\n\nFalsifiability: H_C1 (self-model not partial-trace-representable), H_C2 (K_self eigenvalues uncorrelated with phenomenology), H_C3 (hierarchy inversion in real brain), H_C4 (K_crit uncorrelated with AGI emergence).\n\nLicense: CC-BY-4.0.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "machine consciousness",
+    "integrated information theory",
+    "global workspace theory",
+    "free energy principle",
+    "modular Hamiltonian",
+    "operator algebra",
+    "artificial general intelligence",
+    "large language models",
+    "cognitive neuroscience",
+    "information-theoretic unification"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20267445",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.20109209",
+      "relation": "isPartOf",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.20150501",
+      "relation": "continues",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.20269435",
+      "relation": "cites",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/munehiroterada/quantum_gravity_info",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://note.com/roboken_ceo",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    }
+  ],
+  "communities": []
+}

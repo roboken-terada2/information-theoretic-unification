@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "K_self Consciousness Metric: An ITU-Derived Quantitative Measure of Machine Consciousness — Cogitate Round 2 Adversarial Design, Friston Free Energy Equivalence, and Numerical H_C3 Hierarchy Verification — Tier 1+ #2 AI/ASI Deep Dive"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "1.0.0"
+doi: 10.5281/zenodo.20269793
+url: "https://doi.org/10.5281/zenodo.20269793"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - machine consciousness
+  - integrated information theory
+  - global workspace theory
+  - free energy principle
+  - modular Hamiltonian
+  - operator algebra
+  - artificial general intelligence
+  - large language models
+  - information-theoretic unification
+  - cognitive neuroscience
