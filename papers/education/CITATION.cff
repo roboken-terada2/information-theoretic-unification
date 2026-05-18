@@ -1,0 +1,107 @@
+cff-version: 1.2.0
+title: "ITU and Education & Pedagogy: A Single-Axiom View of Developmental Psychology, Curriculum, Assessment, Higher Education, AI in Education, Equity, Lifelong Learning, and Metacognition — Pass-1 Extension Paper #6, Block C 4/6"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to education and pedagogy. Tier 1 paper
+  #36, the sixth paper of Pass-1 extension, Block C 4/6 = 67% of
+  social/humanities/arts. Introduces K_edu across 8 sub-states
+  (developmental, curriculum, assessment, higher, AI, equity,
+  lifelong, metacognition). ITU axiom delta S = delta <K> verified
+  to machine precision in 11 contexts. 36-vertex ITU polytope.
+  Theoretical position: Education = K-state transmission + formation
+  mechanism. Piaget = K-state phase transitions; Bloom = K-state
+  ascent path; IRT = Bayesian K-state inference; AI tutors = real-
+  time K-state mapping.
+  Key results: Bologna 1088 (oldest university); Paris 1150; Oxford
+  1167; Cambridge 1209; Harvard 1636; Berlin Humboldt 1810 (research-
+  teaching unity); Tokyo Imperial 1877; Comenius Didactica Magna
+  1632; Prussia compulsory education 1717; US Common School 1837;
+  Japan Gakusei 1872; Piaget 4 cognitive stages (sensorimotor ->
+  preoperational -> concrete operational -> formal operational);
+  Baillargeon 1985 revision (object permanence at 3.5 months);
+  Vygotsky Zone of Proximal Development 1978; Flavell metacognition
+  1979; Gardner 9 multiple intelligences 1983; Pavlov Nobel 1904;
+  Howard-Jones 2014 neuromyths debunked.
+  Curriculum: Bloom Taxonomy 1956 (6 levels Knowledge -> Evaluation);
+  Anderson-Krathwohl 2001 revision (Remember -> Create); Tyler
+  Rationale 1949; Bruner spiral curriculum 1960; Wiggins-McTighe
+  Backward Design 1998; Direct Instruction Hattie d=0.59; McMaster
+  PBL 1969; Flipped Classroom Bergmann-Sams 2007; IB 1968 Geneva
+  (5,800+ schools 2024); Finland late start age 7; Singapore Teach
+  Less Learn More 2005.
+  Assessment: PISA 2000- OECD (81 countries 2022); PISA 2022 Math
+  Singapore 575 #1, Japan 5th 536, US 28th; TIMSS 2023 Japan G4 Math
+  4th (591); IRT (Rasch 1960, Lord-Novick 1968); SAT 1926; ACT 1959;
+  test-optional movement (UC system, post-COVID); Cronbach alpha
+  1951; Black-Wiliam formative assessment d=0.4-0.7; Adaptive testing
+  (GRE 2011-); Duolingo English Test 2014.
+  Higher education: Humboldt 1810 4 principles; THE/QS 2025
+  Oxford/MIT #1; Tokyo 28th/32nd; PhD output US 88,500/yr, China
+  ~70,000, Germany 28,000, Japan 15,400 (US/Japan 5.7x ratio);
+  Japan PhD progression rate ~8% (OECD lowest); EU Bologna Process
+  1999 (47 countries); MOOC Coursera 130M users, edX 80M+, Khan
+  Academy 150M+; MOOC completion 5-10% free / 30-60% paid; WEF
+  Future of Jobs 2027 44% workers' skills disrupted.
+  AI in education: Carnegie Cognitive Tutor Anderson 1995 (d=0.30);
+  Khan Academy founded 2008; Khanmigo 2023.3 (Khan Academy + OpenAI
+  GPT-4 Socratic tutor); ChatGPT Edu 2024.5 (university-only); Karpathy
+  Eureka Labs 2024.7.16 (Andrej Karpathy LLM101n); MIT-Harvard physics
+  AI tutor 2024 (+12% concept, +25% engagement, -30% time); US college
+  students 75-80% use AI 2024; Turnitin AI detector 4-9% false
+  positive; EU AI Act 2024 classifies education AI as High risk;
+  Anthropic Claude.ai 200K context; Quizlet AI; Duolingo Max; Magic
+  School AI; Eureka Labs (Karpathy).
+  Equity: Malala Yousafzai Nobel Peace 2014 (age 17, youngest); UNESCO
+  out-of-school children 244M (2024); Afghanistan Taliban girls'
+  secondary education ban 2021; Mexico Progresa CCT 1997 (later
+  Oportunidades, Prospera); Brazil Bolsa Familia 2003 60M people;
+  PISA SES gap US ~100 vs Japan ~60; NAEP 2022 race gap ~40 points
+  (Asian 282, White 266, Hispanic 244, Black 240); PISA Reading
+  gender gap F>M +30; US IEP 7M+ students; Salamanca Statement 1994;
+  UN CRPD Art. 24 2006; UN Children's Rights 1989 Art. 28; SDG 4
+  Quality Education (2030 target).
+  Lifelong: Faure Report UNESCO 1972; Delors 4 pillars 1996 (Learning
+  to know/do/live together/be); EU adult learning 47% (2022); WEF
+  Future of Jobs 2027 6/10 workers need reskilling; LinkedIn Learning
+  27,000 courses; Udemy 250,000+ courses.
+  Ten falsifiable predictions (P_avg = 0.840 — NEW Pass-1+extension
+  HIGHEST beating #34's 0.825; Strong/Medium/Weak = 9/1/0 tied for
+  HIGHEST) including AI tutor international standard 50%+ 2028
+  (P=0.85, Strong), AI personalized curriculum standard 2028 (P=0.85,
+  Strong), AI essay auto-grading widespread 2027 (P=0.90, Strong),
+  AI teacher assistant 100% G7 2028 (P=0.85, Strong), SAT digital +
+  AI full transition 2027 (P=0.85, Strong), 1:1 AI tutoring 50%+
+  countries 2030 (P=0.80, Strong), AI shrinks SES gap 2028 (P=0.75,
+  Medium), Bloom + AI hybrid revision 2027 (P=0.85, Strong), AI tutor
+  metacognition leader 2028 (P=0.85, Strong), AI research assistant
+  for PhD 2027 (P=0.85, Strong). Block C 4/6 = 67%. Pass-1 extension
+  6/15 = 40%. Pass-1 interpretive synthesis.
+keywords:
+  - education
+  - pedagogy
+  - developmental psychology
+  - curriculum
+  - assessment
+  - higher education
+  - AI in education
+  - educational equity
+  - lifelong learning
+  - metacognition
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/education"
+url: "https://doi.org/10.5281/zenodo.20263371"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20263371"
+    description: "Version 1.0.0 DOI (Zenodo) — to be assigned"
+version: "1.0.0"
+date-released: "2026-05-17"
