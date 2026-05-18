@@ -1,0 +1,32 @@
+{
+  "title": "ITU-Derived Climate Information Theory: K_climate = -log rho_climate — Operator-Algebraic Earth System Modular Hamiltonian, IPCC AR6/AR7 (Skea 2023.7, WG1 2027), Keeling Curve 422.9 ppm 2024 (NOAA Mauna Loa), 2024 +1.55C First Calendar Year Above 1.5C Paris Target, Climate Sensitivity ECS AR6 2.5-4.0 vs Hansen 2023 4.8, Tipping Points (Armstrong McKay 2022 Science 16 Elements, AMOC Boers 2024 Nat Comm, WAIS Naughten 2023 PNAS), Attribution Science (WWA Otto, PNW 2021 150x), Paris/COP29 Baku $300B/yr NCQG 2035, Geoengineering (SCoPEx Canceled 2024, Climeworks Mammoth, CDR), CMIP6/7 + DeepMind GraphCast 2023.11 Science, Lancet Countdown 2024 Heat Deaths +167%, with Numerical Keeling Curve Quadratic Fit (R^2 0.99965, BAU 2030 439 ppm, dF=2.21 W/m^2, ECS Implied 3.09 K Matches AR6 Best 3.0) — Tier 1+ #11 Climate Deep Dive (16 Phases), Pass-1.5",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-05-18",
+  "creators": [
+    {"name": "Terada, Munehiro", "affiliation": "Roboken", "orcid": "0009-0008-0191-5831"}
+  ],
+  "description": "Eleventh Pass-1.5 paper of the Information-Theoretic Unification (ITU) programme. K_climate = -log rho_climate as the operator-algebraic modular Hamiltonian of the Earth climate system, defined over (atmospheric state x ocean state x cryosphere x biosphere x land surface x radiation balance). 16-phase deep dive unifying: IPCC AR6 (2021-23) + AR7 cycle (Skea 2023.7, WG1 due 2027); temperature record (HadCRUT5, GISTEMP, Berkeley, ERA5, 2023 +1.45+-0.12C WMO, **2024 +1.55C first calendar year above 1.5C Paris target NOAA/Copernicus 2025.1**); Keeling Curve Mauna Loa 1958.3- (Charles David Keeling, **422.9 ppm 2024 annual mean, +50% from pre-industrial 280**); Global Carbon Budget 2024 (Friedlingstein, fossil 37.4 + LU 4.2 = 41.6 GtCO2); ocean acidification (pH 8.2->8.05, 4th global coral bleaching 2023-24, 77% reefs); climate sensitivity ECS (Charney 1979 1.5-4.5, Sherwood 2020 2.6-3.9, AR6 best 3.0 likely 2.5-4.0, Hansen 2023 Oxford Open Climate 4.8+-1.2); tipping points (Lenton 2008 PNAS 9 elements, Armstrong McKay 2022 Science 16 elements 5 may trigger at +1.5C, AMOC Boers 2021+2024 Nat Comm early-warning, Ditlevsen 2023 Nat Comm collapse 2025-2095 controversial, WAIS Naughten 2023 PNAS Amundsen locked-in, Amazon dieback, permafrost 1500 GtC); attribution science (Allen 2003 Nature, WWA Otto-van Oldenborgh 2014-, PNW heat dome 2021 150x more likely, Pakistan 2022 floods 50% intense, Europe 2022 60K excess deaths Ballester 2023 Nat Med, Canadian wildfires 2023 7x); mitigation (Paris 2015 COP21 +1.5C aspiration, IPCC SR1.5 2018, carbon budget ~250 GtCO2 remaining for 1.5C, 145 countries net zero covering 88% emissions, UNEP Emissions Gap 2024 +2.6-3.1C track); geoengineering (Crutzen 2006 SRM proposal, Harvard SCoPEx canceled 2024, Make Sunsets controversial, CDR Climeworks Mammoth 36k tCO2/yr 2024.5, Carbfix Iceland mineralization, IPCC AR6 CDR 100-1000 GtCO2 by 2100 essential); climate finance (Green Climate Fund 2010 $13B, Loss and Damage Fund operationalized COP28 2023.12, **COP29 Baku 2024.11.11-22 NCQG $300B/yr by 2035 up from $100B**, Article 6 carbon markets finalized, Trump 2024.11.5 win -> Paris withdrawal 2025); modeling (CMIP6 ~100 models, CMIP7 2024-28, E3SM DOE Frontier 2024.5, **DeepMind GraphCast 2023.11 Science 10-day surpasses ECMWF 1000x faster**, NVIDIA Earth-2); impacts (Lancet Countdown 2024 heat deaths +167%, 733M undernourished FAO, World Bank Groundswell 216M internal migrants by 2050, California 2024 insurance withdrawals, Hurricane Helene 2024.9 230+ deaths, Milton 2024.10).\n\nNumerical Phase 521: Keeling Curve quadratic fit on Mauna Loa annual CO2 1958-2024 (16 selected years). CO2(t) = 314.72 + 0.7683*(t-1958) + 0.01326*(t-1958)^2 ppm. Acceleration 0.027 ppm/yr^2. R^2 = 0.99965, RMSE 0.7 ppm. BAU projection: 439 ppm 2030, 498 ppm 2050. Combined with Myhre 1998 radiative forcing dF = 5.35*ln(C/C0), C0 = 280 ppm: dF(2024) = 2.21 W/m^2 = 59% of 2xCO2 doubling forcing (3.71 W/m^2). Equilibrium warming committed at 2024 forcing with lambda=1.2 W/m^2/K: 1.84 K. ECS implied = 3.09 K matches IPCC AR6 best estimate 3.0. ITU re-interpretation: ECS = d<K_climate>/d log[CO2], dK_radiation per CO2 doubling = 5.35*ln(2) = 3.71 W/m^2 constant modular flow step.\n\nFour hypotheses (H_CL1-H_CL4): operator-algebraic Earth state; anthropogenic forcing = modular flow perturbation; ECS = d<K>/d log[CO2]; tipping points = sub-state localization. Ten falsifiable predictions P_avg=0.66, S/M/W=3/6/1 (highlights: 2025 top-5 warmest P=0.85, CO2 430 ppm by 2028 P=0.85, +1.5C exceeded 5+ consecutive yr by 2030 P=0.70, AR7 ECS 3.0+-0.5 P=0.65, AMOC tipping signal replication 2027 P=0.55, Gt-scale CDR 2035 P=0.50).\n\nNew 45-vertex polytope #11 top couplings: #10 Energy (0.95), #41 Agriculture (0.92), #42 Finance (0.90), #15 Infrastructure (0.90), #27 Microbiome (0.85), #35 Law (0.85). Degree (>0.7): 7, total (>0.5): 26.\n\nPass-2 roadmap ~$2.1M: K_climate ERA5 reanalysis analytics $800K + Lean Mathlib formalization $300K + attribution-ITU partnership $1M.\n\nMain new contributions: (1) K_climate operator-algebraic definition; (2) ECS = d<K_climate>/d log[CO2] (climate sensitivity as modular-flow response coefficient); (3) Keeling Curve quadratic fit R^2 0.99965 on 66-year NOAA Mauna Loa series with implied ECS 3.09 K matching AR6. Next: Tier 1+ #12 Cosmology (K_cosmo Lambda-CDM modular Hamiltonian). Pass-1.5 progress: 11/45 = 24.4%. License: CC-BY-4.0.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "climate science",
+    "Earth system",
+    "IPCC AR6",
+    "climate sensitivity",
+    "tipping points",
+    "Keeling Curve",
+    "attribution science",
+    "carbon budget",
+    "modular Hamiltonian",
+    "information-theoretic unification"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20267445", "relation": "isSupplementTo", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20109209", "relation": "isPartOf", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20152093", "relation": "continues", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20271536", "relation": "cites", "resource_type": "publication-preprint"},
+    {"identifier": "https://github.com/munehiroterada/quantum_gravity_info", "relation": "isSupplementedBy", "resource_type": "software"}
+  ],
+  "communities": []
+}
