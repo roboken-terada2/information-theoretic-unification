@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "ITU-Derived Biological Aging Information Theory: K_aging = -log rho_organism — Tier 1+ #6 Aging Deep Dive"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+    orcid: "https://orcid.org/0009-0008-0191-5831"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "1.0.0"
+doi: 10.5281/zenodo.20270954
+url: "https://doi.org/10.5281/zenodo.20270954"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - biological aging
+  - epigenetic clock
+  - Yamanaka factors
+  - cellular senescence
+  - telomere biology
+  - longevity research
+  - operator algebra
+  - modular Hamiltonian
+  - hallmarks of aging
+  - information-theoretic unification

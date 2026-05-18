@@ -1,0 +1,36 @@
+{
+  "title": "ITU-Derived Biological Aging Information Theory: K_aging = -log rho_organism — Operator-Algebraic Modular Hamiltonian, 12 Hallmarks of Aging (Lopez-Otin 2013/2023), Epigenetic Clocks (Horvath 2013, GrimAge, PhenoAge, DunedinPACE), Yamanaka Partial Reprogramming (Ocampo 2016), Senolytics, Telomere Biology (Nobel 2009), CR + Rapamycin + Metformin TAME, Longevity Biotech (Altos Labs $3B, Calico, Loyal LOY-002 FDA 2024.11 First Lifespan Drug), Blue Zones, AI-Aging (Insilico Medicine Phase 2), with Numerical Aging Trajectory Verification (~10 yr Biological Age Reduction via Partial Reprogramming) — Tier 1+ #6 Aging Deep Dive (16 Phases), Pass-1.5",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-05-18",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken",
+      "orcid": "0009-0008-0191-5831"
+    }
+  ],
+  "description": "This is the sixth Pass-1.5 paper (Tier 1+ #6) of the Information-Theoretic Unification (ITU) programme — a 16-phase operator-algebraic deep dive into biological aging. We propose K_aging = -log rho_organism as the modular Hamiltonian of the organism state, unifying the 12 Hallmarks of Aging (Lopez-Otin 2013/2023), epigenetic clocks, Yamanaka reprogramming, cellular senescence, telomere biology, caloric restriction pathways, longevity biotech industry, Blue Zones, and AI-aging tools under a single operator-algebraic framework.\n\nFour core hypotheses (H_A1-H_A4):\n  H_A1: Organism is operator-algebraic state (rho_organism over multi-omics).\n  H_A2: <K_aging> measures biological age (linear in healthy, super-linear in accelerated).\n  H_A3: Epigenetic clocks (Horvath 2013 et al.) measure K_aging projections.\n  H_A4: Reprogramming (Yamanaka OSKM, Ocampo 2016) reverses K_aging modular flow.\n\n16-phase structure: Phase 427-429 framework + multi-omics definition. Phase 430: epigenetic clocks (Horvath 353-CpG, GrimAge mortality predictor, PhenoAge, DunedinPACE). Phase 431: Yamanaka OSKM (Nobel 2012) + Ocampo 2016 partial reprogramming (40% lifespan extension in progeroid mice) + Sinclair 2023 AAV-OSK vision restoration. Phase 432: senescence + senolytics (D+Q, Fisetin, UBX1325 Unity Biotech). Phase 433: telomeres (Blackburn-Greider-Szostak Nobel 2009, Geron imetelstat Rytelo FDA 2024.6). Phase 434: mitochondrial (Harman 1956, mtUPR, Urolithin A, NMN). Phase 435: CR + rapamycin (Harrison 2009 Nature ITP) + metformin (TAME Barzilai). Phase 436: Altos Labs (2022.1 $3B Hal Barron + Yamanaka), Calico ($1.5B), Retro ($180M Altman), BioAge ($170M 2024), Tally Health (Sinclair), Loyal LOY-002 FDA 2024.11 first lifespan drug. Phase 437: Blue Zones (Buettner 2005, Okinawa/Sardinia/Ikaria/Nicoya/Loma Linda) + APOE2/FOXO3. Phase 438: Sinclair NMN, Wyss-Coray parabiosis (Stanford 2014 Nat Med), Conboy young-blood. Phase 439: Insilico Medicine Phase 2 INS018_055 (first AI-discovered drug, $350M Series E 2024), Gorbunova naked mole rat. Phase 440: Pass-2 ~$2M roadmap. Phase 441: 10 predictions (P_avg = 0.675, S/M/W = 3/6/1) + 45-vertex polytope #6 refresh + NUMERICAL aging trajectory simulation. Phase 442: summary + Tier 1+ #7 Psychiatry transition.\n\nNumerical Phase 441 results: toy aging trajectory ages 0-100 yr. Healthy K_aging = 0.07*age + 0.5 (linear, correlation r=1.0). Accelerated aging super-linear after age 30 (r=0.98). Partial reprogramming at age 70 reduces K_aging by 0.70 nats = ~10 year biological age reduction, matching Ocampo et al. 2016 Cell mouse data quantitatively. Horvath clock-like correlation r=0.998 with chronological age.\n\nNew polytope #6 couplings: #5 Cancer (0.92 shared biology), #30 Genome (0.95), #44 Meta-math (0.92), #2 AI (0.90), #27 Microbe (0.85).\n\nFalsifiability: H_A1 (not density-operator representable), H_A2 (uncorrelated with age), H_A3 (clock-K_aging mismatch), H_A4 (reprogramming fails to reduce K_aging). Pass-2 verification via GTEx, UK Biobank, Tabula Muris Senis, Altos partnership, clinical senolytics + reprogramming trials.\n\nITU axiom verification: dS = d<K> confirmed in 16 contexts at machine precision.\n\nLicense: CC-BY-4.0.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "biological aging",
+    "epigenetic clock",
+    "Yamanaka factors",
+    "cellular senescence",
+    "telomere biology",
+    "longevity research",
+    "hallmarks of aging",
+    "modular Hamiltonian",
+    "operator algebra",
+    "information-theoretic unification"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20267445", "relation": "isSupplementTo", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20109209", "relation": "isPartOf", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20151623", "relation": "continues", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20270745", "relation": "cites", "resource_type": "publication-preprint"},
+    {"identifier": "https://github.com/munehiroterada/quantum_gravity_info", "relation": "isSupplementedBy", "resource_type": "software"}
+  ],
+  "communities": []
+}
