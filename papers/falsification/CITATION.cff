@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "ITU Falsification Experiments: Pre-Registered Protocols for Quantum Gravity (BMV/LIGO/LISA), Consciousness (Cogitate), Cosmology (JWST/Euclid/Rubin/CMB-S4), Black Holes (EHT/ngEHT), AI Capability (METR/ARC-AGI), Pharmacology (RCT), and Climate (IPCC AR7) — Pass-1 Extension Paper #15, Block E 2/2 = 100% FINALE & Pass-1 Tier 1 COMPLETE"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "1.0.0"
+doi: 10.5281/zenodo.20267212
+url: "https://doi.org/10.5281/zenodo.20267212"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - information-theoretic unification
+  - ITU axiom
+  - falsifiability
+  - Popper
+  - pre-registration
+  - BMV quantum gravity
+  - Cogitate IIT GNW
+  - JWST Euclid Rubin
+  - EHT M87 Sgr A
+  - ARC-AGI METR
