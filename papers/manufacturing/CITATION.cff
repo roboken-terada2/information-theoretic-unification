@@ -1,0 +1,95 @@
+cff-version: 1.2.0
+title: "ITU and Manufacturing & Industry: A Single-Axiom View of Design, Lean/TPS, Quality 4.0, Supply Chain, Robotics, 3D Printing, AI Manufacturing, and Industry 4.0 — Pass-1 Extension Paper #9, BLOCK D 1/5 OPENING"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to manufacturing and industry. Tier 1
+  paper #39, ninth paper of Pass-1 extension, BLOCK D 1/5 OPENING
+  (engineering applications block after Block A 10/10 + B 6/6 + C 6/6).
+  Introduces K_manuf across 8 sub-states (design, process, quality,
+  supply, robotics, 3D-print, AI, lean). ITU axiom delta S = delta <K>
+  verified to machine precision in 11 contexts. 39-vertex ITU polytope.
+  Theoretical position: Manufacturing = K-state physical realization
+  mechanism. Lean = K-state waste minimization; Industry 4.0 =
+  K-state network integration; AI manufacturing = K-state computational
+  optimization.
+  Key results: 4 Industrial Revolutions — Whitney interchangeable
+  parts 1801, Ford Model T 1908 + assembly line 1913 (12.5 hr -> 93
+  min), Taylor 1911 scientific management, Unimate 1961 first robot,
+  Industrie 4.0 Hannover 2011 (9 pillars).
+  Design: Sketchpad 1963 (Sutherland), CATIA 1971, AutoCAD 1982,
+  SOLIDWORKS 1995; CNC 5M units global; Boothroyd-Dewhurst DfMA
+  1980s (GE T700: 1950 -> 1170 parts, -55% cost); Bendsoe-Kikuchi
+  Topology Optimization 1988; Autodesk Generative Design 2017; Digital
+  Twin 2002 (Grieves); PLM market $30B.
+  Lean: Ohno TPS 1978, Womack Lean 1990 (MIT), 7+1 Wastes (Muda),
+  JIT + Jidoka pillars, Kaizen (Imai 1986), Toyota 2008 surpasses GM,
+  Toyota Way 14 principles, Eric Ries Lean Startup 2011.
+  Quality: Shewhart Control Chart 1924, Deming Prize 1951, Juran
+  Handbook 1951, Crosby Quality is Free 1979, Six Sigma 1986
+  (Motorola, 3.4 DPMO), GE Welch $12B savings, ISO 9001:1987 (1.4M
+  certs 2024), Cpk >= 1.33 industry / 1.67 automotive (IATF 16949),
+  Quality 4.0 market $5B -> $15B, Landing AI 2017 (Ng), Toyota Recall
+  2009-2010 (9M cars), COQ best-in-class < 5%.
+  Supply Chain: Forrester Bullwhip 1958-1989, SCOR 1996, Walmart EDI
+  1984, Apple inventory turn 60x/yr (Tim Cook 1998-), Amazon 750K
+  robots 175 fulfillment centers, COVID supply chain shock 2020,
+  Suez Ever Given 2021 (6 days $9B/day), CHIPS Act 2022 ($52B), TSMC
+  Arizona $40B, Reshoring + Friend-shoring + China+1, global logistics
+  $10T, e-commerce $6.3T, 24M TEU containers.
+  Robotics + Industry 4.0: Unimate 1961 GM, FANUC/KUKA/ABB/Yaskawa
+  Big 4, Universal Robots Cobot 2008, IFR 2024 3.9M robots stock,
+  Korea 1012 robots/10K workers (#1), Foxconn $200B revenue 1.2M
+  employees 70% iPhone, Made in China 2025 (Li Keqiang 2015), China
+  EV 60% global, Tesla Gigafactory Shanghai 1M cars/yr 9-hour cycle,
+  2024 humanoid robots year (Optimus Gen 3, Figure 01, 1X NEO, Atlas
+  electric).
+  3D Print: SLA Hull 1984 + 3D Systems 1986, FDM Crump 1989
+  Stratasys, SLS Deckard 1986, market $20B -> $50B (2030), GE LEAP
+  fuel nozzle 20 -> 1 parts (-25% weight +5x life, 100K+ flying 2024),
+  Carbon dental 30M+ Align aligners, BMW 100K+ 3D parts, ICON/WinSun
+  houses.
+  AI Manufacturing: GNoME (Google DeepMind 2023 Nature) 2.2M new
+  crystals + 380K stable (vs 48K known), Microsoft MatterGen 2024,
+  Anduril Industries $30B valuation, Tesla Optimus Gen 3 2024.10,
+  SpaceX Raptor 1-month design cycle, Mechazilla Starship tower catch
+  IFT-5 2024.10.
+  Ten falsifiable predictions (P_avg = 0.820; Strong/Medium/Weak =
+  8/2/0) including AI quality inspection 80%+ major factories 2028
+  (P=0.85, Strong), humanoid robots 100K factory deployment 2028
+  (P=0.85, Strong), text-to-CAD mainstream 2027 (P=0.85, Strong), AI
+  materials discovery 10x acceleration 2027 (P=0.90, Strong), digital
+  twin all major SC 2028 (P=0.85, Strong), AI predicts SC disruptions
+  30+ days 2027 (P=0.85, Strong), 3D print $50B 2030 (P=0.85, Strong),
+  AI-augmented Lean mainstream 2027 (P=0.85, Strong), Tesla Optimus
+  $20K mass 2030 (P=0.65, Medium), lights-out factory major OEM 2030
+  (P=0.70, Medium). BLOCK D 1/5 OPENING. Pass-1 extension 9/15 = 60%.
+  Pass-1 interpretive synthesis.
+keywords:
+  - manufacturing
+  - Industry 4.0
+  - Lean manufacturing
+  - Toyota Production System
+  - Six Sigma
+  - supply chain
+  - robotics
+  - 3D printing
+  - AI manufacturing
+  - digital twin
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/manufacturing"
+url: "https://doi.org/10.5281/zenodo.20264857"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20264857"
+    description: "Version 1.0.0 DOI (Zenodo) — to be assigned"
+version: "1.0.0"
+date-released: "2026-05-17"
