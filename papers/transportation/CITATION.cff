@@ -1,0 +1,131 @@
+cff-version: 1.2.0
+title: "ITU and Transportation & Logistics: A Single-Axiom View of Road, Rail/HSR, Air/Space, Maritime, EV, Autonomous Vehicles, Logistics, and Urban Mobility — Pass-1 Extension Paper #10, Block D 2/5"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to transportation and logistics. Tier 1
+  paper #40, tenth paper of Pass-1 extension, Block D 2/5 = 40%
+  (after #39 Manufacturing). Introduces K_transport across 8
+  sub-states (road, rail, air, maritime, EV, AV, logistics, urban).
+  ITU axiom delta S = delta <K> verified to machine precision in 11
+  contexts. 40-vertex ITU polytope.
+  Theoretical position: Transportation = K-state spatial mobility
+  realization mechanism. Each mode = K-state energy + control +
+  network configuration.
+  Key results: BC 4000 wheel (Sumer), 1804 Trevithick steam,
+  1825 Stockton-Darlington first railway, 1869 Suez (Lesseps), 1903
+  Wright Brothers (12 sec 36 m), 1914 Panama, 1964.10.1 Shinkansen
+  (Tokaido 210 km/h, world's first HSR), 1969 Apollo 11 + Boeing
+  747, 1976-2003 Concorde Mach 2, 2008 Tesla Roadster, 2024
+  Mechazilla. Global transport 2024 $7.5T, 1.5B cars + 400M trucks
+  + 28K aircraft + 99K ships.
+  Road: Autobahn 1932, US Interstate 1956 (77K km), China Expressway
+  175K km (#1 world), Toyota 2023 11.2M sales #1, BYD 2023 Q4
+  surpasses Tesla BEV, Norway 88% EV share #1, Tokyo metro 3.6B/yr
+  Shinjuku 3.5M/day #1 station, Curitiba BRT 1974 world's first,
+  Carlos Moreno 15-min city 2016 Sorbonne, Paris -40% car (2020-2024),
+  Helsinki MaaS 2014 world's first, Sweden Vision Zero 1997
+  (2.2/100K vs world 1.19M deaths/yr WHO 2023), India 15.6/100K,
+  Africa 26.6/100K.
+  Rail / HSR / Maglev: Shinkansen 1964 world's first HSR
+  (Tokaido 210 km/h, now 285 km/h N700S), Alfa-X test 405 km/h,
+  France TGV 1981, China CRH 2007, China HSR 45,000 km 70% global,
+  Shanghai Maglev 431 km/h commercial 2004, JR L0 record 603 km/h
+  2015, Chuo Shinkansen Tokyo-Nagoya 40 min (2034+ delayed), Hyperloop
+  Musk 2013 Alpha skepticism, Eurostar 1994 Channel Tunnel, world
+  rail 1.5M km / 60K HSR, rail CO2 35 g/pkm vs car 170.
+  Air / Space: Wright 1903.12.17, Boeing 747 1969, Concorde
+  1976-2003, A380 2007-2021 (251 built), Boeing 737 MAX crashes
+  2018-19 (Lion Air 189 + Ethiopian 157 = 346 deaths), Alaska
+  Airlines 1282 door 2024.1, Airbus 55% market 2024 (overtook
+  Boeing 2019), Atlanta ATL 105M #1 airport, Dubai DXB 87M #1 intl,
+  Tokyo HND 78M, SpaceX Falcon 9 1st landing 2015.12 (★ reusability
+  revolution), 130+ launches/yr 2024 (80% global orbit), Starlink
+  6,500+ sats, Crew Dragon DEMO-2 2020.5, Mechazilla Starship IFT-5
+  tower catch 2024.10, Starship 120 m / 150 t LEO payload, eVTOL
+  emergence (Joby $6.6B IPO 2021, EHang EH216-S 2024 commercial
+  cert, Volocopter Paris Olympics 2024, Lilium bankruptcy 2024),
+  SAF mandate EU 2% 2025 / 70% 2050, Polaris Dawn 2024 first
+  commercial EVA, Blue Origin New Glenn 2024 maiden.
+  Maritime: McLean container revolution 1956.4.26 Ideal-X (loading
+  24-48 hr -> 24 min, cost $5.83 -> $0.16 /ton = 35x), Levinson
+  The Box 2006, container ship 200 -> 24,000 TEU (1956-2024 100x
+  in 70 yr), MSC #1 carrier 5.9M TEU, Maersk #2 4.3M, Shanghai port
+  #1 49M TEU/yr, top 9 of 10 ports Asian, Suez 1869 + Sisi
+  extension 2015 + Ever Given 2021 (6 days $9B/day Phase 288),
+  2023-24 Houthi attacks Red Sea (-50% Suez traffic), Panama Canal
+  1914 + 2016 expansion + 2024 drought (-40% transits), Yara
+  Birkeland 2018 world's first autonomous electric Norway, IMO
+  net-zero 2050 (2023.7), maritime CO2 3% global 1.1 Gt.
+  EV revolution: Tesla Roadster 2008 (lithium-ion, 391 km, 2,500
+  units), Nissan Leaf 2010 first mass-market, Tesla Model 3 2017
+  mass launch, Tesla Y best-selling vehicle 2023 all categories,
+  Tesla 2024 ~1.8M sales $97B revenue, BYD 1995 founded (battery
+  initial), 2003 auto, Berkshire Hathaway 2008 invest, 2023 Q4
+  surpasses Tesla BEV (526K vs 484K), 2024 3M+ sold, BYD Blade
+  Battery 2020 LFP launch, Global EV sales 2023 14.2M (18% share),
+  China 38%, EU 22%, US 9%, Japan 3.5%, Norway 88% #1, Goodenough-
+  Whittingham-Yoshino Nobel Chemistry 2019, Li-ion 90 (1991) ->
+  300 Wh/kg (2024 3.3x), Tesla 4680 cell 5x energy 6x power +16%
+  range, solid-state target Toyota 2027, battery pack $139/kWh 2024
+  (BloombergNEF) toward $100 ICE-parity, LFP 40%+ share growing
+  (Tesla SR + all BYD), Supercharger NACS adopted 2023 Ford/GM/
+  Hyundai/Stellantis, IRA 2022 $7,500 EV credit US, EU 2035 + CA
+  2035 ICE phase-out, 2024 EV growth slowing (high prices, range,
+  charging) + hybrid revival.
+  Autonomous Vehicles: SAE J3016 6 levels L0-L5, DARPA Grand
+  Challenge 2004 (all 15 fail) -> 2005 Stanford Stanley (Thrun #1)
+  -> 2007 CMU Boss Urban Challenge, Waymo 2009 Google -> 2016
+  spinoff, 2017 Phoenix safety driver, 2020 Phoenix fully
+  driverless, 2024 150K+ paid rides/wk (Phoenix/SF/LA/Austin), 22M
+  autonomous miles (claim 88% fewer airbag events), Cruise 2016
+  GM acquired ($1B+) -> 2023.10 pedestrian dragged 6m incident ->
+  2024.6 limited restart -> 2024.10 GM ceases ($10B+ losses),
+  Tesla FSD 2014 Autopilot L2, 2020.10 FSD Beta city, 2024.3 FSD v12
+  end-to-end neural net (vision-only no LIDAR, single net), 2024.10
+  We Robot Hollywood Cybercab launch event (2026 robotaxi target
+  California), Baidu Apollo 2017 -> 2024 Wuhan 500+ vehicles
+  world's largest robotaxi, Pony.ai + WeRide NASDAQ IPO 2024,
+  Aurora 2017 -> 2024.12 Phoenix-El Paso commercial autonomous
+  trucking (world's first), Mercedes Drive Pilot 2022 L3 60 km/h,
+  MIT Moral Machine 2018 Nature 40M decisions 233 countries.
+  Ten falsifiable predictions (P_avg = 0.825 tied with #34;
+  Strong/Medium/Weak = 9/1/0 tied HIGHEST with #34, #35, #36)
+  including EV 50%+ new car 2030 (P=0.75, Medium), battery
+  $100/kWh ICE parity 2027 (P=0.85, Strong), Waymo 10+ US cities
+  2027 (P=0.85, Strong), L4 robotaxi 5+ major cities 2028
+  (P=0.85, Strong), Aurora trucking major corridor 2027 (P=0.80,
+  Strong), Starship operational 2027 (P=0.80, Strong), eVTOL major
+  city service 2028 (P=0.80, Strong), MaaS 100+ cities 2028
+  (P=0.85, Strong), AI route optimization 90% fleet 2028 (P=0.85,
+  Strong), China HSR 50,000 km 2028 (P=0.85, Strong). Block D 2/5
+  = 40%. Pass-1 extension 10/15 = 66.7% (2/3 milestone). Pass-1
+  interpretive synthesis.
+keywords:
+  - transportation
+  - logistics
+  - electric vehicles
+  - autonomous vehicles
+  - high-speed rail
+  - Shinkansen
+  - SpaceX Starship
+  - containerization
+  - Waymo
+  - Tesla FSD
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/transportation"
+url: "https://doi.org/10.5281/zenodo.20265252"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20265252"
+    description: "Version 1.0.0 DOI (Zenodo) — to be assigned"
+version: "1.0.0"
+date-released: "2026-05-17"
