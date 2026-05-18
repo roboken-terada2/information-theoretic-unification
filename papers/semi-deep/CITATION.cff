@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "ITU-Derived Semiconductor Scaling: K_semi = -log rho_lithography, Lithography Modular Limit, Moore's Law Fit, EUV/TSMC/Intel/Samsung, AI Accelerators, Photonic+Neuromorphic, CHIPS Act — Tier 1+ #4 Semiconductors Deep Dive"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "1.0.0"
+doi: 10.5281/zenodo.20270518
+url: "https://doi.org/10.5281/zenodo.20270518"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - semiconductor scaling
+  - Moore's Law
+  - EUV lithography
+  - GAA transistors
+  - 3D NAND
+  - chiplet packaging
+  - AI accelerators
+  - photonic computing
+  - neuromorphic computing
+  - operator algebra

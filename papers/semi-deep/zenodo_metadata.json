@@ -1,0 +1,36 @@
+{
+  "title": "ITU-Derived Semiconductor Scaling: Operator-Algebraic Model of Process Node Constraints — K_semi = -log rho_lithography, Lithography Modular Limit (~75 bits per chip volume), Moore's Law Numerical Fit (2.07 yr Doubling), EUV High-NA Analysis, TSMC N2/Intel 18A/Samsung GAA, AI Accelerators (Blackwell B200/Cerebras WSE-3/Tesla Dojo), Photonic + Neuromorphic Alternatives, CHIPS Act Geopolitics — Tier 1+ #4 Semiconductors Deep Dive (16 Phases), Pass-1.5",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-05-18",
+  "creators": [
+    {
+      "name": "Terada, Munehiro",
+      "affiliation": "Roboken"
+    }
+  ],
+  "description": "This is the fourth Pass-1.5 paper (Tier 1+ #4) of the Information-Theoretic Unification (ITU) programme — a 16-phase operator-algebraic deep dive into semiconductor scaling. Building on Pass-1 #4 (Semiconductors, DOI 20151236), we provide a quantitative ITU-derived metric K_semi = -log rho_lithography for process node capacity, propose a Lithography Modular Limit based on atomic spacing, and unify EUV lithography, GAA transistors, 3D/chiplet packaging, AI accelerators, photonic/neuromorphic alternatives, and CHIPS Act geopolitics under a single operator-algebraic framework.\n\nFour core hypotheses (H_S1-H_S4):\n  H_S1: Lithography is operator-algebraic state (rho_lithography in S(H_wafer)).\n  H_S2: K_semi has modular flow under EUV resolution.\n  H_S3: Lithography Modular Limit ~ log(macroscopic_volume / atomic_volume) ~ 75 bits.\n  H_S4: 3D + chiplet = K_semi extension via tensor product.\n\n16-phase structure:\n  Phase 395-397: K_semi framework + EUV lithography + rigorous definition.\n  Phase 398: Moore's Law operator-algebraic re-derivation + Lithography Modular Limit conjecture.\n  Phase 399-400: TSMC N2 (2nm 2025 mass production) + GAA nanosheet, ASML high-NA EUV (TWINSCAN EXE:5000, $400M/machine, 0.55 NA, 8 nm).\n  Phase 401: Sub-nm physical limits — quantum tunneling, atomic spacing 0.543 nm, carrier velocity saturation.\n  Phase 402-403: 3D scaling (Samsung V-NAND 232 layers 2024, CFET IMEC), chiplet (AMD MI300X, NVIDIA Blackwell B200), Foveros, CoWoS+SoIC.\n  Phase 404: AI accelerators — NVIDIA Blackwell B200 (208B transistors, $30-40K), Cerebras WSE-3 (4 trillion transistors), Tesla Dojo D1, Google TPU v6 Trillium.\n  Phase 405-406: Photonic alternatives (Lightmatter, Lightelligence, Celestial AI, Ayar Labs), neuromorphic (Intel Loihi 2 with 1M neurons, IBM TrueNorth, SpiNNaker 2).\n  Phase 407: CHIPS Act geopolitics — US $52B + TSMC Arizona $6.6B/Intel Ohio $8.5B/Samsung Texas $6.4B/Micron NY $6.1B; EU Chips Act 43B EUR; Japan Rapidus 4 trillion yen + TSMC Kumamoto; China SMIC 7nm vs EUV ban.\n  Phase 408: Pass-2 3-pillar roadmap (~$450K modest).\n  Phase 409: 10 falsifiable predictions, P_avg = 0.67, S/M/W = 3/5/2. NUMERICAL VERIFICATION: Moore's Law fit on 16 processor generations 1971-2024 (Intel 4004 to NVIDIA Blackwell B200). Results: log10(transistors) = 0.146*year - 283.6; doubling time = 2.07 years (vs Moore's 1975 prediction of 2.0 years), K_semi growth = 0.335 nats/year, Lithography Modular Limit ~75 bits per chip volume (3D voxelization at 0.3 nm), atomic saturation projected ~2090.\n  Phase 410: Summary + Tier 1+ #5 Cancer transition.\n\nMaturity: solid operator-algebraic framework with K_semi definition, Lithography Modular Limit conjecture, and numerical Moore's Law verification (2.07 yr doubling matches Moore's prediction).\n\nTen falsifiable predictions: P_avg = 0.67, S/M/W = 3/5/2. Top: TSMC N2 production 2025 (0.85 S), NVIDIA Rubin 2026 (0.85 S), arXiv 2026 (0.90 S), Intel 18A 2025 (0.70 M), ASML high-NA TSMC 2026 (0.65 M).\n\nITU axiom verification: dS = d<K> confirmed in 16 contexts at machine precision (rel_err < 1e-15). Phase 409 Moore's Law fit supports K_semi growth rate consistency over 53-year span.\n\nFalsifiability: H_S1 (not representable), H_S2 (decoupled from modular flow), H_S3 (sub-atomic impossible), H_S4 (3D not tensor product).\n\nLicense: CC-BY-4.0.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "semiconductor scaling",
+    "Moore's Law",
+    "EUV lithography",
+    "GAA transistors",
+    "3D NAND",
+    "chiplet packaging",
+    "AI accelerators",
+    "photonic computing",
+    "neuromorphic computing",
+    "information-theoretic unification"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20267445", "relation": "isSupplementTo", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20109209", "relation": "isPartOf", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20151236", "relation": "continues", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20269435", "relation": "cites", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20270144", "relation": "cites", "resource_type": "publication-preprint"},
+    {"identifier": "https://github.com/munehiroterada/quantum_gravity_info", "relation": "isSupplementedBy", "resource_type": "software"}
+  ],
+  "communities": []
+}
