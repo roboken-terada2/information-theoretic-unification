@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "Modular K-Flow Quantum Error Correction (mKQEC): An ITU-Derived QEC Framework for Open Quantum Systems Unifying Surface, XZZX, and Erasure-Aware Codes — Tier 1+ #1 QC Deep Dive, Pass-1.5 OPENING"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "1.0.0"
+doi: 10.5281/zenodo.20269435
+url: "https://doi.org/10.5281/zenodo.20269435"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - quantum error correction
+  - surface code
+  - stabilizer codes
+  - biased noise
+  - Tomita-Takesaki modular theory
+  - open quantum systems
+  - fault-tolerant quantum computing
+  - Lindblad master equation
+  - information-theoretic unification
+  - mathematical physics
