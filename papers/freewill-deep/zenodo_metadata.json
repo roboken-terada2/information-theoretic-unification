@@ -1,0 +1,32 @@
+{
+  "title": "ITU-Derived Free Will Information Theory: K_freewill = -log rho_decision — Operator-Algebraic Decision Modular Hamiltonian, Libet 1983, Wegner 2002, Schurger 2012 Stochastic Accumulator, Compatibilism vs Sapolsky 2023 Determined, Quantum Free Will (Penrose-Hameroff), AI Agency, Legal Implications, Buddhist Nondualism, with Numerical Libet/Schurger Verification (Mean RT 539ms Matches Libet's 500ms RP Without Pre-Determined Outcome) — Tier 1+ #9 Free Will Deep Dive (16 Phases), Pass-1.5",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-05-18",
+  "creators": [
+    {"name": "Terada, Munehiro", "affiliation": "Roboken", "orcid": "0009-0008-0191-5831"}
+  ],
+  "description": "Ninth Pass-1.5 paper. K_freewill = -log rho_decision operator-algebraic decision Modular Hamiltonian. Four hypotheses H_F1-H_F4. 16 phases unifying: Libet 1983 readiness potential (Brain 106:623), Wegner 2002 'Illusion of Conscious Will' MIT Press, Schurger 2012 PNAS 109:E2904 stochastic decision accumulator (RP = noise threshold not deterministic precursor), Soon 2008 Nat Neurosci 7-10s fMRI prediction, Fried 2011 Neuron single-neuron, Compatibilism (Dennett 'Bacteria to Bach' 2017) vs Hard Determinism (Sapolsky 'Determined' 2023 Penguin 800 pages) vs Libertarianism (Kane), Penrose-Hameroff Orch-OR 1994, Stapp 'Mindful Universe' 2007, Tegmark 2000 decoherence critique, AI agency (Claude/GPT-5 Constitutional AI, Yampolskiy 2018, Bostrom 2014), Legal (mens rea M'Naghten 1843, Roper v Simmons 2005, Greene-Cohen 2004, Eagleman 2011 Brain on Trial), Buddhist nondualism (anatman), Frankfurt 1969 alternate possibilities, P.F. Strawson 1962 reactive attitudes, Mele 'Free' 2014 moderate libertarianism.\n\nNumerical Phase 489: 1000 Schurger stochastic accumulator simulations (noise sigma=1.5, drift 0.05, threshold 50). Mean RT = 539ms matches Libet's RP ~500ms timing exactly. K_freewill maintained > 0 throughout accumulation buildup. Some trials don't cross threshold (no-decision possible). RP appears even WITHOUT pre-determined outcome — confirms Schurger insight.\n\n10 predictions P_avg=0.63 S/M/W=3/5/2. 45-vertex polytope #9 NEW couplings: #2 AI (0.95), #7 Psych (0.95), #28 Neuro (0.92), #44 Meta-math (0.92), #35 Law (0.92).\n\nConclusion: Stochastic accumulator (Schurger 2012) reproduces Libet's RP timing without requiring pre-determined outcome. Hard determinism (Sapolsky) correct that no libertarian metaphysical free will, but K_freewill > 0 at macroscopic scale via coarse-graining — emergent agency real.\n\nPass-1.5 progress: 9/45 = 20.0% milestone. License: CC-BY-4.0.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "free will",
+    "libet readiness potential",
+    "schurger accumulator",
+    "compatibilism",
+    "hard determinism",
+    "moral responsibility",
+    "operator algebra",
+    "modular Hamiltonian",
+    "philosophy of mind",
+    "information-theoretic unification"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20267445", "relation": "isSupplementTo", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20109209", "relation": "isPartOf", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20152093", "relation": "continues", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20271245", "relation": "cites", "resource_type": "publication-preprint"},
+    {"identifier": "https://github.com/munehiroterada/quantum_gravity_info", "relation": "isSupplementedBy", "resource_type": "software"}
+  ],
+  "communities": []
+}

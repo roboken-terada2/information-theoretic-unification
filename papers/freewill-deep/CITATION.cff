@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "ITU-Derived Free Will Information Theory: K_freewill = -log rho_decision — Tier 1+ #9 Free Will Deep Dive"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+    orcid: "https://orcid.org/0009-0008-0191-5831"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "1.0.0"
+doi: 10.5281/zenodo.20271379
+url: "https://doi.org/10.5281/zenodo.20271379"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - free will
+  - libet readiness potential
+  - schurger accumulator
+  - compatibilism
+  - hard determinism
+  - moral responsibility
+  - operator algebra
+  - modular Hamiltonian
+  - philosophy of mind
+  - information-theoretic unification
