@@ -1,0 +1,112 @@
+cff-version: 1.2.0
+title: "ITU and Finance & Economics: A Single-Axiom View of Banking, Markets, Cryptocurrency, Macroeconomics, Quantitative Finance, AI Finance, Regulation, and Inequality — Pass-1 Extension Paper #12, Block D 4/5"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to finance and economics. Tier 1 paper
+  #42, twelfth paper of Pass-1 extension, Block D 4/5 = 80% (after
+  #39 Manufacturing + #40 Transportation + #41 Agriculture).
+  Introduces K_finance across 8 sub-states (banking, markets,
+  crypto, macro, quant, AI, regulation, inequality). ITU axiom
+  delta S = delta <K> verified to machine precision in 11 contexts.
+  42-vertex ITU polytope.
+  Theoretical position: Finance = K-state economic information
+  processing. Markets = K-state aggregation (Hayek). Crypto =
+  K-state cryptographic alternative. AI finance = K-state
+  computational acceleration.
+  Key results: BC 3000 Mesopotamia clay ledgers, BC 700 Lydia
+  coins, 1397 Medici Bank, 1602 VOC first stock company, 1694 Bank
+  of England, 1776 Smith Wealth of Nations, 1913 Federal Reserve,
+  1944 Bretton Woods, 1971 Nixon Shock, 1973 Black-Scholes (Nobel
+  1997 Merton-Scholes), 1987 Black Monday, 2008.9.15 Lehman
+  Brothers ($691B largest bankruptcy), 2009.1.3 Bitcoin genesis,
+  2020 COVID, 2022 inflation. Global 2024: GDP $110T, debt $315T
+  (286%).
+  Banking: BoE 1694, BOJ 1882, Fed 1913 (dual mandate 1977), ECB
+  1998, Fed peak balance $9T (2022), QE eras + Pandemic $4.5T,
+  US CPI peak 9.1% (2022.6), Fed 0%->5.50% fastest hiking, BOJ
+  NIRP end 2024.3 (8 yr), SVB 2023.3 ($209B 2nd largest US),
+  Credit Suisse -> UBS 2023, Draghi "Whatever it takes" 2012.7.26.
+  Markets: Amsterdam 1602 first stock, NYSE 1792, NASDAQ 1971
+  first electronic, NYSE $28T #1, Magnificent 7 $17.2T total
+  (NVIDIA $3.4T 1T->3T 18mo, Apple $3.5T, Microsoft $3.2T), Nikkei
+  42K+ 2024.7 (34 yr high), US Treasury $35T (debt/GDP 122%),
+  global bond market $140T, SPDR S&P 500 first ETF 1993, ETF $11T
+  (2024), Bitcoin spot ETFs 2024.1.10 ($100B+ AUM by 2024.12, IBIT
+  $40B), passive 50%+ US AUM.
+  Crypto: Satoshi 2008.10.31 whitepaper, 2009.1.3 genesis,
+  2010.5.22 Pizza Day (10K BTC), halving cycles (50->25->12.5->
+  6.25->3.125 BTC 2024.4), 21M supply cap, Bitcoin $100K 2024.12
+  (first time), Trump Nashville Bitcoin Conference 2024.7,
+  Buterin Ethereum 2015.7.30 mainnet (age 19 whitepaper), The
+  Merge PoS 2022.9.15 (energy -99.95%), Dencun 2024.4, DeFi TVL
+  peak $180B 2021, Tether $130B (USDT 2014), UST/Luna collapse
+  2022 $40B, FTX collapse 2022.11 -> SBF 25 yr (2024.3), crypto
+  market cap $3.5T (2024.12), China DCEP $250B+, Trump 2024.11
+  win -> BTC $69K->$93K, Worldcoin (Altman) 6.5M users.
+  Macroeconomics: Smith 1776, Marx 1867, Keynes General Theory
+  1936 (aggregate demand, multiplier 1/(1-MPC)), Friedman
+  monetarism Nobel 1976, Krugman Nobel 2008 (new trade theory),
+  Kahneman Nobel 2002 (Prospect 1979 Tversky), Thaler Nudge
+  (Nobel 2017), Acemoglu+Johnson+Robinson Nobel Economics 2024
+  (institutions, Why Nations Fail), Goldin Nobel 2023 (women
+  labor), MMT Kelton 2020, Bernanke+Diamond+Dybvig Nobel 2022
+  (banking).
+  Quantitative Finance: Bachelier 1900 thesis (Brownian motion
+  5 yr pre-Einstein), Markowitz Portfolio 1952 (Nobel 1990),
+  Sharpe CAPM 1964, Fama EMH 1965 (Nobel 2013), Black-Scholes
+  1973 (Merton-Scholes Nobel 1997, derivatives $640T BIS 2023),
+  Engle GARCH 1986 (Nobel 2003), VIX 1993, Jim Simons Renaissance
+  Tech 1982 Medallion ~39% annual (1988-2018 greatest hedge),
+  Simons died 2024 ($31B + $5B donated). AI Finance: Renaissance
+  ML pioneer 1990s, 2010 Flash Crash, Bloomberg GPT 2023 (50B
+  params), JPMorgan IndexGPT 2024, Morgan Stanley AI @ MS,
+  robo-advisors $300B+ (Vanguard PA, Betterment + Wealthfront $50B
+  each), HFT 50%+ US equity.
+  Regulation + Crises: 1933 Glass-Steagall + SEC 1934, 1999
+  Gramm-Leach-Bliley (G-S repeal), 2010.7 Dodd-Frank (848 pages),
+  Basel III (Tier 1 6%), EU MiCA 2024, DORA 2025. Frauds: Enron
+  $74B 2001, WorldCom $11B, Madoff $65B Ponzi 2008, LIBOR $9B,
+  Wells Fargo, FTX $32B. Inequality: Piketty Capital 21c 2013 (1.5M
+  English copies, r > g), 2024 WIR Top 10% own 76% wealth + Top 1%
+  38%, US top 1% income 9% (1980) -> 22% (2024), Milanovic
+  Elephant Curve, Worldcoin 6.5M, Stiglitz Nobel 2001.
+  Ten falsifiable predictions (P_avg = 0.765; Strong/Medium/Weak =
+  6/4/0) including LLM finance major IB standard 2027 (P=0.90,
+  Strong), AI trading 70%+ major markets 2027 (P=0.85, Strong),
+  AI macro forecasting standard 2028 (P=0.85, Strong), EU MiCA full
+  enforcement 2026 (P=0.90, Strong), passive 60%+ US AUM 2027
+  (P=0.85, Strong), stablecoin major bank issued 2027 (P=0.80,
+  Strong), CBDC 30+ countries launch 2030 (P=0.75, Medium), Bitcoin
+  $150K 2026 (P=0.55, Medium), AI productivity benefits top 1% 2030
+  (P=0.65, Medium), AI alpha collapses efficiency 2030 (P=0.55,
+  Medium). Block D 4/5 = 80%. Pass-1 extension 12/15 = 80% (4/5
+  surpassed). Pass-1 interpretive synthesis.
+keywords:
+  - finance
+  - economics
+  - central banking
+  - cryptocurrency
+  - Bitcoin
+  - Black-Scholes
+  - quantitative finance
+  - macroeconomics
+  - AI finance
+  - inequality
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/finance"
+url: "https://doi.org/10.5281/zenodo.20266068"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20266068"
+    description: "Version 1.0.0 DOI (Zenodo) — to be assigned"
+version: "1.0.0"
+date-released: "2026-05-17"
