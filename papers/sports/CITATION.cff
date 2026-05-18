@@ -1,0 +1,117 @@
+cff-version: 1.2.0
+title: "ITU and Sports & Performance: A Single-Axiom View of Biomechanics, Training, Nutrition, Sports Psychology, Sports Tech, AI Sports, World Records, and Sports Culture — Pass-1 Extension Paper #13, BLOCK D 5/5 COMPLETE FINALE"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to sports and performance. Tier 1 paper
+  #43, thirteenth paper of Pass-1 extension, BLOCK D 5/5 = 100%
+  COMPLETE (engineering applications). Introduces K_sports across
+  8 sub-states (biomechanics, training, nutrition, psychology, tech,
+  AI, records, culture). ITU axiom delta S = delta <K> verified to
+  machine precision in 11 contexts. 43-vertex ITU polytope.
+  Theoretical position: Sports = K-state human performance
+  optimization at biological/psychological/social limits. Records =
+  K-state asymptotic approach. AI sports = K-state pattern
+  recognition + prediction.
+  Key results: BC 776 ancient Olympic, 1896 modern Olympic Athens
+  (Coubertin), 1922 A.V. Hill Nobel Physiology (muscle mechanics),
+  1936 Selye GAS (Nature), 1964 Matveyev Periodization, 1965
+  Gatorade (Univ Florida), 1975/1990 Csikszentmihalyi Flow, 1993
+  Ericsson 10K-hour, 1999 WADA, 2017 Nike Vaporfly 4%.
+  Global Market 2024: $750B, Paris Olympic 329 events + 10,500
+  athletes + gender parity (first), USA 40 gold/126, Marchand 4
+  swim gold, Dallas Cowboys $10.1B, NFL $20B revenue, Ronaldo
+  $260M/yr.
+  Biomechanics: Bolt 100m WR 9.58s (2009 Berlin, top speed 12.4
+  m/s), Bolt 200m WR 19.19s, Kipchoge marathon WR 2:01:09 (2022) +
+  Vienna 1:59:40 (2019), Kelvin Kiptum 2:00:35 (Chicago 2023),
+  Duplantis pole vault 6.26m (2024), Crouser shot put 23.56m
+  (2023), Sotomayor high jump 2.45m (1993), Powell long jump 8.95m
+  (1991), Zelezny javelin 98.48m (1996), Chapman pitch 105.1 mph,
+  Groth tennis serve 263 km/h, VO2max 80-96 elite (cross-country
+  skier 96), NFL CTE 99% post-mortem (McKee Boston Univ).
+  Training: Selye 1936, Matveyev 1964, Ericsson 1993 (Berlin
+  violin), Gladwell Outliers 2008, Hambrick-Macnamara 2014 (12%
+  variance practice), Norwegian Method (Ingebrigtsen brothers
+  Olympic gold), Ben Johnson stripped 1988 Stanozolol, Lance
+  Armstrong stripped 2012 (7 TdF titles), WADA 1999, Biological
+  Passport 2008, 2014-15 Russia state-sponsored doping (McLaren
+  Report), 2024 Paris Russia AIN limited.
+  Nutrition: Gatorade 1965 (Robert Cade, Florida Gators), PepsiCo
+  acquired 2001 $1.4B, carb 8-10 g/kg endurance, protein 1.6-2.2
+  g/kg strength, Kipchoge sweat 2 L/hr, Cynthia Lucero hyponatremia
+  2002, Saltin carb loading 1967, caffeine +3-5%, creatine +5-15%
+  (200+ studies), beetroot NO3-, Maurten Bicarb 2024 (Kipchoge),
+  Levels/Nutrisense CGM trend.
+  Psychology: Csikszentmihalyi Flow 1975 + 1990 (6 conditions:
+  goals/feedback/challenge-skill/concentration/time-distortion/
+  intrinsic), Norman Triplett 1898 first sport psych study,
+  Coleman Griffith 1925 first US lab, Beilock Choke 2010, Duckworth
+  GRIT 2007, APA Div 47 1985, Naomi Osaka 2021 French Open
+  withdrawal (depression), Simone Biles 2021 Tokyo twisties (mental
+  health > medals), Michael Phelps Weight of Gold 2020.
+  Tech: Polar HR 1980s, Fitbit 2008, Whoop 2013 (Will Ahmed
+  Harvard), Apple Watch 2014 (70M+/yr), Oura 2015 (3M users),
+  Hawk-Eye 2001 tennis, VAR 2018 World Cup first, Nike Vaporfly 4%
+  (2017, carbon plate + foam), all marathon WRs carbon shoes since,
+  Bill James Baseball Abstract 1977, Moneyball 2002 book + 2011
+  movie, Statcast MLB 2015, Daryl Morey Rockets 3-point revolution,
+  Stephen Curry impact, xG soccer, Liverpool data-driven, Pep City,
+  LZR Racer 2008 (23/25 Beijing swim WRs, banned 2010), SoFi
+  Stadium $5B 2020, Allegiant $2B.
+  AI Sports: DeepMind AlphaStar StarCraft II Grandmaster 2019,
+  Sportlogiq Montreal, Stats Perform AI, Twelve Labs Korea-US,
+  ChatGPT + sports analysis 2024 (ESPN). Records: 100m 9.58 (Bolt),
+  Kiptum marathon 2:00:35 (2023), Duplantis 6.26m, Phelps 23
+  Olympic golds, Djokovic 24 Slams, Pogačar 3 TdF (2020/21/24),
+  Naoya Inoue P4P 2024. Culture: 2022 Qatar WC $220B, 2026 WC
+  48-team format (US+Canada+Mexico), Title IX 1972, Caitlin Clark
+  NCAA record 3,951 points 2024, Taylor Swift + Travis Kelce
+  cultural moment 2023-24, 2018 US PASPA struck (sports betting
+  legalized), $120B+ wagered annually US, global $200B+, esports
+  market $2B+ + 540M viewers (Newzoo 2024), Faker 4x League Worlds
+  (2013/2015/2016/2023).
+  Ten falsifiable predictions (P_avg = 0.740; Strong/Medium/Weak =
+  7/3/0) including AI coach mainstream major sport 2028 (P=0.85,
+  Strong), wearable 80%+ athletes 2028 (P=0.85, Strong), AI
+  training plan standard 2028 (P=0.85, Strong), CGM elite athletes
+  mainstream 2027 (P=0.85, Strong), AI mental coach standard 2028
+  (P=0.85, Strong), AI referee major sport 2028 (P=0.85, Strong),
+  sports betting global $300B 2027 (P=0.85, Strong), marathon
+  official sub-2:00 2030 (P=0.55, Medium), 100m WR < 9.50 2030
+  (P=0.45, Medium), esports Olympic official 2032 (P=0.45, Medium).
+  BLOCK D 5/5 = 100% COMPLETE FINALE. ITU 43-vertex polytope now
+  distributes: Block A 10 (physics) + Block B 6 (life) + Block C 6
+  (social-humanities-arts) + Block D 5 (engineering) + Pre-extension
+  16 (engineering/cognitive). Pass-1 extension cumulative: 13/15 =
+  86.7%. Remaining: Block E (2 papers: #44 ITU mathematical rigor
+  categorical, #45 ITU falsification experiments), then Tier 0 v4.0
+  Pass-1 FINALE Phase 340-345. Pass-1 interpretive synthesis.
+keywords:
+  - sports
+  - performance
+  - biomechanics
+  - sports training
+  - sports nutrition
+  - sports psychology
+  - sports tech
+  - AI sports
+  - Olympic
+  - world records
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/sports"
+url: "https://doi.org/10.5281/zenodo.20266347"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20266347"
+    description: "Version 1.0.0 DOI (Zenodo) — to be assigned"
+version: "1.0.0"
+date-released: "2026-05-17"
