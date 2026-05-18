@@ -1,0 +1,32 @@
+{
+  "title": "ITU-Derived Economic Information Theory: K_econ = -log rho_market — Operator-Algebraic Market Modular Hamiltonian, DSGE + New Keynesian, Phillips Curve, Behavioral Economics (Kahneman-Tversky 1979 + Thaler 2017), 2008/2020/2024 Macro Events, Central Banking (BOJ NIRP End 2024.3), Bitcoin $100K 2024.12, AI Finance (Bloomberg GPT), Income Inequality (Piketty), Acemoglu-Johnson-Robinson Nobel 2024, GLP-1 Economic Impact ($1.3T+ Eli Lilly+Novo), Climate Economics (COP29 $300B), with Numerical Toy Market K_econ Verification (EMH Max Entropy vs Bubble/Crash) — Tier 1+ #8 Economics Deep Dive (16 Phases), Pass-1.5",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-05-18",
+  "creators": [
+    {"name": "Terada, Munehiro", "affiliation": "Roboken", "orcid": "0009-0008-0191-5831"}
+  ],
+  "description": "Eighth Pass-1.5 paper. K_econ = -log rho_market operator-algebraic market Modular Hamiltonian. Four hypotheses H_E1-H_E4: market is operator-algebraic state, K_econ measures efficiency (EMH max entropy, bubble/crash low entropy), behavioral biases = subspace bias, policy = modular flow intervention.\n\n16-phase structure unifying: DSGE (Kydland-Prescott 1982 RBC Nobel 2004, Smets-Wouters 2007), New Keynesian (Clarida-Gali-Gertler 1999, Woodford 2003), Phillips curve (Phillips 1958, Friedman-Phelps 1968 expectations, 2022-2024 reactivation), Kahneman-Tversky 1979 Prospect Theory (Kahneman Nobel 2002), Thaler 2017 Nobel nudge theory, Shiller 2013 Nobel; 2008 GFC (Lehman $691B, TARP $700B), 2020 COVID $5T US fiscal, 2022 CPI 9.1% peak, 2024 disinflation 2.5-2.7%, Fed cut 2024.9; central banks (BOJ NIRP end 2024.3 first hike since 2007, YCC abandoned 2024.10); crypto (Bitcoin $100K 2024.12.4, BlackRock IBIT ETF $30B AUM, ETH Dencun 2024.3 EIP-4844, FTX collapse, EU MiCA 2024.6); AI finance (Bloomberg GPT 2023.3 50B params, Renaissance Medallion 39%/yr Simons died 2024.5.10, JPMorgan IndexGPT, HFT ~50% US volume); income inequality (Piketty 2013 r>g, US top 1% income share 9%→22% 1980-2024, Saez-Zucman); Acemoglu-Johnson-Robinson Nobel 2024.10.14 (Why Nations Fail 2012, Power and Progress 2023, settler mortality → institutions); GLP-1 economic impact (Eli Lilly $750B + Novo Nordisk $570B = $1.3T+ valuations, Denmark GDP 2% from Novo, obesity market $200B by 2030); climate economics (Nordhaus 2018 Nobel DICE model, COP29 Baku 2024.11 $300B/yr climate finance, IRA $369B, EU Green Deal); Pass-2 ~$2.4M roadmap; 10 predictions P_avg=0.625.\n\nNumerical Phase 473: Toy market 100 price states. EMH (uniform) K_econ = 4.605 nats (max = log(100)). Bubble (concentrated top 20%) K_econ = 3.773 (-0.83 nats vs EMH). Crash (concentrated bottom 20%) K_econ = 3.773 (symmetric). Market dynamics show K_econ peaks at efficient transit point during bubble→crash transition (modular flow through max entropy state).\n\nNew polytope #8 couplings: #42 Finance (0.95), #2 AI (0.92), #11 Climate (0.92), #44 Meta-math (0.92), #16 Smart City (0.85), #41 Agri (0.85).\n\nLicense: CC-BY-4.0.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "economics",
+    "DSGE",
+    "Phillips curve",
+    "behavioral economics",
+    "efficient market hypothesis",
+    "central banking",
+    "cryptocurrency",
+    "income inequality",
+    "operator algebra",
+    "information-theoretic unification"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20267445", "relation": "isSupplementTo", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20109209", "relation": "isPartOf", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20151968", "relation": "continues", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20271123", "relation": "cites", "resource_type": "publication-preprint"},
+    {"identifier": "https://github.com/munehiroterada/quantum_gravity_info", "relation": "isSupplementedBy", "resource_type": "software"}
+  ],
+  "communities": []
+}

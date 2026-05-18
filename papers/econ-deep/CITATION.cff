@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "ITU-Derived Economic Information Theory: K_econ = -log rho_market — Tier 1+ #8 Economics Deep Dive"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+    orcid: "https://orcid.org/0009-0008-0191-5831"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "1.0.0"
+doi: 10.5281/zenodo.20271245
+url: "https://doi.org/10.5281/zenodo.20271245"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - economics
+  - DSGE
+  - Phillips curve
+  - behavioral economics
+  - efficient market hypothesis
+  - central banking
+  - cryptocurrency
+  - income inequality
+  - operator algebra
+  - information-theoretic unification
