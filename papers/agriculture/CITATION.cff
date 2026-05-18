@@ -1,0 +1,110 @@
+cff-version: 1.2.0
+title: "ITU and Agriculture & Food Systems: A Single-Axiom View of Crops, Livestock, GMO/CRISPR, Precision Agriculture, Climate, Water, Food Security, and AI Agriculture — Pass-1 Extension Paper #11, Block D 3/5"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to agriculture and food systems. Tier 1
+  paper #41, eleventh paper of Pass-1 extension, Block D 3/5 = 60%
+  (after #39 Manufacturing and #40 Transportation). Introduces
+  K_agri across 8 sub-states (crops, livestock, GMO, precision,
+  climate, water, food, AI). ITU axiom delta S = delta <K> verified
+  to machine precision in 11 contexts. 41-vertex ITU polytope.
+  Theoretical position: Agriculture = K-state biological-anthropogenic
+  energy/matter conversion. Food security = production x distribution
+  efficiency. AI agriculture = K-state optimization across
+  space-time-biology.
+  Key results: BC 9,500 agricultural revolution (Fertile Crescent),
+  BC 8,000 rice (Yangtze), BC 7,000 maize (Mexico), 1798 Malthus,
+  1909 Haber-Bosch nitrogen fixation (Haber Nobel 1918, feeds 50%
+  world population per Smil 2001).
+  Crops: Mendel 1865 Brno, Shull hybrid corn 1908, US corn yield 30
+  -> 180 bu/acre (6x in 90 yr), Borlaug Mexico 1944-1963 semi-dwarf
+  wheat, IRRI Philippines 1960 founded, IR8 Miracle Rice 1966, India
+  wheat 12.3 -> 49.9 Mt (1965-1990 4x), Borlaug Nobel Peace 1970
+  ("saved a billion lives"), top crops 2024 maize 1.2 Gt + wheat
+  800 Mt + rice 520 Mt + soy 400 Mt, Svalbard Vault 2008 (1.2M
+  samples), Russia-Ukraine 30% wheat exports pre-war.
+  Livestock: 1.6B cattle + 33B chickens + 780M pigs, meat 360 Mt
+  (chicken 130 / pork 110 / beef 75), livestock 14% global GHG
+  (FAO 2013), beef 15000 L water/kg vs chicken 4000, aquaculture
+  88 Mt (China 65 #1 60%+), Beyond Meat 2009 + Impossible Foods
+  2011, Beyond IPO 2019 $4B, Post Maastricht first cultivated burger
+  2013 $330K, Singapore Eat Just GOOD Meat 2020.12 world's first,
+  US FDA + USDA approve Upside + GOOD 2023.6, David Bennett
+  xenotransplant 2022 (60 days GalSafe pig), plant-based $7.4B,
+  GFI $14B raised 2010-2024, Perfect Day precision fermentation,
+  Solar Foods Solein.
+  GMO + CRISPR: Cohen-Boyer 1973 recombinant DNA, Flavr Savr 1994
+  first commercial GMO food, 1996 RR soy + Bt corn/cotton, India
+  Bt cotton 2002 (90% cotton 2014), Golden Rice (Potrykus-Beyer
+  1999 GR1 / 2005 GR2, Time 2000 cover) Philippines commercial
+  2021, Doudna-Charpentier Nobel Chemistry 2020, Sanatech CRISPR
+  tomato Japan 2021 (world's first), US 72M ha GMO #1, global
+  200M ha (12% arable), glyphosate IARC 2015 Group 2A, Bayer $11B
+  Roundup settlement.
+  Precision agriculture: 1992 USDA Yield Monitor, 2000 GPS civilian
+  (Clinton), 2001 John Deere AutoTrac, 2013 DJI ag drones, 2024
+  China 200K+ ag drones, DJI Agras T50 (50 kg payload, 21 ha/hour),
+  John Deere See & Spray 2017 (herbicide -90%, Blue River
+  Technology acquired 2017 $305M), Sentinel-2 ESA 2015 (10 m
+  resolution, 5-day revisit), Despommier vertical farming concept
+  2010 Columbia, Plenty $200M SoftBank 2018, AeroFarms bankruptcy
+  2023, Netherlands Glass City 100 km^2 (#2 ag exporter),
+  Lely Astronaut 50K+ robotic milkers.
+  Climate + Water: IPCC AR6 yields per °C (wheat -1.9%, maize
+  -1.5%, rice -0.9%, soy -2.7%), agriculture 70% global freshwater
+  (FAO), India Punjab groundwater -1 m/yr, Ogallala 30% depleted,
+  Blass drip irrigation 1959 + Netafim 1965 (water -30-50% vs
+  flood), Israel 80% wastewater recycled, 24% global land degraded
+  (UNCCD), 30 Gt soil lost annually, US no-till 100M acres,
+  regenerative agriculture (Gabe Brown 5 principles), food loss +
+  waste 1.3 Gt/yr = 33% (FAO), global organic $200B, carbon
+  farming $15-50/t CO2.
+  Food Security: 733M undernourished (9% world FAO 2024), 281M
+  acute food insecurity (2023 worst), Sudan famine confirmed
+  2024.8 (IPC 5), Gaza 50%+ acute, WFP Nobel Peace 2020 (David
+  Beasley, $13B operations, 155M food assistance), Black Sea Grain
+  Initiative 2022.7 (32 Mt grain) -> Russia withdraws 2023.7.
+  AI agriculture: Climate Corp Monsanto 2013 $930M, Blue River
+  John Deere 2017 $305M, Plantix 1M+ smallholder users, 2023-2024
+  GPT-4 + LLM agriculture (multilingual advisory, disease
+  diagnosis), AGRA 2006 Gates Africa.
+  Ten falsifiable predictions (P_avg = 0.805; Strong/Medium/Weak =
+  8/2/0) including AI advisory 100M+ smallholder farmers 2028
+  (P=0.85), CRISPR crops 10+ commercial 2028 (P=0.85), autonomous
+  tractors 50%+ major OEM 2028 (P=0.85), cultivated meat 5+
+  countries approved 2028 (P=0.85), ag drones 1M+ globally 2027
+  (P=0.85), VRA standard major US/EU farms 2027 (P=0.85), EU
+  CRISPR regulation reform 2026 (P=0.80), climate-adapted seeds
+  80%+ 2030 (P=0.75, Medium), Africa yield 2x smallholder 2030
+  (P=0.55, Medium), SDG 2 Zero Hunger 2030 fails negative
+  prediction (P=0.85). Block D 3/5 = 60%. Pass-1 extension 11/15 =
+  73.3%. Pass-1 interpretive synthesis.
+keywords:
+  - agriculture
+  - food systems
+  - Green Revolution
+  - GMO
+  - CRISPR crops
+  - precision agriculture
+  - food security
+  - vertical farming
+  - cultivated meat
+  - AI agriculture
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/agriculture"
+url: "https://doi.org/10.5281/zenodo.20265556"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20265556"
+    description: "Version 1.0.0 DOI (Zenodo) — to be assigned"
+version: "1.0.0"
+date-released: "2026-05-17"
