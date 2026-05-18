@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "ITU and Mathematical Rigor (Categorical Foundations): A Single-Axiom Self-Verification via Category Theory, Topos, Operads, Homotopy Type Theory, Proof Assistants, and Synthetic Differential Geometry — Pass-1 Extension Paper #14, Block E 1/2 (Meta-Theory)"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "1.0.0"
+doi: 10.5281/zenodo.20266828
+url: "https://doi.org/10.5281/zenodo.20266828"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - information-theoretic unification
+  - ITU axiom
+  - category theory
+  - Tomita-Takesaki
+  - topos theory
+  - operads
+  - homotopy type theory
+  - proof assistants
+  - Lean Mathlib
+  - synthetic differential geometry
