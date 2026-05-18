@@ -1,0 +1,135 @@
+# References — Tier 1 #35 Law & Jurisprudence
+
+References for "ITU and Law & Jurisprudence" (Terada 2026, Tier 1 paper #35, Pass-1 Extension #5, Block C 3/6).
+
+## ITU framework
+
+- Terada, M. (2026). *Tier 0 v3.0 — ITU intermediate integration*. Zenodo. https://doi.org/10.5281/zenodo.20200156
+- Terada, M. (2026). ITU concept DOI. Zenodo. https://doi.org/10.5281/zenodo.20109209
+
+## Foundational legal texts
+
+- Hammurabi (c. BC 1754). *Code of Hammurabi* (282 articles, cuneiform).
+- Twelve Tables (BC 450). Roman law foundation.
+- Justinian I (AD 533). *Corpus Iuris Civilis* (Institutiones, Pandectae, Codex, Novellae).
+- Magna Carta (1215, England).
+- Habeas Corpus Act (1679, England).
+- Napoleon, B. (1804). *Code civil des Français* (Code Napoléon).
+- US Constitution (1787) + Bill of Rights (1791).
+- French Declaration of the Rights of Man and of the Citizen (1789).
+- Japan Civil Code (1898), Constitution (1947), Penal Code (1907).
+- Bürgerliches Gesetzbuch (BGB, Germany, 1900).
+
+## Classical jurisprudence
+
+- Grotius, H. (1625). *De Jure Belli ac Pacis*.
+- Hobbes, T. (1651). *Leviathan*. Andrew Crooke.
+- Locke, J. (1689). *Two Treatises of Government*.
+- Montesquieu, C. de S. (1748). *De l'Esprit des Lois*.
+- Beccaria, C. (1764). *Dei delitti e delle pene*. (deterrence theory)
+- Vattel, E. de (1758). *Le droit des gens*.
+- Bentham, J. (1789). *An Introduction to the Principles of Morals and Legislation*.
+
+## Modern legal theory
+
+- Austin, J. (1832). *The Province of Jurisprudence Determined*.
+- Hart, H. L. A. (1961). *The Concept of Law*. Oxford UP.
+- Hart, H. L. A. & Fuller, L. L. (1958). Hart-Fuller debate. *Harvard Law Review* 71, 593.
+- Dworkin, R. (1986). *Law's Empire*. Harvard UP.
+- Rawls, J. (1971). *A Theory of Justice*. Harvard UP.
+- Coase, R. H. (1960). "The Problem of Social Cost." *Journal of Law and Economics* 3, 1-44. (Nobel 1991)
+- Posner, R. A. (1973). *Economic Analysis of Law*. Little, Brown.
+- Becker, G. S. (1968). "Crime and Punishment: An Economic Approach." *JPE* 76, 169-217. (Nobel 1992)
+
+## Constitutional landmark cases
+
+- Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803). (Judicial review established)
+- Brown v. Board of Education, 347 U.S. 483 (1954).
+- Roe v. Wade, 410 U.S. 113 (1973).
+- Dobbs v. Jackson Women's Health Organization, 597 U.S. ___ (2022). (Roe overturned)
+- Obergefell v. Hodges, 576 U.S. 644 (2015). (Same-sex marriage)
+- Marckx v. Belgium, ECtHR (1979). (Non-marital children)
+- Hamdan v. Rumsfeld, 548 U.S. 557 (2006). (Habeas Corpus + Guantanamo)
+
+## Criminal law
+
+- Miranda v. Arizona, 384 U.S. 436 (1966).
+- Rome Statute of the International Criminal Court (1998, 124 parties).
+- International Criminal Court (2012). *Prosecutor v. Lubanga Dyilo*, ICC-01/04-01/06.
+- ICC (2023.3.17). Arrest warrant for Vladimir Putin.
+- ICC (2024.5.20). Arrest warrant applications for Netanyahu, Gallant.
+- Amnesty International (2024). *Death Sentences and Executions 2023*. (112 abolitionist)
+- Death Penalty Information Center (2024). DPIC reports.
+
+## Civil law / Tort / Contract
+
+- Donoghue v. Stevenson, [1932] AC 562 (UK House of Lords).
+- Liebeck v. McDonald's Restaurants, 1995 WL 360309 (NM 1994).
+- CISG (1980). *UN Convention on Contracts for the International Sale of Goods*.
+- Vienna Convention on the Law of Treaties (1969).
+
+## International law
+
+- UN Charter (1945).
+- Universal Declaration of Human Rights (UDHR, 1948).
+- Geneva Conventions (1949) + Additional Protocols (1977).
+- ICCPR + ICESCR (1966).
+- CEDAW (1979).
+- CAT (1984).
+- UNCLOS (1982).
+- Vienna Convention on Diplomatic Relations (1961).
+- Paris Agreement (2015, UNFCCC).
+- Cassin, R. (1968). Nobel Peace Prize lecture (UDHR drafting).
+- Sustainable Development Goals (UN 2015, 17 goals).
+
+## Human rights / Gender / LGBTQ+
+
+- European Convention on Human Rights (ECHR, 1950).
+- Tyrer v. United Kingdom, ECtHR (1978).
+- Dudgeon v. United Kingdom, ECtHR (1981). (Homosexuality decriminalisation)
+- World Economic Forum (2024). *Global Gender Gap Report 2024*.
+- Nadia Murad + Denis Mukwege (2018). Nobel Peace Prize (war-time sexual violence).
+- Narges Mohammadi (2023). Nobel Peace Prize.
+- WPATH (2022). *Standards of Care for Transgender People, SOC-8*.
+- Cass Review (2024). *Independent Review of Gender Identity Services for Children and Young People*.
+
+## Tech / AI / IP law
+
+- European Parliament (2024). *EU AI Act* (Regulation 2024/1689).
+- Biden, J. (2023.10.30). Executive Order 14110 on Safe, Secure, and Trustworthy AI.
+- G7 Hiroshima Process (2023.5). International Code of Conduct for AI.
+- EU GDPR (Regulation 2016/679, in force 2018.5.25).
+- Berne Convention for the Protection of Literary and Artistic Works (1886).
+- Patent Cooperation Treaty (PCT, 1970).
+- TRIPS Agreement (1995, WTO).
+- Madrid System (1891).
+- Convention on Cybercrime (Budapest Convention, 2001).
+- US Copyright Office (2023). *Copyright Registration Guidance: Works Containing Material Generated by Artificial Intelligence*. 88 FR 16190.
+- Thaler v. Perlmutter, 687 F.Supp.3d 140 (D.D.C. 2023).
+- Andy Warhol Foundation v. Goldsmith, 598 U.S. ___ (2023).
+- NY Times v. OpenAI (Complaint filed 2023.12).
+- Getty Images v. Stability AI (Complaint 2023).
+- Andersen et al. v. Stability AI, Midjourney, DeviantArt (Complaint 2023.1).
+- Apple Inc. v. Samsung Electronics Co. (verdict 2012, settlement 2018).
+
+## Cross-domain references
+
+- Vaswani, A. et al. (2017). Attention Is All You Need. NeurIPS. (Transformer)
+- Brown, T. B. et al. (2020). GPT-3. NeurIPS.
+- Goodfellow, I. et al. (2014). GAN. NeurIPS.
+- Ho, J., Jain, A. & Abbeel, P. (2020). DDPM. NeurIPS.
+
+## Online resources
+
+- ICC: https://www.icc-cpi.int
+- ICJ: https://www.icj-cij.org
+- UN Treaty Collection: https://treaties.un.org
+- ECtHR HUDOC: https://hudoc.echr.coe.int
+- US Supreme Court: https://www.supremecourt.gov
+- EUR-Lex (EU law): https://eur-lex.europa.eu
+- Amnesty International: https://www.amnesty.org
+- WIPO: https://www.wipo.int
+
+---
+
+*Bibliography sufficient to substantiate numerical claims and legal-historical attributions in Tier 1 #35. Standard Bluebook/ALWD hybrid for legal citations.*

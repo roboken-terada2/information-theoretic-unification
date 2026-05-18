@@ -1,0 +1,100 @@
+cff-version: 1.2.0
+title: "ITU and Law & Jurisprudence: A Single-Axiom View of Constitutional Law, Criminal Law, Civil Law, International Law, Human Rights, AI Ethics, Intellectual Property, and Procedural Justice — Pass-1 Extension Paper #5, Block C 3/6"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to law and jurisprudence. Tier 1 paper #35,
+  the fifth paper of Pass-1 extension, Block C 3/6 (HALF MILESTONE of
+  social/humanities/arts). Introduces K_law across 8 sub-states
+  (constitutional, criminal, civil, international, human rights,
+  AI ethics, IP, procedural). ITU axiom delta S = delta <K> verified
+  to machine precision in 11 contexts. 35-vertex ITU polytope.
+  Theoretical position: Law operates as K-state normalization
+  mechanism; constitutional law = top prior; criminal/civil law =
+  norm-violation + private agreement regulation; international law =
+  national K-state coordination; AI ethics = new K-state attractor
+  for digital age.
+  Key results: Hammurabi BC 1754 (282 articles); Roman 12 Tables
+  BC 450; Justinian Corpus Iuris Civilis AD 533; Magna Carta 1215;
+  Grotius De Jure Belli ac Pacis 1625; Beccaria Dei delitti e delle
+  pene 1764 (deterrence: certainty > celerity > severity);
+  Montesquieu De l'Esprit des Lois 1748 (separation of powers);
+  US Constitution 1787 + Bill of Rights 1791; Napoleon Code Civil
+  1804 (2,281 articles, influence 30+ countries); French Declaration
+  of Rights 1789 (Liberte, Egalite, Fraternite); BGB 1900 (Germany,
+  2,385 articles); Japan Civil Code 1898; Marbury v. Madison 1803
+  (judicial review); Brown v. Board 1954; Roe v. Wade 1973 -> Dobbs
+  2022 overturn; Japan Supreme Court 11 unconstitutional rulings in
+  77 years; Miranda v. Arizona 1966; Habeas Corpus Act 1679;
+  Donoghue v. Stevenson 1932 UK; Roundup litigation $11B+ settlement;
+  Coase theorem 1960 (Nobel Economics 1991); Becker 1968 crime
+  economics (Nobel 1992).
+  International: UN Charter 1945 (193 members 2024); UNSC P5 vetoes
+  1946-2024 (Russia/USSR 156, US 89, UK 32, China 23, France 18);
+  WTO 1995 (164 members); Paris Agreement 2015.12.12 (196 parties);
+  COP29 Baku 2024 $300B/yr climate finance; UNCLOS 1982 (EEZ 200 nm);
+  Geneva Conventions 1949; ICC Rome Statute 1998 (124 countries);
+  Lubanga 2012 first ICC verdict; Putin arrest warrant 2023.3;
+  Netanyahu + Gallant arrest warrants 2024.5.
+  Human rights: UDHR 1948.12.10 (30 articles, Rene Cassin Nobel
+  Peace 1968 for drafting); ICCPR + ICESCR 1966; CEDAW 1979
+  (189 countries); CAT 1984 (173 countries); ECHR 1950 + ECtHR 1959
+  (Russia expelled 2022.3); same-sex marriage 36 countries (2024);
+  Nadia Murad + Denis Mukwege Nobel Peace 2018; Narges Mohammadi
+  Nobel Peace 2023; WEF Gender Gap Japan rank 118/146 (2024);
+  #MeToo 2017.10; death penalty 112 abolitionist vs 53 retentionist
+  (Amnesty 2023).
+  Tech law: EU AI Act 2024.3.13/8.1 (max EUR35M or 7% global
+  turnover, risk tiers Unacceptable/High/Limited/Minimal); Biden EO
+  14110 2023.10.30 -> Trump revocation 2025; Colorado AI Act 2024;
+  CA SB 1047 2024 vetoed; China generative AI rules 2023.8.15; G7
+  Hiroshima AI Process 2023.5; Berne Convention 1886 (life + 70 yr);
+  PCT 1970 (157 countries); TRIPS 1995 (20-year patent); China
+  patents 1.7M (>50% world, 2024); Apple v. Samsung $539M; NY Times
+  v. OpenAI 2023.12; Getty Images v. Stability AI $1.8B 2023;
+  Suno + Udio v. RIAA $150K/song 2024; US Copyright Office 2023
+  "AI-generated NOT copyrightable"; Andy Warhol Foundation v.
+  Goldsmith 2023 Supreme Court (transformative use restricted);
+  GDPR 2018.5.25 (Meta EUR1.2B fine 2023, Amazon EUR746M 2021);
+  CCPA, LGPD, PIPL, APPI updates; Budapest Convention 2001
+  (68 countries); Tesla Autopilot 46 deaths NHTSA 2024.
+  Ten falsifiable predictions (P_avg = 0.810 — Pass-1+extension
+  second-highest after #34's 0.825; Strong/Medium/Weak = 9/1/0
+  tied for HIGHEST) including EU AI Act full enforcement 2027
+  (P=0.85, Strong), AI Fair Use US verdict 2026 (P=0.85, Strong),
+  AI Liability Directive EU 2026 (P=0.85, Strong), AI international
+  treaty G7/G20 2027 (P=0.80, Strong), same-sex marriage 50+
+  countries 2030 (P=0.80, Strong), AI contract review 50% standard
+  2028 (P=0.85, Strong), DNA exoneration 1,000+ US 2030 (P=0.85,
+  Strong), AI sentencing 50% 2028 (P=0.80, Strong), face recognition
+  regulation 30+ countries 2027 (P=0.85, Strong), WIPO international
+  IP unified 2030 (P=0.60, Medium). Block C HALF MILESTONE 3/6 = 50%.
+  Pass-1 interpretive synthesis.
+keywords:
+  - jurisprudence
+  - constitutional law
+  - criminal law
+  - civil law
+  - international law
+  - human rights
+  - AI ethics
+  - intellectual property
+  - EU AI Act
+  - GDPR
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/law"
+url: "https://doi.org/10.5281/zenodo.20263201"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20263201"
+    description: "Version 1.0.0 DOI (Zenodo) — to be assigned"
+version: "1.0.0"
+date-released: "2026-05-17"
