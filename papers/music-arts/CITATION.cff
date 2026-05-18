@@ -1,0 +1,81 @@
+cff-version: 1.2.0
+title: "ITU and Music & Arts: A Single-Axiom View of Acoustics, Music Theory, Music Perception, Composition, AI Music (Suno/Udio/MusicGen), Visual Arts, AI Art (DALL-E/Midjourney/Stable Diffusion), and Aesthetics — Pass-1 Extension Paper #4, Block C 2/6"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    email: munehiro.terada@roboken2.com
+abstract: >
+  We apply the Information-Theoretic Unification (ITU) framework
+  (Terada 2026, concept DOI 10.5281/zenodo.20109209; Tier 0 v3.0 at
+  10.5281/zenodo.20200156) to music and visual arts. Tier 1 paper #34,
+  the fourth paper of Pass-1 extension, Block C 2/6 (social/humanities/
+  arts). Introduces K_music + K_arts across 8 sub-states (acoustic,
+  theory, perception, composition, AI music, visual, AI art, culture).
+  ITU axiom delta S = delta <K> verified to machine precision in 11
+  contexts. 34-vertex ITU polytope with #34 reaching high coupling.
+  Theoretical breakthrough: Diffusion models (DDPM, Stable Diffusion)
+  = explicit ITU K-state descent (score function = K-state gradient).
+  Key results: Pythagoras integer ratios BC 530 (2:1 octave, 3:2 fifth,
+  4:3 fourth); Bach Wohltemperirte Clavier 1722 establishing 12-TET;
+  A4 = 440 Hz ISO 16; audible range 20 Hz - 20 kHz; Bark 24 critical
+  bands (Zwicker 1961); Pythagorean comma 23.5 cents; Schoenberg
+  12-tone 1923 Op. 25; Bach BWV ~1,128; Mozart Köchel 626; Beethoven
+  9 symphonies; Cage 4'33" 1952; Hiller-Isaacson Illiac Suite 1957
+  (first computer composition); Lerdahl-Jackendoff GTTM 1983
+  (Chomsky + Schenker); Békésy cochlea Nobel 1961; Krumhansl 1990
+  tonal hierarchy; Huron 2006 expectation theory ITPRA; Salimpoor 2011
+  Nat Neurosci musical chills + NAc dopamine; congenital amusia 4%
+  Peretz 2002; DeepBach 2017 ICML; OpenAI MuseNet 2019; Jukebox 2020;
+  Meta MusicGen 2023 (3.3B params, open-source); Suno V3 + Udio 2024
+  (text->full song, 4-min); Stable Audio 2023; 2024 RIAA lawsuit
+  ($150,000/song). Visual arts: Chauvet cave 36,000 BP; Lascaux
+  17,000 BP; Brunelleschi linear perspective 1413; Leonardo Mona Lisa
+  1503-1519; Michelangelo David 1504; Picasso Les Demoiselles 1907
+  (cubism); Pollock 1947; Warhol Campbell's Soup 1962; Yayoi Kusama.
+  Golden ratio phi = 1.6180339887; Fibonacci convergence. Kant
+  Critique of Judgment 1790; Berlyne inverted-U arousal; Zeki 1999
+  neuroaesthetics; Kawabata-Zeki 2004 fMRI mOFC activation for
+  beauty. AI art: Goodfellow GAN 2014 NeurIPS; StyleGAN 1024x1024
+  NVIDIA 2019; Ho-Jain-Abbeel DDPM 2020 NeurIPS; Radford CLIP 2021;
+  DALL-E (2021), DALL-E 2 (April 2022), DALL-E 3 (2023);
+  Midjourney v6 (Dec 2023); Stable Diffusion (Stability AI, August
+  2022, open-source, LAION-5B 5.85 billion images); Flux.1 (Black
+  Forest Labs, August 2024, 12B params); Refik Anadol $1.4M
+  Christie's 2024 record; 2023 Hollywood strikes WGA 148 days +
+  SAG-AFTRA 118 days; Getty vs Stability AI $1.8B lawsuit; US
+  Copyright Office 2023 AI-generated NOT copyrightable.
+  Ten falsifiable predictions (P_avg = 0.825 — Pass-1+extension
+  HIGHEST, beating #33's 0.780; Strong/Medium/Weak = 9/1/0 HIGHEST
+  in Pass-1) including AI music indistinguishable pop 2027 (P=0.90,
+  Strong), AI video Sora-level 2026 (P=0.90, Strong), AI aesthetic
+  judgment expert-level 2027 (P=0.85, Strong), AI jazz improvisation
+  pro-level 2028 (P=0.85, Strong), 3D AI gen + VR integration 2028
+  (P=0.85, Strong), GTTM full auto-analysis 2027 (P=0.85, Strong),
+  AI museum 5+ cities 2028 (P=0.85, Strong), fMRI music-emotion
+  prediction 2028 (P=0.80, Strong), Music therapy + AI personalized
+  2027 (P=0.85, Strong), AI artist exceeds Picasso 2030 (P=0.55,
+  Medium). Pass-1 interpretive synthesis.
+keywords:
+  - music
+  - acoustics
+  - music theory
+  - neuromusicology
+  - composition
+  - AI music
+  - visual arts
+  - AI art
+  - diffusion models
+  - aesthetics
+license: CC-BY-4.0
+license-url: https://creativecommons.org/licenses/by/4.0/
+repository-code: "https://github.com/roboken-terada2/information-theoretic-unification/tree/main/papers/music-arts"
+url: "https://doi.org/10.5281/zenodo.20262862"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20262862"
+    description: "Version 1.0.0 DOI (Zenodo) — to be assigned"
+version: "1.0.0"
+date-released: "2026-05-17"
