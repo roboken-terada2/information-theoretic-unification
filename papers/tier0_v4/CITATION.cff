@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "Information-Theoretic Unification (ITU) Tier 0 v4.0: Pass-1 FINALE — Full Integration of 45 Tier 1 Papers, 45-Vertex Polytope, γ-Series Meta-Axioms (γ-1 … γ-7), 450 Falsifiable Predictions, and Pass-2 Verification Roadmap (2027-2040)"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "4.0.0"
+doi: 10.5281/zenodo.20267445
+url: "https://doi.org/10.5281/zenodo.20267445"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - information-theoretic unification
+  - ITU axiom
+  - Pass-1 FINALE
+  - 45-vertex polytope
+  - gamma-series meta-axioms
+  - 450 falsifiable predictions
+  - Pass-2 verification roadmap
+  - Tomita-Takesaki modular theory
+  - FLM first law
+  - K-functor
