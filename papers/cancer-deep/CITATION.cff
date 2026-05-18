@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this paper, please cite it as below."
+title: "ITU-Derived Cancer Information Theory: K_cancer = -log rho_tumor — Tomita-Takesaki Modular Hamiltonian of Tumor Heterogeneity — Tier 1+ #5 Cancer Deep Dive"
+authors:
+  - family-names: "Terada"
+    given-names: "Munehiro"
+    email: "munehiro.terada@roboken2.com"
+    affiliation: "Roboken"
+license: CC-BY-4.0
+date-released: 2026-05-18
+version: "1.0.0"
+doi: 10.5281/zenodo.20270745
+url: "https://doi.org/10.5281/zenodo.20270745"
+repository-code: "https://github.com/munehiroterada/quantum_gravity_info"
+keywords:
+  - cancer biology
+  - tumor heterogeneity
+  - clonal evolution
+  - immune evasion
+  - CAR-T therapy
+  - CRISPR-Cas9
+  - single-cell RNA-seq
+  - liquid biopsy
+  - operator algebra
+  - information-theoretic unification

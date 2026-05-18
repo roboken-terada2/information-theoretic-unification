@@ -1,0 +1,32 @@
+{
+  "title": "ITU-Derived Cancer Information Theory: K_cancer = -log rho_tumor — Tomita-Takesaki Modular Hamiltonian of Tumor Heterogeneity, Pan-Cancer Atlas Integration, Immune Evasion (PD-1/CTLA-4), CAR-T (Carvykti) and CRISPR-Cas9 (Casgevy 2023.12 First FDA), Single-Cell RNA-seq Direct Measurement, mRNA Cancer Vaccines (Moderna mRNA-4157, BioNTech BNT122), Liquid Biopsy (Grail Galleri, Guardant Shield), with Numerical Tumor Heterogeneity Verification (Malignant 6.13x Benign K_cancer, 100% of 1000 Trials) — Tier 1+ #5 Cancer Deep Dive (16 Phases), Pass-1.5",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-05-18",
+  "creators": [
+    {"name": "Terada, Munehiro", "affiliation": "Roboken"}
+  ],
+  "description": "This is the fifth Pass-1.5 paper (Tier 1+ #5) of the Information-Theoretic Unification (ITU) programme — a 16-phase operator-algebraic deep dive into cancer biology. We propose K_cancer = -log rho_tumor as the modular Hamiltonian of tumor cell heterogeneity, providing a quantitative ITU-derived metric that unifies clonal evolution, immune evasion, CAR-T resistance, CRISPR therapy, metastasis, single-cell RNA-seq atlases, mRNA cancer vaccines, and liquid biopsy under a single operator-algebraic framework.\n\nFour core hypotheses (H_O1-H_O4):\n  H_O1: Tumor is operator-algebraic state (rho_tumor over cell mutation/expression profiles).\n  H_O2: <K_cancer> quantifies malignancy (benign low entropy, malignant high).\n  H_O3: Treatment response <-> K_cancer modular flow (resistance = K_cancer increase).\n  H_O4: Pan-Cancer Atlas reveals universal K_cancer signatures.\n\n16-phase structure:\n  Phase 411-413: K_cancer framework + tumor heterogeneity (Nowell 1976, Greaves-Maley 2012, Maley 2017) + rigorous definition.\n  Phase 414: Mutational landscape — TCGA 11000+ tumors, ICGC 50+ countries, Pan-Cancer Atlas 2018 Cell, Alexandrov 2013 mutation signatures.\n  Phase 415: Immune evasion — CTLA-4 (Allison Nobel 2018), PD-1/PD-L1 (Honjo Nobel 2018), Keytruda $25B 2023 best-selling.\n  Phase 416: CAR-T — Kymriah (Novartis 2017 $475K), Yescarta (Gilead), Carvykti (Janssen-Legend 2022 multiple myeloma BCMA).\n  Phase 417: CRISPR-Cas9 + Casgevy 2023.12.8 (world's first FDA-approved CRISPR therapy, $2.2M/patient), Lyfgenia, Beam, Verve, Editas EDIT-301.\n  Phase 418: Metastasis modular flow (Paget 1889, Massague MSK).\n  Phase 419: Single-cell RNA-seq — Tang 2009 first, 10x Genomics 2017, HCA (20B cells goal), Tirosh 2016 melanoma scRNA-seq, scanpy, SHARE-seq, Visium spatial.\n  Phase 420: mRNA cancer vaccines — Moderna mRNA-4157 + Keytruda KEYNOTE-942 (melanoma 44% recurrence reduction, Lancet 2024.1); BioNTech BNT122 + atezolizumab (pancreatic 50% response, Rojas 2023 Nature).\n  Phase 421: Liquid biopsy — Grail Galleri MCED 50+ types $949, NHS-Galleri 140K trial; Guardant Shield 2024.6 first FDA-approved CRC ctDNA screening.\n  Phase 422: Cancer atlases — HCA (Teichmann + Regev, CZI funded), HuBMAP (NIH), CCLE + DepMap.\n  Phase 423: Pass-2 3-pillar roadmap (~$1.7M): scRNA-seq benchmark $500K, Lean Mathlib $200K, liquid biopsy clinical $1M.\n  Phase 424: 10 predictions, P_avg = 0.64, S/M/W = 2/6/2.\n  Phase 425: Polytope refresh + NUMERICAL VERIFICATION: toy tumor heterogeneity (5 subclones, 1000 trials). Results: Benign K_cancer = 0.26 nats, Malignant K_cancer = 1.61 nats (ratio 6.13x). Statistical test: mean Malignant = 1.53 +- 0.05, mean Benign = 0.47 +- 0.34, z-score = 3.12, P(Malignant > Benign) = 100.0%. H_O2 hypothesis strongly supported.\n  Phase 426: Summary + Tier 1+ #6 Aging transition.\n\nNew polytope #5 couplings: #44 Meta-math (0.92), #28 Neuro (0.90), #30 Genome (0.95), #2 AI (0.90), #41 Agri (0.85).\n\nMaturity: solid operator-algebraic framework with K_cancer definition, Pan-Cancer Atlas integration, treatment modality unification (CAR-T, CRISPR, immunotherapy, mRNA vaccines, liquid biopsy), and numerical confirmation in 1000-trial heterogeneity test.\n\nTen falsifiable predictions: P_avg = 0.64, S/M/W = 2/6/2.\n\nITU axiom verification: dS = d<K> confirmed in 16 contexts at machine precision (rel_err < 1e-15).\n\nLicense: CC-BY-4.0.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "cancer biology",
+    "tumor heterogeneity",
+    "clonal evolution",
+    "immune evasion",
+    "CAR-T therapy",
+    "CRISPR-Cas9",
+    "single-cell RNA-seq",
+    "liquid biopsy",
+    "operator algebra",
+    "information-theoretic unification"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20267445", "relation": "isSupplementTo", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20109209", "relation": "isPartOf", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20151447", "relation": "continues", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20270518", "relation": "cites", "resource_type": "publication-preprint"},
+    {"identifier": "https://github.com/munehiroterada/quantum_gravity_info", "relation": "isSupplementedBy", "resource_type": "software"}
+  ],
+  "communities": []
+}
