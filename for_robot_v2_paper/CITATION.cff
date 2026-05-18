@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "ITU-Derived Robotics Information Theory: K_robot = -log rho_robot (Tier 1+ #13 Pass-1.5 Deep Dive, 16 Phases)"
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    orcid: "https://orcid.org/0009-0008-0191-5831"
+version: "1.0.0"
+date-released: "2026-05-18"
+license: CC-BY-4.0
+keywords:
+  - robotics
+  - humanoid
+  - autonomous vehicles
+  - foundation models
+  - embodied AI
+  - sample efficiency
+  - brain machine interface
+  - modular Hamiltonian
+  - operator algebra
+  - information-theoretic unification
