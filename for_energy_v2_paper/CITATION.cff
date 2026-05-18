@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "ITU-Derived Energy & Materials Information Theory: K_energy = -log rho_energy (Tier 1+ #10 Pass-1.5 Deep Dive, 16 Phases)"
+authors:
+  - family-names: Terada
+    given-names: Munehiro
+    affiliation: Roboken
+    orcid: "https://orcid.org/0009-0008-0191-5831"
+version: "1.0.0"
+date-released: "2026-05-18"
+license: CC-BY-4.0
+keywords:
+  - energy systems
+  - battery learning curve
+  - Wright's Law
+  - fusion ignition
+  - perovskite solar
+  - materials genomics
+  - GNoME
+  - modular Hamiltonian
+  - operator algebra
+  - information-theoretic unification

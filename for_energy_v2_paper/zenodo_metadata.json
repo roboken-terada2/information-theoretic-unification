@@ -1,0 +1,32 @@
+{
+  "title": "ITU-Derived Energy & Materials Information Theory: K_energy = -log rho_energy — Operator-Algebraic Energy System Modular Hamiltonian, Battery Wright's Law (BNEF 2010-2024, $1100 -> $115/kWh, 25.3% Learning Rate), Goodenough Nobel 2019, Perovskite Tandem 33.9% (Oxford PV 2024.6), NIF Fusion Ignition 2022.12.5 + 5.2 MJ Enhanced 2024, ITER 2035, SMR Renaissance (TerraPower, X-energy DOE $1.2B), Green Hydrogen, DeepMind GNoME 2023 Nature (2.2M Crystals, 380K Stable), Carbon Capture (Climeworks Mammoth 36k tCO2/yr 2024.5), Grid Storage (LFP/Sodium-Ion), Critical Minerals, EV Impact (BYD > Tesla Q4 2023), with Numerical Wright's Law Fit (R^2 0.954, K_cost 0.291 nats/doubling) — Tier 1+ #10 Energy/Materials Deep Dive (16 Phases), Pass-1.5",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-05-18",
+  "creators": [
+    {"name": "Terada, Munehiro", "affiliation": "Roboken", "orcid": "0009-0008-0191-5831"}
+  ],
+  "description": "Tenth Pass-1.5 paper of the Information-Theoretic Unification (ITU) programme. K_energy = -log rho_energy as the operator-algebraic modular Hamiltonian of the global energy system, defined over (generation source x storage type x conversion efficiency x demand pattern x grid topology). 16-phase deep dive unifying: battery technology (Whittingham 1976 TiS2, Goodenough 1980 LiCoO2 Nobel Chem 2019, Sony 1991 first commercial Li-ion, BNEF $115/kWh 2024 -90% from 2010, solid-state Toyota 2027-28, sodium-ion CATL Naxtra 2023); solar (Shockley-Queisser 1961, Oxford PV 33.9% perovskite-Si tandem 2024.6 commercial-scale record, LCOE $0.04-0.08/kWh cheapest source 2024, 1 TW installed 2024); wind (Hornsea 2 UK 1.4 GW 2022 largest, Hywind Tampen Norway floating 2023, Vineyard Wind 1 US 2024.1); nuclear+SMR (TerraPower Wyoming 2030, X-energy DOE $1.2B 2024.10, NuScale NRC 2023, COP28 tripling pledge); fusion (NIF ignition 2022.12.5 Q=1.5 3.15 MJ output, 2024 enhanced 5.2 MJ, ITER 2035 first plasma, Commonwealth Fusion SPARC, WEST 1337 s plasma 2025.2); hydrogen ($2-7/kg green, target $1/kg by 2030, IRA $3/kg credit); materials genomics (DeepMind GNoME 2023.11 Nature 2.2M crystal candidates 380K stable AI accelerated 800x, MatterGen Microsoft); carbon capture (Climeworks Mammoth 36k tCO2/yr 2024.5, 1PointFive Stratos 500k tCO2/yr, $400-1000/tCO2 -> target $100-200, US 45Q + IRA $180/tCO2); grid storage (Form Energy iron-air 100h, CATL LFP 70% market); critical minerals (Li/Co/Ni/REE China 80% refining, IRA + EU CRMA 2024); EV (14M sales 2023 18%, BYD > Tesla BEV Q4 2023, Tesla Cybercab 2024.10, NACS standard).\n\nNumerical Phase 505: Wright's Law fit on BNEF Li-ion pack price 2010-2024 ($1100 -> $115/kWh, 9.6x drop in 14 years). P = a*Q^b regression on cumulative TWh production yields a=196.7, b=-0.4199, learning rate = 1 - 2^b = 25.3% per cumulative-production doubling, R^2 = 0.954. ITU interpretation: K_cost reduction per doubling = -b*ln(2) = 0.291 nats. Wright's Law (1936) recast as ITU modular flow on rho_market. Forward projection: $82/kWh 2028, $65/kWh 2030, $42/kWh 2035.\n\nFour hypotheses (H_EN1-H_EN4): operator-algebraic energy state; transition entropy (diversification increases K_energy); Wright's Law = ITU learning curve (constant dK_cost per doubling); materials genomics = K_material exploration acceleration. Ten falsifiable predictions P_avg=0.60, S/M/W=1/7/2 (highlights: battery $80/kWh by 2028 P=0.75, solid-state 2028 P=0.55, fusion commercial 2032 P=0.40, ITER first plasma 2035 P=0.55, solar 50% world electricity 2050 P=0.65, green H2 $1/kg 2030 P=0.50).\n\nNew 45-vertex polytope #10 top couplings: #11 Climate (0.95), #4 Semi (0.92), #15 Infrastructure (0.92), #39 Manufacturing (0.92), #41 Agriculture (0.85). Degree (>0.7): 6, total (>0.5): 27.\n\nPass-2 roadmap ~$1.8M: K_energy grid analytics $600K + Lean Mathlib formalization $200K + materials AI partnership $1M.\n\nMain new contributions: (1) K_energy operator-algebraic definition; (2) Wright's Law as K_information learning curve with 0.291 nats/doubling on 15-yr BNEF series; (3) materials genomics framed as K_material exploration acceleration. Next: Tier 1+ #11 Climate (K_climate Earth system modular Hamiltonian). Pass-1.5 progress: 10/45 = 22.2%. License: CC-BY-4.0.",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "energy systems",
+    "battery storage",
+    "Wright's Law",
+    "learning curve",
+    "fusion ignition",
+    "perovskite solar",
+    "materials genomics",
+    "carbon capture",
+    "modular Hamiltonian",
+    "information-theoretic unification"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20267445", "relation": "isSupplementTo", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20109209", "relation": "isPartOf", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20152093", "relation": "continues", "resource_type": "publication-preprint"},
+    {"identifier": "10.5281/zenodo.20271379", "relation": "cites", "resource_type": "publication-preprint"},
+    {"identifier": "https://github.com/munehiroterada/quantum_gravity_info", "relation": "isSupplementedBy", "resource_type": "software"}
+  ],
+  "communities": []
+}
